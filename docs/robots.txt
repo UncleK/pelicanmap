@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://unclek.github.io/pelicanmap/sitemap.xml

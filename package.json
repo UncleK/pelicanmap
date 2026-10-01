@@ -1,0 +1,32 @@
+{
+  "name": "pelicanmap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual, source-linked field guide to AI pelicans riding bicycles.",
+  "license": "MIT",
+  "homepage": "https://pelicanmap.aveniqa.com/",
+  "repository": {"type": "git", "url": "https://github.com/UncleK/pelicanmap.git"},
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "start:api": "node site/start.mjs",
+    "build:project": "python -B tools/build_project_pages.py",
+    "check:project": "node tools/check_project.mjs",
+    "build": "python -B tools/build_public_site.py",
+    "test": "node --test site/worker.test.mjs site/server.test.mjs site/browse.test.mjs tools/import_collection_batch.test.mjs",
+    "test:pages": "python -B tools/test_public_site.py",
+    "bundle:server": "node tools/bundle_server.mjs",
+    "package:vps": "node tools/bundle_server.mjs && python -B tools/package_vps.py",
+    "deploy:workers": "wrangler deploy",
+    "deploy:workers:demos": "wrangler deploy --config wrangler.demos.jsonc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20260927.1",
+    "esbuild": "0.28.1",
+    "wrangler": "4.141.0"
+  }
+}

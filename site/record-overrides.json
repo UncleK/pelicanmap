@@ -1,0 +1,149 @@
+{
+  "elo-june-2025-3ea5a875": {
+    "sourceUrl": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/",
+    "fields": {
+      "title": "2025 上半年 · SVG 鹈鹕作品回顾与 Elo 对照",
+      "model": "Amazon Nova Lite / Amazon Nova Micro / Amazon Nova Pro / Llama 3.1 405B / Llama 3.3 70B / DeepSeek V3 / DeepSeek R1 / Mistral Small 3 / Claude 3.7 Sonnet / GPT-4.5 / o1-pro / Gemini 2.5 Pro / Llama 4 Scout / Llama 4 Maverick / GPT-4.1 nano / GPT-4.1 mini / GPT-4.1 / o3 / o4-mini / Claude Sonnet 4 / Claude Opus 4 / Gemini 2.5 Pro preview 05-06",
+      "notes": "此页归档 Simon 2025 年 6 月演讲中的 14 张静态 SVG 作品／对照图及原始 Elo 表，不是只显示评分表。原文涉及 34 幅绘图；本页不声称已归档全部 34 份 SVG 源文件，也不将演讲中的已有作品重复拆成新案例。模型名与花费、560 次对照等按作者报告保留，未独立认证。评分由 GPT-4.1 mini 对图片作比较，属于上游输出，非本馆排名；2025-06-06 是文章公开日期，不是这些历史绘图统一生成日。",
+      "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+      "thumbnail": "/media/zoo/specimen_ai-worlds-fair-2025-26.jpeg",
+      "media": [
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-26.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-26.jpeg",
+          "sha256": "eb15a6e6dcf861537e2286a9923db8751ce5edf7c484e52ed7c147b509fa32d9",
+          "caption": "Claude Sonnet 4 / Claude Opus 4 / Gemini 2.5 Pro preview 05-06 · 原文静态 SVG 对照",
+          "captionEn": "Claude Sonnet 4 / Claude Opus 4 / Gemini 2.5 Pro preview 05-06 · original static SVG comparison",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-05.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-05.jpeg",
+          "sha256": "0b8bae87d4fe2d9137bd1788b0a03174d405078e42018997129adad1c44d3ccd",
+          "caption": "Amazon Nova Lite / Micro / Pro · 原文静态 SVG",
+          "captionEn": "Amazon Nova Lite / Micro / Pro · original static SVGs",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-06.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-06.jpeg",
+          "sha256": "9e979c6e2722fd38310c1fe7ef6ebba2def5ba155398ef176b78ef38ad789395",
+          "caption": "Llama 3.1 405B / Llama 3.3 70B · 原文静态 SVG",
+          "captionEn": "Llama 3.1 405B / Llama 3.3 70B · original static SVGs",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-07.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-07.jpeg",
+          "sha256": "ee35059bdaa428613c239142ff96dc73ce42b503b74abeebf2cf60189aadf6c8",
+          "caption": "DeepSeek V3 · 原文静态 SVG",
+          "captionEn": "DeepSeek V3 · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-10.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-10.jpeg",
+          "sha256": "4756d3e02d1a81d527f740b8128ad0db9765a83e06645d7eeb00477476e85183",
+          "caption": "DeepSeek R1 · 原文静态 SVG",
+          "captionEn": "DeepSeek R1 · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-11.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-11.jpeg",
+          "sha256": "a51da3d5696448b47e892d997998248ad093e07bb3fa96028dfdb89e7959ba40",
+          "caption": "Mistral Small 3 · 原文静态 SVG",
+          "captionEn": "Mistral Small 3 · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-13.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-13.jpeg",
+          "sha256": "9358aa54912c50a049a095eaa55b00d7a8fd7a2601d0437c59f94816b040580d",
+          "caption": "Claude 3.7 Sonnet · 原文静态 SVG",
+          "captionEn": "Claude 3.7 Sonnet · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/collected/2026-10-01-history-static/ai-worlds-fair-2025-15.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-15.jpeg",
+          "sha256": "64cc38c3716e31f74943873c1e3cbe528a75c9d744568705d38957c112bf7e7c",
+          "caption": "GPT-4.5 · 原文静态 SVG",
+          "captionEn": "GPT-4.5 · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-18.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-18.jpeg",
+          "sha256": "893e6389fbaf2b91a869410bb3240688d37d9a9906f1841b05e9e63d3db36827",
+          "caption": "o1-pro · 原文静态 SVG",
+          "captionEn": "o1-pro · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-19.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-19.jpeg",
+          "sha256": "fca24679eb293074a56664eceeb3f13176a333cba5a6ade17a5e891ae1232d50",
+          "caption": "Gemini 2.5 Pro · 原文静态 SVG",
+          "captionEn": "Gemini 2.5 Pro · original static SVG",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-23.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-23.jpeg",
+          "sha256": "4d81071162b872fed77d680f32678d15a9a79655d387162203254f0cc519dd0d",
+          "caption": "Llama 4 Scout / Maverick · 原文静态 SVG",
+          "captionEn": "Llama 4 Scout / Maverick · original static SVGs",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-24.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-24.jpeg",
+          "sha256": "4c661eeaaba19f4e54b986ce92a3eed2380f6d2a27ec57f0b657f93e85bb1712",
+          "caption": "GPT-4.1 nano / mini / GPT-4.1 · 原文静态 SVG",
+          "captionEn": "GPT-4.1 nano / mini / GPT-4.1 · original static SVGs",
+          "poster": ""
+        },
+        {
+          "src": "/media/collected/2026-10-01-history-static/ai-worlds-fair-2025-25.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-25.jpeg",
+          "sha256": "088303c9380c5d983601d4195b694efa31fece2fdfaac52b9e0772863db66f42",
+          "caption": "o3 / o4-mini · 原文静态 SVG",
+          "captionEn": "o3 / o4-mini · original static SVGs",
+          "poster": ""
+        },
+        {
+          "src": "/media/zoo/specimen_ai-worlds-fair-2025-32.jpeg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-32.jpeg",
+          "sha256": "a303a9c76064c198068f7951fff425887478a9382360bbe988fa3bacd9002a56",
+          "caption": "Gemini 2.5 Pro preview 05-06 / Llama 3.3 70B · 上游对照与判断，非本馆排名",
+          "captionEn": "Gemini 2.5 Pro preview 05-06 / Llama 3.3 70B · upstream comparison and judgement, not a Pelican Map ranking",
+          "poster": ""
+        },
+        {
+          "src": "/media/recovered/bb840df0f02bc8f1df09.jpg",
+          "source": "https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-31.jpeg",
+          "caption": "原文 Elo 分数表 · 上游输出，非本馆排名；34 幅作品、560 次对照（作者报告）。",
+          "poster": "",
+          "sha256": "bed55cbbc14435823ee2856f2dda4ab68f127b08af1b4146a6afe21ddbbadae7",
+          "captionEn": "Original Elo table · upstream outputs, not a Pelican Map ranking; 34 drawings and 560 comparisons (author-reported)."
+        }
+      ],
+      "i18n": {
+        "en": {
+          "title": "First half of 2025 · SVG pelican retrospective and Elo comparison",
+          "notes": "This page archives 14 original static-SVG illustration/comparison slides and the original Elo table from Simon’s June 2025 talk, rather than displaying only a score table. The article discusses 34 drawings; this page does not claim to archive all 34 SVG source files or count already collected illustrations as new cases. Model names, costs and the reported 560 comparisons are source-reported and not independently authenticated. GPT-4.1 mini judged image pairs: upstream outputs, not a Pelican Map ranking. 2025-06-06 is the article publication date, not a shared generation date for these historical drawings.",
+          "promptStatus": "Generate an SVG of a pelican riding a bicycle"
+        }
+      },
+      "recordRepair": {
+        "date": "2026-10-01",
+        "sourceUrl": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/",
+        "reason": "The old page displayed only the Elo table, omitting the actual illustration slides.",
+        "preservedOriginalId": "elo-june-2025",
+        "originalMediaCount": 1,
+        "staticIllustrationSlides": 14
+      }
+    }
+  }
+}

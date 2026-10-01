@@ -1,0 +1,22 @@
+{
+  "tihuqiche-game-157f212e": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/tihuqiche/index.html",
+    "controls": {"zh": "WASD / 方向键控制骑行，拖动和滚轮调整视角。", "en": "Use WASD / arrow keys to ride; drag and scroll to adjust the view."}
+  },
+  "claude-opus-playable-coast-f678d85a": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/riba-opus-coast.html",
+    "controls": {"zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。", "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."}
+  },
+  "x-jp-aichan-opus-oneprompt-games-2026-09-25-34cd8c93": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/riba-opus-coast.html",
+    "controls": {"zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。", "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."}
+  },
+  "juejin-parrot-variant-astra-2026-09-17-e965ba4e": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/sites/parrot-ccvibe.html",
+    "controls": {"zh": "拖动调整三维视角，滚轮缩放，重置视角并调节骑行速度。", "en": "Drag to orbit, scroll to zoom, reset the view and change the cycling speed."}
+  },
+  "simon-claude-sonnet-5-5-free-webgl-2026-09-28": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/simon-claude-sonnet-5-5-free-3d/",
+    "controls": {"zh": "拖动旋转三维视角，滚轮或双指缩放。", "en": "Drag to rotate the 3D view; scroll or pinch to zoom."}
+  }
+}

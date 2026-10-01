@@ -1,0 +1,19 @@
+[
+  {
+    "id": "openenv-2026-07-29",
+    "memberIdPrefix": "hf-openenv-",
+    "revision": "548f58a232c4aadf05f4798c2d69b8bd95e4b502",
+    "author": "Sergio Paniego (@sergiopaniego)",
+    "date": "2026-07-29",
+    "sourcePrefix": "https://huggingface.co/datasets/sergiopaniego/pelican-svg-drawings/blob/548f58a232c4aadf05f4798c2d69b8bd95e4b502/svg/",
+    "sourceUrl": "https://huggingface.co/datasets/sergiopaniego/pelican-svg-drawings/blob/548f58a232c4aadf05f4798c2d69b8bd95e4b502/README.md",
+    "expectedMembers": 138,
+    "referenceOnly": true,
+    "tags": ["benchmark"],
+    "title": {"zh": "OpenEnv 鹈鹕评分对照", "en": "OpenEnv pelican scoring reference"},
+    "description": {
+      "zh": "Sergio Paniego 公开的评分参考资料，按 7 个上游模型标签分组。139 行中 138 个样本可显示，1 个截断且无 PNG 的样本保留失败元数据并纳入均值分母。日期为数据集公开日期，不代表精确运行时刻；模型标签按来源保留，未独立认证。上游输出，非本馆排名。本区不进入主时间线、全部作品或案例总数。",
+      "en": "Scoring reference published by Sergio Paniego, grouped by seven source-reported model labels. Of 139 rows, 138 have viewable images; one truncated row without a PNG retains its failure metadata and remains in the mean denominator. The date is dataset publication, not an exact run date. Model labels are not independently authenticated. Upstream outputs, not a Pelican Map ranking. Excluded from the main timeline, collection and case total."
+    }
+  }
+]

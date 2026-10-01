@@ -1,0 +1,162 @@
+0	$3.30, followed by a request to animate the result.
+1	A side-by-side collection of 15 animated SVGs.
+2	A model trained on pre-1931 texts could not draw the image and instead wrote in the style of the period.
+3	Drawing a pelican riding a bicycle on a 1981 BBC Micro.
+4	1m 52s. The classic prompt was tested as soon as the model launched.
+5	An English-language animation comparison from summer 2025; 110,000 views.
+6	A 241 MB model wrote a poem instead of drawing the image.
+7	Designed for 3D printing; the author said, “I did it wrong.”
+8	A physical 3D print, with printing problems around the spokes.
+9	Generated in 58 seconds, with an awkward-looking result; 19,000 views.
+10	A 9-by-2 iterative ensemble.
+11	Animation created directly in After Effects; 330,000 views.
+12	An agent drawing in Excalidraw.
+13	Adding features in Antigravity.
+14	From the period when the model used an anonymous Arena name.
+15	A collage of the best and worst results.
+16	Codex produced the better bicycle frame.
+17	CodexRadar's “Pelican Cup” collected nearly 100 submissions to monitor possible Astra regressions.
+18	A DeepMind employee tried the classic prompt.
+19	A conversation shared through Discourse AI.
+20	Fable5 looked like a capable Meituan delivery rider.
+21	An early community test of Flash 2.0.
+22	GPT-4.1 mini judged 560 matches at a reported cost of about $0.18.
+23	Monitoring GPT-6 Astra regressions
+24	A community image from GPT-4.5.
+25	A GPT-6 pelican bicycle animation.
+26	The author wrote, “Genuinely very impressed”; 380,000 views.
+27	Google Creative Lab used p5 rather than pure SVG; 140,000 views.
+28	Google Creative Lab. Includes sound.
+29	A pelican riding a bicycle appeared in the Google I/O keynote.
+30	A Hugging Face product lead shared their reaction.
+31	The author wrote, “It's not amazing.” An early example of failure.
+32	The MiMo sharing page reports that the original conversation has been deleted and is no longer available.
+33	Notes and a pelican. Multimodal input and an agent swarm.
+34	An OpenAI livestream featured 3D pelicans riding a tricycle, a bicycle, a pony and another pelican.
+35	Rendering a pelican riding a bicycle in QBasic.
+36	A Qwen3.7-Max video.
+37	A community SVG from R1's release week.
+38	Five iterative images using the Render SVG tool.
+39	Simon tried another prompt in one shot, without editing the code.
+40	Simon's GPT-4.5 pelican.
+41	A cycling video from Sol Max, about 32 seconds long.
+42	An initial Sora attempt along a coastal route; the rider reverses direction midway.
+43	The Wall Street Journal reported on asking DeepSeek to draw a pelican riding a bicycle.
+44	“Write a POV-Ray file.” A related prompt. https://blog.nawaz.org/posts/2025/Oct/pelican-on-a-bike-raytracer-edition/
+45	a16z: an all-SVG animation pipeline inspired by the prompt.
+46	Three providers compared with an enhanced prompt.
+47	A five-second animation made with FFmpeg geq, with spinning wheels and flapping wings.
+48	The instruct model produced a pastoral style; the reasoner produced a cartoon.
+49	Max effort: 65,927 output tokens, 13m 54s, $3.30. A blue cap and fish in the basket. The author called it Anthropic's best pelican yet.
+50	A one-shot comparison with Gemini 3.
+51	Generated in one shot; 148,000 views.
+52	Thinking mode.
+53	A voxel statue of a pelican riding a bicycle.
+54	A wheelie animation.
+55	Who Framed Roger Rabbit already featured a pelican riding a real bicycle. Water-filled wheels and counterweights helped balance it.
+56	$0.94 for one pelican.
+57	A MiniMax test around the first anniversary of the prompt.
+58	A comparison site with single-file HTML outputs from three models.
+59	A three-model comparison; the author considered Doubao the most faithful result.
+60	Not the worst result.
+61	Chinese open models tested for 15 minutes; DeepSeek needed two attempts.
+62	A Chinese introduction to the pelican test and related talks.
+63	An example of a two-stage Chinese prompt. The connection dropped once; the author judged its aesthetics roughly on par with K3. Video length: about 11 seconds.
+64	A Chinese-language post explicitly credited @SimonWillison as the originator.
+65	A Chinese submission site stores source code and actual prompts without scores. The post's video is archived. Its t.co link resolves to the video, not a website; the site's domain remains unconfirmed.
+66	A Chinese timeline overview: unrecognizable in 2024, recognizable but incorrectly posed in 2025, static images reaching a ceiling in September 2026, then playable webpages.
+67	Relay services reportedly recognized the fixed prompt and returned a prebuilt SVG while spoofing model identity, undermining the test.
+68	The interactive version requires HTTP hosting; the GIF can be opened directly.
+69	An interactive page or external video; open the demo to view it.
+70	Moving from “can it make 3D?” to “does it hold up in close-up?” Reported costs: Opus $48.11, Sol $34.55.
+71	The author rated it above Grok 4.7. The post advertised free access in OpenCode until October 10.
+72	The author called it the best animated SVG they had seen.
+73	A grid of all effort levels; xhigh put a fish in the pelican's mouth.
+74	The enhanced California brown pelican prompt was also tested.
+75	An early systematic use of the enhanced prompt specifying a California brown pelican in breeding plumage.
+76	Single agent vs team vs team with web access, starting at 27,000 tokens across the three settings.
+77	Single model vs multi-agent Heavy vs Opus.
+78	The original conversation supplied HTML and CSS animation, combined here into a local demo.
+79	The original post has no attached image or video. Open it to read the text and references.
+80	The classic prompt moved from SVG to a local 3D content-creation tool. Background and visual flourishes were added later.
+81	On the original experiment's first day: 001 gave the pelican a gun; 002 gave it a barbell.
+82	The original post, comparing two Claude 3.5 outputs; 680,000 views.
+83	Both attempts failed.
+84	A different species. Reported cost: about CNY 8 and 4 million tokens. Published at case.ccvibe.top, with added weather, night scenes and Mario-style gameplay.
+85	A playable coastal scene with a helmet, red scarf, two-bone IK, Verlet cloth, Gerstner waves, day/night cycles and fish catching. claude-opus-5-5.riba2534.cn
+86	A grid comparing reasoning effort levels. Community comments said Astra finally looked more like a bird actually riding a bicycle.
+87	SVGs from several models were passed to Grok 3 to synthesize a hybrid creature.
+88	Two checkpoints produced very different styles from the same prompt. Some commenters questioned whether this was an official Gemini 4 model. A widely discussed comparison.
+89	Four images from the same prompt.
+90	A visual comparison of three releases in the same model family.
+91	Twenty-one quantized variants of the same small model; the results were less interesting than expected.
+92	Three tiers from the same model family.
+93	Four effort levels side by side, with local file reading prohibited.
+94	A good image, but it took over five minutes amid launch-day capacity issues.
+95	A Turkish-language discussion of a LuminaBench comparison, questioning whether it really used Gemini 4.
+96	The original experiment. The author liked pelicans, and very few ready-made pelican SVGs were available online at the time.
+97	The author claimed it “crushed every other model.”
+98	A comparison of an elaborate 3D page with a simpler HTML/SVG animation, attributing the difference to the prompts.
+99	A decent local result from a small quantized model.
+100	An archived interactive demo is available to open.
+101	A Brazilian developer generated an HTML animation in one shot using an English prompt.
+102	An early locally generated pelican from an open reasoning model.
+103	An open model with very large weights.
+104	One of the strongest results at the time, although the model described the bird as a duck.
+105	An early Three.js example with orbit controls, produced on the third attempt.
+106	Two attempts at 20 minutes of thinking and $2.56, planning a beak and fish but producing no image. A failure case.
+107	Pelican Pedal Run, a complete game with 12 city and island levels, chain-driven cycling and fish collection, rather than a small test scene.
+108	A scoring rubric assigned 25 points to pelican features, 25 to bicycle structure and 30 to animation kinematics. Astra used two-link IK.
+109	An evolution montage combining animations from multiple model generations, about 40 seconds long.
+110	Turning the unscored pelican prompt into a trainable reinforcement-learning environment.
+111	Bringing the prompt into After Effects; 180,000 views.
+112	A reference to Simon's February 12, 2026 Deep Think article.
+113	The author alleged that the model traced an image into 1.3 million characters of paths rather than reasoning spatially.
+114	The source's ranking: Astra 94, GPT-5.6 Sol 88, GLM-5.3 86, Kimi K3 83, GLM-5.3-Flash 81, Sonnet 5 78, DS-V4.1-Flash 76, Qwen3.8-Max 74.
+115	Adapting the prompt into a raster-art benchmark.
+116	Text-to-image rather than SVG, showing the prompt's spread to image models.
+117	A text-to-video variant: coastal cycling, with visible pedaling in two clips.
+118	A Japanese report on generating a 3D pelican cycling game from one prompt and deploying it to Cloudflare Pages.
+119	A Japanese summary of Simon's comparison grid.
+120	An early experimental model; it later described its own image as an insect.
+121	An early result the author first described as “spectacular.”
+122	The faster Spark produced a weaker pelican.
+123	An update to the Gemini 2 article, adding a pelican.
+124	The original repository of SVG source files.
+125	Local 2D and 3D demos are archived; the 3D module requires HTTP hosting.
+126	A local 6-bit model produced both a pelican and Space Invaders.
+127	One of the best local small-model results.
+128	Described as the best local result, with engagement on the scale of 320,000 likes.
+129	A locally quantized open model drew a better pelican than Opus at the time. Simon used it to illustrate that pelican quality no longer reliably tracked overall capability. A flamingo-on-a-unicycle variant also appeared.
+130	The meme became $pelicycle.
+131	The meme appeared in a vendor keynote.
+132	Images from an A/B checkpoint test.
+133	The models collectively struggled.
+134	An orange cap, yellow beak, blue outfit and red bicycle on a coastal road with a lighthouse and sailboat. San Francisco coordinates, fog/noon/sunset modes, a 38 km/h speed display and radio UI. Video: about 33 seconds.
+135	SVG and voxel outputs during the leak period.
+136	A flamingo riding a unicycle as an anti-cheating comparison prompt.
+137	A long Chinese reasoning trace about SVG. Gist: simonw/d8a50200edd5d463b7ce0791c2242c87
+138	A short-prompt regression test covering instruction following, subject recognition, structure, coordinated animation, visual organization and context retention.
+139	It looked like a regression relative to GPT-5.
+140	A community reproduction in thinking mode.
+141	A community test video.
+142	The author considered the original prompt nearly saturated and began “SVG maxing.”
+143	Strong spatial reasoning, weak aesthetics.
+144	Pure SVG with real-time animated physics.
+145	A custom demoscene instruction set fitting IK and a cycling pelican into 4 KB.
+146	The author reported a three-minute one-shot result and had previously suspected cheating. Compared with LuminaBench's Gemini 4 Pro ckpt1 style.
+147	An image accompanying pre-holiday model rumors.
+148	A teacher-distillation comparison: base vs Opus 4.7 distilled.
+149	Called “the pelican that crashed the stock market.” The bicycle is recognizable and the bird roughly resembles a pelican, but it is not really riding yet.
+150	A Spanish-language user called Astra unbeatable.
+151	An observation after Opus 5.5's release: users were testing one-shot completion with cycling pelicans, small games and Three.js cities.
+152	The author argued that the prompt remained unsaturated, with a much higher ceiling.
+153	An enhanced animation prompt with a surreal route, wings and shadows.
+154	A variant found in the wild.
+155	A question about the quality it could achieve.
+156	A demonstration of a new StepFun model.
+157	The prompt gained species-level detail, alongside the article “What happens if AI labs train for pelicans riding bicycles?”
+158	An overloaded variant combining the cycling pelican with Sun Wukong, Qin Shi Huang and combinatorics.
+159	Combining a horse riding a horse, a pelican riding a bicycle, and “Why are you like this.”
+160	A collection of pelicans delivering food on Meituan bicycles.
+161	Weak at the default setting, clearly better at high effort.

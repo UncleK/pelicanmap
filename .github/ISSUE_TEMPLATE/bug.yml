@@ -1,0 +1,20 @@
+name: Bug / 问题反馈
+description: Report a broken link, browsing issue or API problem.
+title: '[Bug] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page or API URL / 页面或 API 地址
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected and actual result / 操作步骤与结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, device or client / 浏览器、设备或客户端

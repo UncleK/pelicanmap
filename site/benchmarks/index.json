@@ -1,0 +1,11 @@
+[
+  {
+    "id": "openenv-2026-07-29",
+    "file": "openenv-2026-07-29.json",
+    "path": "/collections/openenv-2026-07-29/",
+    "title": {"zh": "HuggingFace / OpenEnv · 鹈鹕 SVG 评分对照", "en": "HuggingFace / OpenEnv · Pelican SVG scoring reference"},
+    "description": {"zh": "同一份上游实验：数据由 HuggingFace 发布，评分来自 OpenEnv 环境。7 个模型标签、139 条主任务记录；30 条题面覆盖样本单列。", "en": "One upstream experiment: data published on HuggingFace, scored by the OpenEnv environment. Seven model labels and 139 main-task rows; 30 prompt-coverage samples are separate."},
+    "referenceOnly": true,
+    "tags": ["benchmark"]
+  }
+]
