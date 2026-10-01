@@ -6,8 +6,13 @@
   "description": "A bilingual, source-linked field guide to AI pelicans riding bicycles.",
   "license": "MIT",
   "homepage": "https://pelicanmap.aveniqa.com/",
-  "repository": {"type": "git", "url": "https://github.com/UncleK/pelicanmap.git"},
-  "engines": {"node": ">=24"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UncleK/pelicanmap.git"
+  },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "start:api": "node site/start.mjs",
     "build:project": "python -B tools/build_project_pages.py",
@@ -27,6 +32,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "5.20260927.1",
     "esbuild": "0.28.1",
+    "sharp": "0.35.5",
     "wrangler": "4.141.0"
   }
 }

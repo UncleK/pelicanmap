@@ -9,7 +9,7 @@ import {pathToFileURL} from 'node:url';
 
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
-const sharp = require('C:/Users/kolin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp = require('sharp');
 const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
@@ -197,7 +197,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format) {
       catch(e){if(!e.message.startsWith('Media HTTP'))throw e;}
     }
     if(!savedPoster) {
-      const ffmpeg='C:/Users/kolin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0.1-full_build/bin/ffmpeg.exe';
+      const ffmpeg=process.env.PELICAN_FFMPEG || 'ffmpeg';
       // A reviewed frame overrides an upstream blank opening poster. Never
       // overwrite an original or an earlier poster when rerunning a batch.
       try{await fs.access(posterFile);throw Error('Refusing to replace existing poster');}catch(e){if(e.code!=='ENOENT')throw e;}

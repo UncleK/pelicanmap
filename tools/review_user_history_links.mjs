@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 import {validateSvg} from './import_collection_batch.mjs';
 const require=createRequire(import.meta.url);
-const sharp=require('C:/Users/kolin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require('sharp');
 const root=path.resolve(import.meta.dirname,'..');
 const out=path.join(root,'pelican-archive/research/2026-10-01-user-history-links');
 const manifest=JSON.parse(await fs.readFile(path.join(out,'staged-manifest.json'),'utf8'));

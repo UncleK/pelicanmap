@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 const require = createRequire(import.meta.url);
-const sharp = require('C:/Users/kolin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp = require('sharp');
 const root = path.resolve(import.meta.dirname, '..');
 const headers = {'User-Agent':'PelicanMap-Maintainer/1.0'};
 const response = await fetch('https://api.github.com/gists/4aa871683dae5c566129a6028fbc7f21', {headers});

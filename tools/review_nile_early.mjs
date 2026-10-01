@@ -5,7 +5,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const sharp=require('C:/Users/kolin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require('sharp');
 const root=path.resolve(import.meta.dirname,'..');
 const manifestPath=process.argv[2]?path.resolve(process.argv[2]):path.join(root,'pelican-archive/research/2026-10-01-nile-early/manifest.json');
 const out=path.dirname(manifestPath);

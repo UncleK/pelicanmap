@@ -122,7 +122,33 @@ test('MCP instructions and bilingual resources share current counting and date p
   }
 });
 
-test('Large source download is byte-identical and supports ranges across parts', async () => {
+test('download delivery and ranges preserve bytes across source parts', async () => {
+  const w=await worker();
+  const manifest=JSON.parse(fs.readFileSync(new URL('./downloads.json',import.meta.url)));
+  const entry=manifest['/downloads/pedalican.zip'];
+  const original=Buffer.allocUnsafe(entry.size);
+  for(let i=0;i<original.length;i++)original[i]=(i*13+19)%251;
+  const env={ASSETS:{async fetch(url){
+    const index=entry.parts.indexOf(new URL(url).pathname);
+    if(index<0)return new Response(null,{status:404});
+    return new Response(original.subarray(index*8*1024*1024,(index+1)*8*1024*1024));
+  }}};
+  const full=await w.fetch(new Request('https://pelicanmap.aveniqa.com/downloads/pedalican.zip'),env);
+  assert.equal(full.status,200);
+  assert.deepEqual(Buffer.from(await full.arrayBuffer()),original);
+  const start=8*1024*1024-15,end=start+50;
+  const range=await w.fetch(new Request('https://pelicanmap.aveniqa.com/downloads/pedalican.zip',{headers:{Range:'bytes='+start+'-'+end}}),env);
+  assert.equal(range.status,206);
+  assert.equal(range.headers.get('Content-Range'),`bytes ${start}-${end}/${entry.size}`);
+  assert.deepEqual(Buffer.from(await range.arrayBuffer()),original.subarray(start,end+1));
+  const invalid=await w.fetch(new Request('https://pelicanmap.aveniqa.com/downloads/pedalican.zip',{headers:{Range:'bytes=999999999-'}}),env);
+  assert.equal(invalid.status,416);
+});
+
+const originalArchive=new URL('../pelican-web/repos/pedalican.zip',import.meta.url);
+test('archival download is byte-identical to the complete original ZIP', {
+  skip:fs.existsSync(originalArchive)&&fs.existsSync(new URL('../public-site/_download-parts/pedalican-000.bin',import.meta.url))?false:'Complete original media archive is not distributed through Git'
+}, async () => {
   const w=await worker();
   const original=fs.readFileSync(new URL('../pelican-web/repos/pedalican.zip',import.meta.url));
   const env={ASSETS:{async fetch(url){const name=new URL(url).pathname;return new Response(fs.readFileSync(new URL('../public-site'+name,import.meta.url)));}}};

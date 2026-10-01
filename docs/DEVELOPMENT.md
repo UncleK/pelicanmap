@@ -4,6 +4,8 @@
 
 Node.js 24 is the runtime. Run `npm ci`, `npm test`, `npm run check:project`, then `npm run start:api`. The service listens only on `127.0.0.1:48670` and serves `/api/` and `/mcp`; it is not an HTML server. Catalog snapshots are the same public, reviewed bilingual data used by production at the repository snapshot date.
 
+The multipart delivery/range test runs on deterministic in-memory bytes in every checkout. A separate byte-for-byte comparison with the complete original ZIP runs only when that local archive and its public parts are present; public CI reports it as skipped. Sharp is a normal npm development dependency. Video review tools use FFmpeg/FFprobe from PATH; `PELICAN_FFMPEG` can select an explicit FFmpeg executable.
+
 The GitHub Pages site is a project introduction under `docs/`, with relative assets and a separate English entry at `docs/en/`. Preview using `python -m http.server 8000 --bind 127.0.0.1 --directory docs`. Pages publishes only `docs/`; it never deploys the collection's API or ingestion service.
 
 ## Full archival build

@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 const require = createRequire(import.meta.url);
-const sharp = require('C:/Users/kolin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp = require('sharp');
 const root = path.resolve(import.meta.dirname, '..');
 const {items} = JSON.parse(await fs.readFile(path.join(root, 'site/catalog.json'), 'utf8'));
 const pairs = [];
