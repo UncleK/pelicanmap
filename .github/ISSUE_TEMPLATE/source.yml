@@ -1,23 +1,23 @@
-name: Source / 补充出处
+name: Source
 description: Submit an original documented output or a provenance correction.
 title: '[Source] '
 body:
   - type: input
     id: source
     attributes:
-      label: Original public source / 原始公开出处
+      label: Original public source
       placeholder: https://...
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Output, attribution and dates / 输出、署名与日期依据
+      label: Output, attribution and dates
       description: Include source-reported model, author, actual output, prompt/settings and date precision when available.
     validations:
       required: true
   - type: textarea
     id: rights
     attributes:
-      label: License, duplicates or corrections / 许可、重复或更正
+      label: License, duplicates or corrections
       description: Link an existing pelicanmap record when relevant; do not upload private material.

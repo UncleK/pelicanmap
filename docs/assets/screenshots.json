@@ -1,0 +1,38 @@
+[
+  {
+    "file": "pelican-wall.png",
+    "sourceUrl": "https://pelicanmap.aveniqa.com/en/specimens/?sort=newest&view=images&page=1",
+    "capturedDate": "2026-10-02",
+    "type": "actual-browser-screenshot",
+    "sha256": "fe7c5dc23ed7cfb5111269c4150ab3b0bebad0d2cff4cc9cc4f859696dd74105",
+    "rights": "Artwork rights remain with the original creators; source records preserve attribution.",
+    "screenshotCrop": {
+      "left": 32,
+      "top": 591,
+      "width": 1200,
+      "height": 1099
+    }
+  },
+  {
+    "file": "pelican-history-wall.png",
+    "sourceUrl": "https://pelicanmap.aveniqa.com/en/specimens/?year=2025&sort=newest&view=images&page=1",
+    "capturedDate": "2026-10-02",
+    "type": "actual-browser-screenshot",
+    "sha256": "f56b8beb0fb3b573428ad0a4cae52f9800467d0ec5b859a5653d1d75488abcf3",
+    "rights": "Artwork rights remain with the original creators; source records preserve attribution.",
+    "screenshotCrop": {
+      "left": 32,
+      "top": 591,
+      "width": 1200,
+      "height": 729
+    }
+  },
+  {
+    "file": "selected-works-en.png",
+    "sourceUrl": "https://pelicanmap.aveniqa.com/en/#featured",
+    "capturedDate": "2026-10-02",
+    "type": "actual-browser-screenshot",
+    "sha256": "e7d37f922616ffafd32a01cd5785f6095224cf76dd8c6805214a25bb30073598",
+    "rights": "Artwork rights remain with the original creators; source records preserve attribution."
+  }
+]

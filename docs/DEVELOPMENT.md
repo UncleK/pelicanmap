@@ -1,4 +1,4 @@
-# Development / 开发说明
+# Development
 
 ## Public checkout
 
@@ -6,13 +6,11 @@ Node.js 24 is the runtime. Run `npm ci`, `npm test`, `npm run check:project`, th
 
 The multipart delivery/range test runs on deterministic in-memory bytes in every checkout. A separate byte-for-byte comparison with the complete original ZIP runs only when that local archive and its public parts are present; public CI reports it as skipped. Sharp is a normal npm development dependency. Video review tools use FFmpeg/FFprobe from PATH; `PELICAN_FFMPEG` can select an explicit FFmpeg executable.
 
-The GitHub Pages site is a project introduction under `docs/`, with relative assets and a separate English entry at `docs/en/`. Preview using `python -m http.server 8000 --bind 127.0.0.1 --directory docs`. Pages publishes only `docs/`; it never deploys the collection's API or ingestion service.
+The GitHub Pages site is English by default, with its Chinese translation under `docs/zh/` and a compatible English entry under `docs/en/`. Assets use relative paths. Preview using `python -m http.server 8000 --bind 127.0.0.1 --directory docs`. Pages publishes only `docs/`; it never deploys the collection's API or ingestion service.
 
 ## Full archival build
 
 The generators operate on a complete maintainer workspace. This public Git checkout intentionally omits third-party full media, executable demos, source ZIPs and historical research logs. Therefore `npm run build` and archival preservation tests are not a fresh-clone quickstart.
-
-完整构建需另备已有核验的 `pelican-web/media/`、`pelican-web/demos/`、`pelican-web/repos/`、`site/captures/` 原始预览以及相应历史审核资料。不要为补齐这些目录随意运行第三方脚本，或把来源未核实的包当成开放源码。正式馆藏可直接在线浏览，公开 API 在本仓库即可独立运行。
 
 Install Python 3.12+ dependencies with `python -m pip install -r requirements.txt`. Large-video derivatives additionally require FFmpeg. In a complete maintainer workspace, preserve original files and use the established sequence:
 

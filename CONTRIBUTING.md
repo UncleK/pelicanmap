@@ -1,16 +1,16 @@
-# Contributing / 参与维护
+# Contributing
 
-欢迎补充出处、修正记录、反馈界面问题和提交代码改进。Please preserve existing records, stable IDs, original media and historical outputs.
+Source submissions, corrections and code improvements are welcome. Preserve existing records, stable IDs, original media and historical outputs.
 
-## Submit a source / 提交来源
+## Source submissions
 
 Use the source submission form. Include the original public URL, author, source-reported model label, actual output and date evidence. Preserve the prompt, settings, tools, iterations and human involvement when available. A repost is a citation, not an additional work.
 
-来源提交请带原帖、作者、来源模型标签、实际输出和日期依据；能找到的提示词、设置、工具与迭代过程请一并提供。只有月份证据时不要补造具体日。多模型拼图必须有可核对的模型对应关系，才可拆分作品。
+Keep month-only dates at month precision. Split a multi-model image only with a verified model-to-image mapping.
 
 All dates and media are eligible for review. Unresolved provenance, duplication, rights, safety or access issues are deferred. Do not bypass access controls. Do not execute downloaded repository scripts. Code mirrors require verified permission/license; truly interactive on-site demos also require isolation and an interaction review.
 
-## Code changes / 代码改进
+## Code changes
 
 1. Install Node.js 24 and run `npm ci`.
 2. Run `npm test` and `npm run check:project`.
