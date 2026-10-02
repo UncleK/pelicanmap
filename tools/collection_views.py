@@ -25,13 +25,13 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     from case_policy import is_case
     items = [x for x in items if (not x.get('referenceOnly') if scope=='play' else is_case(x))]
     filtered = [x for x in items if not year or (timeline_year(x)==year if scope=='timeline' else x['date'].startswith(year))]
-    selected = ordered_timeline(filtered) if scope=='timeline' else sorted(filtered, key=lambda x: (x['date'], x['id']), reverse=True)
+    selected = sorted(filtered, key=lambda x: (x['date'], x['id']), reverse=True) if scope=='play' else ordered_timeline(filtered)
     selected = group_records(selected,include_references=scope=='play')
     pages = max(1, math.ceil(len(selected)/24))
     number = max(1, min(number, pages))
     part = selected[(number-1)*24:number*24]
-    years = years or sorted({timeline_year(x) if scope=='timeline' else x['date'][:4] for x in items if x['date']}, reverse=True)
-    year_name=lambda y:t('发布时间待核','Release date unverified') if y=='unknown' else y
+    years = [y for y in (years or sorted({timeline_year(x) if scope=='timeline' else x['date'][:4] for x in items if x['date']}, reverse=True)) if y!='unknown']
+    year_name=lambda y:y
     years_html = ''.join(f'<option value="{e(y)}"'+(' selected' if y == year else '')+f'>{e(year_name(y))}</option>' for y in years)
     source_options = [('origin', t('原点仓库','Original experiment')), ('zoo','Pelican Zoo'), ('wtf','pelicans.wtf'), ('community',t('社区记录','Community record'))]
     format_options = [('svg',t('静态 SVG','Static SVG')),('image',t('图像','Image')),('animation',t('动画','Animation')),('3d',t('三维作品','3D work')),('game',t('游戏 / 交互','Game / interactive')),('video',t('视频','Video')),('audio',t('音频','Audio')),('other',t('其他媒体','Other media'))]
@@ -70,7 +70,7 @@ def render_results(items, card, scope, language='zh'):
         key = timeline_month(item)
         if key != month:
             if month is not None: result += '</div></section>'
-            label = ('Release date unverified' if language=='en' else '模型发布时间待核') if key=='unknown' else key+(' · Model release' if language=='en' else ' · 模型发布')
+            label = '' if key=='unknown' else key
             result += f'<section data-release-month="{html.escape(key)}"><div class="month-title"><h2>{html.escape(label)}</h2></div><div class="grid">'
             month = key
         result += card(item)

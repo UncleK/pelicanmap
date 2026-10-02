@@ -199,6 +199,7 @@ html[lang=en] .hero .hero-title{font:500 clamp(38px,4.2vw,60px)/1.07 Georgia,ser
 /* Bring desktop page titles closer to their next controls or content. */
 .hero .hero-question{font-size:16px;line-height:1.65;margin:0 0 8px;color:var(--ink)}
 .hero .hero-question+.intro{margin-top:0}
+.hero-media{display:block;position:relative}.hero-media>.motion-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#e8eadf;pointer-events:none;opacity:0}.hero-media>.motion-active{opacity:1}.hero-figure .plate-no{z-index:2;pointer-events:none}.historical-story>section{padding:24px 0;border-top:1px solid var(--line)}.historical-story h2{font:28px/1.4 var(--serif);margin:0 0 12px}.historical-story p{max-width:850px;line-height:1.95}.historical-story .text-link{white-space:normal}
 @media(min-width:721px){
   .page-top{padding-bottom:10px}
   .page-top h1{margin-bottom:8px}

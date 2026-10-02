@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from PIL import Image
 from case_policy import relationship_html
+from historical_context import HISTORY_ID, historical_summary, historical_story
 
 
 def local_media(src, output):
@@ -160,11 +161,15 @@ def record_content(item, items, output, facts, buttons, language='zh'):
         (t('形式','Format'), item['formatLabel']),
     ]
     summary_html = ''.join('<dt>'+key+'</dt><dd>'+E(value)+'</dd>' for key, value in summary)
-    body += '<div class="detail-layout"><div class="detail-gallery">'+gallery+'</div><aside class="facts"><h2>'+t('作品信息','Work information')+'</h2><dl>'+summary_html+'</dl><p class="small">'+t('模型与署名按来源保留，未独立认证。','Model and attribution are source-reported, not independently authenticated.')+'</p><div class="actions">'+buttons+'</div><p class="rights">'+E(item['rights'])+'</p></aside></div>'
+    history=item['id']==HISTORY_ID
+    if history:summary_html=''.join('<dt>'+E(key)+'</dt><dd>'+E(value)+'</dd>' for key,value in historical_summary(language))
+    disclaimer=t('人类制作的历史电影画面，不是 AI 模型输出。','Human-made historical film footage, not an AI model output.') if history else t('模型与署名按来源保留，未独立认证。','Model and attribution are source-reported, not independently authenticated.')
+    body += '<div class="detail-layout"><div class="detail-gallery">'+gallery+'</div><aside class="facts"><h2>'+t('作品信息','Work information')+'</h2><dl>'+summary_html+'</dl><p class="small">'+disclaimer+'</p><div class="actions">'+buttons+'</div><p class="rights">'+E(item['rights'])+'</p></aside></div>'
     if item.get('notes'):
         body += '<section class="detail-notes"><h2>'+t('作品说明','About this work')+'</h2><p>'+E(item['notes'])+'</p></section>'
     if attachments:
         body += '<details class="detail-attachments"><summary>'+t('原图与补充附件','Full originals & additional media')+' ('+str(len(attachments))+')</summary><div class="detail-gallery">'+''.join(figure(m) for m in attachments)+'</div></details>'
+    if history:body+=historical_story(language)
     body += relationship_html(item, items, language, section='relations')
     fact_html = ''.join('<dt>'+E(key)+'</dt><dd>'+E(value)+'</dd>' for key, value in facts)
     original_label = '<p class="small">'+t('原目录标签：','Original catalog label: ')+E(item['originalLevel'])+t('。这是整理标签，不能作为统一条件下的模型能力评分。','. A historical organizing label, not a score from a controlled benchmark.')+'</p>' if item.get('originalLevel') else ''

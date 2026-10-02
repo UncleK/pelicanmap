@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-01-all-media-v2",
+  "version": "2026-10-02-all-media-shared-positions-v3",
   "unit": "one source-attributed model output at one documented time",
   "dateRange": "all source-established dates",
   "allMediaTypes": true,
@@ -36,7 +36,9 @@
   "allowRedraw": false,
   "compositeInMainLists": false,
   "timelineEffort": "author-default-otherwise-medium; no best-score selection",
-  "timelineOrdering": {"basis":"documented-first-public-model-release","artworkDateUnchanged":true,"withinExactVersion":"artwork-date","defaultCollapsed":false,"optionalCollapse":"exact-model-version-only","unknownRelease":"separate-unverified-section","yearFilter":"model-release-year","registry":"/data/model-releases.json"},
+  "timelineOrdering": {"basis":"documented-release-or-explicit-inferred-position","artworkDateUnchanged":true,"withinExactVersion":"artwork-date","defaultCollapsed":false,"optionalCollapse":"exact-model-version-only","unknownRelease":"integrate-using-earliest-source-work-month-without-a-separate-label","estimateIsReleaseFact":false,"estimateEvidence":"modelTimeline.estimatedFrom","effectiveDate":"modelTimeline.sortDate","yearFilter":"model-position-year","registry":"/data/model-releases.json"},
+  "worksOrdering": {"basis":"same-model-axis-as-timeline","yearFilter":"artwork-year","playException":"artwork-date"},
+  "historicalHomepage": "human-made 1988 film antecedent; preserved context record, not an AI output, not proof of the prompt's inspiration, no case number or additional work",
   "detailSupplementaryViews": "real timestamped frames or archived individual views, horizontally navigable; no new works, redraws or original replacement; complete composites stay folded",
   "variantCount": "every real independent output counts once in all works; only one representative per same-model same-day run group on timeline",
   "detailsOrder": ["same-model settings comparison", "individual output", "complete original composite"],

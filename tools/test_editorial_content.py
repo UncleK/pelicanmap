@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
 from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
+from historical_context import HISTORY_ID, historical_sections
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'public-site'
@@ -35,7 +36,14 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(card.select('img')),1)
                 self.assertEqual(card.select_one('img')['src'],item['thumbnail'])
                 self.assertNotEqual(item['thumbnail'],item.get('cropProvenance',{}).get('original'))
-            self.assertEqual(home.select_one('.hero-figure img')['src'],by[FEATURED_IDS[-1]]['thumbnail'])
+            history=by[HISTORY_ID]
+            self.assertEqual(home.select_one('[data-historical-hero] img')['src'],history['thumbnail'])
+            self.assertEqual(home.select_one('[data-historical-hero] .hero-media')['href'],history['path'])
+            self.assertEqual(home.select_one('[data-historical-hero] video')['data-motion-src'],history['media'][0]['src'])
+            self.assertTrue(home.select_one('[data-historical-hero] video').has_attr('muted'))
+            self.assertIn('1988',home.select_one('[data-historical-hero]').get_text())
+            self.assertFalse(history['caseVisible'] or history['timelineVisible'])
+            self.assertIsNone(history['caseNumber'])
             schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
             self.assertEqual(schema['mainEntity']['numberOfItems'],6)
             self.assertEqual([x['url'] for x in schema['mainEntity']['itemListElement']],[by[key]['url'] for key in FEATURED_IDS])
@@ -54,6 +62,24 @@ class EditorialTests(unittest.TestCase):
             self.assertIn(HOME_COPY[lang]['question'],markdown)
             self.assertIn(HOME_COPY[lang]['description'],markdown)
             self.assertEqual(home.select_one('link[type="text/markdown"]')['href'],'/'+prefix+'index.md')
+
+    def test_historical_film_has_linked_bilingual_story_without_fabricated_ai_origin(self):
+        for lang,catalog in self.catalogs.items():
+            item=next(x for x in catalog['items'] if x['id']==HISTORY_ID)
+            page=BeautifulSoup((OUT/item['path'].lstrip('/')/'index.html').read_text(encoding='utf8'),'html.parser')
+            story=page.select_one('[data-historical-story]')
+            self.assertEqual(len(story.select('section')),5)
+            markdown=(OUT/item['markdown'].lstrip('/')).read_text(encoding='utf8')
+            for title,text,url,_ in historical_sections(lang):
+                self.assertIn(title,story.get_text())
+                self.assertIn(text,story.get_text())
+                self.assertTrue(story.find('a',href=url))
+                self.assertIn(text,markdown)
+                self.assertIn(url,markdown)
+            self.assertIn('Dave Spafford',page.select_one('.facts').get_text())
+            self.assertIn('not AI' if lang=='en' else '非 AI',page.select_one('.facts').get_text())
+            schema=json.loads(page.select_one('script[type="application/ld+json"]').string)
+            self.assertEqual(schema['about']['@type'],'Movie')
 
     def test_about_developers_markdown_and_llms_share_scope(self):
         for lang,catalog in self.catalogs.items():

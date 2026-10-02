@@ -7,6 +7,7 @@ files += ['tools/catalog_policy.py','tools/collection_views.py','site/demo-revie
 files += ['tools/experiment_batches.py','site/experiment-batches.json']
 files += ['tools/card_metadata.py']
 files += ['tools/model_chronology.py','tools/detail_frames.py','site/model-releases.json','site/detail-frames.json']
+files += ['tools/historical_context.py']
 files += ['tools/editorial_content.py']
 files += ['tools/detail_presentation.py']
 files += ['tools/atomic_files.py']

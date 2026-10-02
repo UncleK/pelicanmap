@@ -75,6 +75,8 @@ export function extractHardPromptsSvg(bytes,model,run) {
 }
 
 export function validateCandidate(c) {
+  for(const key of ['modelTimeline','modelSortDate','modelReleaseDate'])if(Object.hasOwn(c,key))throw Error('Model positions are derived centrally; keep release estimates out of artwork facts');
+  if(['model-release','estimated-model-release','inferred-model-release','model-position','estimated-position'].includes(c.dateBasis))throw Error('A model position cannot be an artwork date');
   if (!/^[a-z0-9][a-z0-9-]+$/.test(c.id || '')) throw Error('Invalid case id');
   const monthOnly=/^\d{4}-(?:0[1-9]|1[0-2])$/.test(c.date || '') && c.datePrecision==='month' && c.dateBasis==='source-described-month';
   const yearOnly=/^\d{4}$/.test(c.date || '') && c.datePrecision==='year' && c.dateBasis==='source-described-year';
@@ -168,7 +170,7 @@ async function writeOriginal(file,bytes) {
 async function download(url) {
   if (!hosts.has(new URL(url).hostname)) throw Error('Unreviewed download host');
   const r=await fetch(url,{headers:{'User-Agent':'PelicanMap-Collector/1.0'},signal:AbortSignal.timeout(60000)});
-  if(!r.ok)throw Error('Media HTTP '+r.status+' '+url);
+  if(!r.ok)throw Error('Media HTTP '+r.status+' '+url+([401,403,429].includes(r.status)?' — use the authorized signed-in Chrome public read-only fallback; do not bypass challenges or execute upstream code':''));
   if(Number(r.headers.get('content-length'))>100*1024*1024)throw Error('Oversize media');
   const bytes=Buffer.from(await r.arrayBuffer());
   if(bytes.length<100 || bytes.length>100*1024*1024)throw Error('Invalid media size');
@@ -263,7 +265,8 @@ export async function importBatch(manifestPath) {
     }
   }
   const relativeDir='/media/collected/'+manifest.batch,mediaDir=path.join(ROOT,'pelican-web',relativeDir.slice(1));
-  const audit={batch:manifest.batch,checkedAt:new Date().toISOString(),before:catalog.length,added:[],duplicates:[],failed:[]};
+  const policy=JSON.parse(await fs.readFile(path.join(ROOT,'site/collecting-policy.json'),'utf8'));
+  const audit={batch:manifest.batch,checkedAt:new Date().toISOString(),policyVersion:policy.version,reviewer:'maintaining-agent',requiresPerBatchUserApproval:policy.publicationAuthority.requiresPerBatchUserApproval,modelPositionDerivation:'tools/model_chronology.py; never overwrite artwork date or verified release facts',before:catalog.length,added:[],duplicates:[],failed:[]};
   // Bounded concurrent archival; commit and deduplicate in manifest order.
   // Large batches have no artwork cap and do not race additions writes.
   const prepared=new Array(cases.length);

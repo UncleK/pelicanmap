@@ -14,7 +14,7 @@ curl 'https://pelicanmap.aveniqa.com/api/v1/timeline?year=unknown&limit=3'
 
 `lang` 为 `zh`（默认）或 `en`，`sort` 为 `newest`（默认）或 `oldest`。分页 `limit` 1–50（默认 20），`offset` 0–100000（默认 0）；每次按实际返回条数推进 offset，直到 total。还支持 `q`（最多 200 字符）、`source`、`format`、`family`、`year`、`kind`，有效值见 OpenAPI。参数错误返回 400；列表只接受 GET/HEAD/OPTIONS，写入方法返回 405。`/api/v1/specimens/{id}?lang=zh` 未找到则返回 404。
 
-`/timeline` 和 `kind=timeline` 返回 `sortBasis=model-release`：按另行核实的型号首次公开可用时间排序，同型号内按作品日期。此处 `year` 是模型发布年份，`unknown` 为发布时间待核；正反排序都将待核型号放最后。普通搜索是 `sortBasis=artwork-date`，按作品年份筛选。`date`、`datePrecision` 是作品来源日期事实，不能被 `modelTimeline.releaseDate` 替换，后者不能证明生成日期。公开预览也属于发布，明确快照型号不合并；月精度不能证明同月内的精确先后。
+全部作品／普通搜索、`/timeline` 和 `kind=timeline` 返回 `sortBasis=model-release`：按 `modelTimeline.sortDate` 排型号，同型号内按作品日期（artwork-date）。有据可查的首次公开时间（含预览）另存 `modelTimeline.releaseDate`。缺少发布依据时采用该标签最早计数作品月份作暂定位置，`status=inferred-position`、`sortBasis=earliest-source-work`、`estimatedFrom` 保留依据；不是发布事实，`releaseDate` 保持缺失。界面不单列待核标签或分区。时间线 `year` 筛有效排序年份，普通搜索仍筛作品年份；旧 API `year=unknown` 兼容筛无已核实发布时间的记录。`date`、`datePrecision` 保持来源事实，sortDate 与 releaseDate 都不能证明生成日期。明确快照不合并；月精度不能证明同月内精确先后。
 
 ## MCP
 

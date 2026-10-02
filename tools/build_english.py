@@ -22,6 +22,7 @@ from case_policy import is_case, in_timeline, relationship_html
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, featured as select_featured, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema
 from editorial_content import listing_notes, HOME_COPY
+from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=Path(os.environ.get('PELICAN_OUTPUT_DIR',ROOT/'public-site'))
@@ -105,6 +106,7 @@ def search_form():
     return f'<form class="filters" id="search" data-search role="search"><label>Search the archive<input type="search" name="q" placeholder="Model, creator, notes…" maxlength="200"></label><label>Source<select name="source"><option value="">All sources</option>{opts}</select></label><label>Format<select name="format"><option value="">All formats</option>{forms}</select></label><label>Sort<select name="sort"><option value="">Default order</option><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label><button class="button" type="submit">Search</button><button class="button secondary" type="reset">Reset</button></form>'
 
 def detail(x,items):
+    x = historical_display(x,'en')
     body='<div class="page-top"><div class="breadcrumb"><a href="/en/">Home</a> / <a href="/en/specimens/">Collection</a> / Record</div>'+f'<div class="eyebrow">{E(x["sourceLabel"])} · {E(x["date"])}</div><h1>{E(x["title"])}</h1></div>'
     if x.get('batch'):
         body += '<p class="batch-parent">Part of: '+link(x['batch']['path'], x['batch']['title']+' · '+str(x['batch']['total'])+' samples →')+'</p>'
@@ -127,6 +129,7 @@ def detail(x,items):
     for url in x.get('licenseFiles',[]):md+='\n- Full license: '+BASE+url
     if x['demoUrl']:md+='\n- Interactive demo: '+x['demoUrl']
     if x.get('previewUrl'):md+='\n- Animation preview: '+x['previewUrl']
+    if x['id']==HISTORY_ID:md+=historical_markdown('en')
     dump(OUT/x['markdown'].lstrip('/'),md+'\n')
 
 def build_editorial(items,byid,data):
@@ -135,6 +138,7 @@ def build_editorial(items,byid,data):
       ('What this is',INTRO),
       *scope_sections(COUNTS,'en'),
       ('How records are handled','We preserve public sources, dates, creator names, source-provided model labels and media. Model names reflect their sources; they are not independently certified by this site. Missing prompts are identified rather than reconstructed. English notes are translations of the archive summaries; source links and original creator names are retained.'),
+      ('October 2 presentation update','All works and the timeline share model-version order. Missing release evidence uses the earliest source-work month as a provisional position without a separate pending label; original artwork dates and numbers are unchanged. The homepage features the human-made 1988 film pelican, with sourced bilingual production history. It is not an AI work or proof of the AI prompt’s inspiration and adds no artwork count.'),
       ('October 2 earlier X works and public-source review','Four X authors’ original posts and OrcaRouter’s same-author announcement reply yielded five independent works and five timeline representatives: one complete cycling animation, two explicitly labelled photorealistic SVG preview crops, and separate Space Bunny Alpha previews by two authors. All 395 original video frames decode with real motion; a real one-second cover and muted automatic playback are used. Crop pixels match the source, with the full comparison only in detail attachments. Anonymous/routing labels remain unresolved rather than assigned a guessed provider; UTC publication dates are not generation dates. A public 73-drawing gallery remains queued for per-output date evidence, not bulk-imported for its size. Reposts and unresolved labels do not add works. No code, new Play demo or Benchmark expansion is mirrored.'),
       ('October 2 three-model original animations and repository continuation','Cat’s original X post and same-author reply yielded four independent works: high run 1 animations labelled grok-4.7, grok-4.6 and gemini-3.8-flash, plus a failed grok-4.6 run 2 preview. Each lossless panel crop has 300 decoded frames matching the source video pixels; real covers and the folded complete original are retained. Run 2 has only the author’s static screenshot, not an invented animation. Neither grok-4.6 run has a documented default/medium representative, so both count in All works only; the other two enter the timeline. Model labels and UTC publication dates are source-reported, not authenticated identities or generation dates. The author’s disclosure that Grok used file tools is retained, not called a strict tool-free run. Metadata for 28 repository candidates was checked, but original previews or unified code permission remain missing; two other projects have unresolved rights/model evidence. No repository code is executed or mirrored, and Play and Benchmark are unchanged.'),
       ('October 2 labelled comparison splits and animation follow-up','EvoLink and Haleemah public originals and author replies yielded six independent works and six timeline representatives: two Blender animations and four source-labelled SVG still previews. The consistently labelled two-model video was separated into single works; all 150 decoded frames per work match their source region. The four-panel image was faithfully cropped according to explicit labels. Ten media and real cover files are archived, with complete originals collapsed in details, never as main composite covers. Frames and reposts are not additional works. Dates are original UTC publication days; model labels are source-reported, not independently authenticated. Promotional superiority claims are not museum conclusions. Still-only previews do not invent motion. Code permission is unknown; no code, new Play demo or Benchmark expansion is mirrored.'),
@@ -214,8 +218,7 @@ def build():
     dump(OUT/'en/data/catalog.csv',csv_text(items))
     byid={x['originalId']:x for x in items}
     featured=select_featured(items)
-    hero=featured[-1]
-    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>One pelican.</span><span class="hero-second">Endless <em>possibilities.</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{E(HOME_COPY['en']['question'])}</p><p class="intro">{E(HOME_COPY['en']['description'])}</p><div class="actions"><a class="button" href="/en/timeline/">Timeline <span>↗</span></a><a class="button secondary" href="/en/specimens/">All works <span>→</span></a></div><p class="small">An evolving archive · Source-reported models, not independently authenticated</p></div><figure class="hero-figure"><span class="plate-no">MODEL OUTPUT / #{hero["caseNumber"]}</span><a href="{hero["path"]}"><img class="cover" src="{E(hero["thumbnail"])}" alt="{E(hero["model"])} · {E(hero["date"])} · Static SVG output preview" width="960" height="720" fetchpriority="high"></a><figcaption><span>{E(hero["date"])} · {E(hero["model"])} (source label)</span>{link(hero["path"],"View record ↗")}</figcaption></figure></section>
+    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>One pelican.</span><span class="hero-second">Endless <em>possibilities.</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{E(HOME_COPY['en']['question'])}</p><p class="intro">{E(HOME_COPY['en']['description'])}</p><div class="actions"><a class="button" href="/en/timeline/">Timeline <span>↗</span></a><a class="button secondary" href="/en/specimens/">All works <span>→</span></a></div><p class="small">An evolving archive · Source-reported models, not independently authenticated</p></div>{historical_hero(items,'en')}</section>
 <div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong>{COUNTS["timeline"]}</strong><span>timeline representatives · a subset</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>
 <section class="section" id="featured"><div class="section-head"><div><div class="eyebrow">THE CURATOR'S SELECTION</div><h2>Start with these</h2><p>From the 2024 originals to recent outputs: one model, one image. A selection, not a ranking.</p></div><a class="text-link" href="/en/specimens/">Explore the collection ↗</a></div><div class="grid">{cards(featured)}</div></section>'''
     topics=[('origins','01 / THE BEGINNING','Why a pelican on a bicycle?','Start with the original repository and a very specific question.'),('beyond-svg','02 / ACROSS MEDIA','Explorations beyond SVG','Animation, 3D and interactions with their generation conditions preserved.'),('reading-the-test','03 / A CLOSER LOOK','What can one image tell us?','Read the conditions behind each comparison.')]
@@ -230,16 +233,16 @@ def build():
         body=top(title,'')+listing(items,'/en/specimens/','',card,'en',number=n+1,archive_link=True)
         page(path,title,'Search AI pelican bicycle works by model, creator, format and source.',body,nav='/specimens/',noindex=n>=math.ceil(COUNTS['cases']/24))
     timeline=[x for x in items if in_timeline(x)];years=sorted({timeline_year(x) for x in timeline if timeline_year(x)!='unknown'},reverse=True)
-    if any(timeline_year(x)=='unknown' for x in timeline):years.append('unknown')
     archived_years={x['date'][:4] for x in items if re.match(r'^\d{4}',x['date'])}
-    for year in [None]+sorted(set(years)|legacy_years(OUT,'en')|archived_years,reverse=True):
-        selected=[x for x in timeline if not year or timeline_year(x)==year]
+    for year in [None]+sorted(set(years)|legacy_years(OUT,'en')|archived_years|{'unknown'},reverse=True):
+        active_year='' if year=='unknown' else year or ''
+        selected=[x for x in timeline if not active_year or timeline_year(x)==active_year]
         base='/timeline/'+(year+'/' if year else '')
         for n in range(legacy_page_count(OUT,'/en'+base,max(1,math.ceil(len(selected)/24)))):
-            body=top('Timeline'+(' · '+('Release date unverified' if year=='unknown' else year) if year else ''),'','CHRONOLOGY')
-            if year and year not in years:body+='<p class="callout">No source-labelled single-model representatives for this year. Historical context remains in <a href="/en/collections/source-records/">source archives</a>, not artwork totals.</p>'
-            body+=listing(timeline,'/en'+base,'timeline',timeline_card,'en',number=n+1,year=year or '',years=sorted(set(years)|({year} if year else set()),reverse=True))
-            page(base+(f'page/{n+1}/' if n else ''),'Pelican bicycle timeline'+(' · '+('Release date unverified' if year=='unknown' else year) if year else ''),'Single-model works ordered by documented model release; cards keep original artwork dates. Filter release year and family. Unknown releases are separate; source models are not authenticated.',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
+            body=top('Timeline'+(' · '+active_year if active_year else ''),'','CHRONOLOGY')
+            if active_year and active_year not in years:body+='<p class="callout">No source-labelled single-model representatives for this year. Historical context remains in <a href="/en/collections/source-records/">source archives</a>, not artwork totals.</p>'
+            body+=listing(timeline,'/en'+base,'timeline',timeline_card,'en',number=n+1,year=active_year,years=sorted(set(years)|({active_year} if active_year else set()),reverse=True))
+            page(base+(f'page/{n+1}/' if n else ''),'Pelican bicycle timeline'+(' · '+active_year if active_year else ''),'Single-model representatives on a shared version axis. Missing release evidence uses the earliest source-work month as a provisional position; cards keep original artwork dates.',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
     for batch, batch_body in batch_pages(items,'en'):
         page(batch['path'][3:],batch['title'],batch['description'],batch_body,nav='/specimens/')
     for x in items:detail(x,items)

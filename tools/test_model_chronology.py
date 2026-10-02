@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from PIL import Image
 from model_chronology import apply_model_chronology,ordered_timeline,timeline_year
 from detail_frames import apply_detail_frames
+from historical_context import HISTORY_ID
 
 ROOT=Path(__file__).resolve().parents[1]
 CAT=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
@@ -24,15 +25,33 @@ class ModelChronologyTests(unittest.TestCase):
               {'id':'unknown','date':'2026-10-02','model':'Gemini mystery','modelNames':['Gemini mystery']}]
         before=copy.deepcopy(rows)
         apply_model_chronology(rows)
-        self.assertEqual([x['id'] for x in ordered_timeline(rows)],['new','old','unknown'])
+        self.assertEqual([x['id'] for x in ordered_timeline(rows)],['unknown','new','old'])
         self.assertEqual([x['id'] for x in ordered_timeline(rows,'oldest')],['old','new','unknown'])
         self.assertEqual([{k:v for k,v in x.items() if k!='modelTimeline'} for x in rows],before)
-        self.assertEqual(timeline_year(rows[2]),'unknown')
+        self.assertEqual(timeline_year(rows[2]),'2026')
+        self.assertNotIn('releaseDate',rows[2]['modelTimeline'])
+        self.assertEqual(rows[2]['modelTimeline']['status'],'inferred-position')
+        self.assertEqual(rows[2]['modelTimeline']['sortDate'],'2026-10')
         self.assertEqual(apply_model_chronology(copy.deepcopy(rows)),rows)
     def test_original_record_fields_and_additions_unchanged(self):
         before=json.loads((ROOT/'pelican-archive/research/2026-10-02-model-release-order/catalog-before.json').read_text(encoding='utf8'))
         strip=lambda x:{k:v for k,v in x.items() if k not in {'modelTimeline','detailFrames'}}
-        self.assertEqual([strip(x) for x in CAT['items']],[strip(x) for x in before['items']])
+        old={x['id']:x for x in before['items']}
+        self.assertEqual(set(old),{x['id'] for x in CAT['items']})
+        for item in CAT['items']:
+            previous=old[item['id']]
+            if item['id']!=HISTORY_ID:
+                self.assertEqual(strip(item),strip(previous),item['id'])
+                continue
+            allowed={'recordRepair'}
+            self.assertEqual({k:v for k,v in strip(item).items() if k not in allowed},{k:v for k,v in strip(previous).items() if k not in allowed})
+            self.assertEqual(len(item['media']),len(previous['media']))
+            for media,prior_media in zip(item['media'],previous['media']):
+                for key in ['src','source','poster']:self.assertEqual(media[key],prior_media[key])
+                self.assertEqual(media,prior_media)
+                self.assertEqual(hashlib.sha256((ROOT/'pelican-web'/media['src'].lstrip('/')).read_bytes()).hexdigest(),item['recordRepair']['mediaSha256'])
+            self.assertEqual(item['recordRepair']['originalTitle'],previous['title'])
+            self.assertEqual(item['recordRepair']['originalNotes'],previous['notes'])
         self.assertEqual(CAT['counts'],before['counts'])
         self.assertEqual(json.loads((ROOT/'site/additions.json').read_text(encoding='utf8')),json.loads((ROOT/'pelican-archive/research/2026-10-02-model-release-order/additions-before.json').read_text(encoding='utf8')))
     def test_release_conflict_and_explicit_snapshots_are_not_guessed(self):
@@ -44,6 +63,24 @@ class ModelChronologyTests(unittest.TestCase):
         self.assertTrue(rows[0]['modelTimeline']['sourceDatePredatesRelease'])
         self.assertEqual(rows[1]['modelTimeline']['releaseDate'],'2025-04-17')
         self.assertNotIn('releaseDate',rows[2]['modelTimeline'])
+        self.assertEqual(rows[2]['modelTimeline']['label'],'Gemini 3.8')
+
+    def test_provisional_positions_use_first_counted_source_not_ingestion_or_reposts(self):
+        rows=[{'id':'late','date':'2026-10-02','updated':'2026-10-02','sourceUrl':'https://example.com/late','model':'Fable mystery','modelNames':['Fable mystery'],'caseVisible':True},
+              {'id':'early','date':'2026-09-20','sourceUrl':'https://example.com/early','model':'Fable mystery','modelNames':['Fable mystery'],'caseVisible':True},
+              {'id':'context','date':'2024-01-01','sourceUrl':'https://example.com/context','model':'Fable mystery','modelNames':['Fable mystery'],'caseVisible':False},
+              {'id':'reference','date':'2023-01-01','model':'Fable mystery','modelNames':['Fable mystery'],'referenceOnly':True}]
+        before=copy.deepcopy(rows)
+        apply_model_chronology(rows)
+        for item in rows[:3]:
+            self.assertEqual(item['modelTimeline']['sortDate'],'2026-09')
+            self.assertNotIn('releaseDate',item['modelTimeline'])
+            self.assertEqual(item['modelTimeline']['estimatedFrom']['id'],'early')
+            self.assertEqual(item['modelTimeline']['estimatedFrom']['sourceUrl'],'https://example.com/early')
+        self.assertNotIn('modelTimeline',rows[3])
+        self.assertEqual([{k:v for k,v in x.items() if k!='modelTimeline'} for x in rows],before)
+        self.assertEqual(apply_model_chronology(copy.deepcopy(rows)),rows)
+        self.assertTrue(all(x.get('modelTimeline',{}).get('sortDate') for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')))
     def test_genuine_frames_have_original_hashes_and_local_pixels(self):
         manifest=json.loads((ROOT/'site/detail-frames.json').read_text(encoding='utf8'))
         self.assertGreaterEqual(len(manifest['videos']),59)
@@ -88,5 +125,19 @@ class ModelChronologyTests(unittest.TestCase):
                 for frame in item['detailFrames']:
                     self.assertTrue(page.select_one('.detail-layout img[src="'+frame['src']+'"]'),item['id'])
                     self.assertIn(str(frame['second'])+' s' if 'second' in frame else str(frame['frameIndex']),page.select_one('.detail-layout').get_text())
+    def test_all_works_matches_release_order_and_month_headings_are_date_only(self):
+        works=[x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')]
+        for prefix in ['', 'en/']:
+            page=BeautifulSoup((ROOT/'public-site'/prefix/'specimens/index.html').read_text(encoding='utf8'),'html.parser')
+            actual=[a['href'].removeprefix('/en') for a in page.select('[data-results] .card-cover')]
+            self.assertEqual(actual,[x['path'] for x in ordered_timeline(works)[:24]])
+            timeline=BeautifulSoup((ROOT/'public-site'/prefix/'timeline/index.html').read_text(encoding='utf8'),'html.parser')
+            for section in timeline.select('[data-release-month]'):
+                if section['data-release-month']!='unknown':
+                    self.assertEqual(section.select_one('.month-title h2').get_text(),section['data-release-month'])
+            self.assertFalse(timeline.select('[data-year="unknown"]'))
+            self.assertFalse(timeline.select('[data-release-month="unknown"]'))
+            self.assertNotIn('Release date unverified' if prefix else '发布时间待核',timeline.select_one('[data-browser]').get_text())
+        self.assertEqual(CAT['worksSortBasis'],'model-release')
 
 if __name__=='__main__':unittest.main()

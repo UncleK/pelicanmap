@@ -40,24 +40,58 @@ def apply_model_chronology(items):
                 info['key']='unverified:'+label_key(label)
                 info['candidateReleaseDate']=info.pop('releaseDate')
         item['modelTimeline'] = info
+    # User-authorized provisional placement, not a fabricated release date.
+    # Only counted source-dated works establish a label's earliest appearance;
+    # references, repost/context records and later intake dates cannot set it.
+    first_seen = {}
+    for item in items:
+        info = item.get('modelTimeline', {})
+        if item.get('referenceOnly') or item.get('caseVisible') is False:
+            continue
+        date = item.get('date', '')
+        if not re.fullmatch(r'\d{4}(?:-\d{2}(?:-\d{2})?)?', date):
+            continue
+        key = info.get('key')
+        if key and (key not in first_seen or (date,item['id']) < (first_seen[key]['date'],first_seen[key]['id'])):
+            first_seen[key] = item
+    for item in items:
+        info = item.get('modelTimeline')
+        if not info:
+            continue
+        if info.get('releaseDate'):
+            info.update(sortDate=info['releaseDate'], sortDatePrecision=info['datePrecision'], sortBasis='documented-release')
+        elif info['key'] in first_seen:
+            witness = first_seen[info['key']]
+            # Month precision deliberately avoids pretending to know a launch day.
+            estimate = witness['date'][:7]
+            info.update(status='inferred-position', sortDate=estimate,
+                        sortDatePrecision='month' if len(estimate)==7 else 'year',
+                        sortBasis='earliest-source-work', estimatedFrom={
+                            'id':witness['id'], 'artworkDate':witness['date'],
+                            'datePrecision':witness.get('datePrecision'),
+                            'sourceUrl':witness.get('sourceUrl'),
+                        })
     return items
 
 def timeline_year(item):
-    return item.get('modelTimeline', {}).get('releaseDate', '')[:4] or 'unknown'
+    info = item.get('modelTimeline', {})
+    return (info.get('sortDate') or info.get('releaseDate', ''))[:4] or 'unknown'
 
 def timeline_month(item):
-    return item.get('modelTimeline', {}).get('releaseDate', '')[:7] or 'unknown'
+    info = item.get('modelTimeline', {})
+    return (info.get('sortDate') or info.get('releaseDate', ''))[:7] or 'unknown'
 
 def ordered_timeline(items, sort='newest'):
-    # Unknown releases stay last in BOTH directions; no invented release position.
+    # Verified releases and explicitly inferred positions share one axis.
     groups = {}
     for item in items:
         info = item.get('modelTimeline', {})
         key = info.get('key') or 'unverified:'+label_key(item.get('model', ''))
         groups.setdefault(key, []).append(item)
-    known = [g for g in groups.values() if g[0].get('modelTimeline', {}).get('releaseDate')]
-    unknown = [g for g in groups.values() if not g[0].get('modelTimeline', {}).get('releaseDate')]
-    known.sort(key=lambda g:(g[0]['modelTimeline']['releaseDate'],g[0]['modelTimeline']['key']),reverse=sort!='oldest')
+    date = lambda g:g[0].get('modelTimeline', {}).get('sortDate') or g[0].get('modelTimeline', {}).get('releaseDate', '')
+    known = [g for g in groups.values() if date(g)]
+    unknown = [g for g in groups.values() if not date(g)]
+    known.sort(key=lambda g:(date(g),g[0]['modelTimeline']['key']),reverse=sort!='oldest')
     unknown.sort(key=lambda g:g[0].get('modelTimeline',{}).get('key') or label_key(g[0].get('model','')))
     result = []
     for group in known+unknown:

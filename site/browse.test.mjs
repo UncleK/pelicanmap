@@ -26,12 +26,41 @@ test('late artwork stays with its model release; unknowns last and folding exact
   const rows=[old,unknown,newer,another];
   assert.deepEqual(selectRecords(rows,{scope:'timeline'}).map(x=>x.id),['early-new','late-old','earlier-old','unknown']);
   assert.deepEqual(selectRecords(rows,{scope:'timeline',sort:'oldest'}).map(x=>x.id),['earlier-old','late-old','early-new','unknown']);
+  for(const sort of ['newest','oldest']) {
+    assert.deepEqual(selectRecords(rows,{sort}).map(x=>x.id),selectRecords(rows,{scope:'timeline',sort}).map(x=>x.id));
+    assert.deepEqual(selectRecords(rows,{scope:'gallery',sort}).map(x=>x.id),[]);
+  }
   assert.equal(selectRecords(rows,{year:'2026'}).length,4);
   assert.deepEqual(selectRecords(rows,{scope:'timeline',year:'unknown'}).map(x=>x.id),['unknown']);
   const grouped=browse.groupModelRecords(selectRecords(rows,{scope:'timeline'}));
   assert.equal(grouped.length,3);
   assert.equal(grouped.reduce((n,x)=>n+x.modelMembers.length,0),4);
   assert.equal(rows[0].date,'2026-10-02');
+});
+test('all works includes non-representatives on the shared release axis but retains artwork-year filters',()=>{
+  const rows=[
+    {...records[0],id:'old',date:'2026-10-02',modelTimeline:{key:'old',releaseDate:'2025-09-01'}},
+    {...records[0],id:'new',date:'2026-09-29',modelTimeline:{key:'new',releaseDate:'2026-09-29'}},
+    {...records[0],id:'extra',date:'2026-09-20',kind:'gallery',timelineVisible:false,modelTimeline:{key:'old',releaseDate:'2025-09-01'}}
+  ];
+  assert.deepEqual(selectRecords(rows).map(x=>x.id),['new','old','extra']);
+  assert.deepEqual(selectRecords(rows,{sort:'oldest'}).map(x=>x.id),['extra','old','new']);
+  assert.deepEqual(selectRecords(rows,{scope:'gallery'}).map(x=>x.id),['extra']);
+  assert.equal(selectRecords(rows,{year:'2026'}).length,3);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline',year:'2025'}).map(x=>x.id),['old']);
+  assert.equal(selectRecords(rows,{year:'2025'}).length,0);
+});
+
+test('estimated positions join both browsing axes without fabricating a release date',()=>{
+  const verified={...records[0],id:'sol61',date:'2026-09-29',modelTimeline:{key:'sol61',releaseDate:'2026-09-29',sortDate:'2026-09-29'}};
+  const inferred={...records[0],id:'fable',date:'2026-10-02',modelTimeline:{key:'fable',status:'inferred-position',sortDate:'2026-10',sortBasis:'earliest-source-work'}};
+  for(const scope of ['', 'timeline']) {
+    assert.deepEqual(selectRecords([verified,inferred],{scope}).map(x=>x.id),['fable','sol61']);
+    assert.deepEqual(selectRecords([verified,inferred],{scope,sort:'oldest'}).map(x=>x.id),['sol61','fable']);
+  }
+  assert.equal(browse.timelineMonth(inferred),'2026-10');
+  assert.equal(inferred.modelTimeline.releaseDate,undefined);
+  assert.deepEqual(selectRecords([verified,inferred],{scope:'timeline',year:'unknown'}).map(x=>x.id),['fable']);
 });
 test('play selects only verified local interactions and collapses shared demos', () => {
   const mixed = [...records, {...records[0], id: 'duplicate'}, {...records[1], id: 'remote', demoUrl: 'https://example.com/game'}];

@@ -36,6 +36,15 @@ test('source checks, actual publication dates and bilingual metadata are mandato
   assert.doesNotThrow(()=>validateCandidate(sample()));
   for(const change of [{date:'2026-02-30'},{author:''},{model:''},{evidence:[]},{title:{zh:'仅中文'}},{media:[]},{media:[{url:'https://evil.example/a.svg',filename:'test.svg'}]}])assert.throws(()=>validateCandidate({...sample(),...change}));
 });
+
+test('provisional model positions never become imported artwork dates or release facts',()=>{
+  for(const change of [{modelTimeline:{releaseDate:'2026-07-29'}},{modelSortDate:'2026-07'},{modelReleaseDate:'2026-07-29'},{dateBasis:'model-position'},{dateBasis:'estimated-model-release'}])assert.throws(()=>validateCandidate({...sample(),...change}));
+  const record=makeRecord(sample(),[asset],'2026-10-02');
+  assert.equal(record.date,sample().date);
+  assert.equal(record.model,sample().model);
+  assert.equal(record.sourceUrl,sample().sourceUrl);
+  assert.equal(record.modelTimeline,undefined);
+});
 test('forum uploads are limited to reviewed original images with pinned hashes',()=>{
   const url='https://cdn3.ldstatic.com/original/4X/f/6/5/'+'f'.repeat(40)+'.png';
   const c={...sample(),sourceUrl:'https://linux.do/t/topic/1244131/18',evidence:['https://linux.do/t/topic/1244131/18',url],media:[{url,filename:'forum.png',sha256:'a'.repeat(64)}]};

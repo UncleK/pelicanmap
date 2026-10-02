@@ -44,7 +44,7 @@ def main():
             for sort in ['oldest','newest']:
                 for year in ['', '2025','2026','unknown']:
                     query=urllib.parse.urlencode({'lang':language,'family':family,'sort':sort,'year':year,'limit':50})
-                    expected=[x for x in timeline if (not family or family in x['modelFamilies']) and (not year or timeline_year(x)==year)]
+                    expected=[x for x in timeline if (not family or family in x['modelFamilies']) and (not year or (not x.get('modelTimeline',{}).get('releaseDate') if year=='unknown' else timeline_year(x)==year))]
                     actual=data('/api/v1/timeline?'+query)
                     assert actual['sortBasis']=='model-release'
                     assert actual['total']==len(expected),(language,family,sort,year)

@@ -4,6 +4,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from experiment_batches import group_records, case_counts
 from case_policy import in_timeline
+from historical_context import historical_display
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'public-site'
@@ -169,7 +170,7 @@ class PublicSiteTests(unittest.TestCase):
             file = OUT / item['path'].strip('/') / 'index.html'
             self.assertTrue(file.exists(), str(file))
             soup = BeautifulSoup(file.read_text(encoding='utf-8'), 'html.parser')
-            self.assertEqual(soup.h1.get_text(), item['title'])
+            self.assertEqual(soup.h1.get_text(), historical_display(item)['title'])
             self.assertEqual(soup.select_one('link[rel=canonical]')['href'], item['url'])
             self.assertTrue(soup.select_one('meta[name=description]')['content'])
             self.assertTrue((OUT / item['markdown'].lstrip('/')).exists())

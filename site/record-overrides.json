@@ -1,4 +1,10 @@
 {
+  "roger-rabbit-1988-75a07f88": {
+    "sourceUrl": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+    "fields": {
+      "recordRepair": {"date":"2026-10-02","reason":"Direct user request: feature the preserved historical film on the homepage and enrich bilingual presentation without overwriting original record fields or claiming it caused the AI prompt.","preservedOriginalId":"roger-rabbit-1988","originalTitle":"practical+animation","originalNotes":"《谁陷害了兔子罗杰》里已有鹈鹕骑真实自行车。轮子灌水配配重。","filmYear":1988,"sourcePublicationDate":"2026-09-18","nonAiHistoricalContext":true,"mediaSha256":"e668016b5b07dfcbbccefa16093dfa4a3c3354c4e3b5b48d691ba6d2f2e1281d","evidence":["https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/","https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit","https://andreasdeja.blogspot.com/2016/02/roger-rabbit-scenes.html","https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/"]}
+    }
+  },
   "elo-june-2025-3ea5a875": {
     "sourceUrl": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/",
     "fields": {

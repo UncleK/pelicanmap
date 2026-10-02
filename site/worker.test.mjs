@@ -70,7 +70,7 @@ test('API does not accept writes and timeline filtering stays in the requested y
   const res = await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?year=2024&limit=50'), {});
   const data=await res.json();
   assert.ok(data.items.length > 0);
-  assert.ok(data.items.every(x => x.timelineVisible && x.modelTimeline.releaseDate.startsWith('2024')));
+  assert.ok(data.items.every(x => x.timelineVisible && x.modelTimeline.sortDate.startsWith('2024')));
 });
 
 test('evolution API selects family, chronological order and representative flags',async()=>{

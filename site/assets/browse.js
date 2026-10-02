@@ -33,10 +33,11 @@ export function groupRecords(items, includeReferences = false) {
 }
 const cmp = (a,b) => a < b ? -1 : a > b ? 1 : 0;
 const modelKey = x => x.modelTimeline?.key || 'unverified:'+String(x.model||'').trim().toLowerCase().replace(/[\s_-]+/g,'-');
-export const timelineYear = x => x.modelTimeline?.releaseDate?.slice(0,4) || 'unknown';
-export const timelineMonth = x => x.modelTimeline?.releaseDate?.slice(0,7) || 'unknown';
+const modelSortDate = x => x.modelTimeline?.sortDate || x.modelTimeline?.releaseDate || '';
+export const timelineYear = x => modelSortDate(x).slice(0,4) || 'unknown';
+export const timelineMonth = x => modelSortDate(x).slice(0,7) || 'unknown';
 export function compareTimeline(a,b,sort='newest') {
-  const ad=a.modelTimeline?.releaseDate||'',bd=b.modelTimeline?.releaseDate||'';
+  const ad=modelSortDate(a),bd=modelSortDate(b);
   if(!ad!==!bd)return ad?-1:1;
   const direction=sort==='oldest'?1:-1;
   return (ad?direction*(cmp(ad,bd)||cmp(modelKey(a),modelKey(b))):cmp(modelKey(a),modelKey(b)))
@@ -51,10 +52,10 @@ export function selectRecords(records, {scope = '', year = '', q = '', source = 
   q = q.trim().toLowerCase();
   let items = records.filter(x => (scope==='play' ? !x.referenceOnly : isCase(x)) && (!scope || scope === 'play' || (scope==='timeline' ? inTimeline(x) : x.kind === scope))
     && (scope !== 'play' || (x.interactive === true && x.demoUrl?.startsWith(demoOrigin)))
-    && (!year || (scope==='timeline'?timelineYear(x)===year:x.date.startsWith(year))) && (!source || x.source === source) && (!format || x.format === format)
+    && (!year || (scope==='timeline'?(year==='unknown'?!x.modelTimeline?.releaseDate:timelineYear(x)===year):x.date.startsWith(year))) && (!source || x.source === source) && (!format || x.format === format)
     && (!family || x.modelFamilies?.includes(family))
     && (!q || [x.title, x.author, x.notes, x.date, x.model, x.promptCategory].join(' ').toLowerCase().includes(q)));
-  items.sort(scope==='timeline'?(a,b)=>compareTimeline(a,b,sort):(a,b)=>(sort==='oldest'?cmp(a.date,b.date):cmp(b.date,a.date))||cmp(a.id,b.id));
+  items.sort(scope!=='play'?(a,b)=>compareTimeline(a,b,sort):(a,b)=>(sort==='oldest'?cmp(a.date,b.date):cmp(b.date,a.date))||cmp(a.id,b.id));
   if (scope === 'play') {
     const seen = new Set();
     items = items.filter(x => !x.canonicalId || !items.some(y=>y.id===x.canonicalId && y.demoUrl===x.demoUrl));
@@ -250,7 +251,7 @@ function bootBrowser(root) {
           const next = timelineMonth(item);
           if (month !== next) {
             if (month) content += '</div></section>';
-            const label=next==='unknown'?t('模型发布时间待核','Release date unverified'):next+' · '+t('模型发布','Model release');
+            const label=next==='unknown'?'':next;
             content += `<section data-release-month="${esc(next)}"><div class="month-title"><h2>${esc(label)}</h2></div><div class="grid">`;
             month = next;
           }
