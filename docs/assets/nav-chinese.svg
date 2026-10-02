@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="66" viewBox="0 0 94 66" role="img" aria-label="中文">
+<title>中文</title>
+<rect x=".5" y=".5" width="93" height="65" rx="9" fill="#fffaf0" stroke="#d6d2c5"/>
+<g transform="translate(10 20) scale(.72)" fill="none" stroke="#184c3b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6h16M13 3v3M8 6c1 8 6 12 14 16M20 6c-2 8-7 13-15 17M20 29l5-13 5 13M22 25h6"/></g>
+<text x="44" y="40" fill="#184c3b" font-family="Arial, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="0">中文</text>
+
+</svg>

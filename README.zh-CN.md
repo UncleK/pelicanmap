@@ -4,7 +4,13 @@
 
 **收集各模型、各时间段、所有媒体类型的鹈鹕骑车案例。** 保留真实输出、原始出处，也保留失败。
 
-**824 件作品 · 543 张时间线代表图。** 2026-10-01 快照；时间线是作品子集，评分资料单列。
+<p align="center">
+  <a href="https://pelicanmap.aveniqa.com/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E7%8B%AC%E7%AB%8B%E4%BD%9C%E5%93%81&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="独立作品"></a>
+  <a href="https://pelicanmap.aveniqa.com/timeline/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Ftimeline%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E6%97%B6%E9%97%B4%E7%BA%BF%E4%BB%A3%E8%A1%A8&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=a64f32&amp;cacheSeconds=300" alt="时间线代表"></a>
+  <a href="https://unclek.github.io/pelicanmap/zh/#statistics"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.updated&amp;label=%E7%9B%AE%E5%BD%95%E6%9B%B4%E6%96%B0&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=646957&amp;cacheSeconds=300" alt="目录更新"></a>
+</p>
+
+[在线统计图 ↗](https://unclek.github.io/pelicanmap/zh/#statistics) · 徽章自动读取在线接口，受图片缓存影响。时间线为作品子集，评分资料单列。
 
 ## 一个问题，一大群鹈鹕
 

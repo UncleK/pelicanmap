@@ -1,12 +1,23 @@
 <p align="center"><a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="docs/assets/social-preview-en.png" alt="pelicanmap — collecting every documented pelican-on-a-bicycle case" width="100%"></a></p>
 
-<p align="center"><a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images">Browse the collection ↗</a> · <a href="https://unclek.github.io/pelicanmap/">Project home</a> · <a href="README.zh-CN.md">Chinese</a></p>
+<p align="center">
+  <a href="https://pelicanmap.aveniqa.com/en/"><img src="docs/assets/nav-website.svg" alt="Live website: pelicanmap.aveniqa.com" width="230" height="66"></a>
+  <a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="docs/assets/nav-collection.svg" alt="The collection: images, timeline and play" width="180" height="66"></a>
+  <a href="https://pelicanmap.aveniqa.com/en/sources/"><img src="docs/assets/nav-sources.svg" alt="Source library: X, forums, GitHub and original posts" width="260" height="66"></a>
+  <a href="README.zh-CN.md" lang="zh-CN"><img src="docs/assets/nav-chinese.svg" alt="中文" width="94" height="66"></a>
+</p>
 
 <p align="center"><a href="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml"><img alt="Checks" src="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml/badge.svg"></a> <img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-385647?style=flat-square"></p>
 
 **Collecting all documented pelican-riding-a-bicycle cases across AI models, dates and media.** Actual outputs, original sources, successes and failures — kept together.
 
-**824 works · 543 timeline representatives · all media.** Snapshot: October 1, 2026. The timeline is a subset; benchmarks stay separate.
+<p align="center">
+  <a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=Works&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="Works"></a>
+  <a href="https://pelicanmap.aveniqa.com/en/timeline/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Ftimeline%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=Timeline+subset&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=a64f32&amp;cacheSeconds=300" alt="Timeline subset"></a>
+  <a href="https://unclek.github.io/pelicanmap/#statistics"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.updated&amp;label=Catalog+updated&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=646957&amp;cacheSeconds=300" alt="Catalog updated"></a>
+</p>
+
+[Live charts ↗](https://unclek.github.io/pelicanmap/#statistics) · Badges read the live API and may be cached. The timeline is a subset; benchmarks stay separate.
 
 ## One prompt. A whole flock.
 
