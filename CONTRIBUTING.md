@@ -8,6 +8,8 @@ Use the source submission form. Include the original public URL, author, source-
 
 Keep month-only dates at month precision. Split a multi-model image only with a verified model-to-image mapping.
 
+Artwork dates and model release dates are different facts. Never move a work's source date to a model's launch day. Exact-version release ordering requires its own public evidence; ambiguous labels remain unverified. Frames, previews, recordings and full composites of an existing work are supplementary views, not new works. Preserve original bytes, source attribution and crop/frame hashes.
+
 All dates and media are eligible for review. Unresolved provenance, duplication, rights, safety or access issues are deferred. Do not bypass access controls. Do not execute downloaded repository scripts. Code mirrors require verified permission/license; truly interactive on-site demos also require isolation and an interaction review.
 
 ## Code changes

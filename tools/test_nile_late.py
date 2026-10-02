@@ -4,6 +4,7 @@ from pathlib import Path
 from PIL import Image
 from bs4 import BeautifulSoup
 from case_policy import apply_case_policy
+from archival_test_assertions import reviewed_context_change, reviewed_motion_append
 
 ROOT=Path(__file__).resolve().parents[1]
 AUDIT=ROOT/'pelican-archive/research/2026-10-01-nile-late'
@@ -113,7 +114,20 @@ class NileLateTests(unittest.TestCase):
   before=json.loads((AUDIT/'before-catalog.json').read_text(encoding='utf8'))
   for old in before['items']:
    for key in old:
-    if key!='caseNumber':self.assertEqual(old[key],BY[old['id']].get(key),(old['id'],key))
+    if reviewed_context_change(self,old,BY[old['id']],key,BY):continue
+    if reviewed_motion_append(self,old,BY[old['id']],key):continue
+    if key in {'childIds','variantIds','comparisonIds'}:
+     # A later, explicitly reviewed archive split may add relationships; it
+     # must not remove old members or silently rewrite historical metadata.
+     current=BY[old['id']].get(key,[])
+     self.assertTrue(set(old[key])<=set(current),(old['id'],key))
+     for ident in set(current)-set(old[key]):
+      target=BY[ident]
+      self.assertTrue(target['caseVisible'])
+      if key=='childIds':self.assertEqual(target.get('parentId'),old['id'])
+      elif key=='variantIds':self.assertEqual(target.get('representativeOf'),old['id'])
+      else:self.assertEqual(target['modelNames'],BY[old['id']]['modelNames'])
+    elif key!='caseNumber':self.assertEqual(old[key],BY[old['id']].get(key),(old['id'],key))
   self.assertGreaterEqual(CAT['counts']['cases'],before['counts']['cases']+44)
   self.assertGreaterEqual(CAT['counts']['timeline'],before['counts']['timeline']+32)
   self.assertEqual(CAT['counts']['referenceRecords'],before['counts']['referenceRecords'])

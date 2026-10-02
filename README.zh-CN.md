@@ -28,6 +28,8 @@
 
 原始媒体、作者与出处见各记录。模型按来源标注，未独立认证。[收录方法](https://pelicanmap.aveniqa.com/about/)。
 
+时间线按已核实的型号首次公开发布时间排列，同型号内再按作品的来源日期排列。发布时间待核的型号单列，作品日期不改。同型号作品默认全部展开，可选择折叠。可见的动态缩略图静音播放；详情画廊展示真实归档帧，不增加作品数。
+
 ## 数据与接口
 
 ```bash
@@ -39,7 +41,9 @@ MCP  https://pelicanmap.aveniqa.com/mcp
      search_specimens · get_specimen · get_timeline
 ```
 
-[JSON](https://pelicanmap.aveniqa.com/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/data/catalog.csv) · [接入文档](https://pelicanmap.aveniqa.com/developers/)
+[JSON](https://pelicanmap.aveniqa.com/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/data/catalog.csv) · [OpenAPI](https://pelicanmap.aveniqa.com/openapi.json) · [Agent 导读](https://pelicanmap.aveniqa.com/llms.txt) · [接入文档](https://pelicanmap.aveniqa.com/developers/) · [接入示例](docs/INTEGRATIONS.zh-CN.md)
+
+普通搜索按作品日期排序；`/api/v1/timeline` 和 `kind=timeline` 按型号发布时间排序，`year` 在此表示发布年份，`unknown` 表示发布时间待核。`counts.timeline` 是 `counts.cases` 的子集，不能相加。完整导出保留未计数存档和 Benchmark 参考，应检查 `caseVisible`、`timelineVisible`、`referenceOnly`，不能把记录数当作品数。
 
 ## 本地运行
 

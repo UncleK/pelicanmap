@@ -31,14 +31,30 @@ export function groupRecords(items, includeReferences = false) {
   }
   return result;
 }
+const cmp = (a,b) => a < b ? -1 : a > b ? 1 : 0;
+const modelKey = x => x.modelTimeline?.key || 'unverified:'+String(x.model||'').trim().toLowerCase().replace(/[\s_-]+/g,'-');
+export const timelineYear = x => x.modelTimeline?.releaseDate?.slice(0,4) || 'unknown';
+export const timelineMonth = x => x.modelTimeline?.releaseDate?.slice(0,7) || 'unknown';
+export function compareTimeline(a,b,sort='newest') {
+  const ad=a.modelTimeline?.releaseDate||'',bd=b.modelTimeline?.releaseDate||'';
+  if(!ad!==!bd)return ad?-1:1;
+  const direction=sort==='oldest'?1:-1;
+  return (ad?direction*(cmp(ad,bd)||cmp(modelKey(a),modelKey(b))):cmp(modelKey(a),modelKey(b)))
+    || direction*(cmp(a.date,b.date)||cmp(a.id,b.id));
+}
+export function groupModelRecords(items) {
+  const groups=new Map();
+  for(const x of items){const key=modelKey(x);if(!groups.has(key))groups.set(key,{...x,modelMembers:[]});groups.get(key).modelMembers.push(x);}
+  return [...groups.values()];
+}
 export function selectRecords(records, {scope = '', year = '', q = '', source = '', format = '', family = '', sort = 'newest'} = {}) {
   q = q.trim().toLowerCase();
   let items = records.filter(x => (scope==='play' ? !x.referenceOnly : isCase(x)) && (!scope || scope === 'play' || (scope==='timeline' ? inTimeline(x) : x.kind === scope))
     && (scope !== 'play' || (x.interactive === true && x.demoUrl?.startsWith(demoOrigin)))
-    && (!year || x.date.startsWith(year)) && (!source || x.source === source) && (!format || x.format === format)
+    && (!year || (scope==='timeline'?timelineYear(x)===year:x.date.startsWith(year))) && (!source || x.source === source) && (!format || x.format === format)
     && (!family || x.modelFamilies?.includes(family))
     && (!q || [x.title, x.author, x.notes, x.date, x.model, x.promptCategory].join(' ').toLowerCase().includes(q)));
-  items.sort((a, b) => (sort === 'oldest' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date)) || a.id.localeCompare(b.id));
+  items.sort(scope==='timeline'?(a,b)=>compareTimeline(a,b,sort):(a,b)=>(sort==='oldest'?cmp(a.date,b.date):cmp(b.date,a.date))||cmp(a.id,b.id));
   if (scope === 'play') {
     const seen = new Set();
     items = items.filter(x => !x.canonicalId || !items.some(y=>y.id===x.canonicalId && y.demoUrl===x.demoUrl));
@@ -46,7 +62,12 @@ export function selectRecords(records, {scope = '', year = '', q = '', source = 
   }
   return items;
 }
-const viewSizes = {standard:24, compact:48, images:50};
+const viewSizes = {standard:24, compact:48, images:60};
+export function viewPageSize(view, width=Infinity) {
+  if (view !== 'images') return viewSizes[normalizeView(view)];
+  if (width <= 720) return width < 400 ? 96 : 120;
+  return width <= 900 ? 48 : 60;
+}
 const normalizeView = view => view === true ? 'compact' : Object.hasOwn(viewSizes,view) ? view : 'standard';
 export function nextView(view) {
   return {standard:'compact',compact:'images',images:'standard'}[normalizeView(view)];
@@ -55,8 +76,8 @@ export function viewLabel(view, english=false) {
   const labels=english?{standard:'Standard view',compact:'Compact view',images:'Images only'}:{standard:'标准视图',compact:'紧凑视图',images:'纯图片'};
   return labels[normalizeView(view)];
 }
-export function paginate(items, requested = 1, view = 'standard') {
-  const size = viewSizes[normalizeView(view)];
+export function paginate(items, requested = 1, view = 'standard', width=Infinity) {
+  const size = viewPageSize(normalizeView(view), width);
   const pages = Math.max(1, Math.ceil(items.length / size));
   const page = Math.max(1, Math.min(pages, Math.trunc(Number(requested)) || 1));
   return {items: items.slice((page - 1) * size, page * size), page, pages, total: items.length, size};
@@ -137,11 +158,15 @@ export function renderCard(x, {view='standard', english=false, timeline=false} =
     const matched=x.matchingSamples===batch.total?'':t(` · 当前匹配 ${x.matchingSamples} 个`,` · ${x.matchingSamples} matching`);
     return `<article class="card ${view==='images'?'':'specimen-card '}batch-card" data-batch-card="${esc(batch.id)}">${cover}${view==='images'?'':`<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><div class="card-meta">${esc(x.date)} · ${t('实验合集 · 计 1 个案例','Experiment batch · 1 case')}</div><h3><a href="${esc(batch.path)}">${esc(batch.title)}</a></h3><p class="note">${esc(count+matched)}</p></div>${cardFooter(x,english)}`}</article>`;
   }
-  const image = `<img src="${esc(x.thumbnail)}" alt="${esc(x.title)}" width="640" height="420" loading="lazy">`;
-  const cover = `<a class="card-cover" href="${esc(x.path)}">${image}${view==='images'?'':`<span class="media-label">${esc(x.formatLabel)}</span>${x.sourceLabel?`<span class="source-label" title="${esc(x.sourceLabel)}">${esc(x.sourceLabel)}</span>`:''}`}</a>`;
+  const motion = x.motionPreview, kind = motion?.type, src = esc(motion?.src);
+  const attrs = kind==='image'?` data-motion-kind="image" data-motion-src="${src}" data-motion-poster="${esc(x.thumbnail)}"`:'';
+  let image = `<img src="${esc(x.thumbnail)}" alt="${esc(x.title)}" width="640" height="420" loading="lazy"${attrs}>`;
+  if(kind==='video')image+=`<video class="motion-layer" data-motion-kind="video" data-motion-src="${src}" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>`;
+  if(kind==='iframe')image+=`<span class="motion-layer motion-frame"><iframe data-motion-kind="iframe" data-motion-src="${src}" title="${esc(x.title)}" loading="lazy" scrolling="no" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" aria-hidden="true" tabindex="-1"></iframe></span>`;
+  const cover = `<a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}${view==='images'?'':`<span class="media-label">${esc(x.formatLabel)}</span>${x.sourceLabel?`<span class="source-label" title="${esc(x.sourceLabel)}">${esc(x.sourceLabel)}</span>`:''}`}</a>`;
   if (view === 'images') return `<article class="card">${cover}</article>`;
   if (timeline) {
-    return `<article class="card timeline-card"><a class="card-cover" href="${esc(x.path)}">${image}</a>${cardFooter(x,english,true)}</article>`;
+    return `<article class="card timeline-card"><a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}</a>${cardFooter(x,english,true)}</article>`;
   }
   return `<article class="card specimen-card">${cover}<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><h3><a href="${esc(x.path)}">${esc(x.title)}</a></h3><p class="note">${esc(x.notes || x.author)}</p></div>${cardFooter(x,english)}</article>`;
 }
@@ -154,11 +179,35 @@ function bootBrowser(root) {
   const count = root.querySelector('[data-result-count]');
   const sortButton = root.querySelector('[data-sort-toggle]');
   const densityButton = root.querySelector('[data-density-toggle]');
+  const searchToggle = root.querySelector('[data-search-toggle]');
+  const setSearchOpen = open => {
+    form.hidden = !open;
+    searchToggle.setAttribute('aria-expanded', String(open));
+    if (open) {
+      form.scrollIntoView({block:'nearest', behavior:'instant'});
+      form.elements.namedItem('q').focus({preventScroll:true});
+    }
+  };
+  searchToggle.addEventListener('click', () => setSearchOpen(form.hidden));
+  if (location.hash === '#search') setSearchOpen(true);
+  window.addEventListener('hashchange', () => {if (location.hash === '#search') setSearchOpen(true);});
+  form.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    event.preventDefault(); setSearchOpen(false); searchToggle.focus({preventScroll:true});
+  });
   const params = new URLSearchParams(location.search);
-  for (const name of ['q','year','source','format','family','sort']) if (params.has(name) && form.elements.namedItem(name)) form.elements.namedItem(name).value = params.get(name);
+  for (const name of ['q','year','source','format','family','sort','collapse']) if (params.has(name) && form.elements.namedItem(name)) form.elements.namedItem(name).value = params.get(name);
+  const collapseToggle=root.querySelector('[data-model-collapse]');
+  if(collapseToggle)collapseToggle.checked=form.elements.namedItem('collapse').value==='1';
+  const mobile = matchMedia('(max-width:720px)').matches;
+  const viewPreferenceKey = mobile ? 'pelican-card-view-mobile' : 'pelican-card-view';
   let view = normalizeView(params.get('view'));
-  if (!params.has('view')) { try { view = normalizeView(localStorage.getItem('pelican-card-view')); } catch {} }
+  if (!params.has('view')) {
+    view = mobile ? 'compact' : 'standard';
+    try {const saved=localStorage.getItem(viewPreferenceKey);if(saved)view=normalizeView(saved);} catch {}
+  }
   let currentPage = params.get('page') || root.dataset.initialPage || 1;
+  let renderedSize = viewPageSize(view, innerWidth);
   let catalogPromise, revision = 0;
   const card = x => renderCard(x,{view,english,timeline:root.dataset.scope==='timeline'});
   const values = () => ({...Object.fromEntries(new FormData(form)), view});
@@ -171,8 +220,11 @@ function bootBrowser(root) {
     const labels = Object.fromEntries(Object.keys(viewSizes).map(key=>[key,viewLabel(key,english)]));
     const next = nextView(view);
     densityButton.querySelector('span').textContent = labels[view];
-    densityButton.title = t(`当前：${labels[view]}；点击切换：${labels[next]} · 每页 ${viewSizes[next]} 张`,`Current: ${labels[view]}; switch to ${labels[next]} · ${viewSizes[next]} per page`);
+    const nextSize = viewPageSize(next, innerWidth);
+    densityButton.title = t(`当前：${labels[view]}；点击切换：${labels[next]} · 每页 ${nextSize} 张`,`Current: ${labels[view]}; switch to ${labels[next]} · ${nextSize} per page`);
     const filters = values();
+    const searchActive = ['q','source','format','family','year'].some(name => filters[name]?.trim());
+    searchToggle.querySelector('[data-search-active]').hidden = !searchActive;
     root.querySelectorAll('[data-year]').forEach(link=>{
       if(link.dataset.year===filters.year) link.setAttribute('aria-current','true');
       else link.removeAttribute('aria-current');
@@ -186,25 +238,31 @@ function bootBrowser(root) {
         .catch(error => {catalogPromise = undefined; throw error;});
       const catalog = await catalogPromise;
       if (turn !== revision) return;
-      const page = paginate(groupRecords(selectRecords(catalog.items, {scope:root.dataset.scope, ...filters}),root.dataset.scope==='play'), requested, view);
+      const selected=groupRecords(selectRecords(catalog.items,{scope:root.dataset.scope,...filters}),root.dataset.scope==='play');
+      const folded=root.dataset.scope==='timeline'&&filters.collapse==='1';
+      const page = paginate(folded?groupModelRecords(selected):selected, requested, view, innerWidth);
       currentPage = page.page;
+      renderedSize = page.size;
       let content = '';
       if (root.dataset.scope === 'timeline') {
         let month;
         for (const item of page.items) {
-          const next = item.month || item.date.slice(0,7);
+          const next = timelineMonth(item);
           if (month !== next) {
             if (month) content += '</div></section>';
-            content += `<section><div class="month-title"><h2>${esc(next)}</h2></div><div class="grid">`;
+            const label=next==='unknown'?t('模型发布时间待核','Release date unverified'):next+' · '+t('模型发布','Model release');
+            content += `<section data-release-month="${esc(next)}"><div class="month-title"><h2>${esc(label)}</h2></div><div class="grid">`;
             month = next;
           }
-          content += card(item);
+          if(folded&&item.modelMembers.length>1){
+            content+=`<div class="timeline-model-group" data-model-group="${esc(modelKey(item))}">${card(item.modelMembers[0])}<details><summary>${t(`展开同型号另外 ${item.modelMembers.length-1} 件作品`,`Show ${item.modelMembers.length-1} more works of this version`)}</summary><div class="grid">${item.modelMembers.slice(1).map(card).join('')}</div></details></div>`;
+          }else content += card(item);
         }
         if (month) content += '</div></section>';
       } else content = '<div class="grid">'+page.items.map(card).join('')+'</div>';
       results.innerHTML = page.total ? content : `<p class="result-empty">${t('没有找到相关标本。试试其他年份或减少筛选条件。','No matching records. Try another year or fewer filters.')}</p>`;
       const samplesOnly = page.total && page.items.every(x=>x.batch && !x.isBatch);
-      count.textContent = samplesOnly ? t(`${page.total} 个匹配样本 · 第 ${page.page} / ${page.pages} 页`,`${page.total} matching samples · Page ${page.page} / ${page.pages}`) : t(`${page.total} 个案例 · 第 ${page.page} / ${page.pages} 页`,`${page.total} cases · Page ${page.page} / ${page.pages}`);
+      count.textContent = folded?t(`${selected.length} 个案例 · ${page.total} 个型号 · 第 ${page.page} / ${page.pages} 页`,`${selected.length} cases · ${page.total} model versions · Page ${page.page} / ${page.pages}`):samplesOnly ? t(`${page.total} 个匹配样本 · 第 ${page.page} / ${page.pages} 页`,`${page.total} matching samples · Page ${page.page} / ${page.pages}`) : t(`${page.total} 个案例 · 第 ${page.page} / ${page.pages} 页`,`${page.total} cases · Page ${page.page} / ${page.pages}`);
       const pageLink = (number, text, rel) => `<a href="${esc(pageHref(root.dataset.base,number,filters))}" data-page="${number}" rel="${rel}">${text}</a>`;
       pager.innerHTML = (page.page > 1 ? pageLink(page.page-1,'← '+t('上一页','Previous'),'prev') : `<span aria-disabled="true">← ${t('上一页','Previous')}</span>`)
         + `<span data-page-summary>${t(`第 ${page.page} / ${page.pages} 页`,`Page ${page.page} / ${page.pages}`)}</span>`
@@ -219,18 +277,27 @@ function bootBrowser(root) {
   let timer;
   form.addEventListener('input', () => {clearTimeout(timer); timer = setTimeout(() => render(1),180);});
   form.addEventListener('change', () => {clearTimeout(timer); render(1);});
+  collapseToggle?.addEventListener('change',()=>{form.elements.namedItem('collapse').value=collapseToggle.checked?'1':'';render(1);});
   root.querySelectorAll('[data-family]').forEach(button=>button.addEventListener('click',()=>{const select=form.elements.namedItem('family');select.value=select.value===button.dataset.family?'':button.dataset.family;render(1);}));
   root.querySelectorAll('[data-year]').forEach(link=>link.addEventListener('click',event=>{
     if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
     event.preventDefault();form.elements.namedItem('year').value=link.dataset.year;render(1);
   }));
-  form.addEventListener('reset', () => setTimeout(() => {form.elements.namedItem('year').value=''; render(1);},0));
+  form.addEventListener('reset', () => setTimeout(() => {form.elements.namedItem('year').value='';if(collapseToggle)collapseToggle.checked=false;render(1);},0));
   sortButton.addEventListener('click', () => {form.elements.namedItem('sort').value = form.elements.namedItem('sort').value==='oldest'?'newest':'oldest'; render(1);});
   densityButton.addEventListener('click', () => {
-    const firstIndex = (Number(currentPage)-1)*viewSizes[view];
+    const firstIndex = (Number(currentPage)-1)*renderedSize;
     view = nextView(view);
-    try {localStorage.setItem('pelican-card-view',view);} catch {}
-    render(Math.floor(firstIndex/viewSizes[view])+1);
+    try {localStorage.setItem(viewPreferenceKey,view);} catch {}
+    render(Math.floor(firstIndex/viewPageSize(view,innerWidth))+1);
+  });
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      const size = viewPageSize(view, innerWidth);
+      if (size !== renderedSize) render(Math.floor((Number(currentPage)-1)*renderedSize/size)+1);
+    }, 120);
   });
   pager.addEventListener('click', event => {
     const a = event.target.closest('a[data-page]');

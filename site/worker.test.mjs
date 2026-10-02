@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
+import {compareTimeline} from './assets/browse.js';
 
 async function worker() {
   assert.ok(fs.existsSync(new URL('./worker.mjs', import.meta.url)), 'Read-only public API has not been implemented');
@@ -69,7 +70,7 @@ test('API does not accept writes and timeline filtering stays in the requested y
   const res = await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?year=2024&limit=50'), {});
   const data=await res.json();
   assert.ok(data.items.length > 0);
-  assert.ok(data.items.every(x => x.timelineVisible && x.date.startsWith('2024')));
+  assert.ok(data.items.every(x => x.timelineVisible && x.modelTimeline.releaseDate.startsWith('2024')));
 });
 
 test('evolution API selects family, chronological order and representative flags',async()=>{
@@ -78,7 +79,8 @@ test('evolution API selects family, chronological order and representative flags
   const data=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?family=Gemini&sort=oldest&limit=50'),{})).json();
   assert.equal(data.total,catalog.items.filter(x=>x.timelineVisible && x.modelFamilies.includes('Gemini')).length);
   assert.ok(data.items.every(x=>x.modelNames.length===1 && !x.representativeOf && x.timelineVisible));
-  assert.ok(data.items.every((x,i)=>!i || data.items[i-1].date<=x.date));
+  assert.equal(data.sortBasis,'model-release');
+  assert.ok(data.items.every((x,i)=>!i || compareTimeline(data.items[i-1],x,'oldest')<=0));
   const context=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/specimens/elo-june-2025-3ea5a875'),{})).json();
   assert.equal(context.caseVisible,false);
   assert.equal(context.childIds.length,22);
@@ -114,11 +116,14 @@ test('MCP instructions and bilingual resources share current counting and date p
   assert.deepEqual(resources.resources.map(x=>x.uri).sort(),['https://pelicanmap.aveniqa.com/en/llms.txt','https://pelicanmap.aveniqa.com/llms.txt']);
   for(const resource of resources.resources){
     const guide=(await rpc('resources/read',{uri:resource.uri})).contents[0].text;
-    assert.ok(guide.includes(catalog.counts.cases+' independent works'));
-    assert.ok(guide.includes(catalog.counts.timeline+' timeline representatives across media, a subset'));
+    const english=resource.uri.includes('/en/');
+    assert.ok(guide.includes(catalog.counts.cases+(english?' independent works':' 个独立作品')));
+    assert.ok(guide.includes(catalog.counts.timeline+(english?' timeline representatives across all media are a subset':' 件全媒体时间线代表为其中子集')));
     assert.ok(guide.includes('referenceOnly'));
     assert.ok(!guide.includes('Records overlap'));
     assert.ok(guide.includes(resource.uri.includes('/en/')?'counts.cases counts independent outputs':'counts.cases 是独立作品数'));
+    for(const term of ['modelTimeline.releaseDate','releaseDate','datePrecision','detailFrames','sourceUrl','model-releases.json'])assert.ok(guide.includes(term));
+    assert.ok(guide.includes(english?'off by default':'默认展开'));
   }
 });
 

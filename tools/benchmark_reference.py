@@ -20,10 +20,9 @@ def index_page(language='zh'):
     en = language == 'en'
     t = lambda zh, english: english if en else zh
     definitions = json.loads((ROOT/'site/benchmarks/index.json').read_text(encoding='utf8'))
-    disclaimer = t('上游输出，非本馆排名', 'Upstream outputs, not a Pelican Map ranking')
     title = t('Benchmark 合集', 'Benchmark collections')
     desc = t('评分对照资料单独展示，不进入主时间线、全部作品和案例总数。先选择 Benchmark 合集，再查看模型汇总与原始样本。', 'Independent scoring references, excluded from the main timeline, collection and case total. Choose a benchmark, then inspect model summaries and original samples.')
-    body = f'<div class="page-top"><div class="eyebrow">BENCHMARK COLLECTIONS</div><h1>{E(title)}</h1><p>{E(desc)}</p></div><div class="callout benchmark-disclaimer"><strong>{E(disclaimer)}</strong><p>'+t('此处是上游评测资料索引，不是模型能力排行榜；模型按来源保留，未独立认证。', 'An index of upstream evaluation material, not a capability leaderboard. Source model labels are not independently authenticated.')+'</p></div><div class="benchmark-collections">'
+    body = f'<div class="page-top"><div class="eyebrow">BENCHMARK COLLECTIONS</div><h1>{E(title)}</h1></div><div class="benchmark-collections">'
     for definition in definitions:
         data = json.loads((ROOT/'site/benchmarks'/definition['file']).read_text(encoding='utf8'))
         rows = [x for x in data['rows'] if x['config'] == 'default']

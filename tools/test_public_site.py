@@ -115,7 +115,7 @@ class PublicSiteTests(unittest.TestCase):
                 self.assertEqual(len(cards),0,prefix+listing)
             index=BeautifulSoup((OUT/prefix/'tags/benchmark/index.html').read_text(encoding='utf8'),'html.parser')
             self.assertEqual(len(index.select('[data-benchmark-collection]')),1)
-            self.assertIn('非本馆排名' if not prefix else 'not a Pelican Map ranking',index.get_text())
+            self.assertFalse(index.select('.page-top p,.callout.benchmark-disclaimer'))
             self.assertIsNotNone(index.select_one('nav.nav a[aria-current=page]'))
 
     def test_play_contains_only_local_interactions_and_embeds_them(self):

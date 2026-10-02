@@ -5,7 +5,7 @@ import json
 import urllib.request
 from pathlib import Path
 from bs4 import BeautifulSoup
-from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections
+from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://pelicanmap.aveniqa.com'
@@ -35,6 +35,9 @@ for lang in ['zh','en']:
     assert catalog['version']==CATALOG_VERSION
     by={x['id']:x for x in catalog['items']}
     home=BeautifulSoup(request(prefix+'/'),'html.parser')
+    assert home.select_one('.hero-title').get_text(' ',strip=True).replace(' ','')==HOME_COPY[lang]['title'].replace(' ','')
+    assert home.select_one('.hero-question').get_text()==HOME_COPY[lang]['question']
+    assert home.select_one('.hero .intro').get_text()==HOME_COPY[lang]['description']
     cards=home.select('#featured .specimen-card')
     assert len(cards)==6 and not home.select('#featured .source-archive-link')
     assert [x.select_one('.card-cover')['href'] for x in cards]==[by[key]['path'] for key in FEATURED_IDS]
@@ -96,7 +99,21 @@ resources=rpc('resources/list',{})['resources']
 assert {x['uri'] for x in resources}=={BASE+'/llms.txt',BASE+'/en/llms.txt'}
 for resource in resources:
     guide=rpc('resources/read',{'uri':resource['uri']})['contents'][0]['text']
-    assert str(catalog['counts']['cases'])+' independent works' in guide and str(catalog['counts']['timeline'])+' timeline representatives across media, a subset' in guide
+    english='/en/' in resource['uri']
+    assert str(catalog['counts']['cases'])+(' independent works' if english else ' 个独立作品') in guide
+    assert str(catalog['counts']['timeline'])+(' timeline representatives across all media are a subset' if english else ' 件全媒体时间线代表为其中子集') in guide
     assert 'referenceOnly' in guide and 'Records overlap' not in guide
+    assert all(term in guide for term in ['modelTimeline.releaseDate','datePrecision','detailFrames','model-releases.json'])
+tools=rpc('tools/list',{})['tools']
+assert {x['name'] for x in tools}=={'search_specimens','get_specimen','get_timeline'}
+for tool in tools:assert tool['annotations']['readOnlyHint'] and not tool['annotations']['destructiveHint']
+for language in ['zh','en']:
+    payload={'name':'search_specimens','arguments':{'lang':language,'limit':2,'family':'Gemini'}}
+    result=rpc('tools/call',payload)
+    assert json.loads(result['content'][0]['text'])==json.loads(request('/api/v1/specimens?lang='+language+'&limit=2&family=Gemini'))
+    result=rpc('tools/call',{'name':'get_specimen','arguments':{'id':FEATURED_IDS[-1],'lang':language}})
+    assert json.loads(result['content'][0]['text'])==json.loads(request('/api/v1/specimens/'+FEATURED_IDS[-1]+'?lang='+language))
+missing=rpc('tools/call',{'name':'get_specimen','arguments':{'id':'not-a-real-specimen'}})
+assert missing['isError'] is True
 print(json.dumps({'published_editorial_checks':checks,'bilingual_selection':6,'catalog_version':CATALOG_VERSION,
                   'case_count':catalog['counts']['cases'],'timeline_subset':catalog['counts']['timeline'],'seo_language_schema':True,'csv_counting_flags':True,'llms_and_mcp_scope':True,'legacy_1988_stale_cards':0}))

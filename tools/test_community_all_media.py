@@ -6,6 +6,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from PIL import Image
 from case_policy import apply_case_policy
+from archival_test_assertions import reviewed_context_change
 
 ROOT=Path(__file__).resolve().parents[1]
 AUDIT=ROOT/'pelican-archive/research/2026-10-01-community-all-media'
@@ -68,6 +69,7 @@ class CommunityMediaTests(unittest.TestCase):
         for previous in before['items']:
             now=BY[previous['id']]
             for key in ['date','model','author','sourceUrl','thumbnail','media','caseVisible','timelineVisible']:
+                if reviewed_context_change(self,previous,now,key,BY):continue
                 self.assertEqual(now.get(key),previous.get(key),(previous['id'],key))
         self.assertGreaterEqual(CAT['counts']['cases'],before['counts']['cases']+26)
         self.assertGreaterEqual(CAT['counts']['timeline'],before['counts']['timeline']+18)

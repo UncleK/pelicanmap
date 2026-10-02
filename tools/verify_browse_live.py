@@ -3,6 +3,8 @@ import concurrent.futures
 import hashlib
 import json
 import urllib.request
+import urllib.error
+import time
 from pathlib import Path
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
@@ -13,9 +15,18 @@ BASE = 'https://pelicanmap.aveniqa.com'
 
 
 def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'PelicanMap-Verifier/1.0'}), timeout=40) as response:
-        assert response.status == 200
-        return response.read(), dict(response.headers)
+    request = urllib.request.Request(url, headers={'User-Agent': 'PelicanMap-Verifier/1.0'})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=40) as response:
+                assert response.status == 200
+                return response.read(), dict(response.headers)
+        except urllib.error.HTTPError:
+            raise
+        except urllib.error.URLError:
+            if attempt == 2:
+                raise
+            time.sleep(attempt + 1)
 
 
 catalog = json.loads(get(BASE+'/data/catalog.json')[0])
@@ -63,7 +74,13 @@ for prefix in ['', '/en']:
     assert data['total']==0 and data['rawRecords']==0
     index=BeautifulSoup(get(BASE+prefix+'/tags/benchmark/')[0],'html.parser')
     assert len(index.select('[data-benchmark-collection]'))==1
-    assert index.select_one('.benchmark-disclaimer')
+    # The user removed explanatory copy from the collection directory only.
+    # The actual scored collection and model pages still disclose upstream scores.
+    assert not index.select_one('.page-top p')
+    assert not index.select_one('.benchmark-disclaimer')
+    assert batch.select_one('.benchmark-disclaimer')
+    disclaimer='Upstream outputs, not a Pelican Map ranking' if prefix else '上游输出，非本馆排名'
+    assert disclaimer in batch.select_one('.benchmark-disclaimer').get_text()
     assert all(x.get('caseNumber') is None for x in catalog['items'] if x.get('referenceOnly'))
     assert parent['referenceOnly']
     assert catalog['counts']['referenceRecords']==138
@@ -91,6 +108,9 @@ for prefix in ['', '/en']:
     for model in {x['model'] for x in reference['rows'] if x['config']=='default'}:
         page=BeautifulSoup(get(BASE+prefix+model_path(model))[0],'html.parser')
         assert len(page.select('.benchmark-representatives .benchmark-sample'))==2
+        assert page.select_one('.benchmark-disclaimer')
+        disclaimer='Upstream outputs, not a Pelican Map ranking' if prefix else '上游输出，非本馆排名'
+        assert disclaimer in page.select_one('.benchmark-disclaimer').get_text()
 
 
 def check_media(path):

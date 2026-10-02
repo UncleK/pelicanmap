@@ -4,7 +4,7 @@ import json
 import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
-from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections
+from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'public-site'
@@ -39,6 +39,21 @@ class EditorialTests(unittest.TestCase):
             schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
             self.assertEqual(schema['mainEntity']['numberOfItems'],6)
             self.assertEqual([x['url'] for x in schema['mainEntity']['itemListElement']],[by[key]['url'] for key in FEATURED_IDS])
+
+    def test_home_uses_exact_user_supplied_bilingual_copy(self):
+        for lang in ['zh','en']:
+            home=self.soup('index.html',lang)
+            title=home.select_one('.hero-title').get_text(' ',strip=True).replace(' ','')
+            self.assertEqual(title,HOME_COPY[lang]['title'].replace(' ',''))
+            self.assertEqual(home.select_one('.hero-question').get_text(),HOME_COPY[lang]['question'])
+            self.assertEqual(home.select_one('.hero .intro').get_text(),HOME_COPY[lang]['description'])
+            schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
+            self.assertEqual(schema['description'],HOME_COPY[lang]['description'])
+            prefix='en/' if lang=='en' else ''
+            markdown=(OUT/prefix/'index.md').read_text(encoding='utf8')
+            self.assertIn(HOME_COPY[lang]['question'],markdown)
+            self.assertIn(HOME_COPY[lang]['description'],markdown)
+            self.assertEqual(home.select_one('link[type="text/markdown"]')['href'],'/'+prefix+'index.md')
 
     def test_about_developers_markdown_and_llms_share_scope(self):
         for lang,catalog in self.catalogs.items():

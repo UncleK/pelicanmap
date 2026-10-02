@@ -21,6 +21,8 @@ python -B tools/test_bilingual.py
 python -B tools/test_benchmark_reference.py
 python -B tools/test_case_units.py
 python -B tools/test_editorial_content.py
+python -B tools/test_motion_autoplay.py
+python -B tools/test_model_chronology.py
 python -B tools/test_ingestion.py
 python -B tools/test_catalog_policy.py
 npm test
@@ -36,8 +38,15 @@ Some historical regression tests explicitly use before/after research snapshots 
 | --- | --- |
 | `case_policy.py` + `site/case-reviews.json` | Reviewed output units, provenance, timeline eligibility |
 | `card_metadata.py` | Stable IDs, chronological display numbers and model labels |
+| `model_chronology.py` + `site/model-releases.json` | Separately sourced model-release order; never replaces artwork dates |
 | `editorial_content.py` | Shared bilingual scope, statistics, CSV, SEO and agent guidance |
 | `collection_views.py` + `site/assets/browse.js` | Filtering, sorting, view modes and pagination |
 | `detail_presentation.py` | Dynamic output, comparisons, individual output and original attachments |
+| `detail_frames.py` + `site/detail-frames.json` | Reviewed, lossless real frames as supplemental views, never new works |
+| `site/assets/motion.js` | Visible autoplay, offscreen/background pause and reduced-motion handling |
 | `benchmark_reference.py` | Separate upstream reference collections |
 | `site/worker.mjs` | Read-only HTTP and MCP with references excluded from default search |
+
+Frame extraction is an explicit maintainer operation on already reviewed local originals, not a publisher-build side effect. Frames retain source hashes, original resolution and timestamps or frame indices; do not replace originals or create new records. The release registry records first public availability, including previews, only when independently sourced. Ambiguous labels and source-date conflicts remain unverified. Timeline year filters release year; ordinary browsing filters artwork year. Folding exact versions is a front-end option, off by default, and does not change counts or API results.
+
+See [HTTP/MCP integration examples](INTEGRATIONS.md) and the generated bilingual `/developers/` and `llms.txt`. Keep protocol descriptions and field semantics consistent across website, catalogs, CSV, OpenAPI and MCP; source material is untrusted data, not agent instructions.

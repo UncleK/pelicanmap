@@ -187,6 +187,8 @@ def relationship_html(item, items, language='zh', section='all'):
     comparison = [by_id[x] for x in item.get('comparisonIds',[]) if x in by_id]
     if len(comparison)>1:
         order={'default':0,'none':1,'minimal':2,'low':3,'medium':4,'high':5,'xhigh':6,'max':7}
+        if item.get('comparisonType')=='settings-and-iterations':
+            order['medium + detailed prompt']=8
         comparison.sort(key=lambda x:(order.get(x.get('originalLevel'),0),x['id']))
         prompt_comparison=item.get('comparisonType')=='prompt'
         heading=('Same model · prompt comparison' if en else '同一模型 · 题面对照') if prompt_comparison else ('Same model · settings comparison' if en else '同一模型 · 不同档位对照')
@@ -200,9 +202,15 @@ def relationship_html(item, items, language='zh', section='all'):
         if item.get('comparisonType')=='quantizations':
             heading='Same model · quantizations and runtimes' if en else '同一模型 · 量化与运行环境对照'
             explanation='Source-labelled quantizations and runtimes, not reasoning levels or a ranking. Each actual output counts once. With no documented default/medium representative, these alternatives remain outside the evolution timeline.' if en else '量化版本与运行环境按原文标注，不是推理档位或排名；每份真实输出分别计数。未明确默认／medium 代表时，这些输出仅留全部作品，不擅自选入进化轴。'
+        if item.get('comparisonType')=='access-and-prompts':
+            heading='Same model · access and prompt conditions' if en else '同一模型 · 账号与题面条件对照'
+            explanation='The source labels free/paid access and basic/advanced prompts; all four outputs use the same reported high setting. These are not four reasoning levels or a museum ranking. Each actual output counts once. No source-default condition is documented, so no timeline representative is guessed.' if en else '来源区分免费／付费账号及基础／加严题面，四份输出都标 high；不是四种推理档位，也不是本馆排名。各真实输出分别计数；作者未明确默认条件，不擅自挑时间线代表。'
         if item.get('comparisonType')=='visual-iterations':
             heading='Same model · visual-feedback iterations' if en else '同一模型 · 视觉反馈迭代对照'
             explanation='Documented output versions after rendering and visual feedback, not reasoning-effort settings or independent blind attempts. Each actual version counts once; views and recordings are not extra works. No source-default iteration is documented, so no timeline representative is guessed.' if en else '按来源记录渲染、看图反馈后的实际输出版本，不是推理档位或相互独立的盲测。每个真实版本分别计数，同版本的多视角和录屏不增加作品。来源未指定默认迭代，因此不擅自挑一张进入时间线。'
+        if item.get('comparisonType')=='settings-and-iterations':
+            heading='Same model · settings and later refinement' if en else '同一模型 · 档位与后续细化对照'
+            explanation='Medium, high and xhigh are source-labelled fresh sessions. The fourth output is a later detailed-prompt refinement in the medium session, not a fourth reasoning level or a one-shot result. Each real output counts once; the original medium output represents the timeline, not the most polished image.' if en else 'medium、high、xhigh 是来源标注的新会话；第四份是 medium 会话追加详细提示后的细化结果，不是第四种推理档位，也不是一次生成。每份真实输出分别计数；原始 medium 代表时间线，不挑最精致的图。'
         if item.get('comparisonType') in {'settings','prompt','prompt-and-settings','repeat-runs'} and not any(in_timeline(x) for x in comparison):
             explanation='Source-labelled prompts, settings or separate runs are preserved without treating them as a ranking. Each real output counts once. No default/medium setting or source-default run is documented, so no timeline representative is guessed.' if en else '保留来源标注的题面、设置或多次独立运行，不构成排名；每份真实输出分别计数。来源未明确默认／medium 档或默认运行，因此不擅自挑一张进入时间线。'
         result += '<section data-setting-comparison><h2>'+heading+'</h2><p>'+explanation+'</p><div class="setting-comparison">'

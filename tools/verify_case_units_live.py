@@ -4,6 +4,7 @@ import json
 import urllib.request
 from pathlib import Path
 from bs4 import BeautifulSoup
+from model_chronology import ordered_timeline
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://pelicanmap.aveniqa.com'
@@ -56,7 +57,8 @@ for lang in ['zh','en']:
     family=data('/api/v1/timeline?lang='+lang+'&family=Gemini&sort=oldest&limit=50')
     assert family['items'] and all(x['modelNames'] and len(x['modelNames'])==1 for x in family['items'])
     assert all('Gemini' in x['modelFamilies'] and x['timelineVisible'] for x in family['items'])
-    assert all(not i or family['items'][i-1]['date']<=x['date'] for i,x in enumerate(family['items']))
+    assert family['items']==ordered_timeline(family['items'],'oldest')
+    assert family['sortBasis']=='model-release'
     elo=data('/api/v1/specimens/elo-june-2025-3ea5a875?lang='+lang)
     assert not elo['caseVisible'] and elo['caseNumber'] is None and len(elo['childIds'])==22
     page=BeautifulSoup(get(prefix+'/specimens/elo-june-2025-3ea5a875/'),'html.parser')

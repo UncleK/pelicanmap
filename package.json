@@ -18,7 +18,7 @@
     "build:project": "python -B tools/build_project_pages.py",
     "check:project": "node tools/check_project.mjs",
     "build": "python -B tools/build_public_site.py",
-    "test": "node --test site/worker.test.mjs site/server.test.mjs site/browse.test.mjs tools/import_collection_batch.test.mjs tools/live_stats.test.mjs",
+    "test": "node --test site/worker.test.mjs site/server.test.mjs site/browse.test.mjs site/motion.test.mjs tools/import_collection_batch.test.mjs tools/live_stats.test.mjs",
     "test:pages": "python -B tools/test_public_site.py",
     "bundle:server": "node tools/bundle_server.mjs",
     "package:vps": "node tools/bundle_server.mjs && python -B tools/package_vps.py",

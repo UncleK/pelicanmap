@@ -11,18 +11,22 @@ import shutil
 import subprocess
 from collections import defaultdict
 from pathlib import Path
+from atomic_files import replace_with_retry
 from urllib.parse import quote
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from catalog_policy import apply_demo_policy, playable_records
 from collection_views import listing, legacy_page_count, legacy_years
-from detail_presentation import record_content
+from detail_presentation import record_content, apply_motion_previews, cover_media
 from experiment_batches import apply_batches, group_records, case_counts, batch_pages
 from card_metadata import apply_card_metadata, card_footer
+from model_chronology import apply_model_chronology, timeline_year
+from detail_frames import apply_detail_frames
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details, load as load_benchmark
 from thumbnail_overrides import apply_thumbnail_overrides
 from record_overrides import apply_record_overrides
 from case_policy import apply_case_policy, is_case, in_timeline, relationship_html
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, featured as select_featured, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema, openapi
+from editorial_content import listing_notes, HOME_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'pelican-web'
@@ -30,9 +34,12 @@ OUT = Path(os.environ.get('PELICAN_OUTPUT_DIR',ROOT / 'public-site'))
 DEMOS = ROOT / 'public-demos'
 BASE = 'https://pelicanmap.aveniqa.com'
 DEMO_BASE = os.environ.get('PELICAN_DEMO_ORIGIN', 'https://pelicanmap-demos.aveniqa.com').rstrip('/')
-UPDATED = '2026-10-01'
+UPDATED = '2026-10-02'
+# Baseline imports keep their archival update date; a new compilation is not
+# a modification of every historical work. New additions carry their own date.
+LEGACY_RECORD_UPDATED = '2026-10-01'
 SITE = '鹈鹕骑车标本馆'
-ASSET_VERSION = hashlib.sha256(b''.join((ROOT / 'site/assets' / name).read_bytes() for name in ('site.css', 'site.js', 'browse.js'))).hexdigest()[:12]
+ASSET_VERSION = hashlib.sha256(b''.join((ROOT / 'site/assets' / name).read_bytes() for name in ('site.css', 'site.js', 'browse.js', 'motion.js'))).hexdigest()[:12]
 INTRO = INTROS['zh']
 DATA = json.loads((SOURCE / 'data.js').read_text(encoding='utf-8').split('=', 1)[1].strip().rstrip(';'))
 SOURCES = {'origin':'原点仓库','zoo':'Pelican Zoo','wtf':'pelicans.wtf','community':'社区记录'}
@@ -49,7 +56,7 @@ def dump(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary=path.with_name(path.name+'.tmp')
     temporary.write_text(content, encoding='utf-8')
-    temporary.replace(path)
+    replace_with_retry(temporary,path)
 
 def jdump(path, value):
     dump(path, json.dumps(value, ensure_ascii=False, separators=(',', ':')))
@@ -134,7 +141,7 @@ def normalize(record, kind):
         'demoUrl':asset(record.get('demo','')),'externalUrl':record.get('externalMediaUrl',''),
         'sourceCodeUrl':asset(record.get('sourceCode','')),
         'path':path,'url':BASE+path,'markdown':path+'index.md',
-        'updated':UPDATED,'rights':'作品权利归原作者；本站收录不改变原作品许可。'}
+        'updated':record.get('updated',LEGACY_RECORD_UPDATED),'rights':'作品权利归原作者；本站收录不改变原作品许可。'}
 
 def link(url, label, cls=''):
     if not url:
@@ -146,23 +153,25 @@ def card(item):
     if not is_case(item) and not item.get('referenceOnly') and not item.get('interactive'):
         return '<article class="callout source-archive-link">'+link(item['path'],item['title']+' · 来源存档')+'</article>'
     if item['thumbnail']:
-        cover = f'<img src="{e(item["thumbnail"])}" alt="{e(item["title"])} · {e(item["formatLabel"])}" width="640" height="420" loading="lazy">'
+        cover = cover_media(item, item['title']+' · '+item['formatLabel'])
     else:
         label = '来源已删除' if item['mediaStatus']=='source-deleted' else '交互演示' if item['demoUrl'] else '文字记录'
         cover = f'<div class="media-note"><strong>{label}</strong><span>查看资料与原始出处</span></div>'
     note = item['notes'] or item['author'] or '查看作品、提示词分类与原始出处。'
-    return f'<article class="card specimen-card"><a class="card-cover" href="{item["path"]}">{cover}<span class="media-label">{item["formatLabel"]}</span><span class="source-label" title="{e(item["sourceLabel"])}">{e(item["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="作品说明"><h3><a href="{item["path"]}">{e(item["title"])}</a></h3><p class="note">{e(note)}</p></div>{card_footer(item)}</article>'
+    return f'<article class="card specimen-card"><a class="card-cover" href="{item["path"]}" aria-label="{e(item["title"])}">{cover}<span class="media-label">{item["formatLabel"]}</span><span class="source-label" title="{e(item["sourceLabel"])}">{e(item["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="作品说明"><h3><a href="{item["path"]}">{e(item["title"])}</a></h3><p class="note">{e(note)}</p></div>{card_footer(item)}</article>'
 
 def cards(items):
     return ''.join(card(x) for x in items)
 
 def timeline_card(item):
-    return f'<article class="card timeline-card"><a class="card-cover" href="{item["path"]}"><img src="{e(item["thumbnail"])}" alt="{e(item["model"])} · {e(item["date"])}" width="640" height="420" loading="lazy"></a>{card_footer(item,timeline=True)}</article>'
+    return f'<article class="card timeline-card"><a class="card-cover" href="{item["path"]}" aria-label="{e(item["title"])}">{cover_media(item, item["model"]+" · "+item["date"])}</a>{card_footer(item,timeline=True)}</article>'
 
 def top(title, desc, eyebrow='THE COLLECTION'):
-    return f'<div class="page-top"><div class="eyebrow">{eyebrow}</div><h1>{e(title)}</h1><p>{e(desc)}</p></div>'
+    return f'<div class="page-top"><div class="eyebrow">{eyebrow}</div><h1>{e(title)}</h1>{('<p>'+e(desc)+'</p>') if desc else ''}</div>'
 
 def page(path, title, description, body, nav='', schema=None, markdown=None, noindex=False):
+    if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
+        body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''))
     canonical = BASE + path
     navitems = [('/','精选'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
     navigation = ''.join(f'<a href="{p}"'+(' aria-current="page"' if p==nav else '')+f'>{t}</a>' for p,t in navitems)
@@ -179,8 +188,8 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
 <meta property="og:type" content="{social_type}"><meta property="og:locale" content="zh_CN"><meta property="og:locale:alternate" content="en_US"><meta property="og:site_name" content="{SITE}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description[:180])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{e(social_image)}"><meta property="og:image:alt" content="{e(title)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(description[:180])}"><meta name="twitter:image" content="{e(social_image)}"><meta name="twitter:image:alt" content="{e(title)}">
 <link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">{alternate}<link rel="describedby" href="/llms.txt"><link rel="alternate" type="application/rss+xml" title="馆藏更新" href="/feed.xml">
-<script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script></head>
-<body id="top"><a class="skip" href="#main">跳到正文</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>{SITE}</strong><small>PELICAN MAP · AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航">{navigation}<a class="nav-search" href="/specimens/#search">检索 ↗</a></nav></div></header>
+<script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script><script type="module" src="/assets/motion.js?v={ASSET_VERSION}"></script></head>
+<body id="top"><a class="skip" href="#main">跳到正文</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>{SITE}</strong><small>PELICAN MAP · AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航">{navigation}</nav></div></header>
 <main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div><div class="footer-brand">一只鸟，一辆车，一段 AI 小史。</div><p class="small">Pelican Map · 资料馆与精选展示</p></div><div class="footer-links"><a href="/about/">关于与收录方法</a><a href="/rights/">来源与使用说明</a><a href="/developers/">数据与 Agent</a><a href="/feed.xml">RSS</a><a href="#top">回到顶部 ↑</a></div></div><div class="copyright">馆藏整理于 {UPDATED}。作品权利归原作者；模型按来源标注，未独立认证。时间线是全部作品的代表图子集；Benchmark 单列，不计主馆总数。</div></div></footer></body></html>'''
     dest = OUT / path.strip('/') / 'index.html' if path.endswith('/') else OUT / path.lstrip('/')
     dump(dest, result)
@@ -296,6 +305,9 @@ def build(items=None,prepare=True):
     items=apply_batches(items)
     items=apply_case_policy(items,OUT)
     items=apply_card_metadata(items)
+    items=apply_model_chronology(items)
+    items=apply_motion_previews(items,OUT)
+    items=apply_detail_frames(items,OUT)
     COUNTS.update(case_counts(items),sourceIndex=len(DATA['simon']),benchmarkCollections=len(json.loads((ROOT/'site/benchmarks/index.json').read_text(encoding='utf8'))))
     assert all(x['thumbnail'] and x['media'] for x in items), 'Public works need visible media'
     removed_paths=[]
@@ -314,7 +326,7 @@ def build(items=None,prepare=True):
     by_original={x['originalId']:x for x in items}
     featured=select_featured(items)
     hero=featured[-1]
-    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>一只鹈鹕。</span><span class="hero-second">无数种<em>可能。</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="intro">{INTRO}</p><div class="actions"><a class="button" href="/timeline/">时间线 <span>↗</span></a><a class="button secondary" href="/specimens/">全部作品 <span>→</span></a></div><p class="small">一个持续整理的资料馆 · 模型标注按来源保留，未独立认证</p></div><figure class="hero-figure"><span class="plate-no">MODEL OUTPUT / #{hero["caseNumber"]}</span><a href="{hero["path"]}"><img class="cover" src="{e(hero["thumbnail"])}" alt="{e(hero["model"])} · {e(hero["date"])} · 静态 SVG 输出预览" width="960" height="720" fetchpriority="high"></a><figcaption><span>{e(hero["date"])} · {e(hero["model"])}（来源标注）</span><a href="{hero["path"]}">查看记录 ↗</a></figcaption></figure></section>
+    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>一只鹈鹕，</span><span class="hero-second">无数种<em>可能。</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{e(HOME_COPY['zh']['question'])}</p><p class="intro">{e(HOME_COPY['zh']['description'])}</p><div class="actions"><a class="button" href="/timeline/">时间线 <span>↗</span></a><a class="button secondary" href="/specimens/">全部作品 <span>→</span></a></div><p class="small">一个持续整理的资料馆 · 模型标注按来源保留，未独立认证</p></div><figure class="hero-figure"><span class="plate-no">MODEL OUTPUT / #{hero["caseNumber"]}</span><a href="{hero["path"]}"><img class="cover" src="{e(hero["thumbnail"])}" alt="{e(hero["model"])} · {e(hero["date"])} · 静态 SVG 输出预览" width="960" height="720" fetchpriority="high"></a><figcaption><span>{e(hero["date"])} · {e(hero["model"])}（来源标注）</span><a href="{hero["path"]}">查看记录 ↗</a></figcaption></figure></section>
 <div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>独立作品 · 含不同档位输出</span></div><div><strong>{COUNTS["timeline"]}</strong><span>进化轴代表图 · 作品子集</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon 来源索引 · 不计作品</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark 合集 · 单列参考</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>
 <section class="section" id="featured"><div class="section-head"><div><div class="eyebrow">THE CURATOR'S SELECTION</div><h2>先看这几件</h2><p>从 2024 年的原点到近期输出：一个模型，一张图。精选不是排名。</p></div><a class="text-link" href="/specimens/">浏览全部作品 ↗</a></div><div class="grid">{cards(featured)}</div></section>'''
     topics=[('origins','01 / THE BEGINNING','为什么是鹈鹕骑车？','从原点仓库开始，认识这个小题目。'),('beyond-svg','02 / ACROSS MEDIA','跨介质探索','动画、三维与交互，保留各自生成条件。'),('reading-the-test','03 / A CLOSER LOOK','一张图能说明什么？','了解提示词、版本与比较的边界。')]
@@ -322,23 +334,28 @@ def build(items=None,prepare=True):
     body+='<section class="quote-band"><h2>好作品值得停留，<br>失败也值得收藏。</h2><div><p>每一份记录尽量保留模型、时间、媒体与原始出处。这里的并置是一种观察：同一题目如何被理解，又如何不断被改写。</p><p><a href="/about/">了解收录方法 →</a></p></div></section>'
     schema=home_schema('鹈鹕骑车：AI 作品资料馆与精选展示',featured)
     schema['dateModified']=UPDATED
-    page('/','鹈鹕骑车：AI 作品资料馆与精选展示',INTRO,body,nav='/',schema=schema)
+    page('/','鹈鹕骑车：AI 作品资料馆与精选展示',INTRO,body,nav='/',schema=schema,markdown='/index.md')
+    from bs4 import BeautifulSoup
+    home_soup=BeautifulSoup(body,'html.parser')
+    home_links='\n'.join('- '+a.get_text(' ',strip=True)+': '+(BASE+a['href'] if a['href'].startswith('/') else a['href']) for a in home_soup.select('a[href]'))
+    dump(OUT/'index.md','# 鹈鹕骑车：AI 作品资料馆与精选展示\n\n'+home_soup.get_text('\n',strip=True)+'\n\n## 链接\n'+home_links+'\n')
     for n in range(math.ceil(len(items)/24)):
         path='/specimens/' if n==0 else f'/specimens/page/{n+1}/'
         title='全部作品' if n==0 else f'全部作品 · 第 {n+1} 页'
-        body=top(title,f'{COUNTS["cases"]} 个独立作品，含同一模型的不同档位输出；时间线精选 {COUNTS["timeline"]} 张代表图，两者不相加。合集原帖、转载与 Benchmark 资料不重复计数。')+listing(items,'/specimens/','',card,number=n+1,archive_link=True)
+        body=top(title,'')+listing(items,'/specimens/','',card,number=n+1,archive_link=True)
         page(path,title,'按模型、作者、形式与来源检索鹈鹕骑车及衍生 AI 作品。',body,nav='/specimens/',noindex=n>=math.ceil(COUNTS['cases']/24))
     timeline=[x for x in items if in_timeline(x)]
-    years=sorted({x['date'][:4] for x in timeline},reverse=True)
+    years=sorted({timeline_year(x) for x in timeline if timeline_year(x)!='unknown'},reverse=True)
+    if any(timeline_year(x)=='unknown' for x in timeline):years.append('unknown')
     archived_years={x['date'][:4] for x in items if re.match(r'^\d{4}',x['date'])}
     for year in [None]+sorted(set(years)|legacy_years(OUT)|archived_years,reverse=True):
-        selected=timeline if not year else [x for x in timeline if x['date'].startswith(year)]
+        selected=timeline if not year else [x for x in timeline if timeline_year(x)==year]
         base='/timeline/'+(year+'/' if year else '')
         for n in range(legacy_page_count(OUT,base,max(1,math.ceil(len(selected)/24)))):
-            body=top('时间线'+(' · '+year if year else ''),'全时间段、所有媒体类型。每张卡片对应一个时间点、一个模型和一件代表作品，动态作品使用原预览或真实封面帧。同日档位优先作者默认，否则 medium；其它输出见详情。日期精度按证据保留，评分参考不在本时间线。','CHRONOLOGY')
+            body=top('时间线'+(' · '+year if year else ''),'','CHRONOLOGY')
             if year and year not in years:body+='<p class="callout">该年份没有符合单模型代表作品口径的输出。旧背景资料仍保留在 <a href="/collections/source-records/">来源存档</a>，不计作品数。</p>'
             body+=listing(timeline,base,'timeline',timeline_card,number=n+1,year=year or '',years=sorted(set(years)|({year} if year else set()),reverse=True))
-            page(base+(f'page/{n+1}/' if n else ''),'鹈鹕骑车时间线'+(' · '+year if year else ''),'按年份、模型家族与日期浏览全媒体单模型代表作品；来源模型未独立认证，非本馆排名。',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
+            page(base+(f'page/{n+1}/' if n else ''),'鹈鹕骑车时间线'+(' · '+('发布时间待核' if year=='unknown' else year) if year else ''),'按已核验的模型发布时间、发布年份和家族浏览全媒体代表作品；卡片保留作品真实日期，未知发布日期单列。',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
     for batch, batch_body in batch_pages(items):
         page(batch['path'],batch['title'],batch['description'],batch_body,nav='/specimens/',markdown=batch['path']+'index.md')
         dump(OUT/(batch['path']+'index.md').lstrip('/'), '# '+batch['title']+'\n\n'+batch['description']+'\n\n原始数据集：'+batch['sourceUrl']+'\n\n'+'\n'.join('- ['+x['title']+']('+BASE+x['path']+')' for x in items if x.get('batch',{}).get('id')==batch['id'])+'\n')
@@ -382,7 +399,7 @@ def build(items=None,prepare=True):
 def build_editorial(items, by_id):
     origin=by_id['github-simonw-pelican-bicycle']
     playable=playable_records(items)
-    page('/play/','可玩演示','经操作、许可与安全审核的本站交互作品；自动动画或播放控制不算可玩。',top('可玩演示','进入详情可拖动视角、控制骑行或操作场景，在本站隔离演示域体验，不自动跳转源网站。只有实测可操作且许可清楚的项目进入这里；全部作品与时间线均不限媒体类型。','INTERACTIVE CABINET')+listing(playable,'/play/','play',card),nav='/play/')
+    page('/play/','可玩演示','经操作、许可与安全审核的本站交互作品；自动动画或播放控制不算可玩。',top('可玩演示','','INTERACTIVE CABINET')+listing(playable,'/play/','play',card),nav='/play/')
     origin_text=f'''<h2>从一个具体的小题目开始</h2><p>2024 年 10 月 25 日，Simon Willison 发表了关于鹈鹕骑自行车的 SVG 实验，并分享相关模型输出。用代码画一只鸟和一辆车，让不同模型的理解以可见的形式呈现出来。</p><p>经典提示是 <code>Generate an SVG of a pelican riding a bicycle</code>。当前收录与时间线不限时间段和媒体类型，也包含明确的题面变体；保留动画、视频、三维和交互的实际生成条件，不能假定所有记录条件相同。</p><p>你可以先看车轮、车架与身体如何连接，再看喙、喉囊、脚和踏板。不同作品的差异，往往出现在这些具体关系里。</p><p>{link("https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/","阅读原点文章 ↗")} · {link(origin["path"],"查看原点仓库记录")}</p><h2>22 份原点 SVG</h2><p>下列内容来自本地归档的原点仓库。它们是历史样本，模型标注按来源保留、未独立认证，不代表对应模型今天的最新表现。</p>'''
     page('/collections/origins/','为什么是鹈鹕骑车？', '从 Simon Willison 的原点文章与 22 份 SVG 开始，认识鹈鹕骑车这个 AI 小题目。',top('为什么是鹈鹕骑车？','FIELD NOTE 01 · 从一个具体问题出发')+'<article class="prose">'+origin_text+'</article><div class="grid">'+cards([x for x in items if x['source']=='origin'])+'</div>',markdown='/collections/origins/index.md')
     dump(OUT/'collections/origins/index.md','# 为什么是鹈鹕骑车？\n\n2024-10-25，Simon Willison 分享了鹈鹕骑车 SVG 实验。\n\n经典提示：Generate an SVG of a pelican riding a bicycle\n\n本站包含提示词变体，不能假定所有作品使用相同条件。\n\n来源：https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/\n')
@@ -402,6 +419,18 @@ def build_editorial(items, by_id):
     about+='<h3>2026-10-01 社区全媒体批次</h3><p>从 10 个 LINUX DO 原帖及其回复核验并归档 26 份独立输出，包含 2025 年对照、2026 年动画和三维预览，保留 36 份原始媒体与模型原标注。18 件进入时间线；8 件同日对照没有明确默认档／默认运行，只计全部作品，不擅自选最佳。未核实代码许可的项目不镜像为可玩演示。</p>'
     about+='<p>同批通过已获授权的登录浏览器核验 2 个 X 公开原帖，补 5 件静态 SVG 预览及 5 张时间线代表图；四模型原图按标签拆为 4 件，另一帖的两张同作截图仅计 1 件。保存 3 份完整原图和 5 份忠实像素裁切，详情可核原图、坐标和来源。作者提到的后续动画没有在该帖发布，不冒充动画或可玩项目。</p>'
     about+='<h3>2026-10-01 原文回链与跨媒体补档</h3><p>继续核对 Nile 31–55 卡回链的 25 篇原文，新增 25 件 Simon 单模型输出、15 件 beetle_b 原始 POV-Ray 渲染、3 件 MIT 许可的 Sonnet 4.5 视觉反馈版本和 1 件来源明确标注的 GEPA / Opus 4.6 零样本图，共 44 件作品、32 张时间线代表及 58 份原始媒体。14 份最终 SVG 与原文预览逐图核对；转载、已有同图和多模型归属不明的输出不重收。POV-Ray 修错与看图迭代明确记录，不冒充一次生成。12 件同日档位／运行／迭代没有代表证据或非代表档，仅留全部作品；不同模型身份未核清的优化后图暂缓。日期按日志时间、原文公开日或明确追加日保留，公开提交日不冒充已认证生成日。未镜像项目代码或新增可玩演示。</p>'
+    about+='<h3>2026-10-02 社区动画与原文拆分</h3><p>核验两个 LINUX DO 原帖、Pelecanus 固定版本及 Nile 56–60 的五篇原文，新增 45 件独立作品：29 份原始动画 WebP、3 份动态网页静态预览、8 份明确模型标签的 Three.js 场景裁切、2 份二月 SVG 预览及从旧未计数存档拆出的 3 份单输出。15 张代表进入时间线；29 次重复运行没有明确默认代表，加严题面沿用已有经典图代表，不擅自选最佳。保留源图、裁切坐标、哈希与 Apache-2.0 许可；三张已有计数的同图不重收，三个拆分输出复用原媒体，不将录屏或转载计为新作品。动画逐帧可解码，缺失鹈鹕的原始失败画面不补画。作者怀疑的 low/medium 映射问题明确保留，模型、档位与生成日期均不独立认证。本批不镜像代码，不新增 Play。</p>'
+    about+='<h3>2026-10-02 论坛续查与 X 原帖</h3><p>七个论坛原帖及回复和两个 X 作者作品经核验补 16 件作品，保留 19 份原媒体与实帧封面：5 件原始 GIF/WebP 动画、1 件完整视频和 10 件动态网页真实静态预览。模型采用作者原标注，不扩写 astra、6pro 或未经认证的路由身份；MiniMax 看图迭代和 Grok 一次修改均明确记录，不冒充一次生成。昼夜场景、修改前后、同作回复与视频帧不重复计数，已存在 GIF 不重收；另两件有来源过程证据的衍生题如实标明。Chrome 只读核验公开原帖和作者回复，未镜像无许可项目代码或新增 Play，未扩充 Benchmark。原生成日期与被删旧帖日期未知时保留未知，不把重发公开日当新生成日。</p>'
+    about+='<h3>2026-10-02 Reddit 与 X 原帖补档</h3><p>从公开原帖及作者回复补 19 件独立作品，归档 34 份原媒体、忠实裁切和实帧封面（含三份原字节 PNG 规范后缀副本，旧链接保留）：包含两张 2025 年 AI Studio 旧预览、SVG 对照单图、7 份可播放动画／Blender 录屏。双模型视频按明确标签无损拆分，每帧解码哈希与原区域一致；完整对照视频与原图在详情折叠保留。四张同为 high 的免费／付费及题面对照不冒充推理档位，未指定默认条件时只计全部作品；14 张代表进入时间线。另一条 X 动画与已有 Reddit 作品只是编码不同，视觉帧核对后不重计；转载回溯原作者。型号只标 2.5 或 Astra 时不补猜完整名称。Chrome 仅只读公开内容，无代码镜像、Play 或 Benchmark 新增。</p>'
+    about+='<h3>2026-10-02 历史论坛回复与动画</h3><p>七个历史 Reddit 原帖及作者评论、一个固定版本 GitHub 项目核出 13 件独立作品和 13 张时间线代表，含 6 件 2025 年输出及 3 件动画。归档 17 个原媒体、忠实裁切和实帧封面；两个同帖模型按明确标签拆图，完整对照与同作品静态预览在详情折叠。评论中的模型、题面和量化设置逐条核对，不继承楼主未证明的生成条件。旧 GPT-5 及 Gemini 3 Deep Think 转载不重计，四月重用的二月对照不改日期。另一个 X 视频正文与画面模型标签矛盾，整项暂缓，不猜归属或计入总数。Chrome 只读公开内容；无代码镜像、Play 或 Benchmark 新增，模型与生成日期未独立认证。</p>'
+    about+='<h3>2026-10-02 社区动画与档位拆分</h3><p>从公开原帖和本人回复补齐 13 件独立作品、9 张时间线代表；其中 5 段原始动画录屏可在本站播放，3 件来源描述为动画但仅提供静态预览，如实区分。复用旧合集的三段原视频，按明确模型标签拆出单件，旧 ID 与原媒体保持；另归档两段新原视频。五档 Qwen 作品逐条对应同一作者，时间线仅展示 medium，其余仍计全部作品并在详情对照。X 中未经提供商或会话证实的型号仅保留为作者声称，不认证版本或宣传结论。新增 15 份媒体与实帧封面，Luna 封面避开无鹈鹕片头；动态文件前置，播放控件不算可玩。未提供真实输出或完整模型归属的评论留待核验；无代码镜像或 Benchmark 扩充。</p>'
+    about+='<h3>2026-10-02 动画原件与单作品整理</h3><p>原 Opus 5.5 四格录屏按标签拆为四件真实动画，180 帧逐帧像素与源区域一致；旧合集 ID 与完整视频保留但不再重复计数。medium 的详细提示与看图细化不冒充第四种档位，时间线只用原始 medium。另补一件 X 原帖动画静态预览，明确未取得动态文件；本批净增四件独立作品、时间线净增一张。三件已有 Variora 作品复核固定版本 MIT 许可和原代码安全性后，以原字节在本站隔离域播放；暂停与倍速不算可玩，不重复增加总数。保留旧媒体、日期和封面，未扩充 Benchmark。缺少明确模型的另一段新视频暂缓；来源声称的模型与路由不独立认证。</p>'
+    about+='<h3>2026-10-02 动态预览自动播放</h3><p>已有真实动态原件的卡片在进入屏幕时自动播放，时间线、全部作品的三档视图与双语详情共用规则。视频默认静音循环；离开屏幕、后台标签和未展开附件暂停。可一键暂停或恢复，尊重系统减少动画偏好。站内动画源码仍在隔离域，不修改原始字节，不自动跳到源网站；交互详情保留作者操作及游戏状态。仅存静态截图的作品不伪造动画，作品、时间线和 Benchmark 计数不变。</p>'
+    about+='<h3>2026-10-02 X 原帖续查</h3><p>按 Chrome 公开原帖逐件核验，补入 Jack、STEVExKONG 两段 Sonnet 5.5 原始动画和 Nikita 一张单作品预览，共三件独立作品及三张时间线代表。两段原视频完整解码并配真实封面帧，在卡片和详情静音自动播放；只取得截图的作品不伪造动画。日期保留原帖 UTC 公开日，不冒充生成日；模型与档位均按作者标注，未独立认证。Ebi 的同作品转载按视觉对照去重，模型自述截图、引用新闻视频不增加计数。原媒体字节及旧 ID 保留，无代码镜像或 Benchmark 扩充。</p>'
+    about+='<h3>2026-10-02 模型对照拆分与动画续查</h3><p>从 EvoLink 和 Haleemah 公开原帖及作者回复补六件独立作品、六张时间线代表：两段 Blender 动画和四张来源标注 SVG 的静态预览。双模型视频按一致标签拆分，每件 150 帧解码像素与原区域相同；四格原图按明确标签忠实裁切。归档十个媒体与真实封面文件，完整原视频／原图在详情折叠保留，不用拼图作主封面，不把帧或转载重计。日期为原帖 UTC 公开日，模型按来源保留且未独立认证，不转述宣传优劣为本馆结论。只取得静态预览的作品不伪造运动；代码许可未知，不镜像代码或新增 Play，Benchmark 保持。</p>'
+    about+='<h3>2026-10-02 X 较早作品与公开来源核对</h3><p>核验四个 X 作者原帖及 OrcaRouter 同作者公告回复，补五件独立作品、五张时间线代表：一段完整骑行动画、两张明确标签的写实 SVG 预览裁切及两位作者各自的 Space Bunny Alpha 单图。395 帧原视频可解码且真实运动，真实第 1 秒封面和卡片／详情静音自动播放；裁切像素与原图一致，完整对照仅详情附件。保留匿名／路由模型原标签，不猜厂商；原帖 UTC 公开日不是生成日。73 图公开图库另留逐输出日期核验游标，不因数量直接导入，转载和不明模型不重计；无代码镜像、Play 或 Benchmark 扩充。</p>'
+    about+='<h3>2026-10-02 三模型原动画与仓库续查</h3><p>从 Cat 的 X 原帖及本人回复核出四件独立作品：grok-4.7、grok-4.6 与 gemini-3.8-flash 的三段 high 第一次运行原动画，以及 grok-4.6 第二次运行的失败预览。三段各 300 帧无损面板裁切逐帧像素与完整原视频对应，保留真实封面与折叠原视频；第二次运行只有作者上传的静态截图，不补造动画。两次 grok-4.6 都没有可证默认／medium 代表，仅计全部作品，其余两件进入时间线。模型和 UTC 公开日按来源保留，不认证身份或生成日；Grok 实际用了文件工具的说明保留，不声称严格无工具生成。28 份仓库元数据已核，但缺原预览或统一代码许可，另两项目缺权利／模型证据，继续暂缓，不执行或镜像代码。无 Play 或 Benchmark 扩充。</p>'
+    about+='<p>2026-10-02：时间线按有出处的型号首次公开时间排列，卡片保留作品日期；同型号默认展开，可选折叠。详情增加原视频真实多帧与已有多幅图横滑，不增加作品数，右侧信息及说明位置不变。</p>'
     page('/about/','关于与收录方法','Pelican Map 的定位、馆藏范围、统计口径、来源处理与维护记录。',top('把作品留下，把出处讲清楚','ABOUT PELICAN MAP')+'<article class="prose">'+about+'</article>',markdown='/about/index.md')
     from bs4 import BeautifulSoup
     dump(OUT/'about/index.md','# Pelican Map / 鹈鹕骑车标本馆\n\n'+BeautifulSoup(about,'html.parser').get_text('\n',strip=True)+'\n')
@@ -416,6 +445,9 @@ def build_sources(items):
 def build_machine_data(items):
     catalog={'version':CATALOG_VERSION,'updated':UPDATED,'site':BASE,'counts':dict(COUNTS),'countingNote':'counts.cases 是独立作品数（各档位分别计）；counts.timeline 是进化轴代表图数，与作品数不相加。caseVisible=false 的合集/转载/待核对资料和 referenceOnly 评分不进入主列表、总数、编号或默认 API。timelineVisible 控制时间线；kind 是历史来源分类。完整 items 保留旧档案及原图，不能按 items.length 计算案例数。','collectingPolicy':'/data/collecting-policy.json','benchmarkUrl':'/tags/benchmark/','benchmarkDataUrl':'/data/benchmark.json','items':items}
     jdump(OUT/'data/collecting-policy.json',json.loads((ROOT/'site/collecting-policy.json').read_text(encoding='utf8')))
+    catalog['timelineSortBasis']='model-release'
+    catalog['modelReleaseRegistry']='/data/model-releases.json'
+    jdump(OUT/'data/model-releases.json',json.loads((ROOT/'site/model-releases.json').read_text(encoding='utf8')))
     jdump(OUT/'data/catalog.json',catalog)
     jdump(ROOT/'site/catalog.json',catalog)
     dump(OUT/'data/catalog.csv',csv_text(items))

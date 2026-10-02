@@ -35,6 +35,8 @@ Generate an SVG of a pelican riding a bicycle.
 
 Original media and credits stay with each record. Model labels are source-reported, not independently authenticated. [Collection method](https://pelicanmap.aveniqa.com/en/about/).
 
+The timeline groups exact model versions by documented first public release, then orders works by their source dates within each version. Unverified releases remain separate; artwork dates are never replaced. All works are expanded by default, with optional same-version folding. Visible moving previews play silently; detail galleries use real archived frames, not additional works.
+
 ## Explore the field guide
 
 <a href="https://pelicanmap.aveniqa.com/en/"><img src="docs/assets/selected-works-en.png" alt="Selected works with models, dates and credited records" width="100%"></a>
@@ -50,7 +52,9 @@ MCP  https://pelicanmap.aveniqa.com/mcp
      search_specimens · get_specimen · get_timeline
 ```
 
-[JSON](https://pelicanmap.aveniqa.com/en/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/en/data/catalog.csv) · [OpenAPI](https://pelicanmap.aveniqa.com/openapi.json) · [Developer guide](https://pelicanmap.aveniqa.com/en/developers/)
+[JSON](https://pelicanmap.aveniqa.com/en/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/en/data/catalog.csv) · [OpenAPI](https://pelicanmap.aveniqa.com/openapi.json) · [Agent guide](https://pelicanmap.aveniqa.com/en/llms.txt) · [Developer guide](https://pelicanmap.aveniqa.com/en/developers/) · [Integration examples](docs/INTEGRATIONS.md)
+
+Ordinary search sorts artwork dates; `/api/v1/timeline` and `kind=timeline` use model-release order. Their `year` filter means release year (`unknown` for unverified releases). `counts.timeline` is a subset of `counts.cases`; never add the two. Complete exports retain uncounted archives and Benchmark references: inspect `caseVisible`, `timelineVisible` and `referenceOnly`.
 
 ## Run locally
 

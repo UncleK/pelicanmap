@@ -7,6 +7,7 @@ import * as browse from './assets/browse.js';
 const records = Array.from({length: 75}, (_, i) => ({
   id: `case-${i}`, date: `2026-09-${String(i % 30 + 1).padStart(2, '0')}`,
   kind: 'timeline', title: `Pelican ${i}`, model: 'Sol', author: 'Author',
+  modelTimeline:{key:'sol',releaseDate:'2026-09-22',status:'verified-release'},
   notes: '', promptCategory: '', source: 'community', format: 'animation',
   interactive: i < 4, demoUrl: i < 4 ? `https://pelicanmap-demos.aveniqa.com/demos/${i}/` : '',
 }));
@@ -16,6 +17,21 @@ test('timeline defaults to newest and supports old-to-new and year filtering', (
   assert.equal(latest[0].date, '2026-09-30');
   assert.equal(selectRecords(records, {scope: 'timeline', sort: 'oldest'})[0].date, '2026-09-01');
   assert.equal(selectRecords(records, {scope: 'timeline', year: '2025'}).length, 0);
+});
+test('late artwork stays with its model release; unknowns last and folding exact versions only',()=>{
+  const old={...records[0],id:'late-old',date:'2026-10-02',model:'Gemini 3.8 Flash',modelTimeline:{key:'gemini38',releaseDate:'2026-09-02'}};
+  const newer={...records[0],id:'early-new',date:'2026-09-29',model:'GPT-6.1 Sol',modelTimeline:{key:'sol61',releaseDate:'2026-09-29'}};
+  const another={...old,id:'earlier-old',date:'2026-09-03'};
+  const unknown={...old,id:'unknown',model:'Gemini mystery',modelTimeline:{key:'unknown',status:'release-unverified'}};
+  const rows=[old,unknown,newer,another];
+  assert.deepEqual(selectRecords(rows,{scope:'timeline'}).map(x=>x.id),['early-new','late-old','earlier-old','unknown']);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline',sort:'oldest'}).map(x=>x.id),['earlier-old','late-old','early-new','unknown']);
+  assert.equal(selectRecords(rows,{year:'2026'}).length,4);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline',year:'unknown'}).map(x=>x.id),['unknown']);
+  const grouped=browse.groupModelRecords(selectRecords(rows,{scope:'timeline'}));
+  assert.equal(grouped.length,3);
+  assert.equal(grouped.reduce((n,x)=>n+x.modelMembers.length,0),4);
+  assert.equal(rows[0].date,'2026-10-02');
 });
 test('play selects only verified local interactions and collapses shared demos', () => {
   const mixed = [...records, {...records[0], id: 'duplicate'}, {...records[1], id: 'remote', demoUrl: 'https://example.com/game'}];
@@ -64,13 +80,24 @@ test('view label describes the current view in both languages, not the next view
   assert.equal(browse.viewLabel('unknown'),'标准视图');
 });
 
-test('image-only pages contain 50 thumbnails and clamp the last page', () => {
+test('desktop image-only pages match compact row count and clamp the last page', () => {
   assert.equal(paginate(records, 1, 'standard').size, 24);
   assert.equal(paginate(records, 1, 'compact').size, 48);
-  assert.equal(paginate(records, 1, 'images').items.length, 50);
+  assert.equal(paginate(records, 1, 'images').items.length, 60);
   assert.equal(paginate(records, 99, 'images').page, 2);
-  assert.equal(paginate(records, 99, 'images').items.length, 25);
+  assert.equal(paginate(records, 99, 'images').items.length, 15);
   assert.equal(new URL(pageHref('/specimens/',2,{view:'images',year:'2026'}),'https://pelicanmap.aveniqa.com').searchParams.get('view'),'images');
+});
+
+test('image pagination keeps the compact row budget at each responsive density', () => {
+  const many=Array.from({length:251},(_,i)=>({...records[0],id:String(i)}));
+  for(const [width,compactColumns,imageColumns] of [[320,2,4],[390,2,4],[400,2,5],[430,2,5],[720,2,5],[800,3,3],[900,3,3],[1280,4,5]]) {
+    const compact=paginate(many,1,'compact',width), images=paginate(many,1,'images',width);
+    assert.equal(images.size/imageColumns,compact.size/compactColumns,width);
+    const pages=Array.from({length:images.pages},(_,i)=>paginate(many,i+1,'images',width).items).flat();
+    assert.deepEqual(pages.map(x=>x.id),many.map(x=>x.id));
+    assert.equal(paginate(many,999,'images',width).page,images.pages);
+  }
 });
 
 test('image-only cards retain the accessible image link without metadata', () => {
@@ -148,7 +175,7 @@ test('real collage outputs count individually but show seven timeline cards',()=
   const gemini=selectRecords(catalog.items,{scope:'timeline',family:'Gemini',sort:'oldest'});
   assert.ok(gemini.length>10);
   assert.ok(gemini.every(x=>x.modelFamilies.includes('Gemini')));
-  assert.ok(gemini.every((x,i)=>!i || gemini[i-1].date<=x.date));
+  assert.ok(gemini.every((x,i)=>!i || browse.compareTimeline(gemini[i-1],x,'oldest')<=0));
   const html=browse.renderCard(gemini[0],{timeline:true});
   assert.ok(html.includes('timeline-card'));
   assert.ok(html.includes('class="timeline-meta"'));

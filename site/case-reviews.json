@@ -6510,5 +6510,1304 @@
       "https://raw.githubusercontent.com/gepa-ai/gepa/5463a1f5a0880a4dd1330f239870bf647122c329/LICENSE",
       "https://raw.githubusercontent.com/gepa-ai/gepa/5463a1f5a0880a4dd1330f239870bf647122c329/docs/docs/blog/posts/2026-02-18-introducing-optimize-anything/images/claude-opus-initial-pelican.png"
     ]
+  },
+  "niaonao-pelecanus-panel-1-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-2-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-3-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-4-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-5-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-6-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-7-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "niaonao-pelecanus-panel-8-2026-09-11": {
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://github.com/niaonao/pelecanus",
+      "https://github.com/niaonao/pelecanus/commit/c5aed1da23ec715c3d362a35cd7f58de276ba127",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/README.md",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/LICENSE",
+      "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/img/pelicans-riding-comparison.png"
+    ]
+  },
+  "linuxdo-2955601-1-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2955601",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2955601",
+      "https://cdn3.ldstatic.com/original/4X/0/3/a/03a7a2e4319ea864482aa59b4fd0c444a7854dd7.jpeg"
+    ]
+  },
+  "linuxdo-2955601-2-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2955601",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2955601",
+      "https://cdn3.ldstatic.com/original/4X/2/6/f/26ffbb2b9f5703e253645b7eb24d7dadbcd17c19.jpeg"
+    ]
+  },
+  "linuxdo-2955601-3-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2955601",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2955601",
+      "https://cdn3.ldstatic.com/original/4X/7/d/a/7daab95526552a1eeae9c8558a9b786da0773b10.jpeg"
+    ]
+  },
+  "linuxdo-2891201-1-x14m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/4/b/3/4b3d360ffb76fa3ea294415e9f669d817c9c1e9c.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-3-x16m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/5/1/b/51b1af30299fa8fd4bf8255aae8e37551908fb59.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-4-x13m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/3/a/6/3a60ea6d0c357826899cb6c1957e0103073d8e20.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-5-x17m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/a/9/4/a9497eef7cfdb3a62c5e8ea65527aa2acc399063.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-7-x16m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/f/b/2/fb2b45e90f9a0ee3ef2f7e0153ed97f7fd76b630.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-9-x6m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/4/4/b/44b94b277685d8b2665872a558452498fa137bd4.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-10-x16m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/4/d/3/4d34be154acc16d6eda1f0d296fdb76f78a84b87.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-11-x7m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/4/2/3/423591f59565fee715068fead1bab66197c8caa5.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-12-x12m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/0/8/b/08ba578c6d8af764654214e3fc1ca668763da638.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-14-x13m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/0/d/c/0dc02db83c7f9b3aa852fec5861b71fbff31447e.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-2-x16m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/2/0/5/205bfca0fa238dd2b63cfb18821d12434414f713.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-8-x33m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/9/0/a/90a8d8f04d73f00b76c45872939d0faa25f73336.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-13-x10m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/6/2/f/62f7fd677459b3f6472dc6dc0acf9541d55e13f1.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-1-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/1/0/e/10ecaa8605f31f22dfe7bf6009065d562fb1b2b1.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-2-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/7/b/3/7b315e695a5878cc0a0e98ec11a741d0e01a1380.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-3-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/7/b/a/7bae28d18248504665e1f926a3bb88a35a0cd5c8.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-4-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/6/f/f/6ff2ac8da48f7d254e69214762b6089f9c8950d5.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-5-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/f/d/d/fdd01f511063959e06c3386b45117add46d762b3.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-6-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/9/b/e/9be3f2abd9fab67d1705815338621ce30b0d72a6.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-8-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/a/5/0/a5072b6bc661ad8eb25a238374105d1642e3645a.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-7-m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/b/6/f/b6f13fdd15f1c61ea1c76bc6b917be928c2b448f.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-1-l4m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/3/0/b/30bc30e7d46d5dcbf6431a71f8bed167c809ccb2.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-2-l6m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/a/f/0/af08518e5649df8904f0b1fa72ee00be5204f47a.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-3-l2m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/f/e/5/fe526db241a03a064ddacdacd63975b4f4757ad6.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-4-l4m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/c/1/a/c1a523ebed3c182558cef3f53b7994e4bbd56300.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-5-l4m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/5/d/0/5d07bbb15b8af9fbf89c94f3355330d67549a5a2.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-6-l2m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/a/9/a/a9aa761852121fef6ab852ce063176dd8831a275.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-7-l2m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/a/4/d/a4d6677d7a84f2b330200394dd3ce32b98142feb.webp"
+    ],
+    "timelineVisible": false
+  },
+  "linuxdo-2891201-8-l3m-2026-09-11": {
+    "sourceUrl": "https://linux.do/t/topic/2891201",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2891201",
+      "https://cdn3.ldstatic.com/original/4X/4/f/0/4f09ca9d13bac88a23eaade13b6b794378918e49.webp"
+    ],
+    "timelineVisible": false
+  },
+  "simon-opus46-2026-02-05": {
+    "sourceUrl": "https://simonwillison.net/2026/Feb/5/two-new-models/",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://simonwillison.net/2026/Feb/5/two-new-models/",
+      "https://static.simonwillison.net/static/2026/opus-4.6-pelican.png"
+    ]
+  },
+  "simon-gpt53-codex-2026-02-05": {
+    "sourceUrl": "https://simonwillison.net/2026/Feb/5/two-new-models/",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://simonwillison.net/2026/Feb/5/two-new-models/",
+      "https://static.simonwillison.net/static/2026/codex-5.3-pelican.png"
+    ]
+  },
+  "simon-gpt53-codex-spark-2026-02-12": {
+    "sourceUrl": "https://simonwillison.net/2026/Feb/12/codex-spark/",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://simonwillison.net/2026/Feb/12/codex-spark/",
+      "https://static.simonwillison.net/static/2026/gpt-5.3-codex-spark-pelican.png",
+      "https://x.com/simonw/status/2022057896121708735"
+    ]
+  },
+  "simon-gpt53-codex-medium-2026-02-12": {
+    "sourceUrl": "https://simonwillison.net/2026/Feb/12/codex-spark/",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://simonwillison.net/2026/Feb/12/codex-spark/",
+      "https://static.simonwillison.net/static/2026/gpt-5.3-codex-pelican.png",
+      "https://x.com/simonw/status/2022057896121708735"
+    ]
+  },
+  "simon-gemini3-deepthink-enhanced-2026-02-12": {
+    "sourceUrl": "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/",
+    "role": "case",
+    "reason": "Original source date, label-to-output mapping and original media checked; byte and visual deduplication reviewed. Source-reported model and generation date not independently authenticated.",
+    "evidence": [
+      "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/",
+      "https://static.simonwillison.net/static/2026/gemini-3-deep-think-complex-pelican.png",
+      "https://simonwillison.net/2026/Feb/12/gemini-3-deep-think/"
+    ]
+  },
+  "x-2022012222059499949-08e2c688": {
+    "sourceUrl": "https://x.com/simonw/status/2022012222059499949",
+    "role": "case",
+    "reason": "Single source-labelled output; legacy attribution and recorded date retained.",
+    "evidence": [],
+    "fields": {
+      "comparisonType": "prompt"
+    }
+  },
+  "linuxdo-2955601-11-1-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2955601/11",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2955601/11",
+      "https://linux.do/t/topic/2955601",
+      "https://cdn3.ldstatic.com/original/4X/1/a/1/1a1f7cd99009b59fb0e17bf77e8a1c5b7cdb9140.png"
+    ]
+  },
+  "linuxdo-2842901-1-2-2026-09-02": {
+    "sourceUrl": "https://linux.do/t/topic/2842901/1",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2842901/1",
+      "https://linux.do/t/topic/2842901",
+      "https://cdn3.ldstatic.com/original/4X/b/1/7/b17f4bea3bea32256b95745edc214cddec4ad7ff.gif"
+    ]
+  },
+  "linuxdo-2962033-1-3-2026-09-28": {
+    "sourceUrl": "https://linux.do/t/topic/2962033/1",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2962033/1",
+      "https://linux.do/t/topic/2962033",
+      "https://cdn3.ldstatic.com/original/4X/c/6/9/c69e1bf649c61055292d9024e94d249898ece532.webp"
+    ]
+  },
+  "linuxdo-2928427-1-4-2026-09-20": {
+    "sourceUrl": "https://linux.do/t/topic/2928427/1",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2928427/1",
+      "https://linux.do/t/topic/2928427",
+      "https://cdn3.ldstatic.com/original/4X/7/0/c/70c9865c68f86cf7855a60d94fa4fd221dd7becd.jpeg"
+    ]
+  },
+  "linuxdo-2928427-7-7-2026-09-20": {
+    "sourceUrl": "https://linux.do/t/topic/2928427/7",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2928427/7",
+      "https://linux.do/t/topic/2928427",
+      "https://cdn3.ldstatic.com/original/4X/2/c/a/2ca500545aee8075385017495b3b856a4da9fae0.jpeg"
+    ]
+  },
+  "linuxdo-2953221-1-8-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2953221/1",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2953221/1",
+      "https://linux.do/t/topic/2953221",
+      "https://cdn3.ldstatic.com/original/4X/d/1/5/d15829fb044a931ff35c7c1e83910bd77e781216.gif"
+    ]
+  },
+  "linuxdo-2864080-9-13-2026-09-06": {
+    "sourceUrl": "https://linux.do/t/topic/2864080/9",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2864080/9",
+      "https://linux.do/t/topic/2864080",
+      "https://cdn3.ldstatic.com/original/4X/9/d/6/9d68418a39ffb5a603f7618d696d31c75b468f3f.jpeg"
+    ]
+  },
+  "linuxdo-2864080-14-14-2026-09-06": {
+    "sourceUrl": "https://linux.do/t/topic/2864080/14",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2864080/14",
+      "https://linux.do/t/topic/2864080",
+      "https://cdn3.ldstatic.com/original/4X/a/a/3/aa39ba2a5826fe62750d99b4345f95a839609d31.gif"
+    ]
+  },
+  "linuxdo-2864080-15-15-2026-09-06": {
+    "sourceUrl": "https://linux.do/t/topic/2864080/15",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2864080/15",
+      "https://linux.do/t/topic/2864080",
+      "https://cdn3.ldstatic.com/original/4X/0/f/2/0f23736028e7f7458d435e1fa76ca41fd36f5e3d.jpeg"
+    ]
+  },
+  "linuxdo-2864080-16-16-2026-09-06": {
+    "sourceUrl": "https://linux.do/t/topic/2864080/16",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2864080/16",
+      "https://linux.do/t/topic/2864080",
+      "https://cdn3.ldstatic.com/original/4X/d/0/1/d0168f3b6ceae672fd4bc1d6955ffc455e4face6.jpeg",
+      "https://cdn3.ldstatic.com/original/4X/6/0/d/60d799d5b1cdbd08f8c93e48d819b3a581deb0d5.jpeg"
+    ]
+  },
+  "linuxdo-2864080-20-19-2026-09-06": {
+    "sourceUrl": "https://linux.do/t/topic/2864080/20",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2864080/20",
+      "https://linux.do/t/topic/2864080",
+      "https://cdn3.ldstatic.com/original/4X/d/5/c/d5ca1f7c86a6c45edbfb2eb6e25eaa6534d62e69.jpeg",
+      "https://cdn3.ldstatic.com/original/4X/0/d/c/0dcfb82c3b85a99101fbd88a4163aa7d90864e60.jpeg"
+    ]
+  },
+  "linuxdo-2900770-1-20-2026-09-14": {
+    "sourceUrl": "https://linux.do/t/topic/2900770/1",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2900770/1",
+      "https://linux.do/t/topic/2900770",
+      "https://cdn3.ldstatic.com/original/4X/e/a/d/eada494228d6d9ccc8194d46bfdeee3300ba4ccf.webp"
+    ]
+  },
+  "linuxdo-2900770-6-21-2026-09-14": {
+    "sourceUrl": "https://linux.do/t/topic/2900770/6",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2900770/6",
+      "https://linux.do/t/topic/2900770",
+      "https://cdn3.ldstatic.com/original/4X/a/2/8/a282bc4eeb14f3dadbfe2975967a0d78938adbd2.jpeg"
+    ]
+  },
+  "linuxdo-2955601-10-22-2026-09-26": {
+    "sourceUrl": "https://linux.do/t/topic/2955601/10",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://linux.do/t/topic/2955601/10",
+      "https://linux.do/t/topic/2955601",
+      "https://cdn3.ldstatic.com/original/4X/8/0/5/8053c6e2b5fb21ba128e8226812a8217147646e5.jpeg"
+    ]
+  },
+  "x-jaebird-glm53-flash-exl3-2026-10-01": {
+    "sourceUrl": "https://x.com/jaebird/status/2105728373704040691",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://x.com/jaebird/status/2105728373704040691",
+      "https://x.com/jaebird/status/2105729201894457605",
+      "https://x.com/jaebird/status/2105729557328548280",
+      "https://video.twimg.com/amplify_video/2105727845955674112/vid/avc1/1022x770/WRIqJIYoAfT_1Is9.mp4?tag=29"
+    ]
+  },
+  "x-anonymernutze12-fable55-high-2026-10-01": {
+    "sourceUrl": "https://x.com/AnonymerNutze12/status/2105740440385499295",
+    "role": "case",
+    "reason": "Agent checked the original public source date, explicit model label, output correspondence, genuine decoded media, exact hashes and visual nearest-neighbour duplicates. Source labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://x.com/AnonymerNutze12/status/2105740440385499295",
+      "https://x.com/AnonymerNutze12/status/2105739450831495379",
+      "https://pbs.twimg.com/card_img/2105739381222903808/p3jFdw_o?format=jpg&name=900x900"
+    ]
+  },
+  "x-bruce-sol61-high-2026-09-30": {
+    "sourceUrl": "https://x.com/BruceYcZhao/status/2105114783884448110",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/BruceYcZhao/status/2105114783884448110",
+      "https://pbs.twimg.com/media/HTbet8kbEAAAh6h.jpg?name=orig"
+    ]
+  },
+  "x-chase-sonnet55-free-basic-2026-09-29": {
+    "sourceUrl": "https://x.com/chaseleantj/status/2105015157873115227",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/chaseleantj/status/2105015157873115227",
+      "https://pbs.twimg.com/media/HTaDr8MWUAAa8zq.jpg?name=orig",
+      "https://x.com/chaseleantj/status/2105015430142369886"
+    ],
+    "timelineVisible": false
+  },
+  "x-chase-sonnet55-free-advanced-2026-09-29": {
+    "sourceUrl": "https://x.com/chaseleantj/status/2105015157873115227",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/chaseleantj/status/2105015157873115227",
+      "https://pbs.twimg.com/media/HTaDr8MWUAAa8zq.jpg?name=orig",
+      "https://x.com/chaseleantj/status/2105015430142369886"
+    ],
+    "timelineVisible": false
+  },
+  "x-chase-sonnet55-paid-basic-2026-09-29": {
+    "sourceUrl": "https://x.com/chaseleantj/status/2105015157873115227",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/chaseleantj/status/2105015157873115227",
+      "https://pbs.twimg.com/media/HTaDr8MWUAAa8zq.jpg?name=orig",
+      "https://x.com/chaseleantj/status/2105015430142369886"
+    ],
+    "timelineVisible": false
+  },
+  "x-chase-sonnet55-paid-advanced-2026-09-29": {
+    "sourceUrl": "https://x.com/chaseleantj/status/2105015157873115227",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/chaseleantj/status/2105015157873115227",
+      "https://pbs.twimg.com/media/HTaDr8MWUAAa8zq.jpg?name=orig",
+      "https://x.com/chaseleantj/status/2105015430142369886"
+    ],
+    "timelineVisible": false
+  },
+  "x-zeos-sonnet5-high-2026-09-29": {
+    "sourceUrl": "https://x.com/ZeosAlex3154/status/2104821445775986874",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/ZeosAlex3154/status/2104821445775986874",
+      "https://pbs.twimg.com/media/HTXT4hGWkAA8Kgk.jpg?name=orig"
+    ]
+  },
+  "x-zeos-sonnet55-high-2026-09-29": {
+    "sourceUrl": "https://x.com/ZeosAlex3154/status/2104821445775986874",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/ZeosAlex3154/status/2104821445775986874",
+      "https://pbs.twimg.com/media/HTXT4hGWkAA8Kgk.jpg?name=orig"
+    ]
+  },
+  "x-zeos-opus5-high-2026-09-29": {
+    "sourceUrl": "https://x.com/ZeosAlex3154/status/2104821445775986874",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/ZeosAlex3154/status/2104821445775986874",
+      "https://pbs.twimg.com/media/HTXT4hGWkAA8Kgk.jpg?name=orig"
+    ]
+  },
+  "x-zeos-opus55-high-2026-09-29": {
+    "sourceUrl": "https://x.com/ZeosAlex3154/status/2104821445775986874",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/ZeosAlex3154/status/2104821445775986874",
+      "https://pbs.twimg.com/media/HTXT4hGWkAA8Kgk.jpg?name=orig"
+    ]
+  },
+  "x-alex-sol61-animation-2026-09-29": {
+    "sourceUrl": "https://x.com/alexmichaelio/status/2105025337432408405",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/alexmichaelio/status/2105025337432408405",
+      "https://video.twimg.com/amplify_video/2105024780164284416/vid/avc1/800x1070/le6n2yIKvFfXGpuv.mp4?tag=29",
+      "https://x.com/alexmichaelio/status/2105073814849864172"
+    ]
+  },
+  "x-alex-sol6-animation-2026-09-29": {
+    "sourceUrl": "https://x.com/alexmichaelio/status/2105025337432408405",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/alexmichaelio/status/2105025337432408405",
+      "https://video.twimg.com/amplify_video/2105024780164284416/vid/avc1/800x1070/le6n2yIKvFfXGpuv.mp4?tag=29",
+      "https://x.com/alexmichaelio/status/2105073814849864172"
+    ]
+  },
+  "reddit-fun-meaning-opus55-blender-2026-09-23": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+      "https://v.redd.it/h4rh7k640brh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/comment/pbm7tt0/"
+    ]
+  },
+  "reddit-fun-meaning-sol6-blender-2026-09-23": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/opus_55_vs_gpt6_sol_3d_pelican_riding_bike_test/",
+      "https://v.redd.it/h4rh7k640brh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/ClaudeAI/comments/1woc97l/comment/pbm7tt0/"
+    ]
+  },
+  "x-keth-space-bunny-alpha-animation-2026-09-30": {
+    "sourceUrl": "https://x.com/7_letsi/status/2105139665774792776",
+    "role": "context",
+    "reason": "Excluded from the public artwork collection and timeline at the user's direct request on 2026-10-02: the Android screen recording is dominated by scrolling, with little pelican content. Stable identity, source evidence and original media remain archived; not an additional artwork.",
+    "evidence": [
+      "https://x.com/7_letsi/status/2105139665774792776",
+      "https://video.twimg.com/amplify_video/2105139451512987648/vid/avc1/560x1280/jlS3OBWPJ__h6JcQ.mp4?tag=29"
+    ],
+    "timelineVisible": false
+  },
+  "x-lumina-sonnet55-animation-2026-09-29": {
+    "sourceUrl": "https://x.com/LuminaBench/status/2104903655539290398",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://x.com/LuminaBench/status/2104903655539290398",
+      "https://video.twimg.com/amplify_video/2104902761380765696/vid/avc1/1882x1280/2m3P0yZRvHz-YvYR.mp4?tag=29",
+      "https://x.com/SahilExec/status/2104918794468774341",
+      "https://x.com/LuminaBench/status/2104903741136662889"
+    ]
+  },
+  "reddit-aholekevin-astra-max-stick-2026-09-26": {
+    "sourceUrl": "https://www.reddit.com/r/codex/comments/1wqqhy9/the_pelican_testextended_version/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/codex/comments/1wqqhy9/the_pelican_testextended_version/",
+      "https://v.redd.it/hexjuhiy8vrh1/CMAF_720.mp4"
+    ]
+  },
+  "reddit-jonomacd-25-preview1-2025-03-25": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1jjobaz/pelican_on_a_bicycle_i_think_25_is_the_new_winner/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1jjobaz/pelican_on_a_bicycle_i_think_25_is_the_new_winner/",
+      "https://preview.redd.it/pelican-on-a-bicycle-i-think-2-5-is-the-new-winner-v0-e5lycnz2avqe1.png?width=1536&format=png&auto=webp&s=32dbb5d0bb3c319c4e32ecdbac1cae71e17e773d"
+    ]
+  },
+  "reddit-jonomacd-25-preview2-2025-03-25": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1jjobaz/pelican_on_a_bicycle_i_think_25_is_the_new_winner/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1jjobaz/pelican_on_a_bicycle_i_think_25_is_the_new_winner/",
+      "https://preview.redd.it/pelican-on-a-bicycle-i-think-2-5-is-the-new-winner-v0-tnfaqpy5avqe1.png?width=920&format=png&auto=webp&s=4530f0c02f51e3b4db0bd2cd32ddf89fdaae7690"
+    ]
+  },
+  "reddit-nofiler-opus55-max-2026-09-22": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wng9m9/pelican_riding_a_bicycle_on_opus_55_max/",
+    "role": "case",
+    "reason": "Agent verified the public original, UTC posting date, explicit model-to-output mapping, decoded media, rights/safety boundary and hashes; reviewed nearest existing media and excluded the same animation under a different encoding. Source labels are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wng9m9/pelican_riding_a_bicycle_on_opus_55_max/",
+      "https://preview.redd.it/pelican-riding-a-bicycle-on-opus-5-5-max-v0-v989qzfdy3rh1.png?width=800&format=png&auto=webp&s=98b66cbd19c8751c2c829a435e16fc846747a93f"
+    ]
+  },
+  "github-toan-opus55-cursor-animation-2026-09-23": {
+    "sourceUrl": "https://github.com/toankhontech/pelican-test-opus55",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://github.com/toankhontech/pelican-test-opus55",
+      "https://raw.githubusercontent.com/toankhontech/pelican-test-opus55/33fcbe36b0d64aba118b9f2031a81f9e5b961c19/pelican-bicycle.mp4",
+      "https://github.com/toankhontech/pelican-test-opus55/commit/33fcbe36b0d64aba118b9f2031a81f9e5b961c19"
+    ]
+  },
+  "reddit-arduino-gemini25-pro-2025-09-29": {
+    "sourceUrl": "https://www.reddit.com/r/GeminiAI/comments/1nturj2/gemini_25_pro_vs_sonnet_45_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/gemini_25_pro_vs_sonnet_45_pelican_test/",
+      "https://i.redd.it/cwjp192i96sf1.png",
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/comment/ngwjbe4/",
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/comment/ngwrcxc/"
+    ]
+  },
+  "reddit-arduino-sonnet45-2025-09-29": {
+    "sourceUrl": "https://www.reddit.com/r/GeminiAI/comments/1nturj2/gemini_25_pro_vs_sonnet_45_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/gemini_25_pro_vs_sonnet_45_pelican_test/",
+      "https://i.redd.it/8ql4g92i96sf1.png",
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/comment/ngwjbe4/",
+      "https://www.reddit.com/r/GeminiAI/comments/1nturj2/comment/ngwrcxc/"
+    ]
+  },
+  "reddit-miserableweek-gemini30-pro-2025-11-18": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1p0ipo4/gemini_30_pro_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1p0ipo4/gemini_30_pro_pelican_test/",
+      "https://preview.redd.it/gemini-3-0-pro-pelican-test-v0-dv7px9ktz12g1.png?width=583&format=png&auto=webp&s=552dfa1b2ca6d1001462fc16580fcc652b045dad"
+    ]
+  },
+  "reddit-ivampirepapi-gemini30-pro-2025-11-18": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj57m7/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj57m7/",
+      "https://preview.redd.it/gemini-3-0-pro-pelican-test-v0-rldfgm1u222g1.png?width=796&format=png&auto=webp&s=a4267e316a6a1aad712c52f2c4796ceef3966d68"
+    ]
+  },
+  "reddit-ivampirepapi-gpt51-thinking-2025-11-18": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj5o95/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj5o95/",
+      "https://preview.redd.it/gemini-3-0-pro-pelican-test-v0-8tjv8mg8322g1.png?width=392&format=png&auto=webp&s=045b333070552146751920e792daacc9f7bfe05f"
+    ]
+  },
+  "reddit-ivampirepapi-kimi-k2-thinking-2025-11-18": {
+    "sourceUrl": "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj5rel/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/Bard/comments/1p0ipo4/comment/npj5rel/",
+      "https://preview.redd.it/gemini-3-0-pro-pelican-test-v0-2dx48ova322g1.png?width=807&format=png&auto=webp&s=5db8ae775fb656cb298b2cef1d5a1c46e14d8f1c"
+    ]
+  },
+  "reddit-fc6808-opus45-2026-02-06": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1qx9fxa/opus_46_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1qx9fxa/opus_46_pelican_test/",
+      "https://preview.redd.it/opus-4-6-pelican-test-v0-nl4gmw8rbthg1.png?width=2512&format=png&auto=webp&s=d294554cd53b4203d8ccf63f718138d2760fd988"
+    ]
+  },
+  "reddit-fc6808-opus46-2026-02-06": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1qx9fxa/opus_46_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1qx9fxa/opus_46_pelican_test/",
+      "https://preview.redd.it/opus-4-6-pelican-test-v0-nl4gmw8rbthg1.png?width=2512&format=png&auto=webp&s=d294554cd53b4203d8ccf63f718138d2760fd988"
+    ]
+  },
+  "reddit-zaddyzad-chatgpt52-thinking-2026-02-13": {
+    "sourceUrl": "https://www.reddit.com/r/singularity/comments/1r3bl58/comment/o53ubee/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/singularity/comments/1r3bl58/comment/o53ubee/",
+      "https://preview.redd.it/gemini-3-deep-think-svg-pelican-riding-a-bicycle-v0-3zkob298r6jg1.png?width=1200&format=png&auto=webp&s=b02c2b1bf9ff0c72e64955946b3fff8bee80d3e5"
+    ]
+  },
+  "reddit-fc6808-opus47-2026-04-16": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1snakvf/opus_47_pelican_test/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1snakvf/opus_47_pelican_test/",
+      "https://preview.redd.it/opus-4-7-pelican-test-v0-190vbh4t8lvg1.png?width=1414&format=png&auto=webp&s=eff727d1a969b3e5a0c1287922f88fd55141b542"
+    ]
+  },
+  "reddit-beamsters-qwen38-27b-bf16-animation-2026-08-14": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/asked_qwen3827b_to_draw_a_pelican_it_proceeded_to/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/asked_qwen3827b_to_draw_a_pelican_it_proceeded_to/",
+      "https://v.redd.it/cil2mxob5djh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3o873q/"
+    ]
+  },
+  "reddit-l33tmt-qwen38-27b-q5-k-xl-animation-2026-08-14": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3o7sng/",
+    "role": "case",
+    "reason": "Maintaining agent checked public original and author replies, precise UTC publication date, explicit model-to-output labels, original bytes/full decode, faithful crops and nearest archived media; model labels and generation dates are not independently authenticated.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3o7sng/",
+      "https://i.redd.it/q28tk7527djh1.gif"
+    ]
+  },
+  "reddit-cipgysmo-qwen38-27b-q8-2026-08-14": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+      "https://i.redd.it/w0l4wq8v4djh1.jpeg",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p3o5i27/"
+    ]
+  },
+  "reddit-zerato9000-qwen38-q8-ollama-2026-08-14": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p3pubyv/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p3pubyv/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-evlwqtbpgejh1.png?width=1248&format=png&auto=webp&s=b55849de3ede3b820869d3a692d7c999303a0ff2"
+    ]
+  },
+  "reddit-maximumwishbone-qwen38-q6-none-2026-08-19": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-0jwf18ydwakh1.png?width=848&format=png&auto=webp&s=ddf822c8bc2239429c26c4bbbe5114806822dd83",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/"
+    ]
+  },
+  "reddit-maximumwishbone-qwen38-q6-low-2026-08-19": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l593l/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-rddc2wrnwakh1.png?width=874&format=png&auto=webp&s=c455c4be14274a4eb4527466f3ccabe8adc6a079",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l593l/"
+    ]
+  },
+  "reddit-maximumwishbone-qwen38-q6-medium-2026-08-19": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l5be9/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-7m1lyb8rwakh1.png?width=629&format=png&auto=webp&s=8b571c4771520340307e9cacbbe7e12515e02af4",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l5be9/"
+    ]
+  },
+  "reddit-maximumwishbone-qwen38-q6-high-2026-08-19": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l5dgv/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-cqacq7buwakh1.png?width=892&format=png&auto=webp&s=ddcd99b80aa39f4b33f109f3e5d31c9834b5a082",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l5dgv/"
+    ]
+  },
+  "reddit-maximumwishbone-qwen38-q6-xhigh-2026-08-19": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/qwen_38_27b_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l693x/",
+      "https://preview.redd.it/qwen-3-8-27b-pelican-test-v0-1w9ph6z4yakh1.png?width=890&format=png&auto=webp&s=191db31238eb3c57672ed064be503ddafd0d0426",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l56ss/",
+      "https://www.reddit.com/r/LocalLLM/comments/1vob5yg/comment/p4l693x/"
+    ]
+  },
+  "reddit-lowercupcake-opus55-xhigh-animation-2026-09-22": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1wnnxjv/opus_55_xhigh_pelican_test/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1wnnxjv/opus_55_xhigh_pelican_test/",
+      "https://v.redd.it/9rpfj0c2c5rh1/CMAF_720.mp4"
+    ]
+  },
+  "reddit-hurdurdur7-qwen38-q8-animation-2026-08-14": {
+    "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3p3y5l/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3p3y5l/",
+      "https://v.redd.it/link/1vob9ch/asset/u3s2gee2wdjh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/comment/p3pc2rc/"
+    ]
+  },
+  "reddit-emu001-sol-max-stick-animation-2026-09-30": {
+    "sourceUrl": "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+      "https://v.redd.it/link/1wu0ilx/asset/1ga7kahrmmsh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/comment/pcyylyw/"
+    ]
+  },
+  "reddit-emu001-astra-max-stick-animation-2026-09-30": {
+    "sourceUrl": "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+      "https://v.redd.it/link/1wu0ilx/asset/bpahzrzinmsh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/comment/pcyylyw/"
+    ]
+  },
+  "reddit-emu001-luna-max-stick-animation-2026-09-30": {
+    "sourceUrl": "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/the_pelican_bicycle_test_gpt_vs_claude_version/",
+      "https://v.redd.it/link/1wu0ilx/asset/fj78thkmnmsh1/CMAF_720.mp4",
+      "https://www.reddit.com/r/codex/comments/1wu0ilx/comment/pcyylyw/"
+    ]
+  },
+  "x-can-gemini30-pro-ga-claim-2026-02-05": {
+    "sourceUrl": "https://x.com/marmaduke091/status/2019253815204065534",
+    "role": "case",
+    "reason": "Agent verified the original public post and author replies, source UTC timestamps, explicit model/output mapping, original bytes/full decode, all archived exact hashes and nearest normalized previews. Screenshots are explicitly preview-only; no upstream code is executed.",
+    "evidence": [
+      "https://x.com/marmaduke091/status/2019253815204065534",
+      "https://pbs.twimg.com/media/HAXUmtuXQAAXgNp?format=jpg&name=900x900",
+      "https://x.com/marmaduke091/status/2019253377511608654"
+    ]
+  },
+  "reddit-kylmawurr-opus55-medium-2026-09-27": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+    "role": "case",
+    "reason": "Maintaining agent verified the public original, precise UTC posting time, source model and setting labels, original bytes, full decode and exact cropped pixels; compared 1221 archived visuals and hashes. Iterative conditions and unverified routing are explicit.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+      "https://v.redd.it/w5z3k621h0sh1"
+    ]
+  },
+  "reddit-kylmawurr-opus55-high-2026-09-27": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+    "role": "case",
+    "reason": "Maintaining agent verified the public original, precise UTC posting time, source model and setting labels, original bytes, full decode and exact cropped pixels; compared 1221 archived visuals and hashes. Iterative conditions and unverified routing are explicit.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+      "https://v.redd.it/w5z3k621h0sh1"
+    ]
+  },
+  "reddit-kylmawurr-opus55-xhigh-2026-09-27": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+    "role": "case",
+    "reason": "Maintaining agent verified the public original, precise UTC posting time, source model and setting labels, original bytes, full decode and exact cropped pixels; compared 1221 archived visuals and hashes. Iterative conditions and unverified routing are explicit.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+      "https://v.redd.it/w5z3k621h0sh1"
+    ]
+  },
+  "reddit-kylmawurr-opus55-medium-refined-2026-09-27": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+    "role": "case",
+    "reason": "Maintaining agent verified the public original, precise UTC posting time, source model and setting labels, original bytes, full decode and exact cropped pixels; compared 1221 archived visuals and hashes. Iterative conditions and unverified routing are explicit.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+      "https://v.redd.it/w5z3k621h0sh1"
+    ]
+  },
+  "x-olddonkey-fable55-max-2026-10-02": {
+    "sourceUrl": "https://x.com/olddonkeyblog/status/2105842745189556672",
+    "role": "case",
+    "reason": "Maintaining agent verified the public original, precise UTC posting time, source model and setting labels, original bytes, full decode and exact cropped pixels; compared 1221 archived visuals and hashes. Iterative conditions and unverified routing are explicit.",
+    "evidence": [
+      "https://x.com/olddonkeyblog/status/2105842745189556672",
+      "https://pbs.twimg.com/media/HTl00ScaUAACRpm?format=jpg&name=orig"
+    ]
+  },
+  "reddit-kylmawurr-claude-opus-5-5-2026-09-27": {
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/",
+    "role": "context",
+    "reason": "Four explicitly labelled independent outputs are now archived individually. Preserve this original four-panel recording and legacy ID as uncounted source context; do not count the composite again.",
+    "evidence": [
+      "https://www.reddit.com/r/claude/comments/1wrdd57/classic_pelican_on_a_bicycle_test_with_opus_55_at/"
+    ]
+  },
+  "x-jacksaisites-sonnet55-animation-2026-09-28": {
+    "sourceUrl": "https://x.com/JacksAISites/status/2104661153750102472",
+    "role": "case",
+    "reason": "Maintaining agent verified the signed-in public original and author label, source UTC publication timestamp, single-work correspondence, full original-video decode/nonblank frame, pinned byte hashes and visual nearest neighbours across 1227 archived media. No code mirrored or backend identity inferred.",
+    "evidence": [
+      "https://x.com/JacksAISites/status/2104661153750102472",
+      "https://video.twimg.com/amplify_video/2104661133785223168/vid/avc1/760x600/y5pxlNwdN7FlnajC.mp4?tag=29"
+    ]
+  },
+  "x-stevexkong-sonnet55-max-animation-2026-09-28": {
+    "sourceUrl": "https://x.com/STEVExKONG/status/2104603873436684779",
+    "role": "case",
+    "reason": "Maintaining agent verified the signed-in public original and author label, source UTC publication timestamp, single-work correspondence, full original-video decode/nonblank frame, pinned byte hashes and visual nearest neighbours across 1227 archived media. No code mirrored or backend identity inferred.",
+    "evidence": [
+      "https://x.com/STEVExKONG/status/2104603873436684779",
+      "https://video.twimg.com/amplify_video/2104603862137237504/vid/avc1/960x720/2PlH_Jd3W7-U7mIr.mp4?tag=29"
+    ]
+  },
+  "x-fluxxrider-sonnet55-preview-2026-09-28": {
+    "sourceUrl": "https://x.com/fluxxrider/status/2104581818225963373",
+    "role": "case",
+    "reason": "Maintaining agent verified the signed-in public original and author label, source UTC publication timestamp, single-work correspondence, full original-video decode/nonblank frame, pinned byte hashes and visual nearest neighbours across 1227 archived media. No code mirrored or backend identity inferred.",
+    "evidence": [
+      "https://x.com/fluxxrider/status/2104581818225963373",
+      "https://pbs.twimg.com/media/HTT6AYkasAATQ_B.jpg?name=orig"
+    ]
+  },
+  "x-evolink-opus55-blender-2026-09-27": {
+    "sourceUrl": "https://x.com/EvoLinkAi/status/2104200810293014713",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/EvoLinkAi/status/2104200810293014713",
+      "https://video.twimg.com/amplify_video/2104200778273677312/vid/avc1/2160x1080/KyfoSMm0NQDFCZH8.mp4?tag=29"
+    ]
+  },
+  "x-evolink-sol6-blender-2026-09-27": {
+    "sourceUrl": "https://x.com/EvoLinkAi/status/2104200810293014713",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/EvoLinkAi/status/2104200810293014713",
+      "https://video.twimg.com/amplify_video/2104200778273677312/vid/avc1/2160x1080/KyfoSMm0NQDFCZH8.mp4?tag=29"
+    ]
+  },
+  "x-haleemah-sonnet5-svg-preview-2026-09-28": {
+    "sourceUrl": "https://x.com/Haleeeemahh/status/2104640539958333914",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/Haleeeemahh/status/2104640539958333914",
+      "https://pbs.twimg.com/media/HTUvaUiXQAAjiUg.jpg?name=orig",
+      "https://x.com/Haleeeemahh/status/2104640549554933860"
+    ]
+  },
+  "x-haleemah-sonnet55-svg-preview-2026-09-28": {
+    "sourceUrl": "https://x.com/Haleeeemahh/status/2104640539958333914",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/Haleeeemahh/status/2104640539958333914",
+      "https://pbs.twimg.com/media/HTUvaUiXQAAjiUg.jpg?name=orig",
+      "https://x.com/Haleeeemahh/status/2104640549554933860"
+    ]
+  },
+  "x-haleemah-opus5-svg-preview-2026-09-28": {
+    "sourceUrl": "https://x.com/Haleeeemahh/status/2104640539958333914",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/Haleeeemahh/status/2104640539958333914",
+      "https://pbs.twimg.com/media/HTUvaUiXQAAjiUg.jpg?name=orig",
+      "https://x.com/Haleeeemahh/status/2104640549554933860"
+    ]
+  },
+  "x-haleemah-opus55-svg-preview-2026-09-28": {
+    "sourceUrl": "https://x.com/Haleeeemahh/status/2104640539958333914",
+    "role": "case",
+    "reason": "Agent read the public original and author reply in signed-in Chrome, verified UTC posting time and explicit model/panel labels, pinned original bytes, full decode and faithful crop hashes/pixels. Nearest previews among 1230 archived files were visually reviewed; prior Blender recordings were compared separately. Models and generation dates are not independently authenticated. No code mirrored.",
+    "evidence": [
+      "https://x.com/Haleeeemahh/status/2104640539958333914",
+      "https://pbs.twimg.com/media/HTUvaUiXQAAjiUg.jpg?name=orig",
+      "https://x.com/Haleeeemahh/status/2104640549554933860"
+    ]
+  },
+  "x-dewey-astra-2026-09-24": {
+    "sourceUrl": "https://x.com/deweytn/status/2103166793812693348",
+    "role": "case",
+    "reason": "Public original/parent conversation read in signed-in Chrome; source-reported model mapping and UTC publication date verified, actual media decoded and visually checked. Exact hashes, source URLs and nearest previews among 1237 archived files reviewed; no duplicate found. Generation dates and model identity are not independently authenticated; no code mirror.",
+    "evidence": [
+      "https://x.com/deweytn/status/2103166793812693348",
+      "https://pbs.twimg.com/media/HS_yiqWXYAAoPDr.png?name=orig"
+    ]
+  },
+  "x-dewey-opus55-2026-09-24": {
+    "sourceUrl": "https://x.com/deweytn/status/2103166793812693348",
+    "role": "case",
+    "reason": "Public original/parent conversation read in signed-in Chrome; source-reported model mapping and UTC publication date verified, actual media decoded and visually checked. Exact hashes, source URLs and nearest previews among 1237 archived files reviewed; no duplicate found. Generation dates and model identity are not independently authenticated; no code mirror.",
+    "evidence": [
+      "https://x.com/deweytn/status/2103166793812693348",
+      "https://pbs.twimg.com/media/HS_yiqWXYAAoPDr.png?name=orig"
+    ]
+  },
+  "x-adam-space-bunny-2026-09-23": {
+    "sourceUrl": "https://x.com/AdamHoltererer/status/2102811081421050335",
+    "role": "case",
+    "reason": "Public original/parent conversation read in signed-in Chrome; source-reported model mapping and UTC publication date verified, actual media decoded and visually checked. Exact hashes, source URLs and nearest previews among 1237 archived files reviewed; no duplicate found. Generation dates and model identity are not independently authenticated; no code mirror.",
+    "evidence": [
+      "https://x.com/AdamHoltererer/status/2102811081421050335",
+      "https://pbs.twimg.com/media/HS6viImX0AA_rAZ.jpg?name=orig"
+    ]
+  },
+  "x-ishan-space-bunny-2026-09-23": {
+    "sourceUrl": "https://x.com/IshanJX/status/2102777600200642969",
+    "role": "case",
+    "reason": "Public original/parent conversation read in signed-in Chrome; source-reported model mapping and UTC publication date verified, actual media decoded and visually checked. Exact hashes, source URLs and nearest previews among 1237 archived files reviewed; no duplicate found. Generation dates and model identity are not independently authenticated; no code mirror.",
+    "evidence": [
+      "https://x.com/IshanJX/status/2102777600200642969",
+      "https://pbs.twimg.com/media/HS6RE8zacAAUVvW.jpg?name=orig"
+    ]
+  },
+  "x-orca-saq2-2026-09-24": {
+    "sourceUrl": "https://x.com/OrcaRouter/status/2103160932461666658",
+    "role": "case",
+    "reason": "Public original/parent conversation read in signed-in Chrome; source-reported model mapping and UTC publication date verified, actual media decoded and visually checked. Exact hashes, source URLs and nearest previews among 1237 archived files reviewed; no duplicate found. Generation dates and model identity are not independently authenticated; no code mirror.",
+    "evidence": [
+      "https://x.com/OrcaRouter/status/2103160932461666658",
+      "https://video.twimg.com/amplify_video/2103160821874630656/vid/avc1/1280x910/z3Y9Ty9Wl5T0Y4QF.mp4?tag=29",
+      "https://x.com/OrcaRouter/status/2103144808412037578"
+    ]
+  },
+  "x-cat-grok47-run1-2026-10-02": {
+    "sourceUrl": "https://x.com/sinoziqi/status/2105932353763688777",
+    "role": "case",
+    "reason": "Public original and same-author reply read in signed-in Chrome; explicit video panel and run labels verified. Complete original recording and all 300 frames of each lossless crop decode with pixel-identical frame hashes. SHA-256 and nearest visual previews among 1243 archived files reviewed; no prior output match. No default of the grok-4.6 repeat runs inferred, no code mirrored.",
+    "evidence": [
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://video.twimg.com/amplify_video/2105932180140576768/vid/avc1/1280x480/gbcEuEpT6GVGnfgu.mp4?tag=29"
+    ]
+  },
+  "x-cat-grok46-run1-2026-10-02": {
+    "sourceUrl": "https://x.com/sinoziqi/status/2105932353763688777",
+    "role": "case",
+    "reason": "Public original and same-author reply read in signed-in Chrome; explicit video panel and run labels verified. Complete original recording and all 300 frames of each lossless crop decode with pixel-identical frame hashes. SHA-256 and nearest visual previews among 1243 archived files reviewed; no prior output match. No default of the grok-4.6 repeat runs inferred, no code mirrored.",
+    "evidence": [
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://video.twimg.com/amplify_video/2105932180140576768/vid/avc1/1280x480/gbcEuEpT6GVGnfgu.mp4?tag=29"
+    ]
+  },
+  "x-cat-gemini38-flash-run1-2026-10-02": {
+    "sourceUrl": "https://x.com/sinoziqi/status/2105932353763688777",
+    "role": "case",
+    "reason": "Public original and same-author reply read in signed-in Chrome; explicit video panel and run labels verified. Complete original recording and all 300 frames of each lossless crop decode with pixel-identical frame hashes. SHA-256 and nearest visual previews among 1243 archived files reviewed; no prior output match. No default of the grok-4.6 repeat runs inferred, no code mirrored.",
+    "evidence": [
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://video.twimg.com/amplify_video/2105932180140576768/vid/avc1/1280x480/gbcEuEpT6GVGnfgu.mp4?tag=29"
+    ]
+  },
+  "x-cat-grok46-run2-2026-10-02": {
+    "sourceUrl": "https://x.com/sinoziqi/status/2105932749106208867",
+    "role": "case",
+    "reason": "Public original and same-author reply read in signed-in Chrome; explicit video panel and run labels verified. Complete original recording and all 300 frames of each lossless crop decode with pixel-identical frame hashes. SHA-256 and nearest visual previews among 1243 archived files reviewed; no prior output match. No default of the grok-4.6 repeat runs inferred, no code mirrored.",
+    "evidence": [
+      "https://x.com/sinoziqi/status/2105932749106208867",
+      "https://x.com/sinoziqi/status/2105932353763688777",
+      "https://pbs.twimg.com/media/HTnGm4mWAAArivz.png?name=orig"
+    ]
   }
 }

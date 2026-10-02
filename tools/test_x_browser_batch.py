@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 from bs4 import BeautifulSoup
+from archival_test_assertions import reviewed_context_change
 ROOT=Path(__file__).resolve().parents[1]
 AUDIT=ROOT/'pelican-archive/research/2026-10-01-x-browser-batch'
 CAT=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
@@ -49,6 +50,7 @@ class XBrowserBatchTests(unittest.TestCase):
   self.assertEqual(CAT['counts']['referenceRecords'],before['counts']['referenceRecords'])
   for x in before['items']:
    for key in ['date','model','author','sourceUrl','media','thumbnail','caseVisible','timelineVisible']:
+    if reviewed_context_change(self,x,BY[x['id']],key,BY):continue
     self.assertEqual(x.get(key),BY[x['id']].get(key),(x['id'],key))
 
 if __name__=='__main__':unittest.main()

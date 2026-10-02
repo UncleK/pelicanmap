@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {safeName,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord} from './import_collection_batch.mjs';
+import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord} from './import_collection_batch.mjs';
+import sharp from 'sharp';
 
 const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/source',date:'2026-07-29',model:'Source-model-label',author:'Author',format:'svg',unitType:'single-model-output',modelToMediaVerified:true,
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
@@ -10,6 +11,15 @@ const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwi
 test('files cannot escape the batch archive',()=>{
   assert.equal(safeName('model-sample-01.svg'),'model-sample-01.svg');
   for(const name of ['../test.svg','a/test.png','C:/test.png','.svg','test.html'])assert.throws(()=>safeName(name));
+});
+test('decoded image formats determine filenames, not CDN query hints',async()=>{
+  const bytes=await sharp({create:{width:16,height:16,channels:3,background:'#168ab2'}}).png().toBuffer();
+  const metadata=await sharp(bytes).metadata();
+  assert.doesNotThrow(()=>validateImageExtension('reddit-preview.png',metadata));
+  for(const filename of ['reddit-preview.webp','reddit-preview.jpg','reddit-preview.gif','reddit-preview.mp4'])assert.throws(()=>validateImageExtension(filename,metadata));
+  assert.doesNotThrow(()=>validateImageExtension('source.JPG',{format:'jpeg'}));
+  assert.doesNotThrow(()=>validateImageExtension('source.jpeg',{format:'jpeg'}));
+  assert.doesNotThrow(()=>validateImageExtension('source.svg',{format:'svg'}));
 });
 test('only self-contained SVG drawings are accepted',()=>{
   const plain='<svg xmlns="http://www.w3.org/2000/svg"><defs><circle id="a"/></defs><use href="#a"/></svg>';

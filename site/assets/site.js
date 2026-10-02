@@ -11,6 +11,18 @@ document.querySelector('[data-demo-fullscreen]')?.addEventListener('click',()=>{
 });
 document.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.alt=t('图片暂时无法加载，请查看原始来源','Image unavailable; please consult the original source');}));
 
+document.querySelectorAll('[data-detail-carousel]').forEach(root=>{
+  const track=root.querySelector('.detail-gallery-track'),position=root.querySelector('[data-gallery-position]');
+  const slides=[...track.children];
+  const index=()=>Math.max(0,Math.min(slides.length-1,Math.round(track.scrollLeft/track.clientWidth)));
+  const update=()=>{const i=index();position.textContent=`${i+1} / ${slides.length}`;root.querySelector('[data-gallery-step="-1"]').disabled=i===0;root.querySelector('[data-gallery-step="1"]').disabled=i===slides.length-1;};
+  const step=direction=>track.scrollTo({left:(index()+direction)*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  root.querySelectorAll('[data-gallery-step]').forEach(button=>button.addEventListener('click',()=>step(Number(button.dataset.galleryStep))));
+  track.addEventListener('scroll',update,{passive:true});
+  track.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();step(event.key==='ArrowLeft'?-1:1);}});
+  new ResizeObserver(update).observe(track);update();
+});
+
 document.querySelector('[data-language]')?.addEventListener('click',e=>{const target=new URL(e.currentTarget.href);target.search=location.search;target.hash=location.hash;e.currentTarget.href=target.href;});
 
 const sourceSearch=document.querySelector('[data-source-search]');

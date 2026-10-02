@@ -34,8 +34,7 @@ def render(data,items,language='zh'):
       'site-ohmyopus':'An archived preview with Python / pybevy source.',
       'repo-staypzy':'Attributed to DeepSeek V4.1 Flash; upstream repository unverified.'}
     titles={'site-rustfisher':'RustFisher · 3-model comparison','site-ohmyopus':'ohmyopus · 3D city','repo-staypzy':'prab · upstream unverified'}
-    body='<div class="page-top"><div class="eyebrow">PROVENANCE</div><h1>'+T('资料与来源','Sources & repositories')+'</h1><p>'+T('沿着作品，找到代码、作者与最初的问题。','Follow each work back to its code, creator and original question.')+'</p></div>'
-    body+='<p class="source-license">'+T('这里是原始出处与仓库的阅读索引，不计作品数。全部作品与时间线接受全时间段、所有媒体类型的真实输出；动画、视频、三维、游戏与 Agent 项目保留实际生成条件、迭代和人工参与。模型按来源标注，未独立认证。','A reading index of sources and repositories, not an artwork count. The collection and timeline accept all dates and media. Animation, video, 3D, games and agent projects retain their generation conditions, iterations and human involvement. Model labels are source-reported, not independently authenticated.')+'</p>'
+    body='<div class="page-top"><div class="eyebrow">PROVENANCE</div><h1>'+T('资料与来源','Sources & repositories')+'</h1></div>'
     body+='<div class="source-heading"><h2>'+T('仓库与演示','Repositories & demos')+'</h2><span class="small">'+str(len(data['repos']))+T(' 个入口',' entry points')+'</span></div><p class="source-license">'+T('作品沿用原作者许可；使用前请查看仓库 LICENSE。来源未核实的包不公开下载。','Original licenses apply; check each repository’s LICENSE. Unverified source packages are not available for download.')+'</p><div class="repo-collage">'
     for n,r in enumerate(data['repos']):
         demo='https://pelicanmap-demos.aveniqa.com/'+quote(r['demo'],safe='/') if r.get('demo') else ''

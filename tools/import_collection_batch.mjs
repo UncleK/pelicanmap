@@ -19,6 +19,11 @@ export function safeName(name) {
   return name;
 }
 
+export function validateImageExtension(filename, metadata) {
+  const expected = {'.svg':'svg','.png':'png','.jpg':'jpeg','.jpeg':'jpeg','.webp':'webp','.gif':'gif'}[path.extname(filename).toLowerCase()];
+  if (!expected || metadata.format !== expected) throw Error('Image bytes do not match filename: '+filename);
+}
+
 export function validateSvg(bytes,{allowAnimation=false}={}) {
   const text = bytes.toString('utf8');
   if (!/<svg\b[^>]*>[\s\S]*<\/svg>\s*$/i.test(text) || /<!DOCTYPE|<!ENTITY|<script\b|<foreignObject\b|\son\w+\s*=|<image\b|@import/i.test(text)) throw Error('Unsafe or incomplete SVG');
@@ -185,13 +190,15 @@ async function archiveAsset(m,mediaDir,relativeDir,format) {
     if(probe.status!==0)throw Error('Invalid video '+probe.stderr);
     const info=JSON.parse(probe.stdout);
     if(!info.streams.some(x=>x.codec_type==='video' && x.width>10 && x.height>10) || !(Number(info.format.duration)>0))throw Error('Missing video track');
-    const posterName=m.filename.replace(/\.[^.]+$/,'-poster.jpg'),posterFile=path.join(mediaDir,posterName);
+    let posterName=m.filename.replace(/\.[^.]+$/,'-poster.jpg'),posterFile=path.join(mediaDir,posterName);
     let savedPoster=false;
     if(m.frameTime!==undefined && m.frameTime>=Number(info.format.duration))throw Error('Reviewed frame is outside video duration');
     if(m.posterUrl && m.frameTime===undefined) {
       try{
         const preview=await download(m.posterUrl),previewMeta=await sharp(preview).metadata();
         if(!['png','jpeg','webp'].includes(previewMeta.format))throw Error('Upstream video preview must be a raster image');
+        posterName=m.filename.replace(/\.[^.]+$/,'-poster.'+(previewMeta.format==='jpeg'?'jpg':previewMeta.format));
+        posterFile=path.join(mediaDir,posterName);
         await writeOriginal(posterFile,preview);savedPoster=true;posterProvenance={kind:'upstream-preview',source:m.posterUrl};
       }
       catch(e){if(!e.message.startsWith('Media HTTP'))throw e;}
@@ -207,6 +214,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format) {
       posterProvenance={kind:'original-video-frame',source:m.url,sourceSha256:sha256,frameTime};
     }
     const metadata=await sharp(posterFile).metadata();
+    validateImageExtension(posterName,metadata);
     const stats=await sharp(posterFile).stats();
     if(!metadata.width || !metadata.height || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid video poster; review another real frame');
     posterProvenance.sha256=digest(await fs.readFile(posterFile));
@@ -220,6 +228,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format) {
   } else {
     const image=sharp(bytes,{limitInputPixels:40000000});
     const meta=await image.metadata();
+    validateImageExtension(m.filename,meta);
     let display=image;
     if(m.posterUrl) {
       const preview=await download(m.posterUrl),previewMeta=await sharp(preview).metadata();

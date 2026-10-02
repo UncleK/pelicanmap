@@ -2,14 +2,19 @@ import concurrent.futures
 import json
 import urllib.request
 import urllib.error
+import time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://pelicanmap.aveniqa.com'
 def get(path):
     req=urllib.request.Request(BASE+path,headers={'User-Agent':'PelicanMap-Verifier/1.0'})
-    try:
-        with urllib.request.urlopen(req,timeout=40) as r:return r.status,dict(r.headers),r.read()
-    except urllib.error.HTTPError as e:return e.code,dict(e.headers),e.read()
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=40) as r:return r.status,dict(r.headers),r.read()
+        except urllib.error.HTTPError as e:return e.code,dict(e.headers),e.read()
+        except urllib.error.URLError:
+            if attempt==2:raise
+            time.sleep(attempt+1)
 def main():
     additions=json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))
     catalog=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))

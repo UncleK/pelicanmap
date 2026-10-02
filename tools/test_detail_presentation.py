@@ -89,6 +89,16 @@ class DetailPresentationTests(unittest.TestCase):
                         self.assertFalse(row.select_one('.source-label'))
                         self.assertFalse(card.select_one('.card-body .card-meta'))
 
+    def test_detail_only_comparison_movie_remains_folded(self):
+        item={'thumbnail':'/media/one-poster.png','media':[
+            {'src':'/media/one.webm','poster':'/media/one-poster.png'},
+            {'src':'/media/complete-comparison.mp4','detailOnly':True},
+        ]}
+        moving,main,attachments=media_groups(item,OUT)
+        self.assertEqual([m['src'] for m in moving],['/media/one.webm'])
+        self.assertEqual(main,[])
+        self.assertEqual([m['src'] for m in attachments],['/media/complete-comparison.mp4'])
+
     def test_main_image_heading_is_outside_aligned_frame_grid(self):
         for prefix in ['', 'en/']:
             for item in CAT['items']:

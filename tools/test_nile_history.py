@@ -6,6 +6,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from PIL import Image
 from case_policy import apply_case_policy
+from archival_test_assertions import reviewed_context_change
 from prepare_nile_history import output_svg
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,6 +67,7 @@ class NileHistoryTests(unittest.TestCase):
             # Timeline eligibility is intentionally broadened by the latest
             # all-media authorization, not frozen to this static-only batch.
             for key in ['sourceUrl', 'date', 'model', 'caseVisible']:
+                if reviewed_context_change(self,previous,current,key,BY):continue
                 self.assertEqual(current[key], previous[key], (previous['id'], key))
             self.assertEqual(current['media'], previous['media'])
         self.assertEqual(CAT['counts']['cases'], sum(bool(x.get('caseVisible')) for x in CAT['items']))
