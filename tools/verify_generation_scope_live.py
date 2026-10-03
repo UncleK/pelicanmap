@@ -1,5 +1,6 @@
 """Live code-generation scope, preserved originals and read-only default searches."""
 import concurrent.futures,csv,hashlib,io,json,time,urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from generation_scope import DIRECT_VIDEO_IDS
 ROOT=Path(__file__).resolve().parents[1];BASE='https://pelicanmap.aveniqa.com';checks=0
@@ -46,6 +47,9 @@ def main():
         for key in ['id','model','author','date','sourceUrl','thumbnail','rights','media']:assert current.get(key)==row.get(key),(id,key)
         if id not in DIRECT_VIDEO_IDS:assert (current['caseVisible'],current['timelineVisible'])==(row['caseVisible'],row['timelineVisible'])
     spec=json.loads(get('/openapi.json'));assert 'generationMethod' in spec['components']['schemas']['Record']['properties']
+    sitemap=get('/sitemap.xml?code-scope='+str(time.time_ns()))
+    assert sitemap==(ROOT/'public-site/sitemap.xml').read_bytes()
+    assert not any('simon-veo2-output-' in x.text for x in ET.fromstring(sitemap).findall('{*}url/{*}loc'))
     rpc=json.loads(get('/mcp',{'jsonrpc':'2.0','id':1,'method':'tools/call','params':{'name':'get_specimen','arguments':{'id':next(iter(DIRECT_VIDEO_IDS)),'lang':'zh'}}}))
     assert not rpc['result'].get('isError')
     for prefix in ['', '/en']:

@@ -261,6 +261,7 @@ def build():
     dump(OUT/'en/feed.xml','<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pelican Map</title><link>'+BASE+'/en/</link><description>'+E(INTRO)+'</description>'+''.join(f'<item><title>{E(x["title"])}</title><link>{x["url"]}</link><guid isPermaLink="true">{x["url"]}</guid><description>{E(x["notes"] or x["formatLabel"])}</description></item>' for x in group_records(sorted(timeline,key=lambda x:x['date'],reverse=True))[:30])+'</channel></rss>')
     # Paired links are real HTML links. Language switching never relies on client JS.
     zh_paths=[]
+    indexed_english_paths=set(PAGES)
     for p in sorted(OUT.rglob('*.html')):
         if p.relative_to(OUT).parts[0]=='en':continue
         soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');canonical=soup.select_one('link[rel=canonical]')['href'];path=canonical.removeprefix(BASE)
@@ -268,7 +269,9 @@ def build():
         for lang,url in [('zh-CN',canonical),('en',BASE+local(path)),('x-default',canonical)]:soup.head.append(soup.new_tag('link',rel='alternate',hreflang=lang,href=url))
         switch=soup.new_tag('a',href=local(path),hreflang='en',lang='en',attrs={'class':'language-switch','data-language':'','aria-label':'Switch to English'});switch.string='EN';soup.select_one('.nav').append(switch)
         dump(p,str(soup))
-        if path!='/404.html' and not soup.select_one('meta[name=robots]')['content'].startswith('noindex'):zh_paths.append(path)
+        # The output directory may retain an abandoned or archival HTML file.
+        # Only paths generated for this edition belong in the paired sitemap.
+        if local(path) in indexed_english_paths and path!='/404.html' and not soup.select_one('meta[name=robots]')['content'].startswith('noindex'):zh_paths.append(path)
     urls=[]
     for path in zh_paths:
         for loc in [path,local(path)]:urls.append(f'<url><loc>{BASE+loc}</loc><lastmod>{UPDATED}</lastmod><xhtml:link rel="alternate" hreflang="zh-CN" href="{BASE+path}"/><xhtml:link rel="alternate" hreflang="en" href="{BASE+local(path)}"/><xhtml:link rel="alternate" hreflang="x-default" href="{BASE+path}"/></url>')

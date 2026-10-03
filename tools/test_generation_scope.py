@@ -1,6 +1,7 @@
 """The scope follows generated code, not the presentation media extension."""
 import json
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from generation_scope import DIRECT_VIDEO_IDS, is_direct_video, require_code_generation
 
@@ -33,5 +34,13 @@ class GenerationScopeTests(unittest.TestCase):
         self.assertFalse(any(x['id'].startswith('simon-veo2-output-') for x in catalog['items']))
         self.assertEqual(catalog['counts']['cases'],sum(bool(x.get('caseVisible')) for x in catalog['items']))
         self.assertEqual(catalog['counts']['timeline'],sum(bool(x.get('timelineVisible')) for x in catalog['items']))
+
+    def test_sitemap_does_not_publish_withdrawn_outputs(self):
+        root=ET.parse(ROOT/'public-site/sitemap.xml').getroot()
+        locations=[x.text for x in root.findall('{*}url/{*}loc')]
+        self.assertFalse(any('simon-veo2-output-' in x for x in locations))
+        for url in locations:
+            path=url.removeprefix('https://pelicanmap.aveniqa.com').lstrip('/')
+            self.assertTrue((ROOT/'public-site'/path/'index.html').is_file(),url)
 
 if __name__=='__main__':unittest.main()
