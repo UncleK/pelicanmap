@@ -21,9 +21,17 @@ def main():
         expected=json.loads((ROOT/'public-site'/prefix.lstrip('/')/'data/catalog.json').read_text('utf8'))
         actual=json.loads(get(prefix+'/data/catalog.json?code-scope='+str(time.time_ns())))
         assert actual==expected
-        rows={x['id']:x for x in actual['items']};assert set(rows)==set(old)
+        rows={x['id']:x for x in actual['items']};assert set(old)<=set(rows)
         if lang=='zh':preserved_rows=rows
-        assert actual['counts']['cases']==950 and actual['counts']['timeline']==623
+        # Later source-reviewed intake may extend the archive without changing
+        # the four withdrawals or any legacy source/media fields below.
+        for id in set(rows)-set(old):
+            row=rows[id]
+            assert row['generationMethod']=='code-generated' and row['codeGenerationEvidence']
+            assert row['unitType']=='single-model-output' and row['caseVisible']
+            assert row['ingestion']['sourceChecked'] and row['ingestion']['imagesChecked']
+        assert actual['counts']['cases']==sum(x['caseVisible'] for x in rows.values())
+        assert actual['counts']['timeline']==sum(x['timelineVisible'] for x in rows.values())
         for id in DIRECT_VIDEO_IDS:
             row=rows[id];assert not row['caseVisible'] and not row['timelineVisible'] and row.get('caseNumber') is None
             result=json.loads(get('/api/v1/specimens/'+id+'?lang='+lang));assert result.get('item',result)==row
@@ -55,6 +63,6 @@ def main():
     for prefix in ['', '/en']:
         rpc=json.loads(get('/mcp',{'jsonrpc':'2.0','id':2,'method':'resources/read','params':{'uri':BASE+prefix+'/llms.txt'}}))
         assert 'codeGenerationEvidence' in rpc['result']['contents'][0]['text']
-    print(json.dumps(dict(status='passed',checks=checks,excluded=4,works=950,timeline=623,records=1222,originalMediaHashes=len(media),legacyIds='preserved',codeMotion='eligible')))
+    print(json.dumps(dict(status='passed',checks=checks,excluded=4,works=actual['counts']['cases'],timeline=actual['counts']['timeline'],records=len(preserved_rows),originalMediaHashes=len(media),legacyIds='preserved',codeMotion='eligible')))
 
 if __name__=='__main__':main()

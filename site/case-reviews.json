@@ -7905,5 +7905,77 @@
     "fields": {
       "generationMethod": "direct-text-to-video"
     }
+  },
+  "x-kevin-opus-5-5-low-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-5-medium-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-5-high-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-5-max-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-low-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-medium-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-high-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
+  },
+  "x-kevin-opus-5-max-2026-09-23": {
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "role": "case",
+    "reason": "Original public author article read in background Chrome. SVG code workflow, explicit model/effort labels, author-default settings and UTC publication date checked. Eight published outputs only; run indices and generation dates unknown. Original and faithful pixel crops hashed and visually compared with nearest previews among 1250 archived images; no duplicate. No source-code mirror or open-licence claim.",
+    "evidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ]
   }
 }

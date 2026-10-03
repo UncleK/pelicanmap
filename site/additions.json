@@ -49220,5 +49220,1007 @@
     },
     "modelRunGroup": "serjaime-grok43-prompts-2026-05-01",
     "sourcePublicationDate": "2026-05-01"
+  },
+  {
+    "id": "x-kevin-opus-5-5-low-2026-09-23",
+    "originalId": "x-kevin-opus-5-5-low-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5.5 · low 档骑车 SVG 预览",
+    "model": "Opus 5.5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5.5／low 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-low-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "d3eb89fa2b5d21b1bf6a85c542aafd0eb163be0b07b890b47a45f415203e37c3",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5.5",
+          "setting": "low",
+          "box": [
+            278,
+            176,
+            1062,
+            764
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5.5／low 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5.5/low labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-low-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-5-low-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-5-low-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-5-low-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5.5 · low cycling SVG preview",
+        "model": "Opus 5.5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5.5/low panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "low",
+      "sourceDefaultEffort": "medium",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-low-2026-09-23.png",
+      "box": [
+        278,
+        176,
+        1062,
+        764
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "d3eb89fa2b5d21b1bf6a85c542aafd0eb163be0b07b890b47a45f415203e37c3",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-5-medium-2026-09-23",
+    "originalId": "x-kevin-opus-5-5-medium-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5.5 · medium 档骑车 SVG 预览",
+    "model": "Opus 5.5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5.5／medium 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-medium-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "1cbda8384a828b65bc293bc77a398ab93638f46e18e9e26d1830acde89e3fabe",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5.5",
+          "setting": "medium",
+          "box": [
+            1098,
+            176,
+            1882,
+            764
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5.5／medium 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5.5/medium labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-medium-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-5-medium-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-5-medium-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-5-medium-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5.5 · medium cycling SVG preview",
+        "model": "Opus 5.5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5.5/medium panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "medium",
+      "sourceDefaultEffort": "medium",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "authorDefault": true,
+    "modelRunGroup": "kevin-opus-5-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-medium-2026-09-23.png",
+      "box": [
+        1098,
+        176,
+        1882,
+        764
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "1cbda8384a828b65bc293bc77a398ab93638f46e18e9e26d1830acde89e3fabe",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-5-high-2026-09-23",
+    "originalId": "x-kevin-opus-5-5-high-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5.5 · high 档骑车 SVG 预览",
+    "model": "Opus 5.5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5.5／high 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-high-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "e428abe852ba21860fa07648271284a771f5eeb6a26413ec7a435c04bc058a24",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5.5",
+          "setting": "high",
+          "box": [
+            1918,
+            176,
+            2702,
+            764
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5.5／high 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5.5/high labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-high-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-5-high-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-5-high-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-5-high-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5.5 · high cycling SVG preview",
+        "model": "Opus 5.5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5.5/high panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "high",
+      "sourceDefaultEffort": "medium",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-high-2026-09-23.png",
+      "box": [
+        1918,
+        176,
+        2702,
+        764
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "e428abe852ba21860fa07648271284a771f5eeb6a26413ec7a435c04bc058a24",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-5-max-2026-09-23",
+    "originalId": "x-kevin-opus-5-5-max-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5.5 · max 档骑车 SVG 预览",
+    "model": "Opus 5.5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5.5／max 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-max-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "3f0a6723034652f96411441de2ee47e9b996c578e885646a2da5dd34cb2d8b7e",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5.5",
+          "setting": "max",
+          "box": [
+            2738,
+            176,
+            3522,
+            764
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5.5／max 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5.5/max labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-max-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-5-max-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-5-max-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-5-max-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5.5 · max cycling SVG preview",
+        "model": "Opus 5.5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5.5/max panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "max",
+      "sourceDefaultEffort": "medium",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-5-max-2026-09-23.png",
+      "box": [
+        2738,
+        176,
+        3522,
+        764
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "3f0a6723034652f96411441de2ee47e9b996c578e885646a2da5dd34cb2d8b7e",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-low-2026-09-23",
+    "originalId": "x-kevin-opus-5-low-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5 · low 档骑车 SVG 预览",
+    "model": "Opus 5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5／low 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-low-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "6d750e513c942c776077423920efebd7dfb0aacb94d4149facce2a0f7bd5db80",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5",
+          "setting": "low",
+          "box": [
+            278,
+            1066,
+            1062,
+            1654
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5／low 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5/low labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-low-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-low-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-low-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-low-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5 · low cycling SVG preview",
+        "model": "Opus 5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5/low panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "low",
+      "sourceDefaultEffort": "high",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-low-2026-09-23.png",
+      "box": [
+        278,
+        1066,
+        1062,
+        1654
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "6d750e513c942c776077423920efebd7dfb0aacb94d4149facce2a0f7bd5db80",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-medium-2026-09-23",
+    "originalId": "x-kevin-opus-5-medium-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5 · medium 档骑车 SVG 预览",
+    "model": "Opus 5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5／medium 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-medium-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "7620ca347cb12e74f42b7ca5479d1b1cbd7b3ac55c754eb2f9a6495027575c19",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5",
+          "setting": "medium",
+          "box": [
+            1098,
+            1066,
+            1882,
+            1654
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5／medium 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5/medium labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-medium-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-medium-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-medium-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-medium-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5 · medium cycling SVG preview",
+        "model": "Opus 5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5/medium panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "medium",
+      "sourceDefaultEffort": "high",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-medium-2026-09-23.png",
+      "box": [
+        1098,
+        1066,
+        1882,
+        1654
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "7620ca347cb12e74f42b7ca5479d1b1cbd7b3ac55c754eb2f9a6495027575c19",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-high-2026-09-23",
+    "originalId": "x-kevin-opus-5-high-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5 · high 档骑车 SVG 预览",
+    "model": "Opus 5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5／high 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-high-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "fbda283a78caf99e80b617f01ba778b3c7143332a5149a9972d3bbca09cc0eea",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5",
+          "setting": "high",
+          "box": [
+            1918,
+            1066,
+            2702,
+            1654
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5／high 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5/high labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-high-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-high-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-high-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-high-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5 · high cycling SVG preview",
+        "model": "Opus 5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5/high panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "high",
+      "sourceDefaultEffort": "high",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "authorDefault": true,
+    "modelRunGroup": "kevin-opus-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-high-2026-09-23.png",
+      "box": [
+        1918,
+        1066,
+        2702,
+        1654
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "fbda283a78caf99e80b617f01ba778b3c7143332a5149a9972d3bbca09cc0eea",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
+  },
+  {
+    "id": "x-kevin-opus-5-max-2026-09-23",
+    "originalId": "x-kevin-opus-5-max-2026-09-23",
+    "kind": "timeline",
+    "title": "Opus 5 · max 档骑车 SVG 预览",
+    "model": "Opus 5",
+    "author": "ShengHui Wang (@KevinShengHui)",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者通过 Claude Code 2.1.280 的 claude -p --model 调用，要求生成骑自行车的鹈鹕 SVG，发表 Opus 5.5 与 Opus 5 的 low、medium、high、max 四档对照。这一件是原图明确标注的 Opus 5／max 输出，忠实裁切仅保留对应区域，完整八格原图作为详情附件。原文每档报告三次运行，但每格只发布一幅输出，具体运行序号未提供；本馆只收图中八幅，不把 24 次报告或未展示的失败片段算作 24 件作品。作者说明默认档为 Opus 5.5 medium、Opus 5 high，时间线依据默认档，不挑最高档或最漂亮的图。用时、成本、成功率为作者汇总，不是本馆排名或独立复现。仅有原作者静态预览，未取得 SVG 原码；不伪造运动，不镜像未核许可代码。模型与署名按来源保留、未独立认证。日期是原帖 UTC 公开日 2026-09-23，实际生成日未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/KevinShengHui/status/2102748654713086397",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-max-2026-09-23.png",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "00600ebae56d4d98ea8c275a40a48afdb125f9877eb89db66b5487f080d2385d",
+        "extraction": {
+          "kind": "source-image-crop",
+          "model": "Opus 5",
+          "setting": "max",
+          "box": [
+            2738,
+            1066,
+            3522,
+            1654
+          ],
+          "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+          "method": "pixel-crop-no-redraw"
+        },
+        "caption": "原图 Opus 5／max 标签对应的忠实单作品裁切",
+        "captionEn": "Faithful single-work crop matching the original Opus 5/max labels",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+        "source": "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096",
+        "sha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+        "detailOnly": true,
+        "caption": "完整八格原始档位对照；仅详情附件，不另计作品",
+        "captionEn": "Complete original eight-panel effort comparison; detail attachment, not another work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-max-2026-09-23.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kevin-opus-5-max-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kevin-opus-5-max-2026-09-23/",
+    "markdown": "/specimens/x-kevin-opus-5-max-2026-09-23/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留作者公开预览的署名、原始出处与字节哈希；收录不改变原作者权利，不声明开放许可。单作品像素裁切未重画、未改善，完整原图仅详情保留。SVG／项目代码许可未核实，不镜像代码或新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5 · max cycling SVG preview",
+        "model": "Opus 5",
+        "notes": "The author used claude -p --model through Claude Code 2.1.280 to request SVG of a pelican riding a bicycle, and published Opus 5.5/Opus 5 comparisons at low, medium, high and max effort. This work is the explicitly labelled Opus 5/max panel, faithfully cropped; the complete eight-panel original remains a detail attachment. The article reports three runs per setting but publishes one visible output per cell, without its run index. Only eight shown outputs are collected, not 24 reported runs or unseen failed fragments. Source defaults are Opus 5.5 medium and Opus 5 high; the timeline follows those defaults rather than the highest effort or best-looking image. Latency, cost and success summaries are author reports, not a museum ranking or independent reproduction. Only the author-published still preview was recovered, not original SVG code. Motion is not invented and unverified-licence code is not mirrored. Models and attribution are source-reported, not independently authenticated. September 23, 2026 is the original post's UTC publication day; generation dates are unpublished.",
+        "rights": "Attribution, original source and byte hashes of the author-published preview are retained. Inclusion does not change creator rights or imply an open licence. Pixel crops are not redrawn or improved; the complete original remains in details only. SVG/project code permission is unverified; no code mirror or new Play demo is added.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/KevinShengHui/status/2102748654713086397",
+        "https://x.com/KevinShengHui/article/2102748654713086397",
+        "https://pbs.twimg.com/media/HS5ygu2aoAAOZBH?format=jpg&name=4096x4096"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Opus 5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/KevinShengHui/status/2102748654713086397",
+      "https://x.com/KevinShengHui/article/2102748654713086397"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-09-23T13:15:21.000Z",
+      "generationDateUnknown": true,
+      "tool": "Claude Code 2.1.280",
+      "invocation": "claude -p --model <id>",
+      "effort": "max",
+      "sourceDefaultEffort": "high",
+      "reportedRunsPerSetting": 3,
+      "publishedOutputsPerSetting": 1,
+      "sourceRunIndexUnknown": true,
+      "svgSourceNotRecovered": true,
+      "summaryStatisticsNotIndependentlyReproduced": true
+    },
+    "modelRunGroup": "kevin-opus-5-svg-effort-2026-09-23",
+    "sourcePublicationDate": "2026-09-23",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-03-x-code-continuation/kevin-pelican-ladder-original.jpg",
+      "crop": "/media/collected/2026-10-03-x-code-continuation/kevin-opus-5-max-2026-09-23.png",
+      "box": [
+        2738,
+        1066,
+        3522,
+        1654
+      ],
+      "sourceSha256": "0d76ac57b6fdc8e012b0f57e0f660f879e30d2d184d6295ab25dc266ce38df28",
+      "cropSha256": "00600ebae56d4d98ea8c275a40a48afdb125f9877eb89db66b5487f080d2385d",
+      "method": "pixel-crop-no-redraw",
+      "decodedPixelsMatch": true
+    }
   }
 ]
