@@ -35,10 +35,31 @@ class ModelChronologyTests(unittest.TestCase):
         self.assertEqual(apply_model_chronology(copy.deepcopy(rows)),rows)
     def test_original_record_fields_and_additions_unchanged(self):
         before=json.loads((ROOT/'pelican-archive/research/2026-10-02-model-release-order/catalog-before.json').read_text(encoding='utf8'))
-        strip=lambda x:{k:v for k,v in x.items() if k not in {'modelTimeline','detailFrames'}}
+        # Historical intake may renumber the public display index. Archive IDs,
+        # original facts and media still have to match the pre-chronology snapshot.
+        strip=lambda x:{k:v for k,v in x.items() if k not in {'modelTimeline','detailFrames','caseNumber'}}
         old={x['id']:x for x in before['items']}
-        self.assertEqual(set(old),{x['id'] for x in CAT['items']})
+        additions=json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))
+        prior_additions=json.loads((ROOT/'pelican-archive/research/2026-10-02-model-release-order/additions-before.json').read_text(encoding='utf8'))
+        current_additions={x['id']:x for x in additions}
+        previous_additions={x['id']:x for x in prior_additions}
+        self.assertEqual(len(current_additions),len(additions))
+        self.assertLessEqual(set(previous_additions),set(current_additions))
+        for key,previous in previous_additions.items():
+            self.assertEqual(current_additions[key],previous,key)
+        newly_reviewed=set(current_additions)-set(previous_additions)
+        self.assertEqual({x['id'] for x in CAT['items']},set(old)|newly_reviewed)
         for item in CAT['items']:
+            if item['id'] in newly_reviewed:
+                raw=current_additions[item['id']]
+                self.assertEqual(raw['unitType'],'single-model-output')
+                self.assertTrue(raw['ingestion']['sourceChecked'])
+                self.assertTrue(raw['ingestion']['imagesChecked'])
+                self.assertTrue(raw['ingestion']['evidence'])
+                self.assertEqual(len(raw['reviewedModelNames']),1)
+                for key in ['id','model','author','date','sourceUrl','media','rights']:
+                    self.assertEqual(item[key],raw[key],(item['id'],key))
+                continue
             previous=old[item['id']]
             if item['id']!=HISTORY_ID:
                 self.assertEqual(strip(item),strip(previous),item['id'])
@@ -52,8 +73,16 @@ class ModelChronologyTests(unittest.TestCase):
                 self.assertEqual(hashlib.sha256((ROOT/'pelican-web'/media['src'].lstrip('/')).read_bytes()).hexdigest(),item['recordRepair']['mediaSha256'])
             self.assertEqual(item['recordRepair']['originalTitle'],previous['title'])
             self.assertEqual(item['recordRepair']['originalNotes'],previous['notes'])
-        self.assertEqual(CAT['counts'],before['counts'])
-        self.assertEqual(json.loads((ROOT/'site/additions.json').read_text(encoding='utf8')),json.loads((ROOT/'pelican-archive/research/2026-10-02-model-release-order/additions-before.json').read_text(encoding='utf8')))
+        current={x['id']:x for x in CAT['items']}
+        self.assertEqual(CAT['counts']['records'],before['counts']['records']+len(newly_reviewed))
+        self.assertEqual(CAT['counts']['cases'],before['counts']['cases']+sum(bool(current[key].get('caseVisible')) for key in newly_reviewed))
+        self.assertEqual(CAT['counts']['timeline'],before['counts']['timeline']+sum(bool(current[key].get('timelineVisible')) for key in newly_reviewed))
+        self.assertEqual(CAT['counts']['referenceRecords'],before['counts']['referenceRecords'])
+        for key,previous in old.items():
+            self.assertEqual(current[key].get('caseVisible'),previous.get('caseVisible'),key)
+            self.assertEqual(current[key].get('timelineVisible'),previous.get('timelineVisible'),key)
+        numbered=sorted([x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')],key=lambda x:(x['date'],x['id']))
+        self.assertEqual([x['caseNumber'] for x in numbered],list(range(1,len(numbered)+1)))
     def test_release_conflict_and_explicit_snapshots_are_not_guessed(self):
         rows=[{'id':'pre','date':'2025-04-17','model':'Gemini 2.5 Flash','modelNames':['Gemini 2.5 Flash']},
               {'id':'snapshot','date':'2025-04-17','model':'gemini-2.5-flash-preview-04-17','modelNames':['gemini-2.5-flash-preview-04-17']},
@@ -64,6 +93,20 @@ class ModelChronologyTests(unittest.TestCase):
         self.assertEqual(rows[1]['modelTimeline']['releaseDate'],'2025-04-17')
         self.assertNotIn('releaseDate',rows[2]['modelTimeline'])
         self.assertEqual(rows[2]['modelTimeline']['label'],'Gemini 3.8')
+
+    def test_new_gist_label_uses_primary_release_without_changing_artwork_facts(self):
+        rows=[{'id':'preview','date':'2026-06-10','model':'DiffusionGemma','modelNames':['DiffusionGemma']},
+              {'id':'arena','date':'2026-05-01','model':'grok 4.3','modelNames':['grok 4.3']}]
+        before=copy.deepcopy(rows)
+        apply_model_chronology(rows)
+        self.assertEqual(rows[0]['modelTimeline']['releaseDate'],'2026-06-10')
+        self.assertEqual(rows[0]['modelTimeline']['sortBasis'],'documented-release')
+        self.assertTrue(rows[0]['modelTimeline']['sourceUrl'].startswith('https://blog.google/'))
+        # Later Bedrock availability is not Grok's first public release.
+        self.assertNotIn('releaseDate',rows[1]['modelTimeline'])
+        self.assertEqual(rows[1]['modelTimeline']['sortDate'],'2026-05')
+        self.assertEqual(rows[1]['modelTimeline']['sortBasis'],'earliest-source-work')
+        self.assertEqual([{k:v for k,v in x.items() if k!='modelTimeline'} for x in rows],before)
 
     def test_provisional_positions_use_first_counted_source_not_ingestion_or_reposts(self):
         rows=[{'id':'late','date':'2026-10-02','updated':'2026-10-02','sourceUrl':'https://example.com/late','model':'Fable mystery','modelNames':['Fable mystery'],'caseVisible':True},

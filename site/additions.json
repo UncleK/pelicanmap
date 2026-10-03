@@ -48978,5 +48978,247 @@
     "modelRunGroup": "cat-grok46-high-2026-10-02",
     "runSourceUrl": "https://x.com/sinoziqi/status/2105932353763688777",
     "comparisonType": "repeat-runs"
+  },
+  {
+    "id": "peterc-diffusiongemma-2026-06-10",
+    "originalId": "peterc-diffusiongemma-2026-06-10",
+    "kind": "timeline",
+    "title": "DiffusionGemma · 原作者发布的鹈鹕骑车预览",
+    "model": "DiffusionGemma",
+    "author": "peterc",
+    "date": "2026-06-10",
+    "month": "2026-06",
+    "notes": "作者在固定版本 Gist 中把这件作品标为 DiffusionGemma，并附上同一输出的 PNG。本站保存这张原始静态预览，不重绘、不补全。随帖 SVG 含重复 stroke 属性，不能通过 XML 解码；未修复或公开镜像该代码。逐条提示词、工具、运行档位及实际生成时间未公开核实，作品日期采用 Gist 的 UTC 公开日。模型标签按来源保留，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-gist-continuation/peterc-diffusiongemma.png",
+        "source": "https://peterc.org/misc/pelican.png",
+        "sha256": "ddeaba4555beae7f96587ceceaaa4729a9eb1ac6917cd6edb50d08486722a7c5",
+        "caption": "作者随 Gist 发布的原始 PNG，非本站修复 SVG",
+        "captionEn": "Original PNG published by the author, not an archive-repaired SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-gist-continuation/peterc-diffusiongemma.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/peterc-diffusiongemma-2026-06-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/peterc-diffusiongemma-2026-06-10/",
+    "markdown": "/specimens/peterc-diffusiongemma-2026-06-10/index.md",
+    "updated": "2026-10-03",
+    "rights": "保留公开原预览、作者署名、出处及原始字节哈希；未发现独立代码或图片复用许可，不宣称可自由再利用，作品权利仍归原权利人。本站不镜像 Gist 代码。",
+    "i18n": {
+      "en": {
+        "title": "DiffusionGemma · the author's published bicycle preview",
+        "model": "DiffusionGemma",
+        "notes": "The author labels this output DiffusionGemma in a pinned Gist and links its original PNG. This archive retains that published still preview without redrawing or completing it. The accompanying SVG fails XML parsing because of a duplicate stroke attribute; its code is neither repaired nor publicly mirrored. The full prompt, tools, settings and actual generation time are not verified. The recorded date is the Gist's UTC publication day. The model label is source-reported, not independently authenticated.",
+        "rights": "The public original preview retains attribution, source and its original-byte hash. No separate code or image reuse licence was identified; archival inclusion does not grant free reuse. Rights remain with the original rightsholder. Gist code is not mirrored.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8",
+        "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8/914e51822b462d2f33df4de3b1bd60dc4518cd7c",
+        "https://api.github.com/gists/7672e74ec1437945e5fca5ce2c1c95a8",
+        "https://peterc.org/misc/pelican.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DiffusionGemma"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationConditions": {
+      "previewOnly": true,
+      "sourcePublishedAt": "2026-06-10T21:37:28Z",
+      "sourceMedium": "SVG with published PNG",
+      "sourceSvgStatus": "XML duplicate stroke attribute; unchanged private evidence only",
+      "sourceRevision": "914e51822b462d2f33df4de3b1bd60dc4518cd7c",
+      "generationDateVerified": false,
+      "license": "not-identified"
+    },
+    "sourcePublicationDate": "2026-06-10"
+  },
+  {
+    "id": "serjaime-grok43-bike-2026-05-01",
+    "originalId": "serjaime-grok43-bike-2026-05-01",
+    "kind": "timeline",
+    "title": "grok 4.3 · bike 题面原始预览",
+    "model": "grok 4.3",
+    "author": "SerJaimeLannister",
+    "date": "2026-05-01",
+    "month": "2026-05",
+    "notes": "作者标注 grok 4.3、arena.ai direct-chat，先用 bike 题面取得这份 SVG 输出，并在本人评论上传对应 PNG。作者报告思考 23 秒，不是本馆测量。同帖稍后改用 bicycle 再生成，两个实际输出分别计数；这是题面对照，不是推理档位或评分排名，未指定默认／medium 代表时不擅自挑一张进入时间线。本站保留上游原 PNG，不重新渲染或镜像无明确许可的代码。日期为 Gist／本人评论的 UTC 公开日，不认证实际生成日或模型身份。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "bike prompt",
+    "promptCategory": "classic",
+    "promptStatus": "create me a svg of pelican riding a bike",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-gist-continuation/serjaime-grok43-bike.png",
+        "source": "https://gist.github.com/user-attachments/assets/fcd1c614-fa9e-46e6-be8b-fac31d2867e0",
+        "sha256": "0b6227a6f8d5fd289629f6316f9476455d9ed16a1268c0f2d0bf04dcad308ce8",
+        "caption": "本人评论 6128716 的原 PNG · bike 题面",
+        "captionEn": "Original PNG in the author's comment 6128716 · bike prompt",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-gist-continuation/serjaime-grok43-bike.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/serjaime-grok43-bike-2026-05-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/serjaime-grok43-bike-2026-05-01/",
+    "markdown": "/specimens/serjaime-grok43-bike-2026-05-01/index.md",
+    "updated": "2026-10-03",
+    "rights": "归档作者本人公开上传的静态预览，保留署名、出处和 SHA-256；未发现独立复用许可，不镜像代码，收录不改变原权利人权利。",
+    "i18n": {
+      "en": {
+        "title": "grok 4.3 · original bike-prompt preview",
+        "model": "grok 4.3",
+        "notes": "The author reports grok 4.3 via arena.ai direct chat, first obtaining this SVG output with the bike prompt and posting its PNG in their own comment. The reported 23 seconds of thinking is not a museum measurement. A later bicycle prompt produces a separate output: both count once. These are prompt alternatives, not reasoning settings or a ranking. No default/medium representative is documented, so neither is arbitrarily selected for the timeline. The original published PNG is preserved; unlicensed code is not mirrored or re-rendered. The date is the Gist/comment's UTC publication day, not an authenticated generation date or model identity.",
+        "rights": "The author's own public still preview is archived with attribution, source and SHA-256. No separate reuse licence was identified. Code is not mirrored, and inclusion does not alter the original rightsholder's rights.",
+        "promptStatus": "create me a svg of pelican riding a bike",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655/a0591fa6baa85514260947003b0a53e7558976f8",
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716",
+        "https://api.github.com/gists/f6de26bd0d0817e0563e8c1398eac655/comments",
+        "https://gist.github.com/user-attachments/assets/fcd1c614-fa9e-46e6-be8b-fac31d2867e0"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "grok 4.3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationConditions": {
+      "previewOnly": true,
+      "sourcePublishedAt": "2026-05-01T09:12:59Z",
+      "previewPublishedAt": "2026-05-01T09:13:32Z",
+      "access": "arena.ai direct-chat",
+      "thinkingSecondsSourceReported": 23,
+      "sourceRevision": "a0591fa6baa85514260947003b0a53e7558976f8",
+      "sourceSvgStatus": "parseable; code not mirrored because reuse permission is unverified",
+      "generationDateVerified": false,
+      "license": "not-identified"
+    },
+    "modelRunGroup": "serjaime-grok43-prompts-2026-05-01",
+    "sourcePublicationDate": "2026-05-01"
+  },
+  {
+    "id": "serjaime-grok43-bicycle-2026-05-01",
+    "originalId": "serjaime-grok43-bicycle-2026-05-01",
+    "kind": "timeline",
+    "title": "grok 4.3 · bicycle 追加题面原始预览",
+    "model": "grok 4.3",
+    "author": "SerJaimeLannister",
+    "date": "2026-05-01",
+    "month": "2026-05",
+    "notes": "作者在同一 grok 4.3 记录的本人评论中明确说先用了 bike，随后追加 bicycle 题面，并发布第二份响应和对应原 PNG。作者报告思考 1 分 1 秒，未说明这是新会话，不冒充独立盲测或一次生成。两个实际输出分别计数，题面对照先于单图；没有默认／medium 依据时仅留全部作品。第二份 SVG 的一行含重复 y2 属性，XML 无法解码，本站不修复、不镜像代码，只保留作者已发布的原预览。日期取评论 UTC 公开日，生成日、模型和署名未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "bicycle prompt · follow-up",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-03-gist-continuation/serjaime-grok43-bicycle.png",
+        "source": "https://gist.github.com/user-attachments/assets/1d35ae11-dd7b-4efb-b7f9-89eb273e6b87",
+        "sha256": "c501f4ef885ff007ad4258902066b2ab1d0ffc7a4b7ac4231821a9b530c82f75",
+        "caption": "本人评论 6128731 的原 PNG · bicycle 追加题面",
+        "captionEn": "Original PNG in the author's comment 6128731 · bicycle follow-up",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-03-gist-continuation/serjaime-grok43-bicycle.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/serjaime-grok43-bicycle-2026-05-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/serjaime-grok43-bicycle-2026-05-01/",
+    "markdown": "/specimens/serjaime-grok43-bicycle-2026-05-01/index.md",
+    "updated": "2026-10-03",
+    "rights": "归档作者本人公开上传的静态预览，保留署名、出处和 SHA-256；未发现独立复用许可，不镜像代码，收录不改变原权利人权利。",
+    "i18n": {
+      "en": {
+        "title": "grok 4.3 · original bicycle follow-up preview",
+        "model": "grok 4.3",
+        "notes": "In their own comment on the same grok 4.3 record, the author explicitly says the first prompt used bike, then follows up with bicycle and publishes the second response and its original PNG. The reported thinking time is 1 minute 1 second. A fresh session is not established, so this is not presented as an independent blind attempt or one-shot generation. Both actual outputs count once, with prompt comparison before the individual image; no default/medium is guessed for the timeline. A duplicate y2 attribute makes the second SVG fail XML parsing. It is not repaired or mirrored: only the author's published preview is retained. The date is the comment's UTC publication day; generation date, model and attribution are not independently authenticated.",
+        "rights": "The author's own public still preview is archived with attribution, source and SHA-256. No separate reuse licence was identified. Code is not mirrored, and inclusion does not alter the original rightsholder's rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128730",
+        "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731",
+        "https://api.github.com/gists/f6de26bd0d0817e0563e8c1398eac655/comments",
+        "https://gist.github.com/user-attachments/assets/1d35ae11-dd7b-4efb-b7f9-89eb273e6b87"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "grok 4.3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationConditions": {
+      "previewOnly": true,
+      "sourcePublishedAt": "2026-05-01T09:28:12Z",
+      "previewPublishedAt": "2026-05-01T09:28:26Z",
+      "access": "arena.ai direct-chat (same author's follow-up context)",
+      "thinkingSecondsSourceReported": 61,
+      "freshSessionVerified": false,
+      "sourceSvgStatus": "XML duplicate y2 attribute; unchanged private evidence only",
+      "generationDateVerified": false,
+      "license": "not-identified"
+    },
+    "modelRunGroup": "serjaime-grok43-prompts-2026-05-01",
+    "sourcePublicationDate": "2026-05-01"
   }
 ]

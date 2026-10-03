@@ -10,7 +10,7 @@ import {pathToFileURL} from 'node:url';
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
 const sharp = require('sharp');
-const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
+const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
 
@@ -95,6 +95,16 @@ export function validateCandidate(c) {
   for (const m of c.media) {
     safeName(m.filename);
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
+    if(new URL(m.url).hostname==='gist.github.com' &&
+      (!/^https:\/\/gist\.github\.com\/[^/?#]+\/[a-f0-9]{32}(?:\?permalink_comment_id=\d+)?$/.test(c.sourceUrl) ||
+       !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
+       !m.filename.endsWith('.png') || !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
+      throw Error('Gist previews need a reviewed original Gist, published attachment and pinned PNG hash');
+    if(new URL(m.url).hostname==='peterc.org' &&
+      (c.sourceUrl!=='https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8' ||
+       m.url!=='https://peterc.org/misc/pelican.png' || !m.filename.endsWith('.png') ||
+       !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
+      throw Error('Author preview needs the reviewed DiffusionGemma Gist, exact image URL and pinned PNG hash');
     if(new URL(m.url).hostname==='cdn3.ldstatic.com' &&
       (!/^https:\/\/linux\.do\/t\/topic\/\d+(?:\/\d+)?$/.test(c.sourceUrl) ||
        !/^\/original\/4X\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]{40}\.(png|jpe?g|webp|gif)$/.test(new URL(m.url).pathname) ||

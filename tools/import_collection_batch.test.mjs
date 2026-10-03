@@ -79,6 +79,25 @@ test('ordinary imported outputs never become playable and preserve evidence',()=
   assert.deepEqual(r.ingestion.evidence,sample().evidence);
 });
 
+test('Gist preview attachments retain original bytes and need reviewed source plus hash',()=>{
+  const sourceUrl='https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655';
+  const url='https://gist.github.com/user-attachments/assets/fcd1c614-fa9e-46e6-be8b-fac31d2867e0';
+  const c={...sample(),sourceUrl,format:'image',evidence:[sourceUrl,url],media:[{url,filename:'preview.png',sha256:'a'.repeat(64)}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const change of [{sourceUrl:'https://example.com/repost'},{evidence:[sourceUrl]},
+    {media:[{...c.media[0],sha256:undefined}]},{media:[{...c.media[0],filename:'preview.svg'}]},
+    {media:[{...c.media[0],url:'https://gist.github.com/SerJaimeLannister/raw/preview.png'}]}])assert.throws(()=>validateCandidate({...c,...change}));
+});
+
+test('author-hosted DiffusionGemma preview is not a blanket download-host permission',()=>{
+  const sourceUrl='https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8';
+  const url='https://peterc.org/misc/pelican.png';
+  const c={...sample(),sourceUrl,format:'image',evidence:[sourceUrl,url],media:[{url,filename:'preview.png',sha256:'a'.repeat(64)}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const change of [{sourceUrl:'https://example.com/repost'},{evidence:[sourceUrl]},
+    {media:[{...c.media[0],sha256:undefined}]},{media:[{...c.media[0],url:'https://peterc.org/misc/other.png'}]}])assert.throws(()=>validateCandidate({...c,...change}));
+});
+
 test('single-output mapping and detail-only full originals are required',()=>{
   for (const change of [{format:'unclassified'},{unitType:'collection'},
     {modelToMediaVerified:false},{media:[...sample().media,...sample().media]}]) {

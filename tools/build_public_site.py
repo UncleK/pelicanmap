@@ -35,7 +35,7 @@ OUT = Path(os.environ.get('PELICAN_OUTPUT_DIR',ROOT / 'public-site'))
 DEMOS = ROOT / 'public-demos'
 BASE = 'https://pelicanmap.aveniqa.com'
 DEMO_BASE = os.environ.get('PELICAN_DEMO_ORIGIN', 'https://pelicanmap-demos.aveniqa.com').rstrip('/')
-UPDATED = '2026-10-02'
+UPDATED = '2026-10-03'
 # Baseline imports keep their archival update date; a new compilation is not
 # a modification of every historical work. New additions carry their own date.
 LEGACY_RECORD_UPDATED = '2026-10-01'
@@ -434,6 +434,7 @@ def build_editorial(items, by_id):
     about+='<h3>2026-10-02 三模型原动画与仓库续查</h3><p>从 Cat 的 X 原帖及本人回复核出四件独立作品：grok-4.7、grok-4.6 与 gemini-3.8-flash 的三段 high 第一次运行原动画，以及 grok-4.6 第二次运行的失败预览。三段各 300 帧无损面板裁切逐帧像素与完整原视频对应，保留真实封面与折叠原视频；第二次运行只有作者上传的静态截图，不补造动画。两次 grok-4.6 都没有可证默认／medium 代表，仅计全部作品，其余两件进入时间线。模型和 UTC 公开日按来源保留，不认证身份或生成日；Grok 实际用了文件工具的说明保留，不声称严格无工具生成。28 份仓库元数据已核，但缺原预览或统一代码许可，另两项目缺权利／模型证据，继续暂缓，不执行或镜像代码。无 Play 或 Benchmark 扩充。</p>'
     about+='<p>2026-10-02：时间线按有出处的型号首次公开时间排列，卡片保留作品日期；同型号默认展开，可选折叠。详情增加原视频真实多帧与已有多幅图横滑，不增加作品数，右侧信息及说明位置不变。</p>'
     about+='<h2>2026-10-02 展示更新</h2><p>时间线与全部作品共用型号顺序；发布日期缺少依据时用最早可证作品月份暂定位置，不再单列待核标签，作品日期与编号保持。首页展示 1988 年电影中的非 AI 鹈鹕骑车片段，补齐双语制作背景与来源，不推定它启发了 AI 提示词，也不增加作品总数。</p>'
+    about+='<h3>2026-10-03 Gist 原预览补档</h3><p>核验原作者 Gist 固定版本及本人评论，新增三件五月／六月真实输出：DiffusionGemma 一件，grok 4.3 的 bike／bicycle 题面各一件。保留作者已发布的原始 PNG、署名、UTC 公开日与哈希，不以本次收录日改写作品日期。两个 Grok 输出是追加题面对照，不冒充推理档位或新会话；没有明确默认／medium 时仅计全部作品，DiffusionGemma 进入时间线。两份原 SVG 有重复属性无法解码，不修复、补画或镜像未核许可代码；此批只展示来源真实预览，无新增动画、Play 或 Benchmark。公开仓库缺逐型号对应或原预览的候选继续暂缓，不按数量充数。</p>'
     page('/about/','关于与收录方法','Pelican Map 的定位、馆藏范围、统计口径、来源处理与维护记录。',top('把作品留下，把出处讲清楚','ABOUT PELICAN MAP')+'<article class="prose">'+about+'</article>',markdown='/about/index.md')
     from bs4 import BeautifulSoup
     dump(OUT/'about/index.md','# Pelican Map / 鹈鹕骑车标本馆\n\n'+BeautifulSoup(about,'html.parser').get_text('\n',strip=True)+'\n')

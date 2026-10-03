@@ -7809,5 +7809,28 @@
       "https://x.com/sinoziqi/status/2105932353763688777",
       "https://pbs.twimg.com/media/HTnGm4mWAAArivz.png?name=orig"
     ]
+  },
+  "peterc-diffusiongemma-2026-06-10": {
+    "sourceUrl": "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8",
+    "role": "case",
+    "reason": "Pinned author Gist labels DiffusionGemma and links this exact original PNG. Gist UTC publication date, decoded pixels, source/hash identity and nearest archived previews checked. Malformed SVG remains unchanged private evidence, not repaired or mirrored; no image/code reuse licence is claimed.",
+    "fields": {"originalForm":"SVG · original published PNG preview"},
+    "evidence": ["https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8/914e51822b462d2f33df4de3b1bd60dc4518cd7c", "https://peterc.org/misc/pelican.png"]
+  },
+  "serjaime-grok43-bike-2026-05-01": {
+    "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Author's model/access heading, exact bike prompt and own PNG comment verified against the pinned Gist and public comment timestamps. Original bytes decoded and checked against archived source URLs, hashes and closest normalized previews. Separate bike/bicycle outputs are a prompt comparison, not reasoning levels; no documented default/medium representative is guessed. No code mirror or reuse-licence claim.",
+    "fields": {"comparisonType":"prompt","originalForm":"SVG · original published PNG preview"},
+    "evidence": ["https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655/a0591fa6baa85514260947003b0a53e7558976f8", "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716"]
+  },
+  "serjaime-grok43-bicycle-2026-05-01": {
+    "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Same author explicitly follows up the Gist's grok 4.3 bike test with bicycle, publishing the second response and PNG in adjacent timestamped comments. Fresh-session status remains unverified. Original preview decoded; malformed duplicate-y2 SVG stays private and unchanged. Hash/source and closest normalized archived preview checks found no prior output. No default/medium is guessed, no code mirrored.",
+    "fields": {"comparisonType":"prompt","originalForm":"SVG · original published PNG preview"},
+    "evidence": ["https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128730", "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731"]
   }
 }
