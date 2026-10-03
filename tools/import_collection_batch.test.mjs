@@ -46,6 +46,24 @@ test('source checks, actual publication dates and bilingual metadata are mandato
   for(const change of [{date:'2026-02-30'},{author:''},{model:''},{evidence:[]},{title:{zh:'仅中文'}},{media:[]},{media:[{url:'https://evil.example/a.svg',filename:'test.svg'}]}])assert.throws(()=>validateCandidate({...sample(),...change}));
 });
 
+test('historical repository previews require pinned provenance and raster hashes',()=>{
+  const sourceUrl='https://github.com/denamwangi/pelicans',url='https://github.com/user-attachments/assets/1da8d4fd-478f-4be2-a707-61be7ea695a1';
+  const c={...sample(),sourceUrl,evidence:[sourceUrl,url,sourceUrl+'/commit/'+'a'.repeat(40)],media:[{url,filename:'preview.png',sha256:'b'.repeat(64)}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const change of [{sourceUrl:'https://example.com/source'},{evidence:[sourceUrl,url]},
+    {media:[{...c.media[0],sha256:undefined}]},{media:[{...c.media[0],filename:'code.svg'}]},
+    {media:[{...c.media[0],url:'https://github.com/denamwangi/pelicans/archive/main.zip'}]}])assert.throws(()=>validateCandidate({...c,...change}));
+});
+
+test('historical author PNG intake does not authorize arbitrary hosts or code mirrors',()=>{
+  const sourceUrl='https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/',url='https://nezhar.com/images/gpt-5-pelicans.png';
+  const c={...sample(),sourceUrl,evidence:[sourceUrl,url],media:[{url,filename:'preview.png',sha256:'c'.repeat(64)}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const change of [{sourceUrl:'https://nezhar.com/'},{evidence:[sourceUrl]},
+    {media:[{...c.media[0],url:'https://nezhar.com/images/pelican-gpt-5.svg',filename:'code.svg'}]},
+    {media:[{...c.media[0],sha256:undefined}]}])assert.throws(()=>validateCandidate({...c,...change}));
+});
+
 test('provisional model positions never become imported artwork dates or release facts',()=>{
   for(const change of [{modelTimeline:{releaseDate:'2026-07-29'}},{modelSortDate:'2026-07'},{modelReleaseDate:'2026-07-29'},{dateBasis:'model-position'},{dateBasis:'estimated-model-release'}])assert.throws(()=>validateCandidate({...sample(),...change}));
   const record=makeRecord(sample(),[asset],'2026-10-02');

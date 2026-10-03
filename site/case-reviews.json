@@ -7977,5 +7977,442 @@
       "https://x.com/KevinShengHui/status/2102748654713086397",
       "https://x.com/KevinShengHui/article/2102748654713086397"
     ]
+  },
+  "youngbrioche-claude-haiku-4-5-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-claude-opus-4-1-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-claude-opus-4-5-2025-11-25": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/b49f0ae9ab773910ad477d896433a0f0eee20e2b",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-claude-sonnet-4-5-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gemini-2-5-pro-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gemini-3-pro-2025-11-20": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/3efde8b18898dfcb8062007bfd2539fd6d4ac831",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-codex-medium-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-medium-2025-11-11": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/53a89be423b944dfddd4d1908b05794537ad7527",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-1-codex-high-2025-11-15": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/cfdd38b0aa6e38526c724d60630c2849231c082e",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-1-codex-medium-2025-11-15": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/cfdd38b0aa6e38526c724d60630c2849231c082e",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-1-high-2025-11-15": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/cfdd38b0aa6e38526c724d60630c2849231c082e",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-1-low-2025-11-15": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/cfdd38b0aa6e38526c724d60630c2849231c082e",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "youngbrioche-gpt-5-1-medium-2025-11-15": {
+    "role": "case",
+    "sourceUrl": "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/commit/cfdd38b0aa6e38526c724d60630c2849231c082e",
+      "https://github.com/youngbrioche/agentic-pelican-on-a-bicycle/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-0613-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/1da8d4fd-478f-4be2-a707-61be7ea695a1",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/1da8d4fd-478f-4be2-a707-61be7ea695a1",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-3-5-turbo-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/fd7c7953-4ceb-4c90-8729-94e669645f30",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-3-5-turbo-1106-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/fd7c7953-4ceb-4c90-8729-94e669645f30",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-1106-preview-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/fd7c7953-4ceb-4c90-8729-94e669645f30",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-0125-preview-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/fd7c7953-4ceb-4c90-8729-94e669645f30",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-turbo-preview-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/bd5eaba4-f017-4f3e-a3ca-42552ec178aa",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4o-2024-08-06-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/57d6a7f3-0f4b-453d-a0a5-cb445a90af50",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4o-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/702f65b0-0e11-4d51-826b-51367b264988",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4o-mini-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/4acab35f-b597-433e-b4b1-623b0bc4d21d",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-o3-mini-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/2334bacd-8d30-43e1-a846-153778cdcc3a",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-o4-mini-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/2334bacd-8d30-43e1-a846-153778cdcc3a",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-1-mini-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/1e3e8d63-a5d4-4656-8898-7d94fb67994b",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "denamwangi-gpt-4-1-2025-08-04": {
+    "role": "case",
+    "sourceUrl": "https://github.com/denamwangi/pelicans",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://github.com/denamwangi/pelicans",
+      "https://github.com/user-attachments/assets/08a7c1e4-12a2-431e-8f4c-bcebb3bcbce3",
+      "https://github.com/denamwangi/pelicans/commit/103fbfc0223447a8065bdaf5684c5ea445e965b2",
+      "https://github.com/denamwangi/pelicans/blob/103fbfc0223447a8065bdaf5684c5ea445e965b2/README.md"
+    ]
+  },
+  "nezhar-gpt-5-nano-2025-08-08": {
+    "role": "case",
+    "sourceUrl": "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+      "https://nezhar.com/images/gpt-5-pelicans.png"
+    ]
+  },
+  "nezhar-gpt-5-mini-2025-08-08": {
+    "role": "case",
+    "sourceUrl": "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+      "https://nezhar.com/images/gpt-5-pelicans.png"
+    ]
+  },
+  "nezhar-gpt-5-2025-08-08": {
+    "role": "case",
+    "sourceUrl": "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/",
+      "https://nezhar.com/images/gpt-5-pelicans.png"
+    ]
+  },
+  "historical-x-2002583915207537123-minimax-m2-1": {
+    "role": "case",
+    "sourceUrl": "https://x.com/SkylerMiao7/status/2002583915207537123",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/SkylerMiao7/status/2002583915207537123",
+      "https://pbs.twimg.com/media/G8qZ0FlaYAABl_b.jpg?name=orig"
+    ]
+  },
+  "historical-x-1991215696416583948-gpt-5-1-codex-max": {
+    "role": "case",
+    "sourceUrl": "https://x.com/omni1896837/status/1991215696416583948",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/omni1896837/status/1991215696416583948",
+      "https://pbs.twimg.com/media/G6I2SwdWEAAxjeP.png?name=orig"
+    ]
+  },
+  "historical-x-1991215696416583948-gemini-3-pro": {
+    "role": "case",
+    "sourceUrl": "https://x.com/omni1896837/status/1991215696416583948",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/omni1896837/status/1991215696416583948",
+      "https://pbs.twimg.com/media/G6I22hiX0AEz6t3.png?name=orig"
+    ]
+  },
+  "historical-x-1988872600106234073-gemini-3-0": {
+    "role": "case",
+    "sourceUrl": "https://x.com/whylifeis4/status/1988872600106234073",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/whylifeis4/status/1988872600106234073",
+      "https://pbs.twimg.com/media/G5nlFyZWEAA-yud.jpg?name=orig"
+    ]
+  },
+  "historical-x-1988517334269723081-grok": {
+    "role": "case",
+    "sourceUrl": "https://x.com/liqilin3/status/1988517334269723081",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/liqilin3/status/1988517334269723081",
+      "https://pbs.twimg.com/media/G5igqdEbAAAeQUV.png?name=orig"
+    ]
+  },
+  "historical-x-1986387446435922311-gemini-2-5-pro": {
+    "role": "case",
+    "sourceUrl": "https://x.com/cheatyyyy/status/1986387446435922311",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/cheatyyyy/status/1986387446435922311",
+      "https://pbs.twimg.com/media/G5EQfpZbIAEDM1B.jpg?name=orig"
+    ]
+  },
+  "historical-x-1986387446435922311-gemini-3-pro-preview-11-25": {
+    "role": "case",
+    "sourceUrl": "https://x.com/cheatyyyy/status/1986387446435922311",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/cheatyyyy/status/1986387446435922311",
+      "https://pbs.twimg.com/media/G5EQfpZbIAEDM1B.jpg?name=orig"
+    ]
+  },
+  "historical-x-1942699607932428499-wolfstride": {
+    "role": "case",
+    "sourceUrl": "https://x.com/chetaslua/status/1942699607932428499",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/chetaslua/status/1942699607932428499",
+      "https://pbs.twimg.com/media/GvXZqdhaQAAT7x5.png?name=orig"
+    ]
+  },
+  "historical-x-1924945873026552306-gemini-2-5-pro": {
+    "role": "case",
+    "sourceUrl": "https://x.com/gjb_ai/status/1924945873026552306",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/gjb_ai/status/1924945873026552306",
+      "https://pbs.twimg.com/media/GrbHk72bAAMoVOM.jpg?name=orig"
+    ]
+  },
+  "historical-x-1924945873026552306-gemini-2-5-pro-deep-think": {
+    "role": "case",
+    "sourceUrl": "https://x.com/gjb_ai/status/1924945873026552306",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/gjb_ai/status/1924945873026552306",
+      "https://pbs.twimg.com/media/GrbHk72bAAMoVOM.jpg?name=orig"
+    ]
+  },
+  "historical-x-1904599773900136950-gemini-2-5-pro": {
+    "role": "case",
+    "sourceUrl": "https://x.com/mbaeuml/status/1904599773900136950",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/mbaeuml/status/1904599773900136950",
+      "https://pbs.twimg.com/media/Gm5_ZdZXAAAdDE5.png?name=orig"
+    ]
+  },
+  "historical-x-1900937939174986064-claude": {
+    "role": "case",
+    "sourceUrl": "https://x.com/geeknik/status/1900937939174986064",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/geeknik/status/1900937939174986064",
+      "https://pbs.twimg.com/media/GmF8wNJaMAAgbhi.png?name=orig"
+    ]
+  },
+  "historical-x-1895249253632807354-gpt-4-5": {
+    "role": "case",
+    "sourceUrl": "https://x.com/_akhaliq/status/1895249253632807354",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/_akhaliq/status/1895249253632807354",
+      "https://pbs.twimg.com/media/Gk1HFkiXIAEhS_W.png?name=orig"
+    ]
+  },
+  "historical-x-1859767875545989546-gemini-exp-1121": {
+    "role": "case",
+    "sourceUrl": "https://x.com/thornewolf/status/1859767875545989546",
+    "reason": "Original public code-generation evidence, exact source model labels, original publication/commit date and actual preview verified. Independent final iterative run counted once; process frames and full comparison originals remain detail-only. Original bytes and faithful crops hashed and visually compared with nearest archived images among 1259 decodable media. No duplicate, no unlicensed code mirror, no new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/thornewolf/status/1859767875545989546",
+      "https://pbs.twimg.com/media/Gc84fq1aAAEt-81.png?name=orig"
+    ]
   }
 }

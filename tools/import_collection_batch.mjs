@@ -10,7 +10,7 @@ import {pathToFileURL} from 'node:url';
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
 const sharp = require('sharp');
-const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
+const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
 
@@ -97,6 +97,17 @@ export function validateCandidate(c) {
   for (const m of c.media) {
     safeName(m.filename);
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
+    if(new URL(m.url).hostname==='github.com' &&
+      (!/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) ||
+       !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
+       !/\.(png|jpe?g|webp)$/i.test(m.filename) || !/^[a-f0-9]{64}$/.test(m.sha256||'') ||
+       !c.evidence.includes(m.url) || !c.evidence.some(x=>/^https:\/\/github\.com\/[^/]+\/[^/]+\/(?:commit|blob)\/[a-f0-9]{40}(?:\/|$)/.test(x))))
+      throw Error('Repository preview requires a pinned public source, original raster attachment and reviewed hash');
+    if(new URL(m.url).hostname==='nezhar.com' &&
+      (c.sourceUrl!=='https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/' ||
+       m.url!=='https://nezhar.com/images/gpt-5-pelicans.png' || !m.filename.endsWith('.png') ||
+       !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
+      throw Error('Author preview requires the reviewed GPT-5 article, exact raster URL and pinned hash');
     if(new URL(m.url).hostname==='gist.github.com' &&
       (!/^https:\/\/gist\.github\.com\/[^/?#]+\/[a-f0-9]{32}(?:\?permalink_comment_id=\d+)?$/.test(c.sourceUrl) ||
        !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
