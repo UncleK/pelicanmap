@@ -1,5 +1,5 @@
 """Historical code-generated intake: actual units, iterations and original pixels."""
-import hashlib,json,unittest
+import copy,hashlib,json,re,unittest
 from pathlib import Path
 from PIL import Image,ImageChops
 ROOT=Path(__file__).resolve().parents[1];PREFIX='/media/collected/2026-10-03-historical-intensive/'
@@ -36,4 +36,15 @@ class HistoricalIntensiveTests(unittest.TestCase):
     page=(ROOT/'public-site'/lang/x['path'].lstrip('/')/'index.html').read_text(encoding='utf8');self.assertIn(x['media'][0]['src'],page);self.assertIn(x['sourceUrl'],page);self.assertIn('detail-layout',page)
     if x.get('modelRunGroup'):self.assertLess(page.index('data-setting-comparison'),page.index('detail-layout'))
     for m in x['media'][1:]:self.assertIn(m['src'],page)
+ def test_catalog_revision_changes_with_records_not_filters(self):
+  from collection_views import listing
+  records=self.rows[:2]
+  def version(items,**args):
+   markup=listing(items,'/specimens/','',lambda x:'<article>'+x['id']+'</article>',**args)
+   return re.search(r'data-catalog-version="([a-f0-9]{20})"',markup).group(1)
+  first=version(records)
+  self.assertEqual(first,version(records,year='2025'))
+  self.assertEqual(first,version(records,language='en'))
+  changed=copy.deepcopy(records);changed[0]['title']+=' revised'
+  self.assertNotEqual(first,version(changed))
 if __name__=='__main__':unittest.main()

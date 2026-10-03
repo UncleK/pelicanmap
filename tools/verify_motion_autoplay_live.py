@@ -6,6 +6,7 @@ import urllib.request
 import unittest
 from collections import Counter
 from pathlib import Path
+from live_http import live_urlopen
 from bs4 import BeautifulSoup
 from archival_test_assertions import reviewed_video_context_change
 
@@ -17,7 +18,7 @@ EN={x['id']:x for x in json.loads((ROOT/'public-site/en/data/catalog.json').read
 
 def get(path):
     request=urllib.request.Request(BASE+path,headers={'User-Agent':'PelicanMap-Autoplay-Verifier/1.0','Cache-Control':'no-cache'})
-    with urllib.request.urlopen(request,timeout=45) as r:
+    with live_urlopen(request,timeout=45) as r:
         assert r.status==200
         return r.read()
 

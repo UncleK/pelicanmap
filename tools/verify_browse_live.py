@@ -6,6 +6,7 @@ import urllib.request
 import urllib.error
 import time
 from pathlib import Path
+from live_http import live_urlopen
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 from experiment_batches import group_records
@@ -18,7 +19,7 @@ def get(url):
     request = urllib.request.Request(url, headers={'User-Agent': 'PelicanMap-Verifier/1.0'})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(request, timeout=40) as response:
+            with live_urlopen(request, timeout=40) as response:
                 assert response.status == 200
                 return response.read(), dict(response.headers)
         except urllib.error.HTTPError:

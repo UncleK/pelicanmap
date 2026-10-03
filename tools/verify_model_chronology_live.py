@@ -9,6 +9,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from live_http import live_urlopen
 from bs4 import BeautifulSoup
 from model_chronology import ordered_timeline, timeline_year
 
@@ -22,7 +23,7 @@ def get(path,payload=None):
     req=urllib.request.Request(BASE+path,headers=headers,data=json.dumps(payload).encode() if payload is not None else None)
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req,timeout=40) as response:
+            with live_urlopen(req,timeout=40) as response:
                 assert response.status==200,path
                 return response.read()
         except urllib.error.HTTPError:raise

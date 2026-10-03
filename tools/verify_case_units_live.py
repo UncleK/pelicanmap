@@ -3,6 +3,7 @@ import concurrent.futures
 import json
 import urllib.request
 from pathlib import Path
+from live_http import live_urlopen
 from bs4 import BeautifulSoup
 from model_chronology import ordered_timeline
 
@@ -13,7 +14,7 @@ LOCAL=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
 
 def get(path):
     req=urllib.request.Request(BASE+path,headers={'User-Agent':'PelicanMap-CaseUnitVerifier/1.0'})
-    with urllib.request.urlopen(req,timeout=40) as response:
+    with live_urlopen(req,timeout=40) as response:
         assert response.status==200,path
         return response.read()
 

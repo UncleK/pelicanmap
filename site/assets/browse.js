@@ -1,4 +1,8 @@
 const demoOrigin = 'https://pelicanmap-demos.aveniqa.com/demos/';
+export function catalogHref(english, version) {
+  const base=(english?'/en':'')+'/data/catalog.json';
+  return /^[a-f0-9]{20}$/.test(version||'') ? base+'?collection='+version : base;
+}
 export const isCase = x => !x.referenceOnly && x.caseVisible !== false;
 export const inTimeline = x => isCase(x) && (x.timelineVisible ?? x.kind === 'timeline');
 export function groupRecords(items, includeReferences = false) {
@@ -234,7 +238,7 @@ function bootBrowser(root) {
     root.querySelectorAll('[data-family]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.family===filters.family)));
     sortButton.textContent = filters.sort === 'oldest' ? '↑ '+t('最早在前','Oldest first') : '↓ '+t('最新在前','Newest first');
     try {
-      catalogPromise ||= fetch((english?'/en':'')+'/data/catalog.json', {cache:'no-cache'})
+      catalogPromise ||= fetch(catalogHref(english,root.dataset.catalogVersion), {cache:'no-cache'})
         .then(r => {if (!r.ok) throw Error('catalog'); return r.json();})
         .catch(error => {catalogPromise = undefined; throw error;});
       const catalog = await catalogPromise;

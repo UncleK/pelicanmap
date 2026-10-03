@@ -4,13 +4,14 @@ import urllib.request
 import urllib.error
 import time
 from pathlib import Path
+from live_http import live_urlopen
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://pelicanmap.aveniqa.com'
 def get(path):
     req=urllib.request.Request(BASE+path,headers={'User-Agent':'PelicanMap-Verifier/1.0'})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req,timeout=40) as r:return r.status,dict(r.headers),r.read()
+            with live_urlopen(req,timeout=40) as r:return r.status,dict(r.headers),r.read()
         except urllib.error.HTTPError as e:return e.code,dict(e.headers),e.read()
         except urllib.error.URLError:
             if attempt==2:raise

@@ -4,6 +4,7 @@ import io
 import json
 import urllib.request
 from pathlib import Path
+from live_http import live_urlopen
 from bs4 import BeautifulSoup
 from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
 
@@ -17,7 +18,7 @@ def request(path,payload=None):
     headers={'User-Agent':'PelicanMap-EditorialVerifier/1.3'}
     if payload is not None:headers.update({'Content-Type':'application/json','Accept':'application/json, text/event-stream'})
     req=urllib.request.Request(BASE+path,headers=headers,data=json.dumps(payload).encode() if payload is not None else None)
-    with urllib.request.urlopen(req,timeout=40) as response:
+    with live_urlopen(req,timeout=40) as response:
         assert response.status==200,path
         checks+=1
         return response.read()

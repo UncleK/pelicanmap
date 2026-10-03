@@ -1,6 +1,8 @@
 """Bilingual paged listings with shared browsing controls."""
 import html
 import math
+import hashlib
+import json
 from experiment_batches import group_records, batch_card
 from model_chronology import ordered_timeline, timeline_year, timeline_month
 
@@ -24,6 +26,8 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     e = lambda s: html.escape(str(s), quote=True)
     from case_policy import is_case
     items = [x for x in items if (not x.get('referenceOnly') if scope=='play' else is_case(x))]
+    # Pin hydrated browsing to this rendered collection, not an old CDN entry.
+    catalog_version = hashlib.sha256(json.dumps(items, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode('utf8')).hexdigest()[:20]
     filtered = [x for x in items if not year or (timeline_year(x)==year if scope=='timeline' else x['date'].startswith(year))]
     selected = sorted(filtered, key=lambda x: (x['date'], x['id']), reverse=True) if scope=='play' else ordered_timeline(filtered)
     selected = group_records(selected,include_references=scope=='play')
@@ -39,7 +43,7 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     browse_base = ('/en' if en else '')+'/timeline/' if scope=='timeline' else base
     year_href = lambda y: browse_base+(y+'/' if y else '') if scope=='timeline' else browse_base+('?year='+y if y else '')
     year_links = '<nav class="year-links" aria-label="'+(t('模型发布年份筛选','Model release year filters') if scope=='timeline' else t('年份快速筛选','Quick year filters'))+'">'+''.join('<a href="'+e(year_href(y))+'" data-year="'+e(y)+'"'+(' aria-current="true"' if y==year else '')+'>'+e(year_name(y) if y else t('全部年份','All years'))+'</a>' for y in ['',*years])+'</nav>'
-    controls = f'''<div data-browser data-scope="{scope}" data-base="{e(browse_base)}" data-initial-page="{number}" data-initial-year="{e(year)}">
+    controls = f'''<div data-browser data-catalog-version="{catalog_version}" data-scope="{scope}" data-base="{e(browse_base)}" data-initial-page="{number}" data-initial-year="{e(year)}">
 <form class="filters browse-search-panel" id="browse-search-panel" data-search role="search" hidden><label>{t('检索馆藏','Search the archive')}<input type="search" name="q" maxlength="200" placeholder="{t('模型、作者、备注…','Model, creator, notes…')}"></label><label>{t('年份','Year')}<select name="year"><option value="">{t('全部年份','All years')}</option>{years_html}</select></label><label>{t('来源','Source')}<select name="source"><option value="">{t('全部来源','All sources')}</option>{options(source_options)}</select></label><label>{t('形式','Format')}<select name="format"><option value="">{t('全部形式','All formats')}</option>{options(format_options)}</select></label><input type="hidden" name="sort" value="newest"><button class="button" type="submit">{t('检索','Search')}</button><button class="button secondary" type="reset">{t('重置','Reset')}</button></form>
 <div class="browse-family-row"><div class="browse-buttons"><button type="button" class="browse-button browse-search-toggle" data-search-toggle aria-expanded="false" aria-controls="browse-search-panel"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.6"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>{t('搜索','Search')}</span><span class="search-active" data-search-active hidden aria-label="{t('已应用检索条件','Search filters applied')}"></span></button><button type="button" class="browse-button" data-sort-toggle aria-label="{t('切换时间排序','Change chronological order')}">↓ {t('最新在前','Newest first')}</button><button type="button" class="browse-button" data-density-toggle aria-pressed="false" title="{t('当前：标准视图；点击切换：紧凑视图 · 每页 48 张','Current: Standard view; switch to Compact view · 48 per page')}"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path fill="currentColor" d="M1 1h4v4H1zm6 0h4v4H7zm6 0h4v4h-4zM1 7h4v4H1zm6 0h4v4H7zm6 0h4v4h-4zM1 13h4v4H1zm6 0h4v4H7zm6 0h4v4h-4z"/></svg><span>{t('标准视图','Standard view')}</span></button></div></div>
 <div class="browse-toolbar">{year_links}<p class="result-count" data-result-count>{t(f'{len(selected)} 个案例 · 第 {number} / {pages} 页',f'{len(selected)} cases · Page {number} / {pages}')}</p></div>'''

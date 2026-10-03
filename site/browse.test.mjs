@@ -12,6 +12,14 @@ const records = Array.from({length: 75}, (_, i) => ({
   interactive: i < 4, demoUrl: i < 4 ? `https://pelicanmap-demos.aveniqa.com/demos/${i}/` : '',
 }));
 
+test('browsing pins the catalog to the rendered collection version in both languages', () => {
+  const version='a'.repeat(20);
+  assert.equal(browse.catalogHref(false,version),'/data/catalog.json?collection='+version);
+  assert.equal(browse.catalogHref(true,version),'/en/data/catalog.json?collection='+version);
+  assert.equal(browse.catalogHref(false,'javascript:alert(1)'),'/data/catalog.json');
+  assert.equal(browse.catalogHref(true,''),'/en/data/catalog.json');
+});
+
 test('timeline defaults to newest and supports old-to-new and year filtering', () => {
   const latest = selectRecords(records, {scope: 'timeline'});
   assert.equal(latest[0].date, '2026-09-30');
