@@ -3,9 +3,11 @@ import concurrent.futures
 import hashlib
 import json
 import urllib.request
+import unittest
 from collections import Counter
 from pathlib import Path
 from bs4 import BeautifulSoup
+from archival_test_assertions import reviewed_video_context_change
 
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-motion-autoplay'
@@ -50,8 +52,11 @@ def main():
     old={x['id']:x for x in before['items']}
     current={x['id']:x for x in LOCAL['items']}
     assert set(old)<=set(current)
+    preservation=unittest.TestCase()
     for ident,item in old.items():
         for key,value in item.items():
+            if reviewed_video_context_change(preservation,item,current[ident],key,current):
+                continue
             if ident=='x-keth-space-bunny-alpha-animation-2026-09-30' and key in {'caseRole','caseVisible','timelineVisible','caseReview'}:
                 reviewed=current[ident]
                 assert reviewed['caseRole']=='context' and not reviewed['caseVisible'] and not reviewed['timelineVisible']
@@ -85,7 +90,7 @@ def main():
     coverage=dict(Counter(x['motionPreview']['type'] for x in selected))
     result={'verified':True,'cases':LOCAL['counts']['cases'],'timeline':LOCAL['counts']['timeline'],
             'rawRecords':len(LOCAL['items']),'movingCoverTypes':coverage,'bilingualDetailsAndIdApi':len(checked),
-            'existingFieldsPreservedExceptChronologicalNumbers':True,'existingAdditionsPreserved':True,
+            'existingFieldsPreservedExceptChronologicalNumbersAndFourReviewedVideoContextChanges':True,'existingAdditionsPreserved':True,
             'originalMediaUnchanged':True,'additionalRecordsSinceAutoplayRelease':len(current)-len(old),
             'sharedAssetsByteIdentical':4}
     (DIR/'live-autoplay-checks.json').write_text(json.dumps(result,indent=2)+'\n')
