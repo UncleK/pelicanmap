@@ -1,8 +1,17 @@
 {
-  "version": "2026-10-02-all-media-shared-positions-v3",
+  "version": "2026-10-03-code-generation-v1",
   "unit": "one source-attributed model output at one documented time",
   "dateRange": "all source-established dates",
   "allMediaTypes": true,
+  "generationScope": {
+    "focus": "source-reviewed LLM code-generated works",
+    "allowedPresentationMedia": "all; includes recordings of code-generated animation, 3D and interaction",
+    "excludedGenerationMethods": ["direct-text-to-video"],
+    "newIntakeRequirements": ["generationMethod=code-generated", "codeGenerationEvidence with public source URLs"],
+    "classification": "review the generation workflow, not the extension, video appearance or model/platform name alone",
+    "legacyExclusion": "preserve existing direct-video IDs, original media and detail/API ID archives as uncounted context; no main lists, numbers or default search",
+    "uncertainWorkflow": "defer new candidates; do not infer code generation from an MP4/GIF or model label"
+  },
   "newOrdinaryFormats": ["svg", "image", "animation", "3d", "game", "video", "audio", "other"],
   "timelineMediaTypes": "all; source-reviewed single-work cover required",
   "workIdentity": "frames, views, recordings and reposts of one output are not additional works",
@@ -17,7 +26,7 @@
     "reviewRequirements": ["provenance", "source-established date", "model-to-output mapping", "real displayable media", "deduplication", "rights", "safety"],
     "releaseChecksRequired": true,
     "readySubsetPolicy": "publish verified subsets after all checks pass; defer unresolved candidates without blocking ready works",
-    "scopeExpansion": "outside the existing pelican all-date/all-media scope requires user direction"
+    "scopeExpansion": "outside the existing pelican all-date, all-presentation-media code-generation scope requires user direction"
   },
   "restrictedRetrievalFallback": {
     "browser": "user-already-signed-in-chrome",

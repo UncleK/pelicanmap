@@ -8,6 +8,8 @@ from PIL import Image
 from model_chronology import apply_model_chronology,ordered_timeline,timeline_year
 from detail_frames import apply_detail_frames
 from historical_context import HISTORY_ID
+from generation_scope import DIRECT_VIDEO_IDS
+from archival_test_assertions import reviewed_video_context_change
 
 ROOT=Path(__file__).resolve().parents[1]
 CAT=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
@@ -61,6 +63,12 @@ class ModelChronologyTests(unittest.TestCase):
                     self.assertEqual(item[key],raw[key],(item['id'],key))
                 continue
             previous=old[item['id']]
+            if item['id'] in DIRECT_VIDEO_IDS:
+                for key,value in previous.items():
+                    if key in {'modelTimeline','detailFrames','caseNumber'}:continue
+                    if reviewed_video_context_change(self,previous,item,key,{x['id']:x for x in CAT['items']}):continue
+                    self.assertEqual(item[key],value,(item['id'],key))
+                continue
             if item['id']!=HISTORY_ID:
                 self.assertEqual(strip(item),strip(previous),item['id'])
                 continue
@@ -75,10 +83,15 @@ class ModelChronologyTests(unittest.TestCase):
             self.assertEqual(item['recordRepair']['originalNotes'],previous['notes'])
         current={x['id']:x for x in CAT['items']}
         self.assertEqual(CAT['counts']['records'],before['counts']['records']+len(newly_reviewed))
-        self.assertEqual(CAT['counts']['cases'],before['counts']['cases']+sum(bool(current[key].get('caseVisible')) for key in newly_reviewed))
-        self.assertEqual(CAT['counts']['timeline'],before['counts']['timeline']+sum(bool(current[key].get('timelineVisible')) for key in newly_reviewed))
+        for ident in DIRECT_VIDEO_IDS:
+            self.assertTrue(old[ident]['caseVisible'] and old[ident]['timelineVisible'])
+            self.assertFalse(current[ident]['caseVisible'] or current[ident]['timelineVisible'])
+        self.assertEqual(CAT['counts']['cases'],before['counts']['cases']-4+sum(bool(current[key].get('caseVisible')) for key in newly_reviewed))
+        self.assertEqual(CAT['counts']['timeline'],before['counts']['timeline']-4+sum(bool(current[key].get('timelineVisible')) for key in newly_reviewed))
         self.assertEqual(CAT['counts']['referenceRecords'],before['counts']['referenceRecords'])
         for key,previous in old.items():
+            if key in DIRECT_VIDEO_IDS:
+                continue  # Original facts and exact user-requested role checked above.
             self.assertEqual(current[key].get('caseVisible'),previous.get('caseVisible'),key)
             self.assertEqual(current[key].get('timelineVisible'),previous.get('timelineVisible'),key)
         numbered=sorted([x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')],key=lambda x:(x['date'],x['id']))

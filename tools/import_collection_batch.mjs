@@ -75,6 +75,8 @@ export function extractHardPromptsSvg(bytes,model,run) {
 }
 
 export function validateCandidate(c) {
+  if(c.generationMethod!=='code-generated' || /^(?:veo(?:[ -]?\d+(?:\.\d+)?)?|sora(?:[ -]?\d+(?:\.\d+)?)?)(?:\s|$)/i.test(c.model || ''))throw Error('Only source-reviewed LLM code-generated works; direct text-to-video is outside the collection scope');
+  if(!c.codeGenerationEvidence?.length || !c.codeGenerationEvidence.every(x=>typeof x==='string' && x.startsWith('https://')))throw Error('Code-generation source evidence is required; media format alone is not evidence');
   for(const key of ['modelTimeline','modelSortDate','modelReleaseDate'])if(Object.hasOwn(c,key))throw Error('Model positions are derived centrally; keep release estimates out of artwork facts');
   if(['model-release','estimated-model-release','inferred-model-release','model-position','estimated-position'].includes(c.dateBasis))throw Error('A model position cannot be an artwork date');
   if (!/^[a-z0-9][a-z0-9-]+$/.test(c.id || '')) throw Error('Invalid case id');
@@ -164,7 +166,7 @@ export function makeRecord(c, assets, updated) {
     path:recordPath,url:'https://pelicanmap.aveniqa.com'+recordPath,markdown:recordPath+'index.md',updated,rights:rights.zh,
     i18n:{en:{title:title.en,model:c.modelEn || c.model,notes:notes.en,rights:rights.en,promptStatus:c.prompt || 'The source does not provide the complete per-run prompt; see the original link',promptCategory:'Source-documented test'}},
     ingestion:{sourceChecked:true,imagesChecked:true,sourceVerification:'source-checked',evidence:c.evidence},
-    unitType:c.unitType,reviewedModelNames:[c.model],modelClaimStatus:'source-reported-not-independently-authenticated',
+    unitType:c.unitType,reviewedModelNames:[c.model],modelClaimStatus:'source-reported-not-independently-authenticated',generationMethod:c.generationMethod,codeGenerationEvidence:c.codeGenerationEvidence,
     ...(c.datePrecision?{datePrecision:c.datePrecision}:{}),...(c.generationConditions?{generationConditions:c.generationConditions}:{}),
     ...(c.authorDefault===true?{authorDefault:true}:{}),
     ...(c.parentId?{parentId:c.parentId}:{}),...(c.representativeOf?{representativeOf:c.representativeOf}:{}),...(c.modelRunGroup?{modelRunGroup:c.modelRunGroup}:{}),

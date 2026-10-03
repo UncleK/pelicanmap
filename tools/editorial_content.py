@@ -6,8 +6,8 @@ import csv
 BASE = 'https://pelicanmap.aveniqa.com'
 CATALOG_VERSION = '1.3'
 INTRO = {
-    'zh': '收藏全时间段、所有媒体类型的鹈鹕骑车及明确衍生题 AI 输出，保留日期、来源模型标注、作者与原始媒体。沿时间线与模型家族观察独立作品；评分资料独立参考，非本馆排名。',
-    'en': 'AI pelican bicycle outputs across all dates and media, with source-reported models, creators and original assets. Explore works by time and model family. Benchmark scores are separate references, not a museum ranking.',
+    'zh': '收藏大模型用代码生成的鹈鹕骑车及明确衍生题作品，不限时间段与展示媒体；不收直接文生视频。保留日期、来源模型标注、作者与原始媒体。评分资料独立参考，非本馆排名。',
+    'en': 'Pelican bicycle works generated as code by language models, across all dates and presentation media, excluding direct text-to-video outputs. Source-reported models, creators and original assets are retained. Benchmark scores are separate references, not a museum ranking.',
 }
 HOME_COPY = {
     'zh': {
@@ -30,7 +30,7 @@ FEATURED_IDS = (
     'simon-gpt61-sol-medium-2026-09-29',
 )
 CSV_FIELDS = ['id','kind','title','model','author','date','datePrecision','dateBasis',
-              'format','source','sourceUrl','url','notes','promptStatus','mediaStatus',
+              'format','generationMethod','source','sourceUrl','url','notes','promptStatus','mediaStatus',
               'caseVisible','timelineVisible','referenceOnly','caseRole','caseNumber',
               'modelFamilies','originalLevel','modelRunGroup','authorDefault','parentId','canonicalId','representativeOf',
               'thumbnail','markdown','modelReleaseDate','modelReleaseDatePrecision','modelReleaseSourceUrl','modelReleaseStatus',
@@ -48,7 +48,7 @@ def listing_notes(counts, scope, language='zh'):
         'benchmark': t('评分对照资料单独展示，不进入主时间线、全部作品和案例总数。先选择 Benchmark 合集，再查看模型汇总与原始样本。上游输出，非本馆排名；这里是上游评测资料索引，不是模型能力排行榜。', 'Independent scoring references are excluded from the main timeline, collection and case total. Choose a benchmark, then inspect model summaries and original samples. Upstream outputs, not a Pelican Map ranking or capability leaderboard.'),
         'sources': t('沿着作品，找到代码、作者与最初的问题。这里是原始出处与仓库的阅读索引，不计作品数。动画、视频、三维、游戏与 Agent 项目保留实际生成条件、迭代和人工参与。', 'Follow each work back to its code, creator and original question. This reading index of sources and repositories is not an artwork count. Animation, video, 3D, games and agent projects retain generation conditions, iterations and human involvement.'),
     }
-    common = t(f'{counts["cases"]} 个独立作品；时间线精选 {counts["timeline"]} 件代表，两者不相加。全部作品与时间线接受全时间段、所有媒体类型的真实输出。模型与署名按来源标注，未独立认证。', f'{counts["cases"]} independent works; the {counts["timeline"]} timeline representatives are a subset, not an additional total. The collection and timeline accept documented outputs across all dates and media. Model labels and attribution are source-reported, not independently authenticated.')
+    common = t(f'{counts["cases"]} 个独立作品；时间线精选 {counts["timeline"]} 件代表，两者不相加。重点收录大模型代码生成作品，展示不限时间与媒体；不收直接文生视频，代码动画的录屏仍可收。模型与署名按来源标注，未独立认证。', f'{counts["cases"]} independent works; the {counts["timeline"]} timeline representatives are a subset, not an additional total. The focus is LLM code-generated work across all dates and presentation media. Direct text-to-video is excluded; recordings of code-generated animation remain eligible. Model labels and attribution are source-reported, not independently authenticated.')
     prefix = '/en' if en else ''
     return '<details class="listing-notes" data-listing-notes><summary>'+t('阅读说明与统计口径', 'Reading notes & counting')+'</summary><p>'+html.escape(notes[scope])+'</p><p>'+html.escape(common)+'</p><p><a href="'+prefix+'/about/">'+t('关于与收录方法 →', 'About & collection methods →')+'</a></p></details>'
 
@@ -91,14 +91,14 @@ def scope_sections(counts, language='zh'):
             ('One output, one record', 'One work is one source-attributed model output at a documented time. Labelled compilations are split only when each image can be matched to its model; faithful source crops retain provenance and full originals in details. Settings comparisons precede the individual image and complete composite. Reposts and duplicated images are not counted twice.'),
             ('Evolution timeline', 'Same-model runs on different dates retain their own images. Within an explicitly reviewed same-model/date run group, the timeline uses the author\'s stated default, otherwise medium, never the highest score. Other outputs stay in the collection. Month-only dates remain month-only; publication dates are not silently treated as generation dates. Model-family filtering groups source labels and does not authenticate them.'),
             ('Benchmark references', 'HuggingFace / OpenEnv dataset and scoring environment share one Benchmark collection. Benchmark collections, model summaries and samples are referenceOnly: excluded from the main collection, timeline, artwork totals, numbering and default API search. Original IDs remain readable. Upstream outputs, not a Pelican Map ranking.'),
-            ('All dates and media', 'The collection and timeline accept source-verifiable outputs from all dates and media: images/SVG, animation, video, 3D, games, interactions and other documented formats. A video frame, project view or recording of the same output is not another work. Model labels are source-reported, not independently authenticated; tools, iterations and human involvement remain explicit. Covers use original previews or real frames. Play requires verified meaningful interaction on an isolated on-site demo, plus clear permission/license; playback alone does not qualify. Unresolved provenance, rights, access or safety issues are deferred, not media types themselves.'),
+            ('Code-generated works across all dates and media', 'The focus is language-model code generation: SVG, HTML/CSS/JavaScript, Canvas, Three.js/WebGL, Blender scripts, POV-Ray scenes and related documented code workflows. Presentation may be static, animated, recorded video, 3D or interactive. Direct text-to-video output such as Veo or Sora is outside the main collection; preserved legacy IDs and original media remain uncounted context, readable by direct ID. Classification follows source evidence about the generation workflow, not the media extension. A recording or frame of code-generated animation remains part of that same eligible work, not another work. New imports require generationMethod=code-generated and public codeGenerationEvidence; missing process evidence is deferred, not guessed. Models and tools remain source-reported. Play requires meaningful interaction and clear permission on the isolated demo domain.'),
         ]
     return [
         ('馆藏范围与统计', f'{counts["cases"]} 个独立作品，不同档位的真实输出分别计数。时间线的 {counts["timeline"]} 件跨媒体代表作品是其中的子集，不能相加。{counts["sourceIndex"]} 条 Simon 延伸阅读索引不计作品。原始 JSON/CSV 保留 {counts["records"]} 条归档行，其中 {counts["referenceRecords"]} 条为仅供参考的旧 HF 样本；items.length 不是作品总数。'),
         ('一份输出，一条作品', '一件作品对应来源标注的一个模型、一个可证时间点和一份真实输出。合集只有在图片与模型对应关系明确时才拆分；忠实裁切保留依据与完整原图，详情依次展示同模型档位对比、单张输出和汇总图。转载及重复图片不重复计数。'),
         ('进化时间线', '同一模型不同日期分别保留，不用新图覆盖旧图。显式审核的同模型同日 run group 优先作者明确默认档，否则 medium，不按最高分挑图；其它输出留在全部作品。只能确认月份时保留月份，不把公开日期默认写成生成日期。模型家族筛选只是来源标签归类，不认证模型身份。'),
         ('独立评分参考', 'HuggingFace / OpenEnv 的数据集与评分环境合用一个 Benchmark 合集。合集、模型汇总和样本均为 referenceOnly，不进入主馆作品、时间线、总数、编号或默认 API 搜索；原 ID 仍可直接查询。上游输出，非本馆排名。'),
-        ('全时间段、全媒体', '全部作品与时间线均接受全时间段、所有媒体类型的可核验真实输出，包括图像/SVG、动画、视频、三维、游戏、交互及其他形式。同一输出的视频帧、多视角和录屏不是新作品。模型按来源标注、未独立认证；工具、迭代和人工参与如实保留。封面使用原预览或真实有内容的帧。只有许可明确且实测可操作的项目才在本站隔离演示域进入可玩区，播放/暂停不算交互。来源、权利、访问或安全待核才暂缓，不因媒体类型排除。'),
+        ('大模型代码生成：全时段、跨媒体', '重点收藏大模型代码生成作品：SVG、HTML/CSS/JavaScript、Canvas、Three.js/WebGL、Blender 脚本、POV-Ray 场景及有来源记录的相关代码工作流。展示可以是静态图、动画、视频录屏、三维或交互；Veo、Sora 等直接文生视频不进入主馆，旧 ID 与原媒体留作不计数资料，可按 ID 查看。判断生成方式，不按文件后缀排除视频；代码动画的录屏仍属于合格作品，同输出的视频帧、多视角不增加作品数。新导入要求 generationMethod=code-generated 和公开 codeGenerationEvidence，过程不明先暂缓，不猜。模型、工具与人工迭代按来源记录；只有许可明确且实测可操作的项目进入本站隔离可玩区。'),
     ]
 
 
@@ -181,7 +181,7 @@ def openapi():
     definitions = {
         'q':({'type':'string','maxLength':200,'default':''},'Search title, source model, creator, notes, date and prompt category.'),
         'source':({'type':'string','enum':['','origin','zoo','wtf','community'],'default':''},'Historical source category.'),
-        'format':({'type':'string','enum':['','svg','image','animation','3d','game','video','audio','other','text'],'default':''},'Output medium. The collection and timeline accept all media; other covers additional documented types.'),
+        'format':({'type':'string','enum':['','svg','image','animation','3d','game','video','audio','other','text'],'default':''},'Presentation medium of source-reviewed LLM code-generated works; video may be a code-animation recording, not direct text-to-video. Other covers additional documented types.'),
         'kind':({'type':'string','enum':['','gallery','timeline'],'default':''},'timeline selects timelineVisible representatives; gallery filters the historical gallery category.'),
         'year':({'type':'string','pattern':r'^(\d{4}|unknown)?$','default':''},'Timeline/kind=timeline: effective model-position year. Legacy unknown selects records without verified releaseDate. Other search: source-established artwork year.'),
         'family':({'type':'string','maxLength':40,'default':''},'Source-label model family, e.g. Gemini/GPT/Claude; not model authentication.'),
@@ -208,6 +208,8 @@ def openapi():
                        'sourceUrl':{'type':'string','format':'uri'},'url':{'type':'string','format':'uri'},'markdown':{'type':'string'},
                        'date':{'type':'string','description':'Source-established date; may have month precision.'},'datePrecision':{'type':'string'},'dateBasis':{'type':'string'},
                        'caseVisible':{'type':'boolean'},'timelineVisible':{'type':'boolean'},'referenceOnly':{'type':'boolean'},
+                       'generationMethod':{'type':'string','description':'Source-reviewed workflow. New intake requires code-generated; legacy direct-text-to-video records are uncounted context. Missing legacy values are not inferred from media type.'},
+                       'codeGenerationEvidence':{'type':'array','items':{'type':'string','format':'uri'},'description':'Public source URLs establishing LLM-generated code, required for new intake.'},
                        'caseNumber':{'type':['integer','null'],'description':'Display number may change after historical intake; id is stable.'},
                        'modelTimeline':{'type':'object','description':'Separate release facts and provisional sort positions; neither replaces artwork dates.', 'properties':{'key':{'type':'string'},'releaseDate':{'type':'string','description':'Present only with documented release evidence.'},'datePrecision':{'type':'string'},'sourceUrl':{'type':'string','format':'uri'},'status':{'type':'string','enum':['verified-release','release-unverified','inferred-position']},'sortDate':{'type':'string'},'sortDatePrecision':{'type':'string'},'sortBasis':{'type':'string','enum':['documented-release','earliest-source-work']},'estimatedFrom':{'type':'object','description':'Source work ID, artworkDate/datePrecision and sourceUrl supporting provisional placement, not release verification.'}}},
                        'detailFrames':{'type':'array','items':{'type':'object'},'description':'Real decoded frames with verifiable timestamps or frame indices and source/frame hashes; supplemental views, never additional works.'},

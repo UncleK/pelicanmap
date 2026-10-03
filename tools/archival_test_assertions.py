@@ -39,6 +39,8 @@ def reviewed_context_change(test, previous, current, key, by_id):
     No generic exemption: exactly this reviewed parent, four documented children,
     unchanged historical identity/media, and four policy fields only.
     """
+    if reviewed_video_context_change(test, previous, current, key, by_id):
+        return True
     if previous['id'] != PARENT or key not in {'caseRole', 'caseVisible', 'timelineVisible', 'caseReview'}:
         return False
     review = json.loads((ROOT / 'site/case-reviews.json').read_text(encoding='utf8'))[PARENT]
@@ -61,6 +63,29 @@ def reviewed_context_change(test, previous, current, key, by_id):
         test.assertTrue(child['media'][0]['src'].endswith('.webm'))
     test.assertEqual(sum(by_id[ident]['timelineVisible'] for ident in CHILDREN), 1)
     test.assertTrue(by_id['reddit-kylmawurr-opus55-medium-2026-09-27']['timelineVisible'])
+    return True
+
+
+def reviewed_video_context_change(test, previous, current, key, by_id):
+    """Four direct video outputs explicitly excluded by the latest user scope."""
+    from generation_scope import DIRECT_VIDEO_IDS
+    parent = previous['id']
+    if parent not in DIRECT_VIDEO_IDS or key not in {'caseRole', 'caseVisible', 'timelineVisible', 'caseReview'}:
+        return False
+    review = json.loads((ROOT / 'site/case-reviews.json').read_text(encoding='utf8'))[parent]
+    test.assertEqual(review['role'], 'context')
+    test.assertEqual(review['sourceUrl'], previous['sourceUrl'])
+    test.assertIn(previous['sourceUrl'], review['evidence'])
+    test.assertIn('Latest direct user scope on 2026-10-03', review['reason'])
+    test.assertEqual(current['caseRole'], 'context')
+    test.assertFalse(current['caseVisible'] or current['timelineVisible'])
+    test.assertIsNone(current['caseNumber'])
+    test.assertEqual(current['caseReview']['reason'], review['reason'])
+    test.assertEqual(current['caseReview']['evidence'], review['evidence'])
+    test.assertEqual(current['generationMethod'], 'direct-text-to-video')
+    test.assertEqual(current['childIds'], previous['childIds'])
+    for field in ['id', 'title', 'model', 'date', 'author', 'sourceUrl', 'updated', 'media', 'thumbnail', 'rights']:
+        test.assertEqual(current[field], previous[field], (parent, field))
     return True
 
 

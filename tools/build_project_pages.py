@@ -20,7 +20,7 @@ def build(language):
     live = SITE + ('/en' if en else '')
     canonical = PAGES + ('/' if en else '/zh/')
     title = T('pelicanmap · 收集所有鹈鹕骑车案例', 'pelicanmap · The pelican-on-a-bicycle archive')
-    description = T('收集各模型、各时间段、所有媒体类型的鹈鹕骑车真实案例。', 'Collecting all documented pelican-riding-a-bicycle cases across AI models, dates and media.')
+    description = T('收集大模型代码生成的鹈鹕骑车作品，覆盖各时间段、静态图、动画、三维与交互。', 'Collecting documented LLM code-generated pelicans across dates, from SVG to animation, 3D and interactive works.')
     works = [item for item in catalog['items'] if item.get('caseVisible', True) and not item.get('referenceOnly', False)]
     years = sorted({item['date'][:4] for item in works if item.get('date')})
     sources = ['origin', 'zoo', 'wtf', 'community']

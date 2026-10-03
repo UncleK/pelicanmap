@@ -12,7 +12,7 @@ from PIL import Image,ImageDraw
 import ingestion as app
 
 def submission():
-    return {'sourceUrl':'https://simonwillison.net/2026/Jul/18/test/','date':'2026-07-18','model':'test-model','author':'Simon Willison','format':'svg','unitType':'single-model-output','modelToMediaVerified':True,'title':{'zh':'测试','en':'Test'},'notes':{'zh':'测试记录','en':'Test record'},'media':['https://static.simonwillison.net/static/2026/test.png']}
+    return {'sourceUrl':'https://simonwillison.net/2026/Jul/18/test/','date':'2026-07-18','model':'test-model','author':'Simon Willison','format':'svg','unitType':'single-model-output','modelToMediaVerified':True,'generationMethod':'code-generated','codeGenerationEvidence':['https://simonwillison.net/2026/Jul/18/test/'],'title':{'zh':'测试','en':'Test'},'notes':{'zh':'测试记录','en':'Test record'},'media':['https://static.simonwillison.net/static/2026/test.png']}
 
 class IngestionTests(unittest.TestCase):
     def test_authenticated_queue_and_idempotency(self):
@@ -60,6 +60,11 @@ class IngestionTests(unittest.TestCase):
     def test_source_requires_linked_preview(self):
         p=app.validate(submission());p.update(sourceUrl='https://simonwillison.net/2026/Jul/18/test/',author='Simon Willison',media=['https://static.simonwillison.net/static/2026/test.png'])
         app.verify_source(p,lambda _:b'<p>test-model SVG</p><img src="https://static.simonwillison.net/static/2026/test.png">')
+        with self.assertRaisesRegex(ValueError,'code-generation workflow'):
+            app.verify_source(p,lambda _:b'<p>test-model video</p><img src="https://static.simonwillison.net/static/2026/test.png">')
+        bad=copy.deepcopy(p);bad['codeGenerationEvidence']=['https://unrelated.example/code']
+        with self.assertRaisesRegex(ValueError,'not the original source'):
+            app.verify_source(bad,lambda _:b'<p>test-model SVG</p><img src="https://static.simonwillison.net/static/2026/test.png">')
         with self.assertRaises(ValueError):app.verify_source(p,lambda _:b'<p>No image</p>')
 
     def test_image_decoding_and_blank_rejection(self):

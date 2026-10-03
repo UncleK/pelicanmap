@@ -103,7 +103,9 @@ class EditorialTests(unittest.TestCase):
             self.assertIn('datePrecision',guide)
             self.assertIn('family',guide)
             self.assertIn('medium',guide)
-            self.assertIn('all dates and media' if lang=='en' else '全时间段、全媒体',guide)
+            self.assertIn('Code-generated works across all dates and media' if lang=='en' else '大模型代码生成：全时段、跨媒体',guide)
+            self.assertIn('Direct text-to-video' if lang=='en' else '直接文生视频',guide)
+            self.assertIn('codeGenerationEvidence',guide)
             self.assertTrue(any(x['timelineVisible'] and x['format']!='svg' for x in catalog['items']))
 
     def test_csv_exposes_same_counting_flags_and_provenance_as_json(self):

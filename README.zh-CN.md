@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://pelicanmap.aveniqa.com/specimens/?view=images">浏览馆藏 ↗</a> · <a href="https://unclek.github.io/pelicanmap/zh/">项目首页</a> · <a href="README.md">English</a></p>
 
-**收集各模型、各时间段、所有媒体类型的鹈鹕骑车案例。** 保留真实输出、原始出处，也保留失败。
+**收藏大模型代码生成的鹈鹕骑车作品，覆盖各时间段与展示媒介。** 保留真实输出、原始出处，也保留失败。代码生成的动画、三维、交互及录屏可以收；直接文生视频不进入主馆，旧记录与原媒体留作资料。
 
 时间线与全部作品／普通搜索共用型号顺序，同型号内按作品日期。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，默认全部展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
 
@@ -30,7 +30,7 @@
 
 原始媒体、作者与出处见各记录。模型按来源标注，未独立认证。[收录方法](https://pelicanmap.aveniqa.com/about/)。
 
-时间线按已核实的型号首次公开发布时间排列，同型号内再按作品的来源日期排列。发布时间待核的型号单列，作品日期不改。同型号作品默认全部展开，可选择折叠。可见的动态缩略图静音播放；详情画廊展示真实归档帧，不增加作品数。
+时间线与全部作品共用型号版本顺序；有发布证据时使用首次公开日期，否则按最早来源作品月份暂定位置，不显示待核分区，不改作品日期。同型号内按作品日期排列，默认全部展开，折叠可选。动态预览静音播放；真实补充帧不增加作品数。
 
 ## 数据与接口
 
@@ -45,7 +45,7 @@ MCP  https://pelicanmap.aveniqa.com/mcp
 
 [JSON](https://pelicanmap.aveniqa.com/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/data/catalog.csv) · [OpenAPI](https://pelicanmap.aveniqa.com/openapi.json) · [Agent 导读](https://pelicanmap.aveniqa.com/llms.txt) · [接入文档](https://pelicanmap.aveniqa.com/developers/) · [接入示例](docs/INTEGRATIONS.zh-CN.md)
 
-普通搜索按作品日期排序；`/api/v1/timeline` 和 `kind=timeline` 按型号发布时间排序，`year` 在此表示发布年份，`unknown` 表示发布时间待核。`counts.timeline` 是 `counts.cases` 的子集，不能相加。完整导出保留未计数存档和 Benchmark 参考，应检查 `caseVisible`、`timelineVisible`、`referenceOnly`，不能把记录数当作品数。
+普通搜索、全部作品、`/api/v1/timeline` 与 `kind=timeline` 共用 `modelTimeline.sortDate` 型号轴，同型号内按作品日期。时间线年份筛型号位置，普通搜索年份筛作品年份；Play 保留作品日期排序。`counts.timeline` 是 `counts.cases` 的子集，不能相加。完整导出保留资料和 Benchmark；主馆须筛 `caseVisible`、`timelineVisible`、`referenceOnly`。新收录要求 `generationMethod=code-generated` 与公开 `codeGenerationEvidence`；不按视频后缀猜生成方式，旧直接文生视频可按 ID 查阅。
 
 ## 本地运行
 

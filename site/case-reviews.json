@@ -7814,23 +7814,96 @@
     "sourceUrl": "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8",
     "role": "case",
     "reason": "Pinned author Gist labels DiffusionGemma and links this exact original PNG. Gist UTC publication date, decoded pixels, source/hash identity and nearest archived previews checked. Malformed SVG remains unchanged private evidence, not repaired or mirrored; no image/code reuse licence is claimed.",
-    "fields": {"originalForm":"SVG · original published PNG preview"},
-    "evidence": ["https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8/914e51822b462d2f33df4de3b1bd60dc4518cd7c", "https://peterc.org/misc/pelican.png"]
+    "fields": {
+      "originalForm": "SVG · original published PNG preview"
+    },
+    "evidence": [
+      "https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8/914e51822b462d2f33df4de3b1bd60dc4518cd7c",
+      "https://peterc.org/misc/pelican.png"
+    ]
   },
   "serjaime-grok43-bike-2026-05-01": {
     "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
     "role": "case",
     "timelineVisible": false,
     "reason": "Author's model/access heading, exact bike prompt and own PNG comment verified against the pinned Gist and public comment timestamps. Original bytes decoded and checked against archived source URLs, hashes and closest normalized previews. Separate bike/bicycle outputs are a prompt comparison, not reasoning levels; no documented default/medium representative is guessed. No code mirror or reuse-licence claim.",
-    "fields": {"comparisonType":"prompt","originalForm":"SVG · original published PNG preview"},
-    "evidence": ["https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655/a0591fa6baa85514260947003b0a53e7558976f8", "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716"]
+    "fields": {
+      "comparisonType": "prompt",
+      "originalForm": "SVG · original published PNG preview"
+    },
+    "evidence": [
+      "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655/a0591fa6baa85514260947003b0a53e7558976f8",
+      "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716"
+    ]
   },
   "serjaime-grok43-bicycle-2026-05-01": {
     "sourceUrl": "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655",
     "role": "case",
     "timelineVisible": false,
     "reason": "Same author explicitly follows up the Gist's grok 4.3 bike test with bicycle, publishing the second response and PNG in adjacent timestamped comments. Fresh-session status remains unverified. Original preview decoded; malformed duplicate-y2 SVG stays private and unchanged. Hash/source and closest normalized archived preview checks found no prior output. No default/medium is guessed, no code mirrored.",
-    "fields": {"comparisonType":"prompt","originalForm":"SVG · original published PNG preview"},
-    "evidence": ["https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128730", "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731"]
+    "fields": {
+      "comparisonType": "prompt",
+      "originalForm": "SVG · original published PNG preview"
+    },
+    "evidence": [
+      "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128730",
+      "https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731"
+    ]
+  },
+  "x-1866187975148929474-7e2d12f3": {
+    "sourceUrl": "https://x.com/simonw/status/1866187975148929474",
+    "role": "context",
+    "timelineVisible": false,
+    "policyVersion": "2026-10-03-code-generation-v1",
+    "reason": "Latest direct user scope on 2026-10-03: the museum focuses on LLM code-generated works. This is a direct text-to-video output, not generated code; preserve the original ID, source, date and media as context only, with no artwork count, timeline, display number or default search.",
+    "evidence": [
+      "https://x.com/simonw/status/1866187975148929474",
+      "https://openai.com/index/sora-is-here/"
+    ],
+    "fields": {
+      "generationMethod": "direct-text-to-video"
+    }
+  },
+  "x-1868801821101437107-fbc3a18f": {
+    "sourceUrl": "https://x.com/simonw/status/1868801821101437107",
+    "role": "context",
+    "timelineVisible": false,
+    "policyVersion": "2026-10-03-code-generation-v1",
+    "reason": "Latest direct user scope on 2026-10-03: the museum focuses on LLM code-generated works. This is a direct text-to-video output, not generated code; preserve the original ID, source, date and media as context only, with no artwork count, timeline, display number or default search.",
+    "evidence": [
+      "https://x.com/simonw/status/1868801821101437107",
+      "https://deepmind.google/models/veo/prompt-guide/"
+    ],
+    "fields": {
+      "generationMethod": "direct-text-to-video"
+    }
+  },
+  "x-1925333644555452774-64006dea": {
+    "sourceUrl": "https://x.com/alexanderchen/status/1925333644555452774",
+    "role": "context",
+    "timelineVisible": false,
+    "policyVersion": "2026-10-03-code-generation-v1",
+    "reason": "Latest direct user scope on 2026-10-03: the museum focuses on LLM code-generated works. This is a direct text-to-video output, not generated code; preserve the original ID, source, date and media as context only, with no artwork count, timeline, display number or default search.",
+    "evidence": [
+      "https://x.com/alexanderchen/status/1925333644555452774",
+      "https://deepmind.google/models/veo/prompt-guide/"
+    ],
+    "fields": {
+      "generationMethod": "direct-text-to-video"
+    }
+  },
+  "x-1938281396759642489-1db35b96": {
+    "sourceUrl": "https://x.com/yusufozuysal/status/1938281396759642489",
+    "role": "context",
+    "timelineVisible": false,
+    "policyVersion": "2026-10-03-code-generation-v1",
+    "reason": "Latest direct user scope on 2026-10-03: the museum focuses on LLM code-generated works. This is a direct text-to-video output, not generated code; preserve the original ID, source, date and media as context only, with no artwork count, timeline, display number or default search.",
+    "evidence": [
+      "https://x.com/yusufozuysal/status/1938281396759642489",
+      "https://deepmind.google/models/veo/prompt-guide/"
+    ],
+    "fields": {
+      "generationMethod": "direct-text-to-video"
+    }
   }
 }

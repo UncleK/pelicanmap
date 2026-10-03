@@ -3,7 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
-from archival_test_assertions import user_requested_context_change
+from archival_test_assertions import user_requested_context_change, reviewed_video_context_change
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-x-earlier-review'
 A=json.loads((DIR/'import-audit.json').read_text(encoding='utf8'))
@@ -13,8 +13,9 @@ BY={x['id']:x for x in CAT['items']}
 class XEarlierReviewTests(unittest.TestCase):
     def test_reviewed_source_reported_units(self):
         self.assertEqual(len(A['added']),5)
-        self.assertGreaterEqual(CAT['counts']['cases'],A['expectedCases']-1)
-        self.assertGreaterEqual(CAT['counts']['timeline'],A['expectedTimeline']-1)
+        # The earlier user removal plus four preserved direct-video context records.
+        self.assertGreaterEqual(CAT['counts']['cases'],A['expectedCases']-1-4)
+        self.assertGreaterEqual(CAT['counts']['timeline'],A['expectedTimeline']-1-4)
         self.assertEqual(CAT['counts']['referenceRecords'],138)
         manifest=json.loads((DIR/'approved-manifest.json').read_text(encoding='utf8'))
         self.assertTrue(manifest['reviewed'])
@@ -79,6 +80,7 @@ class XEarlierReviewTests(unittest.TestCase):
         for x in before['items']:
             for key,value in x.items():
                 if user_requested_context_change(self,x,BY[x['id']],key):continue
+                if reviewed_video_context_change(self,x,BY[x['id']],key,BY):continue
                 if key!='caseNumber':self.assertEqual(BY[x['id']][key],value,(x['id'],key))
         additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))}
         for x in json.loads((DIR/'before-additions.json').read_text(encoding='utf8')):self.assertEqual(additions[x['id']],x)

@@ -3,10 +3,19 @@ import assert from 'node:assert/strict';
 import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord} from './import_collection_batch.mjs';
 import sharp from 'sharp';
 
-const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/source',date:'2026-07-29',model:'Source-model-label',author:'Author',format:'svg',unitType:'single-model-output',modelToMediaVerified:true,
+const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/source',date:'2026-07-29',model:'Source-model-label',author:'Author',format:'svg',unitType:'single-model-output',modelToMediaVerified:true,generationMethod:'code-generated',codeGenerationEvidence:['https://example.com/source'],
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
+
+test('intake requires source-reviewed code generation, not a media-type guess',()=>{
+  for(const change of [{generationMethod:undefined},{generationMethod:'direct-text-to-video'},
+    {codeGenerationEvidence:[]},{codeGenerationEvidence:['file:///private']},{model:'Veo 2'},{model:'Sora'}])
+    assert.throws(()=>validateCandidate({...sample(),...change}));
+  const record=makeRecord(sample(),[asset],'2026-10-03');
+  assert.equal(record.generationMethod,'code-generated');
+  assert.deepEqual(record.codeGenerationEvidence,sample().codeGenerationEvidence);
+});
 
 test('files cannot escape the batch archive',()=>{
   assert.equal(safeName('model-sample-01.svg'),'model-sample-01.svg');

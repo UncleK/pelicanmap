@@ -3,7 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
-from archival_test_assertions import user_requested_context_change
+from archival_test_assertions import user_requested_context_change, reviewed_video_context_change
 
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-x-september-continuation'
@@ -67,6 +67,7 @@ class XSeptemberContinuationTests(unittest.TestCase):
         for item in json.loads((DIR/'before-catalog.json').read_text(encoding='utf8'))['items']:
             for key,value in item.items():
                 if user_requested_context_change(self,item,BY[item['id']],key):continue
+                if reviewed_video_context_change(self,item,BY[item['id']],key,BY):continue
                 if key!='caseNumber':self.assertEqual(BY[item['id']][key],value,(item['id'],key))
         additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))}
         for item in json.loads((DIR/'before-additions.json').read_text(encoding='utf8')):

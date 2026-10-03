@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml"><img alt="Checks" src="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml/badge.svg"></a> <img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-385647?style=flat-square"></p>
 
-**Collecting all documented pelican-riding-a-bicycle cases across AI models, dates and media.** Actual outputs, original sources, successes and failures — kept together.
+**Collecting documented LLM code-generated pelicans across dates, from SVG to animation, 3D and interactive works.** Actual outputs, original sources, successes and failures — kept together.
 
 <p align="center">
   <a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=Works&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="Works"></a>
@@ -35,7 +35,7 @@ Generate an SVG of a pelican riding a bicycle.
 
 Original media and credits stay with each record. Model labels are source-reported, not independently authenticated. [Collection method](https://pelicanmap.aveniqa.com/en/about/).
 
-The timeline groups exact model versions by documented first public release, then orders works by their source dates within each version. Unverified releases remain separate; artwork dates are never replaced. All works are expanded by default, with optional same-version folding. Visible moving previews play silently; detail galleries use real archived frames, not additional works.
+Timeline and All works share exact-model version order, using documented releases or an explicitly provisional earliest source-work month, then artwork dates within each version. Artwork dates are never replaced, and no pending UI section is shown. Same-model works are expanded by default with optional folding. Moving previews play silently; genuine frames add no works. Direct text-to-video is outside the main collection; preserved legacy IDs/media remain uncounted context. New imports require generationMethod=code-generated and public codeGenerationEvidence.
 
 ## Explore the field guide
 

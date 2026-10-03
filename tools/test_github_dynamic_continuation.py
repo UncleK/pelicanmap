@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
+from archival_test_assertions import reviewed_video_context_change
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-github-dynamic-continuation'
 A=json.loads((DIR/'import-audit.json').read_text(encoding='utf8'))
@@ -12,8 +13,9 @@ BY={x['id']:x for x in CAT['items']}
 class GithubDynamicContinuationTests(unittest.TestCase):
     def test_reviewed_source_units_not_six_claimed_runs(self):
         self.assertEqual(len(A['added']),4)
-        self.assertGreaterEqual(CAT['counts']['cases'],951)
-        self.assertGreaterEqual(CAT['counts']['timeline'],626)
+        # Four preserved direct-video records left main counts under the user's code-generation scope.
+        self.assertGreaterEqual(CAT['counts']['cases'],951-4)
+        self.assertGreaterEqual(CAT['counts']['timeline'],626-4)
         self.assertEqual(CAT['counts']['referenceRecords'],138)
         manifest=json.loads((DIR/'approved-manifest.json').read_text(encoding='utf8'))
         self.assertTrue(manifest['reviewed'])
@@ -85,6 +87,7 @@ class GithubDynamicContinuationTests(unittest.TestCase):
         before=json.loads((DIR/'before-catalog.json').read_text(encoding='utf8'))
         for x in before['items']:
             for key,value in x.items():
+                if reviewed_video_context_change(self,x,BY[x['id']],key,BY):continue
                 if key!='caseNumber':self.assertEqual(BY[x['id']][key],value,(x['id'],key))
         additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))}
         for x in json.loads((DIR/'before-additions.json').read_text(encoding='utf8')):self.assertEqual(additions[x['id']],x)

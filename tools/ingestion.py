@@ -22,6 +22,7 @@ from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from urllib.parse import urlsplit,urljoin
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
+from generation_scope import require_code_generation
 
 ROOT=Path(__file__).resolve().parents[1]
 STATE=Path(os.environ.get('PELICAN_STATE','/srv/pelicanmap/state'))
@@ -54,11 +55,13 @@ def url(value):
     return value
 
 def validate(payload):
-    keys={'sourceUrl','date','model','author','format','title','notes','media','prompt','unitType','modelToMediaVerified'}
+    keys={'sourceUrl','date','model','author','format','title','notes','media','prompt','unitType','modelToMediaVerified','generationMethod','codeGenerationEvidence'}
     if not isinstance(payload,dict) or set(payload)-keys:raise ValueError('Unknown submission fields')
     p={k:payload.get(k) for k in keys}
     p['sourceUrl']=url(p['sourceUrl'])
     for k in ['model','author']:p[k]=text(p[k],180)
+    require_code_generation(p['generationMethod'],p['codeGenerationEvidence'],p['model'])
+    p['codeGenerationEvidence']=[url(x) for x in p['codeGenerationEvidence']]
     for k in ['title','notes']:
         if not isinstance(p[k],dict) or set(p[k])!={'zh','en'}:raise ValueError(k+' requires zh and en')
         p[k]={lang:text(value,180 if k=='title' else 1600) for lang,value in p[k].items()}
@@ -114,6 +117,8 @@ def verify_source(p,fetcher=fetch):
         soup=BeautifulSoup(page,'html.parser')
         if p['model'].casefold() not in soup.get_text(' ',strip=True).casefold():raise ValueError('Model label is not present in the original source')
         refs={urljoin(p['sourceUrl'],tag.get(attr,'')) for tag in soup.find_all(True) for attr in ['src','href'] if tag.get(attr)}
+        if not set(p['codeGenerationEvidence']) <= refs|{p['sourceUrl']}:raise ValueError('Code-generation evidence is not the original source or linked by it')
+        if not re.search(r'\b(?:SVG|HTML|JavaScript|Canvas|Three\.js|WebGL|Blender|POV-Ray|code)\b',soup.get_text(' ',strip=True),re.I):raise ValueError('Source does not establish a code-generation workflow; needs review')
         if not set(p['media'])<=refs:raise ValueError('Preview is not linked by the original source')
         if any(urlsplit(u).hostname!='static.simonwillison.net' for u in p['media']):raise ValueError('Preview must be hosted by the source')
     elif source.hostname=='github.com':
@@ -160,7 +165,7 @@ def make_record(p,provenance,images):
       'mediaStatus':'local','mediaNote':'','media':media,'thumbnail':media[0]['src'],'demoUrl':'','externalUrl':provenance['demo'],'sourceCodeUrl':'','interactive':False,
       'path':path,'url':BASE+path,'markdown':path+'index.md','updated':dt.datetime.now(dt.timezone.utc).date().isoformat(),'rights':'作品权利归原作者；本站收录不改变原作品许可。',
       'i18n':{'en':{'title':p['title']['en'],'notes':notes['en'],'promptStatus':p['prompt'] or 'The complete original prompt is not recorded here; consult the source.'}},
-      'unitType':'single-model-output','reviewedModelNames':[p['model']],'modelClaimStatus':'source-reported-not-independently-authenticated',
+      'unitType':'single-model-output','reviewedModelNames':[p['model']],'modelClaimStatus':'source-reported-not-independently-authenticated','generationMethod':p['generationMethod'],'codeGenerationEvidence':p['codeGenerationEvidence'],
       'ingestion':{'sourceChecked':True,'imagesChecked':True,'contentHashes':[hashlib.sha256(b).hexdigest() for b in images],'sourceVerification':provenance['warning'] or 'source-attributed'}}
 
 def publish(p):

@@ -9,6 +9,7 @@ import json
 import re
 from pathlib import Path
 from card_metadata import model_names
+from generation_scope import is_direct_video
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -73,6 +74,9 @@ def apply_case_policy(items, media_root, reviews=None):
             item.update(copy.deepcopy(review.get('fields',{})))
         names = item.get('reviewedModelNames') or model_names(item['model'])
         role = review.get('role') or ('case' if len(names)==1 else 'needs-attribution')
+        if is_direct_video(item):
+            role = 'context'
+            item['generationMethod'] = 'direct-text-to-video'
         # Museum originals remain archived; commentary/physical media is not a
         # dated model drawing. Only reviewed legacy works remain in main lists.
         if not review and item['format']=='text' and item['source']=='community':
@@ -107,7 +111,7 @@ def apply_case_policy(items, media_root, reviews=None):
         for key in ['canonicalId','representativeOf','parentId']:
             if item.get(key):
                 assert item[key] in by_id and item[key]!=item['id'], 'Broken case relationship'
-        item['caseReview'] = {'policyVersion':'2026-10-01-all-media-v2','reason':review.get('reason','Single source-labelled output; legacy attribution and recorded date retained.'),'evidence':review.get('evidence',[])}
+        item['caseReview'] = {'policyVersion':review.get('policyVersion','2026-10-01-all-media-v2'),'reason':review.get('reason','Single source-labelled output; legacy attribution and recorded date retained.'),'evidence':review.get('evidence',[])}
     # Only explicit, source-reviewed run groups may select a default setting.
     # Missing default/medium is held out of the axis, never replaced by "best".
     groups={}
