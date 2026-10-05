@@ -56,7 +56,12 @@ class MotionRecoveryTests(unittest.TestCase):
                 doc=BeautifulSoup((ROOT/'public-site'/prefix/x['path'].lstrip('/')/'index.html').read_text(encoding='utf8'),'html.parser')
                 self.assertEqual(doc.select_one('iframe[data-local-demo]')['src'],a['previewUrl'])
                 self.assertFalse(doc.select_one('[data-preview-only]'))
-        self.assertEqual(len(json.loads((ROOT/'site/demo-reviews.json').read_text())),5)
+        reviews=json.loads((ROOT/'site/demo-reviews.json').read_text())
+        self.assertEqual(len(reviews),6)
+        restored='variora-gemini-3-8-flash-2026-09-20'
+        self.assertTrue(BY[restored]['interactive'])
+        self.assertEqual(reviews[restored]['sourceSha256'],'f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a')
+        self.assertEqual(len(reviews[restored]['verifiedActions']),4)
     def test_prior_media_and_dates_preserved(self):
         for old in json.loads((DIR/'before-catalog.json').read_text())['items']:
             for key in ['id','model','date','author','sourceUrl','updated','media']:

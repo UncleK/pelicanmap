@@ -124,6 +124,8 @@ def reviewed_motion_append(test, previous, current, key):
 
 def reviewed_swe_motion_restoration(test, previous, current, key):
     """Three individually reviewed pinned MIT originals, never a blanket exemption."""
+    if reviewed_gemini_interaction_restoration(test, previous, current, key):
+        return True
     reviewed = {
         'variora-swe-2-2026-09-22': ('d42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64', 19255),
         'variora-mimo-v2-6-flash-free-2026-09-22': ('111be2ead35b66fc24df2834334b25eb3623f2694b2a6ae99f09937974f2ff48', 23128),
@@ -164,10 +166,51 @@ def reviewed_swe_motion_restoration(test, previous, current, key):
 
 def reviewed_swe_addition_restoration(test, previous, current):
     """Apply the same exact restoration guard to ingestion snapshots."""
+    if previous['id'] == 'variora-gemini-3-8-flash-2026-09-20':
+        for key, value in previous.items():
+            if not reviewed_gemini_interaction_restoration(test, previous, current, key):
+                test.assertEqual(current[key], value)
+        test.assertEqual(set(current)-set(previous), {'generationConditions','interactive'}-set(previous))
+        return True
     if previous['id'] not in {'variora-swe-2-2026-09-22', 'variora-mimo-v2-6-flash-free-2026-09-22', 'variora-grok-4-7-2026-09-22'}:
         return False
     for key, value in previous.items():
         if not reviewed_swe_motion_restoration(test, previous, current, key):
             test.assertEqual(current[key], value)
     test.assertEqual(set(current)-set(previous), {'generationConditions','previewUrl','interactive'}-set(previous))
+    return True
+
+
+def reviewed_gemini_interaction_restoration(test, previous, current, key):
+    """One unchanged MIT app with verified wheelie/fish actions; no generic Play exemption."""
+    ident = 'variora-gemini-3-8-flash-2026-09-20'
+    fields = {'notes','rights','i18n','demoUrl','interactive','interactionControls','generationConditions'}
+    if previous['id'] != ident or key not in fields:
+        return False
+    expected_sha = 'f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a'
+    demo = 'https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/'+ident+'/'
+    directory = ROOT / 'public-demos/demos/variora-motion-recovery' / ident
+    test.assertEqual((directory / 'index.html').stat().st_size, 73420)
+    test.assertEqual(hashlib.sha256((directory / 'index.html').read_bytes()).hexdigest(), expected_sha)
+    test.assertEqual(hashlib.sha256((directory / 'LICENSE.txt').read_bytes()).hexdigest(), '7b2f47de242cf53f6c5f53d6aeee902d064e5e8a4e151388ef8966a538b4f8f2')
+    review = json.loads((ROOT / 'site/demo-reviews.json').read_text(encoding='utf8'))[ident]
+    test.assertEqual(review['sourceSha256'], expected_sha)
+    test.assertEqual(review['license'], 'MIT')
+    test.assertEqual(review['demoUrl'], demo)
+    test.assertEqual(len(review['verifiedActions']), 4)
+    test.assertEqual(current['demoUrl'], demo)
+    test.assertTrue(current['interactive'])
+    if 'interactionControls' in current:
+        test.assertEqual(current['interactionControls'], review['controls'])
+    expected = next(x for x in json.loads((ROOT / 'site/additions.json').read_text(encoding='utf8')) if x['id'] == ident)
+    for field in ['notes','rights','i18n','generationConditions']:
+        test.assertEqual(current[field], expected[field])
+    archive = current['generationConditions']['animationArchive']
+    test.assertEqual(archive['sha256'], expected_sha)
+    test.assertEqual(archive['bytes'], 73420)
+    test.assertEqual(archive['license'], 'MIT')
+    test.assertFalse(archive['controlsArePlaybackOnly'])
+    for field in ['id','model','date','author','sourceUrl','updated','media','thumbnail']:
+        test.assertEqual(current[field], previous[field], (ident,field))
+    test.assertTrue(current['notes'].startswith(previous['notes']))
     return True

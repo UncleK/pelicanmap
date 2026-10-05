@@ -125,10 +125,11 @@ class CaseUnitTests(unittest.TestCase):
 
     def test_old_play_entries_and_same_day_prompt_alternative_are_preserved(self):
         from catalog_policy import playable_records
-        self.assertEqual(len(playable_records(ITEMS)),4)
+        self.assertEqual(len(playable_records(ITEMS)),5)
+        self.assertTrue(BY['variora-gemini-3-8-flash-2026-09-20']['interactive'])
         for lang in ['', 'en/']:
             page=BeautifulSoup((OUT/lang/'play/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertEqual(len(page.select('[data-results] .card')),4)
+            self.assertEqual(len(page.select('[data-results] .card')),5)
             self.assertNotIn('#None',str(page))
         runs=[x for x in ITEMS if x.get('modelRunGroup')=='simon-gemini3-classic-2025-11-18']
         self.assertEqual(len(runs),3)

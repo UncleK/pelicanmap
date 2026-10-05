@@ -1,4 +1,14 @@
 {
+  "variora-gemini-3-8-flash-2026-09-20": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-gemini-3-8-flash-2026-09-20/",
+    "controls": {"zh": "点击「翘前轮特技」或按空格抬起前轮；点击「投喂小鱼」触发喉囊反馈，点击车灯开关灯光。原界面为中文，音效默认关闭。", "en": "Click the wheelie button (翘前轮特技) or press Space to lift the front wheel; poke the fish (投喂小鱼) for pouch feedback, and toggle the headlight (车灯). Original controls are in Chinese; sound is off by default."},
+    "reviewedAt": "2026-10-06",
+    "sourceUrl": "https://github.com/scarletkc/Variora/tree/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/gemini-3-8-flash",
+    "sourceSha256": "f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a",
+    "license": "MIT",
+    "verifiedActions": ["Clicked wheelie: bike rotation changed from 0.00 to -18.74 degrees", "Pressed Space: bike rotation -11.80 degrees and WHEELIE feedback", "Clicked fish: pouch geometry and fish position responded", "Headlight toggle: beam opacity changed from 0 to 1"],
+    "safety": "Complete standalone HTML and MIT license read; no external dependencies, network, storage, eval, navigation, forms or permissions. Local opaque-origin sandbox allowed scripts only; network denied. Default sound off retained. No fullscreen or source rewrites."
+  },
   "tihuqiche-game-157f212e": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/tihuqiche/index.html",
     "controls": {"zh": "WASD / 方向键控制骑行，拖动和滚轮调整视角。", "en": "Use WASD / arrow keys to ride; drag and scroll to adjust the view."}

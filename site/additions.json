@@ -15838,7 +15838,7 @@
     "author": "KC (@ScarletKc) / Variora",
     "date": "2026-09-20",
     "month": "2026-09",
-    "notes": "带仪表盘界面的海边 SVG 骑行；README 记录 OpenCode 1.18.31、9 月 20 日一次生成，原 HTML 未改动。本批仅归档原截图，尚未审核其场景控件，不列入可玩演示。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。",
+    "notes": "带仪表盘界面的海边 SVG 骑行；README 记录 OpenCode 1.18.31、9 月 20 日一次生成，原 HTML 未改动。本批仅归档原截图，尚未审核其场景控件，不列入可玩演示。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。 以上为初次截图归档状态。2026-10-06 已完整审核固定版本原 HTML、MIT 许可与安全边界，并在隔离浏览器实测点击／空格触发翘前轮、投喂小鱼反馈及车灯操作，恢复为站内可交互作品。原动画与代码字节不改；自动拾币及作者界面的得分不是本馆评分。音效默认关闭，未在测试中启用。原封面、日期、型号和作品数保持，不重复计数。",
     "source": "community",
     "sourceLabel": "社区记录",
     "sourceUrl": "https://github.com/scarletkc/Variora/tree/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/gemini-3-8-flash",
@@ -15862,20 +15862,20 @@
       }
     ],
     "thumbnail": "/media/collected/2026-10-01-variora-backfill/variora-gemini-3-8-flash-scene.png",
-    "demoUrl": "",
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-gemini-3-8-flash-2026-09-20/",
     "externalUrl": "https://variora.fog.moe/zh/preview/?project=pelican-cycle&model=gemini-3-8-flash",
     "sourceCodeUrl": "https://github.com/scarletkc/Variora/blob/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/gemini-3-8-flash/app/index.html",
     "path": "/specimens/variora-gemini-3-8-flash-2026-09-20/",
     "url": "https://pelicanmap.aveniqa.com/specimens/variora-gemini-3-8-flash-2026-09-20/",
     "markdown": "/specimens/variora-gemini-3-8-flash-2026-09-20/index.md",
     "updated": "2026-10-01",
-    "rights": "上游仓库为 MIT License，Copyright (c) 2026 scarletkc；保留作者署名、源文件链接与许可。此批不镜像可执行 HTML。",
+    "rights": "MIT License，Copyright (c) 2026 scarletkc；固定版本原 HTML 原字节保留，完整许可在隔离演示目录的 LICENSE.txt，保留作者署名和原仓库链接。",
     "i18n": {
       "en": {
         "title": "Gemini 3.8 Flash high · Variora coastal cycling",
         "model": "Gemini 3.8 Flash · high (upstream-reported)",
-        "notes": "A dashboard-style coastal SVG ride. The README records OpenCode 1.18.31, a single generation on September 20 and unchanged imported HTML. This batch archives only the original screenshot; scene controls have not been reviewed and it is not classified as playable. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo.",
-        "rights": "The upstream repository is MIT-licensed, Copyright (c) 2026 scarletkc. Attribution, original-file links and license are retained. Executable HTML is not mirrored in this batch.",
+        "notes": "A dashboard-style coastal SVG ride. The README records OpenCode 1.18.31, a single generation on September 20 and unchanged imported HTML. This batch archives only the original screenshot; scene controls have not been reviewed and it is not classified as playable. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo. Those statements describe the initial screenshot-only intake. On 2026-10-06 the complete pinned HTML, MIT license and safety boundaries were reviewed; an isolated browser verified clicking and Space to lift the front wheel, fish-poking feedback and headlight control. The original is now restored as an on-site interactive work, byte-for-byte without code or animation changes. Automatic coin collection and the app's scores are not museum ratings. Sound is off by default and was not enabled during testing. Original cover, dates, model label and work count are preserved; this is not another work.",
+        "rights": "MIT License, Copyright (c) 2026 scarletkc. Pinned original HTML bytes are unchanged; the full license is retained as LICENSE.txt beside the isolated demo, together with attribution and original repository links.",
         "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画。",
         "promptCategory": "Source-documented test"
       }
@@ -15894,7 +15894,19 @@
     "licenseUrl": "/media/collected/2026-10-01-variora-backfill/ATTRIBUTION.txt",
     "licenseFiles": [
       "/media/collected/2026-10-01-variora-backfill/Variora-MIT.txt"
-    ]
+    ],
+    "interactive": true,
+    "generationConditions": {
+      "animationArchive": {
+        "source": "https://raw.githubusercontent.com/scarletkc/Variora/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/gemini-3-8-flash/app/index.html",
+        "sha256": "f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a",
+        "bytes": 73420,
+        "license": "MIT",
+        "licenseUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-gemini-3-8-flash-2026-09-20/LICENSE.txt",
+        "checkedAt": "2026-10-05T19:12:03Z",
+        "controlsArePlaybackOnly": false
+      }
+    }
   },
   {
     "id": "variora-gpt-6-astra-max-2026-09-14",

@@ -125,5 +125,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
 for url in {x['demoUrl'] for x in catalog['items'] if x.get('interactive')}:
     content, _ = get(url)
     assert b'<html' in content.lower()
-assert len(play_ids)==4,'Legacy play entries must survive case-count exclusions'
+assert len(play_ids)==5,'Four legacy demos plus one verified restored interactive work'
+assert 'variora-gemini-3-8-flash-2026-09-20' in play_ids
 print(json.dumps({'cases': catalog['counts']['cases'], 'raw_records': len(catalog['items']), 'reference_records': catalog['counts']['referenceRecords'], 'benchmark_rows': len(reference['rows']), 'timeline': catalog['counts']['timeline'], 'playable_demos': len(play_ids), 'archived_media_byte_identical': len(media), 'bilingual_browse_and_local_iframes': 'passed', 'chronological_numbers_and_card_regions': 'passed'}))
