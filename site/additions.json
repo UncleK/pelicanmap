@@ -54849,5 +54849,1146 @@
       "access": "original public post read in background signed-in Chrome"
     },
     "sourcePublicationDate": "2024-11-22"
+  },
+  {
+    "id": "nebius-deepseek-r1-0528-1-2025-08-05",
+    "originalId": "nebius-deepseek-r1-0528-1-2025-08-05",
+    "kind": "timeline",
+    "title": "DeepSeek-R1-0528 · 第 1 个公开骑车鹈鹕输出",
+    "model": "DeepSeek-R1-0528",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-05",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 DeepSeek-R1-0528-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-05T05:23:30Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/DeepSeek-R1-0528-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/DeepSeek-R1-0528-1.png",
+        "sha256": "d9f26b514ee713b07fea4391f6af9560290e0d31038fb99281d46c9b95c3eb48",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/DeepSeek-R1-0528-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/annotated/DeepSeek-R1-0528-1.png",
+        "sha256": "514a94e01734c44ef23c1dff51327399b37c1d22a9ad6898508ef9a8c40a5133",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/DeepSeek-R1-0528-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/DeepSeek-R1-0528-1.svg",
+        "sha256": "b463f4a318169be1521a932d2d811af5720641c0671532ec56936ba1a07f00f7",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/DeepSeek-R1-0528-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/DeepSeek-R1-0528-1.svg",
+    "path": "/specimens/nebius-deepseek-r1-0528-1-2025-08-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-deepseek-r1-0528-1-2025-08-05/",
+    "markdown": "/specimens/nebius-deepseek-r1-0528-1-2025-08-05/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek-R1-0528 · published cycling pelican output 1",
+        "model": "DeepSeek-R1-0528",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file DeepSeek-R1-0528-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-05T05:23:30Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/c6948d873b16101162b2091efe67aa4cb826299d",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek-R1-0528"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/DeepSeek-R1-0528-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-05T05:23:30Z",
+      "sourceCommit": "c6948d873b16101162b2091efe67aa4cb826299d",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "DeepSeek-R1-0528-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "sourcePublicationDate": "2025-08-05",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-qwen3-235b-a22b-instruct-2507-1-2025-08-05",
+    "originalId": "nebius-qwen3-235b-a22b-instruct-2507-1-2025-08-05",
+    "kind": "timeline",
+    "title": "Qwen3-235B-A22B-Instruct-2507 · 第 1 个公开骑车鹈鹕输出",
+    "model": "Qwen3-235B-A22B-Instruct-2507",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-05",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 Qwen3-235B-A22B-Instruct-2507-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-05T05:23:30Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.png",
+        "sha256": "110932ad9643748d31a862b63227643b745485e27a0bd9f0f47a74c05a60169e",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/annotated/Qwen3-235B-A22B-Instruct-2507-1.png",
+        "sha256": "eb7c3642a1cc0581837374413ec70ce8e129b1cf388416a70149e029e5e5030b",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.svg",
+        "sha256": "82f52de41c5f72c1a12f8dd95f40bd2dac93f0b69594ff8265e685154570dfe3",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.svg",
+    "path": "/specimens/nebius-qwen3-235b-a22b-instruct-2507-1-2025-08-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-qwen3-235b-a22b-instruct-2507-1-2025-08-05/",
+    "markdown": "/specimens/nebius-qwen3-235b-a22b-instruct-2507-1-2025-08-05/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3-235B-A22B-Instruct-2507 · published cycling pelican output 1",
+        "model": "Qwen3-235B-A22B-Instruct-2507",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file Qwen3-235B-A22B-Instruct-2507-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-05T05:23:30Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/c6948d873b16101162b2091efe67aa4cb826299d",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3-235B-A22B-Instruct-2507"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-05T05:23:30Z",
+      "sourceCommit": "c6948d873b16101162b2091efe67aa4cb826299d",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "Qwen3-235B-A22B-Instruct-2507-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-qwen3-235b-a22b-instruct-2507-2025-08-05",
+    "sourcePublicationDate": "2025-08-05",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05",
+    "originalId": "nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05",
+    "kind": "timeline",
+    "title": "Qwen3-235B-A22B-Instruct-2507 · 第 2 个公开骑车鹈鹕输出",
+    "model": "Qwen3-235B-A22B-Instruct-2507",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-05",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 Qwen3-235B-A22B-Instruct-2507-2；后缀 2 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-05T05:23:30Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-2-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.png",
+        "sha256": "ae5a818f278109f5bfa11bcba4b2eff97128b0f015adf6cec228cd36f4a8e85d",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-2-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/annotated/Qwen3-235B-A22B-Instruct-2507-2.png",
+        "sha256": "8182e43daca36fa0d081819f0984a3b56348c5a4f6657dff7caff7ed0a540fc7",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-2-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.svg",
+        "sha256": "e428616bf4a84f633bb10a631f3e6e5ce368b2831b5e20f4602e92e1cba18409",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-Instruct-2507-2-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.svg",
+    "path": "/specimens/nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05/",
+    "markdown": "/specimens/nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3-235B-A22B-Instruct-2507 · published cycling pelican output 2",
+        "model": "Qwen3-235B-A22B-Instruct-2507",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file Qwen3-235B-A22B-Instruct-2507-2. Suffix 2 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-05T05:23:30Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/c6948d873b16101162b2091efe67aa4cb826299d",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3-235B-A22B-Instruct-2507"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-05T05:23:30Z",
+      "sourceCommit": "c6948d873b16101162b2091efe67aa4cb826299d",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "Qwen3-235B-A22B-Instruct-2507-2",
+      "sourceFileNumber": "2",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-qwen3-235b-a22b-instruct-2507-2025-08-05",
+    "sourcePublicationDate": "2025-08-05",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-qwen3-235b-a22b-1-2025-08-05",
+    "originalId": "nebius-qwen3-235b-a22b-1-2025-08-05",
+    "kind": "timeline",
+    "title": "Qwen3-235B-A22B · 第 1 个公开骑车鹈鹕输出",
+    "model": "Qwen3-235B-A22B",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-05",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 Qwen3-235B-A22B-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-05T21:35:17Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.png",
+        "sha256": "d83f943f676e1102ae10745a5c09b94e08aa9bfe548d07de5564b7f509cc0251",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/annotated/Qwen3-235B-A22B-1.png",
+        "sha256": "8587d7a20fe2d0e71f535a011fd321feeccc69f86b1f6ae28a411ea35ebb2594",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.svg",
+        "sha256": "8d4df66493ed7ca37506a8d406a557144fc93b30525e86d46317d7fee14fef54",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.svg",
+    "path": "/specimens/nebius-qwen3-235b-a22b-1-2025-08-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-qwen3-235b-a22b-1-2025-08-05/",
+    "markdown": "/specimens/nebius-qwen3-235b-a22b-1-2025-08-05/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3-235B-A22B · published cycling pelican output 1",
+        "model": "Qwen3-235B-A22B",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file Qwen3-235B-A22B-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-05T21:35:17Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/bd89b2203863ae4838bd2ad2911fb3823063dcce",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3-235B-A22B"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-05T21:35:17Z",
+      "sourceCommit": "bd89b2203863ae4838bd2ad2911fb3823063dcce",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "Qwen3-235B-A22B-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-qwen3-235b-a22b-2025-08-05",
+    "sourcePublicationDate": "2025-08-05",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-qwen3-235b-a22b-2-2025-08-05",
+    "originalId": "nebius-qwen3-235b-a22b-2-2025-08-05",
+    "kind": "timeline",
+    "title": "Qwen3-235B-A22B · 第 2 个公开骑车鹈鹕输出",
+    "model": "Qwen3-235B-A22B",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-05",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 Qwen3-235B-A22B-2；后缀 2 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-05T21:35:17Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-2-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.png",
+        "sha256": "3b2bcff819c048d8ee4766206f6ed88d681b770bccb617ed16c6cff2ee296b6f",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-2-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/annotated/Qwen3-235B-A22B-2.png",
+        "sha256": "2d46eb244e2c2ba780ec7a1e26b63064b2ba2fa1e97aecfb22ee439a5e1b737a",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-2-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.svg",
+        "sha256": "b5346aa05fee6b65f848804dfdc5d8d2da6b278c3399c6da12ca12a0be812cce",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/Qwen3-235B-A22B-2-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.svg",
+    "path": "/specimens/nebius-qwen3-235b-a22b-2-2025-08-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-qwen3-235b-a22b-2-2025-08-05/",
+    "markdown": "/specimens/nebius-qwen3-235b-a22b-2-2025-08-05/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3-235B-A22B · published cycling pelican output 2",
+        "model": "Qwen3-235B-A22B",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file Qwen3-235B-A22B-2. Suffix 2 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-05T21:35:17Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/bd89b2203863ae4838bd2ad2911fb3823063dcce",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3-235B-A22B"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-05T21:35:17Z",
+      "sourceCommit": "bd89b2203863ae4838bd2ad2911fb3823063dcce",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "Qwen3-235B-A22B-2",
+      "sourceFileNumber": "2",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-qwen3-235b-a22b-2025-08-05",
+    "sourcePublicationDate": "2025-08-05",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-gpt-oss-120b-1-2025-08-07",
+    "originalId": "nebius-gpt-oss-120b-1-2025-08-07",
+    "kind": "timeline",
+    "title": "gpt-oss-120b · 第 1 个公开骑车鹈鹕输出",
+    "model": "gpt-oss-120b",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-07",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 gpt-oss-120b-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-07T05:37:21Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-120b-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-120b-1.png",
+        "sha256": "603627a6117ffe1e8d78b728f4a12e7aef67babd6d0b5e13bcdbbe335cd37c91",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-120b-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/annotated/gpt-oss-120b-1.png",
+        "sha256": "b203bc2c5a000d209d64b154f25f470a6e406b997d0e40f48a3917dd1fb8ee96",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-120b-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-120b-1.svg",
+        "sha256": "65c59ed8bd38f45d26df2ce54c5b08861aef088a473aab709b68751fa79a0426",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/gpt-oss-120b-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-120b-1.svg",
+    "path": "/specimens/nebius-gpt-oss-120b-1-2025-08-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-gpt-oss-120b-1-2025-08-07/",
+    "markdown": "/specimens/nebius-gpt-oss-120b-1-2025-08-07/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "gpt-oss-120b · published cycling pelican output 1",
+        "model": "gpt-oss-120b",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file gpt-oss-120b-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-07T05:37:21Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/9c1fb9f40b894e15d595d805d718392d4262aff0",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-oss-120b"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-120b-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-07T05:37:21Z",
+      "sourceCommit": "9c1fb9f40b894e15d595d805d718392d4262aff0",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "gpt-oss-120b-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "sourcePublicationDate": "2025-08-07",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-gpt-oss-20b-1-2025-08-07",
+    "originalId": "nebius-gpt-oss-20b-1-2025-08-07",
+    "kind": "timeline",
+    "title": "gpt-oss-20b · 第 1 个公开骑车鹈鹕输出",
+    "model": "gpt-oss-20b",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-07",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 gpt-oss-20b-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-07T05:37:21Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.png",
+        "sha256": "7727756ea0bf1e3b68596152b076f16f26c6877e3c0e5b5d9fe7bdc27a7ce94b",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/annotated/gpt-oss-20b-1.png",
+        "sha256": "fc77f47d270dbced3f4931bc7a43edc929b6d23a86c8dac70c56f51053c69ab4",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.svg",
+        "sha256": "b0258e31cf3b7f07e35da07bbd10b5e435eb3f0696d9efd29987da0b05dc9444",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.svg",
+    "path": "/specimens/nebius-gpt-oss-20b-1-2025-08-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-gpt-oss-20b-1-2025-08-07/",
+    "markdown": "/specimens/nebius-gpt-oss-20b-1-2025-08-07/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "gpt-oss-20b · published cycling pelican output 1",
+        "model": "gpt-oss-20b",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file gpt-oss-20b-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-07T05:37:21Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/9c1fb9f40b894e15d595d805d718392d4262aff0",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-oss-20b"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-07T05:37:21Z",
+      "sourceCommit": "9c1fb9f40b894e15d595d805d718392d4262aff0",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "gpt-oss-20b-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-gpt-oss-20b-2025-08-07",
+    "sourcePublicationDate": "2025-08-07",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-gpt-oss-20b-2-2025-08-07",
+    "originalId": "nebius-gpt-oss-20b-2-2025-08-07",
+    "kind": "timeline",
+    "title": "gpt-oss-20b · 第 2 个公开骑车鹈鹕输出",
+    "model": "gpt-oss-20b",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-07",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 gpt-oss-20b-2；后缀 2 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-07T05:37:21Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-2-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.png",
+        "sha256": "c9b9ff864cb0a4ea8df6cc05146f11e0a67adf33f1665852c77048db8fcb14a6",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-2-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/annotated/gpt-oss-20b-2.png",
+        "sha256": "aee6efdcb9beb3bf7ec74fceb35a1c6c316aaa8b66a816f63f5d3e5abb0249eb",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-2-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.svg",
+        "sha256": "5dfe067b4a9fcc956425f51e58ddc77d25ab51a1357f9fe54af7f994dc23037d",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/gpt-oss-20b-2-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.svg",
+    "path": "/specimens/nebius-gpt-oss-20b-2-2025-08-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-gpt-oss-20b-2-2025-08-07/",
+    "markdown": "/specimens/nebius-gpt-oss-20b-2-2025-08-07/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "gpt-oss-20b · published cycling pelican output 2",
+        "model": "gpt-oss-20b",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file gpt-oss-20b-2. Suffix 2 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-07T05:37:21Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/9c1fb9f40b894e15d595d805d718392d4262aff0",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-oss-20b"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-07T05:37:21Z",
+      "sourceCommit": "9c1fb9f40b894e15d595d805d718392d4262aff0",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "gpt-oss-20b-2",
+      "sourceFileNumber": "2",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-gpt-oss-20b-2025-08-07",
+    "sourcePublicationDate": "2025-08-07",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-glm4-5-1-2025-08-08",
+    "originalId": "nebius-glm4-5-1-2025-08-08",
+    "kind": "timeline",
+    "title": "GLM4.5 · 第 1 个公开骑车鹈鹕输出",
+    "model": "GLM4.5",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-08",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 GLM4.5-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-08T23:02:10Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.png",
+        "sha256": "c759a82d6a8b99c7869e496c511a1971d5fc3f6ea30c6eb9444a81e40112c884",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/annotated/GLM4.5-1.png",
+        "sha256": "49882a2fa83291ba234852ef3105e66655036a90a4fb024982e74da77d5ef635",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.svg",
+        "sha256": "98b5106ba8a8f8836ec8e5b2816c903193f67d525ba01865709d3dfd53fbcbd5",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/GLM4.5-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.svg",
+    "path": "/specimens/nebius-glm4-5-1-2025-08-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-glm4-5-1-2025-08-08/",
+    "markdown": "/specimens/nebius-glm4-5-1-2025-08-08/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "GLM4.5 · published cycling pelican output 1",
+        "model": "GLM4.5",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file GLM4.5-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-08T23:02:10Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM4.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-08T23:02:10Z",
+      "sourceCommit": "a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "GLM4.5-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-glm4-5-2025-08-08",
+    "sourcePublicationDate": "2025-08-08",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-glm4-5-3-2025-08-08",
+    "originalId": "nebius-glm4-5-3-2025-08-08",
+    "kind": "timeline",
+    "title": "GLM4.5 · 第 3 个公开骑车鹈鹕输出",
+    "model": "GLM4.5",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-08",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 GLM4.5-3；后缀 3 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-08T23:02:10Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。同源同日未提供默认或 medium，全部作品保留，暂不挑选时间线代表。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-3-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.png",
+        "sha256": "b760a2efca9ba994e1a449b3729c05e4b603c1d7ee9fe94eb6bd2d5a00310474",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-3-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/annotated/GLM4.5-3.png",
+        "sha256": "1b3887c824880c7f79a2516c6879a72e85cb15024438c55805d015df5ec2fece",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-3-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.svg",
+        "sha256": "ebfdadc7b4b308d820a455d09471feb8e5f40ea291a251d07828ea72201f2904",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/GLM4.5-3-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.svg",
+    "path": "/specimens/nebius-glm4-5-3-2025-08-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-glm4-5-3-2025-08-08/",
+    "markdown": "/specimens/nebius-glm4-5-3-2025-08-08/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "GLM4.5 · published cycling pelican output 3",
+        "model": "GLM4.5",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file GLM4.5-3. Suffix 3 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-08T23:02:10Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample. No source-default or medium is documented for the same-day group: retain all works without choosing a timeline representative.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM4.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-08T23:02:10Z",
+      "sourceCommit": "a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "GLM4.5-3",
+      "sourceFileNumber": "3",
+      "effortUnknown": true
+    },
+    "modelRunGroup": "nebius-glm4-5-2025-08-08",
+    "sourcePublicationDate": "2025-08-08",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "nebius-glm4-5-air-1-2025-08-08",
+    "originalId": "nebius-glm4-5-air-1-2025-08-08",
+    "kind": "timeline",
+    "title": "GLM4.5-air · 第 1 个公开骑车鹈鹕输出",
+    "model": "GLM4.5-air",
+    "author": "Sujee Maniyam / Nebius B.V.",
+    "date": "2025-08-08",
+    "month": "2025-08",
+    "notes": "Nebius 官方 cookbook 中的代码生成实验：作者在文字模型 playground 使用“Generate an SVG of a pelican riding a bicycle”，保存 SVG 与原 PNG，并另加型号标注图。本作品对应原文件 GLM4.5-air-1；后缀 1 是来源文件编号，不推断未公开的运行、推理档或参数。日期为该 PNG／SVG 首次出现的原始提交 UTC 日期 2025-08-08T23:02:10Z，实际生成日未公开；不是抓取日或型号发布日期。原 PNG、型号标注图和原 SVG 归于同一作品，不重复计数；相同型号的不同响应独立计数。型号／署名按来源保留，未独立认证。无分数，不是本馆排名或 HF/OpenEnv 参考样本。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-air-1-png.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-air-1.png",
+        "sha256": "3203d71f73fed57b889ecf2a341f2de2c6c125ab5f771a11d7f762ba5b92de65",
+        "caption": "原作者 PNG 预览",
+        "captionEn": "Original author PNG preview",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-air-1-annotated.png",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/annotated/GLM4.5-air-1.png",
+        "sha256": "78439301016218cb0d738f58afc4da1563b764581c555893a154f2f6b2fa9f17",
+        "detailOnly": true,
+        "caption": "原作者型号标注图；同一输出",
+        "captionEn": "Author-labelled preview of the same output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-05-nebius-historical/GLM4.5-air-1-svg.svg",
+        "source": "https://raw.githubusercontent.com/nebius/token-factory-cookbook/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-air-1.svg",
+        "sha256": "1a21e541b63b407f6bd8c93932a04150446173dc95ee528fcb7217d6742f0760",
+        "detailOnly": true,
+        "caption": "原始 SVG 代码；MIT 许可",
+        "captionEn": "Original SVG code; MIT licence",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-nebius-historical/GLM4.5-air-1-png.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-air-1.svg",
+    "path": "/specimens/nebius-glm4-5-air-1-2025-08-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nebius-glm4-5-air-1-2025-08-08/",
+    "markdown": "/specimens/nebius-glm4-5-air-1-2025-08-08/index.md",
+    "updated": "2026-10-05",
+    "rights": "原仓库 MIT License，Copyright (c) 2025 Nebius B.V.；保留完整许可、作者署名、固定出处和原始 SHA-256。原预览与 SVG 不重画、不修改；标注图仅作详情附件，不额外计数，不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "GLM4.5-air · published cycling pelican output 1",
+        "model": "GLM4.5-air",
+        "notes": "Code-generation experiment in the official Nebius cookbook: the author prompted a text-model playground with “Generate an SVG of a pelican riding a bicycle”, saving the SVG, original PNG and a separately model-labelled PNG. This work is the source file GLM4.5-air-1. Suffix 1 is the upstream file number, not evidence of unreported runs, reasoning effort or parameters. The date is the original first-file commit UTC date 2025-08-08T23:02:10Z; actual generation time is unpublished, not collection time or model release. The original PNG, labelled preview and SVG are one work, not three; distinct same-model responses count separately. Model and creator labels are source-reported, not independently authenticated. No scores: this is neither a museum ranking nor an HF/OpenEnv reference sample.",
+        "rights": "MIT License from the original repository; Copyright (c) 2025 Nebius B.V. Complete licence, attribution, pinned provenance and original SHA-256 retained. Previews and SVG are unchanged; the labelled image is detail-only and not another work. No new playable demo.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+        "https://github.com/nebius/token-factory-cookbook/commit/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+        "https://github.com/nebius/token-factory-cookbook/blob/c2e6a2a4651ba8fd126365d7bbcd2b5621acb040/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM4.5-air"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/README.md",
+      "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-air-1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-08-08T23:02:10Z",
+      "sourceCommit": "a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3",
+      "workflow": "text-model-svg-code",
+      "sourceFile": "GLM4.5-air-1",
+      "sourceFileNumber": "1",
+      "effortUnknown": true
+    },
+    "sourcePublicationDate": "2025-08-08",
+    "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
   }
 ]
