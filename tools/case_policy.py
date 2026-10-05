@@ -203,6 +203,9 @@ def relationship_html(item, items, language='zh', section='all'):
         if item.get('comparisonType')=='repeat-runs':
             heading='Same model · independent runs' if en else '同一模型 · 多次独立输出'
             explanation='Separate source runs, not reasoning settings or a ranking. Every valid output counts once; the source page’s default run represents the timeline. Invalid source media is not repaired or counted.' if en else '不同独立运行，不是推理档位或排名；可打开的真实输出分别计数，时间线采用原页面默认展示的运行。原始媒体损坏的运行不修图、不计数。'
+        if item.get('comparisonType')=='source-files':
+            heading='Same model · published outputs' if en else '同一模型 · 公开输出对照'
+            explanation='Distinct source files, not documented reasoning settings or attempt order. Each output counts once. The source specifies no default or medium, so no timeline representative is guessed.' if en else '不同来源文件，不是已证推理档位或运行先后；每份输出计一件。作者未说明默认或 medium，不擅自挑选时间线代表。'
         if item.get('comparisonType')=='quantizations':
             heading='Same model · quantizations and runtimes' if en else '同一模型 · 量化与运行环境对照'
             explanation='Source-labelled quantizations and runtimes, not reasoning levels or a ranking. Each actual output counts once. With no documented default/medium representative, these alternatives remain outside the evolution timeline.' if en else '量化版本与运行环境按原文标注，不是推理档位或排名；每份真实输出分别计数。未明确默认／medium 代表时，这些输出仅留全部作品，不擅自选入进化轴。'
@@ -219,7 +222,11 @@ def relationship_html(item, items, language='zh', section='all'):
             explanation='Source-labelled prompts, settings or separate runs are preserved without treating them as a ranking. Each real output counts once. No default/medium setting or source-default run is documented, so no timeline representative is guessed.' if en else '保留来源标注的题面、设置或多次独立运行，不构成排名；每份真实输出分别计数。来源未明确默认／medium 档或默认运行，因此不擅自挑一张进入时间线。'
         result += '<section data-setting-comparison><h2>'+heading+'</h2><p>'+explanation+'</p><div class="setting-comparison">'
         for x in comparison:
-            result += '<figure><a href="'+E(x['path'])+'"><img src="'+E(x['thumbnail'])+'" alt="'+E(x['model']+' · '+str(x.get('originalLevel','')))+'" loading="lazy"></a><figcaption>'+E(x.get('originalLevel') or ('Source default' if en else '来源默认档'))+'</figcaption></figure>'
+            label=x.get('originalLevel') or ('Source default' if en else '来源默认档')
+            if item.get('comparisonType')=='source-files':
+                number=x.get('generationConditions',{}).get('sourceFileNumber','')
+                label=('Source file ' if en else '来源文件 ')+str(number) if number else ('Published output' if en else '公开输出')
+            result += '<figure><a href="'+E(x['path'])+'"><img src="'+E(x['thumbnail'])+'" alt="'+E(x['model']+' · '+label)+'" loading="lazy"></a><figcaption>'+E(label)+'</figcaption></figure>'
         result += '</div></section>'
     comparison_html = result
     result = ''

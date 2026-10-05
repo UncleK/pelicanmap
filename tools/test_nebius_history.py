@@ -3,6 +3,7 @@ import hashlib
 import json
 import unittest
 from pathlib import Path
+from case_policy import relationship_html
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH = '2026-10-05-nebius-historical'
@@ -37,6 +38,12 @@ class NebiusHistory(unittest.TestCase):
                 self.assertEqual(len(record['media']), 3)
                 self.assertEqual(record['thumbnail'], record['media'][0]['src'])
                 self.assertEqual(record['timelineVisible'], not bool(record.get('modelRunGroup')))
+                if record.get('modelRunGroup'):
+                    self.assertEqual(record['comparisonType'], 'source-files')
+                    for language,wrong in [('zh','来源默认档'),('en','Source default')]:
+                        section=relationship_html(record,catalog['items'],language,section='comparison')
+                        self.assertNotIn(wrong,section)
+                        self.assertIn('Source file ' if language=='en' else '来源文件 ',section)
                 self.assertTrue(all(x['detailOnly'] for x in record['media'][1:]))
                 for media in record['media']:
                     self.assertNotIn(media['sha256'], hashes)

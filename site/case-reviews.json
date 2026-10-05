@@ -8442,7 +8442,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-1.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-qwen3-235b-a22b-instruct-2507-2-2025-08-05": {
@@ -8457,7 +8458,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/c6948d873b16101162b2091efe67aa4cb826299d/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-Instruct-2507-2.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-qwen3-235b-a22b-1-2025-08-05": {
@@ -8472,7 +8474,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-1.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-qwen3-235b-a22b-2-2025-08-05": {
@@ -8487,7 +8490,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/bd89b2203863ae4838bd2ad2911fb3823063dcce/fun/pelican-riding-bicycle/images/Qwen3-235B-A22B-2.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-gpt-oss-120b-1-2025-08-07": {
@@ -8517,7 +8521,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-1.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-gpt-oss-20b-2-2025-08-07": {
@@ -8532,7 +8537,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/9c1fb9f40b894e15d595d805d718392d4262aff0/fun/pelican-riding-bicycle/images/gpt-oss-20b-2.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-glm4-5-1-2025-08-08": {
@@ -8547,7 +8553,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-1.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-glm4-5-3-2025-08-08": {
@@ -8562,7 +8569,8 @@
     ],
     "fields": {
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
-      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.svg"
+      "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-3.svg",
+      "comparisonType": "source-files"
     }
   },
   "nebius-glm4-5-air-1-2025-08-08": {
