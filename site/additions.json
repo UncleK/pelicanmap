@@ -55990,5 +55990,173 @@
     },
     "sourcePublicationDate": "2025-08-08",
     "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt"
+  },
+  {
+    "id": "x-aiwarts-ring-1t-svg-2025-10-14",
+    "originalId": "x-aiwarts-ring-1t-svg-2025-10-14",
+    "kind": "timeline",
+    "title": "Ring-1T · 原作者 SVG 骑车鹈鹕预览",
+    "model": "Ring-1T",
+    "author": "卡尔的AI沃茨 (@aiwarts)",
+    "date": "2025-10-14",
+    "month": "2025-10",
+    "notes": "原作者在 2025 年 10 月 14 日的测试帖中给出“绘制一个骑自行车的鹈鹕的 SVG 图像”，明确标注 Ring-1T 在左、DeepSeek V3.2 在右。本件是左侧独立图片，与另一型号分别计数；两图不是同一个输出，也不把线程其它物理模拟、软件演示纳入本题。保存原作者完整 JPG 预览，不裁切、不重画、也不修正失败造型。这里只取得静态预览，未取得原 SVG 源码或可证动态媒体，不伪造自动播放。来源未公布推理档、工具使用或迭代过程，不认定一次生成。日期为原帖 UTC 公开时间 2025-10-14T15:44:07Z，实际生成日未公开，不是本次抓取日或型号发布日期。型号和作者署名按来源保留，未独立认证；不是能力排名。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/aiwarts/status/1978124667232629206",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "绘制一个骑自行车的鹈鹕的 SVG 图像",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-x-old-svg/ring-1t-original.jpg",
+        "source": "https://pbs.twimg.com/media/G3O15dRWIAAJgMK?format=jpg&name=orig",
+        "sha256": "86fa4038fbb05cb48b52e73ec1797ae2d42caf260fc2336e932f44b39402423c",
+        "caption": "原作者完整 JPG 预览；左侧型号 Ring-1T",
+        "captionEn": "Complete original JPG preview; left model Ring-1T",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-x-old-svg/ring-1t-original.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-aiwarts-ring-1t-svg-2025-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-aiwarts-ring-1t-svg-2025-10-14/",
+    "markdown": "/specimens/x-aiwarts-ring-1t-svg-2025-10-14/index.md",
+    "updated": "2026-10-05",
+    "rights": "作品权利归原作者；仅保存其公开的原预览、署名、出处和 SHA-256，不声明开放许可。没有镜像未获许可的 SVG／项目代码，也不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "Ring-1T · original SVG cycling pelican preview",
+        "model": "Ring-1T",
+        "notes": "The creator’s October 14, 2025 test post requests an SVG image of a pelican riding a bicycle and explicitly identifies Ring-1T on the left and DeepSeek V3.2 on the right. This is the separate left image: the two labelled model outputs count independently. Other physics and software demonstrations in the thread are outside this task. The complete original JPG preview is preserved without cropping, redrawing or repairing failures. Only a static preview was recovered, not original SVG code or documented moving media; no motion is fabricated. Reasoning effort, tools and iterations are unpublished, so this is not asserted to be one-shot. The date is the original post’s UTC publication time, 2025-10-14T15:44:07Z; actual generation time is unknown, not collection time or model release. Model and creator labels are source-reported, not independently authenticated. This is not a capability ranking.",
+        "rights": "Creator rights remain unchanged. Only the published original preview, attribution, source and SHA-256 are preserved; no open licence is claimed. No unlicensed SVG/project code is mirrored and no playable demo is added.",
+        "promptStatus": "绘制一个骑自行车的鹈鹕的 SVG 图像",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/aiwarts/status/1978124667232629206",
+        "https://x.com/aiwarts/status/1978124648387875078",
+        "https://pbs.twimg.com/media/G3O15dRWIAAJgMK?format=jpg&name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Ring-1T"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/aiwarts/status/1978124667232629206"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-10-14T15:44:07.000Z",
+      "workflow": "source-reported-svg-code",
+      "svgSourceNotMirrored": true,
+      "staticPreviewOnly": true,
+      "effortUnknown": true,
+      "iterationsUnknown": true,
+      "sourceImagePosition": "left"
+    },
+    "sourcePublicationDate": "2025-10-14"
+  },
+  {
+    "id": "x-aiwarts-deepseek-v3-2-svg-2025-10-14",
+    "originalId": "x-aiwarts-deepseek-v3-2-svg-2025-10-14",
+    "kind": "timeline",
+    "title": "DeepSeek V3.2 · 原作者 SVG 骑车鹈鹕预览",
+    "model": "DeepSeek V3.2",
+    "author": "卡尔的AI沃茨 (@aiwarts)",
+    "date": "2025-10-14",
+    "month": "2025-10",
+    "notes": "原作者在 2025 年 10 月 14 日的测试帖中给出“绘制一个骑自行车的鹈鹕的 SVG 图像”，明确标注 Ring-1T 在左、DeepSeek V3.2 在右。本件是右侧独立图片，与另一型号分别计数；两图不是同一个输出，也不把线程其它物理模拟、软件演示纳入本题。保存原作者完整 JPG 预览，不裁切、不重画、也不修正失败造型。这里只取得静态预览，未取得原 SVG 源码或可证动态媒体，不伪造自动播放。来源未公布推理档、工具使用或迭代过程，不认定一次生成。日期为原帖 UTC 公开时间 2025-10-14T15:44:07Z，实际生成日未公开，不是本次抓取日或型号发布日期。型号和作者署名按来源保留，未独立认证；不是能力排名。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/aiwarts/status/1978124667232629206",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "绘制一个骑自行车的鹈鹕的 SVG 图像",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-05-x-old-svg/deepseek-v3-2-original.jpg",
+        "source": "https://pbs.twimg.com/media/G3O15dVWQAEw5W7?format=jpg&name=orig",
+        "sha256": "0c3ad60d98b318d08e9924c3696e630f0c44b253df7713cd4d93887ccfb7065a",
+        "caption": "原作者完整 JPG 预览；右侧型号 DeepSeek V3.2",
+        "captionEn": "Complete original JPG preview; right model DeepSeek V3.2",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-05-x-old-svg/deepseek-v3-2-original.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-aiwarts-deepseek-v3-2-svg-2025-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-aiwarts-deepseek-v3-2-svg-2025-10-14/",
+    "markdown": "/specimens/x-aiwarts-deepseek-v3-2-svg-2025-10-14/index.md",
+    "updated": "2026-10-05",
+    "rights": "作品权利归原作者；仅保存其公开的原预览、署名、出处和 SHA-256，不声明开放许可。没有镜像未获许可的 SVG／项目代码，也不新增可玩演示。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V3.2 · original SVG cycling pelican preview",
+        "model": "DeepSeek V3.2",
+        "notes": "The creator’s October 14, 2025 test post requests an SVG image of a pelican riding a bicycle and explicitly identifies Ring-1T on the left and DeepSeek V3.2 on the right. This is the separate right image: the two labelled model outputs count independently. Other physics and software demonstrations in the thread are outside this task. The complete original JPG preview is preserved without cropping, redrawing or repairing failures. Only a static preview was recovered, not original SVG code or documented moving media; no motion is fabricated. Reasoning effort, tools and iterations are unpublished, so this is not asserted to be one-shot. The date is the original post’s UTC publication time, 2025-10-14T15:44:07Z; actual generation time is unknown, not collection time or model release. Model and creator labels are source-reported, not independently authenticated. This is not a capability ranking.",
+        "rights": "Creator rights remain unchanged. Only the published original preview, attribution, source and SHA-256 are preserved; no open licence is claimed. No unlicensed SVG/project code is mirrored and no playable demo is added.",
+        "promptStatus": "绘制一个骑自行车的鹈鹕的 SVG 图像",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/aiwarts/status/1978124667232629206",
+        "https://x.com/aiwarts/status/1978124648387875078",
+        "https://pbs.twimg.com/media/G3O15dVWQAEw5W7?format=jpg&name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V3.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/aiwarts/status/1978124667232629206"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-10-14T15:44:07.000Z",
+      "workflow": "source-reported-svg-code",
+      "svgSourceNotMirrored": true,
+      "staticPreviewOnly": true,
+      "effortUnknown": true,
+      "iterationsUnknown": true,
+      "sourceImagePosition": "right"
+    },
+    "sourcePublicationDate": "2025-10-14"
   }
 ]

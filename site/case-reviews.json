@@ -8587,5 +8587,27 @@
       "licenseUrl": "/media/collected/2026-10-05-nebius-historical/LICENSE.txt",
       "sourceCodeUrl": "https://github.com/nebius/token-factory-cookbook/blob/a6cd50e9557f1ee01717ecc7b8cbc7ff2556e1c3/fun/pelican-riding-bicycle/images/GLM4.5-air-1.svg"
     }
+  },
+  "x-aiwarts-ring-1t-svg-2025-10-14": {
+    "role": "case",
+    "sourceUrl": "https://x.com/aiwarts/status/1978124667232629206",
+    "timelineVisible": true,
+    "reason": "Original creator post read in signed-in Chrome, public syndication independently confirms source text, media order and UTC date. Two separate source-labelled SVG-code outputs, only original JPG previews archived; no unlicensed code mirror or invented motion/effort/iterations. Source/hash and normalized nearest-image comparison against 1397 archived decodable media visually reviewed; no duplicate. No new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/aiwarts/status/1978124667232629206",
+      "https://x.com/aiwarts/status/1978124648387875078",
+      "https://pbs.twimg.com/media/G3O15dRWIAAJgMK?format=jpg&name=orig"
+    ]
+  },
+  "x-aiwarts-deepseek-v3-2-svg-2025-10-14": {
+    "role": "case",
+    "sourceUrl": "https://x.com/aiwarts/status/1978124667232629206",
+    "timelineVisible": true,
+    "reason": "Original creator post read in signed-in Chrome, public syndication independently confirms source text, media order and UTC date. Two separate source-labelled SVG-code outputs, only original JPG previews archived; no unlicensed code mirror or invented motion/effort/iterations. Source/hash and normalized nearest-image comparison against 1397 archived decodable media visually reviewed; no duplicate. No new Play or Benchmark.",
+    "evidence": [
+      "https://x.com/aiwarts/status/1978124667232629206",
+      "https://x.com/aiwarts/status/1978124648387875078",
+      "https://pbs.twimg.com/media/G3O15dVWQAEw5W7?format=jpg&name=orig"
+    ]
   }
 }
