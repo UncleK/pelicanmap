@@ -15531,7 +15531,7 @@
     "author": "KC (@ScarletKc) / Variora",
     "date": "2026-09-20",
     "month": "2026-09",
-    "notes": "海边栈道与分层视差的 SVG 动画；README 记录 OpenCode 1.18.31、9 月 20 日生成，一次运行曾中断后续接，未选替代结果，截图来自原 HTML。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。",
+    "notes": "海边栈道与分层视差的 SVG 动画；README 记录 OpenCode 1.18.31、9 月 20 日生成，一次运行曾中断后续接，未选替代结果，截图来自原 HTML。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。 2026-10-06 已完整审阅固定提交原 HTML 与 MIT 许可，原字节恢复于本站隔离域。后台实测车轮、双腿和海边视差自动运动；暂停／继续与骑行速度仅为播放控件，不列入可玩演示。原生成日期、编号、封面及原媒体保留，恢复不增加作品数。",
     "source": "community",
     "sourceLabel": "社区记录",
     "sourceUrl": "https://github.com/scarletkc/Variora/tree/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/step-5",
@@ -15562,13 +15562,13 @@
     "url": "https://pelicanmap.aveniqa.com/specimens/variora-step-5-2026-09-20/",
     "markdown": "/specimens/variora-step-5-2026-09-20/index.md",
     "updated": "2026-10-01",
-    "rights": "上游仓库为 MIT License，Copyright (c) 2026 scarletkc；保留作者署名、源文件链接与许可。此批不镜像可执行 HTML。",
+    "rights": "上游仓库为 MIT License，Copyright (c) 2026 scarletkc；保留作者署名、源文件链接与许可。此批不镜像可执行 HTML。 后续动态恢复遵循同一 MIT 许可，保留完整 LICENSE.txt 和作者原代码。",
     "i18n": {
       "en": {
         "title": "Step 5 high · Variora coastal cycling",
         "model": "Step 5 · high (upstream-reported)",
-        "notes": "An SVG seaside-boardwalk animation with layered parallax. The README records OpenCode 1.18.31 and September 20 generation; the sole run was interrupted and resumed, with no alternate selection. The screenshot comes from the original HTML. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo.",
-        "rights": "The upstream repository is MIT-licensed, Copyright (c) 2026 scarletkc. Attribution, original-file links and license are retained. Executable HTML is not mirrored in this batch.",
+        "notes": "An SVG seaside-boardwalk animation with layered parallax. The README records OpenCode 1.18.31 and September 20 generation; the sole run was interrupted and resumed, with no alternate selection. The screenshot comes from the original HTML. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo. On 2026-10-06, the pinned original HTML and full MIT license were reviewed and the unchanged bytes restored on the isolated museum domain. Background-browser tests verified automatic wheel, leg and coastal-parallax motion. Pause/resume and cycling speed are playback controls only, not a playable demo. The original generation date, number, cover and media are preserved; restoration adds no work.",
+        "rights": "The upstream repository is MIT-licensed, Copyright (c) 2026 scarletkc. Attribution, original-file links and license are retained. Executable HTML is not mirrored in this batch. The subsequent animation restoration follows the same MIT license, retaining the full LICENSE.txt and unchanged author code.",
         "promptStatus": "建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画。你的工作文件夹是：【redacted local path】禁止读取或编辑除此以外的任何文件夹",
         "promptCategory": "Source-documented test"
       }
@@ -15587,7 +15587,20 @@
     "licenseUrl": "/media/collected/2026-10-01-variora-backfill/ATTRIBUTION.txt",
     "licenseFiles": [
       "/media/collected/2026-10-01-variora-backfill/Variora-MIT.txt"
-    ]
+    ],
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-step-5-2026-09-20/",
+    "interactive": false,
+    "generationConditions": {
+      "animationArchive": {
+        "source": "https://raw.githubusercontent.com/scarletkc/Variora/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/step-5/app/index.html",
+        "sha256": "7f86084541faa745cd028c21085ee80895401a04473d3092beea2f0fb7c3ca63",
+        "bytes": 39558,
+        "license": "MIT",
+        "licenseUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-step-5-2026-09-20/LICENSE.txt",
+        "checkedAt": "2026-10-05T21:21:30.136815+00:00",
+        "controlsArePlaybackOnly": true
+      }
+    }
   },
   {
     "id": "variora-mimo-v2-6-flash-free-2026-09-22",
