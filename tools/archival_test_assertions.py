@@ -123,13 +123,17 @@ def reviewed_motion_append(test, previous, current, key):
 
 
 def reviewed_swe_motion_restoration(test, previous, current, key):
-    """One exact pinned MIT original; no blanket mutable-archive exemption."""
-    ident = 'variora-swe-2-2026-09-22'
+    """Two individually reviewed pinned MIT originals, never a blanket exemption."""
+    reviewed = {
+        'variora-swe-2-2026-09-22': ('d42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64', 19255),
+        'variora-mimo-v2-6-flash-free-2026-09-22': ('111be2ead35b66fc24df2834334b25eb3623f2694b2a6ae99f09937974f2ff48', 23128),
+    }
+    ident = previous['id']
     fields = {'notes', 'rights', 'i18n', 'previewUrl', 'generationConditions'}
-    if previous['id'] != ident or key not in fields:
+    if ident not in reviewed or key not in fields:
         return False
     preview = ROOT / 'public-demos/demos/variora-motion-recovery' / ident
-    expected_sha = 'd42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64'
+    expected_sha, expected_bytes = reviewed[ident]
     test.assertEqual(hashlib.sha256((preview / 'index.html').read_bytes()).hexdigest(), expected_sha)
     test.assertEqual(hashlib.sha256((preview / 'LICENSE.txt').read_bytes()).hexdigest(),
                      '7b2f47de242cf53f6c5f53d6aeee902d064e5e8a4e151388ef8966a538b4f8f2')
@@ -140,7 +144,7 @@ def reviewed_swe_motion_restoration(test, previous, current, key):
         test.assertEqual(current[field], expected[field])
     archive = current['generationConditions']['animationArchive']
     test.assertEqual(archive['sha256'], expected_sha)
-    test.assertEqual(archive['bytes'], 19255)
+    test.assertEqual(archive['bytes'], expected_bytes)
     test.assertEqual(archive['license'], 'MIT')
     test.assertTrue(archive['controlsArePlaybackOnly'])
     for field in ['id', 'model', 'date', 'author', 'sourceUrl', 'updated', 'media', 'thumbnail']:
@@ -159,7 +163,7 @@ def reviewed_swe_motion_restoration(test, previous, current, key):
 
 def reviewed_swe_addition_restoration(test, previous, current):
     """Apply the same exact restoration guard to ingestion snapshots."""
-    if previous['id'] != 'variora-swe-2-2026-09-22':
+    if previous['id'] not in {'variora-swe-2-2026-09-22', 'variora-mimo-v2-6-flash-free-2026-09-22'}:
         return False
     for key, value in previous.items():
         if not reviewed_swe_motion_restoration(test, previous, current, key):
