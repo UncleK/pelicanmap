@@ -8599,6 +8599,16 @@
       "https://pbs.twimg.com/media/G3O15dRWIAAJgMK?format=jpg&name=orig"
     ]
   },
+  "x-skye-gpt-5-1-svg-2025-11-21": {
+    "role": "case",
+    "sourceUrl": "https://x.com/SkyeSharkie/status/1991749780649963722",
+    "timelineVisible": true,
+    "reason": "Original public creator post re-read in hidden in-app browser. Explicit SVG-code prompt maps GPT 5.1 to the static PNG, separate from Gemini 3 animation. Original 600x400 PNG SHA-256 and complete-image visual neighbours reviewed against 1399 archived decodable media; no observed duplicate. UTC publication timestamp is not a generation date. Only the creator-owned public preview is preserved with attribution and provenance, no open license claimed or unlicensed code mirrored. No Play or Benchmark expansion, no invented effort or upgraded model identity.",
+    "evidence": [
+      "https://x.com/SkyeSharkie/status/1991749780649963722",
+      "https://pbs.twimg.com/media/G6QdlzZa0AAc1Pr?format=png&name=orig"
+    ]
+  },
   "x-aiwarts-deepseek-v3-2-svg-2025-10-14": {
     "role": "case",
     "sourceUrl": "https://x.com/aiwarts/status/1978124667232629206",

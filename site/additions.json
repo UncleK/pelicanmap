@@ -56222,5 +56222,87 @@
       "sourceImagePosition": "right"
     },
     "sourcePublicationDate": "2025-10-14"
+  },
+  {
+    "id": "x-skye-gpt-5-1-svg-2025-11-21",
+    "originalId": "x-skye-gpt-5-1-svg-2025-11-21",
+    "kind": "timeline",
+    "title": "GPT 5.1 · 原作者 SVG 骑车鹈鹕预览",
+    "model": "GPT 5.1",
+    "author": "Utah teapot (@SkyeSharkie)",
+    "date": "2025-11-21",
+    "month": "2025-11",
+    "notes": "原作者公开对照 GPT 5.1 的静态结果与 Gemini 3 的动画结果，明确要求用代码生成并渲染 SVG。此件只对应原帖的 GPT 5.1 静态附件，完整保存 600×400 原 PNG，不是 SVG 源文件，也不从另一模型借用动画。作者称两者均一次完成；这只是来源报告，不是本馆复现。2025-11-21 为原帖 UTC 公开日（06:05:27），实际生成日期、推理档位与运行设置未公开。型号与署名按来源保留，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/SkyeSharkie/status/1991749780649963722",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "can you make an svg image using code and render it out, of a pelican on a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-06-skye-historical-intake/skye-gpt-5-1-original.png",
+        "source": "https://pbs.twimg.com/media/G6QdlzZa0AAc1Pr?format=png&name=orig",
+        "sha256": "6fd130596fcd9ca72286b6077ba4f87a2e2542b6c4526fc48645853c82d7f64a",
+        "caption": "原帖 GPT 5.1 静态结果：完整原 PNG，600×400",
+        "captionEn": "The post's GPT 5.1 still result: complete original PNG, 600×400",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-06-skye-historical-intake/skye-gpt-5-1-original.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-skye-gpt-5-1-svg-2025-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-skye-gpt-5-1-svg-2025-11-21/",
+    "markdown": "/specimens/x-skye-gpt-5-1-svg-2025-11-21/index.md",
+    "updated": "2026-10-06",
+    "rights": "作品权利归原作者；保留原作者署名、公开原帖、原 PNG 字节及 SHA-256，用作有出处的作品记录。原帖未声明开放代码许可，不镜像 SVG 或项目代码，不新增可玩演示。收录不改变原作品权利。",
+    "i18n": {
+      "en": {
+        "title": "GPT 5.1 · Creator's SVG cycling-pelican preview",
+        "model": "GPT 5.1",
+        "notes": "The creator contrasts a static GPT 5.1 result with an animated Gemini 3 result, explicitly asking for an SVG generated with code and rendered. This work maps only to the post's GPT 5.1 still attachment: the complete original 600×400 PNG is preserved, not an SVG source file, with no motion borrowed from the other model. The author's one-shot description is a source report, not a museum reproduction. November 21, 2025 is the original post's UTC publication day (06:05:27); the actual generation date, reasoning effort and run settings are unpublished. Model and creator labels are source-reported and not independently authenticated.",
+        "rights": "The work remains creator-owned. Attribution, the public original post, original PNG bytes and SHA-256 are retained for a source-backed work record. No open code license is stated: SVG or project code is not mirrored, and no playable demo is added. Inclusion does not change the creator's rights.",
+        "promptStatus": "can you make an svg image using code and render it out, of a pelican on a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/SkyeSharkie/status/1991749780649963722",
+        "https://pbs.twimg.com/media/G6QdlzZa0AAc1Pr?format=png&name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT 5.1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/SkyeSharkie/status/1991749780649963722"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-11-21T06:05:27.000Z",
+      "workflow": "source-reported-svg-code",
+      "staticPreviewOnly": true,
+      "svgSourceNotMirrored": true,
+      "oneShotAuthorClaim": true,
+      "effortUnknown": true
+    },
+    "sourcePublicationDate": "2025-11-21"
   }
 ]
