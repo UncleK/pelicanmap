@@ -15451,7 +15451,7 @@
     "author": "KC (@ScarletKc) / Variora",
     "date": "2026-09-22",
     "month": "2026-09",
-    "notes": "海边鹈鹕骑车动画；README 记录 Devin CLI 3000.6.14、作者标注 9 月 22 日生成，原 HTML 未改动，截图为维护者后续捕获。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。",
+    "notes": "海边鹈鹕骑车动画；README 记录 Devin CLI 3000.6.14、作者标注 9 月 22 日生成，原 HTML 未改动，截图为维护者后续捕获。 本记录日期按上游 README 明确记录的生成日期；该模型目录首次公开提交于 2026-09-22；模型、档位和过程均为上游记录，未独立认证。仅收录普通案例，不列入可玩演示。 已完整审阅固定版本原始 HTML 与 MIT 许可，原字节在本站隔离域恢复播放。后台浏览器确认车轮、腿部和背景持续运动，与原预览为同一作品；点击变速仅为播放控制，不加入可玩。原日期、ID、封面和媒体保持，不增加作品数。",
     "source": "community",
     "sourceLabel": "社区记录",
     "sourceUrl": "https://github.com/scarletkc/Variora/tree/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/swe-2",
@@ -15482,13 +15482,13 @@
     "url": "https://pelicanmap.aveniqa.com/specimens/variora-swe-2-2026-09-22/",
     "markdown": "/specimens/variora-swe-2-2026-09-22/index.md",
     "updated": "2026-10-01",
-    "rights": "上游仓库为 MIT License，Copyright (c) 2026 scarletkc；保留作者署名、源文件链接与许可。此批不镜像可执行 HTML。",
+    "rights": "MIT License，Copyright (c) 2026 scarletkc；固定版本 HTML 原字节保留，完整许可随隔离预览目录的 LICENSE.txt 提供，作者署名与原仓库链接保持。",
     "i18n": {
       "en": {
         "title": "SWE-2 max · Variora coastal cycling",
         "model": "SWE-2 · max (upstream-reported)",
-        "notes": "A coastal cycling-pelican animation. The README records Devin CLI 3000.6.14, author-reported generation on September 22, unchanged imported HTML and a later maintainer screenshot. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo.",
-        "rights": "The upstream repository is MIT-licensed, Copyright (c) 2026 scarletkc. Attribution, original-file links and license are retained. Executable HTML is not mirrored in this batch.",
+        "notes": "A coastal cycling-pelican animation. The README records Devin CLI 3000.6.14, author-reported generation on September 22, unchanged imported HTML and a later maintainer screenshot. The record date follows the generation date explicitly reported in the upstream README; this model directory was first publicly committed on 2026-09-22. Model, effort and workflow are upstream-reported, not independently authenticated. This is an ordinary case, not a playable demo. The pinned original HTML and MIT license were fully reviewed; unchanged bytes now restore playback on the isolated on-site domain. Browser checks confirm moving wheels, legs and background, matching the existing preview. Clicking changes playback speed only, not Play. Original dates, ID, cover and media are preserved without adding a work.",
+        "rights": "MIT License, Copyright (c) 2026 scarletkc. Pinned HTML bytes are preserved with the complete LICENSE.txt beside the isolated preview; attribution and original repository links remain.",
         "promptStatus": "建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画。你的工作文件夹是：【redacted local path】禁止读取或编辑除此以外的任何文件夹",
         "promptCategory": "Source-documented test"
       }
@@ -15507,7 +15507,20 @@
     "licenseUrl": "/media/collected/2026-10-01-variora-backfill/ATTRIBUTION.txt",
     "licenseFiles": [
       "/media/collected/2026-10-01-variora-backfill/Variora-MIT.txt"
-    ]
+    ],
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-swe-2-2026-09-22/",
+    "interactive": false,
+    "generationConditions": {
+      "animationArchive": {
+        "source": "https://raw.githubusercontent.com/scarletkc/Variora/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/swe-2/app/index.html",
+        "sha256": "d42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64",
+        "bytes": 19255,
+        "license": "MIT",
+        "licenseUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-swe-2-2026-09-22/LICENSE.txt",
+        "checkedAt": "2026-10-05T11:21:25.192Z",
+        "controlsArePlaybackOnly": true
+      }
+    }
   },
   {
     "id": "variora-step-5-2026-09-20",

@@ -1,8 +1,9 @@
 """Live code-generation scope, preserved originals and read-only default searches."""
-import concurrent.futures,csv,hashlib,io,json,time,urllib.request
+import concurrent.futures,csv,hashlib,io,json,time,urllib.request,unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from generation_scope import DIRECT_VIDEO_IDS
+from archival_test_assertions import reviewed_swe_motion_restoration
 ROOT=Path(__file__).resolve().parents[1];BASE='https://pelicanmap.aveniqa.com';checks=0
 
 def get(path,payload=None):
@@ -52,7 +53,8 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(check_media,media.items()))
     for id,row in old.items():
         current=preserved_rows[id]
-        for key in ['id','model','author','date','sourceUrl','thumbnail','rights','media']:assert current.get(key)==row.get(key),(id,key)
+        for key in ['id','model','author','date','sourceUrl','thumbnail','rights','media']:
+            if not reviewed_swe_motion_restoration(unittest.TestCase(),row,current,key):assert current.get(key)==row.get(key),(id,key)
         if id not in DIRECT_VIDEO_IDS:assert (current['caseVisible'],current['timelineVisible'])==(row['caseVisible'],row['timelineVisible'])
     spec=json.loads(get('/openapi.json'));assert 'generationMethod' in spec['components']['schemas']['Record']['properties']
     sitemap=get('/sitemap.xml?code-scope='+str(time.time_ns()))

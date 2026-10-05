@@ -9,7 +9,7 @@ from model_chronology import apply_model_chronology,ordered_timeline,timeline_ye
 from detail_frames import apply_detail_frames
 from historical_context import HISTORY_ID
 from generation_scope import DIRECT_VIDEO_IDS
-from archival_test_assertions import reviewed_video_context_change
+from archival_test_assertions import reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration
 
 ROOT=Path(__file__).resolve().parents[1]
 CAT=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
@@ -48,7 +48,7 @@ class ModelChronologyTests(unittest.TestCase):
         self.assertEqual(len(current_additions),len(additions))
         self.assertLessEqual(set(previous_additions),set(current_additions))
         for key,previous in previous_additions.items():
-            self.assertEqual(current_additions[key],previous,key)
+            if not reviewed_swe_addition_restoration(self,previous,current_additions[key]):self.assertEqual(current_additions[key],previous,key)
         newly_reviewed=set(current_additions)-set(previous_additions)
         self.assertEqual({x['id'] for x in CAT['items']},set(old)|newly_reviewed)
         for item in CAT['items']:
@@ -70,7 +70,9 @@ class ModelChronologyTests(unittest.TestCase):
                     self.assertEqual(item[key],value,(item['id'],key))
                 continue
             if item['id']!=HISTORY_ID:
-                self.assertEqual(strip(item),strip(previous),item['id'])
+                for key,value in strip(previous).items():
+                    if not reviewed_swe_motion_restoration(self,previous,item,key):self.assertEqual(item[key],value,(item['id'],key))
+                self.assertEqual(set(strip(item))-set(strip(previous)), {'motionPreview','generationConditions'} if item['id']=='variora-swe-2-2026-09-22' else set())
                 continue
             allowed={'recordRepair'}
             self.assertEqual({k:v for k,v in strip(item).items() if k not in allowed},{k:v for k,v in strip(previous).items() if k not in allowed})

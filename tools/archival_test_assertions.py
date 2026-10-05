@@ -91,6 +91,8 @@ def reviewed_video_context_change(test, previous, current, key, by_id):
 
 def reviewed_motion_append(test, previous, current, key):
     """Exactly three byte-preserved MIT previews; no historical overwrite."""
+    if reviewed_swe_motion_restoration(test, previous, current, key):
+        return True
     allowed = {
         'variora-gpt-6-sol-max-2026-09-23',
         'variora-gpt-6-astra-max-2026-09-14',
@@ -117,4 +119,50 @@ def reviewed_motion_append(test, previous, current, key):
             if field == 'notes':test.assertTrue(new_values[field].startswith(value))
             elif field == 'rights':test.assertIn('MIT License', new_values[field])
             else:test.assertEqual(new_values[field], value, (previous['id'], lang, field))
+    return True
+
+
+def reviewed_swe_motion_restoration(test, previous, current, key):
+    """One exact pinned MIT original; no blanket mutable-archive exemption."""
+    ident = 'variora-swe-2-2026-09-22'
+    fields = {'notes', 'rights', 'i18n', 'previewUrl', 'generationConditions'}
+    if previous['id'] != ident or key not in fields:
+        return False
+    preview = ROOT / 'public-demos/demos/variora-motion-recovery' / ident
+    expected_sha = 'd42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64'
+    test.assertEqual(hashlib.sha256((preview / 'index.html').read_bytes()).hexdigest(), expected_sha)
+    test.assertEqual(hashlib.sha256((preview / 'LICENSE.txt').read_bytes()).hexdigest(),
+                     '7b2f47de242cf53f6c5f53d6aeee902d064e5e8a4e151388ef8966a538b4f8f2')
+    test.assertEqual(current['previewUrl'], 'https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/'+ident+'/')
+    test.assertFalse(current['interactive'] or current.get('demoUrl'))
+    expected = next(x for x in json.loads((ROOT / 'site/additions.json').read_text(encoding='utf8')) if x['id'] == ident)
+    for field in fields:
+        test.assertEqual(current[field], expected[field])
+    archive = current['generationConditions']['animationArchive']
+    test.assertEqual(archive['sha256'], expected_sha)
+    test.assertEqual(archive['bytes'], 19255)
+    test.assertEqual(archive['license'], 'MIT')
+    test.assertTrue(archive['controlsArePlaybackOnly'])
+    for field in ['id', 'model', 'date', 'author', 'sourceUrl', 'updated', 'media', 'thumbnail']:
+        test.assertEqual(current[field], previous[field], (ident, field))
+    test.assertTrue(current['notes'].startswith(previous['notes']))
+    for field, value in previous.get('generationConditions', {}).items():
+        test.assertEqual(current['generationConditions'][field], value)
+    for lang, old_values in previous['i18n'].items():
+        for field, value in old_values.items():
+            new_value = current['i18n'][lang][field]
+            if field == 'notes':test.assertTrue(new_value.startswith(value))
+            elif field == 'rights':test.assertIn('MIT License', new_value)
+            else:test.assertEqual(new_value, value)
+    return True
+
+
+def reviewed_swe_addition_restoration(test, previous, current):
+    """Apply the same exact restoration guard to ingestion snapshots."""
+    if previous['id'] != 'variora-swe-2-2026-09-22':
+        return False
+    for key, value in previous.items():
+        if not reviewed_swe_motion_restoration(test, previous, current, key):
+            test.assertEqual(current[key], value)
+    test.assertEqual(set(current)-set(previous), {'generationConditions','previewUrl','interactive'}-set(previous))
     return True

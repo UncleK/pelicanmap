@@ -3,7 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
-from archival_test_assertions import user_requested_context_change, reviewed_video_context_change
+from archival_test_assertions import user_requested_context_change, reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-x-forum-continuation'
 A=json.loads((DIR/'import-audit.json').read_text(encoding='utf8'))
@@ -80,11 +80,12 @@ class XForumContinuationTests(unittest.TestCase):
         before=json.loads((DIR/'before-catalog.json').read_text(encoding='utf8'))
         for x in before['items']:
             for key,value in x.items():
+                if reviewed_swe_motion_restoration(self,x,BY[x['id']],key):continue
                 if user_requested_context_change(self,x,BY[x['id']],key):continue
                 if reviewed_video_context_change(self,x,BY[x['id']],key,BY):continue
                 if key!='caseNumber':self.assertEqual(BY[x['id']][key],value,(x['id'],key))
         additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text(encoding='utf8'))}
         for x in json.loads((DIR/'before-additions.json').read_text(encoding='utf8')):
-            self.assertEqual(additions[x['id']],x)
+            if not reviewed_swe_addition_restoration(self,x,additions[x['id']]):self.assertEqual(additions[x['id']],x)
 
 if __name__=='__main__':unittest.main()

@@ -8,7 +8,7 @@ from collections import Counter
 from pathlib import Path
 from live_http import live_urlopen
 from bs4 import BeautifulSoup
-from archival_test_assertions import reviewed_video_context_change
+from archival_test_assertions import reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration
 
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-motion-autoplay'
@@ -56,6 +56,8 @@ def main():
     preservation=unittest.TestCase()
     for ident,item in old.items():
         for key,value in item.items():
+            if reviewed_swe_motion_restoration(preservation,item,current[ident],key):
+                continue
             if reviewed_video_context_change(preservation,item,current[ident],key,current):
                 continue
             if ident=='x-keth-space-bunny-alpha-animation-2026-09-30' and key in {'caseRole','caseVisible','timelineVisible','caseReview'}:
@@ -66,7 +68,8 @@ def main():
             if key!='caseNumber':assert current[ident][key]==value,(ident,key)
     prior_additions=json.loads((DIR/'before-additions.json').read_text())
     additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text())}
-    for item in prior_additions:assert additions.get(item['id'])==item,item['id']
+    for item in prior_additions:
+        if not reviewed_swe_addition_restoration(preservation,item,additions[item['id']]):assert additions.get(item['id'])==item,item['id']
     for prefix in ['', '/en']:
         expected=json.loads((ROOT/'public-site'/prefix.lstrip('/')/'data/catalog.json').read_text(encoding='utf8'))
         live=json.loads(get(prefix+'/data/catalog.json'))
