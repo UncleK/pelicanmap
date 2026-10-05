@@ -178,7 +178,9 @@ class PublicSiteTests(unittest.TestCase):
     def test_publication_boundary_and_crawlable_navigation(self):
         self.assertTrue((OUT / 'index.html').exists(), 'Public homepage has not been built')
         soup = BeautifulSoup((OUT / 'index.html').read_text(encoding='utf-8'), 'html.parser')
-        self.assertGreaterEqual(len(soup.select('a[href^="/specimens/"]')), 6)
+        self.assertEqual([a['href'] for a in soup.select('.hero .actions a')], ['/timeline/', '/specimens/'])
+        self.assertTrue(soup.select_one('.nav a[href="/specimens/"]'))
+        self.assertTrue(soup.select_one('[data-historical-hero] a[href^="/specimens/"]'))
         self.assertFalse((OUT / 'pelican-archive').exists())
         for f in OUT.rglob('*.html'):
             html = f.read_text(encoding='utf-8')

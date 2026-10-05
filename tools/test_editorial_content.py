@@ -4,7 +4,7 @@ import json
 import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
-from editorial_content import FEATURED_IDS, CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
+from editorial_content import CATALOG_VERSION, CSV_FIELDS, scope_sections, HOME_COPY
 from historical_context import HISTORY_ID, historical_sections
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,23 +19,16 @@ class EditorialTests(unittest.TestCase):
     def soup(self, relative, lang):
         return BeautifulSoup((OUT/('en/' if lang=='en' else '')/relative).read_text(encoding='utf8'),'html.parser')
 
-    def test_selection_is_same_reviewed_single_model_image_in_both_languages(self):
+    def test_home_omits_selection_and_retains_historical_hero_in_both_languages(self):
         for lang,catalog in self.catalogs.items():
             by = {x['id']:x for x in catalog['items']}
             home = self.soup('index.html',lang)
-            cards = home.select('#featured .specimen-card')
-            self.assertEqual(len(cards),6)
-            self.assertFalse(home.select('#featured .source-archive-link'))
-            self.assertEqual([x.select_one('.card-cover')['href'] for x in cards],[by[key]['path'] for key in FEATURED_IDS])
-            for key,card in zip(FEATURED_IDS,cards):
-                item=by[key]
-                self.assertTrue(item['caseVisible'] and item['timelineVisible'])
-                self.assertFalse(item.get('referenceOnly') or item.get('interactive'))
-                self.assertEqual(item['format'],'svg')
-                self.assertEqual(len(item['modelNames']),1)
-                self.assertEqual(len(card.select('img')),1)
-                self.assertEqual(card.select_one('img')['src'],item['thumbnail'])
-                self.assertNotEqual(item['thumbnail'],item.get('cropProvenance',{}).get('original'))
+            self.assertFalse(home.select('#featured, .specimen-card'))
+            self.assertEqual(home.select_one('.nav a').get_text(), 'Home' if lang=='en' else '首页')
+            self.assertEqual(home.select_one('.nav a')['href'], '/en/' if lang=='en' else '/')
+            footer=home.select_one('.footer-bottom')
+            self.assertEqual(footer.select_one('.small').get_text(),'Pelican Map')
+            self.assertEqual(footer.select_one('.copyright').get_text(),'Creator-owned works · Unverified model labels' if lang=='en' else '作品归原作者 · 模型标注未独立认证')
             history=by[HISTORY_ID]
             self.assertEqual(home.select_one('[data-historical-hero] img')['src'],history['thumbnail'])
             self.assertEqual(home.select_one('[data-historical-hero] .hero-media')['href'],history['path'])
@@ -45,8 +38,7 @@ class EditorialTests(unittest.TestCase):
             self.assertFalse(history['caseVisible'] or history['timelineVisible'])
             self.assertIsNone(history['caseNumber'])
             schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
-            self.assertEqual(schema['mainEntity']['numberOfItems'],6)
-            self.assertEqual([x['url'] for x in schema['mainEntity']['itemListElement']],[by[key]['url'] for key in FEATURED_IDS])
+            self.assertNotIn('mainEntity',schema)
 
     def test_home_uses_exact_user_supplied_bilingual_copy(self):
         for lang in ['zh','en']:

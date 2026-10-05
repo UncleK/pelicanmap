@@ -206,3 +206,4 @@ html[lang=en] .hero .hero-title{font:500 clamp(38px,4.2vw,60px)/1.07 Georgia,ser
   .page-top p{margin-top:8px;margin-bottom:8px}
   main>.page-top+[data-browser] .browse-family-row{margin-top:8px}
 }
+.footer-bottom{display:flex;justify-content:space-between;align-items:baseline;gap:12px 24px;margin-top:16px}.footer-bottom .small,.footer-bottom .copyright{margin:0}.footer-bottom .small{flex-shrink:0}.footer-bottom .copyright{text-align:right}

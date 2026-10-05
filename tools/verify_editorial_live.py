@@ -1,4 +1,4 @@
-"""Verify published bilingual selection, SEO, counting exports and MCP guidance."""
+"""Verify published bilingual homepage, SEO, counting exports and MCP guidance."""
 import csv
 import io
 import json
@@ -39,14 +39,14 @@ for lang in ['zh','en']:
     assert home.select_one('.hero-title').get_text(' ',strip=True).replace(' ','')==HOME_COPY[lang]['title'].replace(' ','')
     assert home.select_one('.hero-question').get_text()==HOME_COPY[lang]['question']
     assert home.select_one('.hero .intro').get_text()==HOME_COPY[lang]['description']
-    cards=home.select('#featured .specimen-card')
-    assert len(cards)==6 and not home.select('#featured .source-archive-link')
-    assert [x.select_one('.card-cover')['href'] for x in cards]==[by[key]['path'] for key in FEATURED_IDS]
-    for card,key in zip(cards,FEATURED_IDS):
-        assert card.select_one('img')['src']==by[key]['thumbnail']
-        assert by[key]['caseVisible'] and by[key]['timelineVisible'] and by[key]['format']=='svg'
+    assert not home.select('#featured, .specimen-card')
+    assert home.select_one('.nav a').get_text()==('Home' if lang=='en' else '首页')
+    assert home.select_one('.nav a')['href']==prefix+'/'
+    footer=home.select_one('.footer-bottom')
+    assert footer.select_one('.small').get_text()=='Pelican Map'
+    assert footer.select_one('.copyright').get_text()==('Creator-owned works · Unverified model labels' if lang=='en' else '作品归原作者 · 模型标注未独立认证')
     schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
-    assert schema['mainEntity']['numberOfItems']==6
+    assert 'mainEntity' not in schema
     assert int(home.select_one('[data-total-records]').get_text())==catalog['counts']['cases']
     for relative in ['about/','developers/','timeline/','specimens/','play/','sources/','collections/origins/','collections/beyond-svg/','collections/reading-the-test/','tags/benchmark/','timeline/1988/']:
         path=prefix+'/'+relative
@@ -116,5 +116,5 @@ for language in ['zh','en']:
     assert json.loads(result['content'][0]['text'])==json.loads(request('/api/v1/specimens/'+FEATURED_IDS[-1]+'?lang='+language))
 missing=rpc('tools/call',{'name':'get_specimen','arguments':{'id':'not-a-real-specimen'}})
 assert missing['isError'] is True
-print(json.dumps({'published_editorial_checks':checks,'bilingual_selection':6,'catalog_version':CATALOG_VERSION,
+print(json.dumps({'published_editorial_checks':checks,'homepage_selection_removed':True,'catalog_version':CATALOG_VERSION,
                   'case_count':catalog['counts']['cases'],'timeline_subset':catalog['counts']['timeline'],'seo_language_schema':True,'csv_counting_flags':True,'llms_and_mcp_scope':True,'legacy_1988_stale_cards':0}))

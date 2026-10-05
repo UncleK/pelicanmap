@@ -25,7 +25,7 @@ from benchmark_reference import pages as benchmark_pages, record_details as benc
 from thumbnail_overrides import apply_thumbnail_overrides
 from record_overrides import apply_record_overrides
 from case_policy import apply_case_policy, is_case, in_timeline, relationship_html
-from editorial_content import INTRO as INTROS, CATALOG_VERSION, featured as select_featured, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema, openapi
+from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema, openapi
 from editorial_content import listing_notes, HOME_COPY
 from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
 
@@ -174,7 +174,7 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''))
     canonical = BASE + path
-    navitems = [('/','精选'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
+    navitems = [('/','首页'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
     navigation = ''.join(f'<a href="{p}"'+(' aria-current="page"' if p==nav else '')+f'>{t}</a>' for p,t in navitems)
     schema = schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':description,'url':canonical,'inLanguage':'zh-CN','isPartOf':{'@type':'WebSite','name':SITE,'url':BASE+'/'},'dateModified':UPDATED}
     social_image=schema.get('image') if schema.get('image','').lower().endswith(('.png','.jpg','.jpeg','.webp')) else BASE+'/assets/og-cover.png'
@@ -191,7 +191,7 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
 <link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">{alternate}<link rel="describedby" href="/llms.txt"><link rel="alternate" type="application/rss+xml" title="馆藏更新" href="/feed.xml">
 <script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script><script type="module" src="/assets/motion.js?v={ASSET_VERSION}"></script></head>
 <body id="top"><a class="skip" href="#main">跳到正文</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>{SITE}</strong><small>PELICAN MAP · AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航">{navigation}</nav></div></header>
-<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div><div class="footer-brand">一只鸟，一辆车，一段 AI 小史。</div><p class="small">Pelican Map · 资料馆与精选展示</p></div><div class="footer-links"><a href="/about/">关于与收录方法</a><a href="/rights/">来源与使用说明</a><a href="/developers/">数据与 Agent</a><a href="/feed.xml">RSS</a><a href="#top">回到顶部 ↑</a></div></div><div class="copyright">馆藏整理于 {UPDATED}。作品权利归原作者；模型按来源标注，未独立认证。时间线是全部作品的代表图子集；Benchmark 单列，不计主馆总数。</div></div></footer></body></html>'''
+<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">一只鸟，一辆车，一段 AI 小史。</div><div class="footer-links"><a href="/about/">关于与收录方法</a><a href="/rights/">来源与使用说明</a><a href="/developers/">数据与 Agent</a><a href="/feed.xml">RSS</a><a href="#top">回到顶部 ↑</a></div></div><div class="footer-bottom"><p class="small">Pelican Map</p><p class="copyright">作品归原作者 · 模型标注未独立认证</p></div></div></footer></body></html>'''
     dest = OUT / path.strip('/') / 'index.html' if path.endswith('/') else OUT / path.lstrip('/')
     dump(dest, result)
     if not noindex:
@@ -327,14 +327,12 @@ def build(items=None,prepare=True):
     jdump(ROOT/'deploy-build/removed-public-pages.json',removed_paths)
     assert len({x['id'] for x in items})==len(items)
     by_original={x['originalId']:x for x in items}
-    featured=select_featured(items)
     body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>一只鹈鹕，</span><span class="hero-second">无数种<em>可能。</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{e(HOME_COPY['zh']['question'])}</p><p class="intro">{e(HOME_COPY['zh']['description'])}</p><div class="actions"><a class="button" href="/timeline/">时间线 <span>↗</span></a><a class="button secondary" href="/specimens/">全部作品 <span>→</span></a></div><p class="small">一个持续整理的资料馆 · 模型标注按来源保留，未独立认证</p></div>{historical_hero(items)}</section>
-<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>独立作品 · 含不同档位输出</span></div><div><strong>{COUNTS["timeline"]}</strong><span>进化轴代表图 · 作品子集</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon 来源索引 · 不计作品</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark 合集 · 单列参考</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>
-<section class="section" id="featured"><div class="section-head"><div><div class="eyebrow">THE CURATOR'S SELECTION</div><h2>先看这几件</h2><p>从 2024 年的原点到近期输出：一个模型，一张图。精选不是排名。</p></div><a class="text-link" href="/specimens/">浏览全部作品 ↗</a></div><div class="grid">{cards(featured)}</div></section>'''
+<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>独立作品 · 含不同档位输出</span></div><div><strong>{COUNTS["timeline"]}</strong><span>进化轴代表图 · 作品子集</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon 来源索引 · 不计作品</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark 合集 · 单列参考</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
     topics=[('origins','01 / THE BEGINNING','为什么是鹈鹕骑车？','从原点仓库开始，认识这个小题目。'),('beyond-svg','02 / ACROSS MEDIA','跨介质探索','动画、三维与交互，保留各自生成条件。'),('reading-the-test','03 / A CLOSER LOOK','一张图能说明什么？','了解提示词、版本与比较的边界。')]
     body+='<section class="section"><div class="section-head"><div><div class="eyebrow">FIELD NOTES</div><h2>带着问题逛一逛</h2></div></div><div class="topics">'+''.join(f'<a class="topic" href="/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>阅读专题 →</span></a>' for slug,ey,title,desc in topics)+'</div></section>'
     body+='<section class="quote-band"><h2>好作品值得停留，<br>失败也值得收藏。</h2><div><p>每一份记录尽量保留模型、时间、媒体与原始出处。这里的并置是一种观察：同一题目如何被理解，又如何不断被改写。</p><p><a href="/about/">了解收录方法 →</a></p></div></section>'
-    schema=home_schema('鹈鹕骑车：AI 作品资料馆与精选展示',featured)
+    schema=home_schema('鹈鹕骑车：AI 作品资料馆与精选展示')
     schema['dateModified']=UPDATED
     page('/','鹈鹕骑车：AI 作品资料馆与精选展示',INTRO,body,nav='/',schema=schema,markdown='/index.md')
     from bs4 import BeautifulSoup

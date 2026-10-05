@@ -20,7 +20,7 @@ from card_metadata import card_footer
 from model_chronology import timeline_year
 from case_policy import is_case, in_timeline, relationship_html
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details
-from editorial_content import INTRO as INTROS, CATALOG_VERSION, featured as select_featured, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema
+from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema
 from editorial_content import listing_notes, HOME_COPY
 from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
 
@@ -75,7 +75,7 @@ def page(path,title,desc,body,nav='',schema=None,noindex=False):
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''), 'en')
     en=local(path); canonical=BASE+en
-    navitems=[('/','Selected'),('/timeline/','Timeline'),('/specimens/','Collection'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
+    navitems=[('/','Home'),('/timeline/','Timeline'),('/specimens/','Collection'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
     navigation=''.join(f'<a href="{local(p)}"'+(' aria-current="page"' if p==nav else '')+f'>{label}</a>' for p,label in navitems)
     schema=schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'url':canonical,'inLanguage':'en','isPartOf':{'@type':'WebSite','name':'Pelican Map','url':BASE+'/en/'},'dateModified':UPDATED}
     social_image=schema.get('image') if schema.get('image','').lower().endswith(('.png','.jpg','.jpeg','.webp')) else BASE+'/assets/og-cover-en.png'
@@ -90,7 +90,7 @@ def page(path,title,desc,body,nav='',schema=None,noindex=False):
 <link rel="describedby" href="/en/llms.txt"><link rel="alternate" type="application/rss+xml" title="Archive updates" href="/en/feed.xml">{f'<link rel="alternate" type="text/markdown" href="{md}">' if md else ''}
 <script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script><script type="module" src="/assets/motion.js?v={ASSET_VERSION}"></script></head>
 <body id="top"><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/en/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>Pelican Map</strong><small>AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="Main navigation">{navigation}<a class="language-switch" data-language href="{path}" hreflang="zh-CN" lang="zh-CN" aria-label="切换到中文">中文</a></nav></div></header>
-<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div><div class="footer-brand">One bird. Two wheels. A little history of AI.</div><p class="small">Pelican Map · An archive & curated exhibition</p></div><div class="footer-links"><a href="/en/about/">About & methods</a><a href="/en/rights/">Credits & use</a><a href="/en/developers/">Data & agents</a><a href="/en/feed.xml">RSS</a><a href="#top">Back to top ↑</a></div></div><div class="copyright">Compiled {UPDATED}. Original creators retain their rights; source-reported models are not independently authenticated. The timeline is a representative subset of all works. Benchmark references are counted separately.</div></div></footer></body></html>'''
+<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">One bird. Two wheels. A little history of AI.</div><div class="footer-links"><a href="/en/about/">About & methods</a><a href="/en/rights/">Credits & use</a><a href="/en/developers/">Data & agents</a><a href="/en/feed.xml">RSS</a><a href="#top">Back to top ↑</a></div></div><div class="footer-bottom"><p class="small">Pelican Map</p><p class="copyright">Creator-owned works · Unverified model labels</p></div></div></footer></body></html>'''
     dest=OUT/en.strip('/')/'index.html' if path.endswith('/') else OUT/en.lstrip('/')
     dump(dest,result)
     if md:
@@ -224,13 +224,11 @@ def build():
     jdump(OUT/'en/data/catalog.json',catalog);jdump(ROOT/'site/catalog.en.json',catalog)
     dump(OUT/'en/data/catalog.csv',csv_text(items))
     byid={x['originalId']:x for x in items}
-    featured=select_featured(items)
     body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>One pelican.</span><span class="hero-second">Endless <em>possibilities.</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{E(HOME_COPY['en']['question'])}</p><p class="intro">{E(HOME_COPY['en']['description'])}</p><div class="actions"><a class="button" href="/en/timeline/">Timeline <span>↗</span></a><a class="button secondary" href="/en/specimens/">All works <span>→</span></a></div><p class="small">An evolving archive · Source-reported models, not independently authenticated</p></div>{historical_hero(items,'en')}</section>
-<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong>{COUNTS["timeline"]}</strong><span>timeline representatives · a subset</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>
-<section class="section" id="featured"><div class="section-head"><div><div class="eyebrow">THE CURATOR'S SELECTION</div><h2>Start with these</h2><p>From the 2024 originals to recent outputs: one model, one image. A selection, not a ranking.</p></div><a class="text-link" href="/en/specimens/">Explore the collection ↗</a></div><div class="grid">{cards(featured)}</div></section>'''
+<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong>{COUNTS["timeline"]}</strong><span>timeline representatives · a subset</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
     topics=[('origins','01 / THE BEGINNING','Why a pelican on a bicycle?','Start with the original repository and a very specific question.'),('beyond-svg','02 / ACROSS MEDIA','Explorations beyond SVG','Animation, 3D and interactions with their generation conditions preserved.'),('reading-the-test','03 / A CLOSER LOOK','What can one image tell us?','Read the conditions behind each comparison.')]
     body+='<section class="section"><div class="section-head"><div class="eyebrow">FIELD NOTES</div><h2>Bring a question</h2></div><div class="topics">'+''.join(f'<a class="topic" href="/en/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>Read the field note →</span></a>' for slug,ey,title,desc in topics)+'</div></section><section class="quote-band"><h2>Keep the beautiful.<br>Keep the failures, too.</h2><div><p>Preserving the model, date, media and source makes it possible to observe how one question is understood, reinterpreted and changed.</p><p><a href="/en/about/">About the archive →</a></p></div></section>'
-    schema=home_schema('Pelican bicycle AI archive & curated exhibition',featured,'en')
+    schema=home_schema('Pelican bicycle AI archive & curated exhibition','en')
     schema['dateModified']=UPDATED
     page('/','Pelican bicycle AI archive & curated exhibition',INTRO,body,nav='/',schema=schema)
     total=math.ceil(len(items)/24)

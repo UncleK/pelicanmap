@@ -146,14 +146,11 @@ def agent_guide(counts, updated, language='zh'):
     return guide
 
 
-def home_schema(title, items, language='zh'):
+def home_schema(title, language='zh'):
     prefix = '/en/' if language == 'en' else '/'
     return {'@context':'https://schema.org','@type':'CollectionPage','name':title,
             'description':HOME_COPY[language]['description'],'url':BASE+prefix,'inLanguage':'en' if language=='en' else 'zh-CN',
-            'about':{'@type':'Thing','name':'Generate an SVG of a pelican riding a bicycle'},
-            'mainEntity':{'@type':'ItemList','name':'Selected examples' if language=='en' else '精选案例',
-                          'numberOfItems':len(items),
-                          'itemListElement':[{'@type':'ListItem','position':n+1,'url':x['url'],'name':x['title']} for n,x in enumerate(items)]}}
+            'about':{'@type':'Thing','name':'Generate an SVG of a pelican riding a bicycle'}}
 
 
 def record_schema(item, language='zh'):
