@@ -123,10 +123,11 @@ def reviewed_motion_append(test, previous, current, key):
 
 
 def reviewed_swe_motion_restoration(test, previous, current, key):
-    """Two individually reviewed pinned MIT originals, never a blanket exemption."""
+    """Three individually reviewed pinned MIT originals, never a blanket exemption."""
     reviewed = {
         'variora-swe-2-2026-09-22': ('d42e436747fb4ad5549dac340ffaa88ea1ada9686145542a7223db01ab4c5e64', 19255),
         'variora-mimo-v2-6-flash-free-2026-09-22': ('111be2ead35b66fc24df2834334b25eb3623f2694b2a6ae99f09937974f2ff48', 23128),
+        'variora-grok-4-7-2026-09-22': ('81329983af7e1d59ed47f79722ac3908d2b31ef67b1d47059ae72249b4b3bf12', 26189),
     }
     ident = previous['id']
     fields = {'notes', 'rights', 'i18n', 'previewUrl', 'generationConditions'}
@@ -163,7 +164,7 @@ def reviewed_swe_motion_restoration(test, previous, current, key):
 
 def reviewed_swe_addition_restoration(test, previous, current):
     """Apply the same exact restoration guard to ingestion snapshots."""
-    if previous['id'] not in {'variora-swe-2-2026-09-22', 'variora-mimo-v2-6-flash-free-2026-09-22'}:
+    if previous['id'] not in {'variora-swe-2-2026-09-22', 'variora-mimo-v2-6-flash-free-2026-09-22', 'variora-grok-4-7-2026-09-22'}:
         return False
     for key, value in previous.items():
         if not reviewed_swe_motion_restoration(test, previous, current, key):
