@@ -56304,5 +56304,892 @@
       "effortUnknown": true
     },
     "sourcePublicationDate": "2025-11-21"
+  },
+  {
+    "id": "x-skye-gemini-3-svg-animation-2025-11-21",
+    "originalId": "x-skye-gemini-3-svg-animation-2025-11-21",
+    "kind": "timeline",
+    "title": "Gemini 3 · 原作者 SVG 骑车鹈鹕短动画",
+    "model": "Gemini 3",
+    "author": "Utah teapot (@SkyeSharkie)",
+    "date": "2025-11-21",
+    "month": "2025-11",
+    "notes": "原作者公开对照 GPT 5.1 的静态结果与 Gemini 3 的动画结果，明确要求用代码生成并渲染 SVG。本件只对应 Gemini 3 的原动画附件；同帖已收 GPT 5.1 静态件是另一型号的输出。保存原公开 HLS 播放清单、音画初始化段、全部有序分片及各自 SHA-256，再仅流复制合并为约 1.045 秒的 MP4；这就是来源完整短片，不将初始化段冒充全片，不补造时长。封面取原片真实有内容帧。未取得原 SVG，不镜像未获许可的代码。作者称两者均一次完成，仅为来源报告，未独立复现；实际生成日、推理档位与设置未知。日期为原帖 UTC 公开时间 2025-11-21T06:05:27，型号保持原标注 Gemini 3，不升级为 Pro。原动画、封面和分片仅计一件；普通播放不计站内交互。型号及署名未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/SkyeSharkie/status/1991749780649963722",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "can you make an svg image using code and render it out, of a pelican on a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/1991749726128205825/pl/s2-EKESr3jAozjju.m3u8?tag=21&variant_version=1",
+        "sha256": "25e024bf0d0319c73fef2f4ab4beb03c470912ced57f22a6c4acb2c147673a83",
+        "extraction": {
+          "kind": "reviewed-hls-stream-copy",
+          "masterUrl": "https://video.twimg.com/amplify_video/1991749726128205825/pl/s2-EKESr3jAozjju.m3u8?tag=21&variant_version=1",
+          "masterSha256": "6aeb917ccfdbaa1a56b6620b29d66204eecce1f6d70cc962fcc5dea55ef757ff",
+          "sources": [
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/pl/s2-EKESr3jAozjju.m3u8?tag=21&variant_version=1",
+              "sha256": "6aeb917ccfdbaa1a56b6620b29d66204eecce1f6d70cc962fcc5dea55ef757ff",
+              "filename": "master.m3u8",
+              "bytes": 418,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/master.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/pl/avc1/1440x1080/EVpOtkQyWvej56QA.m3u8",
+              "sha256": "7a97a9f6562381efd605ebdce0ba81a348a31d93bbcb8ea926ec68580bc66ab0",
+              "filename": "video.m3u8",
+              "bytes": 306,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/video.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/vid/avc1/0/0/1440x1080/RMD6FVXyZRgHH3On.mp4",
+              "sha256": "9cf41b78164b34b362fa00bda528a315df0fb07df9f97a059cacbc186e2c58a3",
+              "filename": "video-init.mp4",
+              "bytes": 904,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/video-init.mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/vid/avc1/0/1000/1440x1080/9l171jnjIQKL21gY.m4s",
+              "sha256": "c6d7771474020fbfebb1b5cb33b108f79acabffed7b7aa32c0ca02a9cb4b5414",
+              "filename": "video-0.m4s",
+              "bytes": 116107,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/video-0.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/pl/mp4a/128000/fpzUN0DxrphFa46a.m3u8",
+              "sha256": "38aa3541115525df2e1e6f28a0d7d6504884e74e30359029c3b01da44f4ba45e",
+              "filename": "audio.m3u8",
+              "bytes": 300,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/audio.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/aud/mp4a/0/0/128000/pnpz1o2aGx-rh__3.mp4",
+              "sha256": "5ffe8fc56d31a7a47d00bb3582b69ddccfe5ca2b7003be796698531853e1a8e3",
+              "filename": "audio-init.mp4",
+              "bytes": 786,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/audio-init.mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1991749726128205825/aud/mp4a/0/1045/128000/MaHUA2MQdyd4ERRZ.m4s",
+              "sha256": "5d0ba90c8d9e736f284e5058c0eda23554c234da082f22c8374c9a06e3dee065",
+              "filename": "audio-0.m4s",
+              "bytes": 17054,
+              "src": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original.mp4-hls/audio-0.m4s"
+            }
+          ],
+          "tracks": {
+            "video": {
+              "duration": 1,
+              "segments": 1,
+              "sha256": "3ccf161f71cd9409117dbd0bce12595c32b8ac499ebccbfd576d05eb882a53c1"
+            },
+            "audio": {
+              "duration": 1.045,
+              "segments": 1,
+              "sha256": "7d8ef77843e05040e3cb0e32946cdadab71bf128b8c5f5b6c5a9860510e306c1"
+            }
+          },
+          "assemblySha256": "25e024bf0d0319c73fef2f4ab4beb03c470912ced57f22a6c4acb2c147673a83",
+          "fullDecodeVerified": true
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/1991749726128205825/pl/s2-EKESr3jAozjju.m3u8?tag=21&variant_version=1",
+          "sourceSha256": "25e024bf0d0319c73fef2f4ab4beb03c470912ced57f22a6c4acb2c147673a83",
+          "frameTime": 0.3,
+          "sha256": "9bcc6039be9125fcc6a612212ca11f19593dac8770e214cc78b142281dced04e"
+        },
+        "caption": "原作者完整 HLS 短动画；音画流复制，保留原分片",
+        "captionEn": "Complete original HLS short animation; audio/video stream copy with source fragments preserved",
+        "poster": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-06-hls-intake-cursor/skye-gemini3-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-skye-gemini-3-svg-animation-2025-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-skye-gemini-3-svg-animation-2025-11-21/",
+    "markdown": "/specimens/x-skye-gemini-3-svg-animation-2025-11-21/index.md",
+    "updated": "2026-10-06",
+    "rights": "作品权利归原作者；仅归档其公开原动画预览，保留署名、出处、原分片及哈希，用作有出处的作品记录。未声明开放代码许可，不镜像 SVG 或项目代码，不提供可玩演示，不改变作品权利。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3 · Creator's short SVG cycling-pelican animation",
+        "model": "Gemini 3",
+        "notes": "The creator contrasts a static GPT 5.1 output with an animated Gemini 3 output, explicitly requesting an SVG generated with code and rendered. This work maps only to the original Gemini 3 animation attachment; the already collected GPT 5.1 still is a different model output. The public HLS playlists, original audio/video initialization segments, every ordered fragment and their SHA-256 hashes are preserved, then remuxed with stream copy into the complete approximately 1.045-second MP4. This is the full source clip: an initialization segment is not presented as a full video and no duration is invented. The cover is a real nonblank source-video frame. Original SVG code is unavailable and unlicensed code is not mirrored. The author describes both outputs as one-shot; this is a source report, not independent reproduction. Generation date, reasoning effort and settings are unknown. The date is the original post publication time, 2025-11-21T06:05:27 UTC. The label stays Gemini 3, with no inferred Pro version. Animation, cover and fragments count as one work; ordinary playback is not on-site interaction. Model and creator labels are not independently authenticated.",
+        "rights": "The work remains creator-owned. Only the published original animation preview is archived, with attribution, provenance, original fragments and hashes retained for a source-backed work record. No open code license is claimed; SVG/project code is not mirrored and no playable demo is provided. Inclusion does not change creator rights.",
+        "promptStatus": "can you make an svg image using code and render it out, of a pelican on a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/SkyeSharkie/status/1991749780649963722",
+        "https://video.twimg.com/amplify_video/1991749726128205825/pl/s2-EKESr3jAozjju.m3u8?tag=21&variant_version=1",
+        "https://video.twimg.com/amplify_video/1991749726128205825/pl/avc1/1440x1080/EVpOtkQyWvej56QA.m3u8",
+        "https://video.twimg.com/amplify_video/1991749726128205825/vid/avc1/0/0/1440x1080/RMD6FVXyZRgHH3On.mp4",
+        "https://video.twimg.com/amplify_video/1991749726128205825/vid/avc1/0/1000/1440x1080/9l171jnjIQKL21gY.m4s",
+        "https://video.twimg.com/amplify_video/1991749726128205825/pl/mp4a/128000/fpzUN0DxrphFa46a.m3u8",
+        "https://video.twimg.com/amplify_video/1991749726128205825/aud/mp4a/0/0/128000/pnpz1o2aGx-rh__3.mp4",
+        "https://video.twimg.com/amplify_video/1991749726128205825/aud/mp4a/0/1045/128000/MaHUA2MQdyd4ERRZ.m4s",
+        "https://pbs.twimg.com/media/G6QdlzZa0AAc1Pr?format=png&name=small"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/SkyeSharkie/status/1991749780649963722"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-11-21T06:05:27.000Z",
+      "workflow": "source-reported-svg-code",
+      "svgSourceNotMirrored": true,
+      "oneShotAuthorClaim": true,
+      "effortUnknown": true,
+      "originalClipDurationSeconds": 1.045333,
+      "sourceMedia": "complete-hls-vod-stream-copy"
+    },
+    "sourcePublicationDate": "2025-11-21"
+  },
+  {
+    "id": "x-movementlabs-tensor-animation-2025-12-01",
+    "originalId": "x-movementlabs-tensor-animation-2025-12-01",
+    "kind": "timeline",
+    "title": "tensor · 创作者公布的交互式 SVG 动画录屏",
+    "model": "tensor",
+    "author": "movementlabs (@movementlabsAI)",
+    "date": "2025-12-01",
+    "month": "2025-12",
+    "notes": "Movement Labs 演示其处于测试阶段的 tensor 模型（Momentum API）对“a pelican riding a bicycle”提示词的响应。模型生成了包含脚踏板、车轮旋转、背景云朵移动及速度滑块的完整交互式 SVG/HTML 场景，并在第二轮提示中将帽子更新为绿色。此记录对应创作者公开录屏附件，音画流复制合并完整约 44.29 秒 MP4 并保留原始 HLS 分片及哈希。封面截取自 20.0 秒真实画面。上游 SVG 代码未声明开放授权，不进行本地代码镜像或提供站内可玩演示；滑块为录屏中展示的来源功能，未在本站提供实测交互，不计入 Play。模型标注按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/movementlabsAI/status/1995452549864837446",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/1995451361450663936/pl/WujXLL7oorFXR1H0.m3u8?tag=21&variant_version=1",
+        "sha256": "2689e178b2150228f2c05fe370189f6c081e1a92fca1115a9819bb7f8240195b",
+        "extraction": {
+          "kind": "reviewed-hls-stream-copy",
+          "masterUrl": "https://video.twimg.com/amplify_video/1995451361450663936/pl/WujXLL7oorFXR1H0.m3u8?tag=21&variant_version=1",
+          "masterSha256": "ac0eda315d0d43a535fdb8b4973c126f950aa3cc4df013968f1399ab86152e17",
+          "sources": [
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/pl/WujXLL7oorFXR1H0.m3u8?tag=21&variant_version=1",
+              "sha256": "ac0eda315d0d43a535fdb8b4973c126f950aa3cc4df013968f1399ab86152e17",
+              "filename": "master.m3u8",
+              "bytes": 1333,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/master.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/pl/avc1/1920x1080/0yuAzOkUPKZRndi3.m3u8",
+              "sha256": "40345eedda0547d658565afb4c444d3231d80739539783bdbcbb2ea03afc896b",
+              "filename": "video.m3u8",
+              "bytes": 1729,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/0/0/1920x1080/5bY3-8_Fekkyp2mn.mp4",
+              "sha256": "2930e419d77a8af8ce4f3bd6b2d1a7af52ee60777199e205c86afeb04f02f8a9",
+              "filename": "video-init.mp4",
+              "bytes": 904,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-init.mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/0/3000/1920x1080/NSqNN5VOF6dYvP44.m4s",
+              "sha256": "e2eb9076526e3643f35661f0292e2bff552ba0c945da37b1d212935c4cb546be",
+              "filename": "video-0.m4s",
+              "bytes": 305599,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-0.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/3000/6000/1920x1080/SExjAu3ZA5j4dxYo.m4s",
+              "sha256": "1bea16601fa2569f3ffd62f2280c71a654a7ed6aba249ec15a16e213f351b38c",
+              "filename": "video-1.m4s",
+              "bytes": 72704,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-1.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/6000/9000/1920x1080/FSsFEqv5JReOXUM7.m4s",
+              "sha256": "5dfaa2f0dafac1e37eecf1729cdbfea9168082d51cc5027ea7e2aa5e7f25c26a",
+              "filename": "video-2.m4s",
+              "bytes": 71291,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-2.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/9000/12000/1920x1080/_SmJeZeGHEGQA6UT.m4s",
+              "sha256": "ff8249bcb93f17593f1377d60b0586b2f908ad83ececde759ae5599ae37886a3",
+              "filename": "video-3.m4s",
+              "bytes": 42919,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-3.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/12000/15000/1920x1080/bHg3DptRud8cUSwN.m4s",
+              "sha256": "d9ce518e14770c515448992c4e6661e27bcb3eec561c22ab6033b34148444fd3",
+              "filename": "video-4.m4s",
+              "bytes": 184603,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-4.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/15000/18000/1920x1080/EI2AwJgfIG6zPBIf.m4s",
+              "sha256": "5348ffd396251f585e434341a4c55661c7063a2f52e39003855b3841a034f944",
+              "filename": "video-5.m4s",
+              "bytes": 1462733,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-5.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/18000/21000/1920x1080/6a05dLqQzZthz-3W.m4s",
+              "sha256": "30db601d816ff9b1dd7c70f6d179e330179c0e5a8e1fdf97046c9d34bf26d3b5",
+              "filename": "video-6.m4s",
+              "bytes": 268730,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-6.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/21000/24000/1920x1080/wDOYqSR9z7HnLLLz.m4s",
+              "sha256": "ed49a6f123b8ac86c38839e8112507a6c45aa4e86d903040c8570ff84271d96d",
+              "filename": "video-7.m4s",
+              "bytes": 223843,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-7.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/24000/27000/1920x1080/IybjQh6mwUpeMuk4.m4s",
+              "sha256": "2fc0e39b3e49807f62712c7b4eda50d45c17bad7886ee3233206bc7d88a903ac",
+              "filename": "video-8.m4s",
+              "bytes": 210501,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-8.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/27000/30000/1920x1080/WX_fHUjJ2rKXtjha.m4s",
+              "sha256": "388426a355c628c586cc7824dbbc630952eeb57de81f32a8d34dce6a62956de2",
+              "filename": "video-9.m4s",
+              "bytes": 185105,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-9.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/30000/33000/1920x1080/4VXJR3pD2zA3YJEB.m4s",
+              "sha256": "1ec759f5d0d7e4334de06e4884da75246240f867ab178f8764b1fa90dc5d6035",
+              "filename": "video-10.m4s",
+              "bytes": 48383,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-10.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/33000/36000/1920x1080/YKVcfweOySnZsVre.m4s",
+              "sha256": "86f0f4edcb33f60402c8dd1109160f5b38f7234d2fcedf6240ee3285cd31cb4b",
+              "filename": "video-11.m4s",
+              "bytes": 279240,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-11.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/36000/39000/1920x1080/o7-ujmrc_zBE7I3b.m4s",
+              "sha256": "497d50036624bec674b2db9f5af3d3ffd3aad0af5c23008d64eae714c4f682b9",
+              "filename": "video-12.m4s",
+              "bytes": 397066,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-12.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/39000/42000/1920x1080/AAHavi8lRpdQmu5X.m4s",
+              "sha256": "dfb9e6bdda5a88e76ca7bf4bf609ed2409153aeadafe1e5beb01052d54ae379d",
+              "filename": "video-13.m4s",
+              "bytes": 241043,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-13.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/42000/44235/1920x1080/zeqzUjwipk1USkvL.m4s",
+              "sha256": "d7a32e869d277e72903afa09cc64d382622bbe6917de63246235903e8164a1bf",
+              "filename": "video-14.m4s",
+              "bytes": 191243,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/video-14.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/pl/mp4a/128000/uvY_g_bCKTxvJ1gp.m3u8",
+              "sha256": "03e048719318951a52e2fb513d3b48c9ad44e249ff0013c4ebfc84656a71a03b",
+              "filename": "audio.m3u8",
+              "bytes": 1681,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio.m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/0/0/128000/Sqcgw8-_HjL1UPJk.mp4",
+              "sha256": "bcb4e9b2efadd05c634b923c669b5bf24e62cea50734e6eba1285c7522d5af87",
+              "filename": "audio-init.mp4",
+              "bytes": 786,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-init.mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/0/3000/128000/XejKhw4bXMqz173O.m4s",
+              "sha256": "a18cfdbdb5686dc4d4efb5626c3cadc7877cab8d500464bdf0fdcdfd7155f61d",
+              "filename": "audio-0.m4s",
+              "bytes": 49239,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-0.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/3000/6000/128000/tA7DkstC0Yj_URzM.m4s",
+              "sha256": "00eb6cb9c0826a8f1ef77230110418eaa6273dca9430620760757308860bd03e",
+              "filename": "audio-1.m4s",
+              "bytes": 48404,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-1.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/6000/9000/128000/M6Dj0d_V6tStKGQH.m4s",
+              "sha256": "5de443aabe39e0a2d0140ebb3aec119d743ad9cdc9862350e1856d0841c498f1",
+              "filename": "audio-2.m4s",
+              "bytes": 48982,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-2.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/9000/12000/128000/QHqKPRcnnY3touDp.m4s",
+              "sha256": "e467a2621bd5780ae14244ef39f9b1e1cc2f2809ec1cdb8c852f67309089e26a",
+              "filename": "audio-3.m4s",
+              "bytes": 48827,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-3.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/12000/15000/128000/hDIbdoUdk2nseBeO.m4s",
+              "sha256": "c0b4bca221a6634195f47dcddbeaca61707ae79451869275fe1cf53f8a576579",
+              "filename": "audio-4.m4s",
+              "bytes": 48579,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-4.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/15000/18000/128000/7zqWWlPgxmILvbA1.m4s",
+              "sha256": "73509e6ee202582703c432a41c5af0a743b7514ecc84f5bf133e2c2a24f94e93",
+              "filename": "audio-5.m4s",
+              "bytes": 48734,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-5.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/18000/21000/128000/wVBsX0q-MIFA9NNI.m4s",
+              "sha256": "5f78c47b6f622026c92bd6a4b78a13206563919289f2d3567eef4ecda44afc4a",
+              "filename": "audio-6.m4s",
+              "bytes": 48472,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-6.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/21000/24000/128000/21yaxyYcjwaPWzIe.m4s",
+              "sha256": "89b7888746f287c53d797d1e75afe00198ca742b8f50830e4ec39b6e50da8673",
+              "filename": "audio-7.m4s",
+              "bytes": 48794,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-7.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/24000/27000/128000/nkVeDWyIqsz7jlC3.m4s",
+              "sha256": "c5b0a22ded00b9757d8227f42900108c002c4466cd851d1b295a6bb5628a54b8",
+              "filename": "audio-8.m4s",
+              "bytes": 48874,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-8.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/27000/30000/128000/nNwgYXucZDE_L9P6.m4s",
+              "sha256": "7583f2ff4f405a05004b96708f2fa9a4906307b3c9665a1d9d772760ac024371",
+              "filename": "audio-9.m4s",
+              "bytes": 48406,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-9.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/30000/33000/128000/byNDDybHLOgo8L6Y.m4s",
+              "sha256": "d1fdf2c6b3f8971a13bac2ac3f764217c495e68bbbcbe1203dd3d2fdffa74435",
+              "filename": "audio-10.m4s",
+              "bytes": 48912,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-10.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/33000/36000/128000/FIFMlAqnroNAqCnH.m4s",
+              "sha256": "ac2feff257b5fdba17b2816e77f940b88511269c8e6fd6fd4e1c3b890cb0d8a2",
+              "filename": "audio-11.m4s",
+              "bytes": 48731,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-11.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/36000/39000/128000/VV9LxkLQHgJpkqHt.m4s",
+              "sha256": "36a90c26135e31c9e0508b91ca45c2867b1933346b66cef2efb843bf4c7bdea4",
+              "filename": "audio-12.m4s",
+              "bytes": 48496,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-12.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/39000/42000/128000/sMEqOieZZy0bLZ3X.m4s",
+              "sha256": "fd153751e39446e49f2a70ea652fb7fd4bec4cca83d1979d5cf98997ee9661ec",
+              "filename": "audio-13.m4s",
+              "bytes": 48741,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-13.m4s"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/42000/44282/128000/YiPqEtrJj60MNkJ0.m4s",
+              "sha256": "c21dd3820f8cbfde1c0ef67840b004d1bb7f1fb8114652072082461ed4834d17",
+              "filename": "audio-14.m4s",
+              "bytes": 37095,
+              "src": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original.mp4-hls/audio-14.m4s"
+            }
+          ],
+          "tracks": {
+            "video": {
+              "duration": 44.235,
+              "segments": 15,
+              "sha256": "5bfc1037d6d2317b38be5dbf4d76b49d8a9e11d73c9f525285cf5b34aa4afdbd"
+            },
+            "audio": {
+              "duration": 44.282,
+              "segments": 15,
+              "sha256": "cada4fa070bd6b809feeab38418fbb2d88997ff0bc2b03f0e508ac2a374d0293"
+            }
+          },
+          "assemblySha256": "2689e178b2150228f2c05fe370189f6c081e1a92fca1115a9819bb7f8240195b",
+          "fullDecodeVerified": true
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/1995451361450663936/pl/WujXLL7oorFXR1H0.m3u8?tag=21&variant_version=1",
+          "sourceSha256": "2689e178b2150228f2c05fe370189f6c081e1a92fca1115a9819bb7f8240195b",
+          "frameTime": 20,
+          "sha256": "a345e17738024a23d97a89e48f5cd32e98ed0d828e17374f98669914b8a340de"
+        },
+        "caption": "原作者完整 HLS 录屏；音画流复制，保留原分片",
+        "captionEn": "Complete original HLS recording; audio/video stream copy with source fragments preserved",
+        "poster": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-06-batch-discovery/movementlabs-tensor-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-movementlabs-tensor-animation-2025-12-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-movementlabs-tensor-animation-2025-12-01/",
+    "markdown": "/specimens/x-movementlabs-tensor-animation-2025-12-01/index.md",
+    "updated": "2026-10-09",
+    "rights": "作品权利归原作者及 Movement Labs 所有；仅归档其公开原录屏预览，保留署名、出处、原分片及哈希，用作有出处的作品记录。未声明开放代码许可，不镜像 SVG 或项目代码，不提供可玩演示，不改变作品权利。",
+    "i18n": {
+      "en": {
+        "title": "tensor · Creator's interactive SVG animation recording",
+        "model": "tensor",
+        "notes": "Movement Labs demonstrates its beta tensor model (Momentum API) responding to 'a pelican riding a bicycle'. The model generates a complete interactive SVG/HTML scene featuring working pedals, spinning wheels, drifting clouds, and a speed control slider, then updates the helmet to green in a follow-up prompt. This record maps to the creator's published screen recording attachment, remuxed with stream copy into the complete ~44.29-second MP4 with all original HLS fragments and hashes preserved. Cover is a real non-blank source frame at 20.0 seconds. Original SVG code has no open license and is not mirrored, nor is a playable on-site demo provided. The slider is an observed recording feature, not tested on-site, and does not count as Play. Model label is source-reported and not independently authenticated.",
+        "rights": "The work remains owned by the creator and Movement Labs. Only the published original screen recording preview is archived, with attribution, provenance, original fragments and hashes retained for a source-backed work record. No open code license is claimed; SVG/project code is not mirrored and no playable demo is provided. Inclusion does not change creator rights.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/movementlabsAI/status/1995452549864837446",
+        "https://video.twimg.com/amplify_video/1995451361450663936/pl/WujXLL7oorFXR1H0.m3u8?tag=21&variant_version=1",
+        "https://video.twimg.com/amplify_video/1995451361450663936/pl/avc1/1920x1080/0yuAzOkUPKZRndi3.m3u8",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/0/0/1920x1080/5bY3-8_Fekkyp2mn.mp4",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/0/3000/1920x1080/NSqNN5VOF6dYvP44.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/3000/6000/1920x1080/SExjAu3ZA5j4dxYo.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/6000/9000/1920x1080/FSsFEqv5JReOXUM7.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/9000/12000/1920x1080/_SmJeZeGHEGQA6UT.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/12000/15000/1920x1080/bHg3DptRud8cUSwN.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/15000/18000/1920x1080/EI2AwJgfIG6zPBIf.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/18000/21000/1920x1080/6a05dLqQzZthz-3W.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/21000/24000/1920x1080/wDOYqSR9z7HnLLLz.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/24000/27000/1920x1080/IybjQh6mwUpeMuk4.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/27000/30000/1920x1080/WX_fHUjJ2rKXtjha.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/30000/33000/1920x1080/4VXJR3pD2zA3YJEB.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/33000/36000/1920x1080/YKVcfweOySnZsVre.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/36000/39000/1920x1080/o7-ujmrc_zBE7I3b.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/39000/42000/1920x1080/AAHavi8lRpdQmu5X.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/vid/avc1/42000/44235/1920x1080/zeqzUjwipk1USkvL.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/pl/mp4a/128000/uvY_g_bCKTxvJ1gp.m3u8",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/0/0/128000/Sqcgw8-_HjL1UPJk.mp4",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/0/3000/128000/XejKhw4bXMqz173O.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/3000/6000/128000/tA7DkstC0Yj_URzM.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/6000/9000/128000/M6Dj0d_V6tStKGQH.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/9000/12000/128000/QHqKPRcnnY3touDp.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/12000/15000/128000/hDIbdoUdk2nseBeO.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/15000/18000/128000/7zqWWlPgxmILvbA1.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/18000/21000/128000/wVBsX0q-MIFA9NNI.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/21000/24000/128000/21yaxyYcjwaPWzIe.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/24000/27000/128000/nkVeDWyIqsz7jlC3.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/27000/30000/128000/nNwgYXucZDE_L9P6.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/30000/33000/128000/byNDDybHLOgo8L6Y.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/33000/36000/128000/FIFMlAqnroNAqCnH.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/36000/39000/128000/VV9LxkLQHgJpkqHt.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/39000/42000/128000/sMEqOieZZy0bLZ3X.m4s",
+        "https://video.twimg.com/amplify_video/1995451361450663936/aud/mp4a/42000/44282/128000/YiPqEtrJj60MNkJ0.m4s"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "tensor"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/movementlabsAI/status/1995452549864837446"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateUnknown": true,
+      "sourcePublicationTimestamp": "2025-12-01T11:18:56.000Z",
+      "workflow": "source-reported-interactive-svg-screen-recording",
+      "svgSourceNotMirrored": true,
+      "effortUnknown": true,
+      "originalClipDurationSeconds": 44.288,
+      "sourceMedia": "complete-hls-vod-stream-copy"
+    },
+    "sourcePublicationDate": "2025-12-01"
+  },
+  {
+    "id": "simon-mistral-large-4-2026-10-06",
+    "originalId": "simon-mistral-large-4-2026-10-06",
+    "kind": "timeline",
+    "title": "Mistral Large 4 · high 推理档",
+    "model": "Mistral Large 4",
+    "author": "Simon Willison",
+    "date": "2026-10-06",
+    "month": "2026-10",
+    "notes": "Simon Willison 在其博客文章《Introducing Mistral Large 4: Le chonk》中测试 Mistral Large 4（1T 参数预览版）。模型在 Mistral API 仅支持 none 与 high 两种推理档位；作者在文章中展示了 high 档位生成的静态 SVG 预览。相较于前代 Mistral Large 3，本作在车架结构、大囊袋及脚踏对应上有显著进步。保存原帖发布的原始 WebP 预览（static.simonwillison.net），不执行未获许可代码；模型标注按作者报告记录，未独立认证；日期为原帖公开日 2026-10-06。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-09-october-frontier-batch/simon-mistral-large-4-high-2026-10-06.webp",
+        "source": "https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp",
+        "sha256": "36fee603849cadaba13657bde5f9706479c47b47200e96c1a23d2a7155bd471d",
+        "caption": "Mistral Large 4 high 档位生成的静态 SVG 预览",
+        "captionEn": "Mistral Large 4 high 档位生成的静态 SVG 预览",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-09-october-frontier-batch/simon-mistral-large-4-high-2026-10-06.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/simon-mistral-large-4-2026-10-06/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-mistral-large-4-2026-10-06/",
+    "markdown": "/specimens/simon-mistral-large-4-2026-10-06/index.md",
+    "updated": "2026-10-09",
+    "rights": "作品权利归原作者 Simon Willison 所有；仅归档其公开原文的栅格预览，保留原始像素与出处，收录不改变原作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Mistral Large 4 · high reasoning effort",
+        "model": "Mistral Large 4",
+        "notes": "Simon Willison tested Mistral Large 4 (1T parameter preview) in his blog post 'Introducing Mistral Large 4: Le chonk'. The model supports none and high reasoning levels on the Mistral API; the author featured the high-effort static SVG preview in the post. Compared to Mistral Large 3, this output shows significant improvement in frame geometry, pouch proportion, and pedal alignment. Archives the article's original WebP preview from static.simonwillison.net without executing unverified code; model label is source-reported and unauthenticated; date is the source publication on 2026-10-06.",
+        "rights": "The work remains owned by the creator, Simon Willison. Only the raster preview published in the source article is archived, retaining original pixels and attribution; archiving does not change the source license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Oct/6/le-chonk/",
+        "https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Mistral Large 4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://simonwillison.net/2026/Oct/6/le-chonk/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "workflow": "source-reported-api-llm-svg",
+      "reasoningEffort": "high",
+      "promptStatus": "Generate an SVG of a pelican riding a bicycle"
+    },
+    "authorDefault": true,
+    "sourcePublicationDate": "2026-10-06"
+  },
+  {
+    "id": "simon-claude-haiku-5-5-2026-10-07",
+    "originalId": "simon-claude-haiku-5-5-2026-10-07",
+    "kind": "timeline",
+    "title": "Claude Haiku 5.5 · max 推理档",
+    "model": "Claude Haiku 5.5",
+    "author": "Simon Willison",
+    "date": "2026-10-07",
+    "month": "2026-10",
+    "notes": "Simon Willison 在其博客文章《Claude Haiku 5.5》中使用 llm CLI 测试 Anthropic 新发布的 Claude Haiku 5.5。模型默认采用 medium 推理档位，不支持完全关闭思考。作者测试了 low 到 max 五档思考力度，并在正文中展示了耗时 5 分钟、耗费约 3.38 美分的 max 思考档位生成结果。画面呈现红帽白身鹈鹕、长腿踏板踩踏、深灰自行车架、太阳与运动线条。保存原帖发布的原始 WebP 预览（static.simonwillison.net）；模型标注按作者报告记录，未独立认证；日期为原帖公开日 2026-10-07。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-09-october-frontier-batch/simon-claude-haiku-5-5-max-2026-10-07.webp",
+        "source": "https://static.simonwillison.net/static/2026-10-07/haiku-5.5-max.webp",
+        "sha256": "0345fe50feec4fc271fc37e917406cb3f0168cb9257e98e620c6790cc3fabc9e",
+        "caption": "Claude Haiku 5.5 max 档位生成的静态 SVG 预览",
+        "captionEn": "Claude Haiku 5.5 max 档位生成的静态 SVG 预览",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-09-october-frontier-batch/simon-claude-haiku-5-5-max-2026-10-07.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/simon-claude-haiku-5-5-2026-10-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-claude-haiku-5-5-2026-10-07/",
+    "markdown": "/specimens/simon-claude-haiku-5-5-2026-10-07/index.md",
+    "updated": "2026-10-09",
+    "rights": "作品权利归原作者 Simon Willison 所有；仅归档其公开原文的栅格预览，保留原始像素与出处，收录不改变原作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Haiku 5.5 · max reasoning effort",
+        "model": "Claude Haiku 5.5",
+        "notes": "Simon Willison tested Anthropic's newly released Claude Haiku 5.5 in his blog post 'Claude Haiku 5.5' using the llm CLI. The model defaults to medium reasoning effort and cannot disable thinking. The author tested effort levels from low to max and featured the max-effort output in the article, which took 5 minutes 9 seconds and cost ~3.38 cents. The output depicts a white pelican with a red cap, curved beak, long orange legs on pedals, dark grey bike frame, sun and speed streaks. Archives the article's original WebP preview from static.simonwillison.net; model label is source-reported and unauthenticated; date is the source publication on 2026-10-07.",
+        "rights": "The work remains owned by the creator, Simon Willison. Only the raster preview published in the source article is archived, retaining original pixels and attribution; archiving does not change the source license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+        "https://static.simonwillison.net/static/2026-10-07/haiku-5.5-max.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Haiku 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "workflow": "source-reported-cli-llm-svg",
+      "reasoningEffort": "max",
+      "promptStatus": "Generate an SVG of a pelican riding a bicycle"
+    },
+    "authorDefault": true,
+    "sourcePublicationDate": "2026-10-07"
+  },
+  {
+    "id": "sandraschi-claude-sonnet-4-6-animated-2026-04-07",
+    "originalId": "sandraschi-claude-sonnet-4-6-animated-2026-04-07",
+    "kind": "timeline",
+    "title": "Claude Sonnet 4.6 · 循环骑行 SVG 动画（手工微调）",
+    "model": "Claude Sonnet 4.6",
+    "author": "Sandra Schipal (@sandraschi)",
+    "date": "2026-04-07",
+    "month": "2026-04",
+    "notes": "Sandra Schipal 个人仓库中作为吉祥物的鹈鹕骑车 SVG 动画。据项目文档 PELICAN.md 记录，该作品最初由 Claude Sonnet 4.6 作为 SVG artifact 生成，随后由作者进行了手工微调，使其在页面中无限循环骑行。SVG 包含完整的 CSS 关键帧动画（车轮旋转 spin、车体颠簸 bob、脚踏转动 crkA/crkB、眼睛眨动 blink 及水平位移 roll），并使用 SMIL 实现了喙部与喉囊的形状补间变形。仓库采用 MIT 许可证开源。模型标注按原项目文档记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sandraschi/sandraschi",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-09-sandraschi-batch/pelican.svg",
+        "source": "https://raw.githubusercontent.com/sandraschi/sandraschi/fc3029a0a862d0fb4013e922cfe9f36a5c0b2a92/assets/pelican.svg",
+        "sha256": "b381da93ce57689211933bc421a7fb433c153e1759730930552e851e3f33b108",
+        "caption": "Claude Sonnet 4.6 生成并经手工微调的循环骑行 SVG 动画",
+        "captionEn": "Looping bicycling SVG animation generated by Claude Sonnet 4.6 and manually refined",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-09-sandraschi-batch/pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/sandraschi-claude-sonnet-4-6-animated-2026-04-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/sandraschi-claude-sonnet-4-6-animated-2026-04-07/",
+    "markdown": "/specimens/sandraschi-claude-sonnet-4-6-animated-2026-04-07/index.md",
+    "updated": "2026-10-09",
+    "rights": "作品原始代码由 Sandra Schipal 依据 MIT 许可证开源（Copyright (c) 2026 Sandra Schipal）。本馆依开源许可完整归档原始 SVG 资产，保留作者署名、许可副本与仓库出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 4.6 · Looping Bicycling SVG Animation (Manually Refined)",
+        "model": "Claude Sonnet 4.6",
+        "notes": "A bicycling pelican SVG animation serving as the mascot for Sandra Schipal's repository. As documented in PELICAN.md, the pelican was originally generated by Claude Sonnet 4.6 as an SVG artifact, then manually refined by the author to cycle continuously in a loop. The SVG contains full CSS keyframe animations (wheel rotation spin, body bob, pedal motion crkA/crkB, eye blink, and translation roll) along with SMIL morphing for the beak and pouch. The repository is open-sourced under the MIT License. Model label is source-reported and not independently authenticated.",
+        "rights": "The original code is open-sourced by Sandra Schipal under the MIT License (Copyright (c) 2026 Sandra Schipal). The original SVG asset is archived under the open license with author attribution, license copy, and repository provenance preserved.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sandraschi/sandraschi",
+        "https://github.com/sandraschi/sandraschi/blob/main/PELICAN.md",
+        "https://github.com/sandraschi/sandraschi/blob/main/LICENSE",
+        "https://github.com/sandraschi/sandraschi/commit/fc3029a0a862d0fb4013e922cfe9f36a5c0b2a92",
+        "https://raw.githubusercontent.com/sandraschi/sandraschi/fc3029a0a862d0fb4013e922cfe9f36a5c0b2a92/assets/pelican.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 4.6"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sandraschi/sandraschi/blob/main/PELICAN.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "claude-artifact-svg-with-manual-refinement",
+      "manualRefinement": true,
+      "license": "MIT",
+      "sourceCommit": "fc3029a0a862d0fb4013e922cfe9f36a5c0b2a92",
+      "sourceCommitTimestamp": "2026-04-07T21:06:46Z"
+    },
+    "sourcePublicationDate": "2026-04-07"
+  },
+  {
+    "id": "x-jaydendavisnc-fable-5-5-svg-animation-2026-10-05",
+    "originalId": "x-jaydendavisnc-fable-5-5-svg-animation-2026-10-05",
+    "kind": "timeline",
+    "title": "Claude Fable 5.5 · 海滨落日木栈道骑行 SVG 动画录屏",
+    "model": "Claude Fable 5.5",
+    "author": "Jayden Davis (@JaydenDavisNC)",
+    "date": "2026-10-05",
+    "month": "2026-10",
+    "notes": "创作者 Jayden Davis 演示其标称为 Claude Fable 5.5 模型响应“生成鹈鹕骑车 SVG”的网页录屏（Pelican on a Bicycle.html）。场景展现鹈鹕系红围巾、车篮装有双鱼，在黄昏落日与新月映照的沿海木栈道上持续蹬车巡游，包含车轮辐条旋转、车架阴影随动与海面夕阳粼光等动态交互元素。创作者评述该模型在 SVG 代码生成中 token 效率明显高于 Opus 5.5，工具调用次数更少。此记录映射创作者公开的高清录屏原视频附件。模型标注按原帖记录，未独立认证；社区对该代号存在传闻与路由猜测，本馆不代表独立证实该型号。上游未声明开放代码许可，不镜像 SVG 源码或提供站内交互。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/JaydenDavisNC/status/2106938093785788537",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-09-jaydendavis-batch/jaydendavisnc-fable-5-5-pelican-recording.mp4",
+        "source": "https://video.twimg.com/amplify_video/2106936946383548416/vid/avc1/3228x2160/fztRpVVxNvwKMJ6P.mp4?tag=29",
+        "sha256": "3cee1f32bb08ec9e7922d3c40c44fd086f7fbf5aa7d1d5ee5bb89b016dcb7543",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2106936946383548416/vid/avc1/3228x2160/fztRpVVxNvwKMJ6P.mp4?tag=29",
+          "sourceSha256": "3cee1f32bb08ec9e7922d3c40c44fd086f7fbf5aa7d1d5ee5bb89b016dcb7543",
+          "frameTime": 10,
+          "sha256": "bf702d1fa31d98d021968bc1b4bc32ff46723d405487bf4762e65d9de437d28e"
+        },
+        "caption": "创作者公开的 Claude Fable 5.5 SVG 动画网页播放录屏",
+        "captionEn": "Creator's published screen recording of Claude Fable 5.5 SVG animation webpage",
+        "poster": "/media/collected/2026-10-09-jaydendavis-batch/jaydendavisnc-fable-5-5-pelican-recording-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-09-jaydendavis-batch/jaydendavisnc-fable-5-5-pelican-recording-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-jaydendavisnc-fable-5-5-svg-animation-2026-10-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-jaydendavisnc-fable-5-5-svg-animation-2026-10-05/",
+    "markdown": "/specimens/x-jaydendavisnc-fable-5-5-svg-animation-2026-10-05/index.md",
+    "updated": "2026-10-09",
+    "rights": "作品权利归原作者 Jayden Davis 所有；仅归档其公开原录屏预览，保留署名、出处、原视频及哈希，用作有出处的作品记录。未声明开放代码许可，不镜像 SVG 或项目代码，不提供可玩演示，不改变作品权利。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.5 · Sunset Boardwalk Cycling SVG Animation Recording",
+        "model": "Claude Fable 5.5",
+        "notes": "A screen recording published by creator Jayden Davis demonstrating what he describes as Claude Fable 5.5 responding to 'generate an SVG of a pelican riding a bicycle' (Pelican on a Bicycle.html). The scene features a pelican with a red scarf and a basket of fish cycling along a coastal wooden pier at sunset under a crescent moon, complete with spinning spokes, moving frame shadows, and shimmering reflections on the sea. The creator reports superior token efficiency and fewer tool calls compared to Opus 5.5. This record maps to the creator's published HD screen recording attachment. Model label is source-reported and not independently authenticated. Original SVG code has no open license and is not mirrored, nor is an on-site playable demo provided.",
+        "rights": "The work remains owned by creator Jayden Davis. Only the published original screen recording preview is archived, with attribution, provenance, original media and hashes retained for a source-backed work record. No open code license is claimed; SVG code is not mirrored and no playable demo is provided. Inclusion does not change creator rights.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/JaydenDavisNC/status/2106938093785788537",
+        "https://video.twimg.com/amplify_video/2106936946383548416/vid/avc1/3228x2160/fztRpVVxNvwKMJ6P.mp4?tag=29",
+        "https://pbs.twimg.com/amplify_video_thumb/2106936946383548416/img/VNmp92iiGBNXcclm?format=webp&name=large"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/JaydenDavisNC/status/2106938093785788537"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-10-05T02:42:41.000Z",
+      "workflow": "source-reported-svg-html-screen-recording",
+      "svgSourceNotMirrored": true,
+      "originalDurationSeconds": 20.693,
+      "reportedToolCalls": true
+    },
+    "sourcePublicationDate": "2026-10-05"
   }
 ]

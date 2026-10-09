@@ -2,11 +2,61 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord} from './import_collection_batch.mjs';
 import sharp from 'sharp';
+import {validateHlsSpec,verifyHlsTrack,verifyHlsMaster} from './reviewed_hls.mjs';
 
 const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/source',date:'2026-07-29',model:'Source-model-label',author:'Author',format:'svg',unitType:'single-model-output',modelToMediaVerified:true,generationMethod:'code-generated',codeGenerationEvidence:['https://example.com/source'],
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
+
+function reviewedHls() {
+  const base='https://video.twimg.com/amplify_video/123456/';
+  const part=url=>({url:base+url,sha256:'a'.repeat(64)});
+  const hls={master:part('pl/master.m3u8'),video:{playlist:part('pl/avc1/video.m3u8'),init:part('vid/init.mp4'),segments:[part('vid/1.m4s'),part('vid/2.m4s')]},audio:{playlist:part('pl/mp4a/audio.m3u8'),init:part('aud/init.mp4'),segments:[part('aud/1.m4s')]}};
+  const media={url:hls.master.url,filename:'original.mp4',sha256:'b'.repeat(64),hls};
+  const evidence=[hls.master.url,...[hls.video,hls.audio].flatMap(t=>[t.playlist.url,t.init.url,...t.segments.map(x=>x.url)])];
+  return {media,evidence};
+}
+const hlsMaster=Buffer.from('#EXTM3U\n#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",URI="/amplify_video/123456/pl/mp4a/audio.m3u8"\n#EXT-X-STREAM-INF:BANDWIDTH=1234,AUDIO="audio"\n/amplify_video/123456/pl/avc1/video.m3u8\n');
+const hlsVideo=Buffer.from('#EXTM3U\n#EXT-X-MAP:URI="/amplify_video/123456/vid/init.mp4"\n#EXTINF:1.0,\n/amplify_video/123456/vid/1.m4s\n#EXTINF:2.0,\n/amplify_video/123456/vid/2.m4s\n#EXT-X-ENDLIST\n');
+test('reviewed HLS binds all hashed original parts to one public video and evidence',()=>{
+  const {media,evidence}=reviewedHls();
+  assert.doesNotThrow(()=>validateHlsSpec(media,evidence));
+  assert.doesNotThrow(()=>validateCandidate({...sample(),format:'animation',evidence:[...sample().evidence,...evidence],media:[media]}));
+  for(const change of [{filename:'../bad.mp4'},{filename:'init.webm'},{sha256:undefined},{url:'https://video.twimg.com/amplify_video/999/pl/master.m3u8'}])
+    assert.throws(()=>validateHlsSpec({...media,...change},evidence));
+  assert.throws(()=>validateHlsSpec(media,evidence.slice(1)));
+  for(const url of ['http://video.twimg.com/amplify_video/123456/vid/1.m4s','https://evil.example/amplify_video/123456/vid/1.m4s','https://user:pass@video.twimg.com/amplify_video/123456/vid/1.m4s','https://video.twimg.com:444/amplify_video/123456/vid/1.m4s','https://video.twimg.com/amplify_video/999/vid/1.m4s']) {
+    const copy=structuredClone(media);copy.hls.video.segments[0].url=url;
+    assert.throws(()=>validateHlsSpec(copy,[...evidence,url]));
+  }
+  const empty=structuredClone(media);empty.hls.video.segments=[];
+  assert.throws(()=>validateHlsSpec(empty,evidence));
+});
+test('HLS must include every ordered fragment and complete ENDLIST',()=>{
+  const {media}=reviewedHls();
+  assert.deepEqual(verifyHlsTrack(hlsVideo,media.hls.video),{duration:3,segments:2});
+  for(const playlist of [hlsVideo.toString().replace('#EXT-X-ENDLIST',''),hlsVideo.toString().replace('vid/2.m4s','vid/3.m4s'),hlsVideo.toString().replace('#EXTINF:2.0,',''),hlsVideo.toString().replace('#EXTINF:1.0,','#EXTINF:NaN,'),hlsVideo.toString().replace('vid/init.mp4','vid/other.mp4')])
+    assert.throws(()=>verifyHlsTrack(Buffer.from(playlist),media.hls.video));
+  const reordered=structuredClone(media.hls.video);reordered.segments.reverse();
+  assert.throws(()=>verifyHlsTrack(hlsVideo,reordered));
+});
+test('HLS rejects encryption, byte ranges, gaps, discontinuities and cross-video paths',()=>{
+  const {media}=reviewedHls();
+  for(const tag of ['#EXT-X-KEY:METHOD=AES-128,URI="secret"','#EXT-X-BYTERANGE:1@0','#EXT-X-GAP','#EXT-X-DISCONTINUITY','#EXT-X-PART:URI="partial.m4s"'])
+    assert.throws(()=>verifyHlsTrack(Buffer.from(hlsVideo.toString().replace('#EXT-X-ENDLIST',tag+'\n#EXT-X-ENDLIST')),media.hls.video));
+  assert.throws(()=>verifyHlsTrack(Buffer.from(hlsVideo.toString().replace('vid/1.m4s','../other/1.m4s')),media.hls.video));
+  assert.throws(()=>verifyHlsTrack(Buffer.from(hlsVideo.toString().replace('123456/vid/1.m4s','777/vid/1.m4s')),media.hls.video));
+});
+test('HLS master associates exact video and audio rather than guessed URLs',()=>{
+  const {media}=reviewedHls();
+  assert.doesNotThrow(()=>verifyHlsMaster(hlsMaster,media.hls));
+  const missing=structuredClone(media.hls);delete missing.audio;
+  assert.throws(()=>verifyHlsMaster(hlsMaster,missing));
+  const wrong=structuredClone(media.hls);wrong.audio.playlist.url=wrong.audio.playlist.url.replace('audio.m3u8','other.m3u8');
+  assert.throws(()=>verifyHlsMaster(hlsMaster,wrong));
+  assert.throws(()=>verifyHlsMaster(Buffer.from(hlsMaster.toString().replace('video.m3u8','other.m3u8')),media.hls));
+});
 
 test('intake requires source-reviewed code generation, not a media-type guess',()=>{
   for(const change of [{generationMethod:undefined},{generationMethod:'direct-text-to-video'},

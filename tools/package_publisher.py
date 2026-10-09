@@ -3,6 +3,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 files=['tools/ingestion.py','tools/build_public_site.py','tools/build_english.py','tools/source_layout.py','pelican-web/data.js','site/captures/manifest.json','site/publication-exclusions.json','site/i18n/record-strings.json','site/i18n/records.en.txt']
 files += ['tools/ingestion_docs.py']
+files += ['tools/release_retention.py']
 files += ['tools/catalog_policy.py','tools/collection_views.py','site/demo-reviews.json']
 files += ['tools/experiment_batches.py','site/experiment-batches.json']
 files += ['tools/card_metadata.py']

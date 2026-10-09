@@ -1,18 +1,32 @@
 {
-  "version": "2026-10-03-code-generation-v1",
+  "version": "2026-10-06-batch-collection-v2",
   "unit": "one source-attributed model output at one documented time",
   "dateRange": "all source-established dates",
   "allMediaTypes": true,
   "generationScope": {
     "focus": "source-reviewed LLM code-generated works",
     "allowedPresentationMedia": "all; includes recordings of code-generated animation, 3D and interaction",
-    "excludedGenerationMethods": ["direct-text-to-video"],
-    "newIntakeRequirements": ["generationMethod=code-generated", "codeGenerationEvidence with public source URLs"],
+    "excludedGenerationMethods": [
+      "direct-text-to-video"
+    ],
+    "newIntakeRequirements": [
+      "generationMethod=code-generated",
+      "codeGenerationEvidence with public source URLs"
+    ],
     "classification": "review the generation workflow, not the extension, video appearance or model/platform name alone",
     "legacyExclusion": "preserve existing direct-video IDs, original media and detail/API ID archives as uncounted context; no main lists, numbers or default search",
     "uncertainWorkflow": "defer new candidates; do not infer code generation from an MP4/GIF or model label"
   },
-  "newOrdinaryFormats": ["svg", "image", "animation", "3d", "game", "video", "audio", "other"],
+  "newOrdinaryFormats": [
+    "svg",
+    "image",
+    "animation",
+    "3d",
+    "game",
+    "video",
+    "audio",
+    "other"
+  ],
   "timelineMediaTypes": "all; source-reviewed single-work cover required",
   "workIdentity": "frames, views, recordings and reposts of one output are not additional works",
   "playEligibility": "licensed or permitted on-site isolated demo with verified meaningful interaction; playback alone is not Play",
@@ -23,9 +37,17 @@
     "requiresPerBatchUserApproval": false,
     "requiresPerSourceUserApproval": false,
     "reviewer": "maintaining-agent",
-    "reviewRequirements": ["provenance", "source-established date", "model-to-output mapping", "real displayable media", "deduplication", "rights", "safety"],
+    "reviewRequirements": [
+      "provenance",
+      "source-established date",
+      "model-to-output mapping",
+      "real displayable media",
+      "deduplication",
+      "rights",
+      "safety"
+    ],
     "releaseChecksRequired": true,
-    "readySubsetPolicy": "publish verified subsets after all checks pass; defer unresolved candidates without blocking ready works",
+    "readySubsetPolicy": "accumulate verified subsets across two-hour collection runs; consolidate all ready unique works in the first daily run after 20:00 Asia/Shanghai, with one complete release/check cycle; unresolved candidates do not block the daily verified batch; no minimum artwork quota and no per-batch approval",
     "scopeExpansion": "outside the existing pelican all-date, all-presentation-media code-generation scope requires user direction"
   },
   "restrictedRetrievalFallback": {
@@ -45,16 +67,47 @@
   "allowRedraw": false,
   "compositeInMainLists": false,
   "timelineEffort": "author-default-otherwise-medium; no best-score selection",
-  "timelineOrdering": {"basis":"documented-release-or-explicit-inferred-position","artworkDateUnchanged":true,"withinExactVersion":"artwork-date","defaultCollapsed":false,"optionalCollapse":"exact-model-version-only","unknownRelease":"integrate-using-earliest-source-work-month-without-a-separate-label","estimateIsReleaseFact":false,"estimateEvidence":"modelTimeline.estimatedFrom","effectiveDate":"modelTimeline.sortDate","yearFilter":"model-position-year","registry":"/data/model-releases.json"},
-  "worksOrdering": {"basis":"same-model-axis-as-timeline","yearFilter":"artwork-year","playException":"artwork-date"},
+  "timelineOrdering": {
+    "basis": "documented-release-or-explicit-inferred-position",
+    "artworkDateUnchanged": true,
+    "withinExactVersion": "artwork-date",
+    "defaultCollapsed": false,
+    "optionalCollapse": "exact-model-version-only",
+    "unknownRelease": "integrate-using-earliest-source-work-month-without-a-separate-label",
+    "estimateIsReleaseFact": false,
+    "estimateEvidence": "modelTimeline.estimatedFrom",
+    "effectiveDate": "modelTimeline.sortDate",
+    "yearFilter": "model-position-year",
+    "registry": "/data/model-releases.json"
+  },
+  "worksOrdering": {
+    "basis": "same-model-axis-as-timeline",
+    "yearFilter": "artwork-year",
+    "playException": "artwork-date"
+  },
   "historicalHomepage": "human-made 1988 film antecedent; preserved context record, not an AI output, not proof of the prompt's inspiration, no case number or additional work",
   "detailSupplementaryViews": "real timestamped frames or archived individual views, horizontally navigable; no new works, redraws or original replacement; complete composites stay folded",
   "variantCount": "every real independent output counts once in all works; only one representative per same-model same-day run group on timeline",
-  "detailsOrder": ["same-model settings comparison", "individual output", "complete original composite"],
+  "detailsOrder": [
+    "same-model settings comparison",
+    "individual output",
+    "complete original composite"
+  ],
   "uncertainDates": "retain source-established month or year precision; do not invent a day",
   "unknownMapping": "preserve-context-exclude-evolution",
   "dateBasis": "verified generation date or earliest documented source publication; never inferred release date",
   "referenceOnlyExcluded": true,
   "upstreamScoreDisclaimer": "上游输出，非本馆排名",
-  "modelClaimStatus": "source-reported-not-independently-authenticated"
+  "modelClaimStatus": "source-reported-not-independently-authenticated",
+  "collectionBatching": {
+    "collectionIntervalHours": 2,
+    "publicationTimezone": "Asia/Shanghai",
+    "publicationAfterLocalTime": "20:00",
+    "successfulConsolidatedReleasesPerLocalDay": 1,
+    "pendingIndex": "maintenance/collection-pending.json",
+    "deduplicationScope": "published catalog plus all pending reviewed outputs",
+    "ordinaryCollectionRunsBuildOrDeploy": false,
+    "allReleaseChecksPreserved": true,
+    "minimumWorkQuota": null
+  }
 }

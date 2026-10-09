@@ -23,6 +23,7 @@ from urllib.parse import urlsplit,urljoin
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
 from generation_scope import require_code_generation
+from release_retention import prune_releases
 
 ROOT=Path(__file__).resolve().parents[1]
 STATE=Path(os.environ.get('PELICAN_STATE','/srv/pelicanmap/state'))
@@ -203,6 +204,11 @@ def publish(p):
         base_ids={zh.normalize(record,kind)['id'] for kind in ['gallery','timeline'] for record in zh.DATA[kind]}
         additions=[x for x in catalog['items']+[item] if x['id'] not in base_ids]
         atomic_json(STATE/'additions.json',additions)
+        # Retention failure must not report a successfully published job as failed.
+        try:
+            prune_releases(CURRENT.parent)
+        except Exception as err:
+            print('Release retention deferred: '+str(err),file=sys.stderr,flush=True)
         return {'status':'published','recordUrl':item['url'],'recordId':item['id'],'englishUrl':BASE+'/en'+item['path']}
 
 def process_jobs():

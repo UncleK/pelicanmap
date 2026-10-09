@@ -6,6 +6,7 @@ import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
+import {validateHlsSpec,assembleReviewedHls} from './reviewed_hls.mjs';
 
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
@@ -96,6 +97,7 @@ export function validateCandidate(c) {
   if (!c.evidence?.length || c.evidence.some(x=>!x.startsWith('https://'))) throw Error('Missing source-check evidence');
   for (const m of c.media) {
     safeName(m.filename);
+    if(m.hls)validateHlsSpec(m,c.evidence);
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
     if(new URL(m.url).hostname==='github.com' &&
       (!/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) ||
@@ -200,8 +202,9 @@ async function download(url) {
   return bytes;
 }
 
-async function archiveAsset(m,mediaDir,relativeDir,format) {
-  const original=await download(m.url);
+async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
+  const hls=m.hls ? await assembleReviewedHls(m,evidence,path.join(mediaDir,m.filename+'-hls')) : null;
+  const original=hls ? hls.bytes : await download(m.url);
   const bytes=m.svgFromHardPrompts ? extractHardPromptsSvg(original,m.sourceModel,m.sourceRun) : m.svgFromTranscript ? extractTranscriptSvg(original,{...m,allowAnimation:format==='animation'}) : original,sha256=digest(bytes);
   if(m.sha256 && sha256!==m.sha256.toLowerCase())throw Error('Source hash mismatch');
   const file=path.join(mediaDir,safeName(m.filename));
@@ -267,7 +270,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format) {
     if(!meta.width || !meta.height || meta.width<10 || meta.height<10 || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid image');
     await writeOriginal(file,bytes);
   }
-  const extraction=m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
+  const extraction=hls ? {...hls.extraction,sources:hls.extraction.sources.map(x=>({...x,src:relativeDir+'/'+m.filename+'-hls/'+x.filename}))} : m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
   return {src:relativeDir+'/'+m.filename,source:m.url,sha256,poster,bytes:bytes.length,...(posterProvenance?{posterProvenance}:{}),...(extraction?{extraction}:{})};
 }
 
@@ -300,7 +303,7 @@ export async function importBatch(manifestPath) {
       if(existing.some(x=>x.id===c.id)){prepared[index]={existing:c.id};continue;}
       try {
         const assets=[];
-        for(const m of c.media)assets.push(await archiveAsset(m,mediaDir,relativeDir,c.format));
+        for(const m of c.media)assets.push(await archiveAsset(m,mediaDir,relativeDir,c.format,c.evidence));
         prepared[index]={assets};
       }catch(e){prepared[index]={error:e.message};}
     }
