@@ -30,7 +30,9 @@ python -B tools/check_public_links.py
 npm run bundle:server
 ```
 
-Some historical regression tests explicitly use before/after research snapshots not shipped in Git. Run those in the original archive; do not replace evidence with fabricated fixtures. Production additions and publisher updates require the maintainer's shared release lock, full-media packaging for new media, bilingual live checks and preserved releases. Private credentials and operational deployment instructions stay outside this repository.
+Some historical regression tests explicitly use before/after research snapshots not shipped in Git. Run those in the original archive; do not replace evidence with fabricated fixtures. Production updates use a pinned live release inventory and upload only files whose SHA-256 changed, including added or replaced media and demos. Unchanged files and original archives are preserved. The server applies the package to a separate release under the shared lock, rejects a changed baseline or missing old IDs, verifies file hashes, then performs the existing health check and atomic switch. Initial deployment or an unavailable trustworthy baseline requires a full package. Private credentials and operational deployment instructions stay outside this repository.
+
+Routine reviewed additions and replacements validate changed media, affected bilingual pages, catalog parity and links; live checks cover affected records, media and changed exports. Full historical regressions and broad browser checks are reserved for changes to shared generators, presentation, counting or API behavior. `python -B tools/test_release_delta.py` tests new/replaced media, preserved originals, concurrent baseline changes, tampered uploads and unsafe removals.
 
 ## Shared implementation
 

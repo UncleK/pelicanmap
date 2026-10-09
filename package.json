@@ -22,6 +22,7 @@
     "test:pages": "python -B tools/test_public_site.py",
     "bundle:server": "node tools/bundle_server.mjs",
     "package:vps": "node tools/bundle_server.mjs && python -B tools/package_vps.py",
+    "package:update": "node tools/bundle_server.mjs && python -B tools/package_update.py",
     "deploy:workers": "wrangler deploy",
     "deploy:workers:demos": "wrangler deploy --config wrangler.demos.jsonc"
   },

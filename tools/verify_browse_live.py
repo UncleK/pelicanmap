@@ -24,7 +24,7 @@ def get(url):
                 return response.read(), dict(response.headers)
         except urllib.error.HTTPError:
             raise
-        except urllib.error.URLError:
+        except (urllib.error.URLError, TimeoutError, OSError):
             if attempt == 2:
                 raise
             time.sleep(attempt + 1)
