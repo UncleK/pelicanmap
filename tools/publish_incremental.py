@@ -59,13 +59,14 @@ def prepare(batch, connection):
     batch.mkdir(parents=True, exist_ok=True)
     stage = '/tmp/pelicanmap-incremental-' + uuid.uuid4().hex
     connection.command('mkdir -m 700 ' + shlex.quote(stage))
-    for name in ['release_delta.py', 'activate_incremental.py', 'content_cache.py', 'verify_release_helpers.py', 'test_release_delta.py', 'test_incremental_activation.py']:
+    for name in ['release_delta.py', 'activate_incremental.py', 'content_cache.py', 'verify_release_helpers.py', 'test_release_delta.py', 'test_incremental_activation.py', 'asset_versions.py']:
         connection.upload(ROOT/'tools'/name, stage+'/'+name)
     names = publisher_files()
     script = '''import fcntl,json,sys,re,hashlib
 from pathlib import Path
 sys.path.insert(0, STAGE)
 from release_delta import cached_inventory,metadata
+from asset_versions import asset_version as compute_asset_version
 root=Path('/srv/pelicanmap')
 with (root/'state/publish.lock').open('a') as lock:
     fcntl.flock(lock,fcntl.LOCK_EX)
@@ -74,8 +75,7 @@ with (root/'state/publish.lock').open('a') as lock:
     seeded=not (cache/(current.name+'.json')).exists()
     baseline=cached_inventory(current,cache)
     additions=root/'state/additions.json'
-    html=(current/'site/index.html').read_text(encoding='utf8')
-    asset_version=re.search(r'/assets/site\\.css\\?v=([a-f0-9]{12})',html).group(1)
+    asset_version=compute_asset_version(root/'publisher/site/assets', current/'site/assets')
     asset_names=['site.css','site.js','browse.js','motion.js']
     semantic_hashes={name:hashlib.sha256((root/'publisher/site/assets'/name).read_bytes().replace(b'\\r\\n',b'\\n')).hexdigest() for name in asset_names}
     sources={}
