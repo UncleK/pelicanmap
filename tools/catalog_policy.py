@@ -3,6 +3,7 @@ import copy
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
+from motion_restorations import apply_restorations, load_reviews
 
 DEMO_ORIGIN = 'https://pelicanmap-demos.aveniqa.com'
 
@@ -23,7 +24,8 @@ def merge_additions(local, remote):
 def apply_demo_policy(items, reviews=None):
     if reviews is None:
         reviews = json.loads((Path(__file__).resolve().parents[1]/'site/demo-reviews.json').read_text(encoding='utf8'))
-    result = copy.deepcopy(items)
+    result = apply_restorations(items)
+    restored = set(load_reviews())
     for item in result:
         original = item.get('demoUrl') or item.get('previewUrl') or ''
         review = reviews.get(item['id'], {})
@@ -32,7 +34,8 @@ def apply_demo_policy(items, reviews=None):
         item['interactive'] = bool(local_demo(demo) and controls.get('zh') and controls.get('en'))
         item['interactionControls'] = controls if item['interactive'] else {}
         item['demoUrl'] = demo if item['interactive'] else ''
-        item['previewUrl'] = original if local_demo(original) and not item['interactive'] and item.get('format') != 'svg' else ''
+        restored_preview = item.get('previewUrl') if item.get('id') in restored else ''
+        item['previewUrl'] = restored_preview if local_demo(restored_preview) and not item['interactive'] else original if local_demo(original) and not item['interactive'] and item.get('format') != 'svg' else ''
         if original and not local_demo(original):
             item['demoSourceUrl'] = original
             if not item.get('externalUrl'):

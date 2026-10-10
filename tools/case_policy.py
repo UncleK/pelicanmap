@@ -40,6 +40,8 @@ def family(model):
 
 def static_media(item, root):
     """Determine medium only; this never infers its model or image content."""
+    if item.get('previewUrl', '').startswith('https://pelicanmap-demos.aveniqa.com/demos/'):
+        return False
     primary = item.get('representativeMedia') or item['media'][0]['src']
     if primary.lower().endswith('.svg'):
         path = Path(root)/primary.lstrip('/')

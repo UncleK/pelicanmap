@@ -72,7 +72,12 @@ class ModelChronologyTests(unittest.TestCase):
             if item['id']!=HISTORY_ID:
                 for key,value in strip(previous).items():
                     if not reviewed_swe_motion_restoration(self,previous,item,key):self.assertEqual(item[key],value,(item['id'],key))
-                self.assertEqual(set(strip(item))-set(strip(previous)), {'motionPreview','generationConditions'} if item['id'] in {'variora-swe-2-2026-09-22','variora-mimo-v2-6-flash-free-2026-09-22','variora-grok-4-7-2026-09-22','variora-gemini-3-8-flash-2026-09-20','variora-step-5-2026-09-20'} else set())
+                added_fields = {'motionPreview','generationConditions'} if item['id'] in {'variora-swe-2-2026-09-22','variora-mimo-v2-6-flash-free-2026-09-22','variora-grok-4-7-2026-09-22','variora-gemini-3-8-flash-2026-09-20','variora-step-5-2026-09-20'} else set()
+                from motion_restorations import load_reviews
+                if item['id'] in load_reviews() and 'motionPreview' not in previous:
+                    self.assertTrue(reviewed_swe_motion_restoration(self,previous,item,'motionPreview'))
+                    added_fields.add('motionPreview')
+                self.assertEqual(set(strip(item))-set(strip(previous)), added_fields)
                 continue
             allowed={'recordRepair'}
             self.assertEqual({k:v for k,v in strip(item).items() if k not in allowed},{k:v for k,v in strip(previous).items() if k not in allowed})

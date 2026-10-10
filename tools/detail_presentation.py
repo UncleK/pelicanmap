@@ -8,6 +8,7 @@ from PIL import Image
 from case_policy import relationship_html
 from historical_context import HISTORY_ID, historical_summary, historical_story
 from incremental_site import inspect_file
+from motion_restorations import load_reviews
 
 
 def local_media(src, output):
@@ -73,9 +74,13 @@ def local_demo(item):
 
 def apply_motion_previews(items, output):
     """Derived presentation only: never infer motion from a format label or still."""
+    complete_documents = load_reviews()
     for item in items:
         item.pop('motionPreview', None)
         if item.get('referenceOnly'):
+            continue
+        if item.get('id') in complete_documents and local_demo(item):
+            item['motionPreview'] = {'type': 'iframe', 'src': local_demo(item)}
             continue
         for media in item['media']:
             if media.get('detailOnly') or not local_media(media['src'], output):
@@ -131,14 +136,16 @@ def record_content(item, items, output, facts, buttons, language='zh'):
             links += ' · <a href="'+E(m['source'])+'">'+t('附件原始来源 ↗','Original media source ↗')+'</a>'
         return '<figure data-media-src="'+E(m['src'])+'" data-media-kind="'+(kind or 'image')+'">'+tag+'<figcaption>'+E(m.get('caption'))+' <span>'+links+'</span></figcaption></figure>'
 
-    body = ''
-    if moving:
-        body += '<section class="detail-motion detail-gallery" data-detail-primary="media"><h2>'+t('观看作品','Watch the work')+'</h2>'+''.join(figure(m) for m in moving)+'</section>'
+    complete_original = bool(demo and item['id'] in load_reviews())
+    motion_body = ('<section class="detail-motion detail-gallery" data-detail-primary="media"><h2>'+t('观看作品','Watch the work')+'</h2>'+''.join(figure(m) for m in moving)+'</section>') if moving else ''
+    body = '' if complete_original else motion_body
     if demo:
         label = t('站内交互演示','Interactive demo') if item.get('interactive') else t('动画预览','Animation preview')
         controls = item.get('interactionControls', {}).get(language) or t('在本页观看；播放或暂停不代表可玩交互。','Watch on this page; playback or pause alone is not a playable interaction.')
         motion_attrs = ' data-motion-kind="iframe" data-motion-src="'+E(demo)+'"' if not item.get('interactive') else ''
         body += '<section id="demo" class="demo-section detail-primary" data-detail-primary="demo"><div class="section-head"><h2>'+label+'</h2><button type="button" class="browse-button" data-demo-fullscreen>'+t('全屏 ↗','Full screen ↗')+'</button></div><p class="small">'+E(controls)+'</p><iframe data-local-demo'+motion_attrs+' src="'+E(demo)+'" title="'+E(item['title']+' · '+label)+'" loading="lazy" sandbox="allow-scripts allow-same-origin allow-pointer-lock" allow="fullscreen" referrerpolicy="no-referrer"></iframe></section>'
+    if complete_original:
+        body += motion_body
     body += relationship_html(item, items, language, section='comparison')
     # Keep the comparison before the individual image, as required for grouped runs.
     frames = item.get('detailFrames') or []

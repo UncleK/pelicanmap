@@ -122,8 +122,41 @@ def reviewed_motion_append(test, previous, current, key):
     return True
 
 
+def reviewed_complete_motion_restoration(test, previous, current, key):
+    """Allow only byte-verified original motion and its reviewed presentation fields."""
+    if previous.get(key) == current.get(key):
+        return False
+    path = ROOT / 'site/motion-restorations.json'
+    reviews = json.loads(path.read_text(encoding='utf8')) if path.is_file() else {}
+    review = reviews.get(previous['id'])
+    if not review or key not in {'previewUrl', 'motionPreview', 'notes', 'i18n', 'format', 'formatLabel'}:
+        return False
+    from motion_restorations import apply_restorations
+    verified = apply_restorations([previous], {previous['id']: review})[0]
+    test.assertEqual(current['previewUrl'], verified['previewUrl'])
+    test.assertEqual(current['motionPreview'], {'type': 'iframe', 'src': verified['previewUrl']})
+    test.assertFalse(current['interactive'] or current.get('demoUrl'))
+    for field in ['id', 'title', 'model', 'date', 'author', 'sourceUrl', 'media', 'thumbnail', 'rights']:
+        test.assertEqual(current.get(field), previous.get(field), (previous['id'], field))
+    if key in {'format', 'formatLabel'}:
+        test.assertEqual(previous['format'], 'svg')
+        test.assertEqual(current['format'], 'animation')
+    if key == 'notes':
+        test.assertEqual(current['notes'], review['notes']['zh'] if review.get('notes') else previous['notes'])
+    if key == 'i18n':
+        for lang, values in previous['i18n'].items():
+            for field, value in values.items():
+                if field == 'notes' and lang == 'en' and review.get('notes'):
+                    test.assertEqual(current['i18n'][lang][field], review['notes']['en'])
+                else:
+                    test.assertEqual(current['i18n'][lang][field], value)
+    return True
+
+
 def reviewed_swe_motion_restoration(test, previous, current, key):
     """Individually reviewed pinned MIT originals, never a blanket exemption."""
+    if reviewed_complete_motion_restoration(test, previous, current, key):
+        return True
     if reviewed_gemini_interaction_restoration(test, previous, current, key):
         return True
     reviewed = {

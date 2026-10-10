@@ -109,5 +109,19 @@
     "ordinaryCollectionRunsBuildOrDeploy": false,
     "allReleaseChecksPreserved": true,
     "minimumWorkQuota": null
+  },
+  "ordinaryIntakeRequiresOpenSourceLicense": false,
+  "motionPreservation": {
+    "updated": "2026-10-10",
+    "checkOriginalMotion": true,
+    "preserveCompleteHTMLCSSJSAndDependencies": true,
+    "rejectPartialSVGWithExternalMotion": true,
+    "dynamicDetailsAndAllThreeListViews": true,
+    "staticThumbnailRole": "fallback only",
+    "acceptance": "original bytes and real visible movement; offscreen pause; bilingual detail and list covers",
+    "identityAndOriginalMediaUnchanged": true,
+    "restorationAddsWork": false,
+    "syntheticReplacementMotion": false,
+    "missingOriginal": "record exact source gap; keep original still; retry only on new evidence"
   }
 }

@@ -54,6 +54,16 @@ export function extractTranscriptSvg(bytes,selection={}) {
   if((selection.svgIndex===undefined && blocks.length!==1) || !Number.isInteger(svgIndex) || svgIndex<0 || svgIndex>=blocks.length)throw Error('Transcript must contain one complete reviewed response SVG');
   const svg=Buffer.from(blocks[svgIndex][0]);
   validateSvg(svg,{allowAnimation:selection.allowAnimation===true});
+  if(selection.allowAnimation===true) {
+    const original=svg.toString('utf8');
+    if(!/<(?:animate\w*|set)\b|@(?:-webkit-)?keyframes\b/i.test(original))
+      throw Error('The extracted SVG has no self-contained motion; preserve and review the complete HTML/CSS/JS document');
+    const surrounding=response.slice(0,blocks[svgIndex].index)+response.slice(blocks[svgIndex].index+blocks[svgIndex][0].length);
+    const externalStyles=[...surrounding.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/gi)].map(x=>x[1]).join('\n');
+    const selectors=[...original.matchAll(/\b(?:class|id)\s*=\s*(["'])(.*?)\1/gi)].flatMap(x=>x[2].split(/\s+/)).filter(Boolean);
+    if(selectors.some(x=>new RegExp('[.#]'+x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'(?:\\b|(?=[\\s{:.#>+~]))').test(externalStyles)) || /<script\b/i.test(surrounding))
+      throw Error('SVG motion or appearance depends on surrounding CSS/JS; preserve and review the complete source document');
+  }
   return svg;
 }
 

@@ -1,0 +1,338 @@
+{
+  "lihua002-doubao-pelican-cycling-2026-10-07": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/lihua002/pelican-cycling",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/lihua002/pelican-cycling/0e25a1af6e560a3146a1f45b1ace3a76aa4da42c/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/lihua002-doubao-pelican-cycling-2026-10-07/",
+    "sha256": "83ead6d59e32c73ae31baf07762520c8436f1430249488321b8292d4c481603c",
+    "sourceBytes": 27331,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing."
+  },
+  "satangel-ling-3-1-flash-pelican-2026-10-08": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/satangel2222/pelican-bicycle-ling-3.1-flash-free",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/satangel2222/pelican-bicycle-ling-3.1-flash-free/655099738b185d267b4ab60966fa27e38f5488cd/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/satangel-ling-3-1-flash-pelican-2026-10-08/",
+    "sha256": "d91f787fae37cb7dd79a121bac5a151cc7dc0b45b08936c77e228734ada0b917",
+    "sourceBytes": 12798,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing."
+  },
+  "satangel-muse-spark-1-3-pelican-2026-10-08": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/satangel2222/pelican-bike-muse-spark-1.3-free",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/satangel2222/pelican-bike-muse-spark-1.3-free/97a8b668eee0905650ea85cdee765bbbc9a51577/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/satangel-muse-spark-1-3-pelican-2026-10-08/",
+    "sha256": "df21e5305f88dd00fd92f8e9cda9b4b25b71f318d7c9f23e279a3e9bf4950782",
+    "sourceBytes": 20043,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing."
+  },
+  "niaonao-pelecanus-panel-1-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/GPT-6-Astra.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-1-2026-09-11/",
+    "sha256": "771a37d88a8f7ba9cde9d116b4a445aab82af54b7999e7130ff76a79e389df5f",
+    "sourceBytes": 718254,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-2-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/GPT-5.6-Sol.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-2-2026-09-11/",
+    "sha256": "a70f09ddac05750745d8362402a486b1f1b608eb1e82c601a3323d5b08467fb6",
+    "sourceBytes": 40540,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-3-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/Kimi-K3.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-3-2026-09-11/",
+    "sha256": "634b6a0b309cc806f23583efccdcd8d5e8d9862e91e701349441d8eaf1a7e3c2",
+    "sourceBytes": 35155,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-4-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/GLM-5.3.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-4-2026-09-11/",
+    "sha256": "0924754200f3547d3bd1d777de1ed4a0ac604b1669a781053ac783117b5fdfd5",
+    "sourceBytes": 53663,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-5-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/Claude-Sonnet-5.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-5-2026-09-11/",
+    "sha256": "116723af2ade932a40ba75ee779ee3969448cb54110ef046133298e3dc5be3bb",
+    "sourceBytes": 38494,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-6-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/Gemini-3.1-Pro-Preview.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-6-2026-09-11/",
+    "sha256": "8d6d34ec2ca53087281c2cf96691d89e1a6cbdded211e626e643c0da924b90c0",
+    "sourceBytes": 21853,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-7-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/DeepSeek-V4.1-Flash.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-7-2026-09-11/",
+    "sha256": "e87e14f03ac910404a8983cc2bacce6bb176cbc168248d4e8df225dbbd06ab80",
+    "sourceBytes": 27343,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "niaonao-pelecanus-panel-8-2026-09-11": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/niaonao/pelecanus",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/niaonao/pelecanus/c5aed1da23ec715c3d362a35cd7f58de276ba127/html/Qwen-3.8-Max.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/niaonao-pelecanus-panel-8-2026-09-11/",
+    "sha256": "5edf31c42dcf0775ed49de1b7617e10df26a3c7d4ef5ee5ff5314be8bd66f213",
+    "sourceBytes": 23893,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "按作者公开的八模型对照逐格对应本作品；原裁切与完整对照保留。已补回固定提交版本的完整 Three.js 原动画，保留 Apache 2.0 许可。模型与日期按来源记录、未独立认证；恢复原动画不增加作品数，普通播放不另计 Play。",
+      "en": "Mapped to the corresponding output in the author’s eight-model comparison. The original crop and full comparison remain archived. The complete original Three.js animation from the pinned commit is restored with its Apache 2.0 license. Model and date are source-reported; restoring playback adds no work or Play count."
+    }
+  },
+  "linuxdo-glm53-opencodego-2026-08-14": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2754590",
+    "sourceCodeUrl": "https://6540e2fc.test-8hd.pages.dev/",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-glm53-opencodego-2026-08-14/",
+    "sha256": "bb771510d464083577096b8056b38eb4f0ae04bd85d4ee8d128dabfa5b3be205",
+    "sourceBytes": 28134,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "linuxdo-2928427-1-4-2026-09-20": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2928427/1",
+    "sourceCodeUrl": "https://soft-cheesecake-ab07c7.netlify.app/",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-2928427-1-4-2026-09-20/",
+    "sha256": "de98c82de7cc669d7449256d9c0e91ca126e38fd8b64cbb40ac3027cb30dee04",
+    "sourceBytes": 56579,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. DOM animation and original published library/font dependencies; no account, filesystem or server access. Browser verification required before publishing.",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "ingest-70361e7dc4d4c0a9": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/AzatJalilov/PelicanSdf/blob/main/data/results/gpt-5-6-sol-high-run-01.json",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/AzatJalilov/PelicanSdf/9fc97e554853fd8f4a6d9386c9effb875ee7814c/data/artifacts/gpt-5-6-sol-high-run-01.js",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/ingest-70361e7dc4d4c0a9/",
+    "sha256": "55b22ade6f7998ecd5edfd936aa1bd75579a8f83f040590f8358f1df67b1a10e",
+    "sourceArtifactSha256": "6768bf2e1f27b23c6964dbcf63311ec3a84792d88d735d155675737a884d6683",
+    "sourceArtifactPath": "demos/all-works-motion/ingest-70361e7dc4d4c0a9/original.js",
+    "sourceBytes": 14658,
+    "fullDocument": true,
+    "hostAdapter": "Thin canvas host calls the original createPelicanSdf/render(timeSeconds)/dispose contract; no geometry, camera defaults, shader, animation or artwork code changes. Original JS retained byte-exact.",
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Model modules have no network, storage, imports, dynamic eval or parent access; original input handlers remain isolated."
+  },
+  "ingest-29562feea000e070": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/AzatJalilov/PelicanSdf/blob/main/data/results/claude-fable-5-max-run-01.json",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/AzatJalilov/PelicanSdf/9fc97e554853fd8f4a6d9386c9effb875ee7814c/data/artifacts/claude-fable-5-max-run-01.js",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/ingest-29562feea000e070/",
+    "sha256": "55b22ade6f7998ecd5edfd936aa1bd75579a8f83f040590f8358f1df67b1a10e",
+    "sourceArtifactSha256": "b5133ba5698a286e90c19a8ba3edf09f7287f13222f76387f49df4432a7f1e5a",
+    "sourceArtifactPath": "demos/all-works-motion/ingest-29562feea000e070/original.js",
+    "sourceBytes": 13811,
+    "fullDocument": true,
+    "hostAdapter": "Thin canvas host calls the original createPelicanSdf/render(timeSeconds)/dispose contract; no geometry, camera defaults, shader, animation or artwork code changes. Original JS retained byte-exact.",
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Model modules have no network, storage, imports, dynamic eval or parent access; original input handlers remain isolated."
+  },
+  "ingest-36c194ee71f57267": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/AzatJalilov/PelicanSdf/blob/main/data/results/deepseek-v4-pro-low-run-01.json",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/AzatJalilov/PelicanSdf/9fc97e554853fd8f4a6d9386c9effb875ee7814c/data/artifacts/deepseek-v4-pro-low-run-01.js",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/ingest-36c194ee71f57267/",
+    "sha256": "55b22ade6f7998ecd5edfd936aa1bd75579a8f83f040590f8358f1df67b1a10e",
+    "sourceArtifactSha256": "5bf126146e4e6754324901c15e694ae0d2f102612913418f4c9299f1f73488ef",
+    "sourceArtifactPath": "demos/all-works-motion/ingest-36c194ee71f57267/original.js",
+    "sourceBytes": 12718,
+    "fullDocument": true,
+    "hostAdapter": "Thin canvas host calls the original createPelicanSdf/render(timeSeconds)/dispose contract; no geometry, camera defaults, shader, animation or artwork code changes. Original JS retained byte-exact.",
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Model modules have no network, storage, imports, dynamic eval or parent access; original input handlers remain isolated."
+  },
+  "x-anonymernutze12-fable55-high-2026-10-01": {
+    "reviewed": true,
+    "sourceUrl": "https://x.com/AnonymerNutze12/status/2105740440385499295",
+    "sourceCodeUrl": "https://claude.ai/artifact/697meWJLt1jck5iq14x9HH",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/x-anonymernutze12-fable55-high-2026-10-01/",
+    "sha256": "b9460a90fb31b6b0268ae14736b57a6368682fb56bc6520772dde149d34114b1",
+    "sourceBytes": 16143,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "sourceFrameSha256": "ff0c739ec46be8d89684744cf71d2c10d3f97884763d9c37ac0a0cbc571cfb96",
+    "extraction": "Removed only the platform wrapper between <!-- frame-runtime --> and <!-- /frame-runtime -->; authored document byte ranges unchanged.",
+    "notes": {
+      "zh": "按作者原帖保留 Fable 5.5 与 high 标注；作者关于路由到 5.5 的说法未独立认证。已补回公开共享项目的完整原动画，仅移除平台传输包装，作者 HTML/CSS/SVG/JS 原文保留。原帖预览仍留档；较早回复链接同作不重复计数。日期为原帖 UTC 公开日，生成日未独立认证。",
+      "en": "Fable 5.5 and high follow the author’s post; the routing claim is not independently authenticated. The full original animation from the public shared artifact is restored. Only the platform transport wrapper is removed; authored HTML/CSS/SVG/JS bytes remain unchanged. The original still is retained, and the earlier reply linking this work is not counted again. The date is UTC public posting, not an authenticated generation date."
+    }
+  },
+  "linuxdo-glm53f-three-2026-09-09": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2879390",
+    "sourceCodeUrl": "https://linux.do/t/topic/2879390",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-glm53f-three-2026-09-09/",
+    "sha256": "01037a10b35f5015ba56738bf6ca89bc9db1ebe9ff68971412830f9e65ec7d31",
+    "sourceBytes": 18491,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "captureMethod": "Published public code block textContent, UTF-8/LF; complete authored code retained",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "linuxdo-ds41f-three-2026-09-09": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2879390/7",
+    "sourceCodeUrl": "https://linux.do/t/topic/2879390/7",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-ds41f-three-2026-09-09/",
+    "sha256": "65e4ed3108684ad8f5d3b7acd5046f9c054da54ea5bf9868c88bafbe5f194f0d",
+    "sourceBytes": 15599,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "captureMethod": "Published public code block textContent, UTF-8/LF; complete authored code retained",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "linuxdo-luna-max-three-2026-09-09": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2879390/8",
+    "sourceCodeUrl": "https://linux.do/t/topic/2879390/8",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-luna-max-three-2026-09-09/",
+    "sha256": "4f2be8d1db5b16ab8e2d02c187b7e5149ca0893893161f91be2666b6ba35b6a4",
+    "sourceBytes": 30284,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "captureMethod": "Published public code block textContent, UTF-8/LF; complete authored code retained",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "linuxdo-ds41-smalllou-three-2026-09-09": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2879390/10",
+    "sourceCodeUrl": "https://linux.do/t/topic/2879390/10",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-ds41-smalllou-three-2026-09-09/",
+    "sha256": "e9323d23bfaf7d1cb60709405b81abfb8ddcc82fc28cd991f0102e9051d9db54",
+    "sourceBytes": 23316,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "captureMethod": "Published public code block textContent, UTF-8/LF; complete authored code retained",
+    "notes": {
+      "zh": "已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "linuxdo-2955601-10-22-2026-09-26": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/2955601/10",
+    "sourceCodeUrl": "https://linux.do/t/topic/2955601/10",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-2955601-10-22-2026-09-26/",
+    "sha256": "daae802b8292ec89b0725233c7c64caa36fedc9f8ba2dc0d4ee3c970376019c6",
+    "sourceBytes": 26048,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "notes": {
+      "zh": "原作者明确以秦始皇替换鹈鹕，这是有原帖过程证据的衍生题；保留原作的失败表现。已从作者公开原帖所贴的完整代码或作品链接补回原 HTML/CSS/JS 动画，未重画、修补或改变原作运动。原截图、出处与既有模型标注保留；日期为来源公开日期，型号未独立认证。同作动态不新增计数，普通播放不另计 Play。",
+      "en": "The author explicitly replaces the pelican with Qin Shi Huang; this documented derivative retains its original failed output. The complete original HTML/CSS/JS animation is restored from code or a work link publicly shared by the author. No artwork, motion or failed output is redrawn or repaired. Original screenshots, attribution and source model labels remain; dates are public posting dates and model claims are unverified. Playback adds no work or Play count."
+    }
+  },
+  "robotwizardt-step-5-preview-pelican-ride-2026-09-30": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/Robotwizardt/pelican-bicycle-3d-arena/tree/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/step-5-preview",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Robotwizardt/pelican-bicycle-3d-arena/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/step-5-preview/pelican-ride.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/robotwizardt-step-5-preview-pelican-ride-2026-09-30/",
+    "sha256": "06484c016e6644d304c14a43da1b45d672c49bd768b5d8f78bbb913b3dcb1336",
+    "sourceBytes": 685793,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-all-works-motion-recovery/review.json",
+    "safety": "Authored code reviewed: scene DOM/WebGL/CSS and pinned public libraries only; no account data, storage, credential, dynamic code execution or parent navigation. Isolated demo origin; real motion must pass before publication.",
+    "notes": {
+      "zh": "Robotwizardt 公开评测中 Step 5 Preview 的纯程序化 Three.js 鹈鹕骑行作品，含 IK 踩踏、身体起伏、喉囊晃动及昼夜／机位控制。按固定提交保留完整原 HTML 动画；原正午环绕、黎明与夜晚截图继续留档。型号按来源标注、未独立认证；本批仅核普通动画播放，不据此增加 Play 数。",
+      "en": "Robotwizardt’s public Step 5 Preview procedural Three.js pelican ride includes IK pedaling, body bobbing, pouch sway and day/night and camera controls. The complete original HTML animation is preserved from the pinned commit, alongside the original noon chase, dawn and night screenshots. Model attribution is source-reported and unverified. This batch verifies animation playback only; no Play count is added."
+    }
+  }
+}

@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop} from './import_collection_batch.mjs';
+
+test('HTML-dependent animations cannot be silently reduced to static or partial SVG',()=>{
+  const outerCss=Buffer.from('<style>.wheel{animation:spin 1s infinite}@keyframes spin{to{transform:rotate(360deg)}}</style><svg><g class="wheel"><circle r="20"/></g></svg>');
+  assert.throws(()=>extractTranscriptSvg(outerCss,{allowAnimation:true}),/complete/);
+  const partial=Buffer.from('<style>.wheel{fill:red}</style><svg><g class="wheel"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s"/></g></svg>');
+  assert.throws(()=>extractTranscriptSvg(partial,{allowAnimation:true}),/surrounding CSS/);
+  const scripted=Buffer.from('<svg><circle id="leg"><animate attributeName="r" from="1" to="2" dur="1s"/></circle></svg><script>requestAnimationFrame(moveLeg)</script>');
+  assert.throws(()=>extractTranscriptSvg(scripted,{allowAnimation:true}),/surrounding CSS\/JS/);
+});
 import sharp from 'sharp';
 import {validateHlsSpec,verifyHlsTrack,verifyHlsMaster} from './reviewed_hls.mjs';
 

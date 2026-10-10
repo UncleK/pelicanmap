@@ -60,3 +60,5 @@ npm run start:api
 需要 Node.js 24。仓库带公开目录快照和只读 API；完整构建另需原始归档。[开发说明](docs/DEVELOPMENT.md)。
 
 原创代码 MIT；作品与上游资料沿用原作者许可。[来源与许可](NOTICE.md)。最初的题目来自 [Simon Willison](https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/)。
+
+收录时保留完整原动画：HTML/CSS/JS、所需依赖及原模块一起归档，不把依赖外围动画代码的作品截成静态 SVG。已核动态作品在标准、紧凑、纯图片视图都用动态缩略图，可见时播放、离屏暂停，静态图只作后备。恢复动态保持原 ID、日期、署名和媒体，不增加作品计数。普通公开作品不以开源许可证为收录门槛；缺原件的情况明确记录，不自行编造运动。可复用规则与原件哈希见 [collecting-policy.json](site/collecting-policy.json) 和 [motion-restorations.json](site/motion-restorations.json)。
