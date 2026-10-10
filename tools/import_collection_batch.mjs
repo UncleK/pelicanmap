@@ -116,6 +116,14 @@ export function validateCandidate(c) {
         throw Error('Faithful crop must retain the complete source image');
     }
     if(m.hls)validateHlsSpec(m,c.evidence);
+    if(m.browserCapture){
+      const bc=m.browserCapture;
+      if(!bc.capturePath || typeof bc.capturePath!=='string')throw Error('browserCapture requires capturePath');
+      if(!/^[a-f0-9]{64}$/.test(bc.sha256||''))throw Error('browserCapture requires frame sha256');
+      if(!/^[a-f0-9]{64}$/.test(bc.sourceHtmlSha256||''))throw Error('browserCapture requires sourceHtmlSha256');
+      if(!/\.(png|jpe?g|webp)$/i.test(m.filename))throw Error('browserCapture output filename must be raster image');
+      if(!c.evidence.includes(m.url))throw Error('browserCapture source URL must be included in evidence');
+    }
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
     if(new URL(m.url).hostname==='github.com' &&
       (!/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) ||
@@ -173,6 +181,7 @@ export function duplicateOf(c, assets, existing) {
     if(a.extraction || m.extraction) {
       if(!a.extraction || !m.extraction || a.extraction.kind!==m.extraction.kind)return false;
       if(a.extraction.kind==='source-html-code')return a.extraction.model===m.extraction.model && String(a.extraction.run)===String(m.extraction.run) && a.extraction.sourceSha256===m.extraction.sourceSha256;
+      if(a.extraction.kind==='browser-rendered-frame')return a.extraction.sourceSha256===m.extraction.sourceSha256 && a.extraction.frameSha256===m.extraction.frameSha256;
       return a.extraction.responseIndex===m.extraction.responseIndex && a.extraction.svgIndex===m.extraction.svgIndex && a.extraction.sourceSha256===m.extraction.sourceSha256;
     }
     return true;
@@ -202,6 +211,12 @@ export function makeRecord(c, assets, updated) {
     ...(c.authorDefault===true?{authorDefault:true}:{}),
     ...(c.parentId?{parentId:c.parentId}:{}),...(c.representativeOf?{representativeOf:c.representativeOf}:{}),...(c.modelRunGroup?{modelRunGroup:c.modelRunGroup}:{}),
     ...(c.datasetSample ? {datasetSample:c.datasetSample}: {}),...(c.sourcePublicationDate ? {sourcePublicationDate:c.sourcePublicationDate}: {}),...(c.sourceResponseTimestamp?{sourceResponseTimestamp:c.sourceResponseTimestamp}:{}),
+    ...(assets[0].extraction?.kind==='browser-rendered-frame'?{frameProvenance:{
+      sourceHtml:assets[0].source,
+      sourceHtmlSha256:assets[0].extraction.sourceSha256,
+      frameSha256:assets[0].extraction.frameSha256,
+      viewport:assets[0].extraction.viewport,
+      method:assets[0].extraction.method}}:{}),
     ...(assets[0].extraction?.kind==='faithful-crop'?{cropProvenance:{
       original:media.find(x=>x.sha256===assets[0].extraction.sourceSha256 && x.detailOnly)?.src,
       crop:assets[0].src,box:assets[0].extraction.box,
@@ -257,6 +272,43 @@ export async function faithfulCrop(original, specification){
 }
 
 async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
+  if(m.browserCapture){
+    const {capturePath,sha256:captureSha256,sourceHtmlSha256,viewport,method,demoPath}=m.browserCapture;
+    const htmlBytes=await download(m.url);
+    if(digest(htmlBytes)!==sourceHtmlSha256.toLowerCase())throw Error('browserCapture source HTML hash mismatch');
+    const resolvedCapturePath=path.isAbsolute(capturePath)?capturePath:path.join(ROOT,capturePath);
+    const frameBytes=await fs.readFile(resolvedCapturePath);
+    if(digest(frameBytes)!==captureSha256.toLowerCase())throw Error('browserCapture frame image hash mismatch');
+    const image=sharp(frameBytes,{limitInputPixels:40000000});
+    const meta=await image.metadata();
+    validateImageExtension(m.filename,meta);
+    const stats=await image.stats();
+    if(!meta.width || !meta.height || meta.width<10 || meta.height<10 || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid captured frame image');
+    if(demoPath){
+      const webDemoFile=path.join(ROOT,'pelican-web',demoPath);
+      await writeOriginal(webDemoFile,htmlBytes);
+      const publicDemoFile=path.join(ROOT,'public-demos',demoPath);
+      await fs.mkdir(path.dirname(publicDemoFile),{recursive:true});
+      await fs.writeFile(publicDemoFile,htmlBytes);
+    }
+    const file=path.join(mediaDir,safeName(m.filename));
+    await writeOriginal(file,frameBytes);
+    const extraction={
+      kind:'browser-rendered-frame',
+      sourceSha256:sourceHtmlSha256,
+      frameSha256:captureSha256,
+      viewport:viewport || {width:1280,height:800},
+      method:method || 'headless-chrome-screenshot'
+    };
+    return {
+      src:relativeDir+'/'+m.filename,
+      source:m.url,
+      sha256:captureSha256,
+      poster:'',
+      bytes:frameBytes.length,
+      extraction
+    };
+  }
   const hls=m.hls ? await assembleReviewedHls(m,evidence,path.join(mediaDir,m.filename+'-hls')) : null;
   const original=hls ? hls.bytes : await download(m.url);
   const crop=m.crop ? await faithfulCrop(original,m) : null;

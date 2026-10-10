@@ -334,5 +334,38 @@
       "zh": "Robotwizardt 公开评测中 Step 5 Preview 的纯程序化 Three.js 鹈鹕骑行作品，含 IK 踩踏、身体起伏、喉囊晃动及昼夜／机位控制。按固定提交保留完整原 HTML 动画；原正午环绕、黎明与夜晚截图继续留档。型号按来源标注、未独立认证；本批仅核普通动画播放，不据此增加 Play 数。",
       "en": "Robotwizardt’s public Step 5 Preview procedural Three.js pelican ride includes IK pedaling, body bobbing, pouch sway and day/night and camera controls. The complete original HTML animation is preserved from the pinned commit, alongside the original noon chase, dawn and night screenshots. Model attribution is source-reported and unverified. This batch verifies animation playback only; no Play count is added."
     }
+  },
+  "nine19een-gpt-6-high-codex-2026-09-20": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/nine19een/pelican-benchmark/commit/5428bf450bba7ac3483a2ced47dbe1441d260682",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/nine19een/pelican-benchmark/5428bf450bba7ac3483a2ced47dbe1441d260682/20260920-codex-gpt6high.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/nine19een-gpt-6-high-codex-2026-09-20/",
+    "sha256": "ed95e947fdebe00459375c79794703cdd89f68ec042de939721641dfd7ec41e2",
+    "sourceBytes": 18080,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-nine19een-batch/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. Self-contained DOM/SVG animation with requestAnimationFrame; no account, filesystem or network access. Verified via browser rendering."
+  },
+  "nine19een-gpt-6-pro-web-2026-09-20": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/nine19een/pelican-benchmark/commit/5428bf450bba7ac3483a2ced47dbe1441d260682",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/nine19een/pelican-benchmark/5428bf450bba7ac3483a2ced47dbe1441d260682/20260920-web-gpt6pro.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/nine19een-gpt-6-pro-web-2026-09-20/",
+    "sha256": "855f65f51dced5622837bd1b86e68a0d529a31fdc7fd0134ee3cf9840371f150",
+    "sourceBytes": 27621,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-nine19een-batch/review.json",
+    "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. Self-contained DOM/SVG animation with requestAnimationFrame; no external fonts or libraries; no account, filesystem or network access. Verified via browser rendering."
+  },
+  "robotwizardt-gpt-5-6-sol-pelican-ride-2026-09-30": {
+    "reviewed": true,
+    "sourceUrl": "https://github.com/Robotwizardt/pelican-bicycle-3d-arena/tree/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/pelican-bicycle-3d-gpt-5.6-sol",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Robotwizardt/pelican-bicycle-3d-arena/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/pelican-bicycle-3d-gpt-5.6-sol/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/robotwizardt-gpt-5-6-sol-pelican-ride-2026-09-30/",
+    "sha256": "4ae5bd342ffef2a08badf0277707d3ce5aeece7b784b7793659ee9522ebdd9b0",
+    "sourceBytes": 6743,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-10-gpt-5-6-sol-batch/review.json",
+    "safety": "Original 3D HTML/JS/CSS scene retained on isolated origin with bundled local Three.js; no account, filesystem or server access. Author notes model degradation anomaly; archived neutrally without exclusion."
   }
 }

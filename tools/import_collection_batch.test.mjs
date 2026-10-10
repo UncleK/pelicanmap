@@ -282,3 +282,21 @@ test('source response timestamps are preserved without inventing a publication d
   assert.equal(record.sourceResponseTimestamp,c.sourceResponseTimestamp);
   assert.equal(record.sourcePublicationDate,undefined);
 });
+
+test('browserCapture preserves source HTML and frame hashes distinctly',()=>{
+  const bc={capturePath:'test.png',sha256:'a'.repeat(64),sourceHtmlSha256:'b'.repeat(64),viewport:{width:1280,height:800},method:'headless-chrome-screenshot'};
+  const c={...sample(),format:'animation',evidence:['https://raw.githubusercontent.com/test.html'],media:[{url:'https://raw.githubusercontent.com/test.html',filename:'preview.png',browserCapture:bc}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],browserCapture:{...bc,sha256:'bad'}}]}),/frame sha256/);
+  assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],browserCapture:{...bc,sourceHtmlSha256:'bad'}}]}),/sourceHtmlSha256/);
+  assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],filename:'preview.svg'}]}),/raster image/);
+  assert.throws(()=>validateCandidate({...c,evidence:['https://other.com']}),/evidence/);
+
+  const base={...asset,source:'https://raw.githubusercontent.com/test.html',extraction:{kind:'browser-rendered-frame',sourceSha256:'b'.repeat(64),frameSha256:'a'.repeat(64)}};
+  const old={...sample(),id:'old',media:[base]};
+  assert.equal(duplicateOf(sample(),[base],[old]),'old');
+  assert.equal(duplicateOf(sample(),[{...base,sha256:'c'.repeat(64),extraction:{...base.extraction,frameSha256:'c'.repeat(64)}}],[old]),'');
+  const record=makeRecord(c,[base],'2026-10-10');
+  assert.equal(record.frameProvenance.sourceHtmlSha256,'b'.repeat(64));
+  assert.equal(record.frameProvenance.frameSha256,'a'.repeat(64));
+});
