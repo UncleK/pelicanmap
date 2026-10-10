@@ -68,4 +68,6 @@ npm run start:api       # 127.0.0.1:48670
 
 The checkout includes public catalog snapshots and the read-only API. Full archival builds also need the original media archive. [Development](docs/DEVELOPMENT.md) · [Contribute](CONTRIBUTING.md).
 
+Collection updates preserve complete original motion: retain HTML/CSS/JS, required dependencies and original modules rather than extracting an SVG that loses its surrounding animation code. Reviewed moving works use dynamic covers in standard, compact and image-only views, with visible-only playback and static fallbacks. Restoring motion keeps the existing work ID, date, attribution and media; it does not add a work. Public intake does not require an open-source license. Source gaps remain documented; no replacement motion is invented. Reusable rules and byte-verified restorations live in [collecting-policy.json](site/collecting-policy.json) and [motion-restorations.json](site/motion-restorations.json).
+
 Original code: **MIT**. Artworks and upstream materials keep their original rights and licenses. [Credits & licenses](NOTICE.md). Original prompt: [Simon Willison](https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/).
