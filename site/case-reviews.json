@@ -8827,5 +8827,14 @@
       "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
       "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
     ]
+  },
+  "pelicanbenchmark-animated-html": {
+    "sourceUrl": "https://pelicanbenchmark.com/",
+    "role": "source-collection",
+    "reason": "Pelican Benchmark 动态 HTML Track 评测合集；包含各模型独立自包含代码生成作品，集中成组合集管理，不重复计作品数。",
+    "evidence": [
+      "https://pelicanbenchmark.com/"
+    ],
+    "fields": {}
   }
 }

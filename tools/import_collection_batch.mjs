@@ -11,7 +11,7 @@ import {validateHlsSpec,assembleReviewedHls} from './reviewed_hls.mjs';
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
 const sharp = require('sharp');
-const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org']);
+const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org','works.pelicanbenchmark.com']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
 
@@ -23,6 +23,52 @@ export function safeName(name) {
 export function validateImageExtension(filename, metadata) {
   const expected = {'.svg':'svg','.png':'png','.jpg':'jpeg','.jpeg':'jpeg','.webp':'webp','.gif':'gif'}[path.extname(filename).toLowerCase()];
   if (!expected || metadata.format !== expected) throw Error('Image bytes do not match filename: '+filename);
+}
+
+export function assertSafeCapturePath(capturePath) {
+  if (typeof capturePath !== 'string' || !capturePath.trim()) {
+    throw Error('browserCapture requires capturePath');
+  }
+  const normalized = capturePath.replace(/\\/g, '/');
+  if (normalized.includes('..')) {
+    throw Error('browserCapture capturePath must not contain traversal');
+  }
+  const researchBase = path.resolve(ROOT, 'pelican-archive', 'research');
+  const resolvedCapture = path.resolve(ROOT, capturePath);
+  const rel = path.relative(researchBase, resolvedCapture);
+  if (rel.startsWith('..') || path.isAbsolute(rel) || rel === '') {
+    throw Error('browserCapture capturePath must stay within pelican-archive/research');
+  }
+  if (!/\.(png|jpe?g|webp)$/i.test(capturePath)) {
+    throw Error('browserCapture capturePath must be a raster image');
+  }
+  return resolvedCapture;
+}
+
+export function assertSafeDemoPath(demoPath) {
+  if (typeof demoPath !== 'string' || !demoPath.trim()) {
+    throw Error('browserCapture demoPath must be a string');
+  }
+  const normalized = demoPath.replace(/\\/g, '/');
+  if (normalized.includes('..') || path.isAbsolute(demoPath)) {
+    throw Error('browserCapture demoPath must not contain traversal or absolute paths');
+  }
+  if (!/^demos\/[a-zA-Z0-9_.-]+(?:\/[a-zA-Z0-9_.-]+)*\.html$/i.test(normalized)) {
+    throw Error('browserCapture demoPath must stay within demos/ and end with .html');
+  }
+  const webDemosBase = path.resolve(ROOT, 'pelican-web', 'demos');
+  const resolvedWeb = path.resolve(ROOT, 'pelican-web', demoPath);
+  const relWeb = path.relative(webDemosBase, resolvedWeb);
+  if (relWeb.startsWith('..') || path.isAbsolute(relWeb)) {
+    throw Error('browserCapture demoPath must stay within pelican-web/demos');
+  }
+  const publicDemosBase = path.resolve(ROOT, 'public-demos', 'demos');
+  const resolvedPublic = path.resolve(ROOT, 'public-demos', demoPath);
+  const relPublic = path.relative(publicDemosBase, resolvedPublic);
+  if (relPublic.startsWith('..') || path.isAbsolute(relPublic)) {
+    throw Error('browserCapture demoPath must stay within public-demos/demos');
+  }
+  return { webDemoFile: resolvedWeb, publicDemoFile: resolvedPublic };
 }
 
 export function validateSvg(bytes,{allowAnimation=false}={}) {
@@ -118,11 +164,12 @@ export function validateCandidate(c) {
     if(m.hls)validateHlsSpec(m,c.evidence);
     if(m.browserCapture){
       const bc=m.browserCapture;
-      if(!bc.capturePath || typeof bc.capturePath!=='string')throw Error('browserCapture requires capturePath');
+      assertSafeCapturePath(bc.capturePath);
       if(!/^[a-f0-9]{64}$/.test(bc.sha256||''))throw Error('browserCapture requires frame sha256');
       if(!/^[a-f0-9]{64}$/.test(bc.sourceHtmlSha256||''))throw Error('browserCapture requires sourceHtmlSha256');
       if(!/\.(png|jpe?g|webp)$/i.test(m.filename))throw Error('browserCapture output filename must be raster image');
       if(!c.evidence.includes(m.url))throw Error('browserCapture source URL must be included in evidence');
+      if(bc.demoPath!==undefined)assertSafeDemoPath(bc.demoPath);
     }
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
     if(new URL(m.url).hostname==='github.com' &&
@@ -159,6 +206,12 @@ export function validateCandidate(c) {
       throw Error('Raytracer media needs the reviewed original article, image path, source link and pinned hash');
     if(m.svgFromTranscript && !m.filename.endsWith('.svg'))throw Error('Transcript extraction must produce an SVG');
     if(new URL(m.url).hostname==='hardprompts.ai' && (!/^\/topics\/pelican-bicycle-svg(?:\.html)?$/.test(new URL(m.url).pathname) || !m.svgFromHardPrompts || !/^[a-f0-9]{64}$/.test(m.sha256 || '') || m.sourceModel!==c.model || !/^[1-9]\d*$/.test(String(m.sourceRun))))throw Error('Hard Prompts requires an explicitly reviewed, hashed model/run panel');
+    if(new URL(m.url).hostname==='works.pelicanbenchmark.com' &&
+      (!/^https:\/\/pelicanbenchmark\.com\/results\/[a-zA-Z0-9_-]+$/.test(c.sourceUrl) ||
+       !/^\/[a-zA-Z0-9_-]+\.html$/.test(new URL(m.url).pathname) ||
+       !/\.(png|jpe?g|webp)$/i.test(m.filename) || !m.browserCapture ||
+       !c.evidence.includes(m.url)))
+      throw Error('Pelican Benchmark media requires a reviewed result page, direct HTML asset, and browser capture frame');
     for(const key of ['responseIndex','svgIndex'])if(m[key]!==undefined && (!m.svgFromTranscript || !Number.isInteger(m[key]) || m[key]<0))throw Error('Invalid reviewed transcript selection');
     if(m.frameTime!==undefined && (!Number.isFinite(m.frameTime) || m.frameTime<0 || !/\.(mp4|webm)$/i.test(m.filename)))throw Error('Invalid reviewed video frame time');
   }
@@ -174,6 +227,16 @@ export function canonicalUrl(url) {
 
 export function duplicateOf(c, assets, existing) {
   const sameAsset=(a,m)=>{
+    if(a.extraction?.kind==='browser-rendered-frame' || m.extraction?.kind==='browser-rendered-frame') {
+      if(a.extraction?.kind==='browser-rendered-frame' && m.extraction?.kind==='browser-rendered-frame') {
+        return a.extraction.sourceSha256.toLowerCase() === m.extraction.sourceSha256.toLowerCase();
+      }
+      const aHtml = a.extraction?.kind==='browser-rendered-frame' ? a.extraction.sourceSha256.toLowerCase() : null;
+      const mHtml = m.extraction?.kind==='browser-rendered-frame' ? m.extraction.sourceSha256.toLowerCase() : null;
+      if(aHtml && m.sha256 && m.sha256.toLowerCase() === aHtml) return true;
+      if(mHtml && a.sha256 && a.sha256.toLowerCase() === mHtml) return true;
+      return false;
+    }
     if(m.sha256 && a.sha256)return m.sha256===a.sha256;
     if(!m.source || canonicalUrl(m.source)!==canonicalUrl(a.source))return false;
     // A source page/transcript may publish many independent outputs. Its URL
@@ -181,13 +244,37 @@ export function duplicateOf(c, assets, existing) {
     if(a.extraction || m.extraction) {
       if(!a.extraction || !m.extraction || a.extraction.kind!==m.extraction.kind)return false;
       if(a.extraction.kind==='source-html-code')return a.extraction.model===m.extraction.model && String(a.extraction.run)===String(m.extraction.run) && a.extraction.sourceSha256===m.extraction.sourceSha256;
-      if(a.extraction.kind==='browser-rendered-frame')return a.extraction.sourceSha256===m.extraction.sourceSha256 && a.extraction.frameSha256===m.extraction.frameSha256;
       return a.extraction.responseIndex===m.extraction.responseIndex && a.extraction.svgIndex===m.extraction.svgIndex && a.extraction.sourceSha256===m.extraction.sourceSha256;
     }
     return true;
   };
+
+  const getCandidateHtmlSha = () => {
+    for (const a of assets || []) {
+      if (a.extraction?.kind==='browser-rendered-frame' && a.extraction.sourceSha256) {
+        return a.extraction.sourceSha256.toLowerCase();
+      }
+    }
+    for (const m of c?.media || []) {
+      if (m.browserCapture?.sourceHtmlSha256) {
+        return m.browserCapture.sourceHtmlSha256.toLowerCase();
+      }
+    }
+    return '';
+  };
+  const candidateHtmlSha = getCandidateHtmlSha();
+
   for (const x of existing) {
     if (x.id===c.id) return x.id;
+    if (candidateHtmlSha) {
+      const existingHtmlSha = (x.frameProvenance?.sourceHtmlSha256 ||
+        (x.media || []).find(m => m.extraction?.kind === 'browser-rendered-frame')?.extraction?.sourceSha256 ||
+        (x.media || []).find(m => m.sha256?.toLowerCase() === candidateHtmlSha)?.sha256 ||
+        '').toLowerCase();
+      if (existingHtmlSha && existingHtmlSha === candidateHtmlSha) {
+        return x.id;
+      }
+    }
     if (assets.every(a=>(x.media || []).some(m=>sameAsset(a,m)))) return x.id;
   }
   return '';
@@ -276,7 +363,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
     const {capturePath,sha256:captureSha256,sourceHtmlSha256,viewport,method,demoPath}=m.browserCapture;
     const htmlBytes=await download(m.url);
     if(digest(htmlBytes)!==sourceHtmlSha256.toLowerCase())throw Error('browserCapture source HTML hash mismatch');
-    const resolvedCapturePath=path.isAbsolute(capturePath)?capturePath:path.join(ROOT,capturePath);
+    const resolvedCapturePath=assertSafeCapturePath(capturePath);
     const frameBytes=await fs.readFile(resolvedCapturePath);
     if(digest(frameBytes)!==captureSha256.toLowerCase())throw Error('browserCapture frame image hash mismatch');
     const image=sharp(frameBytes,{limitInputPixels:40000000});
@@ -285,9 +372,8 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
     const stats=await image.stats();
     if(!meta.width || !meta.height || meta.width<10 || meta.height<10 || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid captured frame image');
     if(demoPath){
-      const webDemoFile=path.join(ROOT,'pelican-web',demoPath);
+      const {webDemoFile,publicDemoFile}=assertSafeDemoPath(demoPath);
       await writeOriginal(webDemoFile,htmlBytes);
-      const publicDemoFile=path.join(ROOT,'public-demos',demoPath);
       await fs.mkdir(path.dirname(publicDemoFile),{recursive:true});
       await fs.writeFile(publicDemoFile,htmlBytes);
     }

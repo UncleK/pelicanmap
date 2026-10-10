@@ -54,8 +54,11 @@ class BenchmarkReferenceTests(unittest.TestCase):
         main=[x for x in data['rows'] if x['config']=='default']
         for prefix in ['', 'en/']:
             index=BeautifulSoup((OUT/prefix/'tags/benchmark/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertEqual(len(index.select('[data-benchmark-collection]')),1)
+            self.assertEqual(len(index.select('[data-benchmark-collection]')),2)
             self.assertIn('OpenEnv',index.get_text())
+            self.assertIn('Pelican Benchmark',index.get_text())
+            pb_collection=BeautifulSoup((OUT/prefix/'collections/pelicanbenchmark-2026-09-28/index.html').read_text(encoding='utf8'),'html.parser')
+            self.assertEqual(len(pb_collection.select('[data-batch-sample]')),29)
             collection=BeautifulSoup((OUT/prefix/'collections/openenv-2026-07-29/index.html').read_text(encoding='utf8'),'html.parser')
             self.assertEqual(len(collection.select('tbody tr')),7)
             self.assertEqual(len(collection.select('.batch-model')),7)

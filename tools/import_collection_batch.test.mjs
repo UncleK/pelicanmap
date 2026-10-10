@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop} from './import_collection_batch.mjs';
+import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop,assertSafeCapturePath,assertSafeDemoPath} from './import_collection_batch.mjs';
 
 test('HTML-dependent animations cannot be silently reduced to static or partial SVG',()=>{
   const outerCss=Buffer.from('<style>.wheel{animation:spin 1s infinite}@keyframes spin{to{transform:rotate(360deg)}}</style><svg><g class="wheel"><circle r="20"/></g></svg>');
@@ -284,7 +284,7 @@ test('source response timestamps are preserved without inventing a publication d
 });
 
 test('browserCapture preserves source HTML and frame hashes distinctly',()=>{
-  const bc={capturePath:'test.png',sha256:'a'.repeat(64),sourceHtmlSha256:'b'.repeat(64),viewport:{width:1280,height:800},method:'headless-chrome-screenshot'};
+  const bc={capturePath:'pelican-archive/research/2026-10-10-motion-consolidated-batch/nine19een-codex-motion-t0.png',sha256:'a'.repeat(64),sourceHtmlSha256:'b'.repeat(64),viewport:{width:1280,height:800},method:'headless-chrome-screenshot'};
   const c={...sample(),format:'animation',evidence:['https://raw.githubusercontent.com/test.html'],media:[{url:'https://raw.githubusercontent.com/test.html',filename:'preview.png',browserCapture:bc}]};
   assert.doesNotThrow(()=>validateCandidate(c));
   assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],browserCapture:{...bc,sha256:'bad'}}]}),/frame sha256/);
@@ -295,8 +295,150 @@ test('browserCapture preserves source HTML and frame hashes distinctly',()=>{
   const base={...asset,source:'https://raw.githubusercontent.com/test.html',extraction:{kind:'browser-rendered-frame',sourceSha256:'b'.repeat(64),frameSha256:'a'.repeat(64)}};
   const old={...sample(),id:'old',media:[base]};
   assert.equal(duplicateOf(sample(),[base],[old]),'old');
-  assert.equal(duplicateOf(sample(),[{...base,sha256:'c'.repeat(64),extraction:{...base.extraction,frameSha256:'c'.repeat(64)}}],[old]),'');
+  // 同作换帧（截图哈希及 frameSha256 改变，但原 HTML 相同）应判定为重复作品，不应因截帧哈希变化漏去重
+  assert.equal(duplicateOf(sample(),[{...base,sha256:'c'.repeat(64),extraction:{...base.extraction,frameSha256:'c'.repeat(64)}}],[old]),'old');
   const record=makeRecord(c,[base],'2026-10-10');
   assert.equal(record.frameProvenance.sourceHtmlSha256,'b'.repeat(64));
   assert.equal(record.frameProvenance.frameSha256,'a'.repeat(64));
 });
+
+test('browserCapture deduplication recognizes same HTML work across frame updates and aliases without relying on screenshot hash',()=>{
+  const sourceHtmlSha='e'.repeat(64);
+  const oldBase={
+    ...asset,
+    source:'https://raw.githubusercontent.com/work.html',
+    sha256:'1'.repeat(64),
+    extraction:{
+      kind:'browser-rendered-frame',
+      sourceSha256:sourceHtmlSha,
+      frameSha256:'1'.repeat(64)
+    }
+  };
+  const oldWork={
+    ...sample(),
+    id:'original-work-id',
+    media:[oldBase],
+    frameProvenance:{
+      sourceHtml:oldBase.source,
+      sourceHtmlSha256:sourceHtmlSha,
+      frameSha256:'1'.repeat(64)
+    }
+  };
+
+  // 1. 同作同 ID 同帧
+  assert.equal(duplicateOf(sample(),[oldBase],[oldWork]),'original-work-id');
+
+  // 2. 同作换帧（同 ID，但截帧 sha256 与 frameSha256 均改变）
+  const changedFrameAsset={
+    ...oldBase,
+    sha256:'2'.repeat(64),
+    extraction:{
+      ...oldBase.extraction,
+      frameSha256:'2'.repeat(64)
+    }
+  };
+  assert.equal(duplicateOf(sample(),[changedFrameAsset],[oldWork]),'original-work-id');
+
+  // 3. 同作换别名（不同 candidate ID，但原 HTML sourceHtmlSha256 一致）
+  const aliasCandidate={...sample(),id:'alias-work-id'};
+  assert.equal(duplicateOf(aliasCandidate,[oldBase],[oldWork]),'original-work-id');
+
+  // 4. 同作既换别名又换帧（不同 candidate ID 且截帧哈希改变，原 HTML 一致）
+  assert.equal(duplicateOf(aliasCandidate,[changedFrameAsset],[oldWork]),'original-work-id');
+
+  // 5. 真正不同的原 HTML 代码（sourceSha256 改变），不可误判为重复
+  const differentHtmlAsset={
+    ...oldBase,
+    sha256:'3'.repeat(64),
+    extraction:{
+      ...oldBase.extraction,
+      sourceSha256:'f'.repeat(64),
+      frameSha256:'3'.repeat(64)
+    }
+  };
+  assert.equal(duplicateOf(aliasCandidate,[differentHtmlAsset],[oldWork]),'');
+});
+
+test('browserCapture rejects out-of-boundary capturePath and demoPath',()=>{
+  const validBc={
+    capturePath:'pelican-archive/research/2026-10-10-motion-consolidated-batch/nine19een-codex-motion-t0.png',
+    sha256:'a'.repeat(64),
+    sourceHtmlSha256:'b'.repeat(64),
+    demoPath:'demos/sample.html'
+  };
+  const c={
+    ...sample(),
+    format:'animation',
+    evidence:['https://raw.githubusercontent.com/test.html'],
+    media:[{url:'https://raw.githubusercontent.com/test.html',filename:'preview.png',browserCapture:validBc}]
+  };
+  assert.doesNotThrow(()=>validateCandidate(c));
+
+  // 拦截非法及越界 capturePath
+  for (const badPath of [
+    '../outside.png',
+    'pelican-archive/research/../../outside.png',
+    'site/additions.json',
+    'C:/windows/system32/evil.png',
+    '/etc/passwd.png',
+    'pelican-archive/research/bad.txt',
+    'test.png'
+  ]) {
+    assert.throws(()=>assertSafeCapturePath(badPath),/capturePath/);
+    assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],browserCapture:{...validBc,capturePath:badPath}}]}),/capturePath/);
+  }
+
+  // 拦截非法及越界 demoPath
+  for (const badDemo of [
+    '../demos/test.html',
+    'demos/../../outside.html',
+    'pelican-web/demos/test.html',
+    'demos/test.js',
+    'demos/test.png',
+    '/etc/test.html',
+    'C:/test.html',
+    'other/test.html'
+  ]) {
+    assert.throws(()=>assertSafeDemoPath(badDemo),/demoPath/);
+    assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],browserCapture:{...validBc,demoPath:badDemo}}]}),/demoPath/);
+  }
+});
+
+test('pelicanbenchmark media validation enforces reviewed result page, direct HTML asset and browser capture frame',()=>{
+  const validBc={
+    capturePath:'pelican-archive/research/2026-10-10-motion-consolidated-batch/nine19een-codex-motion-t0.png',
+    sha256:'a'.repeat(64),
+    sourceHtmlSha256:'b'.repeat(64),
+    demoPath:'demos/sample.html'
+  };
+  const pbCandidate={
+    ...sample(),
+    id:'pb-anon-test-model-2026-10-10-12345678',
+    sourceUrl:'https://pelicanbenchmark.com/results/abc123xyz',
+    format:'animation',
+    evidence:['https://pelicanbenchmark.com/results/abc123xyz','https://works.pelicanbenchmark.com/abc123xyz.html'],
+    media:[{
+      url:'https://works.pelicanbenchmark.com/abc123xyz.html',
+      filename:'test-preview.png',
+      browserCapture:validBc
+    }]
+  };
+  assert.doesNotThrow(()=>validateCandidate(pbCandidate));
+
+  // 拦截非法 sourceUrl
+  assert.throws(()=>validateCandidate({...pbCandidate,sourceUrl:'https://pelicanbenchmark.com/evil/abc123xyz'}),/Pelican Benchmark media requires/);
+
+  // 拦截非直接 .html 文件路径
+  assert.throws(()=>validateCandidate({
+    ...pbCandidate,
+    evidence:['https://pelicanbenchmark.com/results/abc123xyz','https://works.pelicanbenchmark.com/abc123xyz.exe'],
+    media:[{...pbCandidate.media[0],url:'https://works.pelicanbenchmark.com/abc123xyz.exe'}]
+  }),/Pelican Benchmark media requires/);
+
+  // 拦截缺少 browserCapture
+  assert.throws(()=>validateCandidate({...pbCandidate,media:[{url:'https://works.pelicanbenchmark.com/abc123xyz.html',filename:'test-preview.png'}]}),/Pelican Benchmark media requires/);
+
+  // 拦截未列入 evidence
+  assert.throws(()=>validateCandidate({...pbCandidate,evidence:['https://pelicanbenchmark.com/results/abc123xyz']}),/browserCapture source URL must be included in evidence/);
+});
+

@@ -22,7 +22,7 @@ files += ['tools/case_policy.py','site/case-reviews.json','site/collecting-polic
 files += ['tools/generation_scope.py']
 files += ['tools/thumbnail_overrides.py','site/thumbnail-overrides.json']
 files += ['tools/record_overrides.py','site/record-overrides.json']
-files += ['tools/benchmark_reference.py','site/benchmarks/openenv-2026-07-29.json','site/benchmarks/index.json']
+files += ['tools/benchmark_reference.py', *[str(x.relative_to(ROOT)).replace('\\', '/') for x in (ROOT/'site/benchmarks').iterdir() if x.is_file()]]
 files += [str(x.relative_to(ROOT)) for x in (ROOT/'site/assets').iterdir() if x.is_file()]
 files += [str(x.relative_to(ROOT)) for x in (ROOT/'site/deploy').iterdir() if x.is_file()]
 def publisher_files():

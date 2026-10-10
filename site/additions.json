@@ -60070,5 +60070,2983 @@
       "sourceCommitTimestamp": "2026-09-30T05:11:56Z"
     },
     "sourcePublicationDate": "2026-09-30"
+  },
+  {
+    "id": "pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca",
+    "originalId": "pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca",
+    "kind": "timeline",
+    "title": "haiku 5.5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "haiku 5.5 (High)",
+    "author": "Anonymous",
+    "date": "2026-10-08",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 haiku 5.5 (High)（思考档位: High，运行环境: Official web / app chat）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/jeXcmxec63ARfIyz3ZZ6UA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca-preview.png",
+        "source": "https://works.pelicanbenchmark.com/jeXcmxec63ARfIyz3ZZ6UA.html",
+        "sha256": "b330abef2d21e53b14d6a8b9a281f69632eed1839532d44cf9072cf2d1bd43c6",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "2ccad6caf71651e6c9b57c2b84faace7a31a65e0f7f23e5f1b73176e6a889077",
+          "frameSha256": "b330abef2d21e53b14d6a8b9a281f69632eed1839532d44cf9072cf2d1bd43c6",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "haiku 5.5 (High) · 真实运行截帧",
+        "captionEn": "haiku 5.5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca/",
+    "markdown": "/specimens/pb-anonymous-haiku-5-5-high-2026-10-08-2ccad6ca/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "haiku 5.5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "haiku 5.5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: haiku 5.5 (High) (thinking level: High, environment: Official web / app chat). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/jeXcmxec63ARfIyz3ZZ6UA",
+        "https://works.pelicanbenchmark.com/jeXcmxec63ARfIyz3ZZ6UA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "haiku 5.5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/jeXcmxec63ARfIyz3ZZ6UA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-10-08",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/jeXcmxec63ARfIyz3ZZ6UA.html",
+      "sourceHtmlSha256": "2ccad6caf71651e6c9b57c2b84faace7a31a65e0f7f23e5f1b73176e6a889077",
+      "frameSha256": "b330abef2d21e53b14d6a8b9a281f69632eed1839532d44cf9072cf2d1bd43c6",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481",
+    "originalId": "pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Opus 5.5 (High)",
+    "author": "Anonymous",
+    "date": "2026-10-06",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Opus 5.5 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/u9x3Zy0W2syWSQ6bUCiTkQ",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481-preview.png",
+        "source": "https://works.pelicanbenchmark.com/u9x3Zy0W2syWSQ6bUCiTkQ.html",
+        "sha256": "bc5c721a346ec171a6a79bfb812532711dabe30533378eb595bb12d95c5c231a",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "a2a2448149b2c14a3ecc7be4cd77f66c28956db9ef224b9f44e549aa1eff55c0",
+          "frameSha256": "bc5c721a346ec171a6a79bfb812532711dabe30533378eb595bb12d95c5c231a",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Opus 5.5 (High) · 真实运行截帧",
+        "captionEn": "Claude Opus 5.5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481/",
+    "markdown": "/specimens/pb-anonymous-claude-opus-5-5-high-2026-10-06-a2a24481/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Opus 5.5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: Claude Opus 5.5 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/u9x3Zy0W2syWSQ6bUCiTkQ",
+        "https://works.pelicanbenchmark.com/u9x3Zy0W2syWSQ6bUCiTkQ.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/u9x3Zy0W2syWSQ6bUCiTkQ"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-10-06",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/u9x3Zy0W2syWSQ6bUCiTkQ.html",
+      "sourceHtmlSha256": "a2a2448149b2c14a3ecc7be4cd77f66c28956db9ef224b9f44e549aa1eff55c0",
+      "frameSha256": "bc5c721a346ec171a6a79bfb812532711dabe30533378eb595bb12d95c5c231a",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9",
+    "originalId": "pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9",
+    "kind": "timeline",
+    "title": "Claude Sonnet 5.5 (Medium) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Sonnet 5.5 (Medium)",
+    "author": "Anonymous",
+    "date": "2026-10-01",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Sonnet 5.5 (Medium)（思考档位: Medium，运行环境: Claude Code）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/JP6iiprS0onBpBGEmXoTXg",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9-preview.png",
+        "source": "https://works.pelicanbenchmark.com/JP6iiprS0onBpBGEmXoTXg.html",
+        "sha256": "d2e7c9fa30a9ee0b192bb3b3bc886db236b5d60c0e94083737cbababa362ff96",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "b32e9ec93e6bc467a8d3b5258ec2fd3d703fa29abe44d406ef109d6fce58012a",
+          "frameSha256": "d2e7c9fa30a9ee0b192bb3b3bc886db236b5d60c0e94083737cbababa362ff96",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Sonnet 5.5 (Medium) · 真实运行截帧",
+        "captionEn": "Claude Sonnet 5.5 (Medium) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9/",
+    "markdown": "/specimens/pb-anonymous-claude-sonnet-5-5-medium-2026-10-01-b32e9ec9/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 5.5 (Medium) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Sonnet 5.5 (Medium)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: Claude Sonnet 5.5 (Medium) (thinking level: Medium, environment: Claude Code). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/JP6iiprS0onBpBGEmXoTXg",
+        "https://works.pelicanbenchmark.com/JP6iiprS0onBpBGEmXoTXg.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5 (Medium)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/JP6iiprS0onBpBGEmXoTXg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Medium",
+      "generationMode": "Single-turn",
+      "ranWith": "Claude Code"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-10-01",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/JP6iiprS0onBpBGEmXoTXg.html",
+      "sourceHtmlSha256": "b32e9ec93e6bc467a8d3b5258ec2fd3d703fa29abe44d406ef109d6fce58012a",
+      "frameSha256": "d2e7c9fa30a9ee0b192bb3b3bc886db236b5d60c0e94083737cbababa362ff96",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924",
+    "originalId": "pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol (High) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6.1 Sol (High)",
+    "author": "Anonymous",
+    "date": "2026-09-30",
+    "month": "2026-09",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6.1 Sol (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/a8eta_n_Y_pk1XVFrr41Iw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924-preview.png",
+        "source": "https://works.pelicanbenchmark.com/a8eta_n_Y_pk1XVFrr41Iw.html",
+        "sha256": "53ca1218586b449350e0310b2fab2bee06acade50a53d972ae51783cd3c61fe0",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "08458924b4461a472cc365cba4bbc19e329bfb5045d411f955e23586ecc5a512",
+          "frameSha256": "53ca1218586b449350e0310b2fab2bee06acade50a53d972ae51783cd3c61fe0",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6.1 Sol (High) · 真实运行截帧",
+        "captionEn": "GPT-6.1 Sol (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924/",
+    "markdown": "/specimens/pb-anonymous-gpt-6-1-sol-high-2026-09-30-08458924/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6.1 Sol (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: GPT-6.1 Sol (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/a8eta_n_Y_pk1XVFrr41Iw",
+        "https://works.pelicanbenchmark.com/a8eta_n_Y_pk1XVFrr41Iw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/a8eta_n_Y_pk1XVFrr41Iw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-30",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/a8eta_n_Y_pk1XVFrr41Iw.html",
+      "sourceHtmlSha256": "08458924b4461a472cc365cba4bbc19e329bfb5045d411f955e23586ecc5a512",
+      "frameSha256": "53ca1218586b449350e0310b2fab2bee06acade50a53d972ae51783cd3c61fe0",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14",
+    "originalId": "pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol (Max) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6.1 Sol (Max)",
+    "author": "Anonymous",
+    "date": "2026-09-30",
+    "month": "2026-09",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6.1 Sol (Max)（思考档位: Max，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/VLSrY9ytrJoqhx_9Z2V9eA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14-preview.png",
+        "source": "https://works.pelicanbenchmark.com/VLSrY9ytrJoqhx_9Z2V9eA.html",
+        "sha256": "04ba96a0d123b2f60f3d2f9791db64e31dedf99abcd71eaa8024b92eb00f00e6",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "90174a14b0fb545d86c7e247c045f52537ef746eb6e16d8c6b6e17450b8dab91",
+          "frameSha256": "04ba96a0d123b2f60f3d2f9791db64e31dedf99abcd71eaa8024b92eb00f00e6",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6.1 Sol (Max) · 真实运行截帧",
+        "captionEn": "GPT-6.1 Sol (Max) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14/",
+    "markdown": "/specimens/pb-anonymous-gpt-6-1-sol-max-2026-09-30-90174a14/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol (Max) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6.1 Sol (Max)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: GPT-6.1 Sol (Max) (thinking level: Max, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/VLSrY9ytrJoqhx_9Z2V9eA",
+        "https://works.pelicanbenchmark.com/VLSrY9ytrJoqhx_9Z2V9eA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/VLSrY9ytrJoqhx_9Z2V9eA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-30",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/VLSrY9ytrJoqhx_9Z2V9eA.html",
+      "sourceHtmlSha256": "90174a14b0fb545d86c7e247c045f52537ef746eb6e16d8c6b6e17450b8dab91",
+      "frameSha256": "04ba96a0d123b2f60f3d2f9791db64e31dedf99abcd71eaa8024b92eb00f00e6",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03",
+    "originalId": "pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03",
+    "kind": "timeline",
+    "title": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh) · 鹈鹕骑车 HTML 动画",
+    "model": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh)",
+    "author": "shantanugoel",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "由 shantanugoel 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh)（思考档位: XHigh，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/s9qxjKJb-OECMphYxzzkog",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03-preview.png",
+        "source": "https://works.pelicanbenchmark.com/s9qxjKJb-OECMphYxzzkog.html",
+        "sha256": "712d259dca8286ce3ce5db9b9cb70445e115deedbeb0e8f9232983b089dfcf5f",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "7db31f03fd1ab512a1c7b0a6f1268b96a47ba5a95ac0d67ea94e3e2a0dc23c24",
+          "frameSha256": "712d259dca8286ce3ce5db9b9cb70445e115deedbeb0e8f9232983b089dfcf5f",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh) · 真实运行截帧",
+        "captionEn": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03/",
+    "markdown": "/specimens/pb-shantanugoel-qwen-3-8-flash-next-exl-quantized-4-05bpw-xhigh-2026-09-29-7db31f03/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 shantanugoel 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh)",
+        "notes": "A standalone HTML+SVG animation output submitted by shantanugoel on Pelican Benchmark. Model attribution: Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh) (thinking level: XHigh, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator shantanugoel on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/s9qxjKJb-OECMphYxzzkog",
+        "https://works.pelicanbenchmark.com/s9qxjKJb-OECMphYxzzkog.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/s9qxjKJb-OECMphYxzzkog"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-29",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/s9qxjKJb-OECMphYxzzkog.html",
+      "sourceHtmlSha256": "7db31f03fd1ab512a1c7b0a6f1268b96a47ba5a95ac0d67ea94e3e2a0dc23c24",
+      "frameSha256": "712d259dca8286ce3ce5db9b9cb70445e115deedbeb0e8f9232983b089dfcf5f",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3",
+    "originalId": "pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3",
+    "kind": "timeline",
+    "title": "GPT-6 Luna (XHigh) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6 Luna (XHigh)",
+    "author": "admin",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6 Luna (XHigh)（思考档位: XHigh，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/dAy-dXbEOuofUWbmStmERA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3-preview.png",
+        "source": "https://works.pelicanbenchmark.com/dAy-dXbEOuofUWbmStmERA.html",
+        "sha256": "392dfc11a30a505155f14d0dea99a593a852475a58d0428f847bf11681859fed",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "9857ddb36e01e25577c6dfd96d07ddfe1b3afab081dccc16e2945097ca83e42f",
+          "frameSha256": "392dfc11a30a505155f14d0dea99a593a852475a58d0428f847bf11681859fed",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6 Luna (XHigh) · 真实运行截帧",
+        "captionEn": "GPT-6 Luna (XHigh) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3/",
+    "markdown": "/specimens/pb-admin-gpt-6-luna-xhigh-2026-09-29-9857ddb3/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Luna (XHigh) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6 Luna (XHigh)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: GPT-6 Luna (XHigh) (thinking level: XHigh, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/dAy-dXbEOuofUWbmStmERA",
+        "https://works.pelicanbenchmark.com/dAy-dXbEOuofUWbmStmERA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Luna (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/dAy-dXbEOuofUWbmStmERA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-29",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/dAy-dXbEOuofUWbmStmERA.html",
+      "sourceHtmlSha256": "9857ddb36e01e25577c6dfd96d07ddfe1b3afab081dccc16e2945097ca83e42f",
+      "frameSha256": "392dfc11a30a505155f14d0dea99a593a852475a58d0428f847bf11681859fed",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb",
+    "originalId": "pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb",
+    "kind": "timeline",
+    "title": "Claude Sonnet 5.5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Sonnet 5.5 (High)",
+    "author": "admin",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Sonnet 5.5 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/79cqaSxr-I2h5PATDc92sA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb-preview.png",
+        "source": "https://works.pelicanbenchmark.com/79cqaSxr-I2h5PATDc92sA.html",
+        "sha256": "d4620a94642bf7fcfc8ce404926483c9f1280761fde2651bc1d98fe5ebc6cb79",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "c356a8fb1d22df938641c60bafb0a845a896ed63ce116fc6978c06f7cb069cfc",
+          "frameSha256": "d4620a94642bf7fcfc8ce404926483c9f1280761fde2651bc1d98fe5ebc6cb79",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Sonnet 5.5 (High) · 真实运行截帧",
+        "captionEn": "Claude Sonnet 5.5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb/",
+    "markdown": "/specimens/pb-admin-claude-sonnet-5-5-high-2026-09-29-c356a8fb/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 5.5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Sonnet 5.5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Claude Sonnet 5.5 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/79cqaSxr-I2h5PATDc92sA",
+        "https://works.pelicanbenchmark.com/79cqaSxr-I2h5PATDc92sA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/79cqaSxr-I2h5PATDc92sA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-29",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/79cqaSxr-I2h5PATDc92sA.html",
+      "sourceHtmlSha256": "c356a8fb1d22df938641c60bafb0a845a896ed63ce116fc6978c06f7cb069cfc",
+      "frameSha256": "d4620a94642bf7fcfc8ce404926483c9f1280761fde2651bc1d98fe5ebc6cb79",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-claude-sonnet-5-high-2026-09-29-d168818a",
+    "originalId": "pb-admin-claude-sonnet-5-high-2026-09-29-d168818a",
+    "kind": "timeline",
+    "title": "Claude Sonnet 5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Sonnet 5 (High)",
+    "author": "admin",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Sonnet 5 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/dlId9hmw6AkdsimvnP7pDw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-high-2026-09-29-d168818a-preview.png",
+        "source": "https://works.pelicanbenchmark.com/dlId9hmw6AkdsimvnP7pDw.html",
+        "sha256": "041ea44589114e36eae0f5203b4e3b02af6b79019db7a6f3f4885097922c7d3b",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "d168818ad4b8750a6f3851a40d873f54e9ca75a9bd337a97336778b61d5b248a",
+          "frameSha256": "041ea44589114e36eae0f5203b4e3b02af6b79019db7a6f3f4885097922c7d3b",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Sonnet 5 (High) · 真实运行截帧",
+        "captionEn": "Claude Sonnet 5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-high-2026-09-29-d168818a-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-claude-sonnet-5-high-2026-09-29-d168818a/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-claude-sonnet-5-high-2026-09-29-d168818a/",
+    "markdown": "/specimens/pb-admin-claude-sonnet-5-high-2026-09-29-d168818a/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Sonnet 5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Claude Sonnet 5 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/dlId9hmw6AkdsimvnP7pDw",
+        "https://works.pelicanbenchmark.com/dlId9hmw6AkdsimvnP7pDw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/dlId9hmw6AkdsimvnP7pDw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-29",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/dlId9hmw6AkdsimvnP7pDw.html",
+      "sourceHtmlSha256": "d168818ad4b8750a6f3851a40d873f54e9ca75a9bd337a97336778b61d5b248a",
+      "frameSha256": "041ea44589114e36eae0f5203b4e3b02af6b79019db7a6f3f4885097922c7d3b",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003",
+    "originalId": "pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003",
+    "kind": "timeline",
+    "title": "Claude Sonnet 5.5 (Max) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Sonnet 5.5 (Max)",
+    "author": "admin",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Sonnet 5.5 (Max)（思考档位: Max，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/7rhZCjED5KrPbqtCZ8oOlA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003-preview.png",
+        "source": "https://works.pelicanbenchmark.com/7rhZCjED5KrPbqtCZ8oOlA.html",
+        "sha256": "2b825773c94394025015a8590c2a204ba659c6d8b641a55d72f0b8302193e079",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "273f8003ee47c691b51597862fc5763554d0e165812214aef5e5cdeab8349bb9",
+          "frameSha256": "2b825773c94394025015a8590c2a204ba659c6d8b641a55d72f0b8302193e079",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Sonnet 5.5 (Max) · 真实运行截帧",
+        "captionEn": "Claude Sonnet 5.5 (Max) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003/",
+    "markdown": "/specimens/pb-admin-claude-sonnet-5-5-max-2026-09-29-273f8003/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 5.5 (Max) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Sonnet 5.5 (Max)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Claude Sonnet 5.5 (Max) (thinking level: Max, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/7rhZCjED5KrPbqtCZ8oOlA",
+        "https://works.pelicanbenchmark.com/7rhZCjED5KrPbqtCZ8oOlA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5 (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/7rhZCjED5KrPbqtCZ8oOlA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-29",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/7rhZCjED5KrPbqtCZ8oOlA.html",
+      "sourceHtmlSha256": "273f8003ee47c691b51597862fc5763554d0e165812214aef5e5cdeab8349bb9",
+      "frameSha256": "2b825773c94394025015a8590c2a204ba659c6d8b641a55d72f0b8302193e079",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87",
+    "originalId": "pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87",
+    "kind": "timeline",
+    "title": "Gemini 3.8 Flash (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Gemini 3.8 Flash (High)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Gemini 3.8 Flash (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/KmReiK3uDmLdYHMXKiowyw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87-preview.png",
+        "source": "https://works.pelicanbenchmark.com/KmReiK3uDmLdYHMXKiowyw.html",
+        "sha256": "ec9c8ff5f6de6a0dcc191cecd138451618f4ee53b24636758455a9272d525c7b",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "de5c6e87a12ff4448f0c909ebfd87bd43cfda5d572a8a9846ffd478a7abd3101",
+          "frameSha256": "ec9c8ff5f6de6a0dcc191cecd138451618f4ee53b24636758455a9272d525c7b",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Gemini 3.8 Flash (High) · 真实运行截帧",
+        "captionEn": "Gemini 3.8 Flash (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87/",
+    "markdown": "/specimens/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.8 Flash (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Gemini 3.8 Flash (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: Gemini 3.8 Flash (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/KmReiK3uDmLdYHMXKiowyw",
+        "https://works.pelicanbenchmark.com/KmReiK3uDmLdYHMXKiowyw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.8 Flash (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/KmReiK3uDmLdYHMXKiowyw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/KmReiK3uDmLdYHMXKiowyw.html",
+      "sourceHtmlSha256": "de5c6e87a12ff4448f0c909ebfd87bd43cfda5d572a8a9846ffd478a7abd3101",
+      "frameSha256": "ec9c8ff5f6de6a0dcc191cecd138451618f4ee53b24636758455a9272d525c7b",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077",
+    "originalId": "pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077",
+    "kind": "timeline",
+    "title": "MiMo v2.6 Pro · 鹈鹕骑车 HTML 动画",
+    "model": "MiMo v2.6 Pro",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 MiMo v2.6 Pro（思考档位: Not sure，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/RXPweqixl01iuuP7g5o86Q",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077-preview.png",
+        "source": "https://works.pelicanbenchmark.com/RXPweqixl01iuuP7g5o86Q.html",
+        "sha256": "6133cda99fd7e46477c00f2a706c8b9f8a7ae6731b2858c72e09bb5126949125",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "1c07107727edb13e3a3210a0eda354f346343482949613fe72e84ba9186bce03",
+          "frameSha256": "6133cda99fd7e46477c00f2a706c8b9f8a7ae6731b2858c72e09bb5126949125",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "MiMo v2.6 Pro · 真实运行截帧",
+        "captionEn": "MiMo v2.6 Pro · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077/",
+    "markdown": "/specimens/pb-wang-kaijun-mimo-v2-6-pro-2026-09-28-1c071077/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "MiMo v2.6 Pro · Pelican Riding a Bicycle HTML Animation",
+        "model": "MiMo v2.6 Pro",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: MiMo v2.6 Pro (thinking level: Not sure, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/RXPweqixl01iuuP7g5o86Q",
+        "https://works.pelicanbenchmark.com/RXPweqixl01iuuP7g5o86Q.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "MiMo v2.6 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/RXPweqixl01iuuP7g5o86Q"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Not sure",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/RXPweqixl01iuuP7g5o86Q.html",
+      "sourceHtmlSha256": "1c07107727edb13e3a3210a0eda354f346343482949613fe72e84ba9186bce03",
+      "frameSha256": "6133cda99fd7e46477c00f2a706c8b9f8a7ae6731b2858c72e09bb5126949125",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe",
+    "originalId": "pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe",
+    "kind": "timeline",
+    "title": "Kimi K2.8 Preview (Max) · 鹈鹕骑车 HTML 动画",
+    "model": "Kimi K2.8 Preview (Max)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Kimi K2.8 Preview (Max)（思考档位: Max，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/CR0LhRD9CUGjvsoVE8u3Bw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe-preview.png",
+        "source": "https://works.pelicanbenchmark.com/CR0LhRD9CUGjvsoVE8u3Bw.html",
+        "sha256": "7457248623c3feb5ebc10db715524789e1e481b9726b4c136399e2e9547c0b70",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "3a7e7cbe6811e1abcbe8858775c5e086e0f7cb4750f77b67fd1c319923cb4dbd",
+          "frameSha256": "7457248623c3feb5ebc10db715524789e1e481b9726b4c136399e2e9547c0b70",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Kimi K2.8 Preview (Max) · 真实运行截帧",
+        "captionEn": "Kimi K2.8 Preview (Max) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe/",
+    "markdown": "/specimens/pb-wang-kaijun-kimi-k2-8-preview-max-2026-09-28-3a7e7cbe/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Kimi K2.8 Preview (Max) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Kimi K2.8 Preview (Max)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: Kimi K2.8 Preview (Max) (thinking level: Max, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/CR0LhRD9CUGjvsoVE8u3Bw",
+        "https://works.pelicanbenchmark.com/CR0LhRD9CUGjvsoVE8u3Bw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K2.8 Preview (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/CR0LhRD9CUGjvsoVE8u3Bw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/CR0LhRD9CUGjvsoVE8u3Bw.html",
+      "sourceHtmlSha256": "3a7e7cbe6811e1abcbe8858775c5e086e0f7cb4750f77b67fd1c319923cb4dbd",
+      "frameSha256": "7457248623c3feb5ebc10db715524789e1e481b9726b4c136399e2e9547c0b70",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270",
+    "originalId": "pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270",
+    "kind": "timeline",
+    "title": "Grok 4.7 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Grok 4.7 (High)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Grok 4.7 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/y6vz-XDSMmydww7Ow7Kg3g",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270-preview.png",
+        "source": "https://works.pelicanbenchmark.com/y6vz-XDSMmydww7Ow7Kg3g.html",
+        "sha256": "b2d923a928e9ed2abd8443e4433d759ce77b359b41eef94ee01c54ca6a7d43f9",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "81fcc2703495e05865beace842c44586bdbc4193a0bd003971cf323bbc84079a",
+          "frameSha256": "b2d923a928e9ed2abd8443e4433d759ce77b359b41eef94ee01c54ca6a7d43f9",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Grok 4.7 (High) · 真实运行截帧",
+        "captionEn": "Grok 4.7 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270/",
+    "markdown": "/specimens/pb-wang-kaijun-grok-4-7-high-2026-09-28-81fcc270/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Grok 4.7 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Grok 4.7 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: Grok 4.7 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/y6vz-XDSMmydww7Ow7Kg3g",
+        "https://works.pelicanbenchmark.com/y6vz-XDSMmydww7Ow7Kg3g.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Grok 4.7 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/y6vz-XDSMmydww7Ow7Kg3g"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/y6vz-XDSMmydww7Ow7Kg3g.html",
+      "sourceHtmlSha256": "81fcc2703495e05865beace842c44586bdbc4193a0bd003971cf323bbc84079a",
+      "frameSha256": "b2d923a928e9ed2abd8443e4433d759ce77b359b41eef94ee01c54ca6a7d43f9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f",
+    "originalId": "pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f",
+    "kind": "timeline",
+    "title": "Claude Opus 5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Opus 5 (High)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Opus 5 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/pFgqVPEZce_jhzWo7RfZIw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f-preview.png",
+        "source": "https://works.pelicanbenchmark.com/pFgqVPEZce_jhzWo7RfZIw.html",
+        "sha256": "051566ac502788e70046040de9fda74174bc96c0f8c37164269c10fb962772ed",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "64fa1a9f15812b9678cb36ef5c9c342f9c2525c4be0c04e9782dcae0e05fd3b2",
+          "frameSha256": "051566ac502788e70046040de9fda74174bc96c0f8c37164269c10fb962772ed",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Opus 5 (High) · 真实运行截帧",
+        "captionEn": "Claude Opus 5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f/",
+    "markdown": "/specimens/pb-wang-kaijun-claude-opus-5-high-2026-09-28-64fa1a9f/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Opus 5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: Claude Opus 5 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/pFgqVPEZce_jhzWo7RfZIw",
+        "https://works.pelicanbenchmark.com/pFgqVPEZce_jhzWo7RfZIw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/pFgqVPEZce_jhzWo7RfZIw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/pFgqVPEZce_jhzWo7RfZIw.html",
+      "sourceHtmlSha256": "64fa1a9f15812b9678cb36ef5c9c342f9c2525c4be0c04e9782dcae0e05fd3b2",
+      "frameSha256": "051566ac502788e70046040de9fda74174bc96c0f8c37164269c10fb962772ed",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc",
+    "originalId": "pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc",
+    "kind": "timeline",
+    "title": "DeepSeek-V4.1-Flash (Max) · 鹈鹕骑车 HTML 动画",
+    "model": "DeepSeek-V4.1-Flash (Max)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 DeepSeek-V4.1-Flash (Max)（思考档位: Max，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/zlgLlKXTRqPE36YConYExA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc-preview.png",
+        "source": "https://works.pelicanbenchmark.com/zlgLlKXTRqPE36YConYExA.html",
+        "sha256": "0e6cf9bf0f455e7318af999b228761f7831ff9e981e757903e2f18bc85805fe5",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "da15afbc74018066511d71201e01c9a8d67332a088ea61524962859489ffe5c5",
+          "frameSha256": "0e6cf9bf0f455e7318af999b228761f7831ff9e981e757903e2f18bc85805fe5",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "DeepSeek-V4.1-Flash (Max) · 真实运行截帧",
+        "captionEn": "DeepSeek-V4.1-Flash (Max) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc/",
+    "markdown": "/specimens/pb-wang-kaijun-deepseek-v4-1-flash-max-2026-09-28-da15afbc/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek-V4.1-Flash (Max) · Pelican Riding a Bicycle HTML Animation",
+        "model": "DeepSeek-V4.1-Flash (Max)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: DeepSeek-V4.1-Flash (Max) (thinking level: Max, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/zlgLlKXTRqPE36YConYExA",
+        "https://works.pelicanbenchmark.com/zlgLlKXTRqPE36YConYExA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek-V4.1-Flash (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/zlgLlKXTRqPE36YConYExA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Multi-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/zlgLlKXTRqPE36YConYExA.html",
+      "sourceHtmlSha256": "da15afbc74018066511d71201e01c9a8d67332a088ea61524962859489ffe5c5",
+      "frameSha256": "0e6cf9bf0f455e7318af999b228761f7831ff9e981e757903e2f18bc85805fe5",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c",
+    "originalId": "pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c",
+    "kind": "timeline",
+    "title": "GPT-6 Astra (XHigh) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6 Astra (XHigh)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6 Astra (XHigh)（思考档位: XHigh，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/6kprGK2Dx20yFtQLH8bTiw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c-preview.png",
+        "source": "https://works.pelicanbenchmark.com/6kprGK2Dx20yFtQLH8bTiw.html",
+        "sha256": "b1e80d094a53af19233d2519b5b04034e07b86e912e6caa62b7fb64fd3b8219a",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "e245c94c9f64b6fd793899275b6f6219d012255e75d7aff3268e70be7eb23eaa",
+          "frameSha256": "b1e80d094a53af19233d2519b5b04034e07b86e912e6caa62b7fb64fd3b8219a",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6 Astra (XHigh) · 真实运行截帧",
+        "captionEn": "GPT-6 Astra (XHigh) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c/",
+    "markdown": "/specimens/pb-wang-kaijun-gpt-6-astra-xhigh-2026-09-28-e245c94c/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Astra (XHigh) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6 Astra (XHigh)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: GPT-6 Astra (XHigh) (thinking level: XHigh, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/6kprGK2Dx20yFtQLH8bTiw",
+        "https://works.pelicanbenchmark.com/6kprGK2Dx20yFtQLH8bTiw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/6kprGK2Dx20yFtQLH8bTiw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/6kprGK2Dx20yFtQLH8bTiw.html",
+      "sourceHtmlSha256": "e245c94c9f64b6fd793899275b6f6219d012255e75d7aff3268e70be7eb23eaa",
+      "frameSha256": "b1e80d094a53af19233d2519b5b04034e07b86e912e6caa62b7fb64fd3b8219a",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0",
+    "originalId": "pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0",
+    "kind": "timeline",
+    "title": "GLM-5.3-Flash (Max) · 鹈鹕骑车 HTML 动画",
+    "model": "GLM-5.3-Flash (Max)",
+    "author": "Wang-Kaijun",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "由 Wang-Kaijun 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GLM-5.3-Flash (Max)（思考档位: Max，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/vO0j883o6uyVem5UA-Agzg",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0-preview.png",
+        "source": "https://works.pelicanbenchmark.com/vO0j883o6uyVem5UA-Agzg.html",
+        "sha256": "96f472cd94c807b52624f0281c21c6a7c77444ca29f3e0a1b5e76b26170b0e8a",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "3701e2a0f6a4f56789b9c807f3f18642820554d2bae6c2ea3480a012e5e9ae85",
+          "frameSha256": "96f472cd94c807b52624f0281c21c6a7c77444ca29f3e0a1b5e76b26170b0e8a",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GLM-5.3-Flash (Max) · 真实运行截帧",
+        "captionEn": "GLM-5.3-Flash (Max) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0/",
+    "markdown": "/specimens/pb-wang-kaijun-glm-5-3-flash-max-2026-09-28-3701e2a0/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Wang-Kaijun 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GLM-5.3-Flash (Max) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GLM-5.3-Flash (Max)",
+        "notes": "A standalone HTML+SVG animation output submitted by Wang-Kaijun on Pelican Benchmark. Model attribution: GLM-5.3-Flash (Max) (thinking level: Max, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Wang-Kaijun on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/vO0j883o6uyVem5UA-Agzg",
+        "https://works.pelicanbenchmark.com/vO0j883o6uyVem5UA-Agzg.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM-5.3-Flash (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/vO0j883o6uyVem5UA-Agzg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-28",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/vO0j883o6uyVem5UA-Agzg.html",
+      "sourceHtmlSha256": "3701e2a0f6a4f56789b9c807f3f18642820554d2bae6c2ea3480a012e5e9ae85",
+      "frameSha256": "96f472cd94c807b52624f0281c21c6a7c77444ca29f3e0a1b5e76b26170b0e8a",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d",
+    "originalId": "pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d",
+    "kind": "timeline",
+    "title": "Hunyuan 4 (hy4) · 鹈鹕骑车 HTML 动画",
+    "model": "Hunyuan 4 (hy4)",
+    "author": "Anonymous",
+    "date": "2026-09-27",
+    "month": "2026-09",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Hunyuan 4 (hy4)（腾讯混元 4）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/10ir0JSCDTntstkT62eZIA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d-preview.png",
+        "source": "https://works.pelicanbenchmark.com/10ir0JSCDTntstkT62eZIA.html",
+        "sha256": "d0b877f8b5f750ece9dd4866d9f43d179893e71467e530fd1c0a818912516baf",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "37f3f90d36fbea638ac8266e9834921ceb5ed4207b91970788fef6b750d6136a",
+          "frameSha256": "d0b877f8b5f750ece9dd4866d9f43d179893e71467e530fd1c0a818912516baf",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Hunyuan 4 (hy4) · 真实运行截帧",
+        "captionEn": "Hunyuan 4 (hy4) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d/",
+    "markdown": "/specimens/pb-anonymous-hunyuan-4-hy4-2026-09-27-37f3f90d/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Hunyuan 4 (hy4) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Hunyuan 4 (hy4)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: Hunyuan 4 (hy4) (Tencent Hunyuan 4). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/10ir0JSCDTntstkT62eZIA",
+        "https://works.pelicanbenchmark.com/10ir0JSCDTntstkT62eZIA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hunyuan 4 (hy4)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/10ir0JSCDTntstkT62eZIA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Default (didn&#x27;t change it)",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-27",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/10ir0JSCDTntstkT62eZIA.html",
+      "sourceHtmlSha256": "37f3f90d36fbea638ac8266e9834921ceb5ed4207b91970788fef6b750d6136a",
+      "frameSha256": "d0b877f8b5f750ece9dd4866d9f43d179893e71467e530fd1c0a818912516baf",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec",
+    "originalId": "pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec",
+    "kind": "timeline",
+    "title": "DeepSeek V4 Pro (High) · 鹈鹕骑车 HTML 动画",
+    "model": "DeepSeek V4 Pro (High)",
+    "author": "admin",
+    "date": "2026-09-24",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 DeepSeek V4 Pro (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/VCCSxuekgMJQI4mTDD_i4A",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec-preview.png",
+        "source": "https://works.pelicanbenchmark.com/VCCSxuekgMJQI4mTDD_i4A.html",
+        "sha256": "d0cf4fab619aea6d82617eed05d679bbfc7ca03a5d35e6d0388f22bcff2938d2",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "199fc3ecf2668b8f4d51f0b2c0cce519af8b57a5ad00688710bd4900342c6db2",
+          "frameSha256": "d0cf4fab619aea6d82617eed05d679bbfc7ca03a5d35e6d0388f22bcff2938d2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "DeepSeek V4 Pro (High) · 真实运行截帧",
+        "captionEn": "DeepSeek V4 Pro (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec/",
+    "markdown": "/specimens/pb-admin-deepseek-v4-pro-high-2026-09-24-199fc3ec/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4 Pro (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "DeepSeek V4 Pro (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: DeepSeek V4 Pro (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/VCCSxuekgMJQI4mTDD_i4A",
+        "https://works.pelicanbenchmark.com/VCCSxuekgMJQI4mTDD_i4A.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4 Pro (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/VCCSxuekgMJQI4mTDD_i4A"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-24",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/VCCSxuekgMJQI4mTDD_i4A.html",
+      "sourceHtmlSha256": "199fc3ecf2668b8f4d51f0b2c0cce519af8b57a5ad00688710bd4900342c6db2",
+      "frameSha256": "d0cf4fab619aea6d82617eed05d679bbfc7ca03a5d35e6d0388f22bcff2938d2",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c",
+    "originalId": "pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c",
+    "kind": "timeline",
+    "title": "Hunyuan 3 (hy3) · 孔雀骑车 HTML 动画",
+    "model": "Hunyuan 3 (hy3)",
+    "author": "Anonymous",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Hunyuan 3 (hy3)（腾讯混元 3）。作者在提示词中明确以孔雀（peacock）替换鹈鹕骑车，为衍生题作品。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/LN5HmypohI2uffqIASGtHA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c-preview.png",
+        "source": "https://works.pelicanbenchmark.com/LN5HmypohI2uffqIASGtHA.html",
+        "sha256": "65d6fbb575c4b13b12c36d0373e5a02b75012483e58a209c420e0dc599008f6c",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "8720505c1a4adc428051ebfc3393e80ee5ca6d2ddf356c19679d4c94354e942e",
+          "frameSha256": "65d6fbb575c4b13b12c36d0373e5a02b75012483e58a209c420e0dc599008f6c",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Hunyuan 3 (hy3) · 真实运行截帧",
+        "captionEn": "Hunyuan 3 (hy3) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c/",
+    "markdown": "/specimens/pb-anonymous-hunyuan-3-hy3-2026-09-23-8720505c/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Hunyuan 3 (hy3) · Peacock Riding a Bicycle HTML Animation",
+        "model": "Hunyuan 3 (hy3)",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: Hunyuan 3 (hy3) (Tencent Hunyuan 3). The author explicitly substituted a peacock for the pelican as a documented derivative test. Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/LN5HmypohI2uffqIASGtHA",
+        "https://works.pelicanbenchmark.com/LN5HmypohI2uffqIASGtHA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hunyuan 3 (hy3)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/LN5HmypohI2uffqIASGtHA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Default (didn&#x27;t change it)",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-23",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/LN5HmypohI2uffqIASGtHA.html",
+      "sourceHtmlSha256": "8720505c1a4adc428051ebfc3393e80ee5ca6d2ddf356c19679d4c94354e942e",
+      "frameSha256": "65d6fbb575c4b13b12c36d0373e5a02b75012483e58a209c420e0dc599008f6c",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-anonymous-grok-4-7-2026-09-23-143cf3e3",
+    "originalId": "pb-anonymous-grok-4-7-2026-09-23-143cf3e3",
+    "kind": "timeline",
+    "title": "Grok 4.7 · 鹈鹕骑车 HTML 动画",
+    "model": "Grok 4.7",
+    "author": "Anonymous",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Grok 4.7（思考档位: Default (didn&#x27;t change it)，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/PbqU8dYMFFMFnUbM_bNMmg",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-grok-4-7-2026-09-23-143cf3e3-preview.png",
+        "source": "https://works.pelicanbenchmark.com/PbqU8dYMFFMFnUbM_bNMmg.html",
+        "sha256": "18c42e862c8cc0b3d9fe2d5849ecc1d29adc6d472de0b09348992360571dfff4",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "143cf3e3de2166fdea6afba04f4fb9255c5f2e06f6012e32e117e994f10adadd",
+          "frameSha256": "18c42e862c8cc0b3d9fe2d5849ecc1d29adc6d472de0b09348992360571dfff4",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Grok 4.7 · 真实运行截帧",
+        "captionEn": "Grok 4.7 · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-anonymous-grok-4-7-2026-09-23-143cf3e3-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-anonymous-grok-4-7-2026-09-23-143cf3e3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-grok-4-7-2026-09-23-143cf3e3/",
+    "markdown": "/specimens/pb-anonymous-grok-4-7-2026-09-23-143cf3e3/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 Anonymous 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Grok 4.7 · Pelican Riding a Bicycle HTML Animation",
+        "model": "Grok 4.7",
+        "notes": "A standalone HTML+SVG animation output submitted by Anonymous on Pelican Benchmark. Model attribution: Grok 4.7 (thinking level: Default (didn&#x27;t change it), environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator Anonymous on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/PbqU8dYMFFMFnUbM_bNMmg",
+        "https://works.pelicanbenchmark.com/PbqU8dYMFFMFnUbM_bNMmg.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Grok 4.7"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/PbqU8dYMFFMFnUbM_bNMmg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Default (didn&#x27;t change it)",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-23",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/PbqU8dYMFFMFnUbM_bNMmg.html",
+      "sourceHtmlSha256": "143cf3e3de2166fdea6afba04f4fb9255c5f2e06f6012e32e117e994f10adadd",
+      "frameSha256": "18c42e862c8cc0b3d9fe2d5849ecc1d29adc6d472de0b09348992360571dfff4",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e",
+    "originalId": "pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e",
+    "kind": "timeline",
+    "title": "DeepSeek V4 Flash (High) · 鹈鹕骑车 HTML 动画",
+    "model": "DeepSeek V4 Flash (High)",
+    "author": "admin",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 DeepSeek V4 Flash (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/uT93Av9lLxlNv-duMQJARA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e-preview.png",
+        "source": "https://works.pelicanbenchmark.com/uT93Av9lLxlNv-duMQJARA.html",
+        "sha256": "a0695f35306b578e0f17ca45d70af6a8552ffb234c1b8e3c73d443f986eb39f0",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "ecce705e9df6842aea0eb6fb5d53f18dd86186032948598ffb3df807ccc7e528",
+          "frameSha256": "a0695f35306b578e0f17ca45d70af6a8552ffb234c1b8e3c73d443f986eb39f0",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "DeepSeek V4 Flash (High) · 真实运行截帧",
+        "captionEn": "DeepSeek V4 Flash (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e/",
+    "markdown": "/specimens/pb-admin-deepseek-v4-flash-high-2026-09-23-ecce705e/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4 Flash (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "DeepSeek V4 Flash (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: DeepSeek V4 Flash (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/uT93Av9lLxlNv-duMQJARA",
+        "https://works.pelicanbenchmark.com/uT93Av9lLxlNv-duMQJARA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4 Flash (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/uT93Av9lLxlNv-duMQJARA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-23",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/uT93Av9lLxlNv-duMQJARA.html",
+      "sourceHtmlSha256": "ecce705e9df6842aea0eb6fb5d53f18dd86186032948598ffb3df807ccc7e528",
+      "frameSha256": "a0695f35306b578e0f17ca45d70af6a8552ffb234c1b8e3c73d443f986eb39f0",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8",
+    "originalId": "pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8",
+    "kind": "timeline",
+    "title": "GPT-6 Astra (XHigh) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6 Astra (XHigh)",
+    "author": "admin",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6 Astra (XHigh)（思考档位: XHigh，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/jFWJNjAxQ-jenmTmIYroEA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8-preview.png",
+        "source": "https://works.pelicanbenchmark.com/jFWJNjAxQ-jenmTmIYroEA.html",
+        "sha256": "d5d7d80d0c59618c4b8734533e2774493cdbe6ccfdb8ea422b082cc12b9f8a2f",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "ead6d4b84539b854f8ed3d0f94c15df41ff6863163f396daa175aa9725671968",
+          "frameSha256": "d5d7d80d0c59618c4b8734533e2774493cdbe6ccfdb8ea422b082cc12b9f8a2f",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6 Astra (XHigh) · 真实运行截帧",
+        "captionEn": "GPT-6 Astra (XHigh) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8/",
+    "markdown": "/specimens/pb-admin-gpt-6-astra-xhigh-2026-09-23-ead6d4b8/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Astra (XHigh) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6 Astra (XHigh)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: GPT-6 Astra (XHigh) (thinking level: XHigh, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/jFWJNjAxQ-jenmTmIYroEA",
+        "https://works.pelicanbenchmark.com/jFWJNjAxQ-jenmTmIYroEA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/jFWJNjAxQ-jenmTmIYroEA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-23",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/jFWJNjAxQ-jenmTmIYroEA.html",
+      "sourceHtmlSha256": "ead6d4b84539b854f8ed3d0f94c15df41ff6863163f396daa175aa9725671968",
+      "frameSha256": "d5d7d80d0c59618c4b8734533e2774493cdbe6ccfdb8ea422b082cc12b9f8a2f",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c",
+    "originalId": "pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Claude Opus 5.5 (High)",
+    "author": "admin",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Claude Opus 5.5 (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/K9UVSNF8KR3bz3qiYUH_dw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c-preview.png",
+        "source": "https://works.pelicanbenchmark.com/K9UVSNF8KR3bz3qiYUH_dw.html",
+        "sha256": "e8e6d6e34e1241efc1189dc9d95502c37acce8dec250cd89a233957e7ab35df5",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "4d306d7ca94b12ced0ced38b0dfe251dbdd02cb0bf7540250ae09ca9fdd0a6e4",
+          "frameSha256": "e8e6d6e34e1241efc1189dc9d95502c37acce8dec250cd89a233957e7ab35df5",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Claude Opus 5.5 (High) · 真实运行截帧",
+        "captionEn": "Claude Opus 5.5 (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c/",
+    "markdown": "/specimens/pb-admin-claude-opus-5-5-high-2026-09-23-4d306d7c/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Claude Opus 5.5 (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Claude Opus 5.5 (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/K9UVSNF8KR3bz3qiYUH_dw",
+        "https://works.pelicanbenchmark.com/K9UVSNF8KR3bz3qiYUH_dw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5 (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/K9UVSNF8KR3bz3qiYUH_dw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-23",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/K9UVSNF8KR3bz3qiYUH_dw.html",
+      "sourceHtmlSha256": "4d306d7ca94b12ced0ced38b0dfe251dbdd02cb0bf7540250ae09ca9fdd0a6e4",
+      "frameSha256": "e8e6d6e34e1241efc1189dc9d95502c37acce8dec250cd89a233957e7ab35df5",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b",
+    "originalId": "pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b",
+    "kind": "timeline",
+    "title": "Gemini 3.1 Pro (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Gemini 3.1 Pro (High)",
+    "author": "admin",
+    "date": "2026-09-20",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Gemini 3.1 Pro (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/nMhDflxN7VlHPox1-O4FEg",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b-preview.png",
+        "source": "https://works.pelicanbenchmark.com/nMhDflxN7VlHPox1-O4FEg.html",
+        "sha256": "1d658460583c369a07f79c29b9d6f4b4a64b341226d372246920090c8c3bcb56",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "0309219bc9991b2c2fe7dedcbc86d523efeb082f3c8187d1b95950fdb837d1e1",
+          "frameSha256": "1d658460583c369a07f79c29b9d6f4b4a64b341226d372246920090c8c3bcb56",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Gemini 3.1 Pro (High) · 真实运行截帧",
+        "captionEn": "Gemini 3.1 Pro (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b/",
+    "markdown": "/specimens/pb-admin-gemini-3-1-pro-high-2026-09-20-0309219b/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.1 Pro (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Gemini 3.1 Pro (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Gemini 3.1 Pro (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/nMhDflxN7VlHPox1-O4FEg",
+        "https://works.pelicanbenchmark.com/nMhDflxN7VlHPox1-O4FEg.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.1 Pro (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/nMhDflxN7VlHPox1-O4FEg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Unknown",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-20",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/nMhDflxN7VlHPox1-O4FEg.html",
+      "sourceHtmlSha256": "0309219bc9991b2c2fe7dedcbc86d523efeb082f3c8187d1b95950fdb837d1e1",
+      "frameSha256": "1d658460583c369a07f79c29b9d6f4b4a64b341226d372246920090c8c3bcb56",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504",
+    "originalId": "pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504",
+    "kind": "timeline",
+    "title": "Gemini 3.1 Pro (Low) · 鹈鹕骑车 HTML 动画",
+    "model": "Gemini 3.1 Pro (Low)",
+    "author": "admin",
+    "date": "2026-09-20",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Gemini 3.1 Pro (Low)（思考档位: Low，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/VAohQhdHH1HJ-3wcStnVnQ",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504-preview.png",
+        "source": "https://works.pelicanbenchmark.com/VAohQhdHH1HJ-3wcStnVnQ.html",
+        "sha256": "f49bff5d0e4a2c9fbab8dca0a0ea80d28cbfa3e5f236100eff54ed08e281a9f9",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "864c65049c7014d206d9d2b7186e1e037ee0b6b845a4f7cd04831d9e3391757a",
+          "frameSha256": "f49bff5d0e4a2c9fbab8dca0a0ea80d28cbfa3e5f236100eff54ed08e281a9f9",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Gemini 3.1 Pro (Low) · 真实运行截帧",
+        "captionEn": "Gemini 3.1 Pro (Low) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504/",
+    "markdown": "/specimens/pb-admin-gemini-3-1-pro-low-2026-09-20-864c6504/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.1 Pro (Low) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Gemini 3.1 Pro (Low)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Gemini 3.1 Pro (Low) (thinking level: Low, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/VAohQhdHH1HJ-3wcStnVnQ",
+        "https://works.pelicanbenchmark.com/VAohQhdHH1HJ-3wcStnVnQ.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.1 Pro (Low)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/VAohQhdHH1HJ-3wcStnVnQ"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Low",
+      "generationMode": "Unknown",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-20",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/VAohQhdHH1HJ-3wcStnVnQ.html",
+      "sourceHtmlSha256": "864c65049c7014d206d9d2b7186e1e037ee0b6b845a4f7cd04831d9e3391757a",
+      "frameSha256": "f49bff5d0e4a2c9fbab8dca0a0ea80d28cbfa3e5f236100eff54ed08e281a9f9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf",
+    "originalId": "pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf",
+    "kind": "timeline",
+    "title": "Gemini 3.8 Flash (High) · 鹈鹕骑车 HTML 动画",
+    "model": "Gemini 3.8 Flash (High)",
+    "author": "admin",
+    "date": "2026-09-20",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 Gemini 3.8 Flash (High)（思考档位: High，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/YMs33kz2IcE2uDKK_T_FOw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf-preview.png",
+        "source": "https://works.pelicanbenchmark.com/YMs33kz2IcE2uDKK_T_FOw.html",
+        "sha256": "ab320ef7142c891af2f87792da082cafc220843660d3909b3b23ef0e6b48466a",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "08fb9aafa81e7dcf6833f8a4a3a02f596cc8b6eab6a44d3472f9064cf53f7a1b",
+          "frameSha256": "ab320ef7142c891af2f87792da082cafc220843660d3909b3b23ef0e6b48466a",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "Gemini 3.8 Flash (High) · 真实运行截帧",
+        "captionEn": "Gemini 3.8 Flash (High) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf/",
+    "markdown": "/specimens/pb-admin-gemini-3-8-flash-high-2026-09-20-08fb9aaf/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.8 Flash (High) · Pelican Riding a Bicycle HTML Animation",
+        "model": "Gemini 3.8 Flash (High)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: Gemini 3.8 Flash (High) (thinking level: High, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/YMs33kz2IcE2uDKK_T_FOw",
+        "https://works.pelicanbenchmark.com/YMs33kz2IcE2uDKK_T_FOw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.8 Flash (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/YMs33kz2IcE2uDKK_T_FOw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Unknown",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-20",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/YMs33kz2IcE2uDKK_T_FOw.html",
+      "sourceHtmlSha256": "08fb9aafa81e7dcf6833f8a4a3a02f596cc8b6eab6a44d3472f9064cf53f7a1b",
+      "frameSha256": "ab320ef7142c891af2f87792da082cafc220843660d3909b3b23ef0e6b48466a",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pb-admin-gpt-6-astra-low-2026-09-20-ba245af4",
+    "originalId": "pb-admin-gpt-6-astra-low-2026-09-20-ba245af4",
+    "kind": "timeline",
+    "title": "GPT-6 Astra (Low) · 鹈鹕骑车 HTML 动画",
+    "model": "GPT-6 Astra (Low)",
+    "author": "admin",
+    "date": "2026-09-20",
+    "month": "2026-09",
+    "notes": "由 admin 提交至 Pelican Benchmark 的单提示词 HTML+SVG 动画作品。模型标称 GPT-6 Astra (Low)（思考档位: Low，运行环境: 官方界面）。页面包含原生矢量结构与自包含动画逻辑。按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/vqpnt7qL53nJ3_0y7UqB0Q",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-astra-low-2026-09-20-ba245af4-preview.png",
+        "source": "https://works.pelicanbenchmark.com/vqpnt7qL53nJ3_0y7UqB0Q.html",
+        "sha256": "b119f85ad56702d473d2ee36549aa9349ff36e6cb36bee6b99a53d4eb42e2875",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "ba245af4b1142d05e3b00e35e22f5d67401bcd5a728901abd1ab06454629c932",
+          "frameSha256": "b119f85ad56702d473d2ee36549aa9349ff36e6cb36bee6b99a53d4eb42e2875",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "method": "browser-rendered-frame"
+        },
+        "caption": "GPT-6 Astra (Low) · 真实运行截帧",
+        "captionEn": "GPT-6 Astra (Low) · Rendered animation frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-admin-gpt-6-astra-low-2026-09-20-ba245af4-preview.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-admin-gpt-6-astra-low-2026-09-20-ba245af4/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-admin-gpt-6-astra-low-2026-09-20-ba245af4/",
+    "markdown": "/specimens/pb-admin-gpt-6-astra-low-2026-09-20-ba245af4/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者 admin 于 Pelican Benchmark 公开分享。本馆按来源归档原始生成的代码与真实渲染帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Astra (Low) · Pelican Riding a Bicycle HTML Animation",
+        "model": "GPT-6 Astra (Low)",
+        "notes": "A standalone HTML+SVG animation output submitted by admin on Pelican Benchmark. Model attribution: GPT-6 Astra (Low) (thinking level: Low, environment: chat interface). Contains native vector artwork and self-contained animation logic. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared by creator admin on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/vqpnt7qL53nJ3_0y7UqB0Q",
+        "https://works.pelicanbenchmark.com/vqpnt7qL53nJ3_0y7UqB0Q.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra (Low)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/vqpnt7qL53nJ3_0y7UqB0Q"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Low",
+      "generationMode": "Unknown",
+      "ranWith": "Official web / app chat"
+    },
+    "parentId": "pelicanbenchmark-animated-html",
+    "sourcePublicationDate": "2026-09-20",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/vqpnt7qL53nJ3_0y7UqB0Q.html",
+      "sourceHtmlSha256": "ba245af4b1142d05e3b00e35e22f5d67401bcd5a728901abd1ab06454629c932",
+      "frameSha256": "b119f85ad56702d473d2ee36549aa9349ff36e6cb36bee6b99a53d4eb42e2875",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "method": "browser-rendered-frame"
+    }
+  },
+  {
+    "id": "pelicanbenchmark-animated-html",
+    "originalId": "pelicanbenchmark-animated-html",
+    "kind": "timeline",
+    "title": "Pelican Benchmark 动态 HTML 作品合集",
+    "model": "Pelican Benchmark 多模型",
+    "author": "Pelican Benchmark",
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "notes": "Pelican Benchmark 评测站公开的动态 HTML track 作品合集。收录 29 件各模型独立生成的自包含 HTML 动画原件，涵盖 Hunyuan 3/4、Kimi K2.8、DeepSeek V4.1、Gemini 3.8、GPT-6.1 等。每件作品在下方均保留完整代码与可直接播放的独立演示。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "自包含动态 HTML 代码生成；各作品单提示词提示及运行参数见各自详情",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87-preview.png",
+        "source": "https://works.pelicanbenchmark.com/79cqaSxr-I2h5PATDc92sA.html",
+        "caption": "Pelican Benchmark 动态 HTML 作品合集代表预览",
+        "captionEn": "Pelican Benchmark Animated HTML Collection representative preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87-preview.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanbenchmark.com/",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pelicanbenchmark-animated-html/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pelicanbenchmark-animated-html/",
+    "markdown": "/specimens/pelicanbenchmark-animated-html/index.md",
+    "updated": "2026-10-11",
+    "rights": "作品由作者与评测提交者在 Pelican Benchmark 公开共享。本馆按来源归档原始生成的自包含 HTML 代码与渲染截帧，保留署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Benchmark Animated HTML Collection",
+        "model": "Pelican Benchmark multi-model suite",
+        "notes": "A curated collection of animated HTML benchmark works published on Pelican Benchmark. Features 29 standalone code-generated HTML animations across models including Hunyuan 3/4, Kimi K2.8, DeepSeek V4.1, Gemini 3.8, GPT-6.1, and more. Each output preserves complete original code and an isolated playable preview.",
+        "rights": "Publicly shared by creators and benchmark submitters on Pelican Benchmark. The archive preserves generated code and rendered frames with author attribution.",
+        "promptStatus": "Self-contained animated HTML code generation; see individual items for per-run prompts and parameters.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Pelican Benchmark"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-suite",
+      "track": "animated_html"
+    },
+    "sourcePublicationDate": "2026-09-28",
+    "caseRole": "source-collection",
+    "caseVisible": false,
+    "timelineVisible": false
   }
 ]

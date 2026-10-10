@@ -291,7 +291,7 @@ def build():
         zh_paths.sort(key=lambda p: OUT/p.lstrip('/')/'index.html' if p.endswith('/') else OUT/p.lstrip('/'))
     candidates=BUILD_CACHE.dirty_html if BUILD_CACHE else OUT.rglob('*.html')
     for p in sorted(list(candidates)):
-        if p.relative_to(OUT).parts[0]=='en':continue
+        if p.relative_to(OUT).parts[0] in {'en','media','assets'}:continue
         soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');canonical=soup.select_one('link[rel=canonical]')['href'];path=canonical.removeprefix(BASE)
         for tag in soup.select('link[hreflang], a[data-language]'):tag.decompose()
         for lang,url in [('zh-CN',canonical),('en',BASE+local(path)),('x-default',canonical)]:soup.head.append(soup.new_tag('link',rel='alternate',hreflang=lang,href=url))

@@ -115,7 +115,7 @@ class PublicSiteTests(unittest.TestCase):
                     self.assertNotIn('href="/'+prefix+'specimens/hf-openenv-',str(document.select_one('[data-results]')))
                 self.assertEqual(len(cards),0,prefix+listing)
             index=BeautifulSoup((OUT/prefix/'tags/benchmark/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertEqual(len(index.select('[data-benchmark-collection]')),1)
+            self.assertEqual(len(index.select('[data-benchmark-collection]')),2)
             self.assertFalse(index.select('.page-top p,.callout.benchmark-disclaimer'))
             self.assertIsNotNone(index.select_one('nav.nav a[aria-current=page]'))
 
