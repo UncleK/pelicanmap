@@ -59551,5 +59551,246 @@
       "sourceCommitTimestamp": "2026-09-30T05:11:56Z"
     },
     "sourcePublicationDate": "2026-09-30"
+  },
+  {
+    "id": "carbocation-o1-pro-pelican-2024-12-22",
+    "originalId": "carbocation-o1-pro-pelican-2024-12-22",
+    "kind": "timeline",
+    "title": "o1 pro · 提示词修改版矢量输出",
+    "model": "o1 pro",
+    "author": "carbocation",
+    "date": "2024-12-22",
+    "month": "2024-12",
+    "notes": "carbocation 于 2024-12-22 将 Simon Willison 鹈鹕经典提示词做细节修改后输入 OpenAI o1 pro 获得的单文件 SVG 输出。画面包含天空渐变、金属质感车架车轮、脚踏及完整的鹈鹕身体与羽毛图层。模型标注按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/carbocation/8d780ad4c3312693ca9a43c61aa97e75",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-consolidated-night-batch/carbocation-o1-pro-pelican.svg",
+        "source": "https://gist.githubusercontent.com/carbocation/8d780ad4c3312693ca9a43c61aa97e75/raw/571495aef94a686b97aa9c9ebba23ffe6b2d2f86/pelican-high.svg",
+        "sha256": "c1f67b6ffef71cd884928f60b403d600c4ee150b58e24e1988c9c73366355b35",
+        "caption": "原始输出 SVG",
+        "captionEn": "Original output SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-consolidated-night-batch/carbocation-o1-pro-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/carbocation-o1-pro-pelican-2024-12-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/carbocation-o1-pro-pelican-2024-12-22/",
+    "markdown": "/specimens/carbocation-o1-pro-pelican-2024-12-22/index.md",
+    "updated": "2026-10-10",
+    "rights": "公开于 GitHub Gist，保留作者署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "o1 pro · Modified Prompt Vector Output",
+        "model": "o1 pro",
+        "notes": "Single-file SVG generated on 2024-12-22 by OpenAI o1 pro using a modified version of Simon Willison's pelican prompt by carbocation. Features sky gradient, metallic bicycle frame, wheels, pedals, and detailed pelican feathers. Model label is source-reported and not independently authenticated.",
+        "rights": "Publicly shared on GitHub Gist; author attribution and source link preserved.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/carbocation/8d780ad4c3312693ca9a43c61aa97e75",
+        "https://gist.githubusercontent.com/carbocation/8d780ad4c3312693ca9a43c61aa97e75/raw/571495aef94a686b97aa9c9ebba23ffe6b2d2f86/pelican-high.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "o1 pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/carbocation/8d780ad4c3312693ca9a43c61aa97e75"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "gist-direct-svg",
+      "sourceCommit": "571495aef94a686b97aa9c9ebba23ffe6b2d2f86",
+      "sourceCommitTimestamp": "2024-12-22T16:29:12Z"
+    },
+    "sourcePublicationDate": "2024-12-22"
+  },
+  {
+    "id": "uschen-nova-pro-1-0-pelican-2024-12-15",
+    "originalId": "uschen-nova-pro-1-0-pelican-2024-12-15",
+    "kind": "timeline",
+    "title": "Nova Pro 1.0 · Bedrock 对话生成矢量图",
+    "model": "Nova Pro 1.0",
+    "author": "uschen",
+    "date": "2024-12-15",
+    "month": "2024-12",
+    "notes": "uschen 于 2024-12-15 在 AWS Bedrock Playground 中向 Nova Pro 1.0 输入经典提示词「Generate an SVG of a pelican riding a bicycle」生成的对话记录与 SVG 原始代码。模型标注按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/uschen/38fc65fa7e43f5765a584c6cd24e137f",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-consolidated-night-batch/uschen-nova-pro-1-0-pelican.svg",
+        "source": "https://gist.githubusercontent.com/uschen/38fc65fa7e43f5765a584c6cd24e137f/raw/3d6f489fc50124cf7b8e9bd9b22e84e172c35381/2024-12-15_nova_pro_1_0.md",
+        "sha256": "c72f721dab674efbbaa2e960d682c560e0c4835d8d2e44d510410b3004ed3c9c",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ff67a11090dd0446d3e27a1b4566938098894b255f0ca18301e35649aaf39475",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "对话提取输出 SVG",
+        "captionEn": "Transcript extracted output SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-consolidated-night-batch/uschen-nova-pro-1-0-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/uschen-nova-pro-1-0-pelican-2024-12-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/uschen-nova-pro-1-0-pelican-2024-12-15/",
+    "markdown": "/specimens/uschen-nova-pro-1-0-pelican-2024-12-15/index.md",
+    "updated": "2026-10-10",
+    "rights": "公开于 GitHub Gist，保留作者署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "Nova Pro 1.0 · Bedrock Conversation Vector SVG",
+        "model": "Nova Pro 1.0",
+        "notes": "Conversation log and SVG code generated on 2024-12-15 by Nova Pro 1.0 in AWS Bedrock Playground prompted with 'Generate an SVG of a pelican riding a bicycle' by uschen. Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared on GitHub Gist; author attribution and source link preserved.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/uschen/38fc65fa7e43f5765a584c6cd24e137f",
+        "https://gist.githubusercontent.com/uschen/38fc65fa7e43f5765a584c6cd24e137f/raw/3d6f489fc50124cf7b8e9bd9b22e84e172c35381/2024-12-15_nova_pro_1_0.md"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nova Pro 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/uschen/38fc65fa7e43f5765a584c6cd24e137f"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "platform": "aws-bedrock-playground",
+      "sourceCommit": "3d6f489fc50124cf7b8e9bd9b22e84e172c35381",
+      "sourceCommitTimestamp": "2024-12-16T03:13:47Z"
+    },
+    "sourcePublicationDate": "2024-12-15"
+  },
+  {
+    "id": "threewater-deepseek-web-pelican-2026-09-22",
+    "originalId": "threewater-deepseek-web-pelican-2026-09-22",
+    "kind": "timeline",
+    "title": "DeepSeek 网页版 · webcode 连接生成矢量图",
+    "model": "DeepSeek (网页版)",
+    "author": "three-water666",
+    "date": "2026-09-22",
+    "month": "2026-09",
+    "notes": "three-water666 在 webcode 开源项目中通过本地网关连接 DeepSeek 网页版完成经典鹈鹕测试生成的单文件矢量图。提示词为「Generate an SVG of a pelican riding a bicycle.」。模型标注按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/three-water666/webcode",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-consolidated-night-batch/threewater-deepseek-web-pelican.svg",
+        "source": "https://raw.githubusercontent.com/three-water666/webcode/ffa05a68adcbf2525812ec7e0071bd9f24b6d959/doc/assets/pelican-bicycle-deepseek.svg",
+        "sha256": "6b7c9e22ae042e8c5b9e478cdd80984c53c024c7ef44b6efa69090f1ef0e8ec2",
+        "caption": "原始输出 SVG",
+        "captionEn": "Original output SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-consolidated-night-batch/threewater-deepseek-web-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/threewater-deepseek-web-pelican-2026-09-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/threewater-deepseek-web-pelican-2026-09-22/",
+    "markdown": "/specimens/threewater-deepseek-web-pelican-2026-09-22/index.md",
+    "updated": "2026-10-10",
+    "rights": "公开于 GitHub 仓库 three-water666/webcode，保留作者署名与出处。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek (Web) · webcode Bridge Generated SVG",
+        "model": "DeepSeek (网页版)",
+        "notes": "Single-file vector graphic generated by DeepSeek web version connected through the webcode local gateway project by three-water666. Prompted with 'Generate an SVG of a pelican riding a bicycle.' Model attribution is source-reported and not independently authenticated.",
+        "rights": "Publicly shared in GitHub repository three-water666/webcode; author attribution and source link preserved.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/three-water666/webcode",
+        "https://github.com/three-water666/webcode/blob/ffa05a68adcbf2525812ec7e0071bd9f24b6d959/README.md",
+        "https://raw.githubusercontent.com/three-water666/webcode/ffa05a68adcbf2525812ec7e0071bd9f24b6d959/doc/assets/pelican-bicycle-deepseek.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek (网页版)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/three-water666/webcode/blob/ffa05a68adcbf2525812ec7e0071bd9f24b6d959/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "webcode-deepseek-web-bridge",
+      "sourceCommit": "ffa05a68adcbf2525812ec7e0071bd9f24b6d959",
+      "sourceCommitTimestamp": "2026-09-22T10:46:30Z"
+    },
+    "sourcePublicationDate": "2026-09-22"
   }
 ]
