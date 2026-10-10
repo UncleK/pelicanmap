@@ -7,6 +7,7 @@ from urllib.parse import unquote, urlsplit
 from PIL import Image
 from case_policy import relationship_html
 from historical_context import HISTORY_ID, historical_summary, historical_story
+from incremental_site import inspect_file
 
 
 def local_media(src, output):
@@ -36,14 +37,16 @@ def motion_kind(src, output):
     local = local_media(src, output)
     if not local:
         return ''
-    if suffix in {'.gif', '.webp', '.png'}:
-        with Image.open(local) as image:
-            return 'animation' if getattr(image, 'is_animated', False) else ''
-    if suffix == '.svg':
-        source = local.read_text(encoding='utf8', errors='replace')
-        if re.search(r'<(?:\w+:)?(?:animate(?:Motion|Transform)?|set)\b|@(?:-webkit-)?keyframes\b', source):
-            return 'animation'
-    return ''
+    def inspect():
+        if suffix in {'.gif', '.webp', '.png'}:
+            with Image.open(local) as image:
+                return 'animation' if getattr(image, 'is_animated', False) else ''
+        if suffix == '.svg':
+            source = local.read_text(encoding='utf8', errors='replace')
+            if re.search(r'<(?:\w+:)?(?:animate(?:Motion|Transform)?|set)\b|@(?:-webkit-)?keyframes\b', source):
+                return 'animation'
+        return ''
+    return inspect_file(local, 'motion-kind', inspect)
 
 
 def media_groups(item, output):

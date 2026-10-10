@@ -97,6 +97,14 @@ export function validateCandidate(c) {
   if (!c.evidence?.length || c.evidence.some(x=>!x.startsWith('https://'))) throw Error('Missing source-check evidence');
   for (const m of c.media) {
     safeName(m.filename);
+    if(m.crop){
+      const {left,top,width,height}=m.crop;
+      if(![left,top,width,height].every(Number.isInteger) || left<0 || top<0 || width<10 || height<10 ||
+         !m.filename.endsWith('.png') || !/^[a-f0-9]{64}$/.test(m.sourceSha256||'') ||
+         !/^[a-f0-9]{64}$/.test(m.sha256||''))throw Error('Faithful crop needs a reviewed rectangle and source/crop hashes');
+      if(!c.media.slice(1).some(x=>x.url===m.url && x.sha256===m.sourceSha256 && x.detailOnly===true))
+        throw Error('Faithful crop must retain the complete source image');
+    }
     if(m.hls)validateHlsSpec(m,c.evidence);
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
     if(new URL(m.url).hostname==='github.com' &&
@@ -183,16 +191,39 @@ export function makeRecord(c, assets, updated) {
     ...(c.datePrecision?{datePrecision:c.datePrecision}:{}),...(c.generationConditions?{generationConditions:c.generationConditions}:{}),
     ...(c.authorDefault===true?{authorDefault:true}:{}),
     ...(c.parentId?{parentId:c.parentId}:{}),...(c.representativeOf?{representativeOf:c.representativeOf}:{}),...(c.modelRunGroup?{modelRunGroup:c.modelRunGroup}:{}),
-    ...(c.datasetSample ? {datasetSample:c.datasetSample}: {}),...(c.sourcePublicationDate ? {sourcePublicationDate:c.sourcePublicationDate}: {}),...(c.sourceResponseTimestamp?{sourceResponseTimestamp:c.sourceResponseTimestamp}:{})};
+    ...(c.datasetSample ? {datasetSample:c.datasetSample}: {}),...(c.sourcePublicationDate ? {sourcePublicationDate:c.sourcePublicationDate}: {}),...(c.sourceResponseTimestamp?{sourceResponseTimestamp:c.sourceResponseTimestamp}:{}),
+    ...(assets[0].extraction?.kind==='faithful-crop'?{cropProvenance:{
+      original:media.find(x=>x.sha256===assets[0].extraction.sourceSha256 && x.detailOnly)?.src,
+      crop:assets[0].src,box:assets[0].extraction.box,
+      sourceSha256:assets[0].extraction.sourceSha256,cropSha256:assets[0].sha256,
+      pixelSha256:assets[0].extraction.pixelSha256}}:{})};
 }
 
+const originalWrites = new Map();
 async function writeOriginal(file,bytes) {
+  if(originalWrites.has(file)){
+    await originalWrites.get(file);
+    if(digest(await fs.readFile(file))!==digest(bytes))throw Error('Refusing to replace original '+file);
+    return;
+  }
+  const operation=writeOriginalOnce(file,bytes);
+  originalWrites.set(file,operation);
+  try{await operation;}catch(error){originalWrites.delete(file);throw error;}
+}
+async function writeOriginalOnce(file,bytes) {
   await fs.mkdir(path.dirname(file),{recursive:true});
   try {await fs.writeFile(file,bytes,{flag:'wx'});}
   catch(e) {if(e.code!=='EEXIST')throw e; if(digest(await fs.readFile(file))!==digest(bytes))throw Error('Refusing to replace original '+file);}
 }
 
+const downloaded = new Map();
 async function download(url) {
+  if(downloaded.has(url))return downloaded.get(url);
+  const operation=downloadOriginal(url);
+  downloaded.set(url,operation);
+  try{return await operation;}catch(error){downloaded.delete(url);throw error;}
+}
+async function downloadOriginal(url) {
   if (!hosts.has(new URL(url).hostname)) throw Error('Unreviewed download host');
   const r=await fetch(url,{headers:{'User-Agent':'PelicanMap-Collector/1.0'},signal:AbortSignal.timeout(60000)});
   if(!r.ok)throw Error('Media HTTP '+r.status+' '+url+([401,403,429].includes(r.status)?' — use the authorized signed-in Chrome public read-only fallback; do not bypass challenges or execute upstream code':''));
@@ -202,10 +233,24 @@ async function download(url) {
   return bytes;
 }
 
+export async function faithfulCrop(original, specification){
+  if(digest(original)!==specification.sourceSha256)throw Error('Crop source hash mismatch');
+  const metadata=await sharp(original,{limitInputPixels:40000000}).metadata();
+  if(!['png','jpeg','webp'].includes(metadata.format))throw Error('Faithful crops require an original raster image');
+  const {left,top,width,height}=specification.crop;
+  if(left+width>metadata.width || top+height>metadata.height)throw Error('Crop is outside the original image');
+  const pixels=await sharp(original).extract(specification.crop).ensureAlpha().raw().toBuffer();
+  const output=await sharp(original).extract(specification.crop).png().toBuffer();
+  const actual=await sharp(output).ensureAlpha().raw().toBuffer();
+  if(!actual.equals(pixels))throw Error('Faithful crop pixels changed');
+  return {bytes:output,pixelSha256:digest(pixels),box:[left,top,left+width,top+height]};
+}
+
 async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
   const hls=m.hls ? await assembleReviewedHls(m,evidence,path.join(mediaDir,m.filename+'-hls')) : null;
   const original=hls ? hls.bytes : await download(m.url);
-  const bytes=m.svgFromHardPrompts ? extractHardPromptsSvg(original,m.sourceModel,m.sourceRun) : m.svgFromTranscript ? extractTranscriptSvg(original,{...m,allowAnimation:format==='animation'}) : original,sha256=digest(bytes);
+  const crop=m.crop ? await faithfulCrop(original,m) : null;
+  const bytes=crop ? crop.bytes : m.svgFromHardPrompts ? extractHardPromptsSvg(original,m.sourceModel,m.sourceRun) : m.svgFromTranscript ? extractTranscriptSvg(original,{...m,allowAnimation:format==='animation'}) : original,sha256=digest(bytes);
   if(m.sha256 && sha256!==m.sha256.toLowerCase())throw Error('Source hash mismatch');
   const file=path.join(mediaDir,safeName(m.filename));
   const ext=path.extname(file).toLowerCase();
@@ -270,12 +315,13 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
     if(!meta.width || !meta.height || meta.width<10 || meta.height<10 || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid image');
     await writeOriginal(file,bytes);
   }
-  const extraction=hls ? {...hls.extraction,sources:hls.extraction.sources.map(x=>({...x,src:relativeDir+'/'+m.filename+'-hls/'+x.filename}))} : m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
+  const extraction=crop?{kind:'faithful-crop',sourceSha256:digest(original),box:crop.box,pixelSha256:crop.pixelSha256}:hls ? {...hls.extraction,sources:hls.extraction.sources.map(x=>({...x,src:relativeDir+'/'+m.filename+'-hls/'+x.filename}))} : m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
   return {src:relativeDir+'/'+m.filename,source:m.url,sha256,poster,bytes:bytes.length,...(posterProvenance?{posterProvenance}:{}),...(extraction?{extraction}:{})};
 }
 
 export async function importBatch(manifestPath) {
-  const manifest=JSON.parse(await fs.readFile(manifestPath,'utf8'));
+  const manifestBytes=await fs.readFile(manifestPath);
+  const manifest=JSON.parse(manifestBytes.toString('utf8'));
   if(manifest.reviewed!==true || !/^[a-z0-9-]+$/.test(manifest.batch || ''))throw Error('Batch must be explicitly reviewed');
   const cases=manifest.cases;
   if(!Array.isArray(cases))throw Error('Missing reviewed cases');
@@ -321,10 +367,12 @@ export async function importBatch(manifestPath) {
     } catch(e){audit.failed.push({id:c.id,error:e.message});}
     if((audit.added.length+audit.duplicates.length+audit.failed.length)%20===0) console.log(JSON.stringify({processed:audit.added.length+audit.duplicates.length+audit.failed.length,total:cases.length}));
   }
-  await fs.writeFile(additionsPath,JSON.stringify(additions,null,2)+'\n');
   const archiveDir=path.join(ROOT,'pelican-archive/research',manifest.batch);
   await fs.mkdir(archiveDir,{recursive:true});
-  await writeOriginal(path.join(archiveDir,'reviewed-manifest.json'),Buffer.from(JSON.stringify(manifest,null,2)));
+  // Archive the exact reviewed input before committing additions. Formatting
+  // differences must never leave records committed without their source receipt.
+  await writeOriginal(path.join(archiveDir,'reviewed-manifest.json'),manifestBytes);
+  await fs.writeFile(additionsPath,JSON.stringify(additions,null,2)+'\n');
   await fs.writeFile(path.join(archiveDir,'import-audit.json'),JSON.stringify(audit,null,2)+'\n');
   await writeOriginal(path.join(archiveDir,'import-'+audit.checkedAt.replace(/[:.]/g,'-')+'.json'),Buffer.from(JSON.stringify(audit,null,2)));
   console.log(JSON.stringify({batch:audit.batch,added:audit.added.length,duplicates:audit.duplicates.length,failed:audit.failed,records:additions.length}));

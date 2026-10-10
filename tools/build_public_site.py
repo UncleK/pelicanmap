@@ -1,5 +1,6 @@
 """Build the public archive from verified local records; never modify originals."""
 import csv
+import datetime as dt
 import hashlib
 import html
 import io
@@ -12,6 +13,8 @@ import subprocess
 from collections import defaultdict
 from pathlib import Path
 from atomic_files import replace_with_retry
+from incremental_site import write_text, copy_file as cached_copy_file
+from asset_versions import asset_version
 from urllib.parse import quote
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from catalog_policy import apply_demo_policy, playable_records
@@ -35,37 +38,32 @@ OUT = Path(os.environ.get('PELICAN_OUTPUT_DIR',ROOT / 'public-site'))
 DEMOS = ROOT / 'public-demos'
 BASE = 'https://pelicanmap.aveniqa.com'
 DEMO_BASE = os.environ.get('PELICAN_DEMO_ORIGIN', 'https://pelicanmap-demos.aveniqa.com').rstrip('/')
-UPDATED = '2026-10-05'
+UPDATED = dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
 # Baseline imports keep their archival update date; a new compilation is not
 # a modification of every historical work. New additions carry their own date.
 LEGACY_RECORD_UPDATED = '2026-10-01'
 SITE = '鹈鹕骑车标本馆'
-ASSET_VERSION = hashlib.sha256(b''.join((ROOT / 'site/assets' / name).read_bytes() for name in ('site.css', 'site.js', 'browse.js', 'motion.js'))).hexdigest()[:12]
+ASSET_VERSION = asset_version(ROOT/'site/assets', OUT/'assets')
 INTRO = INTROS['zh']
 DATA = json.loads((SOURCE / 'data.js').read_text(encoding='utf-8').split('=', 1)[1].strip().rstrip(';'))
 SOURCES = {'origin':'原点仓库','zoo':'Pelican Zoo','wtf':'pelicans.wtf','community':'社区记录'}
 FORMATS = {'svg':'静态 SVG','image':'图像','animation':'动画','3d':'三维作品','game':'游戏 / 交互','video':'视频','audio':'音频','other':'其他媒体','text':'文字 / 资料'}
 PAGES = []
 COUNTS = {}
+BUILD_CACHE = None
 CAPTURES = json.loads((ROOT/'site/captures/manifest.json').read_text(encoding='utf-8'))
 
 def e(value):
     return html.escape(str(value or ''), quote=True)
 
 def dump(path, content):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temporary=path.with_name(path.name+'.tmp')
-    temporary.write_text(content, encoding='utf-8')
-    replace_with_retry(temporary,path)
+    write_text(path, content)
 
 def jdump(path, value):
     dump(path, json.dumps(value, ensure_ascii=False, separators=(',', ':')))
 
 def copy_file(source, dest):
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    if not dest.exists() or dest.stat().st_size != source.stat().st_size or source.stat().st_mtime > dest.stat().st_mtime:
-        shutil.copy2(source, dest)
+    return cached_copy_file(source, dest)
 
 def asset(path):
     if not path:
@@ -177,6 +175,15 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
     navitems = [('/','首页'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
     navigation = ''.join(f'<a href="{p}"'+(' aria-current="page"' if p==nav else '')+f'>{t}</a>' for p,t in navitems)
     schema = schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':description,'url':canonical,'inLanguage':'zh-CN','isPartOf':{'@type':'WebSite','name':SITE,'url':BASE+'/'},'dateModified':UPDATED}
+    if BUILD_CACHE:
+        dest = OUT/path.strip('/')/'index.html' if path.endswith('/') else OUT/path.lstrip('/')
+        dependency = [title, description, body, nav, {k:v for k,v in schema.items() if k!='dateModified'}, markdown, noindex]
+        outputs = [dest]+([OUT/markdown.lstrip('/')] if markdown else [])
+        skip, modified = BUILD_CACHE.page(path, dependency, outputs)
+        if skip:
+            if not noindex:PAGES.append(path)
+            return
+        if schema.get('@type') != 'CreativeWork':schema['dateModified'] = modified
     social_image=schema.get('image') if schema.get('image','').lower().endswith(('.png','.jpg','.jpeg','.webp')) else BASE+'/assets/og-cover.png'
     social_type='article' if schema['@type']=='CreativeWork' else 'website'
     serialized = json.dumps(schema, ensure_ascii=False).replace('<','\\u003c')
@@ -205,7 +212,10 @@ def search_form(scope=''):
 def prepare_assets():
     OUT.mkdir(exist_ok=True)
     for f in (ROOT/'site/assets').iterdir():
-        copy_file(f, OUT/'assets'/f.name)
+        dest=OUT/'assets'/f.name
+        if f.name in {'site.css','site.js','browse.js','motion.js'} and dest.is_file() and f.read_bytes().replace(b'\r\n',b'\n')==dest.read_bytes().replace(b'\r\n',b'\n'):
+            if BUILD_CACHE:BUILD_CACHE.remember(dest)
+        elif f.name!='logo-a.png':copy_file(f,dest)
     for f in (SOURCE/'media').rglob('*'):
         if f.is_file():
             # Large source video gets a web derivative; original remains in the archive.
@@ -218,8 +228,8 @@ def prepare_assets():
                 subprocess.run([ffmpeg,'-y','-i',str(f),'-vf','scale=1280:-2','-c:v','libx264','-crf','28','-preset','fast','-c:a','aac','-b:a','96k','-movflags','+faststart',str(dest)],check=True,capture_output=True)
                 assert dest.stat().st_size < 24*1024*1024, 'Video derivative too large'
     # Demo HTML runs on a separate origin. Keep original relative paths intact.
-    shutil.copytree(SOURCE/'demos',DEMOS/'demos',dirs_exist_ok=True)
-    shutil.copytree(OUT/'media',DEMOS/'media',dirs_exist_ok=True)
+    shutil.copytree(SOURCE/'demos',DEMOS/'demos',dirs_exist_ok=True,copy_function=copy_file)
+    shutil.copytree(OUT/'media',DEMOS/'media',dirs_exist_ok=True,copy_function=copy_file)
     dump(DEMOS/'robots.txt','User-agent: *\nDisallow: /\n')
     dump(DEMOS/'_headers','/*\n  X-Robots-Tag: noindex, nofollow\n  Referrer-Policy: no-referrer\n  X-Content-Type-Options: nosniff\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n')
     # Preserve full source ZIPs as byte-identical parts when above static asset limit.
@@ -230,6 +240,12 @@ def prepare_assets():
         if f.stat().st_size < 24*1024*1024:
             copy_file(f,OUT/'downloads'/f.name)
         else:
+            old_downloads = json.loads((ROOT/'site/downloads.json').read_text(encoding='utf8')) if (ROOT/'site/downloads.json').exists() else {}
+            old = old_downloads.get('/downloads/'+f.name)
+            from content_cache import sha256_file
+            if BUILD_CACHE and old and old['sha256']==sha256_file(f) and all(BUILD_CACHE.valid_output(OUT/x.lstrip('/')) for x in old['parts']):
+                downloads['/downloads/'+f.name] = old
+                continue
             chunks=[]
             with f.open('rb') as source:
                 n=0
@@ -238,14 +254,18 @@ def prepare_assets():
                     dest=OUT/name.lstrip('/')
                     dest.parent.mkdir(parents=True,exist_ok=True)
                     dest.write_bytes(data)
+                    if BUILD_CACHE:BUILD_CACHE.remember(dest)
                     chunks.append(name)
                     n+=1
-            downloads['/downloads/'+f.name]={'parts':chunks,'size':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+            downloads['/downloads/'+f.name]={'parts':chunks,'size':f.stat().st_size,'sha256':sha256_file(f)}
     jdump(ROOT/'site/downloads.json',downloads)
     fontpath=Path('C:/Windows/Fonts/msyh.ttc')
     if not fontpath.exists():
         fontpath=Path('C:/Windows/Fonts/simhei.ttf')
     # Keep the selected imagegen artwork; resize only for delivery assets.
+    logo_outputs=[OUT/'assets'/name for name in ['logo-a.png','apple-touch-icon.png','og-cover.png','og-cover-en.png']]
+    if BUILD_CACHE and BUILD_CACHE.asset_group('delivery-logo',[ROOT/'site/assets/logo-a.png'],logo_outputs):
+        return
     with Image.open(ROOT/'site/assets/logo-a.png') as logo:
         logo.thumbnail((256,256),Image.Resampling.LANCZOS)
         logo.save(OUT/'assets/logo-a.png',optimize=True)
@@ -260,15 +280,23 @@ def prepare_assets():
             d.multiline_text((65,165),heading,fill='#164b35',font=ImageFont.truetype(str(fontpath) if language=='zh' else 'C:/Windows/Fonts/georgia.ttf',64 if language=='zh' else 58),spacing=18)
             d.text((70,510),'资料馆 ＋ 精选展示' if language=='zh' else 'AN ARCHIVE & CURATED EXHIBITION',fill='#646957',font=ImageFont.truetype(str(fontpath) if language=='zh' else 'C:/Windows/Fonts/consola.ttf',25))
             cover.save(OUT/('assets/og-cover.png' if language=='zh' else 'assets/og-cover-en.png'),optimize=True)
+    if BUILD_CACHE:
+        for path in logo_outputs:BUILD_CACHE.remember(path)
 
 def detail(item, items):
+    modified = UPDATED
+    if BUILD_CACHE:
+        skip, modified = BUILD_CACHE.detail(item,'zh')
+        if skip:
+            PAGES.append(item['path'])
+            return
     item = historical_display(item)
     body = f'<div class="breadcrumb"><a href="/">首页</a> / <a href="/specimens/">馆藏</a> / 标本详情</div>'
     if item.get('batch'):
         body += '<p class="batch-parent">所属实验合集：'+link(item['batch']['path'], item['batch']['title']+' · '+str(item['batch']['total'])+' 个样本 →')+'</p>'
     body = '<div class="page-top">'+body+f'<div class="eyebrow">{e(item["sourceLabel"])} · {e(item["date"])}</div><h1>{e(item["title"])}</h1></div>'
     body += benchmark_record_details(item)
-    facts=[('记录日期',item['date'] or '未记录'),('日期精度',{'day':'日','month':'月（具体日未核实）','year':'年'}.get(item.get('datePrecision'),'按上游记录')),('日期依据',item.get('dateBasis') or '按上游记录，生成日期未独立核实'),('模型（来源标注）',item['model'] or '未标注；不推断'),('模型归属', '按来源保留，未独立认证'),('作者 / 发布者',item['author'] or '请见原始出处'),('形式',item['formatLabel']),('提示词分类',item['promptCategory'] or '未单独记录'),('原始提示词',item['promptStatus']),('更新日期',UPDATED)]
+    facts=[('记录日期',item['date'] or '未记录'),('日期精度',{'day':'日','month':'月（具体日未核实）','year':'年'}.get(item.get('datePrecision'),'按上游记录')),('日期依据',item.get('dateBasis') or '按上游记录，生成日期未独立核实'),('模型（来源标注）',item['model'] or '未标注；不推断'),('模型归属', '按来源保留，未独立认证'),('作者 / 发布者',item['author'] or '请见原始出处'),('形式',item['formatLabel']),('提示词分类',item['promptCategory'] or '未单独记录'),('原始提示词',item['promptStatus']),('更新日期',modified)]
     demo=item.get('demoUrl') or item.get('previewUrl')
     buttons=link(item['sourceUrl'],'查看原始出处 ↗','button')+link('#demo' if demo else '', '在本页操作 ↓' if item.get('interactive') else '观看动画预览 ↓','button secondary')+link(item['externalUrl'],'外部演示 / 分享 ↗','button secondary')+link(item['sourceCodeUrl'],'查看源文件 ↗','button secondary')
     buttons+=link(item.get('licenseUrl'),'署名与许可说明 ↗','button secondary')+''.join(link(url,'许可全文 ↗','button secondary') for url in item.get('licenseFiles',[]))
@@ -359,6 +387,7 @@ def build(items=None,prepare=True):
     for batch, batch_body in batch_pages(items):
         page(batch['path'],batch['title'],batch['description'],batch_body,nav='/specimens/',markdown=batch['path']+'index.md')
         dump(OUT/(batch['path']+'index.md').lstrip('/'), '# '+batch['title']+'\n\n'+batch['description']+'\n\n原始数据集：'+batch['sourceUrl']+'\n\n'+'\n'.join('- ['+x['title']+']('+BASE+x['path']+')' for x in items if x.get('batch',{}).get('id')==batch['id'])+'\n')
+    if BUILD_CACHE:BUILD_CACHE.prepare_details(items,'zh')
     for item in items:
         detail(item,items)
     from bs4 import BeautifulSoup
@@ -374,7 +403,7 @@ def build(items=None,prepare=True):
     build_machine_data(items)
     page('/404.html','页面未找到','页面地址可能有误，或馆藏目录已经调整。',top('这份标本不在这里','页面地址可能有误，或馆藏目录已经调整。')+'<p><a class="button" href="/specimens/">返回馆藏</a></p>',noindex=True)
     dump(OUT/'robots.txt',f'User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /mcp\nDisallow: /_download-parts/\n\nSitemap: {BASE}/sitemap.xml\n')
-    dump(OUT/'sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}{e(p)}</loc><lastmod>{UPDATED}</lastmod></url>' for p in PAGES)+'</urlset>')
+    if not BUILD_CACHE:dump(OUT/'sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}{e(p)}</loc><lastmod>{UPDATED}</lastmod></url>' for p in PAGES)+'</urlset>')
     dump(OUT/'feed.xml','<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>'+SITE+'</title><link>'+BASE+'/</link><description>'+INTRO+'</description>'+''.join(f'<item><title>{e(x["title"])}</title><link>{x["url"]}</link><guid isPermaLink="true">{x["url"]}</guid><description>{e(x["notes"] or x["formatLabel"])}</description></item>' for x in group_records(sorted(timeline,key=lambda x:x['date'],reverse=True))[:30])+'</channel></rss>')
     headers="""/*
   X-Content-Type-Options: nosniff
@@ -476,5 +505,6 @@ GET /api/v1/timeline?family=Gemini&amp;sort=oldest&amp;limit=20</pre>{sections_h
 
 if __name__=='__main__':
     build()
-    from build_english import build as build_english
-    build_english()
+    import build_english
+    build_english.UPDATED=UPDATED
+    build_english.build()

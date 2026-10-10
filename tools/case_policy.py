@@ -5,6 +5,8 @@ live in case-reviews.json. Unresolved comparisons stay reachable as context.
 """
 import copy
 import hashlib
+from content_cache import sha256_file
+from incremental_site import inspect_file
 import json
 import re
 from pathlib import Path
@@ -41,8 +43,11 @@ def static_media(item, root):
     primary = item.get('representativeMedia') or item['media'][0]['src']
     if primary.lower().endswith('.svg'):
         path = Path(root)/primary.lstrip('/')
-        text = path.read_text(encoding='utf8',errors='replace') if path.is_file() else ''
-        return bool(text and not re.search(r'<(?:animate\w*|set|script)\b|@keyframes|\banimation\s*:',text,re.I))
+        if not path.is_file():return False
+        def inspect():
+            text=path.read_text(encoding='utf8',errors='replace')
+            return bool(text and not re.search(r'<(?:animate\w*|set|script)\b|@keyframes|\banimation\s*:',text,re.I))
+        return inspect_file(path,'static-svg',inspect)
     return (item['format'] == 'svg' or (item['source'] == 'zoo' and item['originalForm'] in {'png print','jpg print','jpeg print'})) and not re.search(r'\.(mp4|webm|gif)$',primary,re.I)
 
 
@@ -95,7 +100,7 @@ def apply_case_policy(items, media_root, reviews=None):
             assert item['thumbnail'] == crop['crop'], 'Composite cannot be the cover'
             for key, pathkey in [('sourceSha256','original'),('cropSha256','crop')]:
                 path = Path(media_root)/crop[pathkey].lstrip('/')
-                assert path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest()==crop[key]
+                assert path.is_file() and sha256_file(path)==crop[key]
         static = static_media(item,media_root)
         if static and item['caseVisible']:
             item['format']='svg';item['formatLabel']='静态 SVG'

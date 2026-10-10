@@ -57191,5 +57191,1925 @@
       "reportedToolCalls": true
     },
     "sourcePublicationDate": "2026-10-05"
+  },
+  {
+    "id": "github-managerzhang-astra-official-direct-1157-2026-09-14",
+    "originalId": "github-managerzhang-astra-official-direct-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 官方直连 · 09-14 11:57 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／官方直连 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "c85c94b3a9178a96be1045ca8cdc43aa27c8afc33e01dc77f884771fd9cbd9b5",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            250,
+            406,
+            463
+          ],
+          "pixelSha256": "3509f7b3c0198a42dee01d525a069574b9ad59467ce5d64492154519f8dc02a0"
+        },
+        "caption": "gpt-6-astra／官方直连／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / official-direct / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-official-direct-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-official-direct-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-official-direct-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · official-direct · Sep 14 11:57 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1157.png",
+      "box": [
+        166,
+        250,
+        406,
+        463
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "c85c94b3a9178a96be1045ca8cdc43aa27c8afc33e01dc77f884771fd9cbd9b5",
+      "pixelSha256": "3509f7b3c0198a42dee01d525a069574b9ad59467ce5d64492154519f8dc02a0"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-astra-official-direct-1200-2026-09-14",
+    "originalId": "github-managerzhang-astra-official-direct-1200-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 官方直连 · 09-14 12:00 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／官方直连 通道的 12:00 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1200.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "45ea0cde3c6209ae092d4c18ee6571b99ae97c6ee8125867f89eebf4a92d84b3",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            423,
+            250,
+            663,
+            463
+          ],
+          "pixelSha256": "892e8020cf7db959934e24745aabb21e7a2b4167f18ccb75787143234f85d7c2"
+        },
+        "caption": "gpt-6-astra／官方直连／12:00 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / official-direct / 12:00",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1200.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-official-direct-1200-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-official-direct-1200-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-official-direct-1200-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · official-direct · Sep 14 12:00 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 12:00 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:00 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1200.png",
+      "box": [
+        423,
+        250,
+        663,
+        463
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "45ea0cde3c6209ae092d4c18ee6571b99ae97c6ee8125867f89eebf4a92d84b3",
+      "pixelSha256": "892e8020cf7db959934e24745aabb21e7a2b4167f18ccb75787143234f85d7c2"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-astra-official-direct-1203-2026-09-14",
+    "originalId": "github-managerzhang-astra-official-direct-1203-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 官方直连 · 09-14 12:03 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／官方直连 通道的 12:03 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1203.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "01163f04dbb5f637ecfad4c1aef6922a84eeb99e8bf54bb79d68025ac4ddd99d",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            680,
+            250,
+            920,
+            463
+          ],
+          "pixelSha256": "4fc665d918e6d536b9148e4fbe11491b6a9735aaa954222d8ee1ba3c32049c4c"
+        },
+        "caption": "gpt-6-astra／官方直连／12:03 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / official-direct / 12:03",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1203.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-official-direct-1203-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-official-direct-1203-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-official-direct-1203-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · official-direct · Sep 14 12:03 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 12:03 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:03 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-official-direct-1203.png",
+      "box": [
+        680,
+        250,
+        920,
+        463
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "01163f04dbb5f637ecfad4c1aef6922a84eeb99e8bf54bb79d68025ac4ddd99d",
+      "pixelSha256": "4fc665d918e6d536b9148e4fbe11491b6a9735aaa954222d8ee1ba3c32049c4c"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-astra-proxy-a-1157-2026-09-14",
+    "originalId": "github-managerzhang-astra-proxy-a-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 中转 A · 09-14 11:57 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／中转 A 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "9d0b9fddc6470d8d10c7a05a8d5bae64540ad0686bf309e19a40d89ef2c266ba",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            565,
+            406,
+            779
+          ],
+          "pixelSha256": "ae775cc2f7a93233605b2e142181c8385fc882266c91e61cfcbce9f449b7a565"
+        },
+        "caption": "gpt-6-astra／中转 A／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / proxy-a / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-proxy-a-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-proxy-a-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-proxy-a-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · proxy-a · Sep 14 11:57 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / proxy-a. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "proxy-a",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1157.png",
+      "box": [
+        166,
+        565,
+        406,
+        779
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "9d0b9fddc6470d8d10c7a05a8d5bae64540ad0686bf309e19a40d89ef2c266ba",
+      "pixelSha256": "ae775cc2f7a93233605b2e142181c8385fc882266c91e61cfcbce9f449b7a565"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-astra-proxy-a-1200-2026-09-14",
+    "originalId": "github-managerzhang-astra-proxy-a-1200-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 中转 A · 09-14 12:00 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／中转 A 通道的 12:00 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1200.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "077253f6b9567a6cd3055ccf2fdec9832809d62ae42778a9d3f7dc388e2fdf56",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            423,
+            565,
+            663,
+            779
+          ],
+          "pixelSha256": "1d2e59a253a33aedf83da10683de95c9f8c3315f9e425efd9529fae87c43e9c5"
+        },
+        "caption": "gpt-6-astra／中转 A／12:00 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / proxy-a / 12:00",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1200.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-proxy-a-1200-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-proxy-a-1200-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-proxy-a-1200-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · proxy-a · Sep 14 12:00 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 12:00 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / proxy-a. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "proxy-a",
+      "sourceTimeLabel": "2026-09-14 12:00 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1200.png",
+      "box": [
+        423,
+        565,
+        663,
+        779
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "077253f6b9567a6cd3055ccf2fdec9832809d62ae42778a9d3f7dc388e2fdf56",
+      "pixelSha256": "1d2e59a253a33aedf83da10683de95c9f8c3315f9e425efd9529fae87c43e9c5"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-astra-proxy-a-1203-2026-09-14",
+    "originalId": "github-managerzhang-astra-proxy-a-1203-2026-09-14",
+    "kind": "timeline",
+    "title": "gpt-6-astra · 中转 A · 09-14 12:03 SVG 原预览",
+    "model": "gpt-6-astra",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，gpt-6-astra／中转 A 通道的 12:03 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1203.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "47813be736f6763b98e81a5bf40e952960d481d2e5e8fcaaaf1667d5aca93428",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            680,
+            565,
+            920,
+            779
+          ],
+          "pixelSha256": "5bd82e205dcbda83c9709d8be5cbc51d433fd67f824866dc98604e09fd612616"
+        },
+        "caption": "gpt-6-astra／中转 A／12:03 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: gpt-6-astra / proxy-a / 12:03",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1203.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-astra-proxy-a-1203-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-astra-proxy-a-1203-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-astra-proxy-a-1203-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "gpt-6-astra · proxy-a · Sep 14 12:03 SVG preview",
+        "model": "gpt-6-astra",
+        "notes": "One independent output in the 12:03 column of Yu Zhang's published SVG-code run board, labelled gpt-6-astra / proxy-a. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "gpt-6-astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "proxy-a",
+      "sourceTimeLabel": "2026-09-14 12:03 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/astra-proxy-a-1203.png",
+      "box": [
+        680,
+        565,
+        920,
+        779
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "47813be736f6763b98e81a5bf40e952960d481d2e5e8fcaaaf1667d5aca93428",
+      "pixelSha256": "5bd82e205dcbda83c9709d8be5cbc51d433fd67f824866dc98604e09fd612616"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-opus5-official-direct-1157-2026-09-14",
+    "originalId": "github-managerzhang-opus5-official-direct-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "claude-opus-5 · 官方直连 · 09-14 11:57 SVG 原预览",
+    "model": "claude-opus-5",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，claude-opus-5／官方直连 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "7f2f2c13b51ade1c415589f6504adcee054554687dc7e277beb1e42e60ee1af0",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            912,
+            406,
+            1098
+          ],
+          "pixelSha256": "0f892b0e17bb53c1c0c7173a797d6d4504fb10fa26f1995e03b6ea6f16ef37a7"
+        },
+        "caption": "claude-opus-5／官方直连／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: claude-opus-5 / official-direct / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-opus5-official-direct-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-opus5-official-direct-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-opus5-official-direct-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "claude-opus-5 · official-direct · Sep 14 11:57 SVG preview",
+        "model": "claude-opus-5",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled claude-opus-5 / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "claude-opus-5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1157.png",
+      "box": [
+        166,
+        912,
+        406,
+        1098
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "7f2f2c13b51ade1c415589f6504adcee054554687dc7e277beb1e42e60ee1af0",
+      "pixelSha256": "0f892b0e17bb53c1c0c7173a797d6d4504fb10fa26f1995e03b6ea6f16ef37a7"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-opus5-official-direct-1200-2026-09-14",
+    "originalId": "github-managerzhang-opus5-official-direct-1200-2026-09-14",
+    "kind": "timeline",
+    "title": "claude-opus-5 · 官方直连 · 09-14 12:00 SVG 原预览",
+    "model": "claude-opus-5",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，claude-opus-5／官方直连 通道的 12:00 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1200.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "b526424f8103efa284c01a5002adc7577bf013081f27a36a7d750fcae9063c32",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            423,
+            912,
+            663,
+            1098
+          ],
+          "pixelSha256": "a09ed983f290cfce2878f88c05e36ca68c071252d9427de18839cc2b776dff1b"
+        },
+        "caption": "claude-opus-5／官方直连／12:00 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: claude-opus-5 / official-direct / 12:00",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1200.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-opus5-official-direct-1200-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-opus5-official-direct-1200-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-opus5-official-direct-1200-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "claude-opus-5 · official-direct · Sep 14 12:00 SVG preview",
+        "model": "claude-opus-5",
+        "notes": "One independent output in the 12:00 column of Yu Zhang's published SVG-code run board, labelled claude-opus-5 / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "claude-opus-5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:00 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1200.png",
+      "box": [
+        423,
+        912,
+        663,
+        1098
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "b526424f8103efa284c01a5002adc7577bf013081f27a36a7d750fcae9063c32",
+      "pixelSha256": "a09ed983f290cfce2878f88c05e36ca68c071252d9427de18839cc2b776dff1b"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-opus5-official-direct-1203-2026-09-14",
+    "originalId": "github-managerzhang-opus5-official-direct-1203-2026-09-14",
+    "kind": "timeline",
+    "title": "claude-opus-5 · 官方直连 · 09-14 12:03 SVG 原预览",
+    "model": "claude-opus-5",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，claude-opus-5／官方直连 通道的 12:03 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1203.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "b3595655a3c07fe7375af34e386743b5e432cede7a8b216e713ad0d3c38c7f36",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            680,
+            912,
+            920,
+            1098
+          ],
+          "pixelSha256": "68be076c4670d7d924ae91be4532a66d350fe78fe81a53abfd31ea58d080a092"
+        },
+        "caption": "claude-opus-5／官方直连／12:03 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: claude-opus-5 / official-direct / 12:03",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1203.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-opus5-official-direct-1203-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-opus5-official-direct-1203-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-opus5-official-direct-1203-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "claude-opus-5 · official-direct · Sep 14 12:03 SVG preview",
+        "model": "claude-opus-5",
+        "notes": "One independent output in the 12:03 column of Yu Zhang's published SVG-code run board, labelled claude-opus-5 / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "claude-opus-5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:03 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/opus5-official-direct-1203.png",
+      "box": [
+        680,
+        912,
+        920,
+        1098
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "b3595655a3c07fe7375af34e386743b5e432cede7a8b216e713ad0d3c38c7f36",
+      "pixelSha256": "68be076c4670d7d924ae91be4532a66d350fe78fe81a53abfd31ea58d080a092"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-opus5-proxy-b-1157-2026-09-14",
+    "originalId": "github-managerzhang-opus5-proxy-b-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "claude-opus-5 · 中转 B · 09-14 11:57 SVG 原预览",
+    "model": "claude-opus-5",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，claude-opus-5／中转 B 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/opus5-proxy-b-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "b8bea0d3eb318a10ecec16bf8c0c604bc6aed969e368f00d1d94a8f89917f910",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            1202,
+            406,
+            1425
+          ],
+          "pixelSha256": "398337b3e0e81b62a512dc469ec3c05b60ab5c7be8fa2763857a42929440886e"
+        },
+        "caption": "claude-opus-5／中转 B／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: claude-opus-5 / proxy-b / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/opus5-proxy-b-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-opus5-proxy-b-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-opus5-proxy-b-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-opus5-proxy-b-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "claude-opus-5 · proxy-b · Sep 14 11:57 SVG preview",
+        "model": "claude-opus-5",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled claude-opus-5 / proxy-b. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "claude-opus-5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "proxy-b",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/opus5-proxy-b-1157.png",
+      "box": [
+        166,
+        1202,
+        406,
+        1425
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "b8bea0d3eb318a10ecec16bf8c0c604bc6aed969e368f00d1d94a8f89917f910",
+      "pixelSha256": "398337b3e0e81b62a512dc469ec3c05b60ab5c7be8fa2763857a42929440886e"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-deepseekv4pro-official-direct-1157-2026-09-14",
+    "originalId": "github-managerzhang-deepseekv4pro-official-direct-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "deepseek-v4-pro · 官方直连 · 09-14 11:57 SVG 原预览",
+    "model": "deepseek-v4-pro",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，deepseek-v4-pro／官方直连 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a14d80a209db00b8ee430f620fec17a25c875c84f8ce5e740bd213b9c7cc670a",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            1536,
+            406,
+            1762
+          ],
+          "pixelSha256": "0979bff2045dd440979513ca25f9ddb4dbeb1be5b610b4ae304f8993d80781c7"
+        },
+        "caption": "deepseek-v4-pro／官方直连／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: deepseek-v4-pro / official-direct / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-deepseekv4pro-official-direct-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "deepseek-v4-pro · official-direct · Sep 14 11:57 SVG preview",
+        "model": "deepseek-v4-pro",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled deepseek-v4-pro / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "deepseek-v4-pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1157.png",
+      "box": [
+        166,
+        1536,
+        406,
+        1762
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "a14d80a209db00b8ee430f620fec17a25c875c84f8ce5e740bd213b9c7cc670a",
+      "pixelSha256": "0979bff2045dd440979513ca25f9ddb4dbeb1be5b610b4ae304f8993d80781c7"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-deepseekv4pro-official-direct-1200-2026-09-14",
+    "originalId": "github-managerzhang-deepseekv4pro-official-direct-1200-2026-09-14",
+    "kind": "timeline",
+    "title": "deepseek-v4-pro · 官方直连 · 09-14 12:00 SVG 原预览",
+    "model": "deepseek-v4-pro",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，deepseek-v4-pro／官方直连 通道的 12:00 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1200.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "68c5d52dc684b5300c4be9a8851c875efb858a5f957fae80feea0244261071a9",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            423,
+            1536,
+            663,
+            1762
+          ],
+          "pixelSha256": "fe8482ef2f15f1f580b46c6fae34b747638a29caff432650be359c8b67f0cd5f"
+        },
+        "caption": "deepseek-v4-pro／官方直连／12:00 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: deepseek-v4-pro / official-direct / 12:00",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1200.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1200-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-deepseekv4pro-official-direct-1200-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1200-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "deepseek-v4-pro · official-direct · Sep 14 12:00 SVG preview",
+        "model": "deepseek-v4-pro",
+        "notes": "One independent output in the 12:00 column of Yu Zhang's published SVG-code run board, labelled deepseek-v4-pro / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "deepseek-v4-pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:00 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1200.png",
+      "box": [
+        423,
+        1536,
+        663,
+        1762
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "68c5d52dc684b5300c4be9a8851c875efb858a5f957fae80feea0244261071a9",
+      "pixelSha256": "fe8482ef2f15f1f580b46c6fae34b747638a29caff432650be359c8b67f0cd5f"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-deepseekv4pro-official-direct-1203-2026-09-14",
+    "originalId": "github-managerzhang-deepseekv4pro-official-direct-1203-2026-09-14",
+    "kind": "timeline",
+    "title": "deepseek-v4-pro · 官方直连 · 09-14 12:03 SVG 原预览",
+    "model": "deepseek-v4-pro",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，deepseek-v4-pro／官方直连 通道的 12:03 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1203.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "db0de161e6dd137368911c91df9dde633a239ead9b11b5888cd3f903c6dcd2e8",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            680,
+            1536,
+            920,
+            1762
+          ],
+          "pixelSha256": "7d484641659fe6d0dc754ea6ecffceb2f5dbdef51a3f36e9be4983cea4535a39"
+        },
+        "caption": "deepseek-v4-pro／官方直连／12:03 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: deepseek-v4-pro / official-direct / 12:03",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1203.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1203-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-deepseekv4pro-official-direct-1203-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-deepseekv4pro-official-direct-1203-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "deepseek-v4-pro · official-direct · Sep 14 12:03 SVG preview",
+        "model": "deepseek-v4-pro",
+        "notes": "One independent output in the 12:03 column of Yu Zhang's published SVG-code run board, labelled deepseek-v4-pro / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "deepseek-v4-pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:03 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/deepseekv4pro-official-direct-1203.png",
+      "box": [
+        680,
+        1536,
+        920,
+        1762
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "db0de161e6dd137368911c91df9dde633a239ead9b11b5888cd3f903c6dcd2e8",
+      "pixelSha256": "7d484641659fe6d0dc754ea6ecffceb2f5dbdef51a3f36e9be4983cea4535a39"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-qwen38max-official-direct-1157-2026-09-14",
+    "originalId": "github-managerzhang-qwen38max-official-direct-1157-2026-09-14",
+    "kind": "timeline",
+    "title": "qwen3.8-max · 官方直连 · 09-14 11:57 SVG 原预览",
+    "model": "qwen3.8-max",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，qwen3.8-max／官方直连 通道的 11:57 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1157.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "5a38bb0e670e9e5816c74cc7a0b0a7f90c3ec4454d6575c75868302c83edf3da",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            166,
+            1878,
+            406,
+            2110
+          ],
+          "pixelSha256": "0d2e6d58c85a9480644664e183f3c589c08196ec299a96e3658abb8301247764"
+        },
+        "caption": "qwen3.8-max／官方直连／11:57 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: qwen3.8-max / official-direct / 11:57",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1157.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-qwen38max-official-direct-1157-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-qwen38max-official-direct-1157-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-qwen38max-official-direct-1157-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "qwen3.8-max · official-direct · Sep 14 11:57 SVG preview",
+        "model": "qwen3.8-max",
+        "notes": "One independent output in the 11:57 column of Yu Zhang's published SVG-code run board, labelled qwen3.8-max / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen3.8-max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 11:57 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1157.png",
+      "box": [
+        166,
+        1878,
+        406,
+        2110
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "5a38bb0e670e9e5816c74cc7a0b0a7f90c3ec4454d6575c75868302c83edf3da",
+      "pixelSha256": "0d2e6d58c85a9480644664e183f3c589c08196ec299a96e3658abb8301247764"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-qwen38max-official-direct-1200-2026-09-14",
+    "originalId": "github-managerzhang-qwen38max-official-direct-1200-2026-09-14",
+    "kind": "timeline",
+    "title": "qwen3.8-max · 官方直连 · 09-14 12:00 SVG 原预览",
+    "model": "qwen3.8-max",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，qwen3.8-max／官方直连 通道的 12:00 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1200.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "2a575f98058d8cb613b29623e4c93076b6444f9d435bf5e3948ab2f38e1531f6",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            423,
+            1878,
+            663,
+            2110
+          ],
+          "pixelSha256": "5ba60363c3e268dd2907ee65872bb8f5f4ff0cf577c975f2e92e4e46920ae7bb"
+        },
+        "caption": "qwen3.8-max／官方直连／12:00 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: qwen3.8-max / official-direct / 12:00",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1200.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-qwen38max-official-direct-1200-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-qwen38max-official-direct-1200-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-qwen38max-official-direct-1200-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "qwen3.8-max · official-direct · Sep 14 12:00 SVG preview",
+        "model": "qwen3.8-max",
+        "notes": "One independent output in the 12:00 column of Yu Zhang's published SVG-code run board, labelled qwen3.8-max / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen3.8-max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:00 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1200.png",
+      "box": [
+        423,
+        1878,
+        663,
+        2110
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "2a575f98058d8cb613b29623e4c93076b6444f9d435bf5e3948ab2f38e1531f6",
+      "pixelSha256": "5ba60363c3e268dd2907ee65872bb8f5f4ff0cf577c975f2e92e4e46920ae7bb"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
+  },
+  {
+    "id": "github-managerzhang-qwen38max-official-direct-1203-2026-09-14",
+    "originalId": "github-managerzhang-qwen38max-official-direct-1203-2026-09-14",
+    "kind": "timeline",
+    "title": "qwen3.8-max · 官方直连 · 09-14 12:03 SVG 原预览",
+    "model": "qwen3.8-max",
+    "author": "Yu Zhang (@ManagerZhang10)",
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "notes": "Yu Zhang 的公开 SVG 代码实跑看板中，qwen3.8-max／官方直连 通道的 12:03 列独立输出。作者说明 2026-09-14 实跑，画面对应关系由行内模型标签和列内时间核定。此件仅保存原看板中的忠实像素裁切，完整原图另保留；原 SVG 响应未公开。推理档位、真实服务商和确切生成秒数未独立核实，不把标签视为模型认证；不根据效果选择时间线代表，不复用上游通道诊断结论。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-run-day",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1203.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "2a3dc43075c5050198b10dab5717a0bb651b6e3b5e26b54bf8192aaad3c376c1",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+          "box": [
+            680,
+            1878,
+            920,
+            2110
+          ],
+          "pixelSha256": "51a6a8c94e14411ce2c57cfe761bf91fd94ed25e7c379ffe37ac64a167a6865d"
+        },
+        "caption": "qwen3.8-max／官方直连／12:03 单件原预览忠实裁切",
+        "captionEn": "Faithful crop: qwen3.8-max / official-direct / 12:03",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+        "source": "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png",
+        "sha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+        "detailOnly": true,
+        "caption": "完整原始看板：保留模型、轮次标签和失败格，不增加作品数",
+        "captionEn": "Complete original board with model/time labels and failure cells; no additional work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1203.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/github-managerzhang-qwen38max-official-direct-1203-2026-09-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-managerzhang-qwen38max-official-direct-1203-2026-09-14/",
+    "markdown": "/specimens/github-managerzhang-qwen38max-official-direct-1203-2026-09-14/index.md",
+    "updated": "2026-10-10",
+    "rights": "MIT License；Copyright (c) 2026 Yu Zhang。完整许可副本与作者原图均保留。",
+    "i18n": {
+      "en": {
+        "title": "qwen3.8-max · official-direct · Sep 14 12:03 SVG preview",
+        "model": "qwen3.8-max",
+        "notes": "One independent output in the 12:03 column of Yu Zhang's published SVG-code run board, labelled qwen3.8-max / official-direct. The author dates the runs to 2026-09-14. Row and column labels establish the displayed mapping. This is a faithful pixel crop of the original board; the full image is retained. Raw SVG responses are not published. Reasoning effort, actual provider identity and exact generation seconds are not independently verified. No timeline representative or channel-integrity verdict is inferred.",
+        "rights": "MIT License; Copyright (c) 2026 Yu Zhang. The full license and original board are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/assets/README.md",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/LICENSE",
+        "https://github.com/ManagerZhang10/pelican-bicycle-eval/commit/5100a5c85fe6236a3eb26ad789fceb0d141602c2",
+        "https://raw.githubusercontent.com/ManagerZhang10/pelican-bicycle-eval/bc348899df97cc6adabd51b07facec26a2738672/assets/board.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen3.8-max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/ManagerZhang10/pelican-bicycle-eval/blob/bc348899df97cc6adabd51b07facec26a2738672/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "channel": "official-direct",
+      "sourceTimeLabel": "2026-09-14 12:03 Asia/Shanghai",
+      "maxTokens": 32000,
+      "streaming": true,
+      "reasoningEffort": null,
+      "sourceCommit": "bc348899df97cc6adabd51b07facec26a2738672"
+    },
+    "sourcePublicationDate": "2026-09-14",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-10-incremental-trial/managerzhang-board-original.png",
+      "crop": "/media/collected/2026-10-10-incremental-trial/qwen38max-official-direct-1203.png",
+      "box": [
+        680,
+        1878,
+        920,
+        2110
+      ],
+      "sourceSha256": "a11fa28770134d4f019e08c8be5a7320a8bf4eccca37dcac3439c0c062d39e45",
+      "cropSha256": "2a3dc43075c5050198b10dab5717a0bb651b6e3b5e26b54bf8192aaad3c376c1",
+      "pixelSha256": "51a6a8c94e14411ce2c57cfe761bf91fd94ed25e7c379ffe37ac64a167a6865d"
+    },
+    "licenseFiles": [
+      "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
+    ]
   }
 ]

@@ -1,6 +1,7 @@
 """Explicit, source-checked repairs to existing records, shared by publishers."""
 import copy
 import hashlib
+from content_cache import sha256_file
 import json
 from pathlib import Path
 
@@ -33,7 +34,7 @@ def apply_record_overrides(items, media_root=None):
                 assert media['src'].startswith('/media/')
                 path = (root/media['src'].lstrip('/')).resolve()
                 assert path.is_relative_to(root) and path.is_file(), str(path)
-                assert hashlib.sha256(path.read_bytes()).hexdigest() == media['sha256'], str(path)
+                assert sha256_file(path) == media['sha256'], str(path)
         item.update(copy.deepcopy(fields))
         matched.add(item['id'])
     assert matched == set(overrides), 'Repair target is missing'

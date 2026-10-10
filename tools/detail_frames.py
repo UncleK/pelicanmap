@@ -1,5 +1,6 @@
 """Faithful video frames for detail galleries, never additional archival works."""
 import hashlib
+from content_cache import sha256_file
 import json
 from pathlib import Path
 
@@ -19,7 +20,7 @@ def apply_detail_frames(items, output):
             for frame in row['frames']:
                 local = Path(output)/frame['src'].lstrip('/')
                 assert local.is_file(), frame['src']
-                assert hashlib.sha256(local.read_bytes()).hexdigest() == frame['sha256'], frame['src']
+                assert sha256_file(local) == frame['sha256'], frame['src']
                 frames.append({**frame,'sourceMedia':media['src'],'sourceType':'video' if media['src'] in manifest['videos'] else 'animation','sourceSha256':row['sourceSha256'],
                                'sourceUrl':media.get('source') or item['sourceUrl']})
         if frames:
@@ -43,7 +44,7 @@ def generate():
     result={'version':'2026-10-02','method':'Original decoded pixels at 20/40/60/80 percent duration or original animation frame indexes, no resize or redraw; supplemental views, not new works.','videos':{},'animations':{}}
     for src in sorted(videos):
         local=ROOT/'pelican-web'/src.lstrip('/')
-        raw_hash=hashlib.sha256(local.read_bytes()).hexdigest()
+        raw_hash=sha256_file(local)
         probe=json.loads(subprocess.check_output([ffprobe,'-v','error','-show_format','-show_streams','-of','json',str(local)]))
         duration=float(probe['format']['duration'])
         stream=next(s for s in probe['streams'] if s['codec_type']=='video')
@@ -63,7 +64,7 @@ def generate():
                     row['skipped'].append({'second':second,'reason':reason});continue
                 seen.add(pixels)
             row['frames'].append({'src':'/'+target.relative_to(ROOT/'pelican-web').as_posix(), 'second':second,
-                                  'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'pixelSha256':pixels})
+                                  'sha256':sha256_file(target),'pixelSha256':pixels})
         result['videos'][src]=row
     animations={m['src'] for x in catalog['items'] if not x.get('referenceOnly') and x.get('caseVisible') is not False
                 for m in x['media'] if not m.get('detailOnly') and Path(m['src']).suffix.lower() in {'.gif','.webp','.png'} and m['src'].startswith('/media/')}
@@ -71,7 +72,7 @@ def generate():
         local=ROOT/'pelican-web'/src.lstrip('/')
         with Image.open(local) as im:
             if not getattr(im,'is_animated',False):continue
-            raw_hash=hashlib.sha256(local.read_bytes()).hexdigest()
+            raw_hash=sha256_file(local)
             durations=[]
             for n in range(im.n_frames):
                 im.seek(n);durations.append(im.info.get('duration',0))
@@ -86,7 +87,7 @@ def generate():
                 seen.add(pixel_hash)
                 target=dest/(raw_hash[:20]+'-frame-'+str(n)+'.png')
                 frame.save(target,optimize=True)
-                data={'src':'/'+target.relative_to(ROOT/'pelican-web').as_posix(),'frameIndex':n,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'pixelSha256':pixel_hash}
+                data={'src':'/'+target.relative_to(ROOT/'pelican-web').as_posix(),'frameIndex':n,'sha256':sha256_file(target),'pixelSha256':pixel_hash}
                 if valid_time:data['second']=round(elapsed[n],3)
                 row['frames'].append(data)
             if row['frames']:result['animations'][src]=row

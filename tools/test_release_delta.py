@@ -59,6 +59,31 @@ class ReleaseDeltaTests(unittest.TestCase):
             delta.apply(self.archive, self.previous, self.root/'new')
         self.assertFalse((self.root/'new').exists())
 
+    def test_unchanged_files_share_storage_and_replacements_preserve_rollback(self):
+        target = self.root/'new'
+        result = delta.apply(self.archive, self.previous, target)
+        self.assertEqual((target/'site/media/unchanged.mp4').stat().st_ino,
+                         (self.previous/'site/media/unchanged.mp4').stat().st_ino)
+        self.assertNotEqual((target/'site/media/replaced.svg').stat().st_ino,
+                            (self.previous/'site/media/replaced.svg').stat().st_ino)
+        self.assertGreater(result['reusedFiles'], 0)
+
+    def test_cached_baseline_rejects_modified_inherited_files(self):
+        cache = self.root/'cache'
+        self.assertEqual(delta.cached_inventory(self.previous, cache), self.baseline)
+        self.write(self.previous/'site/media/unchanged.mp4', 'parallel modification')
+        with self.assertRaisesRegex(ValueError, 'baseline changed'):
+            delta.apply(self.archive, self.previous, self.root/'new', cache_dir=cache)
+        self.assertFalse((self.root/'new').exists())
+
+    def test_content_only_package_reuses_installed_runtime(self):
+        delta.package(self.source, self.baseline, self.archive, include_runtime=False)
+        with tarfile.open(self.archive) as archive:
+            self.assertNotIn('runtime/server.mjs', archive.getnames())
+        delta.apply(self.archive, self.previous, self.root/'new', cache_dir=self.root/'cache')
+        self.assertEqual((self.root/'new/runtime/server.mjs').read_text(), 'old API')
+        self.assertEqual(delta.cached_inventory(self.root/'new', self.root/'cache')['release'], 'new')
+
     def test_missing_local_old_media_is_retained_without_deleting_it(self):
         (self.source/'public-site/media/unchanged.mp4').unlink()
         delta.package(self.source, self.baseline, self.archive)

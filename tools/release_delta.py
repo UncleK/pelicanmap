@@ -7,6 +7,7 @@ import os
 from pathlib import Path, PurePosixPath
 import shutil
 import tarfile
+from content_cache import cached_hashes, sha256_file
 
 MANIFEST = 'release-delta.json'
 
@@ -32,8 +33,7 @@ def safe_file(root, relative):
 
 
 def metadata(path):
-    with Path(path).open('rb') as stream:
-        digest = hashlib.file_digest(stream, 'sha256').hexdigest()
+    digest = sha256_file(path)
     return {'bytes': Path(path).stat().st_size, 'sha256': digest}
 
 
@@ -90,6 +90,44 @@ def inventory(release):
             'recordHashes': record_hashes(release / 'site/data/catalog.json')}
 
 
+def file_stats(release):
+    """Detect changes to immutable inputs without reading old media bytes."""
+    sources = {}
+    for name in ('site', 'demos', 'runtime'):
+        sources.update(files_under(Path(release) / name, name))
+    result = {}
+    for name, path in sorted(sources.items()):
+        stat = path.stat()
+        result[name] = [stat.st_dev, stat.st_ino, stat.st_size, stat.st_mtime_ns]
+    return result
+
+
+def save_inventory(release, value, cache_dir):
+    release = Path(release).resolve(strict=True)
+    cache_dir = Path(cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    target = cache_dir / (release.name + '.json')
+    temporary = target.with_suffix('.next.json')
+    payload = {'root': str(release), 'inventory': value, 'stats': file_stats(release)}
+    temporary.write_text(json.dumps(payload, sort_keys=True), encoding='utf8')
+    temporary.chmod(0o600)
+    temporary.replace(target)
+
+
+def cached_inventory(release, cache_dir):
+    release = Path(release).resolve(strict=True)
+    target = Path(cache_dir) / (release.name + '.json')
+    if not target.exists():
+        value = inventory(release)
+        save_inventory(release, value, cache_dir)
+        return value
+    cached = json.loads(target.read_text(encoding='utf8'))
+    if (cached['root'] != str(release) or cached['inventory']['release'] != release.name or
+            cached['stats'] != file_stats(release)):
+        raise ValueError('Live baseline changed since its verified inventory')
+    return cached['inventory']
+
+
 def verify_files(root, expected):
     for relative, row in expected.items():
         path = safe_file(root, relative)
@@ -97,15 +135,17 @@ def verify_files(root, expected):
             raise ValueError('Release content mismatch: ' + relative)
 
 
-def package(root, baseline, destination):
+def package(root, baseline, destination, *, include_runtime=True):
     root = Path(root)
     if baseline.get('version') != 1 or not baseline.get('files') or 'recordHashes' not in baseline:
         raise ValueError('A complete verified release inventory is required')
     sources = files_under(root / 'public-site', 'site')
     sources.update(files_under(root / 'public-demos', 'demos'))
-    sources['runtime/server.mjs'] = root / 'deploy-build/server.mjs'
+    if include_runtime:
+        sources['runtime/server.mjs'] = root / 'deploy-build/server.mjs'
     sources['site/downloads/pedalican.zip'] = root / 'pelican-web/repos/pedalican.zip'
-    current = {name: metadata(path) for name, path in sorted(sources.items())}
+    with cached_hashes(root/'deploy-build/local-file-hashes.json') as hash_cache:
+        current = {name: metadata(path) for name, path in sorted(sources.items())}
     new_ids = records(root / 'public-site/data/catalog.json')
     new_hashes = record_hashes(root / 'public-site/data/catalog.json')
     if not set(baseline['recordIds']) <= set(new_ids):
@@ -152,10 +192,11 @@ def package(root, baseline, destination):
         raise
     return {'archive': str(destination), 'changedFiles': len(changed),
             'removedPages': len(removed), 'payloadBytes': sum(x['bytes'] for x in changed.values()),
-            'archiveBytes': destination.stat().st_size, 'baseRelease': baseline['release']}
+            'archiveBytes': destination.stat().st_size, 'baseRelease': baseline['release'],
+            'hashing': hash_cache.stats}
 
 
-def apply(archive_path, previous, target):
+def apply(archive_path, previous, target, *, cache_dir=None):
     previous = Path(previous).resolve(strict=True)
     target = Path(target)
     if target.exists() or target.is_symlink():
@@ -169,7 +210,8 @@ def apply(archive_path, previous, target):
         if manifest.get('version') != 1:
             raise ValueError('Unsupported release delta')
         baseline = manifest['baseline']
-        if previous.name != baseline['release'] or inventory(previous) != baseline:
+        actual = cached_inventory(previous, cache_dir) if cache_dir else inventory(previous)
+        if previous.name != baseline['release'] or actual != baseline:
             raise ValueError('Live baseline changed; rebuild the delta instead of overwriting it')
         if set(names) != {MANIFEST, *manifest['changed']}:
             raise ValueError('Archive payload differs from its reviewed file manifest')
@@ -189,7 +231,9 @@ def apply(archive_path, previous, target):
                 digest = hashlib.file_digest(stream, 'sha256').hexdigest()
             if member.size != row['bytes'] or digest != row['sha256']:
                 raise ValueError('Uploaded file hash mismatch: ' + name)
-        shutil.copytree(previous, target, symlinks=True)
+        # Immutable old files are shared. Every replacement uses a new inode,
+        # preserving the previous release and avoiding a full media copy.
+        shutil.copytree(previous, target, symlinks=True, copy_function=os.link)
         for name in manifest['changed']:
             path = safe_file(target, name)
             if path.is_symlink():
@@ -201,10 +245,18 @@ def apply(archive_path, previous, target):
             temporary.replace(path)
         for name in manifest['removed']:
             safe_file(target, name).unlink()
-        verify_files(target, manifest['files'])
+        verify_files(target, manifest['changed'])
+        if set(file_stats(target)) != set(manifest['files']):
+            raise ValueError('Candidate file set differs from the reviewed manifest')
         if records(target / 'site/data/catalog.json') != manifest['recordIds'] or not set(baseline['recordIds']) <= set(manifest['recordIds']):
             raise ValueError('Delta must preserve all live record IDs')
-        return {'changedFiles': len(manifest['changed']), 'verifiedFiles': len(manifest['files']),
+        if cache_dir:
+            save_inventory(target, {'version': 1, 'release': target.name,
+                'files': manifest['files'], 'recordIds': manifest['recordIds'],
+                'recordHashes': record_hashes(target / 'site/data/catalog.json')}, cache_dir)
+        return {'changedFiles': len(manifest['changed']), 'verifiedFiles': len(manifest['changed']),
+                'reusedFiles': len(manifest['files']) - len(manifest['changed']),
+                'verifiedBytes': sum(row['bytes'] for row in manifest['changed'].values()),
                 'release': str(target), 'baseRelease': previous.name}
 
 
@@ -214,23 +266,27 @@ def main():
     snapshot = commands.add_parser('inventory')
     snapshot.add_argument('--release-root', type=Path, required=True)
     snapshot.add_argument('--output', type=Path, required=True)
+    snapshot.add_argument('--cache-dir', type=Path)
     pack = commands.add_parser('package')
     pack.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
     pack.add_argument('--baseline', type=Path, required=True)
     pack.add_argument('--output', type=Path, required=True)
+    pack.add_argument('--content-only', action='store_true')
     activate = commands.add_parser('apply')
     activate.add_argument('--archive', type=Path, required=True)
     activate.add_argument('--previous', type=Path, required=True)
     activate.add_argument('--target', type=Path, required=True)
+    activate.add_argument('--cache-dir', type=Path)
     args = parser.parse_args()
     if args.command == 'inventory':
-        result = inventory(args.release_root)
+        result = cached_inventory(args.release_root, args.cache_dir) if args.cache_dir else inventory(args.release_root)
         args.output.write_text(json.dumps(result, ensure_ascii=False, sort_keys=True), encoding='utf8')
         result = {'release': result['release'], 'files': len(result['files']), 'output': str(args.output)}
     elif args.command == 'package':
-        result = package(args.root, json.loads(args.baseline.read_text(encoding='utf8')), args.output)
+        result = package(args.root, json.loads(args.baseline.read_text(encoding='utf8')), args.output,
+                         include_runtime=not args.content_only)
     else:
-        result = apply(args.archive, args.previous, args.target)
+        result = apply(args.archive, args.previous, args.target, cache_dir=args.cache_dir)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

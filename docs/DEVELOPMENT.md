@@ -12,6 +12,8 @@ The GitHub Pages site is English by default, with its Chinese translation under 
 
 The generators operate on a complete maintainer workspace. This public Git checkout intentionally omits third-party full media, executable demos, source ZIPs and historical research logs. Therefore `npm run build` and archival preservation tests are not a fresh-clone quickstart.
 
+In an existing maintainer workspace, `npm run build` uses dependency-aware generation. Unchanged bilingual details, media inspections and verified file hashes are reused; compilation dates alone do not rewrite old details. Real changes to chronological display numbers, relationships or shared rendering code still invalidate affected outputs. `npm run build:full` is the explicit complete-recovery entry. Both commands prefer the workspace `.venv`, falling back to system Python only when it is absent.
+
 Install Python 3.12+ dependencies with `python -m pip install -r requirements.txt`. Large-video derivatives additionally require FFmpeg. In a complete maintainer workspace, preserve original files and use the established sequence:
 
 ```bash
@@ -33,6 +35,10 @@ npm run bundle:server
 Some historical regression tests explicitly use before/after research snapshots not shipped in Git. Run those in the original archive; do not replace evidence with fabricated fixtures. Production updates use a pinned live release inventory and upload only files whose SHA-256 changed, including added or replaced media and demos. Unchanged files and original archives are preserved. The server applies the package to a separate release under the shared lock, rejects a changed baseline or missing old IDs, verifies file hashes, then performs the existing health check and atomic switch. Initial deployment or an unavailable trustworthy baseline requires a full package. Private credentials and operational deployment instructions stay outside this repository.
 
 Routine reviewed additions and replacements validate changed media, affected bilingual pages, catalog parity and links; live checks cover affected records, media and changed exports. Full historical regressions and broad browser checks are reserved for changes to shared generators, presentation, counting or API behavior. `python -B tools/test_release_delta.py` tests new/replaced media, preserved originals, concurrent baseline changes, tampered uploads and unsafe removals.
+
+The maintainer batch entry is `tools/publish_incremental.py` with `prepare`, `build`, `publish` and standalone `verify` phases. It synchronizes the live baseline before import, packages only changed public files and publisher sources, and preserves rollback releases. Ordinary content updates reuse the API runtime and do not rebuild the website on the server. Activation regression receipts are reused only for the exact helper/test version. The old per-item ingestion publisher now refuses execution; intake remains available for batch review.
+
+Local caches live under `deploy-build/` and are not published. File identity, size and timestamps must still match before a cached SHA-256 is reused. Changed/missing outputs and changes to shared generators invalidate their dependencies. Public acceptance checks stable entry URLs as well as versioned URLs; a stale CDN export remains incomplete until its actual bytes are verified. Cache recovery must not reimport already published works or repeat deployment. Operational credentials, current queues and private research receipts remain in the maintainer workspace.
 
 ## Shared implementation
 

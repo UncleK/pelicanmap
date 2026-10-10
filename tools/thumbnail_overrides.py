@@ -1,6 +1,7 @@
 """Apply reviewed source-video poster replacements without changing originals."""
 import copy
 import hashlib
+from content_cache import sha256_file
 import json
 from pathlib import Path
 
@@ -27,13 +28,13 @@ def apply_thumbnail_overrides(items, media_root=None):
         media_root = Path(media_root) if media_root is not None else ROOT / 'pelican-web'
         path = (media_root / override['poster'].lstrip('/')).resolve()
         assert path.is_relative_to((media_root / 'media').resolve())
-        assert hashlib.sha256(path.read_bytes()).hexdigest() == override['sha256']
+        assert sha256_file(path) == override['sha256']
         if override_type == 'source-video-frame':
             source_media['poster'] = override['poster']
         elif override_type == 'svg-render':
             original_path=(media_root / source_path.lstrip('/')).resolve()
             assert original_path.is_relative_to((media_root / 'media').resolve())
-            assert hashlib.sha256(original_path.read_bytes()).hexdigest()==override['sourceSha256']
+            assert sha256_file(original_path)==override['sourceSha256']
             source_media['preview']=override['poster']
             source_media['caption']=override['caption']
             source_media['captionEn']=override['captionEn']

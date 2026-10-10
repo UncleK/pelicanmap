@@ -170,60 +170,12 @@ def make_record(p,provenance,images):
       'ingestion':{'sourceChecked':True,'imagesChecked':True,'contentHashes':[hashlib.sha256(b).hexdigest() for b in images],'sourceVerification':provenance['warning'] or 'source-attributed'}}
 
 def publish(p):
-    import fcntl
-    STATE.mkdir(parents=True,exist_ok=True)
-    with (STATE/'publish.lock').open('a') as lock:
-        fcntl.flock(lock,fcntl.LOCK_EX)
-        source=verify_source(p)
-        images=[verify_image(fetch(u,10_000_000)) for u in p['media']]
-        item=make_record(p,source,images)
-        previous=CURRENT.resolve();catalog=json.loads((previous/'site/data/catalog.json').read_text(encoding='utf8'))
-        if any(x['id']==item['id'] for x in catalog['items']):return {'status':'duplicate','recordUrl':item['url'],'recordId':item['id']}
-        if any(x.get('sourceUrl')==item['sourceUrl'] and x.get('ingestion',{}).get('contentHashes')==item['ingestion']['contentHashes'] for x in catalog['items']):raise ValueError('Duplicate source and image content')
-        release=previous.parent/(dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')+'-auto')
-        subprocess.run(['cp','-al',str(previous),str(release)],check=True)
-        for m,image in zip(item['media'],images):
-            dest=release/'site'/m['src'].lstrip('/');dest.parent.mkdir(parents=True,exist_ok=True)
-            if not dest.exists():dest.write_bytes(image)
-        os.environ['PELICAN_OUTPUT_DIR']=str(release/'site')
-        import build_public_site as zh
-        import build_english as en
-        zh.OUT=release/'site';en.OUT=release/'site'
-        zh.UPDATED=dt.datetime.now(dt.timezone.utc).date().isoformat();en.UPDATED=zh.UPDATED
-        zh.build(items=catalog['items']+[item],prepare=False)
-        en.build()
-        for edition in ['', 'en/']:
-            built=json.loads((release/'site'/edition/'data/catalog.json').read_text(encoding='utf8'))
-            assert len(built['items'])==len(catalog['items'])+1
-            assert (release/'site'/edition/item['path'].lstrip('/')/'index.html').exists()
-            assert all(x['thumbnail'] for x in built['items'])
-        # Generated files and media are read-only to the web services.
-        subprocess.run(['chmod','-R','a+rX,go-w',str(release)],check=True)
-        next_link=CURRENT.with_name('current.auto-next')
-        next_link.symlink_to(release);next_link.replace(CURRENT)
-        base_ids={zh.normalize(record,kind)['id'] for kind in ['gallery','timeline'] for record in zh.DATA[kind]}
-        additions=[x for x in catalog['items']+[item] if x['id'] not in base_ids]
-        atomic_json(STATE/'additions.json',additions)
-        # Retention failure must not report a successfully published job as failed.
-        try:
-            prune_releases(CURRENT.parent)
-        except Exception as err:
-            print('Release retention deferred: '+str(err),file=sys.stderr,flush=True)
-        return {'status':'published','recordUrl':item['url'],'recordId':item['id'],'englishUrl':BASE+'/en'+item['path']}
+    raise RuntimeError('Legacy per-item publication is disabled; use the reviewed batch incremental publisher')
+
 
 def process_jobs():
-    for marker in sorted((STATE/'pending').glob('*.job')):
-        path=STATE/'jobs'/(marker.stem+'.json')
-        job=json.loads(path.read_text(encoding='utf8'))
-        if job['status'] not in {'queued','processing'}:
-            marker.unlink(missing_ok=True);continue
-        job['status']='processing';atomic_json(path,job)
-        try:job.update(publish(validate(job['submission'])))
-        except Exception as err:
-            job.update(status='needs_review',error=str(err)[:250])
-        job['finishedAt']=dt.datetime.now(dt.timezone.utc).isoformat();atomic_json(path,job)
-        marker.unlink(missing_ok=True)
-        print(json.dumps({'id':job['id'],'status':job['status']},ensure_ascii=False),flush=True)
+    # Preserve every queued marker and original submission for the batch reviewer.
+    raise RuntimeError('Legacy automatic publication is disabled; queued submissions remain available for review')
 
 class Handler(BaseHTTPRequestHandler):
     server_version='PelicanMap'
@@ -260,7 +212,7 @@ class Handler(BaseHTTPRequestHandler):
                     if len(list((STATE/'jobs').glob('*.json')))>=10000:return self.reply(429,{'error':'Submission archive capacity reached'})
                     job={'id':ident,'status':'queued','receivedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'submission':p};atomic_json(path,job)
                     (STATE/'pending'/(ident+'.job')).touch()
-            return self.reply(202,{'id':ident,'status':job['status'],'statusUrl':'/api/v1/ingest/'+ident})
+            return self.reply(202,{'id':ident,'status':job['status'],'statusUrl':'/api/v1/ingest/'+ident,'publicationMode':'reviewed-batch','autoPublish':False})
         except (ValueError,TypeError,KeyError) as err:return self.reply(400,{'error':str(err)[:200]})
 
 if __name__=='__main__':

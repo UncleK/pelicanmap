@@ -15,6 +15,14 @@ def submission():
     return {'sourceUrl':'https://simonwillison.net/2026/Jul/18/test/','date':'2026-07-18','model':'test-model','author':'Simon Willison','format':'svg','unitType':'single-model-output','modelToMediaVerified':True,'generationMethod':'code-generated','codeGenerationEvidence':['https://simonwillison.net/2026/Jul/18/test/'],'title':{'zh':'测试','en':'Test'},'notes':{'zh':'测试记录','en':'Test record'},'media':['https://static.simonwillison.net/static/2026/test.png']}
 
 class IngestionTests(unittest.TestCase):
+    def test_legacy_publication_cannot_build_or_mutate_the_queue(self):
+        with tempfile.TemporaryDirectory() as folder,patch.object(app,'STATE',Path(folder)):
+            marker=Path(folder)/'pending/job.job';marker.parent.mkdir();marker.write_text('keep')
+            with patch.object(app.subprocess,'run',side_effect=AssertionError('legacy build executed')):
+                with self.assertRaisesRegex(RuntimeError,'disabled'):app.publish({})
+                with self.assertRaisesRegex(RuntimeError,'disabled'):app.process_jobs()
+            self.assertEqual(marker.read_text(),'keep')
+
     def test_authenticated_queue_and_idempotency(self):
         with tempfile.TemporaryDirectory() as folder,patch.object(app,'STATE',Path(folder)),patch.dict(app.os.environ,{'PELICAN_INGEST_TOKEN':'test-only-token-that-is-at-least-32-characters'}):
             (Path(folder)/'jobs').mkdir();(Path(folder)/'pending').mkdir()
@@ -28,6 +36,8 @@ class IngestionTests(unittest.TestCase):
                 headers={'Authorization':'Bearer '+app.os.environ['PELICAN_INGEST_TOKEN'],'Content-Type':'application/json'}
                 def post(value):return json.load(urllib.request.urlopen(urllib.request.Request(endpoint,json.dumps(value).encode(),headers)))
                 a=post(submission());b=post(submission());self.assertEqual(a['id'],b['id'])
+                self.assertFalse(a['autoPublish'])
+                self.assertEqual(a['publicationMode'],'reviewed-batch')
                 self.assertEqual(len(list((Path(folder)/'pending').iterdir())),1)
                 self.assertEqual(len(list((Path(folder)/'jobs').iterdir())),1)
                 with self.assertRaises(urllib.error.HTTPError) as caught:post({'sourceUrl':'https://localhost'})

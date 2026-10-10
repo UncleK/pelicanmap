@@ -36,9 +36,17 @@ def fetch(url):
             request = urllib.request.Request(url, headers={'User-Agent':'PelicanMap-Delta-Verify/1.0'})
             with urllib.request.urlopen(request, timeout=30) as response:
                 return response.read()
+        except urllib.error.HTTPError:
+            raise
         except (urllib.error.URLError, TimeoutError, OSError):
             if attempt == 2:
                 raise
+
+
+def check_api_record(expected, actual):
+    if actual != expected:
+        fields = sorted(key for key in set(expected) | set(actual) if expected.get(key) != actual.get(key))
+        raise ValueError('Affected API record differs from the new catalog: '+expected['id']+' / '+', '.join(fields[:8]))
 
 
 def check(archive_path, root=ROOT, live=False):
@@ -123,8 +131,8 @@ def check(archive_path, root=ROOT, live=False):
         for record in affected:
             for lang in ('zh', 'en'):
                 result = json.loads(fetch(BASE+'/api/v1/specimens/'+record['id']+'?lang='+lang))
-                if result.get('id') != record['id']:
-                    raise ValueError('Affected API returned the wrong record: '+record['id'])
+                expected = next(item for item in catalogs[0 if lang == 'zh' else 1]['items'] if item['id'] == record['id'])
+                check_api_record(expected, result)
                 requests += 1
     return {'changedFiles':len(payloads), 'changedMedia':len(changed_media),
             'affectedRecords':[x['id'] for x in affected], 'checkedLinks':checked_links, 'checkedHtmlPages':checked_pages,

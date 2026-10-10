@@ -1,5 +1,6 @@
 """Publish a complete English edition with stable paired URLs and shared media."""
 import copy
+import datetime as dt
 import csv
 import hashlib
 import html
@@ -11,6 +12,8 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from atomic_files import replace_with_retry
+from incremental_site import write_text
+from asset_versions import asset_version
 from bs4 import BeautifulSoup
 from catalog_policy import playable_records
 from collection_views import listing, legacy_page_count, legacy_years
@@ -27,20 +30,18 @@ from historical_context import HISTORY_ID, historical_hero, historical_markdown,
 ROOT=Path(__file__).resolve().parents[1]
 OUT=Path(os.environ.get('PELICAN_OUTPUT_DIR',ROOT/'public-site'))
 BASE='https://pelicanmap.aveniqa.com'
-UPDATED='2026-10-05'
+UPDATED=dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
 PAGES=[]
 COUNTS={}
+BUILD_CACHE=None
 E=lambda value:html.escape(str(value or ''),quote=True)
 SOURCES={'origin':'Original experiment','zoo':'Pelican Zoo','wtf':'pelicans.wtf','community':'Community record'}
 FORMATS={'svg':'Static SVG','image':'Image','animation':'Animation','3d':'3D work','game':'Game / interactive','video':'Video','audio':'Audio','other':'Other media','text':'Text / reference'}
 INTRO=INTROS['en']
-ASSET_VERSION=hashlib.sha256(b''.join((ROOT/'site/assets'/n).read_bytes() for n in ['site.css','site.js','browse.js','motion.js'])).hexdigest()[:12]
+ASSET_VERSION=asset_version(ROOT/'site/assets', OUT/'assets')
 
 def dump(path,value):
-    path.parent.mkdir(parents=True,exist_ok=True)
-    temporary=path.with_name(path.name+'.tmp')
-    temporary.write_text(value,encoding='utf-8')
-    replace_with_retry(temporary,path)
+    write_text(path,value)
 
 def jdump(path,value): dump(path,json.dumps(value,ensure_ascii=False,separators=(',',':')))
 
@@ -78,6 +79,15 @@ def page(path,title,desc,body,nav='',schema=None,noindex=False):
     navitems=[('/','Home'),('/timeline/','Timeline'),('/specimens/','Collection'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
     navigation=''.join(f'<a href="{local(p)}"'+(' aria-current="page"' if p==nav else '')+f'>{label}</a>' for p,label in navitems)
     schema=schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'url':canonical,'inLanguage':'en','isPartOf':{'@type':'WebSite','name':'Pelican Map','url':BASE+'/en/'},'dateModified':UPDATED}
+    if BUILD_CACHE:
+        dest=OUT/en.strip('/')/'index.html' if path.endswith('/') else OUT/en.lstrip('/')
+        md=en+'index.md' if path.endswith('/') else ''
+        dependency=[title,desc,body,nav,{k:v for k,v in schema.items() if k!='dateModified'},noindex]
+        skip,modified=BUILD_CACHE.page(en,dependency,[dest]+([OUT/md.lstrip('/')] if md else []))
+        if skip:
+            if not noindex:PAGES.append(en)
+            return
+        if schema.get('@type')!='CreativeWork':schema['dateModified']=modified
     social_image=schema.get('image') if schema.get('image','').lower().endswith(('.png','.jpg','.jpeg','.webp')) else BASE+'/assets/og-cover-en.png'
     social_type='article' if schema['@type']=='CreativeWork' else 'website'
     serialized=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
@@ -106,12 +116,18 @@ def search_form():
     return f'<form class="filters" id="search" data-search role="search"><label>Search the archive<input type="search" name="q" placeholder="Model, creator, notes…" maxlength="200"></label><label>Source<select name="source"><option value="">All sources</option>{opts}</select></label><label>Format<select name="format"><option value="">All formats</option>{forms}</select></label><label>Sort<select name="sort"><option value="">Default order</option><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label><button class="button" type="submit">Search</button><button class="button secondary" type="reset">Reset</button></form>'
 
 def detail(x,items):
+    modified=UPDATED
+    if BUILD_CACHE:
+        skip,modified=BUILD_CACHE.detail(x,'en')
+        if skip:
+            PAGES.append(x['path'])
+            return
     x = historical_display(x,'en')
     body='<div class="page-top"><div class="breadcrumb"><a href="/en/">Home</a> / <a href="/en/specimens/">Collection</a> / Record</div>'+f'<div class="eyebrow">{E(x["sourceLabel"])} · {E(x["date"])}</div><h1>{E(x["title"])}</h1></div>'
     if x.get('batch'):
         body += '<p class="batch-parent">Part of: '+link(x['batch']['path'], x['batch']['title']+' · '+str(x['batch']['total'])+' samples →')+'</p>'
     body += benchmark_record_details(x,'en')
-    facts=[('Recorded date',x['date'] or 'Not recorded'),('Date precision',{'day':'Day','month':'Month; exact day unverified','year':'Year'}.get(x.get('datePrecision'),'Upstream record')),('Date basis',x.get('dateBasis') or 'Upstream record; generation date not independently verified'),('Model (source label)',x['model'] or 'Not specified; not inferred'),('Model attribution','Source-reported, not independently authenticated'),('Creator / publisher',x['author'] or 'See original source'),('Format',x['formatLabel']),('Prompt category',x['promptCategory'] or 'Not separately recorded'),('Original prompt',x['promptStatus']),('Last updated',UPDATED)]
+    facts=[('Recorded date',x['date'] or 'Not recorded'),('Date precision',{'day':'Day','month':'Month; exact day unverified','year':'Year'}.get(x.get('datePrecision'),'Upstream record')),('Date basis',x.get('dateBasis') or 'Upstream record; generation date not independently verified'),('Model (source label)',x['model'] or 'Not specified; not inferred'),('Model attribution','Source-reported, not independently authenticated'),('Creator / publisher',x['author'] or 'See original source'),('Format',x['formatLabel']),('Prompt category',x['promptCategory'] or 'Not separately recorded'),('Original prompt',x['promptStatus']),('Last updated',modified)]
     demo=x.get('demoUrl') or x.get('previewUrl')
     buttons=link(x['sourceUrl'],'Original source ↗','button')+link('#demo' if demo else '', 'Interact on this page ↓' if x.get('interactive') else 'Watch animation preview ↓','button secondary')+link(x['externalUrl'],'External demo / share ↗','button secondary')+link(x['sourceCodeUrl'],'Source file ↗','button secondary')
     buttons+=link(x.get('licenseUrl'),'Attribution ↗','button secondary')+''.join(link(url,'License ↗','button secondary') for url in x.get('licenseFiles',[]))
@@ -252,6 +268,7 @@ def build():
             page(base+(f'page/{n+1}/' if n else ''),'Pelican bicycle timeline'+(' · '+active_year if active_year else ''),'Single-model representatives on a shared version axis. Missing release evidence uses the earliest source-work month as a provisional position; cards keep original artwork dates.',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
     for batch, batch_body in batch_pages(items,'en'):
         page(batch['path'][3:],batch['title'],batch['description'],batch_body,nav='/specimens/')
+    if BUILD_CACHE:BUILD_CACHE.prepare_details(items,'en')
     for x in items:detail(x,items)
     for path, title, description, benchmark_body in benchmark_pages(items,'en'):
         page(path,title,description,benchmark_body,nav='/tags/benchmark/')
@@ -267,7 +284,13 @@ def build():
     # Paired links are real HTML links. Language switching never relies on client JS.
     zh_paths=[]
     indexed_english_paths=set(PAGES)
-    for p in sorted(OUT.rglob('*.html')):
+    if BUILD_CACHE:
+        import build_public_site as zh
+        zh_paths=[p for p in zh.PAGES if local(p) in indexed_english_paths and p!='/404.html']
+        # Retain the former file-order sitemap bytes without reading every HTML.
+        zh_paths.sort(key=lambda p: OUT/p.lstrip('/')/'index.html' if p.endswith('/') else OUT/p.lstrip('/'))
+    candidates=BUILD_CACHE.dirty_html if BUILD_CACHE else OUT.rglob('*.html')
+    for p in sorted(list(candidates)):
         if p.relative_to(OUT).parts[0]=='en':continue
         soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');canonical=soup.select_one('link[rel=canonical]')['href'];path=canonical.removeprefix(BASE)
         for tag in soup.select('link[hreflang], a[data-language]'):tag.decompose()
@@ -276,10 +299,12 @@ def build():
         dump(p,str(soup))
         # The output directory may retain an abandoned or archival HTML file.
         # Only paths generated for this edition belong in the paired sitemap.
-        if local(path) in indexed_english_paths and path!='/404.html' and not soup.select_one('meta[name=robots]')['content'].startswith('noindex'):zh_paths.append(path)
+        if not BUILD_CACHE and local(path) in indexed_english_paths and path!='/404.html' and not soup.select_one('meta[name=robots]')['content'].startswith('noindex'):zh_paths.append(path)
     urls=[]
     for path in zh_paths:
-        for loc in [path,local(path)]:urls.append(f'<url><loc>{BASE+loc}</loc><lastmod>{UPDATED}</lastmod><xhtml:link rel="alternate" hreflang="zh-CN" href="{BASE+path}"/><xhtml:link rel="alternate" hreflang="en" href="{BASE+local(path)}"/><xhtml:link rel="alternate" hreflang="x-default" href="{BASE+path}"/></url>')
+        for loc in [path,local(path)]:
+            modified=BUILD_CACHE.last_modified(loc) if BUILD_CACHE else UPDATED
+            urls.append(f'<url><loc>{BASE+loc}</loc><lastmod>{modified}</lastmod><xhtml:link rel="alternate" hreflang="zh-CN" href="{BASE+path}"/><xhtml:link rel="alternate" hreflang="en" href="{BASE+local(path)}"/><xhtml:link rel="alternate" hreflang="x-default" href="{BASE+path}"/></url>')
     dump(OUT/'sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+''.join(urls)+'</urlset>')
     print(json.dumps({'english_pages':len(PAGES),'localized_records':len(items),'translated_record_strings':len(mapping)}))
 

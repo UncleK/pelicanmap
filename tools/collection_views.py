@@ -2,6 +2,7 @@
 import html
 import math
 import hashlib
+from incremental_site import collection_version
 import json
 from experiment_batches import group_records, batch_card
 from model_chronology import ordered_timeline, timeline_year, timeline_month
@@ -27,7 +28,7 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     from case_policy import is_case
     items = [x for x in items if (not x.get('referenceOnly') if scope=='play' else is_case(x))]
     # Pin hydrated browsing to this rendered collection, not an old CDN entry.
-    catalog_version = hashlib.sha256(json.dumps(items, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode('utf8')).hexdigest()[:20]
+    catalog_version = collection_version(items)
     filtered = [x for x in items if not year or (timeline_year(x)==year if scope=='timeline' else x['date'].startswith(year))]
     selected = sorted(filtered, key=lambda x: (x['date'], x['id']), reverse=True) if scope=='play' else ordered_timeline(filtered)
     selected = group_records(selected,include_references=scope=='play')

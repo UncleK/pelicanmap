@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord} from './import_collection_batch.mjs';
+import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop} from './import_collection_batch.mjs';
 import sharp from 'sharp';
 import {validateHlsSpec,verifyHlsTrack,verifyHlsMaster} from './reviewed_hls.mjs';
 
@@ -8,6 +8,20 @@ const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/s
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
+
+test('faithful crops preserve exact source pixels and reject an altered source',async()=>{
+  const original=await sharp({create:{width:30,height:20,channels:3,background:'#ff7722'}}).png().toBuffer();
+  const {createHash}=await import('node:crypto');
+  const sha256=createHash('sha256').update(original).digest('hex');
+  const spec={sourceSha256:sha256,crop:{left:5,top:2,width:12,height:13}};
+  const result=await faithfulCrop(original,spec);
+  assert.deepEqual(result.box,[5,2,17,15]);
+  assert.deepEqual(await sharp(result.bytes).raw().toBuffer(),await sharp(original).extract(spec.crop).raw().toBuffer());
+  await assert.rejects(faithfulCrop(original,{...spec,sourceSha256:'0'.repeat(64)}),/source hash/);
+  await assert.rejects(faithfulCrop(original,{...spec,crop:{left:25,top:2,width:12,height:13}}),/outside/);
+  const candidate=sample();candidate.format='image';candidate.media=[{url:candidate.media[0].url,filename:'crop.png',crop:spec.crop,sourceSha256:sha256,sha256:'a'.repeat(64)}];
+  assert.throws(()=>validateCandidate(candidate),/complete source/);
+});
 
 function reviewedHls() {
   const base='https://video.twimg.com/amplify_video/123456/';
