@@ -59111,5 +59111,87 @@
     "licenseFiles": [
       "/media/collected/2026-10-10-incremental-trial/managerzhang-MIT.txt"
     ]
+  },
+  {
+    "id": "chnaicorp-gpt-6-astra-pelican-ride-2026-09-21",
+    "originalId": "chnaicorp-gpt-6-astra-pelican-ride-2026-09-21",
+    "kind": "timeline",
+    "title": "GPT-6 Astra · 手绘海滨骑行动画（Codex 辅助实现）",
+    "model": "GPT-6 Astra",
+    "author": "CHNAICORP",
+    "date": "2026-09-21",
+    "month": "2026-09",
+    "notes": "CHNAICORP 发布的纯网页手绘风格鹈鹕骑车动画。据项目文档记录，该项目使用 Codex 辅助设计与浏览器验证，开发大模型为 GPT-6 Astra，遵循 Huashu-Design 动画工作流。作品由自包含的 HTML 与原生 SVG/CSS/JS 驱动，实现脚蹼踏板联动、车轮与身体同步动效、以及眨眼与海浪细微变化，支持暂停/调速与 prefers-reduced-motion。采用 MIT 许可证开源。模型标注按来源记录，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/CHNAICORP/pelican-ride",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-10-consolidated-intake-batch/pelican-ride-reference.png",
+        "source": "https://raw.githubusercontent.com/CHNAICORP/pelican-ride/0f927a6d2ddbe881284c6f9922db585c03007a6b/assets/pelican-ride-reference.png",
+        "sha256": "a1965500f35adb297e915e49db0660d626e6f72f715ec34f4be4f81182575359",
+        "caption": "CHNAICORP 发布的 GPT-6 Astra 鹈鹕骑车视觉效果图",
+        "captionEn": "Visual reference image for GPT-6 Astra pelican ride published by CHNAICORP",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-10-consolidated-intake-batch/pelican-ride-reference.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/chnaicorp-gpt-6-astra-pelican-ride-2026-09-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/chnaicorp-gpt-6-astra-pelican-ride-2026-09-21/",
+    "markdown": "/specimens/chnaicorp-gpt-6-astra-pelican-ride-2026-09-21/index.md",
+    "updated": "2026-10-10",
+    "rights": "作品原始代码及参考图由 CHNAICORP 依据 MIT 许可证开源（Copyright (c) 2026 CHNAICORP）。本馆依开源许可归档原始参考预览图与 HTML 动画，保留作者署名、许可副本与仓库出处。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Astra · Hand-drawn Coastal Bicycling Animation (Implemented via Codex)",
+        "model": "GPT-6 Astra",
+        "notes": "A self-contained coastal bicycling pelican animation released by CHNAICORP. According to the repository documentation, the project was designed and browser-verified with Codex assistance using the GPT-6 Astra model, following the Huashu-Design animation workflow. Built with native HTML and inline SVG/CSS/JS, it features coordinated pedaling kinematics, synchronous wheel and body bobbing, eye blinking, and background waves, with pause/speed controls and prefers-reduced-motion support. Open-sourced under the MIT License. Model label is source-reported and not independently authenticated.",
+        "rights": "The original code and reference image are open-sourced by CHNAICORP under the MIT License (Copyright (c) 2026 CHNAICORP). The reference preview image and HTML animation are archived under the open license with author attribution, license copy, and repository provenance preserved.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/CHNAICORP/pelican-ride",
+        "https://github.com/CHNAICORP/pelican-ride/blob/0f927a6d2ddbe881284c6f9922db585c03007a6b/README.md",
+        "https://github.com/CHNAICORP/pelican-ride/blob/0f927a6d2ddbe881284c6f9922db585c03007a6b/LICENSE",
+        "https://github.com/CHNAICORP/pelican-ride/commit/0f927a6d2ddbe881284c6f9922db585c03007a6b",
+        "https://raw.githubusercontent.com/CHNAICORP/pelican-ride/0f927a6d2ddbe881284c6f9922db585c03007a6b/assets/pelican-ride-reference.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/CHNAICORP/pelican-ride/blob/0f927a6d2ddbe881284c6f9922db585c03007a6b/README.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "codex-assisted-html-svg-animation",
+      "license": "MIT",
+      "sourceCommit": "0f927a6d2ddbe881284c6f9922db585c03007a6b",
+      "sourceCommitTimestamp": "2026-09-21T09:17:13Z"
+    },
+    "sourcePublicationDate": "2026-09-21"
   }
 ]
