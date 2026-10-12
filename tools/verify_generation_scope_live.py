@@ -1,5 +1,5 @@
 """Live code-generation scope, preserved originals and read-only default searches."""
-import concurrent.futures,csv,hashlib,io,json,time,urllib.request,unittest
+import concurrent.futures,csv,hashlib,io,json,time,urllib.request,unittest,os
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from generation_scope import DIRECT_VIDEO_IDS
@@ -16,7 +16,8 @@ def get(path,payload=None):
 
 def main():
     global checks
-    before=json.loads((ROOT/'pelican-archive/research/2026-10-03-code-generation-scope/before-catalog.json').read_text('utf8'))
+    baseline=Path(os.environ.get('PELICAN_BASELINE_CATALOG',str(ROOT/'pelican-archive/research/2026-10-03-code-generation-scope/before-catalog.json')))
+    before=json.loads(baseline.read_text('utf8'))
     old={x['id']:x for x in before['items']};media={}
     for lang,prefix in [('zh',''),('en','/en')]:
         expected=json.loads((ROOT/'public-site'/prefix.lstrip('/')/'data/catalog.json').read_text('utf8'))

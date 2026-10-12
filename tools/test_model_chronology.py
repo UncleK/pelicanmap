@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
 from PIL import Image
-from model_chronology import apply_model_chronology,ordered_timeline,timeline_year
+from model_chronology import apply_model_chronology,ordered_artworks,ordered_timeline,timeline_year
 from detail_frames import apply_detail_frames
 from historical_context import HISTORY_ID
 from generation_scope import DIRECT_VIDEO_IDS
@@ -27,8 +27,8 @@ class ModelChronologyTests(unittest.TestCase):
               {'id':'unknown','date':'2026-10-02','model':'Gemini mystery','modelNames':['Gemini mystery']}]
         before=copy.deepcopy(rows)
         apply_model_chronology(rows)
-        self.assertEqual([x['id'] for x in ordered_timeline(rows)],['unknown','new','old'])
-        self.assertEqual([x['id'] for x in ordered_timeline(rows,'oldest')],['old','new','unknown'])
+        self.assertEqual([x['id'] for x in ordered_timeline(rows)],['unknown','old','new'])
+        self.assertEqual([x['id'] for x in ordered_timeline(rows,'oldest')],['new','old','unknown'])
         self.assertEqual([{k:v for k,v in x.items() if k!='modelTimeline'} for x in rows],before)
         self.assertEqual(timeline_year(rows[2]),'2026')
         self.assertNotIn('releaseDate',rows[2]['modelTimeline'])
@@ -188,12 +188,12 @@ class ModelChronologyTests(unittest.TestCase):
                 for frame in item['detailFrames']:
                     self.assertTrue(page.select_one('.detail-layout img[src="'+frame['src']+'"]'),item['id'])
                     self.assertIn(str(frame['second'])+' s' if 'second' in frame else str(frame['frameIndex']),page.select_one('.detail-layout').get_text())
-    def test_all_works_matches_release_order_and_month_headings_are_date_only(self):
+    def test_all_works_matches_artwork_order_and_month_headings_are_date_only(self):
         works=[x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')]
         for prefix in ['', 'en/']:
             page=BeautifulSoup((ROOT/'public-site'/prefix/'specimens/index.html').read_text(encoding='utf8'),'html.parser')
             actual=[a['href'].removeprefix('/en') for a in page.select('[data-results] .card-cover')]
-            self.assertEqual(actual,[x['path'] for x in ordered_timeline(works)[:24]])
+            self.assertEqual(actual,[x['path'] for x in ordered_artworks(works)[:24]])
             timeline=BeautifulSoup((ROOT/'public-site'/prefix/'timeline/index.html').read_text(encoding='utf8'),'html.parser')
             for section in timeline.select('[data-release-month]'):
                 if section['data-release-month']!='unknown':
@@ -201,6 +201,19 @@ class ModelChronologyTests(unittest.TestCase):
             self.assertFalse(timeline.select('[data-year="unknown"]'))
             self.assertFalse(timeline.select('[data-release-month="unknown"]'))
             self.assertNotIn('Release date unverified' if prefix else '发布时间待核',timeline.select_one('[data-browser]').get_text())
-        self.assertEqual(CAT['worksSortBasis'],'model-release')
+        self.assertEqual(CAT['worksSortBasis'],'artwork-date')
+
+    def test_latest_activity_excludes_context_and_preserves_month_precision(self):
+        rows=[{'id':'a','date':'2026-10-01','model':'New label','modelNames':['New label']},
+              {'id':'z','date':'2026-10-11','model':'New label','modelNames':['New label']},
+              {'id':'context','date':'2026-12-31','model':'New label','modelNames':['New label'],'caseVisible':False},
+              {'id':'b','date':'2026-10-10','model':'Other label','modelNames':['Other label']}]
+        apply_model_chronology(rows)
+        for x in rows[:3]:
+            self.assertEqual(x['modelTimeline']['latestArtworkDate'],'2026-10-11')
+            self.assertEqual(x['modelTimeline']['latestArtworkId'],'z')
+            self.assertEqual(x['modelTimeline']['sortDate'],'2026-10')
+            self.assertNotIn('releaseDate',x['modelTimeline'])
+        self.assertEqual([x['id'] for x in ordered_timeline([rows[0],rows[3]])],['a','b'])
 
 if __name__=='__main__':unittest.main()

@@ -11,7 +11,7 @@ import {validateHlsSpec,assembleReviewedHls} from './reviewed_hls.mjs';
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
 const sharp = require('sharp');
-const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org','works.pelicanbenchmark.com']);
+const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org','works.pelicanbenchmark.com','openpaths.io']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
 
@@ -172,6 +172,12 @@ export function validateCandidate(c) {
       if(bc.demoPath!==undefined)assertSafeDemoPath(bc.demoPath);
     }
     if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
+    if(new URL(m.url).hostname==='openpaths.io' &&
+      (c.sourceUrl!=='https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison' ||
+       !/^https:\/\/openpaths\.io\/static\/blog\/pelican-svg\/(?:gpt55-none|gpt55-xhigh|gemini35)\.svg$/.test(m.url) ||
+       c.format!=='animation' || m.allowAnimation!==true || !m.filename.endsWith('.svg') ||
+       !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url) || !c.evidence.includes(c.sourceUrl)))
+      throw Error('OpenPaths media requires the reviewed animation article, exact original SVG URL and pinned hash');
     if(new URL(m.url).hostname==='github.com' &&
       (!/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) ||
        !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
@@ -206,12 +212,16 @@ export function validateCandidate(c) {
       throw Error('Raytracer media needs the reviewed original article, image path, source link and pinned hash');
     if(m.svgFromTranscript && !m.filename.endsWith('.svg'))throw Error('Transcript extraction must produce an SVG');
     if(new URL(m.url).hostname==='hardprompts.ai' && (!/^\/topics\/pelican-bicycle-svg(?:\.html)?$/.test(new URL(m.url).pathname) || !m.svgFromHardPrompts || !/^[a-f0-9]{64}$/.test(m.sha256 || '') || m.sourceModel!==c.model || !/^[1-9]\d*$/.test(String(m.sourceRun))))throw Error('Hard Prompts requires an explicitly reviewed, hashed model/run panel');
-    if(new URL(m.url).hostname==='works.pelicanbenchmark.com' &&
-      (!/^https:\/\/pelicanbenchmark\.com\/results\/[a-zA-Z0-9_-]+$/.test(c.sourceUrl) ||
-       !/^\/[a-zA-Z0-9_-]+\.html$/.test(new URL(m.url).pathname) ||
-       !/\.(png|jpe?g|webp)$/i.test(m.filename) || !m.browserCapture ||
-       !c.evidence.includes(m.url)))
-      throw Error('Pelican Benchmark media requires a reviewed result page, direct HTML asset, and browser capture frame');
+    if(new URL(m.url).hostname==='works.pelicanbenchmark.com'){
+      const resultId=c.sourceUrl.match(/^https:\/\/pelicanbenchmark\.com\/results\/([a-zA-Z0-9_-]+)$/)?.[1];
+      const asset=new URL(m.url);
+      const html=resultId && m.url===`https://works.pelicanbenchmark.com/${resultId}.html` &&
+        /\.(png|jpe?g|webp)$/i.test(m.filename) && m.browserCapture;
+      const svg=resultId && m.url===`https://works.pelicanbenchmark.com/${resultId}.svg` && c.format==='svg' &&
+        m.filename.endsWith('.svg') && !m.browserCapture && /^[a-f0-9]{64}$/.test(m.sha256||'');
+      if((!html && !svg) || asset.search || asset.hash || !c.evidence.includes(m.url) || !c.evidence.includes(c.sourceUrl))
+        throw Error('Pelican Benchmark media requires a reviewed matching result page and direct HTML capture or hashed original static SVG');
+    }
     for(const key of ['responseIndex','svgIndex'])if(m[key]!==undefined && (!m.svgFromTranscript || !Number.isInteger(m[key]) || m[key]<0))throw Error('Invalid reviewed transcript selection');
     if(m.frameTime!==undefined && (!Number.isFinite(m.frameTime) || m.frameTime<0 || !/\.(mp4|webm)$/i.test(m.filename)))throw Error('Invalid reviewed video frame time');
   }

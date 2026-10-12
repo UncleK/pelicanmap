@@ -1,7 +1,9 @@
 """Read-only release checks; browser playback evidence is saved separately."""
 import concurrent.futures
+import copy
 import hashlib
 import json
+import os
 import urllib.request
 import unittest
 from collections import Counter
@@ -44,7 +46,8 @@ def detail(task):
     return prefix+item['id']
 
 def main():
-    before=json.loads((DIR/'before-catalog.json').read_text(encoding='utf8'))
+    baseline_catalog=Path(os.environ.get('PELICAN_BASELINE_CATALOG',str(DIR/'before-catalog.json')))
+    before=json.loads(baseline_catalog.read_text(encoding='utf8'))
     # Reviewed intake may append works and renumber chronological display labels,
     # but must preserve the originals verified at the autoplay release.
     for key in ['cases','timeline']:
@@ -52,10 +55,16 @@ def main():
     assert LOCAL['counts']['referenceRecords']==before['counts']['referenceRecords']
     old={x['id']:x for x in before['items']}
     current={x['id']:x for x in LOCAL['items']}
+    from model_chronology import apply_model_chronology
+    expected_chronology={x['id']:x.get('modelTimeline') for x in apply_model_chronology(copy.deepcopy(list(current.values())))}
     assert set(old)<=set(current)
     preservation=unittest.TestCase()
     for ident,item in old.items():
         for key,value in item.items():
+            if key=='modelTimeline' and value=={k:v for k,v in current[ident].get(key,{}).items() if k not in {'latestArtworkDate','latestArtworkId'}}:
+                # User-authorized activity tie-breakers are derived, not new release facts.
+                assert current[ident][key]==expected_chronology[ident],(ident,key)
+                continue
             if reviewed_swe_motion_restoration(preservation,item,current[ident],key):
                 continue
             if reviewed_video_context_change(preservation,item,current[ident],key,current):
@@ -66,7 +75,8 @@ def main():
                 assert "user's direct request on 2026-10-02" in reviewed['caseReview']['reason']
                 continue
             if key!='caseNumber':assert current[ident][key]==value,(ident,key)
-    prior_additions=json.loads((DIR/'before-additions.json').read_text())
+    baseline_additions=Path(os.environ.get('PELICAN_BASELINE_ADDITIONS',str(DIR/'before-additions.json')))
+    prior_additions=json.loads(baseline_additions.read_text(encoding='utf8'))
     additions={x['id']:x for x in json.loads((ROOT/'site/additions.json').read_text())}
     for item in prior_additions:
         if not reviewed_swe_addition_restoration(preservation,item,additions[item['id']]):assert additions.get(item['id'])==item,item['id']
@@ -92,12 +102,14 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         checked=list(pool.map(detail,[(prefix,x) for prefix in ['', '/en'] for x in selected]))
     coverage=dict(Counter(x['motionPreview']['type'] for x in selected))
-    result={'verified':True,'cases':LOCAL['counts']['cases'],'timeline':LOCAL['counts']['timeline'],
+    result={'verified':True,'baselineCatalog':str(baseline_catalog),'baselineAdditions':str(baseline_additions),'cases':LOCAL['counts']['cases'],'timeline':LOCAL['counts']['timeline'],
             'rawRecords':len(LOCAL['items']),'movingCoverTypes':coverage,'bilingualDetailsAndIdApi':len(checked),
             'existingFieldsPreservedExceptChronologicalNumbersAndFourReviewedVideoContextChanges':True,'existingAdditionsPreserved':True,
             'originalMediaUnchanged':True,'additionalRecordsSinceAutoplayRelease':len(current)-len(old),
             'sharedAssetsByteIdentical':4}
-    (DIR/'live-autoplay-checks.json').write_text(json.dumps(result,indent=2)+'\n')
+    report=Path(os.environ.get('PELICAN_VERIFY_REPORT',str(DIR/'live-autoplay-checks.json')))
+    report.parent.mkdir(parents=True,exist_ok=True)
+    report.write_text(json.dumps(result,indent=2)+'\n',encoding='utf8')
     print(json.dumps(result))
 
 if __name__=='__main__':main()

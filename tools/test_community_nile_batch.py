@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 from bs4 import BeautifulSoup
+from archival_test_assertions import reviewed_original_animation
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-01-evening-discovery'
 AUDIT=json.loads((DIR/'import-audit.json').read_text())
@@ -39,7 +40,12 @@ class CommunityNileTests(unittest.TestCase):
                 text=(ROOT/'public-site'/prefix/x['path'].lstrip('/')/'index.html').read_text(encoding='utf8')
                 doc=BeautifulSoup(text,'html.parser')
                 self.assertIn(x['sourceUrl'],text)
-                self.assertIsNone(doc.select_one('[data-local-demo]'))
+                restored=reviewed_original_animation(self,x)
+                if restored:
+                    self.assertEqual(doc.select_one('[data-local-demo]')['data-motion-src'],restored)
+                    self.assertEqual(doc.select_one('[data-detail-primary]')['data-detail-primary'],'demo')
+                else:
+                    self.assertIsNone(doc.select_one('[data-local-demo]'))
                 if animated:self.assertEqual(doc.select_one('[data-detail-primary]')['data-detail-primary'],'media')
                 if x.get('cropProvenance'):self.assertIsNotNone(doc.find('img',src=x['cropProvenance']['original']))
 

@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 from bs4 import BeautifulSoup
+from archival_test_assertions import reviewed_original_animation
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-forum-continuation'
 AUDIT=json.loads((DIR/'import-audit.json').read_text())
@@ -38,12 +39,16 @@ class ForumContinuationTests(unittest.TestCase):
                 doc=BeautifulSoup(html,'html.parser')
                 self.assertIn(x['sourceUrl'],html)
                 primary=doc.select_one('[data-detail-primary]')
-                if x['generationConditions']['previewOnly']:
+                restored=reviewed_original_animation(self,x)
+                if restored:
+                    self.assertEqual(primary['data-detail-primary'],'demo')
+                    self.assertEqual(doc.select_one('[data-local-demo]')['data-motion-src'],restored)
+                elif x['generationConditions']['previewOnly']:
                     self.assertIsNone(primary)
                     self.assertIsNotNone(doc.select_one('[data-preview-only]'))
                 else:
                     self.assertEqual(primary['data-detail-primary'],'media')
-                self.assertIsNone(doc.select_one('[data-local-demo]'))
+                if not restored:self.assertIsNone(doc.select_one('[data-local-demo]'))
                 self.assertEqual(doc.select_one('main figure')['data-media-src'],src)
                 self.assertTrue(all(m.get('detailOnly') for m in x['media'][1:]))
         self.assertEqual(animations,5)

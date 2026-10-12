@@ -40,12 +40,19 @@ const modelKey = x => x.modelTimeline?.key || 'unverified:'+String(x.model||'').
 const modelSortDate = x => x.modelTimeline?.sortDate || x.modelTimeline?.releaseDate || '';
 export const timelineYear = x => modelSortDate(x).slice(0,4) || 'unknown';
 export const timelineMonth = x => modelSortDate(x).slice(0,7) || 'unknown';
-export function compareTimeline(a,b,sort='newest') {
+export function compareArtwork(a,b,sort='newest') {
+  const direction=sort==='oldest'?1:-1;
+  return direction*(cmp(a.date||'',b.date||'')||cmp(a.id,b.id));
+}
+export function compareTimeline(a,b,sort='newest',activity) {
   const ad=modelSortDate(a),bd=modelSortDate(b);
   if(!ad!==!bd)return ad?-1:1;
   const direction=sort==='oldest'?1:-1;
-  return (ad?direction*(cmp(ad,bd)||cmp(modelKey(a),modelKey(b))):cmp(modelKey(a),modelKey(b)))
-    || direction*(cmp(a.date,b.date)||cmp(a.id,b.id));
+  const ak=modelKey(a),bk=modelKey(b);
+  if(ak===bk)return compareArtwork(a,b,sort);
+  const latest=x=>activity?.get(modelKey(x)) || {date:x.modelTimeline?.latestArtworkDate||x.date,id:x.modelTimeline?.latestArtworkId||x.id};
+  const aa=latest(a),ba=latest(b);
+  return ad?direction*(cmp(ad.slice(0,7),bd.slice(0,7))||cmp(aa.date,ba.date)||cmp(aa.id,ba.id)||cmp(ad,bd)||cmp(ak,bk)):cmp(ak,bk);
 }
 export function groupModelRecords(items) {
   const groups=new Map();
@@ -59,7 +66,13 @@ export function selectRecords(records, {scope = '', year = '', q = '', source = 
     && (!year || (scope==='timeline'?(year==='unknown'?!x.modelTimeline?.releaseDate:timelineYear(x)===year):x.date.startsWith(year))) && (!source || x.source === source) && (!format || x.format === format)
     && (!family || x.modelFamilies?.includes(family))
     && (!q || [x.title, x.author, x.notes, x.date, x.model, x.promptCategory].join(' ').toLowerCase().includes(q)));
-  items.sort(scope!=='play'?(a,b)=>compareTimeline(a,b,sort):(a,b)=>(sort==='oldest'?cmp(a.date,b.date):cmp(b.date,a.date))||cmp(a.id,b.id));
+  const activity=new Map();
+  if(scope==='timeline')for(const x of items){
+    const key=modelKey(x), info=x.modelTimeline, current=activity.get(key);
+    const latest={date:info?.latestArtworkDate||x.date,id:info?.latestArtworkId||x.id};
+    if(!current || cmp(latest.date,current.date)>0 || (latest.date===current.date && cmp(latest.id,current.id)>0))activity.set(key,latest);
+  }
+  items.sort(scope==='timeline'?(a,b)=>compareTimeline(a,b,sort,activity):(a,b)=>compareArtwork(a,b,sort));
   if (scope === 'play') {
     const seen = new Set();
     items = items.filter(x => !x.canonicalId || !items.some(y=>y.id===x.canonicalId && y.demoUrl===x.demoUrl));

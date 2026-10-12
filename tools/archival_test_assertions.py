@@ -6,6 +6,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 USER_REMOVED = 'x-keth-space-bunny-alpha-animation-2026-09-30'
 
+def reviewed_original_animation(test, item):
+    """A later byte-verified original can replace a historical preview-only display."""
+    from urllib.parse import urlsplit
+    from motion_restorations import load_reviews
+    review = load_reviews().get(item['id'])
+    if not review:
+        return None
+    test.assertIs(review['reviewed'], True)
+    test.assertEqual(review['sourceUrl'], item['sourceUrl'])
+    test.assertEqual(item['previewUrl'], review['previewUrl'])
+    parsed = urlsplit(review['previewUrl'])
+    test.assertEqual(parsed.netloc, 'pelicanmap-demos.aveniqa.com')
+    source = (ROOT/'public-demos'/parsed.path.lstrip('/')/'index.html').resolve()
+    test.assertTrue(source.is_relative_to((ROOT/'public-demos').resolve()))
+    test.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), review['sha256'])
+    test.assertTrue(review['fullDocument'])
+    return review['previewUrl']
+
 
 def user_requested_context_change(test, previous, current, key):
     """One explicitly removed recording; historical media/identity still frozen."""

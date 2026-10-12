@@ -686,5 +686,49 @@
     "fullDocument": true,
     "reviewEvidence": "2026-10-11-multisource-discovery/review.json",
     "safety": "Original HTML/CSS/JS retained byte-exact on isolated origin. Self-contained DOM/SVG/Canvas animation; no account, credential, storage or server access. Verified via browser rendering and motion keyframe test."
+  },
+  "pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3": {
+    "reviewed": true,
+    "sourceUrl": "https://pelicanbenchmark.com/results/JB3wG-B3zqklaX8mFYJFHg",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/JB3wG-B3zqklaX8mFYJFHg.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3/",
+    "sha256": "3bdc61d3f19df11d34283e3c36fb8c0881a2763123981f73ebcf2ea160f5722c",
+    "sourceBytes": 19418,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-12-pb-animation-release/review.json",
+    "safety": "Reviewed self-contained original HTML/CSS/JS, no external dependencies or network/storage/eval/navigation. Source browser continuous motion and actual screenshots verified; byte-exact on isolated origin."
+  },
+  "pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1": {
+    "reviewed": true,
+    "sourceUrl": "https://pelicanbenchmark.com/results/_gAMRs-mMWDztokFjqydbw",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/_gAMRs-mMWDztokFjqydbw.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1/",
+    "sha256": "bbcd25c10fc433c99e98e02a913eb05ae56eeb49b4e77fc5233b8da0b8dcd5a0",
+    "sourceBytes": 24687,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-12-pb-animation-release/review.json",
+    "safety": "Reviewed self-contained original HTML/CSS/JS, no external dependencies or network/storage/eval/navigation. Source browser continuous motion and actual screenshots verified; byte-exact on isolated origin."
+  },
+  "pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb": {
+    "reviewed": true,
+    "sourceUrl": "https://pelicanbenchmark.com/results/aVJCDNH2HELlaKGEn4kiUA",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/aVJCDNH2HELlaKGEn4kiUA.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb/",
+    "sha256": "f786a4bb0cb9bb0906de9310d991cc20c99488a01cb8e32d648c65199c776ce7",
+    "sourceBytes": 22587,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-12-pb-animation-release/review.json",
+    "safety": "Reviewed self-contained original HTML/CSS/JS, no external dependencies or network/storage/eval/navigation. Source browser continuous motion and actual screenshots verified; byte-exact on isolated origin."
+  },
+  "pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0": {
+    "reviewed": true,
+    "sourceUrl": "https://pelicanbenchmark.com/results/ANiCrnArNfZ1GAfVeudkyw",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/ANiCrnArNfZ1GAfVeudkyw.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0/",
+    "sha256": "6f787ab03d8f40d29000ddd01fba560cff12175aea9f10371bb3456ca24f8b1c",
+    "sourceBytes": 17085,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-12-evening-discovery/review.json",
+    "safety": "Complete original self-contained HTML/CSS/JS, byte-exact on isolated origin. SVG/DOM animation only; no external dependencies, network, storage, eval, navigation or frames. Original continuous spokes, leg/body motion and weather verified with actual browser frames."
   }
 }

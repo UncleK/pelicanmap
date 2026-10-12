@@ -26,16 +26,16 @@ test('timeline defaults to newest and supports old-to-new and year filtering', (
   assert.equal(selectRecords(records, {scope: 'timeline', sort: 'oldest'})[0].date, '2026-09-01');
   assert.equal(selectRecords(records, {scope: 'timeline', year: '2025'}).length, 0);
 });
-test('late artwork stays with its model release; unknowns last and folding exact versions only',()=>{
+test('timeline keeps model months and groups, with latest works deciding the order within a month',()=>{
   const old={...records[0],id:'late-old',date:'2026-10-02',model:'Gemini 3.8 Flash',modelTimeline:{key:'gemini38',releaseDate:'2026-09-02'}};
   const newer={...records[0],id:'early-new',date:'2026-09-29',model:'GPT-6.1 Sol',modelTimeline:{key:'sol61',releaseDate:'2026-09-29'}};
   const another={...old,id:'earlier-old',date:'2026-09-03'};
   const unknown={...old,id:'unknown',model:'Gemini mystery',modelTimeline:{key:'unknown',status:'release-unverified'}};
   const rows=[old,unknown,newer,another];
-  assert.deepEqual(selectRecords(rows,{scope:'timeline'}).map(x=>x.id),['early-new','late-old','earlier-old','unknown']);
-  assert.deepEqual(selectRecords(rows,{scope:'timeline',sort:'oldest'}).map(x=>x.id),['earlier-old','late-old','early-new','unknown']);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline'}).map(x=>x.id),['late-old','earlier-old','early-new','unknown']);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline',sort:'oldest'}).map(x=>x.id),['early-new','earlier-old','late-old','unknown']);
   for(const sort of ['newest','oldest']) {
-    assert.deepEqual(selectRecords(rows,{sort}).map(x=>x.id),selectRecords(rows,{scope:'timeline',sort}).map(x=>x.id));
+    assert.deepEqual(selectRecords(rows,{sort}).map(x=>x.id),sort==='newest'?['unknown','late-old','early-new','earlier-old']:['earlier-old','early-new','late-old','unknown']);
     assert.deepEqual(selectRecords(rows,{scope:'gallery',sort}).map(x=>x.id),[]);
   }
   assert.equal(selectRecords(rows,{year:'2026'}).length,4);
@@ -45,18 +45,27 @@ test('late artwork stays with its model release; unknowns last and folding exact
   assert.equal(grouped.reduce((n,x)=>n+x.modelMembers.length,0),4);
   assert.equal(rows[0].date,'2026-10-02');
 });
-test('all works includes non-representatives on the shared release axis but retains artwork-year filters',()=>{
+test('all works sorts by artwork date across model releases and includes non-representatives',()=>{
   const rows=[
     {...records[0],id:'old',date:'2026-10-02',modelTimeline:{key:'old',releaseDate:'2025-09-01'}},
     {...records[0],id:'new',date:'2026-09-29',modelTimeline:{key:'new',releaseDate:'2026-09-29'}},
     {...records[0],id:'extra',date:'2026-09-20',kind:'gallery',timelineVisible:false,modelTimeline:{key:'old',releaseDate:'2025-09-01'}}
   ];
-  assert.deepEqual(selectRecords(rows).map(x=>x.id),['new','old','extra']);
-  assert.deepEqual(selectRecords(rows,{sort:'oldest'}).map(x=>x.id),['extra','old','new']);
+  assert.deepEqual(selectRecords(rows).map(x=>x.id),['old','new','extra']);
+  assert.deepEqual(selectRecords(rows,{sort:'oldest'}).map(x=>x.id),['extra','new','old']);
   assert.deepEqual(selectRecords(rows,{scope:'gallery'}).map(x=>x.id),['extra']);
   assert.equal(selectRecords(rows,{year:'2026'}).length,3);
   assert.deepEqual(selectRecords(rows,{scope:'timeline',year:'2025'}).map(x=>x.id),['old']);
   assert.equal(selectRecords(rows,{year:'2025'}).length,0);
+});
+
+test('same-month activity is global, stable across filters and never a fabricated release date',()=>{
+  const dated=(id,date,key,month,latestId=id,latestDate=date)=>({...records[0],id,date,model:key,modelTimeline:{key,sortDate:month,latestArtworkDate:latestDate,latestArtworkId:latestId}});
+  const rows=[dated('old-detail','2026-10-01','alpha','2026-10','z-new','2026-10-11'),dated('z-new','2026-10-11','alpha','2026-10'),dated('b-mid','2026-10-10','beta','2026-10'),dated('c-prior-month','2026-10-12','gamma','2026-09')];
+  assert.deepEqual(selectRecords(rows,{scope:'timeline'}).map(x=>x.id),['z-new','old-detail','b-mid','c-prior-month']);
+  assert.deepEqual(selectRecords(rows,{scope:'timeline',q:'Pelican'}).map(x=>x.id),['z-new','old-detail','b-mid','c-prior-month']);
+  assert.deepEqual(selectRecords(rows).map(x=>x.id),['c-prior-month','z-new','b-mid','old-detail']);
+  assert.ok(rows.every(x=>x.modelTimeline.releaseDate===undefined));
 });
 
 test('estimated positions join both browsing axes without fabricating a release date',()=>{

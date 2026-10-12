@@ -5,7 +5,7 @@ import hashlib
 from incremental_site import collection_version
 import json
 from experiment_batches import group_records, batch_card
-from model_chronology import ordered_timeline, timeline_year, timeline_month
+from model_chronology import ordered_artworks, ordered_timeline, timeline_year, timeline_month
 
 
 def legacy_years(output, prefix=''):
@@ -30,7 +30,7 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     # Pin hydrated browsing to this rendered collection, not an old CDN entry.
     catalog_version = collection_version(items)
     filtered = [x for x in items if not year or (timeline_year(x)==year if scope=='timeline' else x['date'].startswith(year))]
-    selected = sorted(filtered, key=lambda x: (x['date'], x['id']), reverse=True) if scope=='play' else ordered_timeline(filtered)
+    selected = ordered_timeline(filtered) if scope=='timeline' else ordered_artworks(filtered)
     selected = group_records(selected,include_references=scope=='play')
     pages = max(1, math.ceil(len(selected)/24))
     number = max(1, min(number, pages))
@@ -52,7 +52,7 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     if scope=='timeline':
         controls=controls.replace('<label>'+t('年份','Year')+'<select', '<label>'+t('模型发布年份','Model release year')+'<select')
         controls=controls.replace('<input type="hidden" name="sort"', '<input type="hidden" name="collapse" value=""><input type="hidden" name="sort"')
-        controls+='<div class="timeline-options"><span>'+t('按模型发布时间排列 · 卡片保留作品日期','Ordered by model release · cards keep artwork dates')+'</span><label><input type="checkbox" data-model-collapse> '+t('折叠相同型号','Fold identical model versions')+'</label></div>'
+        controls+='<div class="timeline-options"><span>'+t('按型号月份排列 · 同月优先展示最新作品','By model month · latest works first within each month')+'</span><label><input type="checkbox" data-model-collapse> '+t('折叠相同型号','Fold identical model versions')+'</label></div>'
     families=sorted({f for x in items for f in x.get('modelFamilies',[])})
     family_control='<label>'+t('模型家族','Model family')+'<select name="family"><option value="">'+t('全部家族','All families')+'</option>'+''.join('<option value="'+e(f)+'">'+e(f)+'</option>' for f in families)+'</select></label>'
     controls=controls.replace('<input type="hidden" name="sort"',family_control+'<input type="hidden" name="sort"')

@@ -74,7 +74,8 @@ for prefix in ['', '/en']:
     data=json.loads(get(BASE+'/api/v1/specimens?'+query)[0])
     assert data['total']==0 and data['rawRecords']==0
     index=BeautifulSoup(get(BASE+prefix+'/tags/benchmark/')[0],'html.parser')
-    assert len(index.select('[data-benchmark-collection]'))==1
+    definitions=json.loads((ROOT/'site/benchmarks/index.json').read_text(encoding='utf8'))
+    assert len(index.select('[data-benchmark-collection]'))==catalog['counts']['benchmarkCollections']==len(definitions)
     # The user removed explanatory copy from the collection directory only.
     # The actual scored collection and model pages still disclose upstream scores.
     assert not index.select_one('.page-top p')

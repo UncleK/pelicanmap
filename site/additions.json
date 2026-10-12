@@ -63048,5 +63048,998 @@
     "caseRole": "source-collection",
     "caseVisible": false,
     "timelineVisible": false
+  },
+  {
+    "id": "openpaths-gpt-5-5-none-animation-2026-05-20",
+    "originalId": "openpaths-gpt-5-5-none-animation-2026-05-20",
+    "kind": "timeline",
+    "title": "GPT-5.5 · 无思考档 · 简洁骑行原动画",
+    "model": "GPT-5.5",
+    "author": "OpenPaths Team",
+    "date": "2026-05-20",
+    "month": "2026-05",
+    "notes": "OpenPaths Team 文章中的直接生成输出，reasoning_effort=none。原 SVG 中车轮、曲柄、脚部与身体持续运动；脚与踏板并非严格联动。 日期为文章公开日，生成日未知。模型按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-independent-discovery/gpt55-none.svg",
+        "source": "https://openpaths.io/static/blog/pelican-svg/gpt55-none.svg",
+        "sha256": "f199ce73aca9863f7b13ae02c20e86bdb11d88512e39656d07b412d99bf35f75",
+        "caption": "无思考档 · 简洁骑行原动画（完整原 SVG）",
+        "captionEn": "No thinking · Original cycling animation (complete original SVG)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-independent-discovery/gpt55-none.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/openpaths-gpt-5-5-none-animation-2026-05-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/openpaths-gpt-5-5-none-animation-2026-05-20/",
+    "markdown": "/specimens/openpaths-gpt-5-5-none-animation-2026-05-20/index.md",
+    "updated": "2026-10-12",
+    "rights": "OpenPaths Team 在原文章公开展示原 SVG。本馆保留署名与出处，归档原字节；页面未附该作品的明确开源许可证，不据此声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-5.5 · No thinking · Original cycling animation",
+        "model": "GPT-5.5",
+        "notes": "Direct output in the OpenPaths Team article, with reasoning effort none. Wheels, crank, feet and body animate; pedal contact is imperfect. Date is article publication; generation date is unknown. Model attribution is source-reported.",
+        "rights": "Original SVG publicly displayed by OpenPaths Team. Attribution and source are preserved. No explicit artwork open-source license was found; none is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+        "https://openpaths.io/static/blog/pelican-svg/gpt55-none.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "reasoningEffort": "none",
+      "completionTokens": 1831,
+      "workflow": "Source describes this displayed output as a direct single-pass SVG.",
+      "generationDateKnown": false,
+      "promptChangedOrRetried": false
+    },
+    "sourcePublicationDate": "2026-05-20"
+  },
+  {
+    "id": "openpaths-gpt-5-5-xhigh-animation-2026-05-20",
+    "originalId": "openpaths-gpt-5-5-xhigh-animation-2026-05-20",
+    "kind": "timeline",
+    "title": "GPT-5.5 · xhigh · 单轮转动的极简 SVG",
+    "model": "GPT-5.5",
+    "author": "OpenPaths Team",
+    "date": "2026-05-20",
+    "month": "2026-05",
+    "notes": "早先请求超时或耗尽预算；作者收紧为极小 SVG 后才得到这份输出，不能称为原提示词一次成功。实际仅左侧后轮辐条转动，其余保持静态。 日期为文章公开日，生成日未知。模型按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-independent-discovery/gpt55-xhigh.svg",
+        "source": "https://openpaths.io/static/blog/pelican-svg/gpt55-xhigh.svg",
+        "sha256": "ed233563aca5c59d9884d1cdbb81074b15fead0ff75cbd3c82cbd02d90a7587a",
+        "caption": "xhigh · 单轮转动的极简 SVG（完整原 SVG）",
+        "captionEn": "xhigh · Minimal SVG with one rotating wheel (complete original SVG)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-independent-discovery/gpt55-xhigh.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/openpaths-gpt-5-5-xhigh-animation-2026-05-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/openpaths-gpt-5-5-xhigh-animation-2026-05-20/",
+    "markdown": "/specimens/openpaths-gpt-5-5-xhigh-animation-2026-05-20/index.md",
+    "updated": "2026-10-12",
+    "rights": "OpenPaths Team 在原文章公开展示原 SVG。本馆保留署名与出处，归档原字节；页面未附该作品的明确开源许可证，不据此声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-5.5 · xhigh · Minimal SVG with one rotating wheel",
+        "model": "GPT-5.5",
+        "notes": "Earlier attempts timed out or exhausted the budget; this output followed a compact-SVG constraint. Only the left/rear wheel spokes rotate. It is not an unchanged-prompt first attempt. Date is article publication; generation date is unknown. Model attribution is source-reported.",
+        "rights": "Original SVG publicly displayed by OpenPaths Team. Attribution and source are preserved. No explicit artwork open-source license was found; none is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+        "https://openpaths.io/static/blog/pelican-svg/gpt55-xhigh.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "reasoningEffort": "xhigh",
+      "completionTokens": 8371,
+      "workflow": "Visible result follows timeout/budget failures and a compact-output prompt constraint.",
+      "generationDateKnown": false,
+      "promptChangedOrRetried": true
+    },
+    "sourcePublicationDate": "2026-05-20"
+  },
+  {
+    "id": "openpaths-gemini-3-5-flash-animation-2026-05-20",
+    "originalId": "openpaths-gemini-3-5-flash-animation-2026-05-20",
+    "kind": "timeline",
+    "title": "Gemini 3.5 Flash · 头部错位的骑行 SVG 原动画",
+    "model": "Gemini 3.5 Flash",
+    "author": "OpenPaths Team",
+    "date": "2026-05-20",
+    "month": "2026-05",
+    "notes": "首次尝试输出了规划文字，作者加入仅输出最终代码的系统指令后重试。原动画车轮、脚踏与地面会动，但头部平移动画覆盖基础位置，运行时头部脱离身体；保留原缺陷。 日期为文章公开日，生成日未知。模型按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-11-independent-discovery/gemini35.svg",
+        "source": "https://openpaths.io/static/blog/pelican-svg/gemini35.svg",
+        "sha256": "f367a36ae9bb942904ffcff87d77e4230703ef2c6b2e1dd50171531f1af8574e",
+        "caption": "头部错位的骑行 SVG 原动画（完整原 SVG）",
+        "captionEn": "Original cycling SVG with a displaced head (complete original SVG)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-11-independent-discovery/gemini35.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/openpaths-gemini-3-5-flash-animation-2026-05-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/openpaths-gemini-3-5-flash-animation-2026-05-20/",
+    "markdown": "/specimens/openpaths-gemini-3-5-flash-animation-2026-05-20/index.md",
+    "updated": "2026-10-12",
+    "rights": "OpenPaths Team 在原文章公开展示原 SVG。本馆保留署名与出处，归档原字节；页面未附该作品的明确开源许可证，不据此声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.5 Flash · Original cycling SVG with a displaced head",
+        "model": "Gemini 3.5 Flash",
+        "notes": "Rerun with stricter code-only instructions after a prose-only attempt. Wheels, pedals and ground animate, but the head moves away from the body. The original defect is preserved. Date is article publication; generation date is unknown. Model attribution is source-reported.",
+        "rights": "Original SVG publicly displayed by OpenPaths Team. Attribution and source are preserved. No explicit artwork open-source license was found; none is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison",
+        "https://openpaths.io/static/blog/pelican-svg/gemini35.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.5 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "reasoningEffort": "none",
+      "completionTokens": 4677,
+      "workflow": "Visible result is a rerun with a stricter final-code-only system instruction.",
+      "generationDateKnown": false,
+      "promptChangedOrRetried": true
+    },
+    "sourcePublicationDate": "2026-05-20"
+  },
+  {
+    "id": "x-binkg-opus-next-pelican-preview-2026-10-11",
+    "originalId": "x-binkg-opus-next-pelican-preview-2026-10-11",
+    "kind": "timeline",
+    "title": "Claude Next · 黄昏海滨骑行 SVG 预览",
+    "model": "Claude Next",
+    "author": "Binkg (@dummerspast39)",
+    "date": "2026-10-11",
+    "month": "2026-10",
+    "notes": "Binkg 在公开原帖将这幅鹈鹕骑车作品标为“Opus-Next”，并在被问及是否为 SVG 时确认是。画面包含绿条围巾、红自行车、鱼篮、羽毛细线、灯塔与夕阳水面。这里只归档作者公开的完整栅格预览；所读原帖及回复没有可下载的原 SVG 或动画链接。日期为 UTC 公开发帖日，生成日、提示词、档位和迭代次数未知。Opus-Next 是作者临时标签，未提供响应模型 ID，不能据此认定为 Opus 5.6、Fable 5.5 或正式新型号。 本馆按用户要求暂标 Claude Next；作者原标签仍为 Opus-Next，具体正式型号未确认。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/dummerspast39/status/2109293406975389721",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-claude-next-label/binkg-opus-next-pelican.jpg",
+        "source": "https://pbs.twimg.com/media/HUW3LILXcAAe1Kd?format=jpg&name=orig",
+        "sha256": "9e31a9f60672dd95d1635fc450b6b9becab3f1e5304c3e77773fa2ab7a5017a0",
+        "caption": "原作者公开的完整 SVG 栅格预览；原 SVG 与动态未取得",
+        "captionEn": "Creator-published complete raster preview of SVG; source SVG and motion unavailable",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-claude-next-label/binkg-opus-next-pelican.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-binkg-opus-next-pelican-preview-2026-10-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-binkg-opus-next-pelican-preview-2026-10-11/",
+    "markdown": "/specimens/x-binkg-opus-next-pelican-preview-2026-10-11/index.md",
+    "updated": "2026-10-12",
+    "rights": "原预览由 Binkg (@dummerspast39) 公开发布。保留完整原图、作者署名、出处和原有声明；未发现明确作品开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Claude Next · Sunset coastal cycling SVG preview",
+        "model": "Claude Next",
+        "notes": "Binkg labels this pelican-on-a-bicycle work Opus-Next and confirms in a reply that it is SVG. It shows a striped green scarf, red bicycle, fish basket and sunset coast. Only the complete public raster preview is archived; no downloadable SVG or animation link appeared in the inspected post and replies. Date is UTC publication, not verified generation. Prompt, effort and iteration count are unknown. Opus-Next is an unauthenticated author label, not an identified official model. Displayed provisionally as Claude Next at the user’s request; the original author label is Opus-Next and the official model identity remains unconfirmed.",
+        "rights": "Original preview publicly posted by Binkg (@dummerspast39). Complete source image, attribution and source statements are preserved. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/dummerspast39/status/2109293406975389721",
+        "https://x.com/johndknott/status/2109343991430803700",
+        "https://x.com/dummerspast39/status/2109346741262876698",
+        "https://pbs.twimg.com/media/HUW3LILXcAAe1Kd?format=jpg&name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/dummerspast39/status/2109293406975389721",
+      "https://x.com/johndknott/status/2109343991430803700",
+      "https://x.com/dummerspast39/status/2109346741262876698"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "modelLabelStatus": "author-temporary-label-no-response-model-id",
+      "sourcePublicationTimestamp": "2026-10-11T14:41:51.000Z",
+      "workflow": "author-confirmed-svg-public-raster-preview",
+      "previewOnly": true,
+      "originalSvgNotAvailableInInspectedThread": true,
+      "promptKnown": false,
+      "effortKnown": false,
+      "iterationCountKnown": false,
+      "originalModelLabel": "Opus-Next",
+      "displayModelLabel": "Claude Next",
+      "displayLabelBasis": "direct-user-request-2026-10-12"
+    },
+    "sourcePublicationDate": "2026-10-11"
+  },
+  {
+    "id": "pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3",
+    "originalId": "pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3",
+    "kind": "timeline",
+    "title": "Muse Spark 1.3 (XHigh) · 鹈鹕骑车原生 HTML 动画",
+    "model": "Muse Spark 1.3 (XHigh)",
+    "author": "Anonymous",
+    "date": "2026-10-10",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark，来源标注 Muse Spark 1.3 (XHigh)，使用 OpenCode、Single-turn。蓝头盔、红自行车和海边道路；车轮、曲柄、腿部、身体和场景保持原生运动。来源投稿者填写生成日 2026-10-10，提交公开日 2026-10-10。型号、生成条件和日期依据投稿信息记录，未独立认证。保存完整原 HTML/CSS/JS，静态预览为真实浏览器截帧。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/JB3wG-B3zqklaX8mFYJFHg",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3-preview.jpg",
+        "source": "https://works.pelicanbenchmark.com/JB3wG-B3zqklaX8mFYJFHg.html",
+        "sha256": "58f608cd2b0f128628f54e879bd9c0a107001b1c3f0181e31a7aec5a62da9d7e",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "3bdc61d3f19df11d34283e3c36fb8c0881a2763123981f73ebcf2ea160f5722c",
+          "frameSha256": "58f608cd2b0f128628f54e879bd9c0a107001b1c3f0181e31a7aec5a62da9d7e",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "method": "cua-in-app-browser-screenshot"
+        },
+        "caption": "Muse Spark 1.3 (XHigh) · 原动画真实浏览器截帧",
+        "captionEn": "Muse Spark 1.3 (XHigh) · Actual browser frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3-preview.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/JB3wG-B3zqklaX8mFYJFHg.html",
+    "path": "/specimens/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3/",
+    "markdown": "/specimens/pb-anonymous-muse-spark-1-3-xhigh-2026-10-10-3bdc61d3/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 于 Pelican Benchmark 公开分享；保留完整原文、真实截帧、署名与出处。未发现明确作品开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Muse Spark 1.3 (XHigh) · Original pelican cycling HTML animation",
+        "model": "Muse Spark 1.3 (XHigh)",
+        "notes": "Submitted by Anonymous to Pelican Benchmark, source-labelled Muse Spark 1.3 (XHigh), using OpenCode and Single-turn. Blue helmet, red bicycle and coastal road; original wheel, crank, leg, body and scenery motion is retained. Contributor-reported generation date 2026-10-10, publicly submitted 2026-10-10. Model and generation details are contributor-reported and not independently authenticated. Complete original HTML/CSS/JS is preserved; the static preview is an actual browser-rendered frame.",
+        "rights": "Publicly shared by Anonymous on Pelican Benchmark. Complete source document, actual rendered frame, attribution and source are preserved. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/JB3wG-B3zqklaX8mFYJFHg",
+        "https://works.pelicanbenchmark.com/JB3wG-B3zqklaX8mFYJFHg.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Spark 1.3 (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/JB3wG-B3zqklaX8mFYJFHg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "OpenCode",
+      "generatedOn": "2026-10-10",
+      "generationDateKnown": true
+    },
+    "sourcePublicationDate": "2026-10-10",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/JB3wG-B3zqklaX8mFYJFHg.html",
+      "sourceHtmlSha256": "3bdc61d3f19df11d34283e3c36fb8c0881a2763123981f73ebcf2ea160f5722c",
+      "frameSha256": "58f608cd2b0f128628f54e879bd9c0a107001b1c3f0181e31a7aec5a62da9d7e",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "method": "cua-in-app-browser-screenshot"
+    }
+  },
+  {
+    "id": "pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1",
+    "originalId": "pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1",
+    "kind": "timeline",
+    "title": "Step 5 Preview (High) · 鹈鹕骑车原生 HTML 动画",
+    "model": "Step 5 Preview (High)",
+    "author": "Anonymous",
+    "date": "2026-10-11",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark，来源标注 Step 5 Preview (High)，使用 OpenCode、Single-turn。红围巾、紫自行车、花朵和鸣笛气泡；原作双骨骼腿部解算与滚动背景完整保留。来源投稿者填写生成日 2026-10-10，提交公开日 2026-10-11。型号、生成条件和日期依据投稿信息记录，未独立认证。保存完整原 HTML/CSS/JS，静态预览为真实浏览器截帧。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/_gAMRs-mMWDztokFjqydbw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1-preview.jpg",
+        "source": "https://works.pelicanbenchmark.com/_gAMRs-mMWDztokFjqydbw.html",
+        "sha256": "f7b70b1aa4eba71cccc10688eb9ffb8fb99b94e96b5ce89a90a606a6cc09a2f1",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "bbcd25c10fc433c99e98e02a913eb05ae56eeb49b4e77fc5233b8da0b8dcd5a0",
+          "frameSha256": "f7b70b1aa4eba71cccc10688eb9ffb8fb99b94e96b5ce89a90a606a6cc09a2f1",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "method": "cua-in-app-browser-screenshot-full-page"
+        },
+        "caption": "Step 5 Preview (High) · 原动画真实浏览器截帧",
+        "captionEn": "Step 5 Preview (High) · Actual browser frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1-preview.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/_gAMRs-mMWDztokFjqydbw.html",
+    "path": "/specimens/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1/",
+    "markdown": "/specimens/pb-anonymous-step-5-preview-high-2026-10-11-bbcd25c1/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 于 Pelican Benchmark 公开分享；保留完整原文、真实截帧、署名与出处。未发现明确作品开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Step 5 Preview (High) · Original pelican cycling HTML animation",
+        "model": "Step 5 Preview (High)",
+        "notes": "Submitted by Anonymous to Pelican Benchmark, source-labelled Step 5 Preview (High), using OpenCode and Single-turn. Red scarf, purple bicycle, flowers and a beep bubble; original two-bone leg solver and scrolling scenery are preserved. Contributor-reported generation date 2026-10-10, publicly submitted 2026-10-11. Model and generation details are contributor-reported and not independently authenticated. Complete original HTML/CSS/JS is preserved; the static preview is an actual browser-rendered frame.",
+        "rights": "Publicly shared by Anonymous on Pelican Benchmark. Complete source document, actual rendered frame, attribution and source are preserved. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/_gAMRs-mMWDztokFjqydbw",
+        "https://works.pelicanbenchmark.com/_gAMRs-mMWDztokFjqydbw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Step 5 Preview (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/_gAMRs-mMWDztokFjqydbw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "OpenCode",
+      "generatedOn": "2026-10-10",
+      "generationDateKnown": true
+    },
+    "sourcePublicationDate": "2026-10-11",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/_gAMRs-mMWDztokFjqydbw.html",
+      "sourceHtmlSha256": "bbcd25c10fc433c99e98e02a913eb05ae56eeb49b4e77fc5233b8da0b8dcd5a0",
+      "frameSha256": "f7b70b1aa4eba71cccc10688eb9ffb8fb99b94e96b5ce89a90a606a6cc09a2f1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "method": "cua-in-app-browser-screenshot-full-page"
+    }
+  },
+  {
+    "id": "pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb",
+    "originalId": "pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol (Max) · 鹈鹕骑车原生 HTML 动画",
+    "model": "GPT-6.1 Sol (Max)",
+    "author": "Anonymous",
+    "date": "2026-10-11",
+    "month": "2026-10",
+    "notes": "由 Anonymous 提交至 Pelican Benchmark，来源标注 GPT-6.1 Sol (Max)，使用 OpenCode、Single-turn。中文海岸骑行页面、绿自行车、灯塔与奶油棕色鹈鹕；关节、踏板、车轮和云层保持原生运动。来源未填写生成日；作品日期使用提交公开日 2026-10-11。型号、生成条件和日期依据投稿信息记录，未独立认证。保存完整原 HTML/CSS/JS，静态预览为真实浏览器截帧。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/aVJCDNH2HELlaKGEn4kiUA",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb-preview.jpg",
+        "source": "https://works.pelicanbenchmark.com/aVJCDNH2HELlaKGEn4kiUA.html",
+        "sha256": "882eac851d6f87a6b2ca2098f613bd73f8bdcd2ad6e572e409a96a949eab7f01",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "f786a4bb0cb9bb0906de9310d991cc20c99488a01cb8e32d648c65199c776ce7",
+          "frameSha256": "882eac851d6f87a6b2ca2098f613bd73f8bdcd2ad6e572e409a96a949eab7f01",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "method": "cua-in-app-browser-screenshot-full-page"
+        },
+        "caption": "GPT-6.1 Sol (Max) · 原动画真实浏览器截帧",
+        "captionEn": "GPT-6.1 Sol (Max) · Actual browser frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-pb-animation-release/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb-preview.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/aVJCDNH2HELlaKGEn4kiUA.html",
+    "path": "/specimens/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb/",
+    "markdown": "/specimens/pb-anonymous-gpt-6-1-sol-max-2026-10-11-f786a4bb/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 于 Pelican Benchmark 公开分享；保留完整原文、真实截帧、署名与出处。未发现明确作品开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol (Max) · Original pelican cycling HTML animation",
+        "model": "GPT-6.1 Sol (Max)",
+        "notes": "Submitted by Anonymous to Pelican Benchmark, source-labelled GPT-6.1 Sol (Max), using OpenCode and Single-turn. Chinese coastal ride page, green bicycle, lighthouse and cream/brown pelican; original articulated legs, pedals, wheels and clouds are preserved. Generation day was not provided; artwork date is the public submission date 2026-10-11. Model and generation details are contributor-reported and not independently authenticated. Complete original HTML/CSS/JS is preserved; the static preview is an actual browser-rendered frame.",
+        "rights": "Publicly shared by Anonymous on Pelican Benchmark. Complete source document, actual rendered frame, attribution and source are preserved. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/aVJCDNH2HELlaKGEn4kiUA",
+        "https://works.pelicanbenchmark.com/aVJCDNH2HELlaKGEn4kiUA.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol (Max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/aVJCDNH2HELlaKGEn4kiUA"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Max",
+      "generationMode": "Single-turn",
+      "ranWith": "OpenCode",
+      "generatedOn": null,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-10-11",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/aVJCDNH2HELlaKGEn4kiUA.html",
+      "sourceHtmlSha256": "f786a4bb0cb9bb0906de9310d991cc20c99488a01cb8e32d648c65199c776ce7",
+      "frameSha256": "882eac851d6f87a6b2ca2098f613bd73f8bdcd2ad6e572e409a96a949eab7f01",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "method": "cua-in-app-browser-screenshot-full-page"
+    }
+  },
+  {
+    "id": "pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32",
+    "originalId": "pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32",
+    "kind": "timeline",
+    "title": "Muse Spark 1.3 (XHigh) · 鹈鹕骑车静态 SVG",
+    "model": "Muse Spark 1.3 (XHigh)",
+    "author": "Anonymous",
+    "date": "2026-10-10",
+    "month": "2026-10",
+    "notes": "Anonymous 在 Pelican Benchmark 公开提交，来源标注 Muse Spark 1.3 (XHigh)，使用 OpenCode、Single-turn。蓝头盔、红围巾、红自行车与浅蓝天空。 投稿者填写生成日 2026-10-10，提交公开日 2026-10-10；作品日期采用提交日。模型、档位与生成条件按投稿信息记录，未独立认证。原 SVG 为静态绘图，未含动画；保存原字节。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/Sd0pL0AH8-GhSJA450gUIQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32.svg",
+        "source": "https://works.pelicanbenchmark.com/Sd0pL0AH8-GhSJA450gUIQ.svg",
+        "sha256": "4d5c7a3297fbec2cf31fc4b8dd4a24a718d2bea2ce4cc33391ed06a606d3108f",
+        "caption": "Muse Spark 1.3 (XHigh) · 原始静态 SVG",
+        "captionEn": "Muse Spark 1.3 (XHigh) · Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/Sd0pL0AH8-GhSJA450gUIQ.svg",
+    "path": "/specimens/pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32/",
+    "markdown": "/specimens/pb-anonymous-muse-spark-1-3-xhigh-svg-2026-10-10-4d5c7a32/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 公开提交至 Pelican Benchmark；署名、出处与原文件保留。未发现明确作品开源许可，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Muse Spark 1.3 (XHigh) · Static pelican bicycle SVG",
+        "model": "Muse Spark 1.3 (XHigh)",
+        "notes": "Publicly submitted by Anonymous to Pelican Benchmark, source-labelled Muse Spark 1.3 (XHigh), using OpenCode and Single-turn. Blue helmet, red scarf and bicycle against a pale blue sky. Contributor-reported generation date 2026-10-10; public submission 2026-10-10, used as the artwork date. Model and generation settings are contributor-reported and not independently authenticated. Original static SVG has no animation; source bytes are preserved.",
+        "rights": "Publicly submitted by Anonymous to Pelican Benchmark. Attribution, source and original file are retained. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/Sd0pL0AH8-GhSJA450gUIQ",
+        "https://works.pelicanbenchmark.com/Sd0pL0AH8-GhSJA450gUIQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Spark 1.3 (XHigh)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/Sd0pL0AH8-GhSJA450gUIQ"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "XHigh",
+      "generationMode": "Single-turn",
+      "ranWith": "OpenCode",
+      "generatedOn": "2026-10-10",
+      "generationDateKnown": true
+    },
+    "sourcePublicationDate": "2026-10-10"
+  },
+  {
+    "id": "pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a",
+    "originalId": "pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a",
+    "kind": "timeline",
+    "title": "Step 5 Preview (High) · 鹈鹕骑车静态 SVG",
+    "model": "Step 5 Preview (High)",
+    "author": "Anonymous",
+    "date": "2026-10-11",
+    "month": "2026-10",
+    "notes": "Anonymous 在 Pelican Benchmark 公开提交，来源标注 Step 5 Preview (High)，使用 OpenCode、Single-turn。米白羽毛、青绿车架、完整轮辐与暖色天空。 投稿者填写生成日 2026-10-10，提交公开日 2026-10-11；作品日期采用提交日。模型、档位与生成条件按投稿信息记录，未独立认证。原 SVG 为静态绘图，未含动画；保存原字节。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/aNuVWu5rFAejYsnGVdwbFQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a.svg",
+        "source": "https://works.pelicanbenchmark.com/aNuVWu5rFAejYsnGVdwbFQ.svg",
+        "sha256": "11be636a6506f4a45a175a8e73fdbc472c363b6ca7d0f28aee5537850f64e8f9",
+        "caption": "Step 5 Preview (High) · 原始静态 SVG",
+        "captionEn": "Step 5 Preview (High) · Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/aNuVWu5rFAejYsnGVdwbFQ.svg",
+    "path": "/specimens/pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a/",
+    "markdown": "/specimens/pb-anonymous-step-5-preview-high-svg-2026-10-11-11be636a/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 公开提交至 Pelican Benchmark；署名、出处与原文件保留。未发现明确作品开源许可，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Step 5 Preview (High) · Static pelican bicycle SVG",
+        "model": "Step 5 Preview (High)",
+        "notes": "Publicly submitted by Anonymous to Pelican Benchmark, source-labelled Step 5 Preview (High), using OpenCode and Single-turn. Cream plumage, teal frame, complete spokes and warm sky. Contributor-reported generation date 2026-10-10; public submission 2026-10-11, used as the artwork date. Model and generation settings are contributor-reported and not independently authenticated. Original static SVG has no animation; source bytes are preserved.",
+        "rights": "Publicly submitted by Anonymous to Pelican Benchmark. Attribution, source and original file are retained. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/aNuVWu5rFAejYsnGVdwbFQ",
+        "https://works.pelicanbenchmark.com/aNuVWu5rFAejYsnGVdwbFQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Step 5 Preview (High)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/aNuVWu5rFAejYsnGVdwbFQ"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "High",
+      "generationMode": "Single-turn",
+      "ranWith": "OpenCode",
+      "generatedOn": "2026-10-10",
+      "generationDateKnown": true
+    },
+    "sourcePublicationDate": "2026-10-11"
+  },
+  {
+    "id": "pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0",
+    "originalId": "pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0",
+    "kind": "timeline",
+    "title": "Qwen3.8 27B Q4_K_M · 天气循环骑车动画",
+    "model": "Qwen3.8 27B Q4_K_M",
+    "author": "Anonymous",
+    "date": "2026-10-12",
+    "month": "2026-10",
+    "notes": "Anonymous 在 Pelican Benchmark 公开提交，来源标注 Qwen3.8 27B Q4_K_M，使用 PI Agent、Single-turn。原作每 5 秒自动切换晴天、阴天和雨天；两骨骼腿部解算、轮辐和视差背景持续运动。采用 Q4_K_M 量化，来源另注明 Q8 量化 KV 缓存。 投稿者填写生成日 2026-10-11，提交公开日 2026-10-12；作品日期采用提交日。模型、档位与生成条件按投稿信息记录，未独立认证。保存完整原 HTML/CSS/JS，静态预览是实际浏览器帧。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/ANiCrnArNfZ1GAfVeudkyw",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个鹈鹕白天骑自行车的网页动画，单个html文件给我，要求能自适应网页宽度，兼容手机竖屏与电脑横屏显示。每过5秒进行晴天-阴天-雨天-晴天的天气自动切换。不使用任何skills。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0-preview.jpg",
+        "source": "https://works.pelicanbenchmark.com/ANiCrnArNfZ1GAfVeudkyw.html",
+        "sha256": "02d4180e775a73592bd96bceb256d92111ca47c2f2b951ef108dd09157ce496f",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "6f787ab03d8f40d29000ddd01fba560cff12175aea9f10371bb3456ca24f8b1c",
+          "frameSha256": "02d4180e775a73592bd96bceb256d92111ca47c2f2b951ef108dd09157ce496f",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "method": "cua-in-app-browser-screenshot-full-page"
+        },
+        "caption": "天气循环原动画 · 真实浏览器帧",
+        "captionEn": "Original weather animation · Actual browser frame",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-evening-discovery/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0-preview.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/ANiCrnArNfZ1GAfVeudkyw.html",
+    "path": "/specimens/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0/",
+    "markdown": "/specimens/pb-anonymous-qwen3-8-27b-q4-k-m-2026-10-12-6f787ab0/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品由 Anonymous 公开提交至 Pelican Benchmark；署名、出处与原文件保留。未发现明确作品开源许可，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3.8 27B Q4_K_M · Weather cycling pelican animation",
+        "model": "Qwen3.8 27B Q4_K_M",
+        "notes": "Publicly submitted by Anonymous to Pelican Benchmark, source-labelled Qwen3.8 27B Q4_K_M, using PI Agent and Single-turn. The original cycles through sunny, cloudy and rainy weather every five seconds, with continuous two-bone leg motion, spokes and parallax scenery. Source reports Q4_K_M model quantization and Q8 quantized KV cache. Contributor-reported generation date 2026-10-11; public submission 2026-10-12, used as the artwork date. Model and generation settings are contributor-reported and not independently authenticated. Complete original HTML/CSS/JS retained; static preview is an actual browser frame.",
+        "rights": "Publicly submitted by Anonymous to Pelican Benchmark. Attribution, source and original file are retained. No explicit artwork open-source license was found or claimed.",
+        "promptStatus": "生成一个鹈鹕白天骑自行车的网页动画，单个html文件给我，要求能自适应网页宽度，兼容手机竖屏与电脑横屏显示。每过5秒进行晴天-阴天-雨天-晴天的天气自动切换。不使用任何skills。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/ANiCrnArNfZ1GAfVeudkyw",
+        "https://works.pelicanbenchmark.com/ANiCrnArNfZ1GAfVeudkyw.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8 27B Q4_K_M"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/ANiCrnArNfZ1GAfVeudkyw"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "pelican-benchmark-submission",
+      "thinkingLevel": "Default (didn't change it)",
+      "generationMode": "Single-turn",
+      "ranWith": "PI Agent",
+      "generatedOn": "2026-10-11",
+      "generationDateKnown": true,
+      "quantization": "Q4_K_M",
+      "kvCacheQuantization": "Q8"
+    },
+    "sourcePublicationDate": "2026-10-12",
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/ANiCrnArNfZ1GAfVeudkyw.html",
+      "sourceHtmlSha256": "6f787ab03d8f40d29000ddd01fba560cff12175aea9f10371bb3456ca24f8b1c",
+      "frameSha256": "02d4180e775a73592bd96bceb256d92111ca47c2f2b951ef108dd09157ce496f",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "method": "cua-in-app-browser-screenshot-full-page"
+    }
+  },
+  {
+    "id": "x-synopsis-gemini-4-argon-canvas-recording-2026-10-11",
+    "originalId": "x-synopsis-gemini-4-argon-canvas-recording-2026-10-11",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon · 海岸鹈鹕骑车 Canvas 原录屏",
+    "model": "Gemini 4 Argon",
+    "author": "Synopsis (@abhinavflac)",
+    "date": "2026-10-11",
+    "month": "2026-10",
+    "notes": "Synopsis 原帖标注 Gemini 4 Argon，并在作者回复公开 Gemini Canvas（Pelecanus Cruiser）。鹈鹕羽毛、喉囊、鱼篮、海岸场景和复古自行车均由 SVG 绘制；公开代码面板与真实 Canvas 已核，踩踏持续运动、背景与帽子图层切换已实测。保存作者完整 27.35 秒、1920×1080 原录屏与原链接。公开分享仅提供当前 SVG 导出，完整 HTML/JavaScript 未公开，因此本站展示原录屏并链接原 Canvas，不把导出的静态 SVG 冒充完整动态。模型标签仅来自作者，Canvas 不显示实际模型 ID；正式版本、提示词、推理档位与迭代次数未确认，未独立认证。视频曾被其他账号用 Opus 5.5 比较文字转发，该转发不作为型号依据。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/abhinavflac/status/2109244632500781568",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-12-evening-discovery/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11.mp4",
+        "source": "https://video.twimg.com/amplify_video/2109244277058605056/vid/avc1/1920x1080/iu1b2LhqNpXpN6Bq.mp4",
+        "sha256": "b5abcfafa5960e1a84035185a22feb63008ef6d4056920a037ad2a4dd5c2e503",
+        "posterProvenance": {
+          "kind": "upstream-preview",
+          "source": "https://pbs.twimg.com/amplify_video_thumb/2109244277058605056/img/EUAzKs5tHVmqkXe1.jpg",
+          "sha256": "2724da70ae4624a237107c92285145983afcff0a1ac8eaf087ad0ccaf70c8598"
+        },
+        "caption": "作者完整原录屏 · 27.35 秒，1920×1080",
+        "captionEn": "Complete original author recording · 27.35 seconds, 1920×1080",
+        "poster": "/media/collected/2026-10-12-evening-discovery/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-12-evening-discovery/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "https://gemini.google.com/share/dffa635432ba",
+    "sourceCodeUrl": "https://gemini.google.com/share/dffa635432ba",
+    "path": "/specimens/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11/",
+    "markdown": "/specimens/x-synopsis-gemini-4-argon-canvas-recording-2026-10-11/index.md",
+    "updated": "2026-10-12",
+    "rights": "作品与原录屏由 Synopsis 公开分享；保留作者、原帖、分享页与原字节，权利归原作者。未发现明确开源许可，不声称已获开源授权。原录屏音轨解码为静音。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon · Original coastal pelican Canvas recording",
+        "model": "Gemini 4 Argon",
+        "notes": "Synopsis labels the original post Gemini 4 Argon and links Gemini Canvas (Pelecanus Cruiser) in an author reply. SVG depicts detailed plumage, gular pouch, fish basket, coastal scenery and a vintage bicycle. Public SVG code panel and live Canvas were examined; continuous pedaling, atmosphere changes and the captain-cap layer were tested. Complete original 27.35-second 1920×1080 recording and source links are retained. Public share exports the current SVG but does not expose complete HTML/JavaScript; this archive presents the original recording and links the Canvas rather than presenting a static SVG export as complete animation. Model label is author-reported; Canvas exposes no actual model ID. Official version, prompt, reasoning level and iteration count are unconfirmed and not independently authenticated. Another account reposted this video with Opus 5.5 comparison text; that repost is not model evidence.",
+        "rights": "Artwork and recording publicly shared by Synopsis. Attribution, original post, public share and original bytes are retained; rights remain with the creator. No explicit open-source license was found or claimed. Recorded audio track decodes as silence.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/abhinavflac/status/2109244632500781568",
+        "https://x.com/abhinavflac/status/2109244804949569687",
+        "https://gemini.google.com/share/dffa635432ba",
+        "https://video.twimg.com/amplify_video/2109244277058605056/vid/avc1/1920x1080/iu1b2LhqNpXpN6Bq.mp4",
+        "https://pbs.twimg.com/amplify_video_thumb/2109244277058605056/img/EUAzKs5tHVmqkXe1.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/abhinavflac/status/2109244632500781568",
+      "https://x.com/abhinavflac/status/2109244804949569687",
+      "https://gemini.google.com/share/dffa635432ba"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "gemini-canvas-public-share",
+      "sourceModelLabel": "Gemini 4 Argon",
+      "actualModelIdKnown": false,
+      "generationDateKnown": false,
+      "promptKnown": false,
+      "reasoningLevelKnown": false,
+      "iterationCountKnown": false,
+      "completeSourceAvailable": false,
+      "sourceMotionAvailability": "complete-original-public-recording"
+    },
+    "sourcePublicationDate": "2026-10-11",
+    "sourceResponseTimestamp": "2026-10-11T11:28:02.000Z"
   }
 ]

@@ -44,6 +44,7 @@ def apply_model_chronology(items):
     # Only counted source-dated works establish a label's earliest appearance;
     # references, repost/context records and later intake dates cannot set it.
     first_seen = {}
+    latest_seen = {}
     for item in items:
         info = item.get('modelTimeline', {})
         if item.get('referenceOnly') or item.get('caseVisible') is False:
@@ -54,10 +55,16 @@ def apply_model_chronology(items):
         key = info.get('key')
         if key and (key not in first_seen or (date,item['id']) < (first_seen[key]['date'],first_seen[key]['id'])):
             first_seen[key] = item
+        if key and (key not in latest_seen or (date,item['id']) > (latest_seen[key]['date'],latest_seen[key]['id'])):
+            latest_seen[key] = item
     for item in items:
         info = item.get('modelTimeline')
         if not info:
             continue
+        if info['key'] in latest_seen:
+            latest = latest_seen[info['key']]
+            # Activity breaks ties within a model month; it is not release evidence.
+            info.update(latestArtworkDate=latest['date'], latestArtworkId=latest['id'])
         if info.get('releaseDate'):
             info.update(sortDate=info['releaseDate'], sortDatePrecision=info['datePrecision'], sortBasis='documented-release')
         elif info['key'] in first_seen:
@@ -91,9 +98,17 @@ def ordered_timeline(items, sort='newest'):
     date = lambda g:g[0].get('modelTimeline', {}).get('sortDate') or g[0].get('modelTimeline', {}).get('releaseDate', '')
     known = [g for g in groups.values() if date(g)]
     unknown = [g for g in groups.values() if not date(g)]
-    known.sort(key=lambda g:(date(g),g[0]['modelTimeline']['key']),reverse=sort!='oldest')
+    def activity(group):
+        info = group[0].get('modelTimeline', {})
+        latest = max(group, key=lambda x:(x['date'],x['id']))
+        return (info.get('latestArtworkDate', latest['date']), info.get('latestArtworkId', latest['id']))
+    known.sort(key=lambda g:(date(g)[:7], *activity(g), date(g), g[0]['modelTimeline']['key']),reverse=sort!='oldest')
     unknown.sort(key=lambda g:g[0].get('modelTimeline',{}).get('key') or label_key(g[0].get('model','')))
     result = []
     for group in known+unknown:
         result.extend(sorted(group,key=lambda x:(x['date'],x['id']),reverse=sort!='oldest'))
     return result
+
+def ordered_artworks(items, sort='newest'):
+    """Use source-recorded artwork dates; never model releases or intake dates."""
+    return sorted(items, key=lambda x:(x.get('date',''),x['id']), reverse=sort!='oldest')

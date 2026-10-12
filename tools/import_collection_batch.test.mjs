@@ -18,6 +18,21 @@ const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/s
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
 
+test('OpenPaths intake is limited to the three reviewed original animations',()=>{
+  const sourceUrl='https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison';
+  for(const name of ['gpt55-none','gpt55-xhigh','gemini35']) {
+    const url=`https://openpaths.io/static/blog/pelican-svg/${name}.svg`;
+    const candidate={...sample(),sourceUrl,format:'animation',evidence:[sourceUrl,url],
+      media:[{url,filename:`${name}.svg`,sha256:'a'.repeat(64),allowAnimation:true}]};
+    assert.doesNotThrow(()=>validateCandidate(candidate));
+    for(const change of [{sourceUrl:'https://openpaths.io/blog/other'},{format:'svg'},{evidence:[sourceUrl]}])
+      assert.throws(()=>validateCandidate({...candidate,...change}));
+    for(const change of [{url:url+'?v=2'},{url:url.replace(name,'other')},{url:url.replace('openpaths.io','openpaths.io:444')},
+      {sha256:undefined},{allowAnimation:false},{filename:'preview.png'},{browserCapture:{}}])
+      assert.throws(()=>validateCandidate({...candidate,media:[{...candidate.media[0],...change}]}));
+  }
+});
+
 test('faithful crops preserve exact source pixels and reject an altered source',async()=>{
   const original=await sharp({create:{width:30,height:20,channels:3,background:'#ff7722'}}).png().toBuffer();
   const {createHash}=await import('node:crypto');
@@ -404,6 +419,19 @@ test('browserCapture rejects out-of-boundary capturePath and demoPath',()=>{
   }
 });
 
+test('pelicanbenchmark original static SVG requires matching result ID, pinned bytes and source evidence',()=>{
+  const sourceUrl='https://pelicanbenchmark.com/results/svg123';
+  const url='https://works.pelicanbenchmark.com/svg123.svg';
+  const c={...sample(),sourceUrl,evidence:[sourceUrl,url],media:[{url,filename:'original.svg',sha256:'a'.repeat(64)}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const change of [{sha256:undefined},{sha256:'bad'},{filename:'fake.png'},{url:url+'?download=1'},
+    {url:'https://works.pelicanbenchmark.com/other.svg'},{url:'https://works.pelicanbenchmark.com/svg123.html'},
+    {url:url.replace('.com/','.com:444/')},{url:url+'#frame'},{url:url.replace('https://','https://user@')}])
+    assert.throws(()=>validateCandidate({...c,media:[{...c.media[0],...change}]}),/Pelican Benchmark media requires/);
+  assert.throws(()=>validateCandidate({...c,evidence:[url]}),/Pelican Benchmark media requires/);
+  assert.throws(()=>validateCandidate({...c,format:'animation'}),/Pelican Benchmark media requires/);
+});
+
 test('pelicanbenchmark media validation enforces reviewed result page, direct HTML asset and browser capture frame',()=>{
   const validBc={
     capturePath:'pelican-archive/research/2026-10-10-motion-consolidated-batch/nine19een-codex-motion-t0.png',
@@ -424,6 +452,7 @@ test('pelicanbenchmark media validation enforces reviewed result page, direct HT
     }]
   };
   assert.doesNotThrow(()=>validateCandidate(pbCandidate));
+  assert.throws(()=>validateCandidate({...pbCandidate,sourceUrl:'https://pelicanbenchmark.com/results/another'}),/Pelican Benchmark media requires/);
 
   // 拦截非法 sourceUrl
   assert.throws(()=>validateCandidate({...pbCandidate,sourceUrl:'https://pelicanbenchmark.com/evil/abc123xyz'}),/Pelican Benchmark media requires/);

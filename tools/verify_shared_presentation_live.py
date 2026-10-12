@@ -6,7 +6,7 @@ import json
 import urllib.parse
 from bs4 import BeautifulSoup
 from verify_model_chronology_live import get, data, ROOT, CAT
-from model_chronology import ordered_timeline
+from model_chronology import ordered_artworks, ordered_timeline
 from historical_context import HISTORY_ID, historical_sections
 
 def main():
@@ -17,19 +17,20 @@ def main():
         works=[x for x in localized['items'] if x.get('caseVisible') and not x.get('referenceOnly')]
         timeline=[x for x in works if x.get('timelineVisible')]
         for scope,rows in [('specimens',works),('timeline',timeline)]:
+            order=ordered_timeline if scope=='timeline' else ordered_artworks
             for sort in ['newest','oldest']:
                 for family in ['', 'Gemini','GPT','Claude']:
                     selected=[x for x in rows if not family or family in x['modelFamilies']]
                     for offset in [0,50]:
                         query=urllib.parse.urlencode(dict(lang=language,sort=sort,family=family,offset=offset,limit=50))
                         response=data('/api/v1/'+scope+'?'+query)
-                        assert response['sortBasis']=='model-release'
+                        assert response['sortBasis']==('model-release' if scope=='timeline' else 'artwork-date')
                         assert response['total']==len(selected)
-                        assert response['items']==ordered_timeline(selected,sort)[offset:offset+50]
+                        assert response['items']==order(selected,sort)[offset:offset+50]
                         checks+=1
             page=BeautifulSoup(get(prefix+'/'+scope+'/'),'html.parser')
             paths=[a['href'] for a in page.select('[data-results] .card-cover')]
-            assert paths==[x['path'] for x in ordered_timeline(rows)[:24]]
+            assert paths==[x['path'] for x in order(rows)[:24]]
             assert not page.select('[data-year="unknown"], [data-release-month="unknown"]')
             assert '发布时间待核' not in page.select_one('[data-browser]').get_text()
             assert 'Release date unverified' not in page.select_one('[data-browser]').get_text()

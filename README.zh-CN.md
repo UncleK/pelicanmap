@@ -4,7 +4,7 @@
 
 **收藏大模型代码生成的鹈鹕骑车作品，覆盖各时间段与展示媒介。** 保留真实输出、原始出处，也保留失败。代码生成的动画、三维、交互及录屏可以收；直接文生视频不进入主馆，旧记录与原媒体留作资料。
 
-时间线与全部作品／普通搜索共用型号顺序，同型号内按作品日期。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，默认全部展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
+全部作品／普通搜索按作品记录日期最新在前；时间线按型号月份分组，同月优先显示有最新作品的型号，型号内按作品日期排列。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，默认全部展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
 
 <p align="center">
   <a href="https://pelicanmap.aveniqa.com/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E7%8B%AC%E7%AB%8B%E4%BD%9C%E5%93%81&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="独立作品"></a>
@@ -30,7 +30,7 @@
 
 原始媒体、作者与出处见各记录。模型按来源标注，未独立认证。[收录方法](https://pelicanmap.aveniqa.com/about/)。
 
-时间线与全部作品共用型号版本顺序；有发布证据时使用首次公开日期，否则按最早来源作品月份暂定位置，不显示待核分区，不改作品日期。同型号内按作品日期排列，默认全部展开，折叠可选。动态预览静音播放；真实补充帧不增加作品数。
+全部作品按作品记录日期倒序；时间线按型号月份分组，同月优先显示最新作品；有发布证据时使用首次公开日期，否则按最早来源作品月份暂定位置，不显示待核分区，不改作品日期。同型号内按作品日期排列，默认全部展开，折叠可选。动态预览静音播放；真实补充帧不增加作品数。
 
 ## 数据与接口
 
@@ -45,7 +45,7 @@ MCP  https://pelicanmap.aveniqa.com/mcp
 
 [JSON](https://pelicanmap.aveniqa.com/data/catalog.json) · [CSV](https://pelicanmap.aveniqa.com/data/catalog.csv) · [OpenAPI](https://pelicanmap.aveniqa.com/openapi.json) · [Agent 导读](https://pelicanmap.aveniqa.com/llms.txt) · [接入文档](https://pelicanmap.aveniqa.com/developers/) · [接入示例](docs/INTEGRATIONS.zh-CN.md)
 
-普通搜索、全部作品、`/api/v1/timeline` 与 `kind=timeline` 共用 `modelTimeline.sortDate` 型号轴，同型号内按作品日期。时间线年份筛型号位置，普通搜索年份筛作品年份；Play 保留作品日期排序。`counts.timeline` 是 `counts.cases` 的子集，不能相加。完整导出保留资料和 Benchmark；主馆须筛 `caseVisible`、`timelineVisible`、`referenceOnly`。新收录要求 `generationMethod=code-generated` 与公开 `codeGenerationEvidence`；不按视频后缀猜生成方式，旧直接文生视频可按 ID 查阅。
+普通搜索、全部作品采用 `artwork-date`；`/api/v1/timeline` 与 `kind=timeline` 保留 `model-release` 型号月份轴，同月按 `latestArtworkDate`／`latestArtworkId` 排列，型号内按作品日期。这些最新作品字段不是模型发布日期；同日用稳定 ID 固定顺序。时间线年份筛型号位置，普通搜索年份筛作品年份；Play 保留作品日期排序。`counts.timeline` 是 `counts.cases` 的子集，不能相加。完整导出保留资料和 Benchmark；主馆须筛 `caseVisible`、`timelineVisible`、`referenceOnly`。新收录要求 `generationMethod=code-generated` 与公开 `codeGenerationEvidence`；不按视频后缀猜生成方式，旧直接文生视频可按 ID 查阅。
 
 ## 本地运行
 

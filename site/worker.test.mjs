@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import {compareTimeline} from './assets/browse.js';
+import {compareArtwork,compareTimeline} from './assets/browse.js';
 
 async function worker() {
   assert.ok(fs.existsSync(new URL('./worker.mjs', import.meta.url)), 'Read-only public API has not been implemented');
@@ -85,6 +85,31 @@ test('evolution API selects family, chronological order and representative flags
   assert.equal(context.caseVisible,false);
   assert.equal(context.childIds.length,22);
   assert.equal(context.caseNumber,null);
+});
+test('both languages expose latest works first through API and MCP, independently of model month',async()=>{
+  const w=await worker();
+  const record=(id,date,month,visible=true)=>({id,date,model:id,sourceUrl:'https://example.com/'+id,
+    caseVisible:visible,timelineVisible:visible,unitType:'single-model-output',caseRole:visible?'case':'context',
+    modelTimeline:{key:id,label:id,sortDate:month,latestArtworkDate:date,latestArtworkId:id}});
+  const fixture={version:'test',updated:'2026-10-12',counts:{cases:3,timeline:3,records:4},items:[
+    record('new-model-old-work','2026-10-01','2026-10'),
+    record('older-model-new-work','2026-10-12','2025-08'),
+    record('same-month-latest','2026-10-11','2026-10'),
+    record('uncounted-newer-context','2026-10-13','2026-10',false)
+  ]};
+  const env={CATALOGS:{zh:fixture,en:fixture}};
+  for(const lang of ['zh','en']){
+    const data=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/specimens?lang='+lang+'&limit=50'),env)).json();
+    assert.equal(data.sortBasis,'artwork-date');
+    assert.deepEqual(data.items.map(x=>x.id),['older-model-new-work','same-month-latest','new-model-old-work']);
+    assert.ok(data.items.every((x,i)=>!i||compareArtwork(data.items[i-1],x)<=0));
+    const rpc=await w.fetch(new Request('https://pelicanmap.aveniqa.com/mcp',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json, text/event-stream'},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'tools/call',params:{name:'search_specimens',arguments:{lang,limit:50}}})}),env);
+    const payload=await rpc.json();
+    assert.deepEqual(JSON.parse(payload.result.content[0].text),data);
+    const timeline=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?lang='+lang+'&limit=1'),env)).json();
+    assert.equal(timeline.sortBasis,'model-release');
+    assert.equal(timeline.items[0].id,'same-month-latest');
+  }
 });
 test('MCP initializes and exposes only the archive read tools', async () => {
   const w = await worker();

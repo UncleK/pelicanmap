@@ -485,7 +485,7 @@ def build_machine_data(items):
     catalog={'version':CATALOG_VERSION,'updated':UPDATED,'site':BASE,'counts':dict(COUNTS),'countingNote':'counts.cases 是独立作品数（各档位分别计）；counts.timeline 是进化轴代表图数，与作品数不相加。caseVisible=false 的合集/转载/待核对资料和 referenceOnly 评分不进入主列表、总数、编号或默认 API。timelineVisible 控制时间线；kind 是历史来源分类。完整 items 保留旧档案及原图，不能按 items.length 计算案例数。','collectingPolicy':'/data/collecting-policy.json','benchmarkUrl':'/tags/benchmark/','benchmarkDataUrl':'/data/benchmark.json','items':items}
     jdump(OUT/'data/collecting-policy.json',json.loads((ROOT/'site/collecting-policy.json').read_text(encoding='utf8')))
     catalog['timelineSortBasis']='model-release'
-    catalog['worksSortBasis']='model-release'
+    catalog['worksSortBasis']='artwork-date'
     catalog['modelReleaseRegistry']='/data/model-releases.json'
     jdump(OUT/'data/model-releases.json',json.loads((ROOT/'site/model-releases.json').read_text(encoding='utf8')))
     jdump(OUT/'data/catalog.json',catalog)
