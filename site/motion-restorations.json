@@ -730,5 +730,16 @@
     "fullDocument": true,
     "reviewEvidence": "2026-10-12-evening-discovery/review.json",
     "safety": "Complete original self-contained HTML/CSS/JS, byte-exact on isolated origin. SVG/DOM animation only; no external dependencies, network, storage, eval, navigation or frames. Original continuous spokes, leg/body motion and weather verified with actual browser frames."
+  },
+  "pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14": {
+    "reviewed": true,
+    "sourceUrl": "https://pelicanbenchmark.com/results/ib3uneZhcIF95GqcRb9vuQ",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/qwen-iq3-limber/",
+    "sha256": "b9958d7318682389f3383532fbeb6a2e8cc826a310f3e6d48ceb14bf841c80b0",
+    "sourceBytes": 11706,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-15-benchmark-increment/review.json",
+    "safety": "Complete self-contained SVG SMIL HTML; no scripts, external dependencies, network, storage, eval or navigation. Two actual Chrome captures verify original spokes, leg and landscape motion. No interactive classification."
   }
 }

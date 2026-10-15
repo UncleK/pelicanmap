@@ -4,6 +4,8 @@ import io
 import csv
 
 BASE = 'https://pelicanmap.aveniqa.com'
+SITE_NAMES = {'zh': '鹈鹕骑车标本馆', 'en': 'Pelican Bicycle Archive'}
+WEBSITE_ID = BASE + '/#website'
 CATALOG_VERSION = '1.3'
 INTRO = {
     'zh': '收藏大模型用代码生成的鹈鹕骑车及明确衍生题作品，不限时间段与展示媒体；不收直接文生视频。保留日期、来源模型标注、作者与原始媒体。评分资料独立参考，非本馆排名。',
@@ -37,6 +39,13 @@ CSV_FIELDS = ['id','kind','title','model','author','date','datePrecision','dateB
               'modelSortDate','modelSortDatePrecision','modelSortBasis','modelSortEvidenceUrl','latestArtworkDate','latestArtworkId']
 
 
+def home_social(language='zh'):
+    label = '在 X 关注 @Kedashu' if language == 'zh' else 'Follow @Kedashu on X'
+    style = '<link rel="stylesheet" href="/assets/home-social.css?v=20261015-1">'
+    link = f'''<a class="home-x-link" href="https://x.com/Kedashu" target="_blank" rel="me noopener noreferrer" aria-label="{label}" title="X · @Kedashu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26L22.827 21.75H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231L18.244 2.25Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"/></svg></a>'''
+    return style, link
+
+
 def listing_notes(counts, scope, language='zh'):
     """Keep reading guidance after the collection, away from the first screen."""
     en = language == 'en'
@@ -45,7 +54,7 @@ def listing_notes(counts, scope, language='zh'):
         'timeline': t('时间线按型号月份排列，同月优先展示有最新作品的型号，型号内按作品日期排列；同日用稳定 ID 固定顺序。卡片仍保留来源作品日期，年份筛选按型号位置。缺少发布依据时用最早可证作品月份暂定位置，不把估算或最新作品日期当发布事实。默认展开，可选折叠相同型号，计数不变。', 'The timeline keeps model-month groups, prioritizing models with the latest counted artworks within each month, then artwork dates within the version. Stable IDs break same-date ties. Cards keep source artwork dates; year filters use the model position. Missing release evidence uses the earliest source-work month as a provisional position; neither this estimate nor latest-artwork activity is a release fact. Works are expanded by default; optional folding leaves counts unchanged.'),
         'specimens': t('全部作品按来源记录的作品日期排列，默认最新在前，同日用稳定 ID 固定顺序。卡片日期和年份筛选仍为作品来源日期／年份，不改编号或计数。不同实际档位分别计作品；合集原帖、转载和评分资料不重复计数。', 'All works sorts by source-recorded artwork date, newest first by default, with stable IDs breaking same-date ties. Card dates and year filters retain source-established artwork dates/years; numbers and counts are unchanged. Actual settings count separately; compilations, reposts and scoring references do not add duplicate works.'),
         'play': t('进入详情可拖动视角、控制骑行或操作场景，在本站隔离演示域体验，不自动跳转源网站。只有实测可操作且许可清楚的项目进入这里；自动动画或播放控制不算可玩。', 'Open a record to rotate a view, control a ride or operate a scene on our isolated demo domain, without automatic source redirects. Only verified meaningful interactions with clear permission qualify; animation and playback controls alone are not Play.'),
-        'benchmark': t('评分对照资料单独展示，不进入主时间线、全部作品和案例总数。先选择 Benchmark 合集，再查看模型汇总与原始样本。上游输出，非本馆排名；这里是上游评测资料索引，不是模型能力排行榜。', 'Independent scoring references are excluded from the main timeline, collection and case total. Choose a benchmark, then inspect model summaries and original samples. Upstream outputs, not a Pelican Map ranking or capability leaderboard.'),
+        'benchmark': t('评分对照资料单独展示，不进入主时间线、全部作品和案例总数。先选择 Benchmark 合集，再查看模型汇总与原始样本。上游输出，非本馆排名；这里是上游评测资料索引，不是模型能力排行榜。', 'Independent scoring references are excluded from the main timeline, collection and case total. Choose a benchmark, then inspect model summaries and original samples. Upstream outputs, not a Pelican Bicycle Archive ranking or capability leaderboard.'),
         'sources': t('沿着作品，找到代码、作者与最初的问题。这里是原始出处与仓库的阅读索引，不计作品数。动画、视频、三维、游戏与 Agent 项目保留实际生成条件、迭代和人工参与。', 'Follow each work back to its code, creator and original question. This reading index of sources and repositories is not an artwork count. Animation, video, 3D, games and agent projects retain generation conditions, iterations and human involvement.'),
     }
     common = t(f'{counts["cases"]} 个独立作品；时间线精选 {counts["timeline"]} 件代表，两者不相加。重点收录大模型代码生成作品，展示不限时间与媒体；不收直接文生视频，代码动画的录屏仍可收。模型与署名按来源标注，未独立认证。', f'{counts["cases"]} independent works; the {counts["timeline"]} timeline representatives are a subset, not an additional total. The focus is LLM code-generated work across all dates and presentation media. Direct text-to-video is excluded; recordings of code-generated animation remain eligible. Model labels and attribution are source-reported, not independently authenticated.')
@@ -92,7 +101,7 @@ def scope_sections(counts, language='zh'):
             ('Scope and counts', f'{counts["cases"]} independent works, including separate outputs at different settings. The {counts["timeline"]} timeline representatives across media are a subset, not additional works. {counts["sourceIndex"]} Simon Willison reading-index entries are not artworks. Raw JSON/CSV retains {counts["records"]} archival rows, including {counts["referenceRecords"]} reference-only HF samples; items.length is not the artwork count.'),
             ('One output, one record', 'One work is one source-attributed model output at a documented time. Labelled compilations are split only when each image can be matched to its model; faithful source crops retain provenance and full originals in details. Settings comparisons precede the individual image and complete composite. Reposts and duplicated images are not counted twice.'),
             ('Evolution timeline', 'Same-model runs on different dates retain their own images. Within an explicitly reviewed same-model/date run group, the timeline uses the author\'s stated default, otherwise medium, never the highest score. Other outputs stay in the collection. Month-only dates remain month-only; publication dates are not silently treated as generation dates. Model-family filtering groups source labels and does not authenticate them.'),
-            ('Benchmark references', 'HuggingFace / OpenEnv dataset and scoring environment share one Benchmark collection. Benchmark collections, model summaries and samples are referenceOnly: excluded from the main collection, timeline, artwork totals, numbering and default API search. Original IDs remain readable. Upstream outputs, not a Pelican Map ranking.'),
+            ('Benchmark references', 'HuggingFace / OpenEnv dataset and scoring environment share one Benchmark collection. Benchmark collections, model summaries and samples are referenceOnly: excluded from the main collection, timeline, artwork totals, numbering and default API search. Original IDs remain readable. Upstream outputs, not a Pelican Bicycle Archive ranking.'),
             ('Code-generated works across all dates and media', 'The focus is language-model code generation: SVG, HTML/CSS/JavaScript, Canvas, Three.js/WebGL, Blender scripts, POV-Ray scenes and related documented code workflows. Presentation may be static, animated, recorded video, 3D or interactive. Direct text-to-video output such as Veo or Sora is outside the main collection; preserved legacy IDs and original media remain uncounted context, readable by direct ID. Classification follows source evidence about the generation workflow, not the media extension. A recording or frame of code-generated animation remains part of that same eligible work, not another work. New imports require generationMethod=code-generated and public codeGenerationEvidence; missing process evidence is deferred, not guessed. Models and tools remain source-reported. Play requires meaningful interaction and clear permission on the isolated demo domain.'),
         ]
     return [
@@ -134,7 +143,7 @@ def agent_guide(counts, updated, language='zh'):
     en = language == 'en'
     prefix = '/en' if en else ''
     lang_query = '?lang=en' if en else ''
-    head = '# Pelican Map'+('' if en else ' / 鹈鹕骑车标本馆')
+    head = '# Pelican Bicycle Archive'+('' if en else ' / 鹈鹕骑车标本馆')
     guide = head+'\n\n> '+INTRO[language]+f'\n\nCatalog {CATALOG_VERSION} · {updated}\n\n'
     for title, text in scope_sections(counts, language)+agent_sections(language):
         guide += '## '+title+'\n\n'+text+'\n\n'
@@ -148,10 +157,19 @@ def agent_guide(counts, updated, language='zh'):
     return guide
 
 
+def website_schema():
+    # One stable site identity covers both languages on the existing subdomain.
+    return {'@type': 'WebSite', '@id': WEBSITE_ID, 'url': BASE+'/',
+            'name': SITE_NAMES['en'],
+            'alternateName': [SITE_NAMES['zh'], 'Pelican Map'],
+            'inLanguage': ['zh-CN', 'en']}
+
+
 def home_schema(title, language='zh'):
     prefix = '/en/' if language == 'en' else '/'
     return {'@context':'https://schema.org','@type':'CollectionPage','name':title,
             'description':HOME_COPY[language]['description'],'url':BASE+prefix,'inLanguage':'en' if language=='en' else 'zh-CN',
+            'isPartOf': website_schema(),
             'about':{'@type':'Thing','name':'Generate an SVG of a pelican riding a bicycle'}}
 
 
@@ -159,7 +177,7 @@ def record_schema(item, language='zh'):
     from historical_context import HISTORY_ID, historical_display
     item = historical_display(item,language)
     abstract = ('来源模型未独立认证；日期精度：' if language=='zh' else 'Source model not independently authenticated; date precision: ')+(item.get('datePrecision') or 'upstream record')+'; '+(item.get('dateBasis') or 'upstream date')
-    if item.get('referenceOnly'):abstract += '。上游输出，非本馆排名' if language=='zh' else '. Upstream outputs, not a Pelican Map ranking'
+    if item.get('referenceOnly'):abstract += '。上游输出，非本馆排名' if language=='zh' else '. Upstream outputs, not a Pelican Bicycle Archive ranking'
     schema = {'@context':'https://schema.org','@type':'CreativeWork','name':item['title'],
               'url':item['url'],'description':item.get('notes') or item['formatLabel'],
               'dateModified':item['updated'],'isBasedOn':item['sourceUrl'],
@@ -194,8 +212,8 @@ def openapi():
     response = {'200':{'description':'Matched visible works before pagination; context and Benchmark references excluded.',
                         'content':{'application/json':{'schema':ref('SearchResult')}}},
                 '400':{'description':'Invalid or unknown parameters'}}
-    return {'openapi':'3.1.0','info':{'title':'Pelican Map Read-only API','version':CATALOG_VERSION,
-              'description':'Source-attributed independent outputs. Timeline is a representative subset; referenceOnly scores and uncounted source archives are excluded from search but remain readable by ID. Upstream outputs, not a Pelican Map ranking.'},
+    return {'openapi':'3.1.0','info':{'title':'Pelican Bicycle Archive Read-only API','version':CATALOG_VERSION,
+              'description':'Source-attributed independent outputs. Timeline is a representative subset; referenceOnly scores and uncounted source archives are excluded from search but remain readable by ID. Upstream outputs, not a Pelican Bicycle Archive ranking.'},
             'servers':[{'url':BASE}],
             'paths':{'/api/v1/specimens':{'get':{'operationId':'searchSpecimens','parameters':params,'responses':response}},
                      '/api/v1/timeline':{'get':{'operationId':'getTimeline','description':'Single-model representatives on the shared version axis. Missing release evidence uses the earliest counted source-work month as an explicit provisional position, integrated without a separate UI label. Record date remains the artwork date. A subset, not additional works.','parameters':params,'responses':response}},

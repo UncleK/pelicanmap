@@ -1,8 +1,8 @@
-<p align="center"><a href="https://pelicanmap.aveniqa.com/specimens/?view=images"><img src="docs/assets/social-preview.png" alt="pelicanmap · 一只鸟，一辆车，一段 AI 小史。" width="100%"></a></p>
+<p align="center"><a href="https://pelicanmap.aveniqa.com/specimens/?view=images"><img src="docs/assets/social-preview.png?v=20261015-archive" alt="鹈鹕骑车标本馆 · 大模型代码作品档案" width="100%"></a></p>
 
 <p align="center"><a href="https://pelicanmap.aveniqa.com/specimens/?view=images">浏览馆藏 ↗</a> · <a href="https://unclek.github.io/pelicanmap/zh/">项目首页</a> · <a href="README.md">English</a></p>
 
-**收藏大模型代码生成的鹈鹕骑车作品，覆盖各时间段与展示媒介。** 保留真实输出、原始出处，也保留失败。代码生成的动画、三维、交互及录屏可以收；直接文生视频不进入主馆，旧记录与原媒体留作资料。
+**鹈鹕骑车标本馆**收藏大模型代码生成的鹈鹕骑车作品，覆盖各时间段与展示媒介。 保留真实输出、原始出处，也保留失败。代码生成的动画、三维、交互及录屏可以收；直接文生视频不进入主馆，旧记录与原媒体留作资料。
 
 全部作品／普通搜索按作品记录日期最新在前；时间线按型号月份分组，同月优先显示有最新作品的型号，型号内按作品日期排列。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，默认全部展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
 

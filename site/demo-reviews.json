@@ -1,32 +1,93 @@
 {
   "variora-gemini-3-8-flash-2026-09-20": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/variora-motion-recovery/variora-gemini-3-8-flash-2026-09-20/",
-    "controls": {"zh": "点击「翘前轮特技」或按空格抬起前轮；点击「投喂小鱼」触发喉囊反馈，点击车灯开关灯光。原界面为中文，音效默认关闭。", "en": "Click the wheelie button (翘前轮特技) or press Space to lift the front wheel; poke the fish (投喂小鱼) for pouch feedback, and toggle the headlight (车灯). Original controls are in Chinese; sound is off by default."},
+    "controls": {
+      "zh": "点击「翘前轮特技」或按空格抬起前轮；点击「投喂小鱼」触发喉囊反馈，点击车灯开关灯光。原界面为中文，音效默认关闭。",
+      "en": "Click the wheelie button (翘前轮特技) or press Space to lift the front wheel; poke the fish (投喂小鱼) for pouch feedback, and toggle the headlight (车灯). Original controls are in Chinese; sound is off by default."
+    },
     "reviewedAt": "2026-10-06",
     "sourceUrl": "https://github.com/scarletkc/Variora/tree/50abf71689798cde24f4b7bd387771bd246cd059/projects/pelican-cycle/models/gemini-3-8-flash",
     "sourceSha256": "f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a",
     "license": "MIT",
-    "verifiedActions": ["Clicked wheelie: bike rotation changed from 0.00 to -18.74 degrees", "Pressed Space: bike rotation -11.80 degrees and WHEELIE feedback", "Clicked fish: pouch geometry and fish position responded", "Headlight toggle: beam opacity changed from 0 to 1"],
+    "verifiedActions": [
+      "Clicked wheelie: bike rotation changed from 0.00 to -18.74 degrees",
+      "Pressed Space: bike rotation -11.80 degrees and WHEELIE feedback",
+      "Clicked fish: pouch geometry and fish position responded",
+      "Headlight toggle: beam opacity changed from 0 to 1"
+    ],
     "safety": "Complete standalone HTML and MIT license read; no external dependencies, network, storage, eval, navigation, forms or permissions. Local opaque-origin sandbox allowed scripts only; network denied. Default sound off retained. No fullscreen or source rewrites."
   },
   "tihuqiche-game-157f212e": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/tihuqiche/index.html",
-    "controls": {"zh": "WASD / 方向键控制骑行，拖动和滚轮调整视角。", "en": "Use WASD / arrow keys to ride; drag and scroll to adjust the view."}
+    "controls": {
+      "zh": "WASD / 方向键控制骑行，拖动和滚轮调整视角。",
+      "en": "Use WASD / arrow keys to ride; drag and scroll to adjust the view."
+    }
   },
   "claude-opus-playable-coast-f678d85a": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/riba-opus-coast.html",
-    "controls": {"zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。", "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."}
+    "controls": {
+      "zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。",
+      "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."
+    }
   },
   "x-jp-aichan-opus-oneprompt-games-2026-09-25-34cd8c93": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/riba-opus-coast.html",
-    "controls": {"zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。", "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."}
+    "controls": {
+      "zh": "点击开始骑行，切换跟随、环绕、侧面与鹈鹕视角；拖动旋转视角。",
+      "en": "Start the ride, choose chase, orbit, side or pelican views, and drag to rotate."
+    }
   },
   "juejin-parrot-variant-astra-2026-09-17-e965ba4e": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/sites/parrot-ccvibe.html",
-    "controls": {"zh": "拖动调整三维视角，滚轮缩放，重置视角并调节骑行速度。", "en": "Drag to orbit, scroll to zoom, reset the view and change the cycling speed."}
+    "controls": {
+      "zh": "拖动调整三维视角，滚轮缩放，重置视角并调节骑行速度。",
+      "en": "Drag to orbit, scroll to zoom, reset the view and change the cycling speed."
+    }
   },
   "simon-claude-sonnet-5-5-free-webgl-2026-09-28": {
     "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/simon-claude-sonnet-5-5-free-3d/",
-    "controls": {"zh": "拖动旋转三维视角，滚轮或双指缩放。", "en": "Drag to rotate the 3D view; scroll or pinch to zoom."}
+    "controls": {
+      "zh": "拖动旋转三维视角，滚轮或双指缩放。",
+      "en": "Drag to rotate the 3D view; scroll or pinch to zoom."
+    }
+  },
+  "x-kedashu-gemini-4-argon-lakeside-2026-10-15": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/kedashu-lakeside/",
+    "controls": {
+      "zh": "点击「湖面捕鱼」使鱼跳入喉囊并增加计数，点击「鸣笛张嘴」或鸟身触发鸣笛；拖动「骑行速度」，切换「晴日／黄昏／星夜」。交互后原作会合成音效。",
+      "en": "Click Catch Fish (湖面捕鱼) to catch a fish and increase the count; click Honk (鸣笛张嘴) or the bird to honk. Drag the riding-speed slider and choose day, sunset or night. The original generates sound effects after interaction."
+    },
+    "reviewedAt": "2026-10-15",
+    "sourceUrl": "https://x.com/Kedashu/status/2110545793694466401",
+    "sourceSha256": "3fe564b5d0aa6bae12d9d72a89027a5ccef14a3b7606ae6861add1ea5952a488",
+    "license": "Creator-supplied for this site; no additional open-source license asserted.",
+    "verifiedActions": [
+      "Catch Fish increased count 0 → 3",
+      "Honk opened the beak and showed HONK!",
+      "Speed slider changed 24 km/h → 43 km/h",
+      "Day, sunset and night buttons changed lighting and headlight appearance"
+    ],
+    "safety": "Full application source reviewed; isolated demo domain and existing iframe sandbox. Only original Tailwind CDN and Google Fonts external references; no storage, credentials, navigation, forms or permissions. HTML original bytes retained."
+  },
+  "github-xiiiblue-gemini-4-argon-seaside-2026-10-14": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/xiiiblue-gemini-4-argon/",
+    "controls": {
+      "zh": "点击「投喂鲜鱼」（或空格）捕鱼，「按响喇叭」（或 B）鸣笛；切换晴日／黄昏／星夜及帽子，拖动速度滑块或选择驻车／悠闲／巡航／冲刺。原作交互会合成音效，可点音效按钮静音。",
+      "en": "Click 投喂鲜鱼 or press Space to catch fish; click 按响喇叭 or press B to honk. Switch day/sunset/night and headwear, or change speed with the slider/presets. Original controls are Chinese. Interactions synthesize sound; use the sound button to mute."
+    },
+    "reviewedAt": "2026-10-15",
+    "sourceUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/README.md",
+    "sourceSha256": "696074d3d3a936975fb89499280f0cb38d031205ceea8886e7261fa24aac9f30",
+    "license": "No explicit open-source license stated; creator attribution and fixed public source retained.",
+    "verifiedActions": [
+      "Fish count increased 4 → 5",
+      "Hat changed sailor cap → aviator goggles",
+      "Lighting changed day → sunset → night",
+      "Sprint preset changed speed badge to 2.2x",
+      "Honk generated visible musical-note particles",
+      "Rear wheel transform changed continuously"
+    ],
+    "safety": "Complete application reviewed; local opaque-origin iframe tested. Only original Tailwind CDN and Google Fonts references. No application network/storage/eval/navigation/forms/permissions. Original HTML bytes retained on isolated demo domain."
   }
 }

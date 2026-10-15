@@ -27,7 +27,7 @@ class EditorialTests(unittest.TestCase):
             self.assertEqual(home.select_one('.nav a').get_text(), 'Home' if lang=='en' else '首页')
             self.assertEqual(home.select_one('.nav a')['href'], '/en/' if lang=='en' else '/')
             footer=home.select_one('.footer-bottom')
-            self.assertEqual(footer.select_one('.small').get_text(),'Pelican Map')
+            self.assertEqual(footer.select_one('.small').get_text(),'Pelican Bicycle Archive' if lang=='en' else '鹈鹕骑车标本馆')
             self.assertEqual(footer.select_one('.copyright').get_text(),'Creator-owned works · Unverified model labels' if lang=='en' else '作品归原作者 · 模型标注未独立认证')
             history=by[HISTORY_ID]
             self.assertEqual(home.select_one('[data-historical-hero] img')['src'],history['thumbnail'])
@@ -49,6 +49,15 @@ class EditorialTests(unittest.TestCase):
             self.assertEqual(home.select_one('.hero .intro').get_text(),HOME_COPY[lang]['description'])
             schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
             self.assertEqual(schema['description'],HOME_COPY[lang]['description'])
+            website=schema['isPartOf']
+            self.assertEqual(website['@type'],'WebSite')
+            self.assertEqual(website['url'],'https://pelicanmap.aveniqa.com/')
+            self.assertEqual(website['@id'],website['url']+'#website')
+            self.assertEqual(website['name'],'Pelican Bicycle Archive')
+            self.assertIn('鹈鹕骑车标本馆',website['alternateName'])
+            self.assertIn('Pelican Map',website['alternateName'])
+            self.assertEqual(home.select_one('.brand strong').get_text(),'Pelican Bicycle Archive' if lang=='en' else '鹈鹕骑车标本馆')
+            self.assertEqual(home.select_one('meta[property="og:site_name"]')['content'],'Pelican Bicycle Archive' if lang=='en' else '鹈鹕骑车标本馆')
             prefix='en/' if lang=='en' else ''
             markdown=(OUT/prefix/'index.md').read_text(encoding='utf8')
             self.assertIn(HOME_COPY[lang]['question'],markdown)

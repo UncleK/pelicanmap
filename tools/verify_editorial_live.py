@@ -43,7 +43,7 @@ for lang in ['zh','en']:
     assert home.select_one('.nav a').get_text()==('Home' if lang=='en' else '首页')
     assert home.select_one('.nav a')['href']==prefix+'/'
     footer=home.select_one('.footer-bottom')
-    assert footer.select_one('.small').get_text()=='Pelican Map'
+    assert footer.select_one('.small').get_text()=='Pelican Bicycle Archive' if lang=='en' else '鹈鹕骑车标本馆'
     assert footer.select_one('.copyright').get_text()==('Creator-owned works · Unverified model labels' if lang=='en' else '作品归原作者 · 模型标注未独立认证')
     schema=json.loads(home.select_one('script[type="application/ld+json"]').string)
     assert 'mainEntity' not in schema

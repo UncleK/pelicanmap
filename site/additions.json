@@ -62999,7 +62999,8 @@
         "source": "https://works.pelicanbenchmark.com/79cqaSxr-I2h5PATDc92sA.html",
         "caption": "Pelican Benchmark 动态 HTML 作品合集代表预览",
         "captionEn": "Pelican Benchmark Animated HTML Collection representative preview",
-        "poster": ""
+        "poster": "",
+        "sha256": "ec9c8ff5f6de6a0dcc191cecd138451618f4ee53b24636758455a9272d525c7b"
       }
     ],
     "thumbnail": "/media/collected/2026-10-11-multisource-discovery/pb-wang-kaijun-gemini-3-8-flash-high-2026-09-28-de5c6e87-preview.png",
@@ -64041,5 +64042,814 @@
     },
     "sourcePublicationDate": "2026-10-11",
     "sourceResponseTimestamp": "2026-10-11T11:28:02.000Z"
+  },
+  {
+    "id": "x-liuweijiavip-muse-wonder-animation-2026-10-13",
+    "originalId": "x-liuweijiavip-muse-wonder-animation-2026-10-13",
+    "kind": "timeline",
+    "title": "Muse Wonder · 草帽鹈鹕骑行录屏",
+    "model": "Muse Wonder",
+    "author": "Wei佳 (@LiuweijiaVip)",
+    "date": "2026-10-13",
+    "month": "2026-10",
+    "notes": "Wei佳 原帖标注 meta/muse-wonder。32.09 秒完整录屏先展示 OpenRouter 的 Muse Wonder HTML/CSS/JavaScript 输出，随后运行本地 HTML：草帽、红围巾、红车架，腿部踩踏、轮辐旋转与背景滚动。录屏中展示暂停/继续和速度操作，铃铛有代码和按钮；无完整公开源码，铃声未独立验证，不列站内 Play。型号按作者标注，未独立认证；完整提示词与推理档位未知。作品日期采用原帖 UTC 公开日 2026-10-13，实际生成时间未知。保留完整原录屏；公开原 HTML/JS 仍缺。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/LiuweijiaVip/status/2109844461874561094",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-13-muse-frontier/x-liuweijiavip-muse-wonder-animation-2026-10-13.mp4",
+        "source": "https://video.twimg.com/amplify_video/2109844012337377280/vid/avc1/1552x1080/3OE1LZwpu5MJMq2r.mp4",
+        "sha256": "c552f9a6865d170b81046cead2526c7726f6bd03525abb6e9e32047015945e81",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2109844012337377280/vid/avc1/1552x1080/3OE1LZwpu5MJMq2r.mp4",
+          "sourceSha256": "c552f9a6865d170b81046cead2526c7726f6bd03525abb6e9e32047015945e81",
+          "frameTime": 17,
+          "sha256": "3c49e4a9ad0551561cbc160710fc07d65a036af41216e2fc9d743dd6b6c69332"
+        },
+        "caption": "Muse Wonder · 完整原始代码动画录屏",
+        "captionEn": "Muse Wonder · Complete original code-animation recording",
+        "poster": "/media/collected/2026-10-13-muse-frontier/x-liuweijiavip-muse-wonder-animation-2026-10-13-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-13-muse-frontier/x-liuweijiavip-muse-wonder-animation-2026-10-13-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-liuweijiavip-muse-wonder-animation-2026-10-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-liuweijiavip-muse-wonder-animation-2026-10-13/",
+    "markdown": "/specimens/x-liuweijiavip-muse-wonder-animation-2026-10-13/index.md",
+    "updated": "2026-10-13",
+    "rights": "Wei佳 (@LiuweijiaVip) 在公开原帖发布的代码动画录屏；保留署名、出处和完整原视频。未发现明确开源许可，不声称已获开源授权；未镜像或执行未公开的应用源码。",
+    "i18n": {
+      "en": {
+        "title": "Muse Wonder · Straw-hat pelican cycling recording",
+        "model": "Muse Wonder",
+        "notes": "Wei佳 labels the original post meta/muse-wonder. The complete 32.09-second recording shows Muse Wonder HTML/CSS/JavaScript output in OpenRouter followed by a local HTML animation: straw hat, red scarf and bicycle, pedalling, rotating spokes and scrolling scenery. Pause/resume and speed controls are demonstrated; bell code and a button are visible, but its sound is not independently verified. No onsite Play entry or public complete source. Model label is author-reported and unverified; full prompt and reasoning effort are unknown. Artwork date is the UTC publication day, 2026-10-13; generation time is unknown. Complete original recording retained; public original HTML/JS remains missing.",
+        "rights": "Code-animation recording publicly posted by Wei佳 (@LiuweijiaVip). Attribution, source and complete original video are retained. No explicit open-source license was found or claimed. Unpublished application source is neither mirrored nor executed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/LiuweijiaVip/status/2109844461874561094",
+        "https://cdn.syndication.twimg.com/tweet-result?id=2109844461874561094&lang=en&token=0",
+        "https://video.twimg.com/amplify_video/2109844012337377280/vid/avc1/1552x1080/3OE1LZwpu5MJMq2r.mp4",
+        "https://pbs.twimg.com/amplify_video_thumb/2109844012337377280/img/oejph0Q6uyf5Huch.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Wonder"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/LiuweijiaVip/status/2109844461874561094"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "code-generated-html-svg-recording",
+      "ranWith": "OpenRouter",
+      "generationDateKnown": false,
+      "fullPromptKnown": false,
+      "reasoningEffortKnown": false,
+      "publicCompleteSourceAvailable": false
+    },
+    "sourcePublicationDate": "2026-10-13",
+    "sourceResponseTimestamp": "2026-10-13T03:11:33.000Z"
+  },
+  {
+    "id": "x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12",
+    "originalId": "x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12",
+    "kind": "timeline",
+    "title": "Muse Wonder Full (max) · 蓝帽鹈鹕骑车动画",
+    "model": "Muse Wonder Full (max)",
+    "author": "StudioYebisu (@studio_yebisu)",
+    "date": "2026-10-12",
+    "month": "2026-10",
+    "notes": "StudioYebisu 原帖明确标注 Muse Wonder Full、effort=max，单句提示词要求独立 HTML 内的 2D SVG 鹈鹕骑车动画，作者称含 CLI 启动生成约 60 秒。原帖完整译文另称新会话、无输入图、未改代码，直接把生成动画录为视频；这些条件按作者描述记录。12 秒完整原视频展示蓝帽、红围巾、红车架和前车篮，轮辐/踏板与云层/路面运动。模型与条件未独立认证。公开时间 2026-10-12 18:47:01 UTC，即北京时间 10 月 13 日 02:47:01；作品日期沿用 UTC 公开日，实际生成时间未知。完整 HTML/CSS/JS 未公开，保存完整原录屏，不列站内 Play。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/studio_yebisu/status/2109717490586783884",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-13-muse-frontier/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12.mp4",
+        "source": "https://video.twimg.com/amplify_video/2109716506485628928/vid/avc1/960x558/u3TH7kt9Q3CmuSJy.mp4",
+        "sha256": "56e99bc25ecc819559ce89fba5ec340041a638e10ed4b6eb4e0fead5fe9783d8",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2109716506485628928/vid/avc1/960x558/u3TH7kt9Q3CmuSJy.mp4",
+          "sourceSha256": "56e99bc25ecc819559ce89fba5ec340041a638e10ed4b6eb4e0fead5fe9783d8",
+          "frameTime": 1,
+          "sha256": "f84f325b7e3460b981ebafb5b2a9962d1d1195d2401109c0d6f13f20b3c640d0"
+        },
+        "caption": "Muse Wonder Full (max) · 完整原始代码动画录屏",
+        "captionEn": "Muse Wonder Full (max) · Complete original code-animation recording",
+        "poster": "/media/collected/2026-10-13-muse-frontier/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-13-muse-frontier/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12/",
+    "markdown": "/specimens/x-studio-yebisu-muse-wonder-full-max-animation-2026-10-12/index.md",
+    "updated": "2026-10-13",
+    "rights": "StudioYebisu (@studio_yebisu) 在公开原帖发布的代码动画录屏；保留署名、出处和完整原视频。未发现明确开源许可，不声称已获开源授权；未镜像或执行未公开的应用源码。",
+    "i18n": {
+      "en": {
+        "title": "Muse Wonder Full (max) · Blue-hat pelican bicycle animation",
+        "model": "Muse Wonder Full (max)",
+        "notes": "StudioYebisu explicitly labels Muse Wonder Full with effort=max. A one-sentence prompt requests a self-contained HTML 2D SVG pelican bicycle animation; reported generation time is about 60 seconds including CLI startup. The full post translation also reports a new session, no input image, no code edits and direct video recording of the generated animation; these are author-reported conditions. The complete 12-second video shows a blue hat, red scarf and bicycle, front basket, moving spokes/pedals, clouds and road markings. Model and conditions are unverified. Published at 2026-10-12 18:47:01 UTC, or October 13 02:47:01 in Beijing; artwork date follows the UTC publication day. Generation time and public complete HTML/CSS/JS remain unknown. Complete original recording retained; no onsite Play entry.",
+        "rights": "Code-animation recording publicly posted by StudioYebisu (@studio_yebisu). Attribution, source and complete original video are retained. No explicit open-source license was found or claimed. Unpublished application source is neither mirrored nor executed.",
+        "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/studio_yebisu/status/2109717490586783884",
+        "https://cdn.syndication.twimg.com/tweet-result?id=2109717490586783884&lang=en&token=0",
+        "https://video.twimg.com/amplify_video/2109716506485628928/vid/avc1/960x558/u3TH7kt9Q3CmuSJy.mp4",
+        "https://pbs.twimg.com/amplify_video_thumb/2109716506485628928/img/OFoAedBBVDNIO54J.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Wonder Full (max)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/studio_yebisu/status/2109717490586783884"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "workflow": "musecode-cli-html-svg-recording",
+      "ranWith": "MuseCode",
+      "thinkingLevel": "max",
+      "generationTimeSecondsApprox": 60,
+      "includesCliStartup": true,
+      "generationDateKnown": false,
+      "publicCompleteSourceAvailable": false,
+      "newSession": true,
+      "inputImage": false,
+      "codeEdits": false,
+      "additionalConditionsEvidence": "Full original-post English translation read in Chrome; short Japanese original also preserved by syndication."
+    },
+    "sourcePublicationDate": "2026-10-12",
+    "sourceResponseTimestamp": "2026-10-12T18:47:01.000Z"
+  },
+  {
+    "id": "techgogogo-gemini4-suspected-saturn-animation-2026-10-13",
+    "originalId": "techgogogo-gemini4-suspected-saturn-animation-2026-10-13",
+    "kind": "timeline",
+    "title": "鹈鹕骑车穿越土星环",
+    "model": "Gemini 4（疑似路由，来源标注）",
+    "author": "AI产品狙击手（发布者；生成作者未公开）",
+    "date": "2026-10-13",
+    "month": "2026-10",
+    "notes": "AI产品狙击手于 2026 年 10 月 13 日发布的 SVG 动画测评，作品由未公开身份的读者提供。来源称 Antigravity 的 Gemini 3.8 Flash 疑似路由到 Gemini 4，实际型号和运行设置未独立核实，不能据此认定为 Gemini 4 Argon 正式版实测。主展示保留原评测 47.3–67.2 秒的完整土星环动画段落，保留旁白、字幕、水印、未被土星遮挡及骑出星环等原有表现；整段评测另存为出处附件，不增加作品数。作品日期采用文章公开日，生成日未知。原 SVG/HTML 源码未公开，不列为站内可操作演示。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.techgogogo.com/2026/10/13/gemini-4-suspected-benchmark-report/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "saturn-rings",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-14-saturn-intake/saturn-segment.mp4",
+        "source": "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4",
+        "sha256": "a011b856d226ac825b7fcec031ebdffc3f7aee907bca3c4106e90be157a2b9be",
+        "extraction": {
+          "kind": "reviewed-video-segment",
+          "source": "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4",
+          "sourceSha256": "abcf776fcdacbb8337953b9a27994bec847ee9aa8f5ee05d2e2c329e40c45a7b",
+          "start": 47.3,
+          "end": 67.2,
+          "sourceDuration": 181.833991,
+          "method": "ffmpeg-skill/cut.py:accurate",
+          "segmentSha256": "a011b856d226ac825b7fcec031ebdffc3f7aee907bca3c4106e90be157a2b9be"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4",
+          "sourceSha256": "a011b856d226ac825b7fcec031ebdffc3f7aee907bca3c4106e90be157a2b9be",
+          "frameTime": 12.7,
+          "sha256": "09a2541eb9f842179f5dedd765eefa6afe95088eff8a239bc741e31154a3054e"
+        },
+        "caption": "完整土星环骑行动画段落（原评测 47.3–67.2 秒；保留字幕、旁白及原有失败表现）",
+        "captionEn": "Complete Saturn cycling demonstration (source review 47.3–67.2 s; original subtitles, narration and failures preserved)",
+        "poster": "/media/collected/2026-10-14-saturn-intake/saturn-segment-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-14-saturn-intake/complete-review.mp4",
+        "source": "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4",
+        "sha256": "abcf776fcdacbb8337953b9a27994bec847ee9aa8f5ee05d2e2c329e40c45a7b",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4",
+          "sourceSha256": "abcf776fcdacbb8337953b9a27994bec847ee9aa8f5ee05d2e2c329e40c45a7b",
+          "frameTime": 60,
+          "sha256": "b6cb4a94bf08332543dd79539a9949c6e2695794bf98440a07b98e71d2b1fac2"
+        },
+        "detailOnly": true,
+        "caption": "完整原评测视频（含其它题目，仅作出处存档）",
+        "captionEn": "Complete original review (includes other tasks; retained only for provenance)",
+        "poster": "/media/collected/2026-10-14-saturn-intake/complete-review-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-14-saturn-intake/saturn-segment-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/techgogogo-gemini4-suspected-saturn-animation-2026-10-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/techgogogo-gemini4-suspected-saturn-animation-2026-10-13/",
+    "markdown": "/specimens/techgogogo-gemini4-suspected-saturn-animation-2026-10-13/index.md",
+    "updated": "2026-10-14",
+    "rights": "作品归原作者；评测视频署名 AI产品狙击手。保留原水印和出处，来源未提供开放许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling through Saturn’s rings",
+        "model": "Gemini 4 (suspected routing; source label)",
+        "author": "AI产品狙击手 (publisher; creator undisclosed)",
+        "notes": "SVG animation reviewed by AI产品狙击手 on 13 October 2026, supplied by an unidentified reader. The source alleges that Antigravity Gemini 3.8 Flash was routed to Gemini 4; the actual model and run settings are unverified, so this is not a confirmed Gemini 4 Argon GA test. The primary recording contains the complete Saturn animation shown at 47.3–67.2 seconds, preserving narration, subtitles, watermark, incorrect planetary occlusion and the bicycle leaving the rings. The complete review is retained as a provenance attachment and does not add another work. The artwork date is the article publication date; generation date is unknown. Original SVG/HTML code is not public, and no playable on-site demo is claimed.",
+        "rights": "The work belongs to its original creator; the review recording is credited to AI产品狙击手. Original watermark and source attribution are retained. No open licence is stated.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.techgogogo.com/2026/10/13/gemini-4-suspected-benchmark-report/",
+        "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4（疑似路由，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.techgogogo.com/2026/10/13/gemini-4-suspected-benchmark-report/",
+      "https://cdn.techgogogo.com/videos/gemini-4-suspected-benchmark-report.mp4"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-10-13"
+  },
+  {
+    "id": "x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13",
+    "originalId": "x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon · 傅里叶本轮绘制三维鹈鹕骑车",
+    "model": "Gemini 4 Argon",
+    "author": "fofr (@fofrAI)",
+    "date": "2026-10-13",
+    "month": "2026-10",
+    "notes": "fofr 的傅里叶本轮动画：从少量旋转圆逐步描出骑车鹈鹕，随后显示踩踏运动，并旋转视角揭示三维构形。原帖标注由 Argon 制作视频、由 Argon 提示 Lyria 3.5 生成时间同步配乐；型号及方法按作者描述记录，未独立认证。保留完整约 60 秒、1920×1080、60 fps 原视频与音轨，不裁切、不补画、不新增运动。公开于 UTC 2026-10-13 16:20:34（北京时间 10 月 14 日 00:20:34）；作品日期采用原帖 UTC 公开日，生成日未知。作者在回复中给出采用参考图风格、逐步揭示傅里叶图形并同步配乐的通用提示，具体鹈鹕 Prompt、参考图与源码未完整公开。画面中的 N、节点数和误差是原作展示信息，不作独立评分或生成次数证明；无站内可操作演示。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/fofrAI/status/2110043023954284889",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "fourier-epicycles",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-14-fofr-argon-intake/fofr-argon-fourier-pelican-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2110042439679356928/vid/avc1/1920x1080/_040EKr0I8s1J2Sq.mp4",
+        "sha256": "a304bc0af22bf1f62feebb082bcf3ba4a5e488b36b241f98bac60999a73611f4",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2110042439679356928/vid/avc1/1920x1080/_040EKr0I8s1J2Sq.mp4",
+          "sourceSha256": "a304bc0af22bf1f62feebb082bcf3ba4a5e488b36b241f98bac60999a73611f4",
+          "frameTime": 28,
+          "sha256": "6c0343f177008c259f97f87814f4a872741b0cc63215dbd07c9a88d25d79f7ee"
+        },
+        "caption": "完整傅里叶本轮鹈鹕骑车原视频（含三维视角揭示及 Lyria 3.5 原配乐）",
+        "captionEn": "Complete original Fourier epicycle pelican cycling video, including the 3D reveal and original Lyria 3.5 soundtrack",
+        "poster": "/media/collected/2026-10-14-fofr-argon-intake/fofr-argon-fourier-pelican-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-14-fofr-argon-intake/fofr-argon-fourier-pelican-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13/",
+    "markdown": "/specimens/x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13/index.md",
+    "updated": "2026-10-14",
+    "rights": "作品归原作者 fofr；保留原帖出处及 Argon／Lyria 3.5 署名。作者未提供开放许可声明，不镜像未公开源码。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon · 3D pelican cycling with Fourier epicycles",
+        "model": "Gemini 4 Argon",
+        "notes": "fofr’s Fourier epicycle animation progressively reconstructs a cycling pelican from rotating circles, animates pedalling, then rotates the view to reveal the 3D construction. The original post credits Argon with making the video and prompting time-synced Lyria 3.5 music; model and process labels are source-reported and unverified. The complete approximately 60-second, 1920×1080, 60 fps original video and audio are preserved without cropping, redrawing or added motion. Published at 2026-10-13 16:20:34 UTC (14 October at 00:20:34 in Beijing); the artwork date uses the original post’s UTC publication day, and generation date is unknown. The author’s reply links a generic starting prompt for a slow Fourier reveal styled after a reference image with synchronized music. The exact pelican prompt, reference image and source code are not fully public. Displayed N, node counts and error values are part of the original presentation, not independently verified scores or generation counts. No playable on-site demo is claimed.",
+        "rights": "The work belongs to fofr. Original post attribution and the Argon / Lyria 3.5 credits are retained. No open licence is stated, and unpublished source code is not mirrored.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/fofrAI/status/2110043023954284889",
+        "https://x.com/fofrAI/status/2110039904872771827",
+        "https://x.com/fofrAI/status/2110045963951956250",
+        "https://x.com/fofrAI/status/2110064836369375653",
+        "https://video.twimg.com/amplify_video/2110042439679356928/vid/avc1/1920x1080/_040EKr0I8s1J2Sq.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/fofrAI/status/2110043023954284889",
+      "https://x.com/fofrAI/status/2110045963951956250",
+      "https://x.com/fofrAI/status/2110064836369375653"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-10-13",
+    "sourceResponseTimestamp": "2026-10-13T16:20:34.000Z"
+  },
+  {
+    "id": "x-kedashu-gemini-4-argon-lakeside-2026-10-15",
+    "originalId": "x-kedashu-gemini-4-argon-lakeside-2026-10-15",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon：鹈鹕湖畔骑行",
+    "model": "Gemini 4 Argon",
+    "author": "UnclK (@Kedashu)",
+    "date": "2026-10-15",
+    "month": "2026-10",
+    "notes": "UnclK（@Kedashu，Pelican Map 维护者）提供并首次公开的湖畔骑行作品。作者说明使用 Gemini 网页端的 Gemini 4 Argon 一次生成；保留完整原始 HTML、SVG、CSS、JavaScript 与原外部依赖引用，未改画面或运动。可捕鱼、鸣笛、调节骑行速度、切换晴日／黄昏／星夜。模型及一次生成按作者说明，未独立认证；生成日期未另行提供，作品日期采用首次公开日。MP4 是浏览器运行录屏，本站提供完整交互版。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Kedashu/status/2110545793694466401",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "做一个SVG的鹈鹕骑自行车在公路骑行的，动画。公路边是湖水",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-15-kedashu-lakeside/lakeside-frame.png",
+        "source": "https://gist.githubusercontent.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9/raw/fba49b408e63c3e740a850a3f69db7330fb77a41/index.html",
+        "sha256": "615a22f6cd7da1420c1514d89a628eff4b9c96801ba1f98c63049837814efa8f",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "3fe564b5d0aa6bae12d9d72a89027a5ccef14a3b7606ae6861add1ea5952a488",
+          "frameSha256": "615a22f6cd7da1420c1514d89a628eff4b9c96801ba1f98c63049837814efa8f",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "method": "playwright-cli Chrome screenshot of the unchanged original HTML"
+        },
+        "caption": "原始 HTML 的浏览器真实截帧（静态后备）",
+        "captionEn": "Actual browser capture of the original HTML (static fallback)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-15-kedashu-lakeside/lakeside-frame.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.github.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9/0e671cc8df3e689c06b410ad09c99c32ebdeeb9a",
+    "path": "/specimens/x-kedashu-gemini-4-argon-lakeside-2026-10-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kedashu-gemini-4-argon-lakeside-2026-10-15/",
+    "markdown": "/specimens/x-kedashu-gemini-4-argon-lakeside-2026-10-15/index.md",
+    "updated": "2026-10-15",
+    "rights": "作者直接提供并要求在本站展示、托管原始代码及录屏；作者为本站维护者 UnclK（@Kedashu）。保留原始文件与出处，不额外声明开源许可；Tailwind 与 Google Fonts 引用保留各自权利。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon: Pelican Lakeside Bike Ride",
+        "model": "Gemini 4 Argon",
+        "notes": "A lakeside bicycle work supplied and first published by UnclK (@Kedashu), maintainer of Pelican Map. The creator reports a single generation using Gemini 4 Argon in the Gemini web app. The complete original HTML, SVG, CSS, JavaScript and original external dependency references are retained without changing the artwork or motion. Catch fish, honk, change riding speed, and switch between day, sunset and night. Model and single-generation labels are creator-reported, not independently authenticated. The generation date was not separately documented; the artwork date is the first public date. The MP4 is a browser recording; this site provides the complete interactive version.",
+        "rights": "The creator supplied the original code and requested its hosting and presentation, including the recording, on this site. Creator UnclK (@Kedashu) is the site maintainer. Original bytes and attribution are retained; no additional open-source license is asserted. Tailwind and Google Fonts retain their respective rights.",
+        "promptStatus": "做一个SVG的鹈鹕骑自行车在公路骑行的，动画。公路边是湖水",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Kedashu/status/2110545793694466401",
+        "https://gist.github.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9",
+        "https://gist.githubusercontent.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9/raw/fba49b408e63c3e740a850a3f69db7330fb77a41/index.html",
+        "https://deepmind.google/models/model-cards/gemini-4-argon/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Kedashu/status/2110545793694466401",
+      "https://gist.github.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9"
+    ],
+    "generationConditions": {
+      "tool": "Gemini web app",
+      "iterations": "Single generation, as reported by the creator; no independent reproduction."
+    },
+    "frameProvenance": {
+      "sourceHtml": "https://gist.githubusercontent.com/UncleK/4f090cc0633e44d3b4d5d63d9ae04ec9/raw/fba49b408e63c3e740a850a3f69db7330fb77a41/index.html",
+      "sourceHtmlSha256": "3fe564b5d0aa6bae12d9d72a89027a5ccef14a3b7606ae6861add1ea5952a488",
+      "frameSha256": "615a22f6cd7da1420c1514d89a628eff4b9c96801ba1f98c63049837814efa8f",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "method": "playwright-cli Chrome screenshot of the unchanged original HTML"
+    }
+  },
+  {
+    "id": "x-anxuan-opus-5-5-single-line-2026-10-14",
+    "originalId": "x-anxuan-opus-5-5-single-line-2026-10-14",
+    "kind": "timeline",
+    "title": "Opus 5.5：一根线条构成的三维骑车鹈鹕",
+    "model": "Claude Opus 5.5",
+    "author": "An Xuan (@anxuanng)",
+    "date": "2026-10-14",
+    "month": "2026-10",
+    "notes": "An Xuan 原帖明确称 Opus 5.5 以 JavaScript 在二维 Canvas 绘制每一帧，并用代码合成音乐。原片先展示点集与线条逐步形成鹈鹕单车，再抬升、旋转并踩踏呈现三维效果；保留完整约 43 秒 1080p、30 fps 原视频及 AAC 双声道音轨。16,384 点、Lloyd 松弛、旅行商路径、2-opt 与零交叉为作者说明或源画面显示，未独立复算。UTC 10 月 14 日 21:46:26（北京 15 日 05:46:26）公开，生成日、完整 Prompt 和迭代未知。原帖引用的 fofr 傅里叶作品已收，不重复计；这里只保存 An Xuan 自己的 43 秒作品。完整 JavaScript 未公开，不列站内可玩演示。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/anxuanng/status/2110487420731007461",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-15-recent-works/anxuan-single-line-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2110487356801519616/vid/avc1/1920x1080/VFxr0a64DZGCKW-d.mp4",
+        "sha256": "f6cfd0a7154980ba89470e76e30bbc2ea3c1c03e12ca14891279f56404a2586b",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2110487356801519616/vid/avc1/1920x1080/VFxr0a64DZGCKW-d.mp4",
+          "sourceSha256": "f6cfd0a7154980ba89470e76e30bbc2ea3c1c03e12ca14891279f56404a2586b",
+          "frameTime": 25,
+          "sha256": "3d11526639d7e75cc935c10f8e9de9aec5fdd1c58fb718de0f28f1fc7dae3146"
+        },
+        "caption": "完整原始代码动画录屏 · 43.05 秒，1920×1080，含原音轨",
+        "captionEn": "Complete original code-animation recording · 43.05 s, 1920×1080, with original audio",
+        "poster": "/media/collected/2026-10-15-recent-works/anxuan-single-line-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-15-recent-works/anxuan-single-line-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-anxuan-opus-5-5-single-line-2026-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-anxuan-opus-5-5-single-line-2026-10-14/",
+    "markdown": "/specimens/x-anxuan-opus-5-5-single-line-2026-10-14/index.md",
+    "updated": "2026-10-15",
+    "rights": "原公开作品视频完整保留并署名、链接原帖；无额外开源许可声明，未镜像未公开源码。",
+    "i18n": {
+      "en": {
+        "title": "Opus 5.5: A Single-Line Pelican Riding in 3D",
+        "model": "Claude Opus 5.5",
+        "notes": "An Xuan explicitly credits Opus 5.5 with drawing every frame in JavaScript on a 2D canvas and synthesizing the music in code. The recording progresses from points and a single line to a pelican and bicycle, then lifts, rotates and pedals the construction in 3D. The complete approximately 43-second 1080p, 30 fps original video and AAC stereo track are retained. The 16,384 points, Lloyd relaxation, travelling-salesman tour, 2-opt and zero crossings are creator claims or displayed values, not independently recomputed. Published at 21:46:26 UTC on 14 October (05:46:26 Beijing on 15 October); generation date, full prompt and iterations are unknown. The quoted fofr Fourier work is already archived and is not counted again; this record retains An Xuan’s own 43-second work. Complete JavaScript is not public, so no playable on-site demo is claimed.",
+        "rights": "Original public video retained in full with creator attribution and source link. No additional open-source license asserted; unpublished code is not mirrored.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/anxuanng/status/2110487420731007461",
+        "https://video.twimg.com/amplify_video/2110487356801519616/vid/avc1/1920x1080/VFxr0a64DZGCKW-d.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/anxuanng/status/2110487420731007461"
+    ]
+  },
+  {
+    "id": "github-xiiiblue-gemini-4-argon-seaside-2026-10-14",
+    "originalId": "github-xiiiblue-gemini-4-argon-seaside-2026-10-14",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon：鹈鹕船长的海滨单车",
+    "model": "Gemini 4 Argon",
+    "author": "xiiiblue (GitHub)",
+    "date": "2026-10-14",
+    "month": "2026-10",
+    "notes": "xiiiblue 的多模型 HTML 动画仓库在 2026-10-14 新增的 Gemini 4 Argon 输出，型号由仓库首页逐文件对应，固定提交保留完整原码。海滨白鹈鹕骑薄荷绿单车，可投喂海鱼、按喇叭、切换灯塔昼夜及四种头饰；已实际操作捕鱼、鸣笛、换装与调速。生成日、Prompt、实际档位和迭代次数未公开，日期采用该文件首次公开提交日。与本站维护者的独立网页端输出风格相似，但长 SVG 路径、界面和主要代码不同；相似性不作为重复计数或能力提升证据。来源模型标注未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/README.md",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-15-xiiiblue-retry/xiiiblue-seaside-frame.jpg",
+        "source": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/7acf2bc976d823a220c424f70c6255f15017dad5/pelican-bicycle-gemini-4-argon.html",
+        "sha256": "57b8ac6f015c6176156f647a7a2ea208e78c12ae9edacd73e8135834a4564e99",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "696074d3d3a936975fb89499280f0cb38d031205ceea8886e7261fa24aac9f30",
+          "frameSha256": "57b8ac6f015c6176156f647a7a2ea208e78c12ae9edacd73e8135834a4564e99",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "method": "Chrome screenshot of an allow-scripts opaque-origin iframe displaying the unchanged original HTML"
+        },
+        "caption": "完整原 HTML 的真实浏览器截帧（静态后备）",
+        "captionEn": "Actual browser capture of the complete original HTML (static fallback)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-15-xiiiblue-retry/xiiiblue-seaside-frame.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/pelican-bicycle-gemini-4-argon.html",
+    "path": "/specimens/github-xiiiblue-gemini-4-argon-seaside-2026-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-xiiiblue-gemini-4-argon-seaside-2026-10-14/",
+    "markdown": "/specimens/github-xiiiblue-gemini-4-argon-seaside-2026-10-14/index.md",
+    "updated": "2026-10-15",
+    "rights": "公开作者仓库的完整原始 HTML，保留作者、固定提交与全部原外部引用；仓库未说明开源许可，不额外声明许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon: Pelican Captain’s Seaside Bicycle",
+        "model": "Gemini 4 Argon",
+        "notes": "A Gemini 4 Argon output added to xiiiblue’s multi-model HTML animation repository on 14 October 2026. The repository index maps the model to this exact file; the complete original code is pinned to its public commit. A white pelican rides a mint bicycle by the sea, with fish feeding, a horn, lighthouse day/night modes and four headwear options. Fish feeding, honking, headwear and speed controls were operated. Generation date, prompt, actual effort and iteration count are not public; the date is this file’s first public commit. Its style resembles the site maintainer’s independently generated web-app output, while long SVG paths, interface and most code differ. Similarity alone establishes neither duplication nor a capability improvement. The model label is source-reported and unverified.",
+        "rights": "Complete original HTML from the creator’s public repository, with attribution, pinned commit and all original external references retained. No open-source license was stated; no additional license is asserted.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/README.md",
+        "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/index.html",
+        "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/7acf2bc976d823a220c424f70c6255f15017dad5/pelican-bicycle-gemini-4-argon.html",
+        "https://github.com/xiiiblue/pelican-bicycle/commit/7acf2bc976d823a220c424f70c6255f15017dad5"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/README.md",
+      "https://github.com/xiiiblue/pelican-bicycle/blob/7acf2bc976d823a220c424f70c6255f15017dad5/index.html",
+      "https://github.com/xiiiblue/pelican-bicycle/commit/7acf2bc976d823a220c424f70c6255f15017dad5"
+    ],
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/7acf2bc976d823a220c424f70c6255f15017dad5/pelican-bicycle-gemini-4-argon.html",
+      "sourceHtmlSha256": "696074d3d3a936975fb89499280f0cb38d031205ceea8886e7261fa24aac9f30",
+      "frameSha256": "57b8ac6f015c6176156f647a7a2ea208e78c12ae9edacd73e8135834a4564e99",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "method": "Chrome screenshot of an allow-scripts opaque-origin iframe displaying the unchanged original HTML"
+    }
+  },
+  {
+    "id": "pb-anonymous-gemini-4-low-2026-10-14",
+    "originalId": "pb-anonymous-gemini-4-low-2026-10-14",
+    "kind": "timeline",
+    "title": "Gemini 4（Low）：红色单车与蓝帽鹈鹕",
+    "model": "Gemini 4 (Low)",
+    "author": "Anonymous (Pelican Benchmark)",
+    "date": "2026-10-14",
+    "month": "2026-10",
+    "notes": "来源标注 Gemini 4、Low 思考档、官方网页／应用聊天、单轮生成，生成日和提交日均为 2026-10-14。完整原 SVG 为静态图：白鹈鹕戴蓝帽、系红围巾，骑红色单车。保留原作腿部和车架表现，不补画、不添加运动。来源未明确 Argon，不据型号发布时间补全名称；模型与生成条件为上游自报，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/J5MIZ_0PQfEGxDQ910T4jg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-15-benchmark-increment/gemini-4-low-original.svg",
+        "source": "https://works.pelicanbenchmark.com/J5MIZ_0PQfEGxDQ910T4jg.svg",
+        "sha256": "2adee87c44fef6983ea79364df4de8a5173251d5b88d8f8978465f6f3f79d0b2",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-15-benchmark-increment/gemini-4-low-original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/J5MIZ_0PQfEGxDQ910T4jg.svg",
+    "path": "/specimens/pb-anonymous-gemini-4-low-2026-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-anonymous-gemini-4-low-2026-10-14/",
+    "markdown": "/specimens/pb-anonymous-gemini-4-low-2026-10-14/index.md",
+    "updated": "2026-10-15",
+    "rights": "保留公开原件、提交者署名和来源；上游未说明额外开源许可，不添加许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 (Low): Red Bicycle and Blue-Capped Pelican",
+        "model": "Gemini 4 (Low)",
+        "notes": "The source labels this Gemini 4, Low thinking, official web/app chat and single-turn, generated and submitted on 14 October 2026. The complete original SVG is static: a white pelican with a blue cap and red scarf rides a red bicycle. Original legs and frame are preserved without repair or added motion. The source does not identify Argon, so that suffix is not inferred from release timing. Model and generation settings are source-reported and unverified.",
+        "rights": "Public original, submitter attribution and source retained. No additional open-source license is stated or asserted.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/J5MIZ_0PQfEGxDQ910T4jg",
+        "https://works.pelicanbenchmark.com/J5MIZ_0PQfEGxDQ910T4jg.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 (Low)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/J5MIZ_0PQfEGxDQ910T4jg",
+      "https://works.pelicanbenchmark.com/J5MIZ_0PQfEGxDQ910T4jg.svg"
+    ]
+  },
+  {
+    "id": "pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14",
+    "originalId": "pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14",
+    "kind": "timeline",
+    "title": "Qwen 3.8 Flash Next IQ3_S：蓝围巾公路骑行",
+    "model": "qwen-3.8-flash-next-iq3_s (Thinking on)",
+    "author": "limber (Pelican Benchmark)",
+    "date": "2026-10-14",
+    "month": "2026-10",
+    "notes": "limber 提交的单轮 HTML／二维 SVG 动画，来源标注 qwen-3.8-flash-next-iq3_s、Thinking on、workbuddy；生成日和提交日均为 2026-10-14。完整自包含原 HTML 通过原生 SVG SMIL 驱动车轮、腿部和道路／山丘／云层，两个真实浏览器时刻已观察到连续变化。无脚本、外部依赖或真实交互，不列 Play；保留原腿部几何表现，静态截帧仅作后备。型号、工具和单轮条件为上游自报，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/ib3uneZhcIF95GqcRb9vuQ",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-15-benchmark-increment/qwen-iq3-browser-frame.jpg",
+        "source": "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html",
+        "sha256": "9cbc15dbcb4d3dd0ff6e2718bfb8095cdc7ee76ae06098b80966f1da83ef6fb3",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "b9958d7318682389f3383532fbeb6a2e8cc826a310f3e6d48ceb14bf841c80b0",
+          "frameSha256": "9cbc15dbcb4d3dd0ff6e2718bfb8095cdc7ee76ae06098b80966f1da83ef6fb3",
+          "viewport": {
+            "width": 1905,
+            "height": 848
+          },
+          "method": "Actual Chrome screenshot after the unchanged self-contained SMIL original loaded in a sandboxed iframe"
+        },
+        "caption": "完整原 HTML 的真实浏览器截帧（静态后备）",
+        "captionEn": "Actual browser frame of the complete original HTML (static fallback)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-15-benchmark-increment/qwen-iq3-browser-frame.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html",
+    "path": "/specimens/pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14/",
+    "markdown": "/specimens/pb-limber-qwen-3-8-flash-next-iq3-s-thinking-2026-10-14/index.md",
+    "updated": "2026-10-15",
+    "rights": "保留公开原件、提交者署名和来源；上游未说明额外开源许可，不添加许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 3.8 Flash Next IQ3_S: Blue-Scarf Road Ride",
+        "model": "qwen-3.8-flash-next-iq3_s (Thinking on)",
+        "notes": "A single-turn HTML/2D SVG animation submitted by limber, labelled qwen-3.8-flash-next-iq3_s, Thinking on and workbuddy. Generation and submission dates are both 14 October 2026. The complete self-contained original HTML uses native SVG SMIL for the wheels, legs and moving road, hills and clouds; continuous changes were observed at two actual browser times. There is no script, external dependency or meaningful interaction, so it is not listed in Play. Original leg geometry is retained, with a browser frame only as fallback. Model, tool and single-turn settings are source-reported and unverified.",
+        "rights": "Public original, submitter attribution and source retained. No additional open-source license is stated or asserted.",
+        "promptStatus": "Create a self-contained HTML file with a 2D SVG animation of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/ib3uneZhcIF95GqcRb9vuQ",
+        "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen-3.8-flash-next-iq3_s (Thinking on)"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/ib3uneZhcIF95GqcRb9vuQ",
+      "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html"
+    ],
+    "frameProvenance": {
+      "sourceHtml": "https://works.pelicanbenchmark.com/ib3uneZhcIF95GqcRb9vuQ.html",
+      "sourceHtmlSha256": "b9958d7318682389f3383532fbeb6a2e8cc826a310f3e6d48ceb14bf841c80b0",
+      "frameSha256": "9cbc15dbcb4d3dd0ff6e2718bfb8095cdc7ee76ae06098b80966f1da83ef6fb3",
+      "viewport": {
+        "width": 1905,
+        "height": 848
+      },
+      "method": "Actual Chrome screenshot after the unchanged self-contained SMIL original loaded in a sandboxed iframe"
+    }
   }
 ]

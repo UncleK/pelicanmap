@@ -1,4 +1,4 @@
-<p align="center"><a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="docs/assets/social-preview-en.png" alt="pelicanmap — collecting every documented pelican-on-a-bicycle case" width="100%"></a></p>
+<p align="center"><a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="docs/assets/social-preview-en.png?v=20261015-archive" alt="Pelican Bicycle Archive — documented AI-generated pelicans riding bicycles" width="100%"></a></p>
 
 <p align="center">
   <a href="https://pelicanmap.aveniqa.com/en/"><img src="docs/assets/nav-website.svg" alt="Live website: pelicanmap.aveniqa.com" width="230" height="66"></a>
@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml"><img alt="Checks" src="https://github.com/UncleK/pelicanmap/actions/workflows/ci.yml/badge.svg"></a> <img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-385647?style=flat-square"></p>
 
-**Collecting documented LLM code-generated pelicans across dates, from SVG to animation, 3D and interactive works.** Actual outputs, original sources, successes and failures — kept together.
+**Pelican Bicycle Archive** collects documented LLM code-generated pelicans across dates, from SVG to animation, 3D and interactive works. Actual outputs, original sources, successes and failures — kept together.
 
 <p align="center">
   <a href="https://pelicanmap.aveniqa.com/en/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=Works&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="Works"></a>

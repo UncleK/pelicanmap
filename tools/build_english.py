@@ -24,7 +24,7 @@ from model_chronology import timeline_year
 from case_policy import is_case, in_timeline, relationship_html
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema
-from editorial_content import listing_notes, HOME_COPY
+from editorial_content import listing_notes, HOME_COPY, home_social, website_schema
 from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -73,12 +73,13 @@ def timeline_card(x):
 def top(title,desc,eyebrow='THE COLLECTION'):return f'<div class="page-top"><div class="eyebrow">{E(eyebrow)}</div><h1>{E(title)}</h1>{('<p>'+E(desc)+'</p>') if desc else ''}</div>'
 
 def page(path,title,desc,body,nav='',schema=None,noindex=False):
+    social_style, social_link = home_social('en') if path == '/' else ('', '')
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''), 'en')
     en=local(path); canonical=BASE+en
     navitems=[('/','Home'),('/timeline/','Timeline'),('/specimens/','Collection'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
     navigation=''.join(f'<a href="{local(p)}"'+(' aria-current="page"' if p==nav else '')+f'>{label}</a>' for p,label in navitems)
-    schema=schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'url':canonical,'inLanguage':'en','isPartOf':{'@type':'WebSite','name':'Pelican Map','url':BASE+'/en/'},'dateModified':UPDATED}
+    schema=schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'url':canonical,'inLanguage':'en','isPartOf':website_schema(),'dateModified':UPDATED}
     if BUILD_CACHE:
         dest=OUT/en.strip('/')/'index.html' if path.endswith('/') else OUT/en.lstrip('/')
         md=en+'index.md' if path.endswith('/') else ''
@@ -93,14 +94,14 @@ def page(path,title,desc,body,nav='',schema=None,noindex=False):
     serialized=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
     md=en+'index.md' if path.endswith('/') else ''
     result=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{E(title)} · Pelican Map</title><meta name="description" content="{E(desc[:200])}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-image-preview:large'}">
+<title>{E(title)} · Pelican Bicycle Archive</title><meta name="description" content="{E(desc[:200])}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-image-preview:large'}">
 <link rel="canonical" href="{canonical}"><link rel="alternate" hreflang="zh-CN" href="{BASE+path}"><link rel="alternate" hreflang="en" href="{canonical}"><link rel="alternate" hreflang="x-default" href="{BASE+path}">
-<link rel="icon" href="/assets/logo-a.png" type="image/png"><link rel="apple-touch-icon" href="/assets/logo-a.png"><link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">
-<meta property="og:type" content="{social_type}"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="zh_CN"><meta property="og:site_name" content="Pelican Map"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc[:200])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{E(social_image)}"><meta property="og:image:alt" content="{E(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc[:200])}"><meta name="twitter:image" content="{E(social_image)}"><meta name="twitter:image:alt" content="{E(title)}">
+<link rel="icon" href="/assets/logo-a.png" type="image/png"><link rel="apple-touch-icon" href="/assets/logo-a.png"><link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">{social_style}
+<meta property="og:type" content="{social_type}"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="zh_CN"><meta property="og:site_name" content="Pelican Bicycle Archive"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc[:200])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{E(social_image)}"><meta property="og:image:alt" content="{E(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc[:200])}"><meta name="twitter:image" content="{E(social_image)}"><meta name="twitter:image:alt" content="{E(title)}">
 <link rel="describedby" href="/en/llms.txt"><link rel="alternate" type="application/rss+xml" title="Archive updates" href="/en/feed.xml">{f'<link rel="alternate" type="text/markdown" href="{md}">' if md else ''}
 <script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script><script type="module" src="/assets/motion.js?v={ASSET_VERSION}"></script></head>
-<body id="top"><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/en/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>Pelican Map</strong><small>AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="Main navigation">{navigation}<a class="language-switch" data-language href="{path}" hreflang="zh-CN" lang="zh-CN" aria-label="切换到中文">中文</a></nav></div></header>
-<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">One bird. Two wheels. A little history of AI.</div><div class="footer-links"><a href="/en/about/">About & methods</a><a href="/en/rights/">Credits & use</a><a href="/en/developers/">Data & agents</a><a href="/en/feed.xml">RSS</a><a href="#top">Back to top ↑</a></div></div><div class="footer-bottom"><p class="small">Pelican Map</p><p class="copyright">Creator-owned works · Unverified model labels</p></div></div></footer></body></html>'''
+<body id="top"><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/en/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>Pelican Bicycle Archive</strong><small>AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="Main navigation">{navigation}<a class="language-switch" data-language href="{path}" hreflang="zh-CN" lang="zh-CN" aria-label="切换到中文">中文</a></nav>{social_link}</div></header>
+<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">One bird. Two wheels. A little history of AI.</div><div class="footer-links"><a href="/en/about/">About & methods</a><a href="/en/rights/">Credits & use</a><a href="/en/developers/">Data & agents</a><a href="/en/feed.xml">RSS</a><a href="#top">Back to top ↑</a></div></div><div class="footer-bottom"><p class="small">Pelican Bicycle Archive</p><p class="copyright">Creator-owned works · Unverified model labels</p></div></div></footer></body></html>'''
     dest=OUT/en.strip('/')/'index.html' if path.endswith('/') else OUT/en.lstrip('/')
     dump(dest,result)
     if md:
@@ -201,7 +202,7 @@ def build_editorial(items,byid,data):
     content['/about/'][2].append(('October 2 automatic motion previews','Cards with actual moving originals start when visible, across the timeline, all three collection views and both detail languages. Videos loop muted; off-screen media, background tabs and closed attachments pause. A pause/resume control and the system reduced-motion preference are supported. Source animation code stays byte-identical on the isolated domain, with no automatic navigation to external sites. Interactive details preserve author controls and game state. Still-only archives do not gain invented motion. Work, timeline and Benchmark counts are unchanged.'))
     content['/about/'][2].append(('October 2 X original-post continuation','Read-only public Chrome source checks add two original Sonnet 5.5 animations by Jack and STEVExKONG and one single-work preview by Nikita: three independent works and three timeline representatives. Both original videos fully decode and have real frame covers, with muted automatic playback on cards and details. The screenshot-only work does not gain invented motion. Dates retain the original posts’ UTC publication days, not generation days; model and effort labels are source-reported, not independently authenticated. Ebi’s repost of an existing work is visually deduplicated; model self-identification screenshots and quoted announcement videos are not additional works. Original bytes and old IDs remain, with no code mirroring or Benchmark expansion.'))
     for path,(title,heading,sections) in content.items():
-        body=top(heading,'An AI field guide · Pelican Map')+'<article class="prose">'+''.join(f'<h2>{E(h)}</h2><p>{E(p)}</p>' for h,p in sections)
+        body=top(heading,'An AI field guide · Pelican Bicycle Archive')+'<article class="prose">'+''.join(f'<h2>{E(h)}</h2><p>{E(p)}</p>' for h,p in sections)
         if path.endswith('origins/'):
             body+=link('https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/','Read the original article ↗')+'</article><div class="grid">'+cards([x for x in items if x['source']=='origin'])+'</div>'
         elif path.endswith('beyond-svg/'):
@@ -246,9 +247,9 @@ def build():
 <div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong>{COUNTS["timeline"]}</strong><span>timeline representatives · a subset</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
     topics=[('origins','01 / THE BEGINNING','Why a pelican on a bicycle?','Start with the original repository and a very specific question.'),('beyond-svg','02 / ACROSS MEDIA','Explorations beyond SVG','Animation, 3D and interactions with their generation conditions preserved.'),('reading-the-test','03 / A CLOSER LOOK','What can one image tell us?','Read the conditions behind each comparison.')]
     body+='<section class="section"><div class="section-head"><div class="eyebrow">FIELD NOTES</div><h2>Bring a question</h2></div><div class="topics">'+''.join(f'<a class="topic" href="/en/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>Read the field note →</span></a>' for slug,ey,title,desc in topics)+'</div></section><section class="quote-band"><h2>Keep the beautiful.<br>Keep the failures, too.</h2><div><p>Preserving the model, date, media and source makes it possible to observe how one question is understood, reinterpreted and changed.</p><p><a href="/en/about/">About the archive →</a></p></div></section>'
-    schema=home_schema('Pelican bicycle AI archive & curated exhibition','en')
+    schema=home_schema('AI-generated pelicans riding bicycles','en')
     schema['dateModified']=UPDATED
-    page('/','Pelican bicycle AI archive & curated exhibition',INTRO,body,nav='/',schema=schema)
+    page('/','AI-generated pelicans riding bicycles',INTRO,body,nav='/',schema=schema)
     total=math.ceil(len(items)/24)
     for n in range(total):
         path='/specimens/' if n==0 else f'/specimens/page/{n+1}/'
@@ -280,7 +281,7 @@ def build():
     page('/404.html','Page not found','This address may be incorrect or the record may have moved.',top('This specimen is not here','Try searching the collection.')+link('/en/specimens/','Back to the archive','button'),noindex=True)
     guide=agent_guide(COUNTS,UPDATED,'en')
     dump(OUT/'en/llms.txt',guide)
-    dump(OUT/'en/feed.xml','<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pelican Map</title><link>'+BASE+'/en/</link><description>'+E(INTRO)+'</description>'+''.join(f'<item><title>{E(x["title"])}</title><link>{x["url"]}</link><guid isPermaLink="true">{x["url"]}</guid><description>{E(x["notes"] or x["formatLabel"])}</description></item>' for x in group_records(sorted(timeline,key=lambda x:x['date'],reverse=True))[:30])+'</channel></rss>')
+    dump(OUT/'en/feed.xml','<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pelican Bicycle Archive</title><link>'+BASE+'/en/</link><description>'+E(INTRO)+'</description>'+''.join(f'<item><title>{E(x["title"])}</title><link>{x["url"]}</link><guid isPermaLink="true">{x["url"]}</guid><description>{E(x["notes"] or x["formatLabel"])}</description></item>' for x in group_records(sorted(timeline,key=lambda x:x['date'],reverse=True))[:30])+'</channel></rss>')
     # Paired links are real HTML links. Language switching never relies on client JS.
     zh_paths=[]
     indexed_english_paths=set(PAGES)

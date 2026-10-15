@@ -57,7 +57,12 @@ class MotionRecoveryTests(unittest.TestCase):
                 self.assertEqual(doc.select_one('iframe[data-local-demo]')['src'],a['previewUrl'])
                 self.assertFalse(doc.select_one('[data-preview-only]'))
         reviews=json.loads((ROOT/'site/demo-reviews.json').read_text())
-        self.assertEqual(len(reviews),6)
+        original_reviews={
+            'variora-gemini-3-8-flash-2026-09-20','tihuqiche-game-157f212e',
+            'claude-opus-playable-coast-f678d85a','x-jp-aichan-opus-oneprompt-games-2026-09-25-34cd8c93',
+            'juejin-parrot-variant-astra-2026-09-17-e965ba4e','simon-claude-sonnet-5-5-free-webgl-2026-09-28',
+        }
+        self.assertTrue(original_reviews.issubset(reviews))
         restored='variora-gemini-3-8-flash-2026-09-20'
         self.assertTrue(BY[restored]['interactive'])
         self.assertEqual(reviews[restored]['sourceSha256'],'f3f600e77d2963ce8027bca5a30af929585e9f7333393859d7bae626fe7abd6a')

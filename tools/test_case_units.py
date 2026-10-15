@@ -125,11 +125,18 @@ class CaseUnitTests(unittest.TestCase):
 
     def test_old_play_entries_and_same_day_prompt_alternative_are_preserved(self):
         from catalog_policy import playable_records
-        self.assertEqual(len(playable_records(ITEMS)),5)
+        playable = playable_records(ITEMS)
+        self.assertTrue({
+            'variora-gemini-3-8-flash-2026-09-20',
+            'tihuqiche-game-157f212e',
+            'claude-opus-playable-coast-f678d85a',
+            'juejin-parrot-variant-astra-2026-09-17-e965ba4e',
+            'simon-claude-sonnet-5-5-free-webgl-2026-09-28',
+        } <= {item['id'] for item in playable})
         self.assertTrue(BY['variora-gemini-3-8-flash-2026-09-20']['interactive'])
         for lang in ['', 'en/']:
             page=BeautifulSoup((OUT/lang/'play/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertEqual(len(page.select('[data-results] .card')),5)
+            self.assertEqual(len(page.select('[data-results] .card')),len(playable))
             self.assertNotIn('#None',str(page))
         runs=[x for x in ITEMS if x.get('modelRunGroup')=='simon-gemini3-classic-2025-11-18']
         self.assertEqual(len(runs),3)

@@ -81,7 +81,7 @@ for prefix in ['', '/en']:
     assert not index.select_one('.page-top p')
     assert not index.select_one('.benchmark-disclaimer')
     assert batch.select_one('.benchmark-disclaimer')
-    disclaimer='Upstream outputs, not a Pelican Map ranking' if prefix else '上游输出，非本馆排名'
+    disclaimer='Upstream outputs, not a Pelican Bicycle Archive ranking' if prefix else '上游输出，非本馆排名'
     assert disclaimer in batch.select_one('.benchmark-disclaimer').get_text()
     assert all(x.get('caseNumber') is None for x in catalog['items'] if x.get('referenceOnly'))
     assert parent['referenceOnly']
@@ -111,7 +111,7 @@ for prefix in ['', '/en']:
         page=BeautifulSoup(get(BASE+prefix+model_path(model))[0],'html.parser')
         assert len(page.select('.benchmark-representatives .benchmark-sample'))==2
         assert page.select_one('.benchmark-disclaimer')
-        disclaimer='Upstream outputs, not a Pelican Map ranking' if prefix else '上游输出，非本馆排名'
+        disclaimer='Upstream outputs, not a Pelican Bicycle Archive ranking' if prefix else '上游输出，非本馆排名'
         assert disclaimer in page.select_one('.benchmark-disclaimer').get_text()
 
 

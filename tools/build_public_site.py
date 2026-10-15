@@ -29,7 +29,7 @@ from thumbnail_overrides import apply_thumbnail_overrides
 from record_overrides import apply_record_overrides
 from case_policy import apply_case_policy, is_case, in_timeline, relationship_html
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema, openapi
-from editorial_content import listing_notes, HOME_COPY
+from editorial_content import listing_notes, HOME_COPY, home_social, website_schema
 from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -169,12 +169,13 @@ def top(title, desc, eyebrow='THE COLLECTION'):
     return f'<div class="page-top"><div class="eyebrow">{eyebrow}</div><h1>{e(title)}</h1>{('<p>'+e(desc)+'</p>') if desc else ''}</div>'
 
 def page(path, title, description, body, nav='', schema=None, markdown=None, noindex=False):
+    social_style, social_link = home_social('zh') if path == '/' else ('', '')
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''))
     canonical = BASE + path
     navitems = [('/','首页'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
     navigation = ''.join(f'<a href="{p}"'+(' aria-current="page"' if p==nav else '')+f'>{t}</a>' for p,t in navitems)
-    schema = schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':description,'url':canonical,'inLanguage':'zh-CN','isPartOf':{'@type':'WebSite','name':SITE,'url':BASE+'/'},'dateModified':UPDATED}
+    schema = schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':description,'url':canonical,'inLanguage':'zh-CN','isPartOf':website_schema(),'dateModified':UPDATED}
     if BUILD_CACHE:
         dest = OUT/path.strip('/')/'index.html' if path.endswith('/') else OUT/path.lstrip('/')
         dependency = [title, description, body, nav, {k:v for k,v in schema.items() if k!='dateModified'}, markdown, noindex]
@@ -195,10 +196,10 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
 <link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/logo-a.png" type="image/png"><link rel="apple-touch-icon" href="/assets/logo-a.png">
 <meta property="og:type" content="{social_type}"><meta property="og:locale" content="zh_CN"><meta property="og:locale:alternate" content="en_US"><meta property="og:site_name" content="{SITE}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description[:180])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{e(social_image)}"><meta property="og:image:alt" content="{e(title)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(description[:180])}"><meta name="twitter:image" content="{e(social_image)}"><meta name="twitter:image:alt" content="{e(title)}">
-<link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">{alternate}<link rel="describedby" href="/llms.txt"><link rel="alternate" type="application/rss+xml" title="馆藏更新" href="/feed.xml">
+<link rel="stylesheet" href="/assets/site.css?v={ASSET_VERSION}">{social_style}{alternate}<link rel="describedby" href="/llms.txt"><link rel="alternate" type="application/rss+xml" title="馆藏更新" href="/feed.xml">
 <script type="application/ld+json">{serialized}</script><script src="/assets/site.js?v={ASSET_VERSION}" defer></script><script type="module" src="/assets/browse.js?v={ASSET_VERSION}"></script><script type="module" src="/assets/motion.js?v={ASSET_VERSION}"></script></head>
-<body id="top"><a class="skip" href="#main">跳到正文</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>{SITE}</strong><small>PELICAN MAP · AN AI FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航">{navigation}</nav></div></header>
-<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">一只鸟，一辆车，一段 AI 小史。</div><div class="footer-links"><a href="/about/">关于与收录方法</a><a href="/rights/">来源与使用说明</a><a href="/developers/">数据与 Agent</a><a href="/feed.xml">RSS</a><a href="#top">回到顶部 ↑</a></div></div><div class="footer-bottom"><p class="small">Pelican Map</p><p class="copyright">作品归原作者 · 模型标注未独立认证</p></div></div></footer></body></html>'''
+<body id="top"><a class="skip" href="#main">跳到正文</a><header class="site-head"><div class="wrap head-inner"><a class="brand" href="/"><img src="/assets/logo-a.png" width="56" height="56" alt=""><span><strong>{SITE}</strong><small>PELICAN BICYCLE ARCHIVE</small></span></a><nav class="nav" aria-label="主导航">{navigation}</nav>{social_link}</div></header>
+<main id="main" class="wrap">{body}</main><footer class="site-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand">一只鸟，一辆车，一段 AI 小史。</div><div class="footer-links"><a href="/about/">关于与收录方法</a><a href="/rights/">来源与使用说明</a><a href="/developers/">数据与 Agent</a><a href="/feed.xml">RSS</a><a href="#top">回到顶部 ↑</a></div></div><div class="footer-bottom"><p class="small">{SITE}</p><p class="copyright">作品归原作者 · 模型标注未独立认证</p></div></div></footer></body></html>'''
     dest = OUT / path.strip('/') / 'index.html' if path.endswith('/') else OUT / path.lstrip('/')
     dump(dest, result)
     if not noindex:
@@ -211,6 +212,13 @@ def search_form(scope=''):
 
 def prepare_assets():
     OUT.mkdir(exist_ok=True)
+    reviewed_media = {
+        media['src'].lstrip('/')
+        for record in (json.loads((ROOT/'site/additions.json').read_text(encoding='utf8')) if (ROOT/'site/additions.json').exists() else [])
+        if record.get('generationMethod') == 'code-generated'
+        for media in record.get('media', [])
+        if media.get('sha256') and media.get('src', '').startswith('/media/collected/')
+    }
     for f in (ROOT/'site/assets').iterdir():
         dest=OUT/'assets'/f.name
         if f.name in {'site.css','site.js','browse.js','motion.js'} and dest.is_file() and f.read_bytes().replace(b'\r\n',b'\n')==dest.read_bytes().replace(b'\r\n',b'\n'):
@@ -218,9 +226,11 @@ def prepare_assets():
         elif f.name!='logo-a.png':copy_file(f,dest)
     for f in (SOURCE/'media').rglob('*'):
         if f.is_file():
-            # Large source video gets a web derivative; original remains in the archive.
             dest = OUT/f.relative_to(SOURCE)
-            if f.stat().st_size < 24*1024*1024:
+            # Reviewed collected media are source-pinned originals. Publishing a
+            # transcode at their path would invalidate the catalog's SHA-256.
+            # Retain the existing derivative policy for legacy source assets.
+            if f.relative_to(SOURCE).as_posix() in reviewed_media or f.stat().st_size < 24*1024*1024:
                 copy_file(f,dest)
             elif not dest.exists():
                 ffmpeg = shutil.which('ffmpeg') or next(str(p) for p in Path(os.environ['LOCALAPPDATA']).glob('Microsoft/WinGet/Packages/Gyan.FFmpeg*/**/ffmpeg.exe'))
@@ -275,7 +285,7 @@ def prepare_assets():
             d=ImageDraw.Draw(cover)
             cover.paste(logo,(860,175),logo)
             d.line((70,90,1130,90),fill='#d9d5c6',width=2)
-            d.text((70,45),'PELICAN MAP / AN AI FIELD GUIDE',fill='#164b35',font=ImageFont.truetype('C:/Windows/Fonts/consola.ttf',22))
+            d.text((70,45),'PELICAN BICYCLE ARCHIVE / AN AI FIELD GUIDE',fill='#164b35',font=ImageFont.truetype('C:/Windows/Fonts/consola.ttf',22))
             heading='一只鹈鹕。\n无数种可能。' if language=='zh' else 'One pelican.\nEndless possibilities.'
             d.multiline_text((65,165),heading,fill='#164b35',font=ImageFont.truetype(str(fontpath) if language=='zh' else 'C:/Windows/Fonts/georgia.ttf',64 if language=='zh' else 58),spacing=18)
             d.text((70,510),'资料馆 ＋ 精选展示' if language=='zh' else 'AN ARCHIVE & CURATED EXHIBITION',fill='#646957',font=ImageFont.truetype(str(fontpath) if language=='zh' else 'C:/Windows/Fonts/consola.ttf',25))
@@ -360,13 +370,13 @@ def build(items=None,prepare=True):
     topics=[('origins','01 / THE BEGINNING','为什么是鹈鹕骑车？','从原点仓库开始，认识这个小题目。'),('beyond-svg','02 / ACROSS MEDIA','跨介质探索','动画、三维与交互，保留各自生成条件。'),('reading-the-test','03 / A CLOSER LOOK','一张图能说明什么？','了解提示词、版本与比较的边界。')]
     body+='<section class="section"><div class="section-head"><div><div class="eyebrow">FIELD NOTES</div><h2>带着问题逛一逛</h2></div></div><div class="topics">'+''.join(f'<a class="topic" href="/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>阅读专题 →</span></a>' for slug,ey,title,desc in topics)+'</div></section>'
     body+='<section class="quote-band"><h2>好作品值得停留，<br>失败也值得收藏。</h2><div><p>每一份记录尽量保留模型、时间、媒体与原始出处。这里的并置是一种观察：同一题目如何被理解，又如何不断被改写。</p><p><a href="/about/">了解收录方法 →</a></p></div></section>'
-    schema=home_schema('鹈鹕骑车：AI 作品资料馆与精选展示')
+    schema=home_schema('AI 代码生成的鹈鹕骑车作品档案')
     schema['dateModified']=UPDATED
-    page('/','鹈鹕骑车：AI 作品资料馆与精选展示',INTRO,body,nav='/',schema=schema,markdown='/index.md')
+    page('/','AI 代码生成的鹈鹕骑车作品档案',INTRO,body,nav='/',schema=schema,markdown='/index.md')
     from bs4 import BeautifulSoup
     home_soup=BeautifulSoup(body,'html.parser')
     home_links='\n'.join('- '+a.get_text(' ',strip=True)+': '+(BASE+a['href'] if a['href'].startswith('/') else a['href']) for a in home_soup.select('a[href]'))
-    dump(OUT/'index.md','# 鹈鹕骑车：AI 作品资料馆与精选展示\n\n'+home_soup.get_text('\n',strip=True)+'\n\n## 链接\n'+home_links+'\n')
+    dump(OUT/'index.md','# AI 代码生成的鹈鹕骑车作品档案\n\n'+home_soup.get_text('\n',strip=True)+'\n\n## 链接\n'+home_links+'\n')
     for n in range(math.ceil(len(items)/24)):
         path='/specimens/' if n==0 else f'/specimens/page/{n+1}/'
         title='全部作品' if n==0 else f'全部作品 · 第 {n+1} 页'
@@ -470,9 +480,9 @@ def build_editorial(items, by_id):
     about+='<h3>2026-10-03 X 代码作品档位补档</h3><p>在原作者公开文章核验 Claude Code 生成 SVG 的过程，按明确标签收录 Opus 5.5 与 Opus 5 各四档、合计八幅真实静态预览。忠实像素裁切保留坐标与原图／裁切哈希，完整八格原图只在详情作为附件；不把每档三次运行的报告当作 24 幅已公开作品。时间线分别取作者明确的默认档 medium 与 high，共两张代表，详情先展示同型号档位对照。作品日期保留原帖 2026-09-23 UTC 公开日，不改成收录日或型号发布日期；作者的用时、成本与成功率不是本站排名。未取得 SVG 源码，不镜像未核许可代码，不新增 Play 或 Benchmark。</p>'
     about+='<h3>2026-10-03 Gist 原预览补档</h3><p>核验原作者 Gist 固定版本及本人评论，新增三件五月／六月真实输出：DiffusionGemma 一件，grok 4.3 的 bike／bicycle 题面各一件。保留作者已发布的原始 PNG、署名、UTC 公开日与哈希，不以本次收录日改写作品日期。两个 Grok 输出是追加题面对照，不冒充推理档位或新会话；没有明确默认／medium 时仅计全部作品，DiffusionGemma 进入时间线。两份原 SVG 有重复属性无法解码，不修复、补画或镜像未核许可代码；此批只展示来源真实预览，无新增动画、Play 或 Benchmark。公开仓库缺逐型号对应或原预览的候选继续暂缓，不按数量充数。</p>'
     about+='<h3>2026-10-03 代码生成收录范围更新</h3><p>标本馆主要收藏大模型生成代码的作品。SVG、网页动画、三维场景与交互项目，以及这些代码作品的真实录屏仍可收；不按视频文件后缀排除作品。四条明确的直接文生视频旧记录转为不计数资料，原 ID、来源、日期、详情与媒体保留，按 ID 可查，不进入主馆、时间线、编号或默认搜索。尚未发布的四个 Veo 2 拆分输出撤回，研究证据保留，不作为新增。后续导入须记录代码生成方式与公开来源证据；过程不明暂缓，不猜模型能力或日期。首页原文、动态展示、Play 与 Benchmark 参考边界保持。</p>'
-    page('/about/','关于与收录方法','Pelican Map 的定位、馆藏范围、统计口径、来源处理与维护记录。',top('把作品留下，把出处讲清楚','ABOUT PELICAN MAP')+'<article class="prose">'+about+'</article>',markdown='/about/index.md')
+    page('/about/','关于与收录方法','Pelican Bicycle Archive 的定位、馆藏范围、统计口径、来源处理与维护记录。',top('把作品留下，把出处讲清楚','ABOUT PELICAN BICYCLE ARCHIVE')+'<article class="prose">'+about+'</article>',markdown='/about/index.md')
     from bs4 import BeautifulSoup
-    dump(OUT/'about/index.md','# Pelican Map / 鹈鹕骑车标本馆\n\n'+BeautifulSoup(about,'html.parser').get_text('\n',strip=True)+'\n')
+    dump(OUT/'about/index.md','# Pelican Bicycle Archive / 鹈鹕骑车标本馆\n\n'+BeautifulSoup(about,'html.parser').get_text('\n',strip=True)+'\n')
     rights='''<h2>作品与来源</h2><p>馆藏媒体、代码和原文链接均指向各自来源，作品权利归其原作者。本站收录、生成预览或提供下载不会改变原作品的许可，也不代表原作者认可本站。</p><h2>使用与下载</h2><p>引用时请保留原作者与原始链接。使用代码或媒体前，请查看原仓库的 LICENSE 和作者说明。未核实许可的记录不标为开放许可；来源 URL 未核实的源码包暂不提供公开下载。</p><h2>已知来源状态</h2><ul><li>Zeos 投稿站的域名未能从原帖确认，保留可获取的附件。</li><li>受限文章保留公开索引和原始链接。</li><li>一条 YouTube 直播使用在线入口。</li></ul><h2>更正与移除</h2><p>如果你是作品作者，或发现来源、日期、署名有误，请通过本站发布者分享本馆的原始渠道联系，并附本站作品地址、原始来源及需要更正或移除的内容。</p><h2>访问与隐私</h2><p>本站目前不提供注册、评论或广告追踪。页面由 Hetzner 托管并通过 Cloudflare 分发，服务运行可能产生必要的访问与错误日志。点击外部来源后，适用对应网站的政策。</p>'''
     page('/rights/','来源与使用说明','作品署名、许可状态、下载使用、来源限制与更正说明。',top('来源与使用说明','CREDITS & USE')+'<article class="prose">'+rights+'</article>')
 

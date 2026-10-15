@@ -1,0 +1,7 @@
+.site-head .head-inner{position:relative;padding-right:44px}
+.home-x-link{position:absolute;right:0;top:26px;display:inline-flex;align-items:center;justify-content:center;width:40px;height:44px;color:var(--ink);border-radius:8px}
+.home-x-link:hover{color:var(--green);background:var(--surface)}
+.home-x-link:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.home-x-link svg{width:20px;height:20px;fill:currentColor}
+@media(max-width:820px){.site-head .head-inner{padding-right:0}.site-head .brand{padding-right:90px}.site-head .nav .language-switch{right:46px}.home-x-link{top:18px}}
+@media(max-width:720px){.home-x-link{top:4px;width:32px;height:32px}}
