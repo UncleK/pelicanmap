@@ -1,6 +1,6 @@
 // Presentation only. Never execute source text or guess motion from a format label.
-export function motionAllowed({enabled, visible, hidden, closed=false, manualPaused=false}) {
-  return enabled && visible && !hidden && !closed && !manualPaused;
+export function motionAllowed({enabled, visible, hidden, closed=false, covered=false, manualPaused=false}) {
+  return enabled && visible && !hidden && !closed && !covered && !manualPaused;
 }
 
 export function safeMotionSource(src, kind, origin) {
@@ -25,7 +25,8 @@ export function bootMotion(main) {
   toggle.hidden=true;document.body.append(toggle);
   function label() {
     toggle.hidden=!managed.size;
-    toggle.textContent=enabled?t('Ⅱ 暂停动态预览','Ⅱ Pause motion'):t('▶ 播放动态预览','▶ Play motion');
+    const text=enabled?t('Ⅱ 暂停动态预览','Ⅱ Pause motion'):t('▶ 播放动态预览','▶ Play motion');
+    if(toggle.textContent!==text)toggle.textContent=text;
     toggle.setAttribute('aria-pressed',String(enabled));
     toggle.setAttribute('aria-label',enabled?t('自动播放已开启；暂停本页动态媒体','Autoplay is on; pause moving media on this page'):t('自动播放已暂停；播放本页动态媒体','Autoplay is paused; play moving media on this page'));
   }
@@ -64,8 +65,10 @@ export function bootMotion(main) {
     state.active=false;
   }
   function update(node,state) {
-    const closed=!!node.closest('details:not([open])');
-    const active=motionAllowed({enabled,visible:state.visible,hidden:document.hidden,closed,manualPaused:state.manualPaused});
+    const closed=!!node.closest('details:not([open]),dialog:not([open]),[hidden]');
+    const dialog=main.querySelector('dialog[open]');
+    const covered=!!dialog&&!dialog.contains(node);
+    const active=motionAllowed({enabled,visible:state.visible,hidden:document.hidden,closed,covered,manualPaused:state.manualPaused});
     if(active===state.active)return;
     if(!active){pause(node,state);return;}
     state.active=true;
@@ -158,6 +161,7 @@ export function bootMotion(main) {
   window.addEventListener('pagehide',()=>{for(const [node,state] of managed)pause(node,state);});
   window.addEventListener('pageshow',refresh);
   main.addEventListener('toggle',refresh,true);
+  main.addEventListener('pelican-dialog-change',refresh);
   let pending=false;
   new MutationObserver(()=>{
     if(pending)return;pending=true;

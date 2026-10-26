@@ -6,7 +6,7 @@ import {renderCard} from './assets/browse.js';
 test('motion is visible-only, background-safe and honours explicit pause and closed originals',()=>{
   const ready={enabled:true,visible:true,hidden:false};
   assert.equal(motionAllowed(ready),true);
-  for(const override of [{enabled:false},{visible:false},{hidden:true},{closed:true},{manualPaused:true}])
+  for(const override of [{enabled:false},{visible:false},{hidden:true},{closed:true},{covered:true},{manualPaused:true}])
     assert.equal(motionAllowed({...ready,...override}),false);
 });
 

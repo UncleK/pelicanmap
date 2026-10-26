@@ -206,6 +206,63 @@ export function renderCard(x, {view='standard', english=false, timeline=false} =
   }
   return `<article class="card specimen-card">${cover}<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><h3><a href="${esc(x.path)}">${esc(x.title)}</a></h3>${x.topicTags?.includes("derivative")?`<div class="card-meta"><a href="${english?"/en":""}/derivatives/" rel="tag">${t("衍生作品","Derivative works")}</a></div>`:""}<p class="note">${esc(x.notes || x.author)}</p></div>${cardFooter(x,english)}</article>`;
 }
+
+export function modelGroupMembers(group) {
+  return groupRunRecords(group.modelMembers).flatMap(run=>run.runMembers);
+}
+
+export function renderModelCard(group, {view='standard',english=false,index=0}={}) {
+  const members=modelGroupMembers(group),primary=members[0];
+  const label=(english?(globalThis.PelicanI18n?.text(`View all ${members.length} works of this version`)||`View all ${members.length} works of this version`):`查看该型号的全部 ${members.length} 件作品`)+' · '+primary.model;
+  const button=`<button type="button" class="model-more" data-model-more="${index}" aria-haspopup="dialog" aria-label="${esc(label)}" title="${esc(label)}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+  return renderCard(primary,{view,english,timeline:true})
+    .replace('<article class="','<article data-model-group="'+esc(modelKey(group))+'" class="model-more-card ')
+    .replace('</article>',button+'</article>');
+}
+
+function modelWorksDialog(root,t) {
+  const dialog=document.createElement('dialog');
+  dialog.className='model-dialog';dialog.setAttribute('aria-labelledby','model-dialog-title');
+  dialog.innerHTML=`<header class="model-dialog-head"><div><h2 id="model-dialog-title"></h2><p data-model-dialog-count></p></div><div class="model-dialog-actions"><button type="button" class="model-dialog-close" data-model-dialog-close autofocus aria-label="${t('关闭浮窗','Close dialog')}" title="${t('关闭浮窗','Close dialog')}">×</button></div></header><div class="model-dialog-body"></div>`;
+  root.append(dialog);
+  const body=dialog.querySelector('.model-dialog-body'),cache=new Map();
+  let trigger,position,motionHome;
+  const notify=()=>root.dispatchEvent(new CustomEvent('pelican-dialog-change',{bubbles:true}));
+  function close(){if(dialog.open)dialog.close();}
+  dialog.querySelector('[data-model-dialog-close]').addEventListener('click',close);
+  dialog.addEventListener('cancel',event=>{event.preventDefault();close();});
+  dialog.addEventListener('click',event=>{
+    if(event.target!==dialog)return;
+    const box=dialog.getBoundingClientRect();
+    if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)close();
+  });
+  dialog.addEventListener('close',()=>{
+    document.documentElement.classList.remove('model-dialog-open');
+    if(motionHome){const {node,parent,next}=motionHome;if(next?.parentNode===parent)parent.insertBefore(node,next);else parent.append(node);motionHome=null;}
+    notify();
+    if(position)window.scrollTo({left:position.x,top:position.y,behavior:'instant'});
+    if(trigger?.isConnected)trigger.focus({preventScroll:true});
+  });
+  return (group,{view,english},opener)=>{
+    const members=modelGroupMembers(group),key=view+'\u0000'+members.map(x=>x.id).join('\u0000');
+    let collection=cache.get(key);
+    if(!collection){
+      collection=document.createElement('div');collection.className='model-dialog-collection';
+      collection.innerHTML='<div class="grid">'+members.map(x=>renderCard(x,{view,english,timeline:true})).join('')+'</div>';
+      body.append(collection);cache.set(key,collection);
+    }
+    for(const child of body.children)child.hidden=child!==collection;
+    dialog.querySelector('h2').textContent=group.model;
+    dialog.querySelector('[data-model-dialog-count]').textContent=t(`同型号 ${members.length} 件作品`,`${members.length} works of this version`);
+    dialog.classList.toggle('compact-view',view==='compact');dialog.classList.toggle('image-view',view==='images');
+    trigger=opener;position={x:window.scrollX,y:window.scrollY};
+    const motion=document.querySelector('[data-motion-toggle]');
+    if(motion&&!motionHome){motionHome={node:motion,parent:motion.parentNode,next:motion.nextSibling};dialog.querySelector('.model-dialog-actions').prepend(motion);}
+    document.documentElement.classList.add('model-dialog-open');
+    dialog.showModal();body.scrollTop=0;notify();
+  };
+}
+
 function bootBrowser(root) {
   const english = document.documentElement.lang !== 'zh-CN';
   const t = (zh, en) => english ? (globalThis.PelicanI18n?.text(en)||en) : zh;
@@ -247,6 +304,13 @@ function bootBrowser(root) {
   let catalogPromise, revision = 0;
   const card = x => renderCard(x,{view,english,timeline:root.dataset.scope==='timeline'});
   const values = () => ({...Object.fromEntries(new FormData(form)), view});
+  const showModelWorks=root.dataset.scope==='timeline'?modelWorksDialog(root,t):null;
+  let shownGroups=[];
+  results.addEventListener('click',event=>{
+    const button=event.target.closest('[data-model-more]');
+    if(!button||!shownGroups[Number(button.dataset.modelMore)])return;
+    showModelWorks(shownGroups[Number(button.dataset.modelMore)],{view,english},button);
+  });
   async function render(requested = 1, updateUrl = true) {
     const turn = ++revision;
     root.classList.toggle('compact-view', view === 'compact');
@@ -277,12 +341,13 @@ function bootBrowser(root) {
       const selected=groupRecords(selectRecords(catalog.items,{scope:root.dataset.scope,...filters}),root.dataset.scope==='play');
       const folded=root.dataset.scope==='timeline'&&filters.collapse==='1';
       const page = paginate(folded?groupModelRecords(selected):selected, requested, view, innerWidth);
+      shownGroups=folded?page.items:[];
       currentPage = page.page;
       renderedSize = page.size;
       let content = '';
       if (root.dataset.scope === 'timeline') {
         let month;
-        for (const item of page.items) {
+        for (const [index,item] of page.items.entries()) {
           const next = timelineMonth(item);
           if (month !== next) {
             if (month) content += '</div></section>';
@@ -291,10 +356,7 @@ function bootBrowser(root) {
             month = next;
           }
           if(folded&&item.modelMembers.length>1){
-            const runs=groupRunRecords(item.modelMembers),primary=runs[0].runMembers[0];
-            const remaining=runs.map((run,index)=>({...run,runMembers:index===0?run.runMembers.slice(1):run.runMembers})).filter(run=>run.runMembers.length);
-            const otherHtml=remaining.map(run=>run.runMembers.length===1?card(run.runMembers[0]):`<div class="timeline-model-group" data-run-group="${esc(run.runMembers[0].modelRunGroup || run.runMembers[0].representativeOf || run.runMembers[0].id)}">${card(run.runMembers[0])}<details><summary>${t(`展开同组其余 ${run.runMembers.length-1} 件作品`,`Show ${run.runMembers.length-1} more works from this group`)}</summary><div class="grid">${run.runMembers.slice(1).map(card).join('')}</div></details></div>`).join('');
-            content+=`<div class="timeline-model-group" data-model-group="${esc(modelKey(item))}">${card(primary)}<details><summary>${t(`展开同型号其余 ${item.modelMembers.length-1} 件作品`,`Show ${item.modelMembers.length-1} more works of this version`)}</summary><div class="grid">${otherHtml}</div></details></div>`;
+            content+=renderModelCard(item,{view,english,index});
           }else content += card(item);
         }
         if (month) content += '</div></section>';

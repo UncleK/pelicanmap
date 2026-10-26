@@ -12,6 +12,32 @@ const records = Array.from({length: 75}, (_, i) => ({
   interactive: i < 4, demoUrl: i < 4 ? `https://pelicanmap-demos.aveniqa.com/demos/${i}/` : '',
 }));
 
+test('model dialog membership keeps all reviewed runs with the source default first',()=>{
+  const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
+  const selected=selectRecords(catalog.items,{scope:'timeline',q:'Emu-001'});
+  const groups=browse.groupModelRecords(selected);
+  const members=groups.flatMap(browse.modelGroupMembers);
+  assert.equal(members.length,35);
+  assert.deepEqual(new Set(members.map(x=>x.id)),new Set(selected.map(x=>x.id)));
+  assert.ok(groups.every(x=>browse.modelGroupMembers(x)[0].originalLevel==='medium'));
+});
+
+test('folded model card preserves the original preview and links without adding inline works',()=>{
+  const items=records.slice(0,3).map((x,i)=>({...x,thumbnail:'/media/original-'+i+'.png',path:'/specimens/'+x.id+'/',modelNames:['Sol'],caseNumber:100+i}));
+  const group=browse.groupModelRecords(items)[0];
+  for(const view of ['standard','compact','images']){
+    const card=browse.renderModelCard(group,{view,english:true,index:4});
+    assert.equal((card.match(/<article\b/g)||[]).length,1);
+    assert.ok(card.includes('data-model-more="4"'));
+    assert.ok(card.includes('aria-haspopup="dialog"'));
+    assert.ok(card.includes('View all 3 works of this version'));
+    assert.ok(card.includes('href="/specimens/'+items[0].id+'/"'));
+    assert.ok(card.includes('/media/original-0.png'));
+    assert.ok(!card.includes('<details>')&&!card.includes('<summary>'));
+    assert.ok(!card.includes('/specimens/'+items[1].id+'/'));
+  }
+});
+
 test('browsing pins the catalog to the rendered collection version in both languages', () => {
   const version='a'.repeat(20);
   assert.equal(browse.catalogHref(false,version),'/data/catalog.json?collection='+version);

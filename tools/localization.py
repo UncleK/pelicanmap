@@ -32,6 +32,8 @@ def write_runtime():
     const key=value.trim(),mapped=locale.strings[key];
     if(mapped)return value.replace(key,mapped);
     let m;
+    if((m=/^View all (\d+) works of this version$/.exec(key)))return ru?`Показать все работы этой версии (${m[1]})`:`Ver todas as ${m[1]} obras desta versão`;
+    if((m=/^(\d+) works of this version$/.exec(key)))return ru?`Работы этой версии: ${m[1]}`:`${m[1]} obras desta versão`;
     if((m=/^(\d+) cases · (\d+) model versions · Page (\d+) \/ (\d+)$/.exec(key)))return ru?`${m[1]} работ · ${m[2]} версий моделей · Страница ${m[3]} / ${m[4]}`:`${m[1]} obras · ${m[2]} versões de modelos · Página ${m[3]} / ${m[4]}`;
     if((m=/^(\d+) (?:cases|matching samples) · Page (\d+) \/ (\d+)$/.exec(key)))return ru?`${m[1]} работ · Страница ${m[2]} / ${m[3]}`:`${m[1]} obras · Página ${m[2]} / ${m[3]}`;
     if((m=/^Page (\d+) \/ (\d+)$/.exec(key)))return ru?`Страница ${m[1]} / ${m[2]}`:`Página ${m[1]} / ${m[2]}`;
