@@ -4,6 +4,7 @@ import copy
 import json
 import unittest
 from pathlib import Path
+from case_policy import is_derivative
 from bs4 import BeautifulSoup
 from PIL import Image
 from case_policy import apply_case_policy, is_case, in_timeline, timeline_media
@@ -40,13 +41,15 @@ class CaseUnitTests(unittest.TestCase):
             self.assertTrue({m['src'] for m in old['media']}<={m['src'] for m in current['media']})
             self.assertTrue((OUT/current['path'].lstrip('/')/'index.html').is_file())
 
-    def test_35_cases_seven_timeline_representatives(self):
+    def test_all_35_cases_enter_timeline_with_seven_fold_defaults(self):
         parent='reddit-emu001-codex-pelican-matrix-2026-09-26'
         samples=[x for x in ITEMS if x.get('parentId')==parent]
         self.assertEqual(len(samples),35)
         self.assertTrue(all(is_case(x) for x in samples))
-        self.assertEqual(sum(in_timeline(x) for x in samples),7)
-        self.assertEqual({x['originalLevel'] for x in samples if in_timeline(x)},{'medium'})
+        self.assertEqual(sum(in_timeline(x) for x in samples),35)
+        defaults=[x for x in samples if not x.get('representativeOf')]
+        self.assertEqual(len(defaults),7)
+        self.assertEqual({x['originalLevel'] for x in defaults},{'medium'})
         self.assertEqual(len({x['caseNumber'] for x in samples}),35)
         self.assertFalse(is_case(BY[parent]))
         for sample in samples:
@@ -83,7 +86,8 @@ class CaseUnitTests(unittest.TestCase):
             if in_timeline(x):
                 self.assertEqual(len(x['modelNames']),1)
                 self.assertTrue(timeline_media(x,OUT))
-                self.assertFalse(x.get('representativeOf'))
+                from case_policy import is_derivative
+                self.assertFalse(is_derivative(x))
         for lang in ['', 'en/']:
             soup=BeautifulSoup((OUT/lang/'timeline/index.html').read_text(encoding='utf8'),'html.parser')
             self.assertIsNotNone(soup.select_one('select[name=family]'))
@@ -113,7 +117,7 @@ class CaseUnitTests(unittest.TestCase):
             self.assertFalse(is_case(parent))
             self.assertEqual(len(children),expected)
             self.assertTrue(all(is_case(x) for x in children))
-            self.assertEqual(sum(in_timeline(x) for x in children),representatives)
+            self.assertEqual(sum(in_timeline(x) for x in children),sum(not is_derivative(x) for x in children))
         alias=BY['simon-june-slides-o1-pro-2025-03']
         self.assertFalse(is_case(alias))
         self.assertEqual(BY[alias['canonicalId']]['date'],'2025-03-19')
@@ -140,12 +144,14 @@ class CaseUnitTests(unittest.TestCase):
             self.assertNotIn('#None',str(page))
         runs=[x for x in ITEMS if x.get('modelRunGroup')=='simon-gemini3-classic-2025-11-18']
         self.assertEqual(len(runs),3)
-        self.assertEqual([x['originalLevel'] for x in runs if in_timeline(x)],['high'])
+        self.assertTrue(all(in_timeline(x) for x in runs))
+        self.assertEqual([x['originalLevel'] for x in runs if not x.get('representativeOf')],['high'])
 
     def test_existing_named_efforts_follow_the_same_rule(self):
         runs=[x for x in ITEMS if x['id'].startswith('simon-gpt61-sol-')]
         self.assertEqual(len(runs),5)
-        self.assertEqual([x['originalLevel'] for x in runs if in_timeline(x)],['medium'])
+        self.assertTrue(all(in_timeline(x) for x in runs))
+        self.assertEqual([x['originalLevel'] for x in runs if not x.get('representativeOf')],['medium'])
         for run in runs:self.assertEqual(len(run['comparisonIds']),5)
 
     def test_requoted_grid_panels_do_not_create_new_works(self):

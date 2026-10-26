@@ -19,7 +19,7 @@
     "check:project": "node tools/check_project.mjs",
     "build": "node tools/run_python.mjs tools/incremental_site.py",
     "build:full": "node tools/run_python.mjs tools/build_public_site.py",
-    "test": "node --test site/worker.test.mjs site/server.test.mjs site/browse.test.mjs site/motion.test.mjs tools/import_collection_batch.test.mjs tools/live_stats.test.mjs",
+    "test": "node --test site/worker.test.mjs site/server.test.mjs site/browse.test.mjs site/motion.test.mjs tools/import_collection_batch.test.mjs tools/live_stats.test.mjs tools/browser_output_identity.test.mjs tools/reviewed_source_assets.test.mjs tools/reviewed_video_crop.test.mjs tools/reviewed_video_panel.test.mjs tools/reviewed_video_segment.test.mjs",
     "test:pages": "python -B tools/test_public_site.py",
     "bundle:server": "node tools/bundle_server.mjs",
     "package:vps": "node tools/bundle_server.mjs && python -B tools/package_vps.py",

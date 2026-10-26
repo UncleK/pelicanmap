@@ -1,10 +1,66 @@
 """Narrow regression allowance for one source-reviewed composite replacement."""
 import hashlib
 import json
+from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_REMOVED = 'x-keth-space-bunny-alpha-animation-2026-09-30'
+
+@lru_cache(maxsize=1)
+def _all_classic_timeline_review():
+    batch=ROOT/'pelican-archive/research/2026-10-26-all-classic-timeline'
+    review=json.loads((batch/'review.json').read_text(encoding='utf8'))
+    before=json.loads((batch/'catalog-before.json').read_text(encoding='utf8'))
+    return set(review['newlyVisibleIds']),{x['id']:x for x in before['items']}
+
+def reviewed_all_classic_timeline_change(test, previous, current, key):
+    """The exact user-approved batch may restore timeline visibility only."""
+    if key!='timelineVisible' or previous.get(key)==current.get(key):return False
+    batch=ROOT/'pelican-archive/research/2026-10-26-all-classic-timeline'
+    if not (batch/'review.json').is_file():return False
+    admitted,by_id=_all_classic_timeline_review()
+    if current['id'] not in admitted:return False
+    from case_policy import is_case,is_derivative
+    test.assertTrue(is_case(current))
+    test.assertFalse(is_derivative(current))
+    test.assertTrue(current['timelineVisible'])
+    baseline=by_id[current['id']]
+    for field in ['id','title','model','date','author','sourceUrl','media','thumbnail','rights','caseNumber','representativeOf','modelRunGroup']:
+        test.assertEqual(current.get(field),baseline.get(field),(current['id'],field))
+    return True
+
+def reviewed_derivative_classification_change(test, previous, current, key):
+    """Only the exact reviewed curation batch may change historical classification."""
+    if previous.get(key) == current.get(key):
+        return False
+    batch=ROOT/'pelican-archive/research/2026-10-26-classic-timeline-curation'
+    review=json.loads((batch/'review.json').read_text(encoding='utf8'))
+    moved={x['id'] for x in review['changes'] if x['operation']=='classify-derivative'}
+    leaks=set(review['previouslyTaggedTimelineLeaks'])
+    ident=previous['id']
+    if ident not in moved|leaks:
+        return False
+    allowed={'notes','i18n','caseReview','topicTags','timelineVisible','originalMetadata'} if ident in moved else {'timelineVisible'}
+    if key not in allowed:
+        return False
+    baseline=next(x for x in json.loads((batch/'catalog-before.json').read_text(encoding='utf8'))['items'] if x['id']==ident)
+    for field in ['id','title','model','date','author','sourceUrl','media','thumbnail','rights','caseNumber']:
+        test.assertEqual(current.get(field),baseline.get(field),(ident,field))
+    test.assertTrue(current['caseVisible'])
+    test.assertFalse(current['timelineVisible'])
+    test.assertIn('derivative',current['topicTags'])
+    if ident in moved:
+        policy=json.loads((ROOT/'site/case-reviews.json').read_text(encoding='utf8'))[ident]
+        test.assertEqual(policy['sourceUrl'],baseline['sourceUrl'])
+        test.assertEqual(policy['policyVersion'],'2026-10-26-classic-timeline-v3')
+        for field in ['notes','i18n','topicTags']:
+            test.assertEqual(current[field],policy['fields'][field])
+        test.assertEqual(current['caseReview']['reason'],policy['reason'])
+        test.assertEqual(current['caseReview']['evidence'],policy['evidence'])
+        if 'originalMetadata' not in baseline:
+            test.assertEqual(current['originalMetadata'],{field:baseline.get(field) for field in ['title','model','author','date','sourceUrl','kind','format','thumbnail']})
+    return True
 
 def reviewed_original_animation(test, item):
     """A later byte-verified original can replace a historical preview-only display."""
@@ -57,6 +113,10 @@ def reviewed_context_change(test, previous, current, key, by_id):
     No generic exemption: exactly this reviewed parent, four documented children,
     unchanged historical identity/media, and four policy fields only.
     """
+    if reviewed_all_classic_timeline_change(test, previous, current, key):
+        return True
+    if reviewed_derivative_classification_change(test, previous, current, key):
+        return True
     if reviewed_video_context_change(test, previous, current, key, by_id):
         return True
     if previous['id'] != PARENT or key not in {'caseRole', 'caseVisible', 'timelineVisible', 'caseReview'}:
@@ -79,7 +139,8 @@ def reviewed_context_change(test, previous, current, key, by_id):
         test.assertEqual(child['date'], previous['date'])
         test.assertEqual(child['model'], previous['model'])
         test.assertTrue(child['media'][0]['src'].endswith('.webm'))
-    test.assertEqual(sum(by_id[ident]['timelineVisible'] for ident in CHILDREN), 1)
+    test.assertEqual(sum(by_id[ident]['timelineVisible'] for ident in CHILDREN), 4)
+    test.assertEqual(sum(not by_id[ident].get('representativeOf') for ident in CHILDREN), 1)
     test.assertTrue(by_id['reddit-kylmawurr-opus55-medium-2026-09-27']['timelineVisible'])
     return True
 
@@ -173,6 +234,10 @@ def reviewed_complete_motion_restoration(test, previous, current, key):
 
 def reviewed_swe_motion_restoration(test, previous, current, key):
     """Individually reviewed pinned MIT originals, never a blanket exemption."""
+    if reviewed_all_classic_timeline_change(test, previous, current, key):
+        return True
+    if reviewed_derivative_classification_change(test, previous, current, key):
+        return True
     if reviewed_complete_motion_restoration(test, previous, current, key):
         return True
     if reviewed_gemini_interaction_restoration(test, previous, current, key):

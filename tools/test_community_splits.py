@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 from bs4 import BeautifulSoup
+from case_policy import is_derivative
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-community-splits'
 AUDIT=json.loads((DIR/'import-audit.json').read_text())
@@ -12,14 +13,17 @@ NEW=[BY[x] for x in AUDIT['added']]
 class CommunitySplitsTests(unittest.TestCase):
     def test_unit_counts_and_settings_representative(self):
         self.assertEqual(len(NEW),13)
-        self.assertEqual(sum(x['timelineVisible'] for x in NEW),9)
+        self.assertEqual(sum(x['timelineVisible'] for x in NEW),10)
+        self.assertEqual(sum(is_derivative(x) for x in NEW),3)
+        self.assertFalse(any(x['timelineVisible'] and is_derivative(x) for x in NEW))
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+13)
-        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+9)
+        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+6)
         self.assertEqual(CAT['counts']['referenceRecords'],138)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
         sweep=[x for x in NEW if 'maximumwishbone' in x['id']]
         self.assertEqual(len(sweep),5)
-        self.assertEqual([x['originalLevel'] for x in sweep if x['timelineVisible']],['medium'])
+        self.assertTrue(all(x['timelineVisible'] for x in sweep))
+        self.assertEqual([x['originalLevel'] for x in sweep if not x.get('representativeOf')],['medium'])
         self.assertTrue(all(len(x['comparisonIds'])==5 for x in sweep))
         for x in NEW:self.assertEqual(x['sourcePublicationDate'],x['date'])
     def test_hashes_reuse_and_nonblank_covers(self):

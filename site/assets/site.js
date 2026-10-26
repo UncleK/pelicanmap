@@ -1,5 +1,21 @@
-const english=document.documentElement.lang==='en';
-const t=(zh,en)=>english?en:zh;
+const english=document.documentElement.lang!=='zh-CN';
+const t=(zh,en)=>english?(globalThis.PelicanI18n?.text(en)||en):zh;
+// Update every bound statistic from one release, without replacing source text.
+async function refreshCollectionStats(){
+  if(!document.querySelector('[data-stat]'))return;
+  try{
+    const response=await fetch('/api/v1/stats',{cache:'no-store',credentials:'omit',signal:AbortSignal.timeout(10000)});
+    if(!response.ok)return;
+    const snapshot=await response.json();
+    const valid=value=>Number.isSafeInteger(value)&&value>=0;
+    if(!valid(snapshot.works)||!valid(snapshot.timeline)||!valid(snapshot.derivatives)||snapshot.timeline+snapshot.derivatives!==snapshot.works||snapshot.counts.cases!==snapshot.works||snapshot.counts.timeline!==snapshot.timeline)return;
+    const updates=[...document.querySelectorAll('[data-stat]')].map(node=>[node,snapshot.counts[node.dataset.stat]??snapshot[node.dataset.stat]]);
+    if(updates.some(([,value])=>!valid(value)))return;
+    for(const [node,value] of updates)node.textContent=String(value);
+  }catch{/* Keep the internally consistent build snapshot while offline. */}
+}
+refreshCollectionStats();
+setInterval(()=>{if(!document.hidden)refreshCollectionStats();},300000);
 // Listing search, sorting and pagination live in the shared browse.js module.
 document.querySelector('[data-copy]')?.addEventListener('click',async e=>{
   try{await navigator.clipboard.writeText(document.querySelector('link[rel=canonical]').href);e.target.textContent=t('链接已复制','Link copied');}
@@ -23,7 +39,7 @@ document.querySelectorAll('[data-detail-carousel]').forEach(root=>{
   new ResizeObserver(update).observe(track);update();
 });
 
-document.querySelector('[data-language]')?.addEventListener('click',e=>{const target=new URL(e.currentTarget.href);target.search=location.search;target.hash=location.hash;e.currentTarget.href=target.href;});
+document.querySelectorAll('[data-language]').forEach(link=>link.addEventListener('click',e=>{const target=new URL(e.currentTarget.href);target.search=location.search;target.hash=location.hash;e.currentTarget.href=target.href;}));
 
 const sourceSearch=document.querySelector('[data-source-search]');
 const sourceYear=document.querySelector('[data-source-year]');
@@ -61,7 +77,7 @@ new MutationObserver(watchModelRows).observe(document.querySelector('main'),{chi
 document.fonts.ready.then(()=>document.querySelectorAll('.specimen-card .card-models,.timeline-card .timeline-model').forEach(fitModelRow));
 
 // Keep long timelines and filtered collections easy to navigate.
-if (/^\/(?:en\/)?(?:timeline|specimens|play|collections)(?:\/|$)/.test(location.pathname)) {
+if (/^\/(?:(?:en|ru|pt-BR)\/)?(?:timeline|specimens|play|collections)(?:\/|$)/.test(location.pathname)) {
   const backToTop=document.createElement('button');
   backToTop.type='button';
   backToTop.className='floating-top';

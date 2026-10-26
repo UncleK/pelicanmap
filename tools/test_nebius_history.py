@@ -14,7 +14,7 @@ class NebiusHistory(unittest.TestCase):
         catalog = json.loads((ROOT / 'site/catalog.json').read_text(encoding='utf8'))
         records = [x for x in catalog['items'] if x['id'].startswith('nebius-')]
         self.assertEqual(len(records), 11)
-        self.assertEqual(sum(x['timelineVisible'] for x in records), 3)
+        self.assertEqual(sum(x['timelineVisible'] for x in records), 11)
         self.assertEqual({x['date'] for x in records}, {'2025-08-05', '2025-08-07', '2025-08-08'})
         self.assertEqual(len({x['model'] for x in records}), 7)
         license_path = '/media/collected/' + BATCH + '/LICENSE.txt'
@@ -37,7 +37,7 @@ class NebiusHistory(unittest.TestCase):
                 self.assertFalse(record['demoUrl'])
                 self.assertEqual(len(record['media']), 3)
                 self.assertEqual(record['thumbnail'], record['media'][0]['src'])
-                self.assertEqual(record['timelineVisible'], not bool(record.get('modelRunGroup')))
+                self.assertTrue(record['timelineVisible'])
                 if record.get('modelRunGroup'):
                     self.assertEqual(record['comparisonType'], 'source-files')
                     for language,wrong in [('zh','来源默认档'),('en','Source default')]:

@@ -40,6 +40,13 @@ for(const file of ['docs/index.html','docs/en/index.html','docs/zh/index.html'])
 for(const p of ['README.md','README.en.md','README.zh-CN.md','NOTICE.md','CONTRIBUTING.md','LICENSE','docs/assets/github-cover-en.svg','docs/assets/social-preview-en.png'])assert.ok(fs.existsSync(path.join(root,p)),p);
 for(const p of ['README.md','README.en.md','NOTICE.md','CONTRIBUTING.md','SECURITY.md','docs/DEVELOPMENT.md','docs/INTEGRATIONS.md'])assert.ok(!/[\u3400-\u9fff]/.test(withoutChineseSwitch(read(p))),'English documentation contains Chinese text: '+p);
 assert.equal(read('README.md'),read('README.en.md'));
+for(const file of ['README.md','README.en.md','README.zh-CN.md']){
+  const block=read(file).match(/<!-- collection-stats:start -->([\s\S]*?)<!-- collection-stats:end -->/);
+  assert.ok(block,file+' missing generated statistics');
+  const derivatives=zh.items.filter(x=>isCase(x)&&x.topicTags?.includes('derivative')).length;
+  for(const number of [zh.counts.cases,zh.counts.timeline,derivatives])assert.ok(block[1].includes('**'+number.toLocaleString('en-US')+'**'),file+' has stale statistics');
+  for(const locale of ['ru','pt-BR'])assert.ok(block[1].includes('/'+locale+'/'),file+' missing locale '+locale);
+}
 for(const p of ['docs/INTEGRATIONS.md','docs/INTEGRATIONS.zh-CN.md']){
   for(const term of ['model-release','artwork-date','releaseDate','detailFrames','referenceOnly','Streamable HTTP','tools/list','resources/list'])assert.ok(read(p).includes(term),p+' missing '+term);
 }

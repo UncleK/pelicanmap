@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop,assertSafeCapturePath,assertSafeDemoPath} from './import_collection_batch.mjs';
+import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop,assertSafeCapturePath,assertSafeDemoPath,ASTRALYN_ARENA_URL} from './import_collection_batch.mjs';
 
 test('HTML-dependent animations cannot be silently reduced to static or partial SVG',()=>{
   const outerCss=Buffer.from('<style>.wheel{animation:spin 1s infinite}@keyframes spin{to{transform:rotate(360deg)}}</style><svg><g class="wheel"><circle r="20"/></g></svg>');
@@ -17,6 +17,16 @@ const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/s
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
+test('Arena iframe intake is restricted to the reviewed full Astralyn document',()=>{
+  const sourceUrl='https://linux.do/t/topic/3056564/14';
+  const c={...sample(),sourceUrl,model:'Kibitz',format:'animation',evidence:[sourceUrl,ASTRALYN_ARENA_URL],media:[{
+    url:ASTRALYN_ARENA_URL,filename:'preview.png',browserCapture:{capturePath:'pelican-archive/research/test/frame.png',sha256:'a'.repeat(64),
+    sourceHtmlSha256:'2a36167ebd487b29e1466c52df54f37ef1249cbc26290ce4ebea0a77a49895fe'}}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const mutate of [x=>x.media[0].url+='&other=1',x=>x.sourceUrl+='0',x=>x.model='Kimi',x=>x.media[0].browserCapture.sourceHtmlSha256='b'.repeat(64),x=>delete x.media[0].browserCapture]){
+    const bad=structuredClone(c);mutate(bad);assert.throws(()=>validateCandidate(bad));
+  }
+});
 
 test('OpenPaths intake is limited to the three reviewed original animations',()=>{
   const sourceUrl='https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison';

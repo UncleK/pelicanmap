@@ -2,7 +2,23 @@
   "roger-rabbit-1988-75a07f88": {
     "sourceUrl": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
     "fields": {
-      "recordRepair": {"date":"2026-10-02","reason":"Direct user request: feature the preserved historical film on the homepage and enrich bilingual presentation without overwriting original record fields or claiming it caused the AI prompt.","preservedOriginalId":"roger-rabbit-1988","originalTitle":"practical+animation","originalNotes":"《谁陷害了兔子罗杰》里已有鹈鹕骑真实自行车。轮子灌水配配重。","filmYear":1988,"sourcePublicationDate":"2026-09-18","nonAiHistoricalContext":true,"mediaSha256":"e668016b5b07dfcbbccefa16093dfa4a3c3354c4e3b5b48d691ba6d2f2e1281d","evidence":["https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/","https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit","https://andreasdeja.blogspot.com/2016/02/roger-rabbit-scenes.html","https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/"]}
+      "recordRepair": {
+        "date": "2026-10-02",
+        "reason": "Direct user request: feature the preserved historical film on the homepage and enrich bilingual presentation without overwriting original record fields or claiming it caused the AI prompt.",
+        "preservedOriginalId": "roger-rabbit-1988",
+        "originalTitle": "practical+animation",
+        "originalNotes": "《谁陷害了兔子罗杰》里已有鹈鹕骑真实自行车。轮子灌水配配重。",
+        "filmYear": 1988,
+        "sourcePublicationDate": "2026-09-18",
+        "nonAiHistoricalContext": true,
+        "mediaSha256": "e668016b5b07dfcbbccefa16093dfa4a3c3354c4e3b5b48d691ba6d2f2e1281d",
+        "evidence": [
+          "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+          "https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit",
+          "https://andreasdeja.blogspot.com/2016/02/roger-rabbit-scenes.html",
+          "https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/"
+        ]
+      }
     }
   },
   "elo-june-2025-3ea5a875": {
@@ -149,6 +165,71 @@
         "preservedOriginalId": "elo-june-2025",
         "originalMediaCount": 1,
         "staticIllustrationSlides": 14
+      }
+    }
+  },
+  "x-fourier-engine-pelican-bicycle-2026-10-21": {
+    "sourceUrl": "https://x.com/scottstts/status/2112887280796881220",
+    "fields": {
+      "media": [
+        {
+          "src": "/media/collected/2026-10-22-derivative-display-repair/fourier-pelican-original-packets.mp4",
+          "source": "https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29",
+          "sha256": "2b18080c5942fc5bc47b3163dabd5027fd6919304036dfb89b1f62d1249464d2",
+          "poster": "/media/collected/2026-10-22-derivative-display-repair/fourier-pelican-poster.jpg",
+          "posterProvenance": {
+            "kind": "original-video-frame",
+            "source": "https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29",
+            "sourceSha256": "2b18080c5942fc5bc47b3163dabd5027fd6919304036dfb89b1f62d1249464d2",
+            "frameTime": 37.07,
+            "sha256": "b573a5fdd2b753892bb92f3c39955f78e6c1be8b82d8d79082925b262126e491"
+          },
+          "caption": "原片鹈鹕绘制段，原音视频数据包完整复制；完整评测另附",
+          "captionEn": "Pelican drawing segment, with unchanged original video/audio packets; full recording attached",
+          "extraction": {
+            "kind": "reviewed-video-segment",
+            "sourceSha256": "bfcc29e354b0eeced0a7969657b6a849bbc8b46942a6a2fb72b570fc266c4946",
+            "start": 62.928333,
+            "method": "ffmpeg-stream-copy-reviewed-keyframe",
+            "sourceVideoFrames": 6433,
+            "selectedVideoFrames": 3137,
+            "packetVerification": "all selected original encoded video/audio packets and relative PTS/DTS match"
+          }
+        },
+        {
+          "src": "/media/collected/2026-10-22-derivative-recovery/x-fourier-engine-pelican-bicycle-2026-10-21.mp4",
+          "source": "https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29",
+          "sha256": "bfcc29e354b0eeced0a7969657b6a849bbc8b46942a6a2fb72b570fc266c4946",
+          "posterProvenance": {
+            "kind": "original-video-frame",
+            "source": "https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29",
+            "sourceSha256": "bfcc29e354b0eeced0a7969657b6a849bbc8b46942a6a2fb72b570fc266c4946",
+            "frameTime": 100,
+            "sha256": "99ee070b228020bd4fc812c1f2ffcc9d78cfd95d5377ad98484d76b4818cb5d0"
+          },
+          "caption": "完整原始录屏；封面为原片真实帧",
+          "captionEn": "Complete original recording; cover is a real source-video frame",
+          "poster": "/media/collected/2026-10-22-derivative-recovery/x-fourier-engine-pelican-bicycle-2026-10-21-poster.jpg",
+          "detailOnly": true
+        }
+      ],
+      "thumbnail": "/media/collected/2026-10-22-derivative-display-repair/fourier-pelican-poster.jpg",
+      "notes": "Scott 让 Opus 构建持续绘制三维模型的傅里叶引擎，鹈鹕单车是从零生成的示例。 封面取第 100 秒真实鹈鹕画面，完整录屏包括另一个角色演示，均完整留存；其它角色不计鹈鹕作品。 完整原录屏及出处保留；模型标注按来源，未独立认证。完整源码未公开，不列站内可玩演示。 主播放器直接展示原片的鹈鹕绘制段（从约 62.93 秒原始关键帧开始），完整原录屏折叠附后。分段未重编码，原画面、可变帧时序与音轨数据包保持。",
+      "i18n": {
+        "en": {
+          "title": "A cyclist built with a 3D Fourier engine",
+          "model": "Claude Opus 5.5",
+          "notes": "Scott explicitly asked Opus 5.5 to build a 3D Fourier drawing engine. This pelican cyclist was created from scratch. Its real frame at 100 seconds is the cover; the complete recording also includes a different character reconstructed from an existing model, which is not another pelican work. Model attribution is source-reported and unverified. Full recording and source are retained; unpublished code is not mirrored and no onsite Play demo is offered. The primary player starts with the actual pelican drawing segment, from the original keyframe at about 62.93 seconds. The complete recording remains attached. Original encoded video/audio packets and variable frame timing are unchanged.",
+          "rights": "Rights remain with the creator. Attribution, original post and full media are preserved. No open-source permission is claimed or unpublished source code mirrored.",
+          "promptStatus": "Now this is so cool! I asked opus 5.5 to build a 3D Fourier drawing engine to continuously create 3d models, including the Demon Girl reconstructed from existing model and pelican riding bicycle created from scratch",
+          "promptCategory": "Source-documented test"
+        }
+      },
+      "recordRepair": {
+        "batch": "2026-10-22-derivative-collection",
+        "reason": "Show the pelican portion before other demonstrations; retain full original recording.",
+        "sourceSha256": "bfcc29e354b0eeced0a7969657b6a849bbc8b46942a6a2fb72b570fc266c4946",
+        "segmentSha256": "2b18080c5942fc5bc47b3163dabd5027fd6919304036dfb89b1f62d1249464d2"
       }
     }
   }

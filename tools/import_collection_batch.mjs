@@ -7,13 +7,24 @@ import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
 import {validateHlsSpec,assembleReviewedHls} from './reviewed_hls.mjs';
+import {validateVideoSegment,readReviewedVideoSegment} from './reviewed_video_segment.mjs';
+import {validateVideoCrop,readReviewedVideoCrop,cropPath} from './reviewed_video_crop.mjs';
+import {validateVideoPanel,readReviewedVideoPanel} from './reviewed_video_panel.mjs';
+import {validateReviewedSourceAsset,readReviewedSourceAsset} from './reviewed_source_assets.mjs';
 
 export const ROOT = path.resolve(import.meta.dirname, '..');
 const require = createRequire(import.meta.url);
 const sharp = require('sharp');
-const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org','works.pelicanbenchmark.com','openpaths.io']);
+const hosts = new Set(['static.simonwillison.net','raw.githubusercontent.com','gist.githubusercontent.com','gist.github.com','github.com','nezhar.com','peterc.org','huggingface.co','pbs.twimg.com','video.twimg.com','v.redd.it','i.redd.it','preview.redd.it','hardprompts.ai','cdn3.ldstatic.com','blog.nawaz.org','works.pelicanbenchmark.com','openpaths.io','cdn.techgogogo.com']);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+export const ASTRALYN_ARENA_URL='https://01a1616c-62e6-719e-b37c-ed1ade0adf95.arena.site/?embed=true';
+const ASTRALYN_ARENA_SHA='2a36167ebd487b29e1466c52df54f37ef1249cbc26290ce4ebea0a77a49895fe';
+hosts.add(new URL(ASTRALYN_ARENA_URL).hostname);
 const localized = value => typeof value === 'string' ? {zh:value,en:value} : value;
+const reviewedLocalOriginals=new Map([
+ ['https://video.twimg.com/amplify_video/2112494190831771648/vid/avc1/3840x2160/D82dqbn5meYPfaM7.mp4?tag=29','code3d'],
+ ['https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29','fourier-engine']
+]);
 
 export function safeName(name) {
   if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*\.(?:svg|png|jpe?g|webp|gif|mp4|webm|mp3|m4a|wav|ogg|flac)$/i.test(name)) throw Error('Unsafe asset filename');
@@ -153,6 +164,16 @@ export function validateCandidate(c) {
   if (!c.evidence?.length || c.evidence.some(x=>!x.startsWith('https://'))) throw Error('Missing source-check evidence');
   for (const m of c.media) {
     safeName(m.filename);
+    if(m.reviewedLocalOriginal){
+      const name=reviewedLocalOriginals.get(m.url);
+      if(!name || c.media[0]!==m || !/^[a-f0-9]{64}$/.test(m.sha256||'') ||
+         m.reviewedLocalOriginal!==`pelican-archive/research/2026-10-22-recent-discovery/${name}-original.mp4` ||
+         !c.evidence.includes(m.url))throw Error('Local original requires the exact previously downloaded public source');
+      cropPath(ROOT,m.reviewedLocalOriginal);
+    }
+    if(m.reviewedVideoSegment || new URL(m.url).hostname==='cdn.techgogogo.com')validateVideoSegment(c,m,ROOT);
+    if(m.reviewedVideoCrop)validateVideoCrop(c,m,ROOT);
+    if(m.reviewedVideoPanel)validateVideoPanel(c,m,ROOT);
     if(m.crop){
       const {left,top,width,height}=m.crop;
       if(![left,top,width,height].every(Number.isInteger) || left<0 || top<0 || width<10 || height<10 ||
@@ -164,6 +185,12 @@ export function validateCandidate(c) {
     if(m.hls)validateHlsSpec(m,c.evidence);
     if(m.browserCapture){
       const bc=m.browserCapture;
+      if(bc.outputSelector!==undefined){
+        const expected={'DeepSeek V4.1 Flash 1017':'#pbA-scene','Kimi K3.1 Pro':'#pbB-scene'};
+        if(c.sourceUrl!=='https://wallabytoken.com/blog/p/pelican-bicycle' || m.url!==c.sourceUrl ||
+           bc.sourceHtmlSha256!=='2ec787b76f881470c85496f524b613a38374a456665f929891db34c6abb10ebd' ||
+           bc.outputSelector!==expected[c.model])throw Error('Browser output selector requires the exact reviewed article/model module');
+      }
       assertSafeCapturePath(bc.capturePath);
       if(!/^[a-f0-9]{64}$/.test(bc.sha256||''))throw Error('browserCapture requires frame sha256');
       if(!/^[a-f0-9]{64}$/.test(bc.sourceHtmlSha256||''))throw Error('browserCapture requires sourceHtmlSha256');
@@ -171,7 +198,14 @@ export function validateCandidate(c) {
       if(!c.evidence.includes(m.url))throw Error('browserCapture source URL must be included in evidence');
       if(bc.demoPath!==undefined)assertSafeDemoPath(bc.demoPath);
     }
-    if (!hosts.has(new URL(m.url).hostname) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
+    if(new URL(m.url).hostname===new URL(ASTRALYN_ARENA_URL).hostname &&
+      (m.url!==ASTRALYN_ARENA_URL || c.sourceUrl!=='https://linux.do/t/topic/3056564/14' ||
+       c.model!=='Kibitz' || c.format!=='animation' || !m.browserCapture ||
+       m.browserCapture.sourceHtmlSha256!==ASTRALYN_ARENA_SHA ||
+       !c.evidence.includes(c.sourceUrl) || !c.evidence.includes(m.url)))
+      throw Error('Arena intake requires the exact reviewed Astralyn document and source mapping');
+    const reviewedSource=validateReviewedSourceAsset(c,m);
+    if ((!hosts.has(new URL(m.url).hostname) && !reviewedSource) || !m.url.startsWith('https://')) throw Error('Unreviewed media host');
     if(new URL(m.url).hostname==='openpaths.io' &&
       (c.sourceUrl!=='https://openpaths.io/blog/pelican-bicycle-animated-svg-model-comparison' ||
        !/^https:\/\/openpaths\.io\/static\/blog\/pelican-svg\/(?:gpt55-none|gpt55-xhigh|gemini35)\.svg$/.test(m.url) ||
@@ -235,11 +269,39 @@ export function canonicalUrl(url) {
   return u.href.replace(/\/$/,'');
 }
 
+function reviewedBrowserOutputSelector(sourceUrl,model,sourceSha256){
+  if(sourceUrl!=='https://wallabytoken.com/blog/p/pelican-bicycle' ||
+     sourceSha256!=='2ec787b76f881470c85496f524b613a38374a456665f929891db34c6abb10ebd')return '';
+  return {'DeepSeek V4.1 Flash 1017':'#pbA-scene','Kimi K3.1 Pro':'#pbB-scene'}[model] || '';
+}
+
 export function duplicateOf(c, assets, existing) {
   const sameAsset=(a,m)=>{
+    if(a.extraction?.kind==='reviewed-video-panel' || m.extraction?.kind==='reviewed-video-panel') {
+      if(a.sha256 && a.sha256===m.sha256)return true;
+      const ae=a.extraction,me=m.extraction;
+      return !!(ae?.kind==='reviewed-video-panel' && me?.kind==='reviewed-video-panel' &&
+        ae.sourceSha256===me.sourceSha256 && ae.startFrame===me.startFrame && ae.endFrame===me.endFrame &&
+        ['left','top','width','height'].every(k=>ae.box[k]===me.box[k]));
+    }
+    if(a.extraction?.kind==='reviewed-video-crop' || m.extraction?.kind==='reviewed-video-crop') {
+      if(a.sha256 && m.sha256 && a.sha256===m.sha256)return true;
+      const ac=a.extraction?.kind==='reviewed-video-crop'?a.extraction:null;
+      const mc=m.extraction?.kind==='reviewed-video-crop'?m.extraction:null;
+      return !!(ac && mc && ac.sourceSha256===mc.sourceSha256 &&
+        ['left','top','width','height'].every(k=>ac.box[k]===mc.box[k]));
+    }
+    if(a.extraction?.kind==='reviewed-video-segment' || m.extraction?.kind==='reviewed-video-segment') {
+      if(a.sha256 && m.sha256 && a.sha256===m.sha256)return true;
+      const sa=a.extraction?.kind==='reviewed-video-segment'?a.extraction:null;
+      const sm=m.extraction?.kind==='reviewed-video-segment'?m.extraction:null;
+      if(sa && sm)return sa.sourceSha256===sm.sourceSha256 && sa.start===sm.start && sa.end===sm.end;
+      return false;
+    }
     if(a.extraction?.kind==='browser-rendered-frame' || m.extraction?.kind==='browser-rendered-frame') {
       if(a.extraction?.kind==='browser-rendered-frame' && m.extraction?.kind==='browser-rendered-frame') {
-        return a.extraction.sourceSha256.toLowerCase() === m.extraction.sourceSha256.toLowerCase();
+        return a.extraction.sourceSha256.toLowerCase() === m.extraction.sourceSha256.toLowerCase() &&
+          (a.extraction.outputSelector || '') === (m.extraction.outputSelector || '');
       }
       const aHtml = a.extraction?.kind==='browser-rendered-frame' ? a.extraction.sourceSha256.toLowerCase() : null;
       const mHtml = m.extraction?.kind==='browser-rendered-frame' ? m.extraction.sourceSha256.toLowerCase() : null;
@@ -273,15 +335,24 @@ export function duplicateOf(c, assets, existing) {
     return '';
   };
   const candidateHtmlSha = getCandidateHtmlSha();
+  const candidateSelector=assets.find(a=>a.extraction?.kind==='browser-rendered-frame')?.extraction?.outputSelector ||
+    c.media?.find(a=>a.browserCapture)?.browserCapture?.outputSelector ||
+    reviewedBrowserOutputSelector(c.sourceUrl,c.model,candidateHtmlSha);
 
   for (const x of existing) {
     if (x.id===c.id) return x.id;
+    const segments=assets.filter(a=>a.extraction?.kind==='reviewed-video-segment');
+    if(segments.length && !(x.media || []).some(m=>m.extraction) &&
+      segments.every(a=>(x.media || []).some(m=>m.sha256===a.extraction.sourceSha256)))return x.id;
     if (candidateHtmlSha) {
       const existingHtmlSha = (x.frameProvenance?.sourceHtmlSha256 ||
         (x.media || []).find(m => m.extraction?.kind === 'browser-rendered-frame')?.extraction?.sourceSha256 ||
         (x.media || []).find(m => m.sha256?.toLowerCase() === candidateHtmlSha)?.sha256 ||
         '').toLowerCase();
-      if (existingHtmlSha && existingHtmlSha === candidateHtmlSha) {
+      const existingSelector=x.frameProvenance?.outputSelector ||
+        (x.media || []).find(m=>m.extraction?.kind==='browser-rendered-frame')?.extraction?.outputSelector ||
+        reviewedBrowserOutputSelector(x.sourceUrl,x.model,existingHtmlSha);
+      if (existingHtmlSha && existingHtmlSha === candidateHtmlSha && existingSelector===candidateSelector) {
         return x.id;
       }
     }
@@ -301,7 +372,7 @@ export function makeRecord(c, assets, updated) {
     originalLevel:c.variant || '',promptCategory:c.promptCategory || 'classic',promptStatus:c.prompt || '来源未完整提供逐条提示词，请查看原始链接',dateBasis:c.dateBasis || 'source-publication',
     mediaStatus:'local',mediaNote:'',media,thumbnail:assets[0].poster || assets[0].src,demoUrl:'',externalUrl:c.externalUrl || '',sourceCodeUrl:c.sourceCodeUrl || '',
     path:recordPath,url:'https://pelicanmap.aveniqa.com'+recordPath,markdown:recordPath+'index.md',updated,rights:rights.zh,
-    i18n:{en:{title:title.en,model:c.modelEn || c.model,notes:notes.en,rights:rights.en,promptStatus:c.prompt || 'The source does not provide the complete per-run prompt; see the original link',promptCategory:'Source-documented test'}},
+    i18n:{en:{title:title.en,model:c.modelEn || c.model,...(c.authorEn?{author:c.authorEn}:{}),notes:notes.en,rights:rights.en,promptStatus:c.prompt || 'The source does not provide the complete per-run prompt; see the original link',promptCategory:'Source-documented test'}},
     ingestion:{sourceChecked:true,imagesChecked:true,sourceVerification:'source-checked',evidence:c.evidence},
     unitType:c.unitType,reviewedModelNames:[c.model],modelClaimStatus:'source-reported-not-independently-authenticated',generationMethod:c.generationMethod,codeGenerationEvidence:c.codeGenerationEvidence,
     ...(c.datePrecision?{datePrecision:c.datePrecision}:{}),...(c.generationConditions?{generationConditions:c.generationConditions}:{}),
@@ -311,6 +382,7 @@ export function makeRecord(c, assets, updated) {
     ...(assets[0].extraction?.kind==='browser-rendered-frame'?{frameProvenance:{
       sourceHtml:assets[0].source,
       sourceHtmlSha256:assets[0].extraction.sourceSha256,
+      ...(assets[0].extraction.outputSelector?{outputSelector:assets[0].extraction.outputSelector}:{}),
       frameSha256:assets[0].extraction.frameSha256,
       viewport:assets[0].extraction.viewport,
       method:assets[0].extraction.method}}:{}),
@@ -347,11 +419,15 @@ async function download(url) {
 }
 async function downloadOriginal(url) {
   if (!hosts.has(new URL(url).hostname)) throw Error('Unreviewed download host');
-  const r=await fetch(url,{headers:{'User-Agent':'PelicanMap-Collector/1.0'},signal:AbortSignal.timeout(60000)});
+  const headers={'User-Agent':'PelicanMap-Collector/1.0'};
+  // Arena serves the complete artwork only to an iframe navigation.
+  if(url===ASTRALYN_ARENA_URL)headers['Sec-Fetch-Dest']='iframe';
+  const r=await fetch(url,{headers,signal:AbortSignal.timeout(60000)});
   if(!r.ok)throw Error('Media HTTP '+r.status+' '+url+([401,403,429].includes(r.status)?' — use the authorized signed-in Chrome public read-only fallback; do not bypass challenges or execute upstream code':''));
-  if(Number(r.headers.get('content-length'))>100*1024*1024)throw Error('Oversize media');
+  const maximum=url==='https://video.twimg.com/amplify_video/2112886407135973376/vid/avc1/3442x2160/NsMV2F-S1fj4iz1W.mp4?tag=29' ? 150*1024*1024 : 100*1024*1024;
+  if(Number(r.headers.get('content-length'))>maximum)throw Error('Oversize media');
   const bytes=Buffer.from(await r.arrayBuffer());
-  if(bytes.length<100 || bytes.length>100*1024*1024)throw Error('Invalid media size');
+  if(bytes.length<100 || bytes.length>maximum)throw Error('Invalid media size');
   return bytes;
 }
 
@@ -368,10 +444,10 @@ export async function faithfulCrop(original, specification){
   return {bytes:output,pixelSha256:digest(pixels),box:[left,top,left+width,top+height]};
 }
 
-async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
+export async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
   if(m.browserCapture){
     const {capturePath,sha256:captureSha256,sourceHtmlSha256,viewport,method,demoPath}=m.browserCapture;
-    const htmlBytes=await download(m.url);
+    const htmlBytes=m.reviewedSourceAsset ? await readReviewedSourceAsset(m,ROOT) : await download(m.url);
     if(digest(htmlBytes)!==sourceHtmlSha256.toLowerCase())throw Error('browserCapture source HTML hash mismatch');
     const resolvedCapturePath=assertSafeCapturePath(capturePath);
     const frameBytes=await fs.readFile(resolvedCapturePath);
@@ -396,6 +472,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
       viewport:viewport || {width:1280,height:800},
       method:method || 'headless-chrome-screenshot'
     };
+    if(m.browserCapture.outputSelector)extraction.outputSelector=m.browserCapture.outputSelector;
     return {
       src:relativeDir+'/'+m.filename,
       source:m.url,
@@ -406,9 +483,12 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
     };
   }
   const hls=m.hls ? await assembleReviewedHls(m,evidence,path.join(mediaDir,m.filename+'-hls')) : null;
-  const original=hls ? hls.bytes : await download(m.url);
+  const original=hls ? hls.bytes : m.reviewedSourceAsset ? await readReviewedSourceAsset(m,ROOT) : m.reviewedLocalOriginal ? await fs.readFile(await fs.realpath(cropPath(ROOT,m.reviewedLocalOriginal))) : await download(m.url);
+  const segment=m.reviewedVideoSegment ? await readReviewedVideoSegment(m,original,ROOT) : null;
+  const videoCrop=m.reviewedVideoCrop ? await readReviewedVideoCrop(m,original,ROOT) : null;
+  const videoPanel=m.reviewedVideoPanel ? await readReviewedVideoPanel(m,original,ROOT) : null;
   const crop=m.crop ? await faithfulCrop(original,m) : null;
-  const bytes=crop ? crop.bytes : m.svgFromHardPrompts ? extractHardPromptsSvg(original,m.sourceModel,m.sourceRun) : m.svgFromTranscript ? extractTranscriptSvg(original,{...m,allowAnimation:format==='animation'}) : original,sha256=digest(bytes);
+  const bytes=videoPanel ? videoPanel.bytes : videoCrop ? videoCrop.bytes : segment ? segment.bytes : crop ? crop.bytes : m.svgFromHardPrompts ? extractHardPromptsSvg(original,m.sourceModel,m.sourceRun) : m.svgFromTranscript ? extractTranscriptSvg(original,{...m,allowAnimation:format==='animation'}) : original,sha256=digest(bytes);
   if(m.sha256 && sha256!==m.sha256.toLowerCase())throw Error('Source hash mismatch');
   const file=path.join(mediaDir,safeName(m.filename));
   const ext=path.extname(file).toLowerCase();
@@ -438,10 +518,19 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
       const ffmpeg=process.env.PELICAN_FFMPEG || 'ffmpeg';
       // A reviewed frame overrides an upstream blank opening poster. Never
       // overwrite an original or an earlier poster when rerunning a batch.
-      try{await fs.access(posterFile);throw Error('Refusing to replace existing poster');}catch(e){if(e.code!=='ENOENT')throw e;}
       const frameTime=m.frameTime ?? Math.min(1,Number(info.format.duration)/2);
-      const result=spawnSync(ffmpeg,['-v','error','-n','-ss',String(frameTime),'-i',file,'-frames:v','1','-vf','scale=960:-1',posterFile],{encoding:'utf8',windowsHide:true});
-      if(result.status!==0)throw Error('Poster extraction failed '+result.stderr);
+      const result=spawnSync(ffmpeg,['-v','error','-nostdin','-ss',String(frameTime),'-i',file,'-frames:v','1','-vf','scale=960:-1','-f','image2pipe','-vcodec','mjpeg','-'],{windowsHide:true,maxBuffer:20*1024*1024});
+      if(result.status!==0)throw Error('Poster extraction failed '+result.stderr?.toString());
+      // Shared originals can appear as attachments to several outputs. Verify
+      // an existing poster against the same source frame; never overwrite it.
+      try{
+        const existing=await fs.readFile(posterFile);
+        if(!existing.equals(result.stdout)){
+          const a=await sharp(existing).raw().toBuffer({resolveWithObject:true});
+          const b=await sharp(result.stdout).raw().toBuffer({resolveWithObject:true});
+          if(JSON.stringify(a.info)!==JSON.stringify(b.info) || !a.data.equals(b.data))throw Error('Existing poster differs from the reviewed source frame');
+        }
+      }catch(e){if(e.code!=='ENOENT')throw e;await writeOriginal(posterFile,result.stdout);}
       posterProvenance={kind:'original-video-frame',source:m.url,sourceSha256:sha256,frameTime};
     }
     const metadata=await sharp(posterFile).metadata();
@@ -473,7 +562,7 @@ async function archiveAsset(m,mediaDir,relativeDir,format,evidence) {
     if(!meta.width || !meta.height || meta.width<10 || meta.height<10 || stats.channels.every(x=>x.stdev<0.5))throw Error('Blank or invalid image');
     await writeOriginal(file,bytes);
   }
-  const extraction=crop?{kind:'faithful-crop',sourceSha256:digest(original),box:crop.box,pixelSha256:crop.pixelSha256}:hls ? {...hls.extraction,sources:hls.extraction.sources.map(x=>({...x,src:relativeDir+'/'+m.filename+'-hls/'+x.filename}))} : m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
+  const extraction=videoPanel ? videoPanel.extraction : videoCrop ? videoCrop.extraction : segment ? segment.extraction : crop?{kind:'faithful-crop',sourceSha256:digest(original),box:crop.box,pixelSha256:crop.pixelSha256}:hls ? {...hls.extraction,sources:hls.extraction.sources.map(x=>({...x,src:relativeDir+'/'+m.filename+'-hls/'+x.filename}))} : m.svgFromHardPrompts?{kind:'source-html-code',sourceSha256:digest(original),model:m.sourceModel,run:m.sourceRun}:m.svgFromTranscript?{kind:'transcript-response',sourceSha256:digest(original),responseIndex:m.responseIndex ?? 'last',svgIndex:m.svgIndex ?? 0}:null;
   return {src:relativeDir+'/'+m.filename,source:m.url,sha256,poster,bytes:bytes.length,...(posterProvenance?{posterProvenance}:{}),...(extraction?{extraction}:{})};
 }
 

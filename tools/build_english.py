@@ -22,6 +22,7 @@ from experiment_batches import apply_batches, group_records, batch_pages
 from card_metadata import card_footer
 from model_chronology import timeline_year
 from case_policy import is_case, in_timeline, relationship_html
+from localization import artwork_year_range
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema
 from editorial_content import listing_notes, HOME_COPY, home_social, website_schema
@@ -60,11 +61,12 @@ def link(url,text,cls=''):
 def local(path): return '/en'+path
 
 def card(x):
+    from case_policy import derivative_label
     if not is_case(x) and not x.get('referenceOnly') and not x.get('interactive'):
         return '<article class="callout source-archive-link">'+link(x['path'],x['title']+' · source archive')+'</article>'
     image=cover_media(x) if x['thumbnail'] else '<div class="media-note"><strong>'+('Source deleted' if x['mediaStatus']=='source-deleted' else 'Text record')+'</strong><span>Read the context and original source</span></div>'
     note=x['notes'] or x['author'] or 'Explore the work, prompt category and original source.'
-    return f'<article class="card specimen-card"><a class="card-cover" href="{x["path"]}" aria-label="{E(x["title"])}">{image}<span class="media-label">{x["formatLabel"]}</span><span class="source-label" title="{E(x["sourceLabel"])}">{E(x["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="Work description"><h3>{link(x["path"],x["title"])}</h3><p class="note">{E(note)}</p></div>{card_footer(x,"en")}</article>'
+    return f'<article class="card specimen-card"><a class="card-cover" href="{x["path"]}" aria-label="{E(x["title"])}">{image}<span class="media-label">{x["formatLabel"]}</span><span class="source-label" title="{E(x["sourceLabel"])}">{E(x["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="Work description"><h3>{link(x["path"],x["title"])}</h3>{derivative_label(x,"en")}<p class="note">{E(note)}</p></div>{card_footer(x,"en")}</article>'
 
 def cards(items):return ''.join(card(x) for x in items)
 
@@ -77,7 +79,7 @@ def page(path,title,desc,body,nav='',schema=None,noindex=False):
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''), 'en')
     en=local(path); canonical=BASE+en
-    navitems=[('/','Home'),('/timeline/','Timeline'),('/specimens/','Collection'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
+    navitems=[('/','Home'),('/timeline/','Timeline'),('/specimens/','Collection'),('/derivatives/','Derivative works'),('/play/','Play'),('/tags/benchmark/','Benchmarks'),('/sources/','Sources')]
     navigation=''.join(f'<a href="{local(p)}"'+(' aria-current="page"' if p==nav else '')+f'>{label}</a>' for p,label in navitems)
     schema=schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':desc,'url':canonical,'inLanguage':'en','isPartOf':website_schema(),'dateModified':UPDATED}
     if BUILD_CACHE:
@@ -124,7 +126,9 @@ def detail(x,items):
             PAGES.append(x['path'])
             return
     x = historical_display(x,'en')
+    from case_policy import derivative_label
     body='<div class="page-top"><div class="breadcrumb"><a href="/en/">Home</a> / <a href="/en/specimens/">Collection</a> / Record</div>'+f'<div class="eyebrow">{E(x["sourceLabel"])} · {E(x["date"])}</div><h1>{E(x["title"])}</h1></div>'
+    body += derivative_label(x,'en')
     if x.get('batch'):
         body += '<p class="batch-parent">Part of: '+link(x['batch']['path'], x['batch']['title']+' · '+str(x['batch']['total'])+' samples →')+'</p>'
     body += benchmark_record_details(x,'en')
@@ -213,7 +217,7 @@ def build_editorial(items,byid,data):
     page('/sources/','Sources & repositories','Original repositories, runnable demos and the story behind Simon Willison’s pelican bicycle experiment.',render(data,[x for x in items if not x.get('referenceOnly')],'en'),nav='/sources/')
     body=top('An archive that agents can read','Public, read-only and source-attributed. The same records power the website and data exports.','DATA & AGENTS')+f'''<article class="prose"><h2>Download & cite</h2><p><a href="/en/data/catalog.json">English JSON</a> · <a href="/en/data/catalog.csv">English CSV</a> · <a href="/en/llms.txt">Agent guide</a> · <a href="/openapi.json">OpenAPI</a></p><p>Catalog version {CATALOG_VERSION}, compiled {UPDATED}. Website, exports and public API use the same reviewed catalog.</p>{sections_html(scope_sections(COUNTS,'en'))}<h2>Read-only HTTP API</h2><pre>GET /api/v1/specimens?q=Gemini&amp;lang=en&amp;limit=10
 GET /api/v1/specimens/{{id}}?lang=en
-GET /api/v1/timeline?family=Gemini&amp;sort=oldest&amp;lang=en&amp;limit=20</pre>{sections_html(agent_sections('en'))}<h2>Connect with MCP</h2><p>Add this Streamable HTTP server to a compatible MCP client:</p><pre>{BASE}/mcp</pre><p>search_specimens, get_specimen and get_timeline support lang: zh/en and the same filtering and pagination as HTTP. No login is required.</p></article>'''
+GET /api/v1/timeline?family=Gemini&amp;sort=oldest&amp;lang=en&amp;limit=20</pre>{sections_html(agent_sections('en'))}<h2>Connect with MCP</h2><p>Add this Streamable HTTP server to a compatible MCP client:</p><pre>{BASE}/mcp</pre><p>search_specimens, get_specimen and get_timeline support lang: zh/en/ru/pt-BR and the same filtering and pagination as HTTP. No login is required.</p></article>'''
     from ingestion_docs import section
     body+=section(True)
     page('/developers/','Data & agent access','JSON, CSV, Markdown, a read-only HTTP API and MCP tools for exploring the archive with attribution.',body)
@@ -239,12 +243,12 @@ def build():
     items=apply_batches(items,'en')
     catalog['items']=items
     catalog.update(language='en',benchmarkUrl='/en/tags/benchmark/')
-    catalog['countingNote']='counts.cases counts independent outputs, including settings separately; counts.timeline counts timeline representatives, not an additional set of works. caseVisible=false source/context archives and referenceOnly scoring references do not enter main lists, counts, numbering or default API. timelineVisible controls the timeline; kind retains historical source classification. Raw items preserves original archives and is not a case count.'
+    catalog['countingNote']='counts.cases counts independent outputs, including settings separately; counts.timeline counts all counted classic works, not an additional set of works. caseVisible=false source/context archives and referenceOnly scoring references do not enter main lists, counts, numbering or default API. timelineVisible controls the timeline; kind retains historical source classification. Raw items preserves original archives and is not a case count.'
     jdump(OUT/'en/data/catalog.json',catalog);jdump(ROOT/'site/catalog.en.json',catalog)
     dump(OUT/'en/data/catalog.csv',csv_text(items))
     byid={x['originalId']:x for x in items}
-    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>One pelican.</span><span class="hero-second">Endless <em>possibilities.</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{E(HOME_COPY['en']['question'])}</p><p class="intro">{E(HOME_COPY['en']['description'])}</p><div class="actions"><a class="button" href="/en/timeline/">Timeline <span>↗</span></a><a class="button secondary" href="/en/specimens/">All works <span>→</span></a></div><p class="small">An evolving archive · Source-reported models, not independently authenticated</p></div>{historical_hero(items,'en')}</section>
-<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong>{COUNTS["timeline"]}</strong><span>timeline representatives · a subset</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
+    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / {artwork_year_range(items)}</span></div><h1 class="hero-title"><span>One pelican.</span><span class="hero-second">Endless <em>possibilities.</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{E(HOME_COPY['en']['question'])}</p><p class="intro">{E(HOME_COPY['en']['description'])}</p><div class="actions"><a class="button" href="/en/timeline/">Timeline <span>↗</span></a><a class="button secondary" href="/en/specimens/">All works <span>→</span></a></div><p class="small">An evolving archive · Source-reported models, not independently authenticated</p></div>{historical_hero(items,'en')}</section>
+<div class="stats-strip"><div><strong data-stat="cases" data-total-records data-total-cases>{COUNTS['cases']}</strong><span>independent works · settings included</span></div><div><strong data-stat="timeline">{COUNTS["timeline"]}</strong><span>classic timeline works · all settings</span></div><div><strong data-stat="sourceIndex">{COUNTS["sourceIndex"]}</strong><span>Simon sources · not artworks</span></div><div><strong data-stat="benchmarkCollections">{COUNTS["benchmarkCollections"]}</strong><span>Benchmark collections · separate</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
     topics=[('origins','01 / THE BEGINNING','Why a pelican on a bicycle?','Start with the original repository and a very specific question.'),('beyond-svg','02 / ACROSS MEDIA','Explorations beyond SVG','Animation, 3D and interactions with their generation conditions preserved.'),('reading-the-test','03 / A CLOSER LOOK','What can one image tell us?','Read the conditions behind each comparison.')]
     body+='<section class="section"><div class="section-head"><div class="eyebrow">FIELD NOTES</div><h2>Bring a question</h2></div><div class="topics">'+''.join(f'<a class="topic" href="/en/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>Read the field note →</span></a>' for slug,ey,title,desc in topics)+'</div></section><section class="quote-band"><h2>Keep the beautiful.<br>Keep the failures, too.</h2><div><p>Preserving the model, date, media and source makes it possible to observe how one question is understood, reinterpreted and changed.</p><p><a href="/en/about/">About the archive →</a></p></div></section>'
     schema=home_schema('AI-generated pelicans riding bicycles','en')
@@ -256,6 +260,13 @@ def build():
         title='The collection' if n==0 else f'The collection · Page {n+1}'
         body=top(title,'')+listing(items,'/en/specimens/','',card,'en',number=n+1,archive_link=True)
         page(path,title,'Search AI pelican bicycle works by model, creator, format and source.',body,nav='/specimens/',noindex=n>=math.ceil(COUNTS['cases']/24))
+    from case_policy import is_derivative
+    derivatives=[x for x in items if is_case(x) and is_derivative(x)]
+    for n in range(max(1, math.ceil(len(derivatives)/24))):
+        path='/derivatives/' if n==0 else f'/derivatives/page/{n+1}/'
+        title='Derivative works' if n==0 else f'Derivative works · Page {n+1}'
+        body=top(title,'')+listing(derivatives,'/en/derivatives/','derivative',card,'en',number=n+1)
+        page(path,title,'Code-generated variations on the pelican bicycle prompt, including towers and recursive scenes, with originals and sources.',body,nav='/derivatives/')
     timeline=[x for x in items if in_timeline(x)];years=sorted({timeline_year(x) for x in timeline if timeline_year(x)!='unknown'},reverse=True)
     archived_years={x['date'][:4] for x in items if re.match(r'^\d{4}',x['date'])}
     for year in [None]+sorted(set(years)|legacy_years(OUT,'en')|archived_years|{'unknown'},reverse=True):
@@ -266,7 +277,7 @@ def build():
             body=top('Timeline'+(' · '+active_year if active_year else ''),'','CHRONOLOGY')
             if active_year and active_year not in years:body+='<p class="callout">No source-labelled single-model representatives for this year. Historical context remains in <a href="/en/collections/source-records/">source archives</a>, not artwork totals.</p>'
             body+=listing(timeline,'/en'+base,'timeline',timeline_card,'en',number=n+1,year=active_year,years=sorted(set(years)|({active_year} if active_year else set()),reverse=True))
-            page(base+(f'page/{n+1}/' if n else ''),'Pelican bicycle timeline'+(' · '+active_year if active_year else ''),'Single-model representatives on a shared version axis. Missing release evidence uses the earliest source-work month as a provisional position; cards keep original artwork dates.',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
+            page(base+(f'page/{n+1}/' if n else ''),'Pelican bicycle timeline'+(' · '+active_year if active_year else ''),'All counted classic works and settings on a shared version axis; derivatives are listed separately. Missing release evidence uses the earliest source-work month as a provisional position; cards keep original artwork dates.',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
     for batch, batch_body in batch_pages(items,'en'):
         page(batch['path'][3:],batch['title'],batch['description'],batch_body,nav='/specimens/')
     if BUILD_CACHE:BUILD_CACHE.prepare_details(items,'en')
@@ -294,7 +305,8 @@ def build():
     for p in sorted(list(candidates)):
         if p.relative_to(OUT).parts[0] in {'en','media','assets'}:continue
         soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');canonical=soup.select_one('link[rel=canonical]')['href'];path=canonical.removeprefix(BASE)
-        for tag in soup.select('link[hreflang], a[data-language]'):tag.decompose()
+        for tag in soup.select('link[hreflang], .language-menu, a[data-language]'):
+            if tag.parent is not None:tag.decompose()
         for lang,url in [('zh-CN',canonical),('en',BASE+local(path)),('x-default',canonical)]:soup.head.append(soup.new_tag('link',rel='alternate',hreflang=lang,href=url))
         switch=soup.new_tag('a',href=local(path),hreflang='en',lang='en',attrs={'class':'language-switch','data-language':'','aria-label':'Switch to English'});switch.string='EN';soup.select_one('.nav').append(switch)
         dump(p,str(soup))

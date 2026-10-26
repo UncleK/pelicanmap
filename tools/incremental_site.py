@@ -12,7 +12,7 @@ from content_cache import cached_hashes, identity, save_json, sha256_file
 
 ROOT = Path(__file__).resolve().parents[1]
 CURRENT = None
-RENDER_MODULES = ('build_public_site', 'build_english', 'incremental_site', 'editorial_content',
+RENDER_MODULES = ('build_public_site', 'build_english', 'incremental_site', 'localization', 'editorial_content',
     'detail_presentation', 'case_policy', 'collection_views', 'card_metadata', 'model_chronology',
     'experiment_batches', 'benchmark_reference', 'historical_context', 'thumbnail_overrides',
     'record_overrides', 'detail_frames', 'source_layout', 'catalog_policy', 'generation_scope', 'motion_restorations')
@@ -208,6 +208,8 @@ def collection_version(items):
 
 def build(date=None, *, items=None, prepare=True):
     global CURRENT
+    from localization import write_runtime
+    write_runtime()
     import build_public_site as zh
     import build_english as en
     from detail_presentation import motion_kind
@@ -222,6 +224,8 @@ def build(date=None, *, items=None, prepare=True):
         try:
             zh.build(items=items, prepare=prepare)
             en.build()
+            from localization import build as build_locales
+            build_locales(zh.OUT,cache)
             cache.save()
             return {'status': 'built', 'generation': cache.stats, 'hashing': hashes.stats}
         finally:

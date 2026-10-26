@@ -51,8 +51,8 @@ def listing(items, base, scope, card, language='zh', number=1, year='', years=No
     controls = controls.replace(' 条记录 · ', ' 个案例 · ').replace(' records · ', ' cases · ')
     if scope=='timeline':
         controls=controls.replace('<label>'+t('年份','Year')+'<select', '<label>'+t('模型发布年份','Model release year')+'<select')
-        controls=controls.replace('<input type="hidden" name="sort"', '<input type="hidden" name="collapse" value=""><input type="hidden" name="sort"')
-        controls+='<div class="timeline-options"><span>'+t('按型号月份排列 · 同月优先展示最新作品','By model month · latest works first within each month')+'</span><label><input type="checkbox" data-model-collapse> '+t('折叠相同型号','Fold identical model versions')+'</label></div>'
+        controls=controls.replace('<input type="hidden" name="sort"', '<input type="hidden" name="collapse" value="1"><input type="hidden" name="sort"')
+        controls+='<div class="timeline-options"><span>'+t('按型号月份排列 · 同月优先展示最新作品','By model month · latest works first within each month')+'</span><label><input type="checkbox" data-model-collapse checked> '+t('折叠相同型号','Fold identical model versions')+'</label></div>'
     families=sorted({f for x in items for f in x.get('modelFamilies',[])})
     family_control='<label>'+t('模型家族','Model family')+'<select name="family"><option value="">'+t('全部家族','All families')+'</option>'+''.join('<option value="'+e(f)+'">'+e(f)+'</option>' for f in families)+'</select></label>'
     controls=controls.replace('<input type="hidden" name="sort"',family_control+'<input type="hidden" name="sort"')

@@ -8836,5 +8836,622 @@
       "https://pelicanbenchmark.com/"
     ],
     "fields": {}
+  },
+  "x-moblacksoil-deepseek-v41-flash-1017-whale-animation-2026-10-17": {
+    "sourceUrl": "https://x.com/Moblacksoil/status/2111398754725355584",
+    "role": "context",
+    "reason": "Withdrawn at the maintainer's direct request on 2026-10-17 because the subject is a whale rather than a pelican. Preserve the stable ID, source and original media as an uncounted archive; do not re-admit this work.",
+    "evidence": [
+      "https://x.com/Moblacksoil/status/2111398754725355584",
+      "https://video.twimg.com/amplify_video/2111398372364177408/vid/avc1/1204x802/JQSVs4AmJXXfOTA9.mp4?tag=29"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "kind": "context",
+      "task": "non_pelican_source_archive",
+      "notes": "按维护者 2026-10-17 的要求撤出作品馆：主体为鲸鱼，不是鹈鹕。原帖、作者标注及完整原始录屏仅作为来源档案保留，不计作品或时间线，不进入默认搜索。原作者标注 DeepSeek-V4.1-Flash-1017、SVG 2D 动画；模型与生成条件未独立认证，完整源码未公开。",
+      "i18n": {
+        "en": {
+          "title": "DeepSeek V4.1 Flash 1017 · Whale on wheels",
+          "model": "DeepSeek V4.1 Flash 1017",
+          "author": "Moblacksoil (@Moblacksoil)",
+          "notes": "Withdrawn from the artwork collection at the maintainer's request on 2026-10-17: the subject is a whale, not a pelican. The original post, attribution and complete recording remain as a source archive only, excluded from artwork counts, the timeline and default search. The author labels the output DeepSeek-V4.1-Flash-1017 and SVG 2D animation; model and generation conditions are unverified, and complete source is not public.",
+          "rights": "Code-animation recording publicly posted by 墨无归 (@Moblacksoil). Attribution, source and the complete original video are retained. No explicit open-source license was found or claimed. Unpublished source is neither mirrored nor executed.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    }
+  },
+  "x-deepseek-flirting-pelican-bicycle-2026-10-21": {
+    "sourceUrl": "https://x.com/badboy999654/status/2112967105062842491",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/badboy999654/status/2112967105062842491",
+      "https://video.twimg.com/amplify_video/2112967055918194688/vid/avc1/1280x576/A2kXI1tWbq7BHVv2.mp4?tag=29"
+    ],
+    "fields": {}
+  },
+  "x-sol-tibo-pelican-bicycle-2026-10-21": {
+    "sourceUrl": "https://x.com/David_Web3Tradf/status/2112803386806739219",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/David_Web3Tradf/status/2112803386806739219",
+      "https://video.twimg.com/amplify_video/2112802094835195904/vid/avc1/1080x720/DMC5gnTLPYCRwmxi.mp4?tag=14"
+    ],
+    "fields": {}
+  },
+  "x-sakeroux-deepseek-1017-opencode-direct-classic-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-opencode-direct-reverse-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-workbuddy-direct-classic-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-workbuddy-direct-reverse-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-opencode-dsh-classic-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-opencode-dsh-reverse-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-workbuddy-dsh-classic-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-sakeroux-deepseek-1017-workbuddy-dsh-reverse-2026-10-20": {
+    "sourceUrl": "https://x.com/sakeroux/status/2112473098201284875",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/sakeroux/status/2112473098201284875",
+      "https://video.twimg.com/amplify_video/2112472766100520960/vid/avc1/1280x720/I7rrItn3X_wK41PE.mp4?tag=14"
+    ],
+    "fields": {
+      "comparisonType": "prompt-and-settings"
+    }
+  },
+  "x-agentspace-deepseek-v41-flash-stacked-pelican-2026-10-21": {
+    "sourceUrl": "https://x.com/AgentSpaceAI/status/2113012455894868375",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/AgentSpaceAI/status/2113012455894868375",
+      "https://video.twimg.com/amplify_video/2112853138575441920/vid/avc1/1080x1080/Ng_uZHpg7GqggdIY.mp4?tag=29",
+      "https://agent.space/"
+    ],
+    "fields": {}
+  },
+  "x-agentspace-opus-55-stacked-pelican-2026-10-21": {
+    "sourceUrl": "https://x.com/AgentSpaceAI/status/2113012455894868375",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Reviewed derivative prompt or tool/routing comparison. Preserve each independent output without selecting an unsupported classic timeline representative.",
+    "evidence": [
+      "https://x.com/AgentSpaceAI/status/2113012455894868375",
+      "https://video.twimg.com/amplify_video/2112853138575441920/vid/avc1/1080x1080/Ng_uZHpg7GqggdIY.mp4?tag=29",
+      "https://agent.space/"
+    ],
+    "fields": {}
+  },
+  "x-chetaslua-kimi-k3-1-pro-recursive-pelican-2026-10-23": {
+    "sourceUrl": "https://x.com/chetaslua/status/2113503273361777086",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Explicit derivative prompt or anonymous model comparison; no unsupported timeline representative selected.",
+    "evidence": [
+      "https://x.com/chetaslua/status/2113503273361777086",
+      "https://x.com/chetaslua/status/2113506019276128490",
+      "https://x.com/chetaslua/status/2113513957189362046",
+      "https://x.com/dummerspast39/status/2111577334436319355",
+      "https://video.twimg.com/amplify_video/2113502609416036352/vid/avc1/848x480/BgL8fXrUzL96hdQz.mp4?tag=29"
+    ],
+    "fields": {}
+  },
+  "x-chetaslua-claude-fable-5-5-recursive-pelican-2026-10-23": {
+    "sourceUrl": "https://x.com/chetaslua/status/2113503273361777086",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Explicit derivative prompt or anonymous model comparison; no unsupported timeline representative selected.",
+    "evidence": [
+      "https://x.com/chetaslua/status/2113503273361777086",
+      "https://x.com/chetaslua/status/2113506019276128490",
+      "https://x.com/chetaslua/status/2113513957189362046",
+      "https://x.com/dummerspast39/status/2111577334436319355",
+      "https://video.twimg.com/amplify_video/2113502609416036352/vid/avc1/848x480/BgL8fXrUzL96hdQz.mp4?tag=29"
+    ],
+    "fields": {}
+  },
+  "x-synopsis-kibitz-pastel-pelican-2026-10-22": {
+    "sourceUrl": "https://x.com/abhinavflac/status/2113218148837257546",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Explicit derivative prompt or anonymous model comparison; no unsupported timeline representative selected.",
+    "evidence": [
+      "https://x.com/abhinavflac/status/2113218148837257546",
+      "https://x.com/abhinavflac/status/2113252287141527566",
+      "https://x.com/abhinavflac/status/2113457936081338533",
+      "https://x.com/abhinavflac/status/2113495742728011840",
+      "https://video.twimg.com/amplify_video/2113218040074850304/vid/avc1/1080x1208/PJn2hSECRUcsA9M9.mp4?tag=29"
+    ],
+    "fields": {}
+  },
+  "x-synopsis-kalmia-pastel-pelican-2026-10-22": {
+    "sourceUrl": "https://x.com/abhinavflac/status/2113218148837257546",
+    "role": "case",
+    "timelineVisible": false,
+    "reason": "Explicit derivative prompt or anonymous model comparison; no unsupported timeline representative selected.",
+    "evidence": [
+      "https://x.com/abhinavflac/status/2113218148837257546",
+      "https://x.com/abhinavflac/status/2113252287141527566",
+      "https://x.com/abhinavflac/status/2113457936081338533",
+      "https://x.com/abhinavflac/status/2113495742728011840",
+      "https://video.twimg.com/amplify_video/2113218040074850304/vid/avc1/1080x1208/PJn2hSECRUcsA9M9.mp4?tag=29"
+    ],
+    "fields": {}
+  },
+  "tokrace-minimax-m3-1-flash-pelican-default-2026-10-20": {
+    "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+    "role": "case",
+    "reason": "Documented independent request; no author-selected representative or medium is established.",
+    "evidence": [
+      "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-default.svg",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-default.png"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "modelRunGroup": "tokrace-minimax-static-20261020-21-2026-10-20"
+    }
+  },
+  "tokrace-minimax-m3-1-flash-pelican-low-2026-10-20": {
+    "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+    "role": "case",
+    "reason": "Documented independent request; no author-selected representative or medium is established.",
+    "evidence": [
+      "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-low.svg",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-low.png"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "modelRunGroup": "tokrace-minimax-static-20261020-21-2026-10-20"
+    }
+  },
+  "tokrace-minimax-m3-1-flash-pelican-max-2026-10-21": {
+    "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+    "role": "case",
+    "reason": "Documented independent request; no author-selected representative or medium is established.",
+    "evidence": [
+      "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-max-1/assets/pelican-max.svg",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-max-1/assets/pelican-max.png"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "modelRunGroup": "tokrace-minimax-static-20261020-21-2026-10-21"
+    }
+  },
+  "tokrace-minimax-m3-1-flash-pelican-animation-low-2026-10-21": {
+    "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+    "role": "case",
+    "reason": "Documented independent request; no author-selected representative or medium is established.",
+    "evidence": [
+      "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.webp",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.svg",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.png"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "modelRunGroup": "tokrace-minimax-animation-20261020-21-2026-10-21"
+    }
+  },
+  "tokrace-minimax-m3-1-flash-pelican-animation-max-2026-10-21": {
+    "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+    "role": "case",
+    "reason": "Documented independent request; no author-selected representative or medium is established.",
+    "evidence": [
+      "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.webp",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.svg",
+      "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.png"
+    ],
+    "timelineVisible": false,
+    "fields": {
+      "modelRunGroup": "tokrace-minimax-animation-20261020-21-2026-10-21"
+    }
+  },
+  "simon-kimi-k3-1-pro-low-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md"
+    ],
+    "timelineVisible": false
+  },
+  "simon-kimi-k3-1-pro-high-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md"
+    ],
+    "timelineVisible": false
+  },
+  "simon-kimi-k3-1-pro-max-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md"
+    ],
+    "timelineVisible": false
+  },
+  "simon-kimi-k3-low-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/eba9a4283c9e94cbbb5325902a3921a8/raw/282e408c852755d6381960767e149d2ac9c5558b/k3.md"
+    ],
+    "timelineVisible": false
+  },
+  "simon-kimi-k3-high-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/eba9a4283c9e94cbbb5325902a3921a8/raw/282e408c852755d6381960767e149d2ac9c5558b/k3.md"
+    ],
+    "timelineVisible": false
+  },
+  "simon-kimi-k3-max-2026-10-23": {
+    "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "role": "case",
+    "reason": "No documented author default or actual medium response; preserve Low/High/Max labels without choosing a best output.",
+    "evidence": [
+      "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "https://gist.githubusercontent.com/simonw/eba9a4283c9e94cbbb5325902a3921a8/raw/282e408c852755d6381960767e149d2ac9c5558b/k3.md"
+    ],
+    "timelineVisible": false
+  },
+  "x-aidad-kimi-k3-1-pro-standard-2026-10-24": {
+    "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+    "role": "case",
+    "reason": "Two documented modes, no explicit author representative.",
+    "evidence": [
+      "https://x.com/zstmfhy/status/2113804589174862231",
+      "https://zovk7ign5ex5m.ok.kimi.link/",
+      "https://video.twimg.com/amplify_video/2113800251136237568/vid/avc1/1672x1080/B6Z9WZfGOF1zRRaC.mp4?tag=29"
+    ],
+    "timelineVisible": false
+  },
+  "x-aidad-kimi-k3-1-pro-max-2026-10-24": {
+    "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+    "role": "case",
+    "reason": "Two documented modes, no explicit author representative.",
+    "evidence": [
+      "https://x.com/zstmfhy/status/2113804589174862231",
+      "https://b5gk72ljl55nc.ok.kimi.link/",
+      "https://video.twimg.com/amplify_video/2113800257574506496/vid/avc1/1804x1080/RwHlKG0DAPs6Oj90.mp4?tag=29"
+    ],
+    "timelineVisible": false
+  },
+  "x-inmerson-gemini4-carbon-paris-2026-10-25": {
+    "sourceUrl": "https://x.com/Inmerson/status/2114276034527056089",
+    "role": "case",
+    "evidence": [
+      "https://x.com/Inmerson/status/2114276034527056089"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "完整 119 秒 SVG 场景录屏；保留作者引用的 Ramin 巴黎图片作为输入线索。Leo 的帖子使用同一媒体，已合并。 有“SVG Movie”的公开说明；完整应用原码、生成过程和原输入对应关系仍需补核，不把输入图片算 AI 作品。 型号按来源标注，未独立认证。 分类说明：巴黎叙事长片，按用户本次指定归为衍生；完整单次提示词仍未知。",
+      "i18n": {
+        "en": {
+          "title": "Le Pélican de Paris SVG movie",
+          "model": "Gemini 4 Carbon",
+          "notes": "The author describes this as a Gemini 4 Carbon SVG movie. Complete 119-second recording retained. Leo reposts the same media and is not a second output; the referenced Paris photo is an input, not an output. Full source and per-run prompt unavailable. Model labels are source-reported and not independently authenticated. Classification: Paris narrative movie, classified as derivative at the user’s explicit request; the complete per-run prompt remains unavailable.",
+          "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained. No explicit open-source permission was found or claimed.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. Paris narrative movie, classified as derivative at the user’s explicit request; the complete per-run prompt remains unavailable.",
+    "timelineVisible": false
+  },
+  "reddit-blaind0-pelicans-day-opus55-2026-09-24": {
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wp95p9/the_pelicans_day_i_asked_claude_code_for_an/",
+    "role": "case",
+    "evidence": [
+      "https://www.reddit.com/r/ClaudeCode/comments/1wp95p9/the_pelicans_day_i_asked_claude_code_for_an/"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "作者把“高保真鹈鹕骑车”场景继续扩展为海边鹈鹕的一天，并称使用 Opus 5.5、经过几轮提示词调整、生成约 7,000 行 Python。公开视频展示程序生成的 3D 场景；模型、流程和代码规模为作者标注，未独立认证。归档静音原始视频轨，原帖另有音频；未找到源代码及明确镜像许可，不把视频作为可玩演示。 网站使用 Reddit 原始 720p 视频轨，1080p 原轨也在本地存档。 分类说明：作者明确从骑车扩展为海边鹈鹕的一天，属于叙事衍生。",
+      "i18n": {
+        "en": {
+          "title": "Opus 5.5 · From cycling to a pelican's day",
+          "model": "Claude Opus 5.5 (author-reported)",
+          "notes": "The author extends a high-fidelity cycling-pelican scene into a day at the beach, reporting Opus 5.5, several prompt refinements and roughly 7,000 Python lines. The public recording shows a procedurally generated 3D scene; the model, workflow and code size are author-reported, not independently authenticated. The archived original video track is silent; the source also has audio. No code or explicit mirroring license was found, and this is not classified as playable. The website uses Reddit’s original 720p track; the 1080p track is also retained locally. Classification: The creator explicitly expanded cycling into a pelican’s day by the sea: a narrative derivative.",
+          "rights": "Video rights remain with the original author; attribution and source are retained. No public code or mirroring license was found, so no executable project is mirrored.",
+          "promptStatus": "原帖仅提及最初的“Create a high fidelity scene of pelican riding a bicycle”及后续音频细化，没有完整公开扩展过程的逐轮提示词。 / The post mentions the initial high-fidelity cycling-pelican instruction and later audio refinement, but does not publish all extension prompts.",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. The creator explicitly expanded cycling into a pelican’s day by the sea: a narrative derivative.",
+    "timelineVisible": false
+  },
+  "x-finiyang-kimi-k3-1-pro-mechanical-2026-10-23": {
+    "sourceUrl": "https://x.com/FiniYang/status/2113689317545795727",
+    "role": "case",
+    "evidence": [
+      "https://x.com/FiniYang/status/2113689317545795727"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "作者回复公开完整提示词，明确要求完整 HTML 与内联 SVG/CSS/JS；原片完整保留。未公开完整原 HTML，BOOST 要求不等于已核可玩演示。 型号按来源标注，未独立认证。 分类说明：公开题面要求喷射加速和竞速机制，按扩展任务归为衍生；不是因为机械画风。",
+      "i18n": {
+        "en": {
+          "title": "Mechanical pelican racing",
+          "model": "Kimi K3.1 Pro",
+          "notes": "The author’s replies publish the complete prompt requiring one HTML with inline SVG/CSS/JS. Complete original recording retained. A mechanical style is still the original pelican-cycling task; source HTML is not public, and the requested boost is not a verified playable demo. Model labels are source-reported and not independently authenticated. Classification: The published prompt adds jet/BOOST racing mechanics: an expanded task, rather than a classification based on mechanical styling.",
+          "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained. No explicit open-source permission was found or claimed.",
+          "promptStatus": "请直接制作一个酷炫机甲版「鹈鹕骑自行车」的可运行视觉作品。用一个完整HTML交付，主体由你原创绘制的内联SVG构成，CSS/JS全部内联，不使用外部图片、视频、字体或库。若支持预览请直接展示。不要给方案、教程或伪代码。\n\n主角必须一眼认出是鹈鹕：长而厚的鸟喙、明显下喙喉囊、鸟类头颈与身躯比例；同时是设计精密的未来机甲。陶瓷白与深枪灰装甲，少量橙红警示涂装，青蓝发光反应炉，外露液压关节、线缆和分层金属羽片；鸟喙像航空器整流罩，半透明喉囊里有发光能量核心。不要把它画成普通机器人戴鸟头。\n\n鹈鹕以低伏竞速姿态骑一辆未来自行车，两个机械脚踩踏板，两翼末端抓住车把。自行车必须有清晰且合理的前后轮、车架、前叉、把手、曲柄、踏板、齿盘和链条。画面用侧面略带3/4的追拍构图，鹈鹕和自行车占据绝大部分面积。背景是深色未来高架赛道，地面反光、远处建筑视差、少量速度线与轮胎火星，强调速度和重量感，别让光效盖住主体。\n\n这是一个用来测试模型绘图和动作一致性的作品：踩踏要持续自然，左右曲柄相差180度，脚始终贴着对应踏板，膝关节随之弯曲；车轮旋转、辐条、曲柄和链条的运动方向一致；身体有小幅悬挂起伏，装甲羽片和线缆有惯性。不能仅让整只鸟上下晃动来冒充骑车。提供正常骑行的无缝动画循环，另设一个小小的 BOOST 按钮或空格键，触发约2秒的反应炉点亮、加速、喷口尾焰和速度线增强，结束后自然回到骑行。\n\n画面要像值得截图发推的机甲设定艺术，有明确剪影、装甲层次、金属高光、环境光和接触阴影，不要emoji、素材拼贴、简笔画或满屏发光圆圈。屏幕除很小的「PELICAN // OVERDRIVE」和BOOST外不需要说明文字或网页导航。自适应16:9横屏，打开立即有完整画面和动作。优先保证主体造型、脚踏联动和首轮运行成功，控制代码规模。",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. The published prompt adds jet/BOOST racing mechanics: an expanded task, rather than a classification based on mechanical styling.",
+    "timelineVisible": false
+  },
+  "x-fofr-gemini4-argon-fourier-3d-animation-2026-10-13": {
+    "sourceUrl": "https://x.com/fofrAI/status/2110043023954284889",
+    "role": "case",
+    "evidence": [
+      "https://x.com/fofrAI/status/2110043023954284889"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "fofr 的傅里叶本轮动画：从少量旋转圆逐步描出骑车鹈鹕，随后显示踩踏运动，并旋转视角揭示三维构形。原帖标注由 Argon 制作视频、由 Argon 提示 Lyria 3.5 生成时间同步配乐；型号及方法按作者描述记录，未独立认证。保留完整约 60 秒、1920×1080、60 fps 原视频与音轨，不裁切、不补画、不新增运动。公开于 UTC 2026-10-13 16:20:34（北京时间 10 月 14 日 00:20:34）；作品日期采用原帖 UTC 公开日，生成日未知。作者在回复中给出采用参考图风格、逐步揭示傅里叶图形并同步配乐的通用提示，具体鹈鹕 Prompt、参考图与源码未完整公开。画面中的 N、节点数和误差是原作展示信息，不作独立评分或生成次数证明；无站内可操作演示。 分类说明：分阶段绘制揭示与同步配乐的演出任务，归为衍生；不是因为采用三维或傅里叶算法。",
+      "i18n": {
+        "en": {
+          "title": "Gemini 4 Argon · 3D pelican cycling with Fourier epicycles",
+          "model": "Gemini 4 Argon",
+          "notes": "fofr’s Fourier epicycle animation progressively reconstructs a cycling pelican from rotating circles, animates pedalling, then rotates the view to reveal the 3D construction. The original post credits Argon with making the video and prompting time-synced Lyria 3.5 music; model and process labels are source-reported and unverified. The complete approximately 60-second, 1920×1080, 60 fps original video and audio are preserved without cropping, redrawing or added motion. Published at 2026-10-13 16:20:34 UTC (14 October at 00:20:34 in Beijing); the artwork date uses the original post’s UTC publication day, and generation date is unknown. The author’s reply links a generic starting prompt for a slow Fourier reveal styled after a reference image with synchronized music. The exact pelican prompt, reference image and source code are not fully public. Displayed N, node counts and error values are part of the original presentation, not independently verified scores or generation counts. No playable on-site demo is claimed. Classification: A staged drawing-reveal performance with synchronized music is classified as derivative; neither 3D nor the Fourier implementation alone determines the category.",
+          "rights": "The work belongs to fofr. Original post attribution and the Argon / Lyria 3.5 credits are retained. No open licence is stated, and unpublished source code is not mirrored.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. A staged drawing-reveal performance with synchronized music is classified as derivative; neither 3D nor the Fourier implementation alone determines the category.",
+    "timelineVisible": false
+  },
+  "x-fourier-engine-pelican-bicycle-2026-10-21": {
+    "sourceUrl": "https://x.com/scottstts/status/2112887280796881220",
+    "role": "case",
+    "evidence": [
+      "https://x.com/scottstts/status/2112887280796881220"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "Scott 让 Opus 构建持续绘制三维模型的傅里叶引擎，鹈鹕单车是从零生成的示例。 封面取第 100 秒真实鹈鹕画面，完整录屏包括另一个角色演示，均完整留存；其它角色不计鹈鹕作品。 完整原录屏及出处保留；模型标注按来源，未独立认证。完整源码未公开，不列站内可玩演示。 主播放器直接展示原片的鹈鹕绘制段（从约 62.93 秒原始关键帧开始），完整原录屏折叠附后。分段未重编码，原画面、可变帧时序与音轨数据包保持。 分类说明：用于演示持续绘制三维模型引擎的扩展任务，归为衍生；不是因为采用傅里叶算法。",
+      "i18n": {
+        "en": {
+          "title": "A cyclist built with a 3D Fourier engine",
+          "model": "Claude Opus 5.5",
+          "notes": "Scott explicitly asked Opus 5.5 to build a 3D Fourier drawing engine. This pelican cyclist was created from scratch. Its real frame at 100 seconds is the cover; the complete recording also includes a different character reconstructed from an existing model, which is not another pelican work. Model attribution is source-reported and unverified. Full recording and source are retained; unpublished code is not mirrored and no onsite Play demo is offered. The primary player starts with the actual pelican drawing segment, from the original keyframe at about 62.93 seconds. The complete recording remains attached. Original encoded video/audio packets and variable frame timing are unchanged. Classification: The work demonstrates an ongoing 3D-model drawing engine, an expanded task; the Fourier implementation alone does not determine the category.",
+          "rights": "Rights remain with the creator. Attribution, original post and full media are preserved. No open-source permission is claimed or unpublished source code mirrored.",
+          "promptStatus": "Now this is so cool! I asked opus 5.5 to build a 3D Fourier drawing engine to continuously create 3d models, including the Demon Girl reconstructed from existing model and pelican riding bicycle created from scratch",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. The work demonstrates an ongoing 3D-model drawing engine, an expanded task; the Fourier implementation alone does not determine the category.",
+    "timelineVisible": false
+  },
+  "x-anxuan-opus-5-5-single-line-2026-10-14": {
+    "sourceUrl": "https://x.com/anxuanng/status/2110487420731007461",
+    "role": "case",
+    "evidence": [
+      "https://x.com/anxuanng/status/2110487420731007461"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "An Xuan 原帖明确称 Opus 5.5 以 JavaScript 在二维 Canvas 绘制每一帧，并用代码合成音乐。原片先展示点集与线条逐步形成鹈鹕单车，再抬升、旋转并踩踏呈现三维效果；保留完整约 43 秒 1080p、30 fps 原视频及 AAC 双声道音轨。16,384 点、Lloyd 松弛、旅行商路径、2-opt 与零交叉为作者说明或源画面显示，未独立复算。UTC 10 月 14 日 21:46:26（北京 15 日 05:46:26）公开，生成日、完整 Prompt 和迭代未知。原帖引用的 fofr 傅里叶作品已收，不重复计；这里只保存 An Xuan 自己的 43 秒作品。完整 JavaScript 未公开，不列站内可玩演示。 分类说明：从点集逐步成形再旋转骑行并配乐的分阶段演出，归为衍生；不是因为线条风格或三维技术。",
+      "i18n": {
+        "en": {
+          "title": "Opus 5.5: A Single-Line Pelican Riding in 3D",
+          "model": "Claude Opus 5.5",
+          "notes": "An Xuan explicitly credits Opus 5.5 with drawing every frame in JavaScript on a 2D canvas and synthesizing the music in code. The recording progresses from points and a single line to a pelican and bicycle, then lifts, rotates and pedals the construction in 3D. The complete approximately 43-second 1080p, 30 fps original video and AAC stereo track are retained. The 16,384 points, Lloyd relaxation, travelling-salesman tour, 2-opt and zero crossings are creator claims or displayed values, not independently recomputed. Published at 21:46:26 UTC on 14 October (05:46:26 Beijing on 15 October); generation date, full prompt and iterations are unknown. The quoted fofr Fourier work is already archived and is not counted again; this record retains An Xuan’s own 43-second work. Complete JavaScript is not public, so no playable on-site demo is claimed. Classification: A staged point-to-line reveal, rotating cycling performance and composed music is classified as derivative, rather than line styling or 3D alone.",
+          "rights": "Original public video retained in full with creator attribution and source link. No additional open-source license asserted; unpublished code is not mirrored.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. A staged point-to-line reveal, rotating cycling performance and composed music is classified as derivative, rather than line styling or 3D alone.",
+    "timelineVisible": false
+  },
+  "x-carbon-seasons-pelican-bicycle-2026-10-21": {
+    "sourceUrl": "https://x.com/hamoudi_yo/status/2112933636093919333",
+    "role": "case",
+    "evidence": [
+      "https://x.com/hamoudi_yo/status/2112933636093919333"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "Yazer_Mio 的四季 SVG 骑行，比普通循环多了场景和装扮变化；Leo 的同片转载只算这一件。 作者明确说 Arena 界面显示 Gemini 4 Argon，并声称后台为 Carbon checkpoint；实际路由未认证，必须保留这种区别。 完整原录屏及出处保留；模型标注按来源，未独立认证。完整源码未公开，不列站内可玩演示。 分类说明：四季与装扮转换是明确扩展任务，归为衍生；普通公路或湖景背景本身不改变分类。",
+      "i18n": {
+        "en": {
+          "title": "Four-season SVG cycling",
+          "model": "Gemini 4 Carbon (claimed; Arena label Gemini 4 Argon)",
+          "notes": "Yazer_Mio claims a Carbon checkpoint behind the visible Gemini 4 Argon Arena label. Actual routing is unverified. Four seasonal scenes and outfit changes belong to one output. Leo reposted the same recording and is not counted separately. Model attribution is source-reported and unverified. Full recording and source are retained; unpublished code is not mirrored and no onsite Play demo is offered. Classification: The four-season and costume transitions form an expanded task; an ordinary road or lake background alone does not change classification.",
+          "rights": "Rights remain with the creator. Attribution, original post and full media are preserved. No open-source permission is claimed or unpublished source code mirrored.",
+          "promptStatus": "Gemini 4 Carbon checkpoint in Arena under \"Gemini 4 Argon\"\n\nPelican Riding a Bike in 4 seasons SVG",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. The four-season and costume transitions form an expanded task; an ordinary road or lake background alone does not change classification.",
+    "timelineVisible": false
+  },
+  "robotwizardt-gpt-5-6-sol-pelican-ride-2026-09-30": {
+    "sourceUrl": "https://github.com/Robotwizardt/pelican-bicycle-3d-arena/tree/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/pelican-bicycle-3d-gpt-5.6-sol",
+    "role": "case",
+    "evidence": [
+      "https://github.com/Robotwizardt/pelican-bicycle-3d-arena/tree/330fc609b5f8a836a314121ad8f2130b95655dc4/pages/pelican-bicycle-3d-gpt-5.6-sol"
+    ],
+    "fields": {
+      "topicTags": [
+        "derivative"
+      ],
+      "notes": "Robotwizardt 在 Eleven Models 3D Arena 评测中提交的 GPT-5.6-Sol 纯程序化 Three.js 交互式鹈鹕骑行作品。单提示词自零生成：包含自包含本地 Three.js 脚本、潮汐骑行竞技场场景、加速压弯控制面板及音效接口。作者在代码中标注了模型降智导致几何结构未完全闭合的客观现象，本馆按出处如实记录，保留作者原始回归截图与完整 3D 页面。模型标注按来源记录，未独立认证。 分类说明：潮汐竞技场、加速压弯机制超出简单骑行动作，归为衍生；不是因为 Three.js 实现。",
+      "i18n": {
+        "en": {
+          "title": "GPT-5.6-Sol · Tidal Circuit 3D Arena",
+          "model": "GPT-5.6-Sol",
+          "notes": "A procedural Three.js interactive 3D pelican ride scene generated by GPT-5.6-Sol in Robotwizardt's Eleven Models 3D Arena. Built from a single prompt with bundled local Three.js, tidal circuit arena, acceleration and leaning controls, and sound toggles. The author noted model degradation resulting in unclosed geometry, neutrally preserved by the archive alongside the author's original regression screenshot and complete 3D page. Model attribution is source-reported and not independently authenticated. Classification: The tidal racing arena and acceleration/leaning mechanics go beyond a simple cycling action; Three.js itself does not determine classification.",
+          "rights": "Publicly shared on GitHub by creator Robotwizardt in the pelican-bicycle-3d-arena repository, complete with original prompt logs and regression screenshots. The archive preserves generated screenshot assets and page code with full attribution.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "reason": "User-directed curatorial review of expanded tasks. The tidal racing arena and acceleration/leaning mechanics go beyond a simple cycling action; Three.js itself does not determine classification.",
+    "timelineVisible": false
+  },
+  "x-xluchuan-kimi-k3-1-pro-workbuddy-still-2026-10-25": {
+    "sourceUrl": "https://x.com/xluchuan/status/2114265343283859514",
+    "role": "context",
+    "timelineVisible": false,
+    "policyVersion": "2026-10-26-user-withdrawal",
+    "reason": "User requested withdrawal if the complete source could not be found. The source post and visible public replies only supply a chat screenshot, with no public HTML/animation link. Originals remain archived.",
+    "evidence": [
+      "https://x.com/xluchuan/status/2114265343283859514"
+    ],
+    "fields": {
+      "notes": "完整作者截图显示 index.html、生成内容与模型标签；保留作者指出的左腿遮挡问题。 目前是动画页面截图；完整动画／HTML 未取得。不能把截图的播放按钮当作已恢复动态。 型号按来源标注，未独立认证。 用户于 2026-10-26 要求找不到完整源文件就撤收。本次复核原帖及可见公开回复，仅有完整聊天截图，没有可取得的 HTML／原动画；撤出作品和时间线，原帖、截图与稳定链接保留为不计数来源存档。",
+      "i18n": {
+        "en": {
+          "title": "A little ride by the sea · Author screenshot",
+          "model": "Kimi K3.1 Pro",
+          "notes": "The source screenshot visibly shows index.html generation, the Kimi-K3.1-Pro label and this specific output. Only this complete author screenshot is available; full HTML/animation were not published. Claimed tests in the screenshot are not archive tests. Model labels are source-reported and not independently authenticated. Withdrawn from counted works at the user’s request on 2026-10-26 after checking the source post and visible public replies: no downloadable complete HTML or original animation was found. The source screenshot and stable record remain as uncounted context.",
+          "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained. No explicit open-source permission was found or claimed.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    }
   }
 }

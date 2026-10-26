@@ -8,7 +8,7 @@ class HistoricalIntensiveTests(unittest.TestCase):
  def setUpClass(cls):
   cls.items=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))['items'];cls.rows=[x for x in cls.items if any(m['src'].startswith(PREFIX) for m in x['media'])]
  def test_actual_units_and_scope(self):
-  self.assertEqual(len(self.rows),44);self.assertEqual(sum(x['caseVisible'] for x in self.rows),44);self.assertEqual(sum(x['timelineVisible'] for x in self.rows),41)
+  self.assertEqual(len(self.rows),44);self.assertEqual(sum(x['caseVisible'] for x in self.rows),44);self.assertEqual(sum(x['timelineVisible'] for x in self.rows),44)
   self.assertEqual(sum(x['date'].startswith('2024') for x in self.rows),1);self.assertEqual(sum(x['date'].startswith('2025') for x in self.rows),43)
   for x in self.rows:
    self.assertEqual(x['generationMethod'],'code-generated');self.assertTrue(x['codeGenerationEvidence']);self.assertFalse(x.get('referenceOnly',False));self.assertFalse(x['demoUrl'])
@@ -17,7 +17,7 @@ class HistoricalIntensiveTests(unittest.TestCase):
   rows=[x for x in self.rows if x['id'].startswith('youngbrioche-')];self.assertEqual(len(rows),13);self.assertEqual(sum(len(x['media']) for x in rows),67)
   for x in rows:
    self.assertEqual(x['generationConditions']['workflow'],'visual-agent-iteration');self.assertEqual(len(x['media']),x['generationConditions']['iterationPreviewCount']);self.assertTrue(all(m['detailOnly'] for m in x['media'][1:]))
-   if x.get('modelRunGroup'):self.assertEqual(x['timelineVisible'],x['originalLevel']=='medium')
+   if x.get('modelRunGroup'):self.assertTrue(x['timelineVisible'])
    self.assertIn('/blob/b49f0ae9ab773910ad477d896433a0f0eee20e2b/',x['sourceCodeUrl'])
   gemini=next(x for x in rows if x['model']=='Gemini 3 Pro');self.assertIn('pelican_v10.jpg',gemini['media'][0]['src'])
  def test_original_bytes_and_faithful_crops(self):

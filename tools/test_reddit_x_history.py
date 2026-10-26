@@ -14,10 +14,14 @@ NEW=[BY[x] for x in AUDIT['added']]
 class RedditXHistoryTests(unittest.TestCase):
     def test_units_counts_and_source_boundaries(self):
         self.assertEqual(len(NEW),19)
-        self.assertEqual(sum(x['timelineVisible'] for x in NEW),13)
+        self.assertEqual(sum(x['timelineVisible'] for x in NEW),17)
+        expanded=BY['reddit-blaind0-pelicans-day-opus55-2026-09-24']
+        self.assertTrue(expanded['caseVisible'])
+        self.assertIn('derivative',expanded['topicTags'])
+        self.assertFalse(expanded['timelineVisible'])
         self.assertEqual(sum(x['date'].startswith('2025') for x in NEW),2)
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+18)
-        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+13)
+        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+12)
         self.assertEqual(sum(x['caseVisible'] for x in NEW),18)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW if x['id']!=USER_REMOVED))
         previous=json.loads((ROOT/'pelican-archive/research/2026-10-02-collapsed-search/before-catalog.json').read_text(encoding='utf8'))
@@ -60,7 +64,7 @@ class RedditXHistoryTests(unittest.TestCase):
                 for m in x['media'][1:]:
                     self.assertIsNotNone(doc.select_one('.detail-attachments:not([open]) [data-media-src="'+m['src']+'"]'))
                 if 'x-chase-' in x['id']:
-                    self.assertFalse(x['timelineVisible'])
+                    self.assertTrue(x['timelineVisible'])
                     self.assertEqual(len(x['comparisonIds']),4)
                     self.assertIn('access and prompt conditions' if prefix else '账号与题面条件对照',html)
                 if x['media'][0]['src'].endswith(('.mp4','.webm')):

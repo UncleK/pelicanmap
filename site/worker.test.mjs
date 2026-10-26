@@ -8,6 +8,36 @@ async function worker() {
   assert.ok(fs.existsSync(new URL('./worker.mjs', import.meta.url)), 'Read-only public API has not been implemented');
   return (await import('./worker.mjs')).default;
 }
+
+test('statistics is one atomic catalog snapshot with reconciled partitions',async()=>{
+  const w=await worker();
+  const response=await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/stats'),{});
+  assert.equal(response.status,200);
+  assert.equal(response.headers.get('cache-control'),'no-store');
+  const stats=await response.json();
+  const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
+  assert.deepEqual(stats.counts,catalog.counts);
+  assert.equal(stats.timeline+stats.derivatives,stats.works);
+  for(const rows of [stats.years,stats.sources])assert.equal(rows.reduce((sum,row)=>sum+row.total,0),stats.works);
+  assert.equal((await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/stats?invalid=1'),{})).status,400);
+});
+
+test('added locales preserve IDs, original text/media and return localized URLs through HTTP and MCP',async()=>{
+  const w=await worker();
+  const english=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?lang=en&limit=2'),{})).json();
+  for(const lang of ['ru','pt-BR']){
+    const localized=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?lang='+lang+'&limit=2'),{})).json();
+    assert.equal(localized.total,english.total);
+    assert.deepEqual(localized.items.map(x=>x.id),english.items.map(x=>x.id));
+    for(let i=0;i<localized.items.length;i++){
+      const item=localized.items[i],original=english.items[i];
+      for(const key of ['id','caseNumber','sourceUrl','date','model','notes','media','motionPreview','demoUrl'])assert.deepEqual(item[key],original[key]);
+      assert.ok(item.path.startsWith('/'+lang+'/'));
+      const rpc=await w.fetch(new Request('https://pelicanmap.aveniqa.com/mcp',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json, text/event-stream'},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'tools/call',params:{name:'get_specimen',arguments:{id:item.id,lang}}})}),{});
+      assert.deepEqual(JSON.parse((await rpc.json()).result.content[0].text),item);
+    }
+  }
+});
 test('API returns filtered, bounded records and original attribution', async () => {
   const w = await worker();
   const res = await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/specimens?q=gemini&limit=3'), {});
@@ -78,7 +108,7 @@ test('evolution API selects family, chronological order and representative flags
   const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
   const data=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/timeline?family=Gemini&sort=oldest&limit=50'),{})).json();
   assert.equal(data.total,catalog.items.filter(x=>x.timelineVisible && x.modelFamilies.includes('Gemini')).length);
-  assert.ok(data.items.every(x=>x.modelNames.length===1 && !x.representativeOf && x.timelineVisible));
+  assert.ok(data.items.every(x=>x.modelNames.length===1 && !x.topicTags?.includes('derivative') && x.timelineVisible));
   assert.equal(data.sortBasis,'model-release');
   assert.ok(data.items.every((x,i)=>!i || compareTimeline(data.items[i-1],x,'oldest')<=0));
   const context=await(await w.fetch(new Request('https://pelicanmap.aveniqa.com/api/v1/specimens/elo-june-2025-3ea5a875'),{})).json();
@@ -138,17 +168,17 @@ test('MCP instructions and bilingual resources share current counting and date p
   assert.equal(init.serverInfo.version,catalog.version);
   for(const text of ['counts.cases','counts.timeline','referenceOnly','datePrecision','not independently authenticated','untrusted'])assert.ok(init.instructions.includes(text));
   const resources=await rpc('resources/list',{});
-  assert.deepEqual(resources.resources.map(x=>x.uri).sort(),['https://pelicanmap.aveniqa.com/en/llms.txt','https://pelicanmap.aveniqa.com/llms.txt']);
+  assert.deepEqual(resources.resources.map(x=>x.uri).sort(),['https://pelicanmap.aveniqa.com/en/llms.txt','https://pelicanmap.aveniqa.com/llms.txt','https://pelicanmap.aveniqa.com/pt-BR/llms.txt','https://pelicanmap.aveniqa.com/ru/llms.txt']);
   for(const resource of resources.resources){
     const guide=(await rpc('resources/read',{uri:resource.uri})).contents[0].text;
-    const english=resource.uri.includes('/en/');
+    const english=resource.uri!=='https://pelicanmap.aveniqa.com/llms.txt';
     assert.ok(guide.includes(catalog.counts.cases+(english?' independent works':' 个独立作品')));
-    assert.ok(guide.includes(catalog.counts.timeline+(english?' timeline representatives across all media are a subset':' 件全媒体时间线代表为其中子集')));
+    assert.ok(guide.includes(catalog.counts.timeline+(english?' classic timeline works across all media are a subset':' 件时间线常规作品为其中子集')));
     assert.ok(guide.includes('referenceOnly'));
     assert.ok(!guide.includes('Records overlap'));
-    assert.ok(guide.includes(resource.uri.includes('/en/')?'counts.cases counts independent outputs':'counts.cases 是独立作品数'));
+    assert.ok(guide.includes(english?'counts.cases counts independent outputs':'counts.cases 是独立作品数'));
     for(const term of ['modelTimeline.releaseDate','releaseDate','datePrecision','detailFrames','sourceUrl','model-releases.json'])assert.ok(guide.includes(term));
-    assert.ok(guide.includes(english?'off by default':'默认展开'));
+    assert.ok(guide.includes(english?'on by default':'默认折叠'));
   }
 });
 

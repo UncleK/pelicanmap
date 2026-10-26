@@ -27,7 +27,8 @@ from detail_frames import apply_detail_frames
 from benchmark_reference import pages as benchmark_pages, record_details as benchmark_record_details, load as load_benchmark
 from thumbnail_overrides import apply_thumbnail_overrides
 from record_overrides import apply_record_overrides
-from case_policy import apply_case_policy, is_case, in_timeline, relationship_html
+from case_policy import apply_case_policy, is_case, in_timeline, relationship_html, is_derivative, derivative_label
+from localization import artwork_year_range
 from editorial_content import INTRO as INTROS, CATALOG_VERSION, csv_text, scope_sections, sections_html, agent_sections, agent_guide, home_schema, record_schema, openapi
 from editorial_content import listing_notes, HOME_COPY, home_social, website_schema
 from historical_context import HISTORY_ID, historical_hero, historical_markdown, historical_display
@@ -157,7 +158,7 @@ def card(item):
         label = '来源已删除' if item['mediaStatus']=='source-deleted' else '交互演示' if item['demoUrl'] else '文字记录'
         cover = f'<div class="media-note"><strong>{label}</strong><span>查看资料与原始出处</span></div>'
     note = item['notes'] or item['author'] or '查看作品、提示词分类与原始出处。'
-    return f'<article class="card specimen-card"><a class="card-cover" href="{item["path"]}" aria-label="{e(item["title"])}">{cover}<span class="media-label">{item["formatLabel"]}</span><span class="source-label" title="{e(item["sourceLabel"])}">{e(item["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="作品说明"><h3><a href="{item["path"]}">{e(item["title"])}</a></h3><p class="note">{e(note)}</p></div>{card_footer(item)}</article>'
+    return f'<article class="card specimen-card"><a class="card-cover" href="{item["path"]}" aria-label="{e(item["title"])}">{cover}<span class="media-label">{item["formatLabel"]}</span><span class="source-label" title="{e(item["sourceLabel"])}">{e(item["sourceLabel"])}</span></a><div class="card-body" tabindex="0" aria-label="作品说明"><h3><a href="{item["path"]}">{e(item["title"])}</a></h3>{derivative_label(item)}<p class="note">{e(note)}</p></div>{card_footer(item)}</article>'
 
 def cards(items):
     return ''.join(card(x) for x in items)
@@ -173,7 +174,7 @@ def page(path, title, description, body, nav='', schema=None, markdown=None, noi
     if 'data-browser data-scope=' in body or path in ['/tags/benchmark/', '/sources/']:
         body += listing_notes(COUNTS, nav.strip('/').replace('tags/', ''))
     canonical = BASE + path
-    navitems = [('/','首页'),('/timeline/','时间线'),('/specimens/','全部作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
+    navitems = [('/','首页'),('/timeline/','时间线'),('/specimens/','全部作品'),('/derivatives/','衍生作品'),('/play/','可玩演示'),('/tags/benchmark/','Benchmark'),('/sources/','资料与来源')]
     navigation = ''.join(f'<a href="{p}"'+(' aria-current="page"' if p==nav else '')+f'>{t}</a>' for p,t in navitems)
     schema = schema or {'@context':'https://schema.org','@type':'CollectionPage','name':title,'description':description,'url':canonical,'inLanguage':'zh-CN','isPartOf':website_schema(),'dateModified':UPDATED}
     if BUILD_CACHE:
@@ -219,6 +220,12 @@ def prepare_assets():
         for media in record.get('media', [])
         if media.get('sha256') and media.get('src', '').startswith('/media/collected/')
     }
+    repairs=ROOT/'site/record-overrides.json'
+    if repairs.exists():
+        reviewed_media.update(media['src'].lstrip('/')
+            for repair in json.loads(repairs.read_text(encoding='utf8')).values()
+            for media in repair.get('fields',{}).get('media',[])
+            if media.get('sha256') and media.get('src','').startswith('/media/collected/'))
     for f in (ROOT/'site/assets').iterdir():
         dest=OUT/'assets'/f.name
         if f.name in {'site.css','site.js','browse.js','motion.js'} and dest.is_file() and f.read_bytes().replace(b'\r\n',b'\n')==dest.read_bytes().replace(b'\r\n',b'\n'):
@@ -302,6 +309,7 @@ def detail(item, items):
             return
     item = historical_display(item)
     body = f'<div class="breadcrumb"><a href="/">首页</a> / <a href="/specimens/">馆藏</a> / 标本详情</div>'
+    body += derivative_label(item)
     if item.get('batch'):
         body += '<p class="batch-parent">所属实验合集：'+link(item['batch']['path'], item['batch']['title']+' · '+str(item['batch']['total'])+' 个样本 →')+'</p>'
     body = '<div class="page-top">'+body+f'<div class="eyebrow">{e(item["sourceLabel"])} · {e(item["date"])}</div><h1>{e(item["title"])}</h1></div>'
@@ -365,8 +373,8 @@ def build(items=None,prepare=True):
     jdump(ROOT/'deploy-build/removed-public-pages.json',removed_paths)
     assert len({x['id'] for x in items})==len(items)
     by_original={x['originalId']:x for x in items}
-    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / 2024—2026</span></div><h1 class="hero-title"><span>一只鹈鹕，</span><span class="hero-second">无数种<em>可能。</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{e(HOME_COPY['zh']['question'])}</p><p class="intro">{e(HOME_COPY['zh']['description'])}</p><div class="actions"><a class="button" href="/timeline/">时间线 <span>↗</span></a><a class="button secondary" href="/specimens/">全部作品 <span>→</span></a></div><p class="small">一个持续整理的资料馆 · 模型标注按来源保留，未独立认证</p></div>{historical_hero(items)}</section>
-<div class="stats-strip"><div><strong data-total-records data-total-cases>{COUNTS['cases']}</strong><span>独立作品 · 含不同档位输出</span></div><div><strong>{COUNTS["timeline"]}</strong><span>进化轴代表图 · 作品子集</span></div><div><strong>{COUNTS["sourceIndex"]}</strong><span>Simon 来源索引 · 不计作品</span></div><div><strong>{COUNTS["benchmarkCollections"]}</strong><span>Benchmark 合集 · 单列参考</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
+    body=f'''<section class="hero"><div><div class="hero-kicker"><span class="eyebrow">THE PELICAN QUESTION</span><span class="edition">VOL. 01 / {artwork_year_range(items)}</span></div><h1 class="hero-title"><span>一只鹈鹕，</span><span class="hero-second">无数种<em>可能。</em></span></h1><div class="hero-subline">A SMALL PROMPT. AN UNFOLDING STORY.</div><p class="hero-question">{e(HOME_COPY['zh']['question'])}</p><p class="intro">{e(HOME_COPY['zh']['description'])}</p><div class="actions"><a class="button" href="/timeline/">时间线 <span>↗</span></a><a class="button secondary" href="/specimens/">全部作品 <span>→</span></a></div><p class="small">一个持续整理的资料馆 · 模型标注按来源保留，未独立认证</p></div>{historical_hero(items)}</section>
+<div class="stats-strip"><div><strong data-stat="cases" data-total-records data-total-cases>{COUNTS['cases']}</strong><span>独立作品 · 含不同档位输出</span></div><div><strong data-stat="timeline">{COUNTS["timeline"]}</strong><span>时间线常规作品 · 全部档位</span></div><div><strong data-stat="sourceIndex">{COUNTS["sourceIndex"]}</strong><span>Simon 来源索引 · 不计作品</span></div><div><strong data-stat="benchmarkCollections">{COUNTS["benchmarkCollections"]}</strong><span>Benchmark 合集 · 单列参考</span></div><span class="updated">LAST UPDATED / {UPDATED}</span></div>'''
     topics=[('origins','01 / THE BEGINNING','为什么是鹈鹕骑车？','从原点仓库开始，认识这个小题目。'),('beyond-svg','02 / ACROSS MEDIA','跨介质探索','动画、三维与交互，保留各自生成条件。'),('reading-the-test','03 / A CLOSER LOOK','一张图能说明什么？','了解提示词、版本与比较的边界。')]
     body+='<section class="section"><div class="section-head"><div><div class="eyebrow">FIELD NOTES</div><h2>带着问题逛一逛</h2></div></div><div class="topics">'+''.join(f'<a class="topic" href="/collections/{slug}/"><span class="eyebrow">{ey}</span><h3>{title}</h3><p>{desc}</p><span>阅读专题 →</span></a>' for slug,ey,title,desc in topics)+'</div></section>'
     body+='<section class="quote-band"><h2>好作品值得停留，<br>失败也值得收藏。</h2><div><p>每一份记录尽量保留模型、时间、媒体与原始出处。这里的并置是一种观察：同一题目如何被理解，又如何不断被改写。</p><p><a href="/about/">了解收录方法 →</a></p></div></section>'
@@ -382,6 +390,12 @@ def build(items=None,prepare=True):
         title='全部作品' if n==0 else f'全部作品 · 第 {n+1} 页'
         body=top(title,'')+listing(items,'/specimens/','',card,number=n+1,archive_link=True)
         page(path,title,'按模型、作者、形式与来源检索鹈鹕骑车及衍生 AI 作品。',body,nav='/specimens/',noindex=n>=math.ceil(COUNTS['cases']/24))
+    derivatives=[x for x in items if is_case(x) and is_derivative(x)]
+    for n in range(max(1, math.ceil(len(derivatives)/24))):
+        path='/derivatives/' if n==0 else f'/derivatives/page/{n+1}/'
+        title='衍生作品' if n==0 else f'衍生作品 · 第 {n+1} 页'
+        body=top(title,'')+listing(derivatives,'/derivatives/','derivative',card,number=n+1)
+        page(path,title,'从鹈鹕骑车延伸的叠塔、递归与其它代码生成作品，保留原作和出处。',body,nav='/derivatives/')
     timeline=[x for x in items if in_timeline(x)]
     years=sorted({timeline_year(x) for x in timeline if timeline_year(x)!='unknown'},reverse=True)
     archived_years={x['date'][:4] for x in items if re.match(r'^\d{4}',x['date'])}
@@ -393,7 +407,7 @@ def build(items=None,prepare=True):
             body=top('时间线'+(' · '+active_year if active_year else ''),'','CHRONOLOGY')
             if active_year and active_year not in years:body+='<p class="callout">该年份没有符合单模型代表作品口径的输出。旧背景资料仍保留在 <a href="/collections/source-records/">来源存档</a>，不计作品数。</p>'
             body+=listing(timeline,base,'timeline',timeline_card,number=n+1,year=active_year,years=sorted(set(years)|({active_year} if active_year else set()),reverse=True))
-            page(base+(f'page/{n+1}/' if n else ''),'鹈鹕骑车时间线'+(' · '+active_year if active_year else ''),'按型号顺序浏览全媒体代表作品；发布日期未有依据时采用最早作品月份暂定位置，卡片保留作品真实日期。',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
+            page(base+(f'page/{n+1}/' if n else ''),'鹈鹕骑车时间线'+(' · '+active_year if active_year else ''),'按型号顺序浏览全部常规作品及各档输出；发布日期未有依据时采用最早作品月份暂定位置，卡片保留作品真实日期。',body,nav='/timeline/',noindex=bool(year and year not in years) or n>=max(1,math.ceil(len(group_records(selected))/24)))
     for batch, batch_body in batch_pages(items):
         page(batch['path'],batch['title'],batch['description'],batch_body,nav='/specimens/',markdown=batch['path']+'index.md')
         dump(OUT/(batch['path']+'index.md').lstrip('/'), '# '+batch['title']+'\n\n'+batch['description']+'\n\n原始数据集：'+batch['sourceUrl']+'\n\n'+'\n'.join('- ['+x['title']+']('+BASE+x['path']+')' for x in items if x.get('batch',{}).get('id')==batch['id'])+'\n')
@@ -492,7 +506,7 @@ def build_sources(items):
 
 
 def build_machine_data(items):
-    catalog={'version':CATALOG_VERSION,'updated':UPDATED,'site':BASE,'counts':dict(COUNTS),'countingNote':'counts.cases 是独立作品数（各档位分别计）；counts.timeline 是进化轴代表图数，与作品数不相加。caseVisible=false 的合集/转载/待核对资料和 referenceOnly 评分不进入主列表、总数、编号或默认 API。timelineVisible 控制时间线；kind 是历史来源分类。完整 items 保留旧档案及原图，不能按 items.length 计算案例数。','collectingPolicy':'/data/collecting-policy.json','benchmarkUrl':'/tags/benchmark/','benchmarkDataUrl':'/data/benchmark.json','items':items}
+    catalog={'version':CATALOG_VERSION,'updated':UPDATED,'site':BASE,'counts':dict(COUNTS),'countingNote':'counts.cases 是独立作品数（各档位分别计）；counts.timeline 是全部已收常规作品数（衍生单列），与作品数不相加。caseVisible=false 的合集/转载/待核对资料和 referenceOnly 评分不进入主列表、总数、编号或默认 API。timelineVisible 控制时间线；kind 是历史来源分类。完整 items 保留旧档案及原图，不能按 items.length 计算案例数。','collectingPolicy':'/data/collecting-policy.json','benchmarkUrl':'/tags/benchmark/','benchmarkDataUrl':'/data/benchmark.json','items':items}
     jdump(OUT/'data/collecting-policy.json',json.loads((ROOT/'site/collecting-policy.json').read_text(encoding='utf8')))
     catalog['timelineSortBasis']='model-release'
     catalog['worksSortBasis']='artwork-date'
@@ -507,14 +521,19 @@ def build_machine_data(items):
     body=top('让资料也能被程序读懂','公开、只读、带出处。与网页使用同一份目录数据。','DATA & AGENTS')
     body+=f'''<article class="prose"><h2>下载与引用</h2><p>{link('/data/catalog.json','完整 JSON')} · {link('/data/catalog.csv','CSV 目录')} · {link('/llms.txt','Agent 导读')} · {link('/openapi.json','OpenAPI 说明')}</p><p>目录版本 {CATALOG_VERSION}，更新于 {UPDATED}。网页、导出和公开 API 使用同一份审核目录。</p>{sections_html(scope_sections(COUNTS))}<h2>只读 HTTP API</h2><pre>GET /api/v1/specimens?q=Gemini&amp;format=svg&amp;limit=10
 GET /api/v1/specimens/{{id}}?lang=en
-GET /api/v1/timeline?family=Gemini&amp;sort=oldest&amp;limit=20</pre>{sections_html(agent_sections())}<h2>连接 MCP</h2><p>在支持远程 MCP 的客户端中添加 Streamable HTTP 地址：</p><pre>{BASE}/mcp</pre><p>search_specimens、get_specimen、get_timeline 三个只读工具支持 lang: zh/en，过滤和分页与 HTTP 一致，无需登录。</p></article>'''
+GET /api/v1/timeline?family=Gemini&amp;sort=oldest&amp;limit=20</pre>{sections_html(agent_sections())}<h2>连接 MCP</h2><p>在支持远程 MCP 的客户端中添加 Streamable HTTP 地址：</p><pre>{BASE}/mcp</pre><p>search_specimens、get_specimen、get_timeline 三个只读工具支持 lang: zh/en/ru/pt-BR，过滤和分页与 HTTP 一致，无需登录。</p></article>'''
     from ingestion_docs import section
     body+=section()
     page('/developers/','数据与 Agent 接入','JSON、CSV、Markdown、只读 HTTP API 与 MCP 接口，检索鹈鹕骑车馆藏并保留出处。',body,markdown='/developers/index.md')
     jdump(OUT/'openapi.json',openapi())
 
 if __name__=='__main__':
+    from localization import write_runtime
+    write_runtime()
+    ASSET_VERSION=asset_version(ROOT/'site/assets', OUT/'assets')
     build()
     import build_english
     build_english.UPDATED=UPDATED
     build_english.build()
+    from localization import build as build_locales
+    build_locales(OUT)

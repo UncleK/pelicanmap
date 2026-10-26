@@ -1,6 +1,7 @@
 const demoOrigin = 'https://pelicanmap-demos.aveniqa.com/demos/';
 export function catalogHref(english, version) {
-  const base=(english?'/en':'')+'/data/catalog.json';
+  const prefix=typeof english==='string'?({'en':'/en','ru':'/ru','pt-BR':'/pt-BR'}[english]||''):(english?'/en':'');
+  const base=prefix+'/data/catalog.json';
   return /^[a-f0-9]{20}$/.test(version||'') ? base+'?collection='+version : base;
 }
 export const isCase = x => !x.referenceOnly && x.caseVisible !== false;
@@ -59,9 +60,26 @@ export function groupModelRecords(items) {
   for(const x of items){const key=modelKey(x);if(!groups.has(key))groups.set(key,{...x,modelMembers:[]});groups.get(key).modelMembers.push(x);}
   return [...groups.values()];
 }
+export function groupRunRecords(items) {
+  const groups=new Map();
+  for(const item of items){
+    const run=item.modelRunGroup || (item.representativeOf || (item.variantIds?.length ? item.id : ''));
+    const key=run ? modelKey(item)+'\u0000'+run : 'single\u0000'+item.id;
+    if(!groups.has(key))groups.set(key,{...item,runKey:key,runMembers:[]});
+    groups.get(key).runMembers.push(item);
+  }
+  for(const group of groups.values()){
+    const rows=group.runMembers;
+    const primary=rows.find(x=>x.authorDefault===true)
+      || rows.find(x=>rows.some(other=>other.representativeOf===x.id))
+      || rows.find(x=>String(x.originalLevel).toLowerCase()==='medium') || rows[0];
+    group.runMembers=[primary,...rows.filter(x=>x!==primary)];
+  }
+  return [...groups.values()];
+}
 export function selectRecords(records, {scope = '', year = '', q = '', source = '', format = '', family = '', sort = 'newest'} = {}) {
   q = q.trim().toLowerCase();
-  let items = records.filter(x => (scope==='play' ? !x.referenceOnly : isCase(x)) && (!scope || scope === 'play' || (scope==='timeline' ? inTimeline(x) : x.kind === scope))
+  let items = records.filter(x => (scope==='play' ? !x.referenceOnly : isCase(x)) && (!scope || scope === 'play' || (scope==='timeline' ? inTimeline(x) : scope==='derivative' ? x.topicTags?.includes('derivative') : x.kind === scope))
     && (scope !== 'play' || (x.interactive === true && x.demoUrl?.startsWith(demoOrigin)))
     && (!year || (scope==='timeline'?(year==='unknown'?!x.modelTimeline?.releaseDate:timelineYear(x)===year):x.date.startsWith(year))) && (!source || x.source === source) && (!format || x.format === format)
     && (!family || x.modelFamilies?.includes(family))
@@ -167,7 +185,7 @@ function cardFooter(x, english, timeline=false) {
   return `<div class="${timeline?'timeline-meta':'card-foot'}"><span class="case-number" aria-label="${esc(number)}">${esc(number)}</span><div class="${timeline?'timeline-model':'card-models'}" tabindex="0" aria-label="${english?'Source-labelled models':'来源标注的模型'}" title="${esc(x.model)}">${models}</div>${time}</div>`;
 }
 export function renderCard(x, {view='standard', english=false, timeline=false} = {}) {
-  const t = (zh,en) => english ? en : zh;
+  const t = (zh,en) => english ? (globalThis.PelicanI18n?.text(en)||en) : zh;
   if (x.isBatch) {
     const batch=x.batch;
     const count=t(`${batch.models} 个模型标签 · ${batch.total} 个样本`,`${batch.models} model labels · ${batch.total} samples`);
@@ -186,11 +204,11 @@ export function renderCard(x, {view='standard', english=false, timeline=false} =
   if (timeline) {
     return `<article class="card timeline-card"><a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}</a>${cardFooter(x,english,true)}</article>`;
   }
-  return `<article class="card specimen-card">${cover}<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><h3><a href="${esc(x.path)}">${esc(x.title)}</a></h3><p class="note">${esc(x.notes || x.author)}</p></div>${cardFooter(x,english)}</article>`;
+  return `<article class="card specimen-card">${cover}<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><h3><a href="${esc(x.path)}">${esc(x.title)}</a></h3>${x.topicTags?.includes("derivative")?`<div class="card-meta"><a href="${english?"/en":""}/derivatives/" rel="tag">${t("衍生作品","Derivative works")}</a></div>`:""}<p class="note">${esc(x.notes || x.author)}</p></div>${cardFooter(x,english)}</article>`;
 }
 function bootBrowser(root) {
-  const english = document.documentElement.lang === 'en';
-  const t = (zh, en) => english ? en : zh;
+  const english = document.documentElement.lang !== 'zh-CN';
+  const t = (zh, en) => english ? (globalThis.PelicanI18n?.text(en)||en) : zh;
   const form = root.querySelector('[data-search]');
   const results = root.querySelector('[data-results]');
   const pager = root.querySelector('[data-pagination]');
@@ -251,7 +269,7 @@ function bootBrowser(root) {
     root.querySelectorAll('[data-family]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.family===filters.family)));
     sortButton.textContent = filters.sort === 'oldest' ? '↑ '+t('最早在前','Oldest first') : '↓ '+t('最新在前','Newest first');
     try {
-      catalogPromise ||= fetch(catalogHref(english,root.dataset.catalogVersion), {cache:'no-cache'})
+      catalogPromise ||= fetch(catalogHref(document.documentElement.lang,root.dataset.catalogVersion), {cache:'no-cache'})
         .then(r => {if (!r.ok) throw Error('catalog'); return r.json();})
         .catch(error => {catalogPromise = undefined; throw error;});
       const catalog = await catalogPromise;
@@ -273,7 +291,10 @@ function bootBrowser(root) {
             month = next;
           }
           if(folded&&item.modelMembers.length>1){
-            content+=`<div class="timeline-model-group" data-model-group="${esc(modelKey(item))}">${card(item.modelMembers[0])}<details><summary>${t(`展开同型号另外 ${item.modelMembers.length-1} 件作品`,`Show ${item.modelMembers.length-1} more works of this version`)}</summary><div class="grid">${item.modelMembers.slice(1).map(card).join('')}</div></details></div>`;
+            const runs=groupRunRecords(item.modelMembers),primary=runs[0].runMembers[0];
+            const remaining=runs.map((run,index)=>({...run,runMembers:index===0?run.runMembers.slice(1):run.runMembers})).filter(run=>run.runMembers.length);
+            const otherHtml=remaining.map(run=>run.runMembers.length===1?card(run.runMembers[0]):`<div class="timeline-model-group" data-run-group="${esc(run.runMembers[0].modelRunGroup || run.runMembers[0].representativeOf || run.runMembers[0].id)}">${card(run.runMembers[0])}<details><summary>${t(`展开同组其余 ${run.runMembers.length-1} 件作品`,`Show ${run.runMembers.length-1} more works from this group`)}</summary><div class="grid">${run.runMembers.slice(1).map(card).join('')}</div></details></div>`).join('');
+            content+=`<div class="timeline-model-group" data-model-group="${esc(modelKey(item))}">${card(primary)}<details><summary>${t(`展开同型号其余 ${item.modelMembers.length-1} 件作品`,`Show ${item.modelMembers.length-1} more works of this version`)}</summary><div class="grid">${otherHtml}</div></details></div>`;
           }else content += card(item);
         }
         if (month) content += '</div></section>';
@@ -295,13 +316,13 @@ function bootBrowser(root) {
   let timer;
   form.addEventListener('input', () => {clearTimeout(timer); timer = setTimeout(() => render(1),180);});
   form.addEventListener('change', () => {clearTimeout(timer); render(1);});
-  collapseToggle?.addEventListener('change',()=>{form.elements.namedItem('collapse').value=collapseToggle.checked?'1':'';render(1);});
+  collapseToggle?.addEventListener('change',()=>{form.elements.namedItem('collapse').value=collapseToggle.checked?'1':'0';render(1);});
   root.querySelectorAll('[data-family]').forEach(button=>button.addEventListener('click',()=>{const select=form.elements.namedItem('family');select.value=select.value===button.dataset.family?'':button.dataset.family;render(1);}));
   root.querySelectorAll('[data-year]').forEach(link=>link.addEventListener('click',event=>{
     if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
     event.preventDefault();form.elements.namedItem('year').value=link.dataset.year;render(1);
   }));
-  form.addEventListener('reset', () => setTimeout(() => {form.elements.namedItem('year').value='';if(collapseToggle)collapseToggle.checked=false;render(1);},0));
+  form.addEventListener('reset', () => setTimeout(() => {form.elements.namedItem('year').value='';if(collapseToggle){collapseToggle.checked=true;form.elements.namedItem('collapse').value='1';}render(1);},0));
   sortButton.addEventListener('click', () => {form.elements.namedItem('sort').value = form.elements.namedItem('sort').value==='oldest'?'newest':'oldest'; render(1);});
   densityButton.addEventListener('click', () => {
     const firstIndex = (Number(currentPage)-1)*renderedSize;
@@ -334,7 +355,7 @@ if (typeof document !== 'undefined') document.querySelectorAll('[data-browser]')
 if (typeof document !== 'undefined' && document.querySelector('main')) bootAdaptiveCardRows(document.querySelector('main'));
 
 function bootBatch(root) {
-  const english=document.documentElement.lang==='en';
+  const english=document.documentElement.lang!=='zh-CN';
   const t=(zh,en)=>english?en:zh;
   const form=root.querySelector('[data-batch-search]');
   const params=new URLSearchParams(location.search);

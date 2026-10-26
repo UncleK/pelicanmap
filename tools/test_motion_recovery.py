@@ -16,7 +16,8 @@ class MotionRecoveryTests(unittest.TestCase):
         self.assertFalse(BY[A['parentId']]['caseVisible'])
         group=[BY[x] for x in A['added'] if 'kylmawurr-opus55-' in x]
         self.assertEqual(len(group),4)
-        self.assertEqual([x['originalLevel'] for x in group if x['timelineVisible']],['medium'])
+        self.assertTrue(all(x['timelineVisible'] for x in group))
+        self.assertEqual([x['originalLevel'] for x in group if not x.get('representativeOf')],['medium'])
         self.assertTrue(all(len(x['comparisonIds'])==4 and x['comparisonType']=='settings-and-iterations' for x in group))
         self.assertTrue(next(x for x in group if 'refined' in x['id'])['generationConditions']['visualIteration'])
         self.assertEqual(CAT['counts']['referenceRecords'],138)

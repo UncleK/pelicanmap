@@ -3,6 +3,7 @@ import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image,ImageStat
 from bs4 import BeautifulSoup
+from case_policy import is_derivative
 from archival_test_assertions import user_requested_context_change, reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'pelican-archive/research/2026-10-02-x-earlier-review'
@@ -21,7 +22,8 @@ class XEarlierReviewTests(unittest.TestCase):
         self.assertTrue(manifest['reviewed'])
         for c in manifest['cases']:
             x=BY[c['id']]
-            self.assertTrue(c['modelToMediaVerified'] and x['caseVisible'] and x['timelineVisible'])
+            self.assertTrue(c['modelToMediaVerified'] and x['caseVisible'])
+            self.assertEqual(x['timelineVisible'],not is_derivative(x))
             self.assertEqual(c['unitType'],'single-model-output')
             self.assertEqual(len(x['modelNames']),1)
             self.assertEqual(x['date'],c['date'])

@@ -30,7 +30,7 @@ class BilingualTests(unittest.TestCase):
             for prefix in ['','en/']:
                 soup=BeautifulSoup((OUT/(prefix+rel)).read_text(encoding='utf-8'),'html.parser')
                 alternates={x['hreflang']:x['href'] for x in soup.select('link[hreflang]')}
-                self.assertEqual(set(alternates),{'zh-CN','en','x-default'})
+                self.assertEqual(set(alternates),{'zh-CN','en','ru','pt-BR','x-default'})
                 self.assertIn('/en/',alternates['en'])
                 self.assertEqual(soup.select_one('a[data-language]')['href'],('/'+rel.removesuffix('index.html')) if prefix else '/en/'+rel.removesuffix('index.html'))
 

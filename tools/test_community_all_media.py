@@ -19,7 +19,7 @@ class CommunityMediaTests(unittest.TestCase):
         self.assertEqual(len(MANIFEST['cases']),26)
         entries=[BY[c['id']] for c in MANIFEST['cases']]
         self.assertEqual(sum(x['caseVisible'] for x in entries),26)
-        self.assertEqual(sum(x['timelineVisible'] for x in entries),18)
+        self.assertEqual(sum(x['timelineVisible'] for x in entries),26)
         self.assertEqual(sum(x['format']=='3d' for x in entries),4)
         self.assertTrue(all(not x.get('referenceOnly') and not x['interactive'] for x in entries))
         for c,x in zip(MANIFEST['cases'],entries):
@@ -62,7 +62,9 @@ class CommunityMediaTests(unittest.TestCase):
                 if c.get('modelRunGroup'):
                     block=soup.select_one('[data-setting-comparison]')
                     self.assertIsNotNone(block)
-                    self.assertIn('不擅自挑一张' if not prefix else 'no timeline representative is guessed',block.get_text())
+                    if prefix:
+                        self.assertRegex(block.get_text(),r'(?:[Aa]ll|[Ee]very) classic(?:-prompt)? (?:works|outputs?|runs|iterations?|versions).*?enters? the timeline')
+                    else:self.assertIn('全部进入时间线',block.get_text())
 
     def test_old_records_and_reference_count_are_unchanged(self):
         before=json.loads((AUDIT/'before-catalog.json').read_text(encoding='utf8'))

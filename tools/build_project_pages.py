@@ -26,7 +26,7 @@ def build(language):
     years = sorted({item['date'][:4] for item in works if item.get('date')})
     sources = ['origin', 'zoo', 'wtf', 'community']
     values = dict(counts, sourceCategories=len({item['source'] for item in works}), years=len(years))
-    labels = [T('独立作品','Works'), T('时间线代表 · 作品子集','Timeline representatives · a subset'), T('来源类别','Source categories'), T('覆盖年份','Years represented')]
+    labels = [T('独立作品','Works'), T('常规时间线 · 作品子集','Classic timeline works · a subset'), T('来源类别','Source categories'), T('覆盖年份','Years represented')]
     stats = ''.join(f'<div class="stat"><strong data-stat="{key}">{values[key]:,}</strong><span>{label}</span></div>' for key, label in zip(['cases','timeline','sourceCategories','years'], labels))
     source_names = {'origin':T('原点实验','Original experiment'), 'zoo':'Pelican Zoo', 'wtf':'pelicans.wtf', 'community':T('社区 · X、论坛与 GitHub','Community · X, forums &amp; GitHub')}
     def bars(keys, field):
@@ -36,7 +36,7 @@ def build(language):
             label = key if field == 'year' else source_names[key]
             rows.append(f'<li><a href="{live}/specimens/?{field}={key}&amp;view=images"><span>{label}</span><strong>{number:,}</strong><span class="bar-track" aria-hidden="true"><span style="width:{number/counts["cases"]*100 if counts["cases"] else 0:.3f}%"></span></span></a></li>')
         return '<ul class="stat-bars">'+''.join(rows)+'</ul>'
-    statistics = f'''<section class="live-statistics" id="statistics" data-live-stats data-snapshot="{catalog['updated']}" aria-label="{T('馆藏统计','Collection statistics')}"><div class="stats-heading"><div><div class="eyebrow">{T('持续收录中','A GROWING COLLECTION')}</div><h2>{T('馆藏，正在生长。','The flock keeps growing.')}</h2></div><button class="button secondary" type="button" data-refresh-stats>{T('刷新数据 ↻','Refresh data ↻')}</button></div><div class="stats">{stats}</div><div class="live-charts"><section><h3>{T('按作品年份','Works by year')}</h3><div data-chart="years">{bars(years,'year')}</div></section><section><h3>{T('按资料来源','Works by source')}</h3><div data-chart="sources">{bars(sources,'source')}</div></section></div><p class="snapshot" data-stats-status role="status">{T('统计快照','Snapshot')} / {catalog['updated']}</p><p class="stats-note">{T('每 5 分钟同步在线目录。时间线为作品子集，评分参考不计入。','Checks the live catalog every 5 minutes. Timeline representatives are a subset; benchmark references stay separate.')}</p></section>'''
+    statistics = f'''<section class="live-statistics" id="statistics" data-live-stats data-snapshot="{catalog['updated']}" aria-label="{T('馆藏统计','Collection statistics')}"><div class="stats-heading"><div><div class="eyebrow">{T('持续收录中','A GROWING COLLECTION')}</div><h2>{T('馆藏，正在生长。','The flock keeps growing.')}</h2></div><button class="button secondary" type="button" data-refresh-stats>{T('刷新数据 ↻','Refresh data ↻')}</button></div><div class="stats">{stats}</div><div class="live-charts"><section><h3>{T('按作品年份','Works by year')}</h3><div data-chart="years">{bars(years,'year')}</div></section><section><h3>{T('按资料来源','Works by source')}</h3><div data-chart="sources">{bars(sources,'source')}</div></section></div><p class="snapshot" data-stats-status role="status">{T('统计快照','Snapshot')} / {catalog['updated']}</p><p class="stats-note">{T('每 5 分钟同步在线目录。全部常规作品进入时间线，衍生单列，评分参考不计入。','Checks the live catalog every 5 minutes. All classic works enter the timeline; derivatives are separate subsets; benchmark references stay separate.')}</p></section>'''
     shots = [
         ('pelican-history-wall.png', T('看看更早的回答。','The earlier answers.'), T('2025 年的 20 件真实输出截图','Twenty documented outputs from 2025'), '/specimens/?year=2025&view=images', 1200, 730),
         ('selected-works-en.png', T('每张图，都有自己的故事。','Every image has a story.'), T('精选作品：模型、日期与出处','Selected works with models, dates and original sources'), '/', 1200, 1137),
@@ -47,7 +47,7 @@ def build(language):
 <body><a class="skip" href="#main">{T('跳到正文','Skip to content')}</a><header class="head"><div class="wrap head-inner"><a class="brand" href="../"><img src="../assets/logo.png" width="49" height="49" alt=""><span><strong>{T('鹈鹕骑车标本馆','Pelican Bicycle Archive')}</strong><small>{T('大模型代码作品档案','AI-GENERATED PELICANS ON BICYCLES')}</small></span></a><nav aria-label="{T('主导航','Main navigation')}"><a href="#gallery">{T('图片','Gallery')}</a><a href="#statistics">{T("统计","Live stats")}</a><a href="#developers">API / MCP</a><a href="{REPO}">GitHub ↗</a><a href="{'../zh/' if en else '../'}" lang="{'zh-CN' if en else 'en'}">{T('English','中文')}</a></nav></div></header>
 <main id="main" class="wrap"><section class="visual-hero"><div class="visual-title"><div><div class="eyebrow">{T('真实输出 · 原始出处','ACTUAL OUTPUTS. ORIGINAL SOURCES.')}</div><h1>{T('一个问题。<br><em>一大群鹈鹕。</em>','One prompt.<br><em>A whole flock.</em>')}</h1></div><div class="hero-side"><p>{description}</p><div class="actions"><a class="button" href="{live}/specimens/?view=images">{T('浏览所有作品','Browse all works')} ↗</a><a class="button secondary" href="{REPO}">GitHub →</a></div><code>Generate an SVG of a pelican riding a bicycle.</code></div></div><figure class="wall" id="gallery"><a href="{live}/specimens/?view=images"><img src="../assets/pelican-wall.png" alt="{T('正式馆藏纯图片视图：30 件真实输出','Thirty actual outputs in the collection’s image-only view')}" width="1200" height="1100" fetchpriority="high"></a><figcaption><span>{T('30 件真实输出，点击查看原记录。','30 documented outputs. Follow the images to their sources.')}</span><a href="{live}/specimens/?view=images">{T('纯图片视图 ↗','Images-only view ↗')}</a></figcaption></figure></section>{statistics}
 {galleries}
-<section class="code-section" id="developers"><div><div class="eyebrow">{T('数据与接口','DATA &amp; AGENTS')}</div><h2>{T('把资料读进程序。','Read the archive.')}</h2><div class="link-row"><a href="{live}/data/catalog.json">JSON</a><a href="{live}/data/catalog.csv">CSV</a><a href="{SITE}/openapi.json">OpenAPI</a><a href="{live}/llms.txt">{T('Agent 导读','Agent guide')}</a><a href="{SITE}/data/model-releases.json">{T('发布依据','Release evidence')}</a><a href="{live}/developers/">{T('接入文档','Docs')} ↗</a></div><p>{T('公开 API/MCP 只读。全部作品按作品记录日期最新在前；时间线按型号月份分组，同月优先显示最新作品；缺少发布依据时用最早来源作品月份暂定位置，估算不冒充发布事实，也不改作品日期。时间线为作品子集，真实视频帧不增加作品数，评分资料单列。','Public API/MCP is read-only. All works shows the latest artwork dates first; Timeline keeps model-month groups with latest-work priority within each month; missing release evidence uses the earliest source-work month as an explicit provisional position, not a launch fact or an artwork-date replacement. Timeline representatives are a subset; frames add no works, and Benchmarks stay separate.')}</p></div><pre><code>GET /api/v1/specimens?q=Gemini&amp;lang=en&amp;limit=3
+<section class="code-section" id="developers"><div><div class="eyebrow">{T('数据与接口','DATA &amp; AGENTS')}</div><h2>{T('把资料读进程序。','Read the archive.')}</h2><div class="link-row"><a href="{live}/data/catalog.json">JSON</a><a href="{live}/data/catalog.csv">CSV</a><a href="{SITE}/openapi.json">OpenAPI</a><a href="{live}/llms.txt">{T('Agent 导读','Agent guide')}</a><a href="{SITE}/data/model-releases.json">{T('发布依据','Release evidence')}</a><a href="{live}/developers/">{T('接入文档','Docs')} ↗</a></div><p>{T('公开 API/MCP 只读。全部作品按作品记录日期最新在前；时间线按型号月份分组，同月优先显示最新作品；缺少发布依据时用最早来源作品月份暂定位置，估算不冒充发布事实，也不改作品日期。时间线为作品子集，真实视频帧不增加作品数，评分资料单列。','Public API/MCP is read-only. All works shows the latest artwork dates first; Timeline keeps model-month groups with latest-work priority within each month; missing release evidence uses the earliest source-work month as an explicit provisional position, not a launch fact or an artwork-date replacement. All classic works enter the timeline; derivatives are separate subsets; frames add no works, and Benchmarks stay separate.')}</p></div><pre><code>GET /api/v1/specimens?q=Gemini&amp;lang=en&amp;limit=3
 GET /api/v1/timeline?family=Claude&amp;lang=en
 
 MCP  https://pelicanmap.aveniqa.com/mcp
@@ -74,10 +74,28 @@ def cover():
         "await sharp('docs/assets/'+src).png().toFile('docs/assets/'+dst);"], cwd=ROOT, check=True)
 
 
+def update_readme_statistics():
+    """Generated snapshot plus live link; no manually maintained artwork totals."""
+    import re
+    from localization import statistics
+    catalog=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
+    stats=statistics(catalog)
+    for filename in ('README.md','README.en.md','README.zh-CN.md'):
+        zh=filename.endswith('zh-CN.md')
+        p=ROOT/filename;text=p.read_text(encoding='utf8')
+        intro=f"馆藏快照（{stats['updated']}）：**{stats['works']:,}** 件作品 · **{stats['timeline']:,}** 件常规作品 · **{stats['derivatives']:,}** 件衍生作品。后两项是总数的分项。" if zh else f"Catalog snapshot ({stats['updated']}): **{stats['works']:,}** works · **{stats['timeline']:,}** classic works · **{stats['derivatives']:,}** derivative works. The latter two partition the total."
+        link='[在线统计](https://pelicanmap.aveniqa.com/api/v1/stats)' if zh else '[Live statistics](https://pelicanmap.aveniqa.com/api/v1/stats)'
+        intro+=' '+link+(' · 此区由 `npm run build:project` 自动生成。' if zh else ' · This block is generated by `npm run build:project`.')
+        block='<!-- collection-stats:start -->\n'+intro+'\n\n<a href="https://pelicanmap.aveniqa.com/" lang="zh-CN">中文</a> · [English](https://pelicanmap.aveniqa.com/en/) · [Русский](https://pelicanmap.aveniqa.com/ru/) · [Português (Brasil)](https://pelicanmap.aveniqa.com/pt-BR/)\n<!-- collection-stats:end -->'
+        if '<!-- collection-stats:start -->' in text:text=re.sub(r'<!-- collection-stats:start -->.*?<!-- collection-stats:end -->',lambda _:block,text,flags=re.S)
+        else:text=text.replace('## ',block+'\n\n## ',1)
+        p.write_text(text,encoding='utf8')
+
 if __name__ == '__main__':
     cover()
     build('zh')
     build('en')
+    update_readme_statistics()
     english = (OUT / 'en/index.html').read_text(encoding='utf8').replace('../assets/', 'assets/').replace('href="../zh/"', 'href="zh/"').replace('href="../"', 'href="./"')
     (OUT / 'index.html').write_text(english, encoding='utf8')
     (OUT / 'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+PAGES+'/sitemap.xml\n', encoding='utf8')

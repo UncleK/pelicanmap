@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-03",
+  "version": "2026-10-17",
   "definition": "First documented public availability of the named version, including public previews; not an artwork generation date or identity authentication. Explicit snapshots remain distinct. Missing dates remain unknown.",
   "sources": {
     "anthropic": "https://platform.claude.com/docs/en/release-notes/overview",
@@ -7,6 +7,7 @@
     "openai": "https://developers.openai.com/api/docs/changelog"
   },
   "models": [
+    {"id":"deepseek-v4-1-flash-1017","name":"DeepSeek V4.1 Flash 1017","date":"2026-10-17","url":"https://api-docs.deepseek.com/zh-cn/news/news261017/","aliases":["DeepSeek-V4.1-Flash-1017","DeepSeek V4.1 Flash 1017 (Max)"]},
     {"id":"claude-sonnet-5-5","name":"Claude Sonnet 5.5","date":"2026-09-28","source":"anthropic","aliases":["Sonnet 5.5","sonnet5.5","claude-sonnet-5-5"]},
     {"id":"claude-opus-5-5","name":"Claude Opus 5.5","date":"2026-09-22","source":"anthropic","aliases":["Opus 5.5","opus5.5","claude-opus-5-5"]},
     {"id":"claude-fable-5-1","name":"Claude Fable 5.1","date":"2026-09-01","source":"anthropic","aliases":["Fable 5.1","fable5.1"]},

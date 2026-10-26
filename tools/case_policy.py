@@ -20,6 +20,21 @@ def is_case(item):
     return not item.get('referenceOnly') and item.get('caseVisible', True)
 
 
+def is_derivative(item):
+    """Use reviewed prompt categories, never infer the topic from image style."""
+    return (item.get('task') in {'derived', 'opossum_escooter'}
+            or item.get('promptCategory', '').lower() in {'derived', 'derivative', 'pelican_bicycle_derivative', 'saturn-rings'}
+            or 'derivative' in item.get('topicTags', []))
+
+
+def derivative_label(item, language='zh'):
+    if not is_case(item) or not is_derivative(item):
+        return ''
+    prefix = '/en' if language == 'en' else ''
+    label = 'Derivative works' if language == 'en' else '衍生作品'
+    return f'<div class="card-meta"><a href="{prefix}/derivatives/" rel="tag">{label}</a></div>'
+
+
 def in_timeline(item):
     return is_case(item) and item.get('timelineVisible', item.get('kind') == 'timeline')
 
@@ -109,18 +124,18 @@ def apply_case_policy(items, media_root, reviews=None):
         category = (item.get('task') or item.get('promptCategory') or '').lower()
         derivative = any(word in category+' '+item['id'] for word in ['beagle','parrot','flamingo','possum','dog','hamster'])
         item['task'] = item.get('task') or ('derived' if derivative else 'pelican_bicycle')
+        if is_derivative(item):
+            item['topicTags'] = list(dict.fromkeys([*item.get('topicTags', []), 'derivative']))
         item['datePrecision'] = 'day' if re.fullmatch(r'\d{4}-\d{2}-\d{2}',item['date']) else 'month' if re.fullmatch(r'\d{4}-\d{2}',item['date']) else 'year'
-        item['timelineVisible'] = bool(item['caseVisible'] and timeline_media(item,media_root) and len(names)==1 and re.fullmatch(r'\d{4}(?:-\d{2}(?:-\d{2})?)?',item['date']) and not derivative)
-        if 'timelineVisible' in review:
-            item['timelineVisible'] = bool(review['timelineVisible'] and item['timelineVisible'])
-        if item.get('representativeOf'):
-            item['timelineVisible'] = False
+        # All counted classic works enter the timeline. Old default/medium
+        # selections remain display relationships, never admission gates.
+        item['timelineVisible'] = bool(item['caseVisible'] and not is_derivative(item))
         for key in ['canonicalId','representativeOf','parentId']:
             if item.get(key):
                 assert item[key] in by_id and item[key]!=item['id'], 'Broken case relationship'
         item['caseReview'] = {'policyVersion':review.get('policyVersion','2026-10-01-all-media-v2'),'reason':review.get('reason','Single source-labelled output; legacy attribution and recorded date retained.'),'evidence':review.get('evidence',[])}
-    # Only explicit, source-reviewed run groups may select a default setting.
-    # Missing default/medium is held out of the axis, never replaced by "best".
+    # Only explicit source relationships select a default for optional folding.
+    # Missing default/medium does not hide any counted classic output.
     groups={}
     named_settings={}
     for item in result:
@@ -135,7 +150,6 @@ def apply_case_policy(items, media_root, reviews=None):
         # Different media/prompts can share a model, date and level. They are
         # not automatically one settings sweep; require explicit source review.
         if len({x['originalLevel'] for x in members})!=len(members):
-            for item in members:item['timelineVisible']=False
             continue
         group='source-settings-'+hashlib.sha256(repr(key).encode()).hexdigest()[:16]
         for item in members:
@@ -150,8 +164,8 @@ def apply_case_policy(items, media_root, reviews=None):
         assert len(defaults)<=1 and len(medium)<=1, 'Ambiguous timeline representative'
         chosen=(defaults or medium or [None])[0]
         for item in members:
-            if chosen is None:item['timelineVisible']=False
-            elif item['id']!=chosen['id']:item['representativeOf']=chosen['id'];item['timelineVisible']=False
+            if chosen is not None and item['id']!=chosen['id']:
+                item['representativeOf']=chosen['id']
     # Relationships are explicit. Never collapse merely by model/date/artist.
     for item in result:
         item['childIds'] = [x['id'] for x in result if x.get('parentId')==item['id']]
@@ -178,7 +192,7 @@ def relationship_html(item, items, language='zh', section='all'):
     if item.get('parentId'):
         text.append(('Full source collection: ' if en else '完整原帖合集：')+link(by_id[item['parentId']]))
     if item.get('representativeOf'):
-        text.append(('Same-day alternative; timeline representative: ' if en else '同日其它输出，时间线代表作品：')+link(by_id[item['representativeOf']]))
+        text.append(('Same-group output; default display when folded: ' if en else '同组其它输出，折叠时默认展示：')+link(by_id[item['representativeOf']]))
     if item.get('caseVisible') is False and not item.get('referenceOnly') and not item.get('canonicalId'):
         text.append('Source/context archive, excluded from the artwork count and evolution timeline.' if en else '原帖／资料存档，不计独立作品数，不进入进化时间线。')
     crop = item.get('cropProvenance')
@@ -203,30 +217,30 @@ def relationship_html(item, items, language='zh', section='all'):
         comparison.sort(key=lambda x:(order.get(x.get('originalLevel'),0),x['id']))
         prompt_comparison=item.get('comparisonType')=='prompt'
         heading=('Same model · prompt comparison' if en else '同一模型 · 题面对照') if prompt_comparison else ('Same model · settings comparison' if en else '同一模型 · 不同档位对照')
-        explanation=('Separate source prompts, not reasoning settings. Each real output counts once; the classic pelican prompt represents the timeline.' if en else '不同题面，不是推理档位；每个真实输出单独计数，经典鹈鹕骑车题面进入时间线。') if prompt_comparison else ('Each real output counts once; only the default/medium representative enters the timeline. Source-reported settings, not a ranking.' if en else '每个真实输出计一个案例；时间线只展示作者默认档／medium 代表图。档位按来源标注，非排名。')
+        explanation=('Separate source prompts, not reasoning settings. Each real output counts once; all classic-prompt outputs enter the timeline, including language variations. Explicit derivative prompts are listed separately.' if en else '不同题面，不是推理档位；每个真实输出单独计数，各常规题面输出全部进入时间线，明确衍生题面单列。') if prompt_comparison else ('Each real output counts once; all classic works enter the timeline. Reviewed defaults only choose the initial display when folded. Source-reported settings, not a ranking.' if en else '每个真实输出计一个案例；各常规输出全部进入时间线；作者默认档／medium 只决定折叠时优先展示哪件。档位按来源标注，非排名。')
         if item.get('comparisonType')=='prompt-and-settings':
             heading='Same model · prompts and settings' if en else '同一模型 · 题面与档位对照'
-            explanation='Source-labelled prompts and settings are distinct. All outputs count; the classic prompt at the author default represents the timeline.' if en else '题面和推理档位按原文区分；各真实输出均计数，时间线只显示经典题面的作者默认档。'
+            explanation='Source-labelled prompts and settings are distinct. All outputs count; every classic-prompt output enters the timeline, including every setting.' if en else '题面和推理档位按原文区分；各真实输出均计数，经典题面的各档输出全部进入时间线，默认档只影响折叠展示。'
         if item.get('comparisonType')=='repeat-runs':
             heading='Same model · independent runs' if en else '同一模型 · 多次独立输出'
-            explanation='Separate source runs, not reasoning settings or a ranking. Every valid output counts once; the source page’s default run represents the timeline. Invalid source media is not repaired or counted.' if en else '不同独立运行，不是推理档位或排名；可打开的真实输出分别计数，时间线采用原页面默认展示的运行。原始媒体损坏的运行不修图、不计数。'
+            explanation='Separate source runs, not reasoning settings or a ranking. Every valid output counts once; all classic runs enter the timeline; the source-default run only leads the folded display. Invalid source media is not repaired or counted.' if en else '不同独立运行，不是推理档位或排名；可打开的真实输出分别计数，常规运行全部进入时间线，原页面默认运行只影响折叠展示。原始媒体损坏的运行不修图、不计数。'
         if item.get('comparisonType')=='source-files':
             heading='Same model · published outputs' if en else '同一模型 · 公开输出对照'
-            explanation='Distinct source files, not documented reasoning settings or attempt order. Each output counts once. The source specifies no default or medium, so no timeline representative is guessed.' if en else '不同来源文件，不是已证推理档位或运行先后；每份输出计一件。作者未说明默认或 medium，不擅自挑选时间线代表。'
+            explanation='Distinct source files, not documented reasoning settings or attempt order. Each output counts once. All classic outputs enter the timeline even when no default or medium is documented; no author preference is invented.' if en else '不同来源文件，不是已证推理档位或运行先后；每份输出计一件。作者未说明默认或 medium 时仍全部进入时间线，不把展示顺序冒充作者偏好。'
         if item.get('comparisonType')=='quantizations':
             heading='Same model · quantizations and runtimes' if en else '同一模型 · 量化与运行环境对照'
-            explanation='Source-labelled quantizations and runtimes, not reasoning levels or a ranking. Each actual output counts once. With no documented default/medium representative, these alternatives remain outside the evolution timeline.' if en else '量化版本与运行环境按原文标注，不是推理档位或排名；每份真实输出分别计数。未明确默认／medium 代表时，这些输出仅留全部作品，不擅自选入进化轴。'
+            explanation='Source-labelled quantizations and runtimes, not reasoning levels or a ranking. Each actual output counts once. Every classic output enters the timeline; missing default/medium evidence does not exclude a work.' if en else '量化版本与运行环境按原文标注，不是推理档位或排名；每份真实输出分别计数。未明确默认／medium 代表时仍全部进入时间线，不擅自认证作者偏好。'
         if item.get('comparisonType')=='access-and-prompts':
             heading='Same model · access and prompt conditions' if en else '同一模型 · 账号与题面条件对照'
-            explanation='The source labels free/paid access and basic/advanced prompts; all four outputs use the same reported high setting. These are not four reasoning levels or a museum ranking. Each actual output counts once. No source-default condition is documented, so no timeline representative is guessed.' if en else '来源区分免费／付费账号及基础／加严题面，四份输出都标 high；不是四种推理档位，也不是本馆排名。各真实输出分别计数；作者未明确默认条件，不擅自挑时间线代表。'
+            explanation='The source labels free/paid access and basic/advanced prompts; all four outputs use the same reported high setting. These are not four reasoning levels or a museum ranking. Each actual output counts once. All classic outputs enter the timeline; no source-default condition is invented.' if en else '来源区分免费／付费账号及基础／加严题面，四份输出都标 high；不是四种推理档位，也不是本馆排名。各真实输出分别计数；作者未明确默认条件时仍全部进入时间线，不猜作者偏好。'
         if item.get('comparisonType')=='visual-iterations':
             heading='Same model · visual-feedback iterations' if en else '同一模型 · 视觉反馈迭代对照'
-            explanation='Documented output versions after rendering and visual feedback, not reasoning-effort settings or independent blind attempts. Each actual version counts once; views and recordings are not extra works. No source-default iteration is documented, so no timeline representative is guessed.' if en else '按来源记录渲染、看图反馈后的实际输出版本，不是推理档位或相互独立的盲测。每个真实版本分别计数，同版本的多视角和录屏不增加作品。来源未指定默认迭代，因此不擅自挑一张进入时间线。'
+            explanation='Documented output versions after rendering and visual feedback, not reasoning-effort settings or independent blind attempts. Each actual version counts once; views and recordings are not extra works. All classic iterations enter the timeline; no source-default iteration is invented.' if en else '按来源记录渲染、看图反馈后的实际输出版本，不是推理档位或相互独立的盲测。每个真实版本分别计数，同版本的多视角和录屏不增加作品。来源未指定默认迭代时仍全部进入时间线，不猜默认版本。'
         if item.get('comparisonType')=='settings-and-iterations':
             heading='Same model · settings and later refinement' if en else '同一模型 · 档位与后续细化对照'
-            explanation='Medium, high and xhigh are source-labelled fresh sessions. The fourth output is a later detailed-prompt refinement in the medium session, not a fourth reasoning level or a one-shot result. Each real output counts once; the original medium output represents the timeline, not the most polished image.' if en else 'medium、high、xhigh 是来源标注的新会话；第四份是 medium 会话追加详细提示后的细化结果，不是第四种推理档位，也不是一次生成。每份真实输出分别计数；原始 medium 代表时间线，不挑最精致的图。'
+            explanation='Medium, high and xhigh are source-labelled fresh sessions. The fourth output is a later detailed-prompt refinement in the medium session, not a fourth reasoning level or a one-shot result. Each real output counts once; all classic versions enter the timeline; the original medium may lead the folded display without ranking image quality.' if en else 'medium、high、xhigh 是来源标注的新会话；第四份是 medium 会话追加详细提示后的细化结果，不是第四种推理档位，也不是一次生成。每份真实输出分别计数；各常规版本全部进入时间线，原始 medium 只影响折叠展示，不按精致程度排名。'
         if item.get('comparisonType') in {'settings','prompt','prompt-and-settings','repeat-runs'} and not any(in_timeline(x) for x in comparison):
-            explanation='Source-labelled prompts, settings or separate runs are preserved without treating them as a ranking. Each real output counts once. No default/medium setting or source-default run is documented, so no timeline representative is guessed.' if en else '保留来源标注的题面、设置或多次独立运行，不构成排名；每份真实输出分别计数。来源未明确默认／medium 档或默认运行，因此不擅自挑一张进入时间线。'
+            explanation='Source-labelled prompts, settings or separate runs are preserved without treating them as a ranking. Each real output counts once. All classic works enter the timeline; missing default/medium evidence never excludes a counted classic work.' if en else '保留来源标注的题面、设置或多次独立运行，不构成排名；每份真实输出分别计数。来源未明确默认／medium 档或默认运行时仍全部进入时间线，不擅自认证默认条件。'
         result += '<section data-setting-comparison><h2>'+heading+'</h2><p>'+explanation+'</p><div class="setting-comparison">'
         for x in comparison:
             label=x.get('originalLevel') or ('Source default' if en else '来源默认档')

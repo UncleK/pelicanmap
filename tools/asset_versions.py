@@ -2,7 +2,7 @@
 import hashlib
 from pathlib import Path
 
-NAMES = ('site.css', 'site.js', 'browse.js', 'motion.js')
+NAMES = ('site.css', 'site.js', 'browse.js', 'motion.js', 'locale-data.js')
 
 
 def asset_version(source, published):

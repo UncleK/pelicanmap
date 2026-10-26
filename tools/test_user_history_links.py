@@ -47,8 +47,8 @@ class HistoryLinkTests(unittest.TestCase):
     def test_groups_retain_every_valid_output_but_only_one_representative(self):
         hard=[BY[c['id']] for c in MANIFEST['cases'] if c['id'].startswith('hardprompts-')]
         self.assertEqual(len(hard),23)
-        self.assertEqual(sum(x['timelineVisible'] for x in hard),6)
-        self.assertEqual({x['originalLevel'] for x in hard if x['timelineVisible']},{'run 4'})
+        self.assertEqual(sum(x['timelineVisible'] for x in hard),23)
+        self.assertEqual({x['originalLevel'] for x in hard if not x.get('representativeOf')},{'run 4'})
         for x in hard:
             self.assertEqual(x['comparisonType'],'repeat-runs')
             self.assertEqual(x['dateBasis'],'source-reported-response-timestamp')
@@ -60,9 +60,10 @@ class HistoryLinkTests(unittest.TestCase):
                 self.assertEqual(page.select_one('[data-setting-comparison] h2').get_text(),text)
         qwen=[BY[c['id']] for c in MANIFEST['cases'] if c['id'].startswith('simon-qwen38-flash-next-')]
         self.assertEqual(len(qwen),8)
-        self.assertEqual([x['id'] for x in qwen if x['timelineVisible']],['simon-qwen38-flash-next-ud-q2-k-xl-medium'])
+        self.assertTrue(all(x['timelineVisible'] for x in qwen))
+        self.assertEqual([x['id'] for x in qwen if not x.get('representativeOf')],['simon-qwen38-flash-next-ud-q2-k-xl-medium'])
         self.assertTrue(BY['history-5b61866c-0-0']['timelineVisible'])
-        self.assertFalse(BY['simon-gemini-flash-budget-zero-2025-05-20']['timelineVisible'])
+        self.assertTrue(BY['simon-gemini-flash-budget-zero-2025-05-20']['timelineVisible'])
 
     def test_existing_comparison_is_split_not_an_extra_run(self):
         parent=BY['x-2083342783071621224-719f9758']
@@ -70,7 +71,8 @@ class HistoryLinkTests(unittest.TestCase):
         self.assertEqual(len(parent['childIds']),2)
         children=[BY[k] for k in parent['childIds']]
         self.assertEqual({x['date'] for x in children},{'2026-07-31'})
-        self.assertEqual([x['originalLevel'] for x in children if x['timelineVisible']],['default'])
+        self.assertTrue(all(x['timelineVisible'] for x in children))
+        self.assertEqual([x['originalLevel'] for x in children if not x.get('representativeOf')],['default'])
         self.assertTrue(all(x['sourceUrl']=='https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/' for x in children))
 
     def test_previously_published_ids_and_original_media_are_preserved(self):

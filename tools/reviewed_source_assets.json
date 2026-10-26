@@ -1,0 +1,450 @@
+[
+  {
+    "url": "https://video.twimg.com/amplify_video/2114364029544370176/vid/avc1/1920x1080/ARBWiS-mhiwUvdCR.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114364209018646577-video-1-original.mp4",
+    "sha256": "78dd3621769ee19ba0f8e1c2bf39ab7e027266f52728ed76fb8365e608fd1efe",
+    "bytes": 2086178,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ruterfu/status/2114364209018646577",
+        "model": "Qwen3.8-Next Q4_K_XL"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVWibMEXsAAjeLu.png?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113774192613069250-photo-1-original.png",
+    "sha256": "41ffe81e521e157a45e1070e72f15a0b878de0a87210f408bd6f8d96c1568125",
+    "bytes": 374963,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/fofrAI/status/2113774192613069250",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2114275436326776832/vid/avc1/874x720/_h23PJetDHvikFTx.mp4?tag=14",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114276034527056089-video-1-original.mp4",
+    "sha256": "6985f6d236172cc9cecbb2464124aebceede4cc29b07f8cc9665cf4553d181f4",
+    "bytes": 7376850,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Inmerson/status/2114276034527056089",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVakWqXXQAAth_J.jpg?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114272047522038189-photo-1-original.jpeg",
+    "sha256": "40c197441279298b252b56dc59a68147174cc835d764abf189961c73807dd542",
+    "bytes": 104101,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2114272047522038189",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113972062402260992/vid/avc1/1800x1200/sZLNYxLfPaAAk0YW.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114144910303494281-video-1-original.mp4",
+    "sha256": "a0e06c2a9abaacf4c97487b4800e25d4be7cde0cad13d21102c907e4257f4d0c",
+    "bytes": 5147643,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/jan_volad/status/2114144910303494281",
+        "model": "Kalmia"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113707231921467392/vid/avc1/1920x1080/6yHEAoN6leVCRUVN.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113707383105212854-video-1-original.mp4",
+    "sha256": "c4b3018e2666c0511104248faf7e95e92ae44fe845e759b6b410599b695bf7f0",
+    "bytes": 4234016,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/SahilPanhotra/status/2113707383105212854",
+        "model": "Kimi K3.1"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2114036608362221568/vid/avc1/2952x2160/R647Hv7rW3IA8mCQ.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114039612809306491-video-1-original.mp4",
+    "sha256": "4990a7fa062a86d2d0acb46594bc66b9321fe3da11813925a26deacee83a6103",
+    "bytes": 5535326,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ai_funss/status/2114039612809306491",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVaQos6a8AEhHzp.jpg?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114039612809306491-photo-1-original.jpeg",
+    "sha256": "199296f825991933a7d0351d6787c6ab29036e44a12b88895f5efd910594b37d",
+    "bytes": 224016,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ai_funss/status/2114039612809306491",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVaOc6LbMAAw5mB.jpg?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114033823143096461-photo-1-original.jpeg",
+    "sha256": "6d29a9ecd8651be7ee1687bb6316f97bbf458a677507f0b5a97ca2ff54b0aaf5",
+    "bytes": 278653,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ai_funss/status/2114033823143096461",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVdgw0YbAAEr-Qf.jpg?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114265343283859514-photo-1-original.jpeg",
+    "sha256": "168f92ad2b7bf47ea0c2dd7279e4584eeb43e47549bc09002b77ad64748ece05",
+    "bytes": 176864,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/xluchuan/status/2114265343283859514",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113670235211587587/vid/avc1/3598x1808/1hv5M5RLjBvWgbHk.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113670587096916287-video-1-original.mp4",
+    "sha256": "76b8641d7bd893d5a6afcd7bbb223ea076884374ce0aeabfb0bc7150c4cd48ed",
+    "bytes": 3397683,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/mylifcc/status/2113670587096916287",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113689047298437120/vid/avc1/1920x1080/7x46Yau1F3yqtvPJ.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113689317545795727-video-1-original.mp4",
+    "sha256": "8f5392c0f4abf1875b95c3c73a14579718bfd1a8857a9ec4717d1d2d9d62b5ab",
+    "bytes": 6087815,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/FiniYang/status/2113689317545795727",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2114140203887759360/vid/avc1/1440x900/sbNYlh8Vsp86vNbk.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114140665173139471-video-1-original.mp4",
+    "sha256": "e1bf312d313f633acb34beba2aa660cebdddbd57d9bc1a9c1aecfd6dfa86647a",
+    "bytes": 2060239,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ysoke145/status/2114140665173139471",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HVbu-30boAA4jds.jpg?name=orig",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2114140665173139471-photo-1-original.jpeg",
+    "sha256": "3cfe83653288c748f448b7ddf389ed1cfeaee11682984e1a1721f3370e11d2f5",
+    "bytes": 70944,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ysoke145/status/2114140665173139471",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://a.zdmimg.com/202610/15/6ad0406219b827857.gif_e1080.jpg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/cxuan-doubao-animation.webp",
+    "sha256": "e55c60367a809a09fdf2b00502a8ca4b684e84491eed035d312576a2e3218cb0",
+    "bytes": 1393230,
+    "bindings": [
+      {
+        "sourceUrl": "https://post.smzdm.com/p/a26xz9zq/",
+        "model": "doubao-seed-evolving"
+      }
+    ]
+  },
+  {
+    "url": "https://a.zdmimg.com/202610/15/6ad0412857fc48544.png_e1080.jpg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/cxuan-doubao-source.webp",
+    "sha256": "010432564547e1fd869c1f415d01cf0f0c31ec51619d34f6856752f2342b9c30",
+    "bytes": 21766,
+    "bindings": [
+      {
+        "sourceUrl": "https://post.smzdm.com/p/a26xz9zq/",
+        "model": "doubao-seed-evolving"
+      }
+    ]
+  },
+  {
+    "url": "https://a.zdmimg.com/202610/15/6ad041281f75b8544.gif_e1080.jpg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/cxuan-deepseek-animation.webp",
+    "sha256": "b0ebeb62616edc846c35634c1db6e263d293899ec9e37770812a546e8124bebb",
+    "bytes": 489620,
+    "bindings": [
+      {
+        "sourceUrl": "https://post.smzdm.com/p/a26xz9zq/",
+        "model": "DeepSeek V4 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://a.zdmimg.com/202610/15/6ad04127e48521119.png_e1080.jpg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/cxuan-deepseek-initial.webp",
+    "sha256": "5b6d04d2799ea9cf353b814fa4d9872902fa99ad01916f4452653b04cd422167",
+    "bytes": 25312,
+    "bindings": [
+      {
+        "sourceUrl": "https://post.smzdm.com/p/a26xz9zq/",
+        "model": "DeepSeek V4 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-default.svg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-default.svg",
+    "sha256": "1e4ce3f3341899d9b2f845e6f8828c7a2b42d9956ccc9a18040dfbc45a6a27ae",
+    "bytes": 9126,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-default.png",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-default.png",
+    "sha256": "698e1d0ea35eca45d9bcff7724a5ba5fb24c21b0eaf798d554216bc7fd9b070b",
+    "bytes": 184182,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-low.svg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-low.svg",
+    "sha256": "21c596760e23854da7e52f834143c08f924dde01c8c8bf3e7824a2b386da7a77",
+    "bytes": 6672,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash/assets/pelican-low.png",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-low.png",
+    "sha256": "a960b16da9eb5eca585553af61841ad61a0d1bb3b08b13bf67fe059f4b2ce58c",
+    "bytes": 178992,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-max-1/assets/pelican-max.svg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-max.svg",
+    "sha256": "1cbf5af2991a7b30159eb8d8dbe7b8c80ecb2cd4d8d703d8e704f964e892eb40",
+    "bytes": 8600,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-max-1/assets/pelican-max.png",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-max.png",
+    "sha256": "66aafea838f5b611e4ee21071937fed7efe67993827136feda69d8d2f6a877b4",
+    "bytes": 171216,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.webp",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-low.webp",
+    "sha256": "932120f9ccf187f26ba292148b1ba30d4f4b7fd09eaebc13112b8cec66edc6cd",
+    "bytes": 294810,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.svg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-low.svg",
+    "sha256": "e38a483c9a932a571bfa1a8b5e559d7b19f8d3cec6b7970aeda0e21660f44e36",
+    "bytes": 9459,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-low-1/assets/pelican-animation-low.png",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-low.png",
+    "sha256": "7b4bed924dca712d62ebf7ddbb57beaa33517e7050c5588f14053dde000f25f8",
+    "bytes": 117093,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.webp",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-max.webp",
+    "sha256": "e69a2fe5aa0d05bb0e6cb0e20cd503e41bd9f9fd2bf5f96b8d3591cc8bdc0b4c",
+    "bytes": 489586,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.svg",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-max.svg",
+    "sha256": "e92a69e262b77c010eab93a400eeb93930e91d9a421e2ca6779e2d931fc819b3",
+    "bytes": 12168,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/minimax-m3-1-flash-supplement-pelican-animation-max-38/assets/pelican-animation-max.png",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/minimax-pelican-animation-max.png",
+    "sha256": "14b50505a440d4f455e608c8b23c751bcb66c83fdbaf13091f775f6e5b37610a",
+    "bytes": 163580,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/zh-CN/guides/minimax-m3-1-flash",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/simon-pro-response.md",
+    "sha256": "2dc111fbfdaa159b5c4b328cf5294ef6aff1cd27cd2069693b8b5bfa51afce68",
+    "bytes": 68353,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/eba9a4283c9e94cbbb5325902a3921a8/raw/282e408c852755d6381960767e149d2ac9c5558b/k3.md",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/simon-k3-response.md",
+    "sha256": "8c2f42d619cefa1679a8b21e73fc31a3203f3ac480bd244a2fe91601723c0bf4",
+    "bytes": 90122,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://wallabytoken.com/blog/p/pelican-bicycle",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/wallaby-comparison.html",
+    "sha256": "2ec787b76f881470c85496f524b613a38374a456665f929891db34c6abb10ebd",
+    "bytes": 73276,
+    "bindings": [
+      {
+        "sourceUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+        "model": "DeepSeek V4.1 Flash 1017"
+      },
+      {
+        "sourceUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://zovk7ign5ex5m.ok.kimi.link/",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/aidad-standard-original.html",
+    "sha256": "4889f8df27891a0254b76efd68c70d373dbe19916c99d4da493eb55625d55f05",
+    "bytes": 23317,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113800251136237568/vid/avc1/1672x1080/B6Z9WZfGOF1zRRaC.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113804589174862231-video-1-original.mp4",
+    "sha256": "5fb051f8fefb8daf8ff6078073364df3884072dd58a37c2bfaf193dadcb550a8",
+    "bytes": 2747772,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://b5gk72ljl55nc.ok.kimi.link/",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/aidad-max-original.html",
+    "sha256": "c0997bcb7b12c0daaae564ed948ff1f57fad29e7001e4fc570ea0dfc11fb0c95",
+    "bytes": 43118,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113800257574506496/vid/avc1/1804x1080/RwHlKG0DAPs6Oj90.mp4?tag=29",
+    "path": "pelican-archive/research/2026-10-25-model-discovery/2113804589174862231-video-2-original.mp4",
+    "sha256": "b2cdee12cda4912d42fdea2fefb020f42880f7bb0e046fb14d5a1461d4a11c5e",
+    "bytes": 3377828,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  }
+]

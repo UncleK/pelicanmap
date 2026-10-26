@@ -10,29 +10,13 @@ export function validateSummary(summary) {
 }
 
 export async function loadLiveStats(fetcher = fetch) {
-  const query = async (route, filters = {}) => {
-    const url = new URL(route, API);
-    url.search = new URLSearchParams({lang:'en', limit:'1', ...filters});
-    const response = await fetcher(url, {signal:AbortSignal.timeout(15000), credentials:'omit'});
-    if (!response.ok) throw Error('Collection summary unavailable');
-    return validateSummary(await response.json());
-  };
-  const works = await query('specimens', {sort:'oldest'});
-  const lastYear = Number(works.updated.slice(0,4));
-  const firstYear = Number(works.items?.[0]?.date?.slice(0,4)) || lastYear;
-  if (firstYear < 1900 || firstYear > lastYear) throw Error('Invalid collection year range');
-  const years = Array.from({length:lastYear-firstYear+1}, (_, i)=>String(firstYear+i));
-  const sources = Object.keys(sourceLabels.en);
-  const [timeline, ...groups] = await Promise.all([
-    query('timeline'),
-    ...years.map(year=>query('specimens', {year})),
-    ...sources.map(source=>query('specimens', {source}))
-  ]);
-  const yearGroups = years.map((key,i)=>({key,total:groups[i].total}));
-  const sourceGroups = sources.map((key,i)=>({key,total:groups[years.length+i].total}));
-  // A release can switch between requests. Keep the last complete view in that case.
-  if (timeline.total > works.total || [yearGroups,sourceGroups].some(rows=>rows.reduce((sum,row)=>sum+row.total,0)!==works.total) || [timeline,...groups].some(group=>group.updated!==works.updated)) throw Error('Collection release changed during refresh');
-  return {works:works.total,timeline:timeline.total,updated:works.updated,years:yearGroups,sources:sourceGroups};
+  const response=await fetcher(new URL('stats',API),{signal:AbortSignal.timeout(15000),credentials:'omit',cache:'no-store'});
+  if(!response.ok)throw Error('Collection summary unavailable');
+  const result=await response.json();
+  validateSummary({total:result.works,updated:result.updated});
+  const validNumber=value=>Number.isSafeInteger(value)&&value>=0;
+  if(!validNumber(result.timeline)||!validNumber(result.derivatives)||result.timeline+result.derivatives!==result.works||result.counts?.cases!==result.works||result.counts?.timeline!==result.timeline||[result.years,result.sources].some(rows=>!Array.isArray(rows)||rows.some(row=>!validNumber(row.total))||rows.reduce((sum,row)=>sum+row.total,0)!==result.works))throw Error('Collection release changed during refresh');
+  return result;
 }
 
 function chart(container, rows, lang, total) {

@@ -18,7 +18,8 @@ class XCodeContinuationTests(unittest.TestCase):
  def test_units_and_defaults(self):
   rows=[self.items[id] for id in IDS]
   self.assertEqual(sum(x['caseVisible'] for x in rows),8)
-  self.assertEqual({x['id'] for x in rows if x['timelineVisible']},{IDS[1],IDS[6]})
+  self.assertEqual({x['id'] for x in rows if x['timelineVisible']},set(IDS))
+  self.assertEqual({x['id'] for x in rows if not x.get('representativeOf')},{IDS[1],IDS[6]})
   for x in rows:
    self.assertEqual(x['generationMethod'],'code-generated')
    self.assertIn(SOURCE,x['codeGenerationEvidence'])

@@ -135,7 +135,7 @@ class EditorialTests(unittest.TestCase):
             self.assertTrue(soup.title.get_text(strip=True),str(path))
             self.assertTrue(soup.select_one('meta[name=description]')['content'],str(path))
             self.assertEqual(soup.select_one('meta[property="og:url"]')['content'],canonical)
-            self.assertEqual({x['hreflang'] for x in soup.select('link[hreflang]')},{'zh-CN','en','x-default'})
+            self.assertEqual({x['hreflang'] for x in soup.select('link[hreflang]')},{'zh-CN','en','ru','pt-BR','x-default'})
             schema=json.loads(soup.select_one('script[type="application/ld+json"]').string)
             self.assertEqual(schema['url'],canonical)
             self.assertEqual(schema['inLanguage'],lang)
@@ -168,7 +168,7 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual(api['info']['version'],CATALOG_VERSION)
         params={x['name']:x['schema'] for x in api['paths']['/api/v1/specimens']['get']['parameters']}
         self.assertEqual(params['sort']['enum'],['newest','oldest'])
-        self.assertEqual(params['lang']['enum'],['zh','en'])
+        self.assertEqual(params['lang']['enum'],['zh','en','ru','pt-BR'])
         self.assertEqual(params['limit']['maximum'],50)
         self.assertEqual(params['offset']['maximum'],100000)
         self.assertIn('referenceOnly',api['components']['schemas']['Record']['properties'])

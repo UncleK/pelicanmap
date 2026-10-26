@@ -14,9 +14,10 @@ NEW=[BY[x] for x in AUDIT['added']]
 class ForumContinuationTests(unittest.TestCase):
     def test_works_representatives_and_reference_boundary(self):
         self.assertEqual(len(NEW),16)
-        self.assertEqual(sum(x['timelineVisible'] for x in NEW),16)
+        self.assertEqual(sum(x['timelineVisible'] for x in NEW),14)
+        self.assertTrue(all(not x['timelineVisible'] for x in NEW if x['task']=='derived'))
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+16)
-        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+16)
+        self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+14)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
         self.assertEqual(sum(x['task']=='derived' for x in NEW),2)
         self.assertEqual(CAT['counts']['referenceRecords'],138)

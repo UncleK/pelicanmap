@@ -17,7 +17,7 @@ class NileLateTests(unittest.TestCase):
  def test_forty_four_outputs_thirty_two_representatives(self):
   self.assertEqual(len(ENTRIES),44)
   self.assertEqual(sum(x['caseVisible'] for x in ENTRIES),44)
-  self.assertEqual(sum(x['timelineVisible'] for x in ENTRIES),32)
+  self.assertEqual(sum(x['timelineVisible'] for x in ENTRIES),44)
   self.assertEqual(sum(x['format']=='3d' for x in ENTRIES),15)
   self.assertEqual(sum(x['date']<'2026-01-01' for x in ENTRIES),40)
   self.assertTrue(all(not x.get('referenceOnly') and not x['interactive'] for x in ENTRIES))
@@ -97,13 +97,13 @@ class NileLateTests(unittest.TestCase):
      self.assertLess(str(soup).index('data-setting-comparison'),str(soup).index('class="detail-gallery"'))
      if x['comparisonType']=='visual-iterations':
       self.assertIn('visual-feedback iterations' if prefix else '视觉反馈迭代',section.get_text())
-      self.assertIn('no timeline representative is guessed' if prefix else '不擅自挑一张',section.get_text())
+      self.assertIn('enter the timeline' if prefix else '全部进入时间线',section.get_text())
      elif not any(BY[k]['timelineVisible'] for k in x['comparisonIds']):
-      self.assertIn('no timeline representative is guessed' if prefix else '不擅自挑一张',section.get_text())
+      self.assertIn('enter the timeline' if prefix else '全部进入时间线',section.get_text())
   for i in range(1,4):
    x=BY[f'sparkle-sonnet45-visual-v{i}-2026-02-15']
    self.assertEqual(x['model'],'Claude Sonnet 4.5')
-   self.assertFalse(x['timelineVisible'])
+   self.assertTrue(x['timelineVisible'])
    self.assertIn('MIT License',x['rights'])
    self.assertIn('Permission is hereby granted',x['i18n']['en']['rights'])
   gepa=BY['gepa-opus46-zeroshot-2026-02-18']

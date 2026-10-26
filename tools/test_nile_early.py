@@ -35,7 +35,7 @@ class NileEarlyTests(unittest.TestCase):
     def test_quantizations_are_not_reasoning_levels_or_a_guessed_representative(self):
         for ident in GEMMA:
             x=BY[ident]
-            self.assertFalse(x['timelineVisible'])
+            self.assertTrue(x['timelineVisible'])
             self.assertEqual(set(x['comparisonIds']),set(GEMMA))
             self.assertEqual(x['comparisonType'],'quantizations')
             for prefix,heading in [('', '同一模型 · 量化与运行环境对照'),('en/','Same model · quantizations and runtimes')]:

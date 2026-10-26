@@ -87,7 +87,18 @@ class DetailPresentationTests(unittest.TestCase):
                     if path=='specimens/':
                         self.assertTrue(card.select_one('.card-cover .source-label'))
                         self.assertFalse(row.select_one('.source-label'))
-                        self.assertFalse(card.select_one('.card-body .card-meta'))
+                        # Topic navigation is newly requested; it must not
+                        # reintroduce duplicated source/model/date metadata.
+                        tags=card.select('.card-body .card-meta')
+                        ident=card.select_one('.card-cover')['href'].rstrip('/').rsplit('/',1)[-1]
+                        item=next(x for x in CAT['items'] if x['id']==ident)
+                        self.assertEqual(len(tags),int('derivative' in item.get('topicTags',[])))
+                        for tag in tags:
+                            self.assertEqual(len(tag.find_all(recursive=False)),1)
+                            link=tag.select_one('a[rel=tag]')
+                            self.assertEqual(link['href'],'/'+prefix+'derivatives/')
+                            self.assertEqual(link.text,'Derivative works' if prefix else '衍生作品')
+                        self.assertFalse(card.select_one('.card-body .source-label, .card-body time'))
 
     def test_detail_only_comparison_movie_remains_folded(self):
         item={'thumbnail':'/media/one-poster.png','media':[

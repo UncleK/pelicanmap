@@ -1,5 +1,6 @@
 """Focused release checks: changed bytes/media, bilingual counts and affected links."""
 import argparse
+import concurrent.futures
 import hashlib
 import json
 import os
@@ -41,6 +42,18 @@ def fetch(url):
         except (urllib.error.URLError, TimeoutError, OSError):
             if attempt == 2:
                 raise
+
+
+def verify_live_jobs(jobs):
+    """Check independent public reads concurrently, retaining every assertion."""
+    def verify(job):
+        kind,name,url,expected=job
+        raw=fetch(url)
+        if kind=='bytes':check_live_bytes(name,raw,expected)
+        else:check_api_record(expected,json.loads(raw))
+        return 1
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        return sum(pool.map(verify,jobs))
 
 
 def check_api_record(expected, actual):
@@ -119,6 +132,7 @@ def check(archive_path, root=ROOT, live=False):
                                check=True, capture_output=True, timeout=180)
     requests = 0
     if live:
+        jobs=[]
         for name in payloads:
             if not name.startswith('site/') or name.startswith('site/downloads/'):
                 continue
@@ -126,14 +140,12 @@ def check(archive_path, root=ROOT, live=False):
                 continue
             # Affected records, changed media/assets and changed data entry points.
             url = BASE+'/'+name.removeprefix('site/')+'?v='+manifest['changed'][name]['sha256'][:12]
-            check_live_bytes(name, fetch(url), manifest['changed'][name])
-            requests += 1
+            jobs.append(('bytes',name,url,manifest['changed'][name]))
         for record in affected:
             for lang in ('zh', 'en'):
-                result = json.loads(fetch(BASE+'/api/v1/specimens/'+record['id']+'?lang='+lang))
                 expected = next(item for item in catalogs[0 if lang == 'zh' else 1]['items'] if item['id'] == record['id'])
-                check_api_record(expected, result)
-                requests += 1
+                jobs.append(('api',record['id'],BASE+'/api/v1/specimens/'+record['id']+'?lang='+lang,expected))
+        requests=verify_live_jobs(jobs)
     return {'changedFiles':len(payloads), 'changedMedia':len(changed_media),
             'affectedRecords':[x['id'] for x in affected], 'checkedLinks':checked_links, 'checkedHtmlPages':checked_pages,
             'counts':catalogs[0]['counts'], 'liveRequests':requests}

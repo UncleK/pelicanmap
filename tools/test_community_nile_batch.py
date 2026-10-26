@@ -14,13 +14,13 @@ NEW=[BY[x] for x in AUDIT['added']]
 class CommunityNileTests(unittest.TestCase):
     def test_independent_units_and_representative_subset(self):
         self.assertEqual(len(NEW),45)
-        self.assertEqual(sum(x['timelineVisible'] for x in NEW),15)
+        self.assertEqual(sum(x['timelineVisible'] for x in NEW),45)
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+45)
         self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+15)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
         runs=[x for x in NEW if x.get('modelRunGroup')=='linuxdo-qwen38-repeated-2026-09-11']
         self.assertEqual(len(runs),29)
-        self.assertTrue(all(not x['timelineVisible'] and len(x['comparisonIds'])==29 for x in runs))
+        self.assertTrue(all(x['timelineVisible'] and len(x['comparisonIds'])==29 for x in runs))
         self.assertEqual({x['generationConditions']['sourceSetting'] for x in runs},{'low','medium','xhigh'})
         self.assertTrue(all(x['generationConditions']['settingMappingUnverified'] for x in runs))
 
@@ -61,7 +61,7 @@ class CommunityNileTests(unittest.TestCase):
                 self.assertFalse(BY[x['parentId']]['caseVisible'])
                 self.assertIn(x['media'][0]['src'],[m['src'] for m in BY[x['parentId']]['media']])
         enhanced=BY['simon-gemini3-deepthink-enhanced-2026-02-12']
-        self.assertFalse(enhanced['timelineVisible'])
+        self.assertTrue(enhanced['timelineVisible'])
         self.assertEqual(enhanced['comparisonType'],'prompt')
         self.assertEqual(len(enhanced['comparisonIds']),2)
         self.assertEqual(CAT['counts']['referenceRecords'],138)

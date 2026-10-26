@@ -4,15 +4,21 @@
 
 **鹈鹕骑车标本馆**收藏大模型代码生成的鹈鹕骑车作品，覆盖各时间段与展示媒介。 保留真实输出、原始出处，也保留失败。代码生成的动画、三维、交互及录屏可以收；直接文生视频不进入主馆，旧记录与原媒体留作资料。
 
-全部作品／普通搜索按作品记录日期最新在前；时间线按型号月份分组，同月优先显示有最新作品的型号，型号内按作品日期排列。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，默认全部展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
+全部作品／普通搜索按作品记录日期最新在前；时间线按型号月份分组，同月优先显示有最新作品的型号，型号内按作品日期排列。核实发布日期另存 `modelTimeline.releaseDate`；缺少依据时用该标签最早计数作品月份暂定 `sortDate`，`estimatedFrom` 保留依据，估算不冒充发布事实，也不显示待核分区。时间线年份筛型号位置，全部作品仍筛作品年份；原始日期／编号保持，同一确切型号默认折叠，可展开。首页的 1988 年电影片段是人类制作的历史前例，不计 AI 作品，也不推定它启发了提示词。
 
 <p align="center">
   <a href="https://pelicanmap.aveniqa.com/specimens/?view=images"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E7%8B%AC%E7%AB%8B%E4%BD%9C%E5%93%81&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=385647&amp;cacheSeconds=300" alt="独立作品"></a>
-  <a href="https://pelicanmap.aveniqa.com/timeline/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Ftimeline%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E6%97%B6%E9%97%B4%E7%BA%BF%E4%BB%A3%E8%A1%A8&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=a64f32&amp;cacheSeconds=300" alt="时间线代表"></a>
+  <a href="https://pelicanmap.aveniqa.com/timeline/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Ftimeline%3Flang%3Den%26limit%3D1&amp;query=%24.total&amp;label=%E5%B8%B8%E8%A7%84%E6%97%B6%E9%97%B4%E7%BA%BF&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=a64f32&amp;cacheSeconds=300" alt="常规时间线"></a>
   <a href="https://unclek.github.io/pelicanmap/zh/#statistics"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpelicanmap.aveniqa.com%2Fapi%2Fv1%2Fspecimens%3Flang%3Den%26limit%3D1&amp;query=%24.updated&amp;label=%E7%9B%AE%E5%BD%95%E6%9B%B4%E6%96%B0&amp;style=for-the-badge&amp;labelColor=eee8dc&amp;color=646957&amp;cacheSeconds=300" alt="目录更新"></a>
 </p>
 
 [在线统计图 ↗](https://unclek.github.io/pelicanmap/zh/#statistics) · 徽章自动读取在线接口，受图片缓存影响。时间线为作品子集，评分资料单列。
+
+<!-- collection-stats:start -->
+馆藏快照（2026-10-26）：**1,165** 件作品 · **1,012** 件常规作品 · **153** 件衍生作品。后两项是总数的分项。 [在线统计](https://pelicanmap.aveniqa.com/api/v1/stats) · 此区由 `npm run build:project` 自动生成。
+
+<a href="https://pelicanmap.aveniqa.com/" lang="zh-CN">中文</a> · [English](https://pelicanmap.aveniqa.com/en/) · [Русский](https://pelicanmap.aveniqa.com/ru/) · [Português (Brasil)](https://pelicanmap.aveniqa.com/pt-BR/)
+<!-- collection-stats:end -->
 
 ## 一个问题，一大群鹈鹕
 
@@ -30,7 +36,7 @@
 
 原始媒体、作者与出处见各记录。模型按来源标注，未独立认证。[收录方法](https://pelicanmap.aveniqa.com/about/)。
 
-全部作品按作品记录日期倒序；时间线按型号月份分组，同月优先显示最新作品；有发布证据时使用首次公开日期，否则按最早来源作品月份暂定位置，不显示待核分区，不改作品日期。同型号内按作品日期排列，默认全部展开，折叠可选。动态预览静音播放；真实补充帧不增加作品数。
+全部作品按作品记录日期倒序；时间线按型号月份分组，同月优先显示最新作品；有发布证据时使用首次公开日期，否则按最早来源作品月份暂定位置，不显示待核分区，不改作品日期。同型号内按作品日期排列，同一确切型号默认折叠，可展开查看全部常规作品与档位；衍生单列。动态预览静音播放；真实补充帧不增加作品数。
 
 ## 数据与接口
 

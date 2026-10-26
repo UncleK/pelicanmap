@@ -6,14 +6,9 @@ function mockFetcher({mismatch=false, unavailable=false}={}) {
   const requests=[];
   const fetcher=async url=>{
     requests.push(url);
-    const p=url.searchParams;
-    assert.equal(p.get('limit'),'1');
-    let total=10;
-    if(url.pathname.endsWith('timeline'))total=6;
-    if(p.has('year'))total={'2023':2,'2024':3,'2025':5}[p.get('year')];
-    if(p.has('source'))total={origin:2,zoo:1,wtf:3,community:4}[p.get('source')];
-    if(mismatch&&p.get('source')==='community')total++;
-    return {ok:!unavailable,json:async()=>({total,updated:'2025-10-02',items:[{date:'2023-06'}]})};
+    assert.equal(url.pathname,'/api/v1/stats');
+    assert.equal(url.search,'');
+    return {ok:!unavailable,json:async()=>({works:10,timeline:6,derivatives:4,counts:{cases:10,timeline:6},updated:'2025-10-02',years:[{key:'2023',total:2},{key:'2024',total:3},{key:'2025',total:5}],sources:[{key:'origin',total:2},{key:'zoo',total:1},{key:'wtf',total:3},{key:'community',total:mismatch?5:4}]})};
   };
   return {fetcher,requests};
 }
@@ -25,7 +20,7 @@ test('live summary uses actual work totals, timeline subset and source/year part
   assert.equal(result.timeline,6);
   assert.deepEqual(result.years.map(row=>row.key),['2023','2024','2025']);
   assert.equal(result.sources.reduce((sum,row)=>sum+row.total,0),10);
-  assert.equal(requests.length,9);
+  assert.equal(requests.length,1);
 });
 
 test('an inconsistent release is rejected instead of showing mixed statistics',async()=>{

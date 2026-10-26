@@ -13,8 +13,8 @@ export function safeMotionSource(src, kind, origin) {
 }
 
 export function bootMotion(main) {
-  const english=document.documentElement.lang==='en';
-  const t=(zh,en)=>english?en:zh;
+  const english=document.documentElement.lang!=='zh-CN';
+  const t=(zh,en)=>english?(globalThis.PelicanI18n?.text(en)||en):zh;
   const preference=matchMedia('(prefers-reduced-motion: reduce)');
   let saved=null;
   try {saved=localStorage.getItem('pelican-autoplay');} catch {}

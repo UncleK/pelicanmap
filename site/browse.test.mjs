@@ -26,6 +26,33 @@ test('timeline defaults to newest and supports old-to-new and year filtering', (
   assert.equal(selectRecords(records, {scope: 'timeline', sort: 'oldest'})[0].date, '2026-09-01');
   assert.equal(selectRecords(records, {scope: 'timeline', year: '2025'}).length, 0);
 });
+
+test('derivatives reuse artwork filters and sorting while excluding context and references', () => {
+  const rows = records.slice(0, 4).map((x,i)=>({...x, topicTags:['derivative'],
+    caseVisible:i!==2, referenceOnly:i===3}));
+  rows.push({...records[4], topicTags:[]});
+  assert.deepEqual(selectRecords(rows,{scope:'derivative'}).map(x=>x.id),['case-1','case-0']);
+  assert.deepEqual(selectRecords(rows,{scope:'derivative',sort:'oldest'}).map(x=>x.id),['case-0','case-1']);
+  assert.equal(selectRecords(rows,{scope:'derivative',year:'2025'}).length,0);
+  assert.equal(selectRecords(rows,{scope:'derivative',format:'svg'}).length,0);
+  assert.equal(selectRecords(rows,{scope:'derivative',q:'Pelican 1'}).length,1);
+  assert.equal(selectRecords(rows).length,3);
+});
+test('reviewed run folding keeps source groups separate and never drops members',()=>{
+  const rows=[
+    {...records[0],id:'a-max',modelRunGroup:'source-a',originalLevel:'max'},
+    {...records[0],id:'a-medium',modelRunGroup:'source-a',originalLevel:'medium'},
+    {...records[0],id:'b-high',modelRunGroup:'source-b',originalLevel:'high',authorDefault:true},
+    {...records[0],id:'b-medium',modelRunGroup:'source-b',originalLevel:'medium'},
+    {...records[0],id:'independent',author:'Other author'}];
+  const groups=browse.groupRunRecords(rows);
+  assert.equal(groups.length,3);
+  assert.equal(groups[0].runMembers[0].id,'a-medium');
+  assert.equal(groups[1].runMembers[0].id,'b-high');
+  assert.deepEqual(new Set(groups.flatMap(x=>x.runMembers.map(y=>y.id))),new Set(rows.map(x=>x.id)));
+  assert.equal(rows[0].id,'a-max');
+  assert.equal(browse.groupRunRecords([rows[0],{...rows[1],modelTimeline:{key:'other-model'}}]).length,2);
+});
 test('timeline keeps model months and groups, with latest works deciding the order within a month',()=>{
   const old={...records[0],id:'late-old',date:'2026-10-02',model:'Gemini 3.8 Flash',modelTimeline:{key:'gemini38',releaseDate:'2026-09-02'}};
   const newer={...records[0],id:'early-new',date:'2026-09-29',model:'GPT-6.1 Sol',modelTimeline:{key:'sol61',releaseDate:'2026-09-29'}};
@@ -210,12 +237,15 @@ test('benchmark references never enter main browsing, grouping or counts',()=>{
   assert.equal(browse.groupRecords([reference],true).length,1);
 });
 
-test('real collage outputs count individually but show seven timeline cards',()=>{
+test('all real collage outputs enter timeline and fold into seven model groups',()=>{
   const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url),'utf8'));
   const members=catalog.items.filter(x=>x.parentId==='reddit-emu001-codex-pelican-matrix-2026-09-26');
   assert.equal(selectRecords(members).length,35);
-  assert.equal(selectRecords(members,{scope:'timeline'}).length,7);
-  assert.ok(selectRecords(members,{scope:'timeline'}).every(x=>x.originalLevel==='medium'));
+  assert.equal(selectRecords(members,{scope:'timeline'}).length,35);
+  const groups=browse.groupModelRecords(selectRecords(members,{scope:'timeline'}));
+  assert.equal(groups.length,7);
+  assert.ok(groups.every(group=>browse.groupRunRecords(group.modelMembers)[0].runMembers[0].originalLevel==='medium'));
+  assert.equal(groups.reduce((n,x)=>n+x.modelMembers.length,0),35);
   assert.equal(selectRecords(catalog.items).length,catalog.counts.cases);
   assert.equal(selectRecords(catalog.items,{scope:'timeline'}).length,catalog.counts.timeline);
   const gemini=selectRecords(catalog.items,{scope:'timeline',family:'Gemini',sort:'oldest'});

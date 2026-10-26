@@ -741,5 +741,124 @@
     "fullDocument": true,
     "reviewEvidence": "2026-10-15-benchmark-increment/review.json",
     "safety": "Complete self-contained SVG SMIL HTML; no scripts, external dependencies, network, storage, eval or navigation. Two actual Chrome captures verify original spokes, leg and landscape motion. No interactive classification."
+  },
+  "ldo-astralyn-kibitz-coastal-pelican-2026-10-22": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/3056564/14",
+    "sourceCodeUrl": "https://01a1616c-62e6-719e-b37c-ed1ade0adf95.arena.site/?embed=true",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/ldo-astralyn-kibitz-coastal-pelican-2026-10-22/",
+    "sha256": "2a36167ebd487b29e1466c52df54f37ef1249cbc26290ce4ebea0a77a49895fe",
+    "sourceBytes": 25237,
+    "fullDocument": true,
+    "reviewEvidence": "2026-10-23-kimi-selected-intake/review.json",
+    "safety": "Complete self-contained original HTML/CSS/JS, byte-exact on isolated origin. No external dependencies, network, storage, eval, frame or navigation. Clipboard write and SVG blob download require explicit source buttons. Continuous spokes and leg motion verified with actual frames and SVG motion matrices."
+  },
+  "wallaby-a-cycling-pelican-2026-10-24": {
+    "reviewed": true,
+    "sourceUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+    "sourceCodeUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+    "sha256": "a7c6a39008e719a44ea238c10835b94a19b6d5dce8dcdce6dbba2d3488a01ba5",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/wallaby-a-pelican-2026-10-24/",
+    "evidence": [
+      "https://wallabytoken.com/blog/p/pelican-bicycle"
+    ],
+    "reviewedBy": "maintaining-agent",
+    "motionVerified": true,
+    "sourceArtifactPath": "demos/all-works-motion/wallaby-a-pelican-2026-10-24/source-article.html.txt",
+    "sourceArtifactSha256": "2ec787b76f881470c85496f524b613a38374a456665f929891db34c6abb10ebd",
+    "notes": {
+      "zh": "作者公开同一题的完整动画模块。保留完整原文章与每件原 figure 内全部 SVG、CSS 和 JS，不截成丢失外部运动的 SVG。文字与注释由上游翻译过，声明保留。原作持续运动已实测；采用文章公开日，作者描述的生成日另留原文。 型号按来源标注，未独立认证。 展示外层按完整原页面画布等比例缩放，避免详情框裁掉车轮；原文和模型代码保持。",
+      "en": "Complete source article and complete original figure module retained, including surrounding SVG, CSS and JavaScript. Upstream localized text/comments are disclosed. Continuous motion verified in a real browser. Date uses article publication; author-described generation dates remain in the source. Model labels are source-reported and not independently authenticated. A separate outer frame scales the complete original page proportionally so the bicycle wheels remain visible; original text and model code are unchanged."
+    },
+    "framingReview": {
+      "canonicalViewport": {
+        "width": 900,
+        "height": 700
+      },
+      "originalDisplayedDocumentSha256": "09078616826c9ea826910df1a57db4f80269ec51d74aae82818ddb7988030990",
+      "preservedDisplayedDocument": "demos/all-works-motion/wallaby-a-pelican-2026-10-24/display-source.html"
+    }
+  },
+  "wallaby-b-cycling-pelican-2026-10-24": {
+    "reviewed": true,
+    "sourceUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+    "sourceCodeUrl": "https://wallabytoken.com/blog/p/pelican-bicycle",
+    "sha256": "a7c6a39008e719a44ea238c10835b94a19b6d5dce8dcdce6dbba2d3488a01ba5",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/wallaby-b-pelican-2026-10-24/",
+    "evidence": [
+      "https://wallabytoken.com/blog/p/pelican-bicycle"
+    ],
+    "reviewedBy": "maintaining-agent",
+    "motionVerified": true,
+    "sourceArtifactPath": "demos/all-works-motion/wallaby-b-pelican-2026-10-24/source-article.html.txt",
+    "sourceArtifactSha256": "2ec787b76f881470c85496f524b613a38374a456665f929891db34c6abb10ebd",
+    "notes": {
+      "zh": "作者公开同一题的完整动画模块。保留完整原文章与每件原 figure 内全部 SVG、CSS 和 JS，不截成丢失外部运动的 SVG。文字与注释由上游翻译过，声明保留。原作持续运动已实测；采用文章公开日，作者描述的生成日另留原文。 型号按来源标注，未独立认证。 展示外层按完整原页面画布等比例缩放，避免详情框裁掉车轮；原文和模型代码保持。",
+      "en": "Complete source article and complete original figure module retained, including surrounding SVG, CSS and JavaScript. Upstream localized text/comments are disclosed. Continuous motion verified in a real browser. Date uses article publication; author-described generation dates remain in the source. Model labels are source-reported and not independently authenticated. A separate outer frame scales the complete original page proportionally so the bicycle wheels remain visible; original text and model code are unchanged."
+    },
+    "framingReview": {
+      "canonicalViewport": {
+        "width": 900,
+        "height": 700
+      },
+      "originalDisplayedDocumentSha256": "311d3919b7b93c23ad05dab81b9980f5b4ca72d7a06d9a23c27650f28b07ea0b",
+      "preservedDisplayedDocument": "demos/all-works-motion/wallaby-b-pelican-2026-10-24/display-source.html"
+    }
+  },
+  "x-aidad-kimi-k3-1-pro-standard-2026-10-24": {
+    "reviewed": true,
+    "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+    "sourceCodeUrl": "https://zovk7ign5ex5m.ok.kimi.link/",
+    "sha256": "1cd860b8b63e33119f452fae61470768d19f1d5dce5931426489f2d11f442253",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/aidad-kimi-standard-2026-10-24/",
+    "evidence": [
+      "https://x.com/zstmfhy/status/2113804589174862231",
+      "https://zovk7ign5ex5m.ok.kimi.link/",
+      "https://video.twimg.com/amplify_video/2113800251136237568/vid/avc1/1672x1080/B6Z9WZfGOF1zRRaC.mp4?tag=29"
+    ],
+    "reviewedBy": "maintaining-agent",
+    "motionVerified": true,
+    "sourceArtifactPath": "demos/all-works-motion/aidad-kimi-standard-2026-10-24/original.html.txt",
+    "sourceArtifactSha256": "4889f8df27891a0254b76efd68c70d373dbe19916c99d4da493eb55625d55f05",
+    "notes": {
+      "zh": "作者明确相同 HTML／SVG 提示词下的标准与极致两个输出。完整原 HTML、CSS、JS、原录屏及发布 SDK 原件保留；SDK 是平台发布组件，动画本体自包含。隔离域禁止外部 SDK 执行，保留原文不改写；主体持续运动已实测。保留来源模式名称，不猜 API effort 或一次生成。 型号按来源标注，未独立认证。 展示外层按完整原页面画布等比例缩放，避免详情框裁掉车轮；原文和模型代码保持。",
+      "en": "Two source-labelled outputs from the same HTML/SVG prompt: Standard and Ultimate. Complete original HTML/CSS/JS, recordings and publication SDK retained. Animation itself is self-contained; the isolated origin blocks the external publication SDK without rewriting original source. Continuous subject motion verified. Source mode names are not guessed API effort or one-shot settings. Model labels are source-reported and not independently authenticated. A separate outer frame scales the complete original page proportionally so the bicycle wheels remain visible; original text and model code are unchanged."
+    },
+    "framingReview": {
+      "canonicalViewport": {
+        "width": 1200,
+        "height": 1100
+      },
+      "originalDisplayedDocumentSha256": "dcdb68c79f98fb92cce3d0ad9905c3b1da474bdee9d7f3df5e6dddeb312479d6",
+      "preservedDisplayedDocument": "demos/all-works-motion/aidad-kimi-standard-2026-10-24/display-source.html"
+    }
+  },
+  "x-aidad-kimi-k3-1-pro-max-2026-10-24": {
+    "reviewed": true,
+    "sourceUrl": "https://x.com/zstmfhy/status/2113804589174862231",
+    "sourceCodeUrl": "https://b5gk72ljl55nc.ok.kimi.link/",
+    "sha256": "2c1a6443873ebdcca122ef6477c422adf40ffeec60e195128c4bb82e875da704",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/aidad-kimi-max-2026-10-24/",
+    "evidence": [
+      "https://x.com/zstmfhy/status/2113804589174862231",
+      "https://b5gk72ljl55nc.ok.kimi.link/",
+      "https://video.twimg.com/amplify_video/2113800257574506496/vid/avc1/1804x1080/RwHlKG0DAPs6Oj90.mp4?tag=29"
+    ],
+    "reviewedBy": "maintaining-agent",
+    "motionVerified": true,
+    "sourceArtifactPath": "demos/all-works-motion/aidad-kimi-max-2026-10-24/original.html.txt",
+    "sourceArtifactSha256": "c0997bcb7b12c0daaae564ed948ff1f57fad29e7001e4fc570ea0dfc11fb0c95",
+    "notes": {
+      "zh": "作者明确相同 HTML／SVG 提示词下的标准与极致两个输出。完整原 HTML、CSS、JS、原录屏及发布 SDK 原件保留；SDK 是平台发布组件，动画本体自包含。隔离域禁止外部 SDK 执行，保留原文不改写；主体持续运动已实测。保留来源模式名称，不猜 API effort 或一次生成。 型号按来源标注，未独立认证。 展示外层按完整原页面画布等比例缩放，避免详情框裁掉车轮；原文和模型代码保持。",
+      "en": "Two source-labelled outputs from the same HTML/SVG prompt: Standard and Ultimate. Complete original HTML/CSS/JS, recordings and publication SDK retained. Animation itself is self-contained; the isolated origin blocks the external publication SDK without rewriting original source. Continuous subject motion verified. Source mode names are not guessed API effort or one-shot settings. Model labels are source-reported and not independently authenticated. A separate outer frame scales the complete original page proportionally so the bicycle wheels remain visible; original text and model code are unchanged."
+    },
+    "framingReview": {
+      "canonicalViewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "originalDisplayedDocumentSha256": "01f819e1f309e2e18b3596d7b717d28cd6c010b98516eccd6c0423e7fd8027be",
+      "preservedDisplayedDocument": "demos/all-works-motion/aidad-kimi-max-2026-10-24/display-source.html"
+    }
   }
 }

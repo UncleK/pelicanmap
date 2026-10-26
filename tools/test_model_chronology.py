@@ -9,7 +9,7 @@ from model_chronology import apply_model_chronology,ordered_artworks,ordered_tim
 from detail_frames import apply_detail_frames
 from historical_context import HISTORY_ID
 from generation_scope import DIRECT_VIDEO_IDS
-from archival_test_assertions import reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration
+from archival_test_assertions import reviewed_video_context_change, reviewed_swe_motion_restoration, reviewed_swe_addition_restoration, reviewed_derivative_classification_change, reviewed_all_classic_timeline_change
 
 ROOT=Path(__file__).resolve().parents[1]
 CAT=json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
@@ -60,6 +60,15 @@ class ModelChronologyTests(unittest.TestCase):
                 self.assertTrue(raw['ingestion']['evidence'])
                 self.assertEqual(len(raw['reviewedModelNames']),1)
                 for key in ['id','model','author','date','sourceUrl','media','rights']:
+                    repair=json.loads((ROOT/'site/record-overrides.json').read_text(encoding='utf8')).get(item['id'])
+                    if repair and key in repair['fields']:
+                        self.assertEqual(repair['sourceUrl'],raw['sourceUrl'])
+                        self.assertEqual(item[key],repair['fields'][key])
+                        if key=='media':
+                            self.assertLessEqual({m['src'] for m in raw['media']},{m['src'] for m in item['media']})
+                            for media in item['media']:
+                                self.assertEqual(hashlib.sha256((ROOT/'public-site'/media['src'].lstrip('/')).read_bytes()).hexdigest(),media['sha256'])
+                        continue
                     self.assertEqual(item[key],raw[key],(item['id'],key))
                 continue
             previous=old[item['id']]
@@ -77,6 +86,15 @@ class ModelChronologyTests(unittest.TestCase):
                 if item['id'] in load_reviews() and 'motionPreview' not in previous:
                     self.assertTrue(reviewed_swe_motion_restoration(self,previous,item,'motionPreview'))
                     added_fields.add('motionPreview')
+                if 'topicTags' in item and 'topicTags' not in previous:
+                    from case_policy import is_derivative
+                    if not reviewed_derivative_classification_change(self,previous,item,'topicTags'):
+                        self.assertTrue(is_derivative({**item,'topicTags':[]}))
+                    self.assertEqual(item['topicTags'],['derivative'])
+                    added_fields.add('topicTags')
+                if 'originalMetadata' in item and 'originalMetadata' not in previous:
+                    self.assertTrue(reviewed_derivative_classification_change(self,previous,item,'originalMetadata'))
+                    added_fields.add('originalMetadata')
                 self.assertEqual(set(strip(item))-set(strip(previous)), added_fields)
                 continue
             allowed={'recordRepair'}
@@ -94,13 +112,15 @@ class ModelChronologyTests(unittest.TestCase):
             self.assertTrue(old[ident]['caseVisible'] and old[ident]['timelineVisible'])
             self.assertFalse(current[ident]['caseVisible'] or current[ident]['timelineVisible'])
         self.assertEqual(CAT['counts']['cases'],before['counts']['cases']-4+sum(bool(current[key].get('caseVisible')) for key in newly_reviewed))
-        self.assertEqual(CAT['counts']['timeline'],before['counts']['timeline']-4+sum(bool(current[key].get('timelineVisible')) for key in newly_reviewed))
+        from case_policy import is_derivative
+        self.assertEqual(CAT['counts']['timeline'],sum(bool(x.get('caseVisible')) and not x.get('referenceOnly') and not is_derivative(x) for x in current.values()))
         self.assertEqual(CAT['counts']['referenceRecords'],before['counts']['referenceRecords'])
         for key,previous in old.items():
             if key in DIRECT_VIDEO_IDS:
                 continue  # Original facts and exact user-requested role checked above.
             self.assertEqual(current[key].get('caseVisible'),previous.get('caseVisible'),key)
-            self.assertEqual(current[key].get('timelineVisible'),previous.get('timelineVisible'),key)
+            if not reviewed_derivative_classification_change(self,previous,current[key],'timelineVisible') and not reviewed_all_classic_timeline_change(self,previous,current[key],'timelineVisible'):
+                self.assertEqual(current[key].get('timelineVisible'),previous.get('timelineVisible'),key)
         numbered=sorted([x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')],key=lambda x:(x['date'],x['id']))
         self.assertEqual([x['caseNumber'] for x in numbered],list(range(1,len(numbered)+1)))
     def test_release_conflict_and_explicit_snapshots_are_not_guessed(self):
@@ -176,7 +196,7 @@ class ModelChronologyTests(unittest.TestCase):
         timeline=[x for x in CAT['items'] if x.get('timelineVisible') and not x.get('referenceOnly')]
         for prefix in ['', 'en/']:
             soup=BeautifulSoup((ROOT/'public-site'/prefix/'timeline/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertFalse(soup.select_one('[data-model-collapse]').has_attr('checked'))
+            self.assertTrue(soup.select_one('[data-model-collapse]').has_attr('checked'))
             expected=[x['path'] for x in ordered_timeline(timeline)[:24]]
             actual=[a['href'].removeprefix('/en') for a in soup.select('[data-results] .card-cover')]
             self.assertEqual(actual,expected)

@@ -28,13 +28,14 @@ class GithubDynamicContinuationTests(unittest.TestCase):
             self.assertTrue(x['generationConditions']['generationDateUnknown'])
             self.assertFalse(x.get('referenceOnly') or x.get('demoUrl') or x.get('interactive'))
             self.assertEqual(x['modelClaimStatus'],'source-reported-not-independently-authenticated')
-        self.assertEqual(sum(BY[i]['timelineVisible'] for i in A['added']),2)
+        self.assertTrue(all(BY[i]['timelineVisible'] for i in A['added']))
         for ident in [A['added'][1],A['added'][3]]:
             x=BY[ident]
             self.assertEqual(x['model'],'grok-4.6')
             self.assertEqual(x['modelRunGroup'],'cat-grok46-high-2026-10-02')
             self.assertEqual(x['comparisonType'],'repeat-runs')
-            self.assertFalse(x['timelineVisible'] or x.get('authorDefault'))
+            self.assertTrue(x['timelineVisible'])
+            self.assertFalse(x.get('authorDefault'))
 
     def test_media_and_decoded_pixel_evidence(self):
         self.assertEqual(len(A['newOriginals']),8)

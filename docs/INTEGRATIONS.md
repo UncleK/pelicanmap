@@ -33,7 +33,7 @@ After the normal initialization lifecycle, discover `tools/list` and `resources/
 
 ## Counting, media and citations
 
-- `counts.cases` counts independent works; `counts.timeline` is a representative subset, never an additional total. Raw `items.length` is not the work count.
+- `counts.cases` counts independent works; `counts.timeline` is a classic-work subset, never an additional total. Raw `items.length` is not the work count.
 - Default search excludes `referenceOnly` Benchmark rows and `caseVisible=false` context archives. Stable-ID lookup and complete [JSON](https://pelicanmap.aveniqa.com/en/data/catalog.json)/[CSV](https://pelicanmap.aveniqa.com/en/data/catalog.csv) retain them. Inspect `caseVisible`, `timelineVisible` and `referenceOnly`.
 - HF/OpenEnv shares one separate reference collection. Scores are upstream outputs, not a Pelican Map ranking. Source-reported models are not independently authenticated.
 - `motionPreview` is real moving media or an existing isolated demo. `detailFrames` are lossless real supplemental frames, timestamped when timing is verifiable, otherwise indexed; they are not additional works. Original rights and licenses remain in force.
