@@ -119,12 +119,15 @@ def statistics(catalog):
         'sources':[{'key':k,'total':v} for k,v in sorted(sources.items())]}
 
 def language_links(path,lang):
-    primary='en' if lang!='en' else 'zh'
     def anchor(key):
         item=LOCALES[key]
-        return f'<a data-language href="{locale_path(path,key)}" hreflang="{item["tag"]}" lang="{item["tag"]}">{html.escape(item["name"])}</a>'
+        current=' aria-current="true"' if key==lang else ''
+        check='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>' if key==lang else ''
+        return f'<a data-language href="{locale_path(path,key)}" hreflang="{item["tag"]}" lang="{item["tag"]}"{current}><span>{html.escape(item["name"])}</span>{check}</a>'
     label={'zh':'语言','en':'Languages','ru':'Языки','pt-BR':'Idiomas'}[lang]
-    return anchor(primary)+f'<details class="language-menu"><summary aria-label="{label}" title="{label}">🌐</summary><div>'+''.join(anchor(key) for key in LOCALES if key!=lang)+'</div></details>'
+    globe='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg>'
+    chevron='<svg class="language-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>'
+    return f'<details class="language-menu"><summary aria-label="{label}" title="{label}">{globe}{chevron}</summary><div>'+''.join(anchor(key) for key in LOCALES)+'</div></details>'
 
 def alternates(path):
     return ''.join(f'<link rel="alternate" hreflang="{item["tag"]}" href="{BASE+locale_path(path,key)}">' for key,item in LOCALES.items())+f'<link rel="alternate" hreflang="x-default" href="{BASE+path}">'
@@ -135,8 +138,7 @@ def shared_head(text,path,lang,version):
     text=re.sub(r'<details class="language-menu">.*?</details>','',text,flags=re.S)
     text=re.sub(r'<a\b[^>]*\bdata-language(?:="[^"]*")?[^>]*>.*?</a>','',text,flags=re.S)
     menu=language_links(path,lang)
-    primary,dropdown=menu.split('<details',1)
-    text=text.replace('</nav>',primary+'</nav><details'+dropdown,1)
+    text=text.replace('</nav>','</nav>'+menu,1)
     if '/assets/locale-data.js?' not in text:
         # HTML serialization can reorder src/defer attributes in added editions.
         text=re.sub(r'(<script\b(?=[^>]*\bsrc="/assets/site\.js)[^>]*>)',lambda m:f'<script src="/assets/locale-data.js?v={version}" defer></script>'+m[0],text,count=1)

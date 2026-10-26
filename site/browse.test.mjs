@@ -22,6 +22,27 @@ test('model dialog membership keeps all reviewed runs with the source default fi
   assert.ok(groups.every(x=>browse.modelGroupMembers(x)[0].originalLevel==='medium'));
 });
 
+test('dialog settings retain reviewed efforts and runs without inventing them from grades or titles',()=>{
+  const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
+  const members=catalog.items.filter(x=>x.parentId==='reddit-emu001-codex-pelican-matrix-2026-09-26' && x.model==='gpt-6-luna');
+  assert.deepEqual(new Set(members.map(browse.modelWorkSetting)),new Set(['low','medium','high','xhigh','max']));
+  for(const view of ['standard','compact','images'])for(const x of members){
+    const html=browse.renderCard(x,{view,timeline:true,modelDetails:true});
+    assert.ok(html.includes('>'+x.originalLevel+'</span>'));
+    assert.ok(html.includes(x.path));
+    assert.ok(html.includes(x.thumbnail));
+  }
+  const run=catalog.items.find(x=>x.id==='x-cat-grok46-run2-2026-10-02');
+  assert.equal(browse.modelWorkSetting(run),'high · run 2');
+  for(const originalLevel of ['L0','L1','L0-L1','L2-offaxis','offaxis','meta','']){
+    const x={...members[0],originalLevel,title:'A high-looking result, source file 3'};
+    assert.equal(browse.modelWorkSetting(x),'');
+    assert.ok(browse.renderCard(x,{timeline:true,modelDetails:true,english:true}).includes('Setting not recorded'));
+  }
+  const untrusted={...members[0],originalLevel:'high <script>alert(1)</script>'};
+  assert.ok(!browse.renderCard(untrusted,{timeline:true,modelDetails:true}).includes('<script>'));
+});
+
 test('folded model card preserves the original preview and links without adding inline works',()=>{
   const items=records.slice(0,3).map((x,i)=>({...x,thumbnail:'/media/original-'+i+'.png',path:'/specimens/'+x.id+'/',modelNames:['Sol'],caseNumber:100+i}));
   const group=browse.groupModelRecords(items)[0];

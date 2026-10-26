@@ -21,7 +21,8 @@ def check_capture(item):
         soup=BeautifulSoup(get(prefix+item['path']),'html.parser')
         image=soup.select_one('.detail-gallery img')
         assert image and image['src']==item['media'][0]['src'],item['id']
-        assert soup.select_one('a[data-language]')['href']==(item['path'] if prefix else '/en'+item['path'])
+        target='zh-CN' if prefix else 'en'
+        assert soup.select_one(f'.language-menu a[data-language][hreflang="{target}"]')['href']==(item['path'] if prefix else '/en'+item['path'])
     assert get(item['media'][0]['src']).startswith(b'\xff\xd8\xff'),item['id']
     return item['id']
 

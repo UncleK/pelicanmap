@@ -22,11 +22,13 @@ export function bootMotion(main) {
   const managed=new Map(), targets=new Map();
   const toggle=document.createElement('button');
   toggle.type='button';toggle.className='floating-motion';toggle.dataset.motionToggle='';
+  toggle.innerHTML='<span class="motion-label"></span><svg class="motion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="motion-pause" d="M8 5v14M16 5v14"/><path class="motion-play" d="m8 5 11 7-11 7Z"/></svg>';
+  const caption=toggle.querySelector('.motion-label');
   toggle.hidden=true;document.body.append(toggle);
   function label() {
     toggle.hidden=!managed.size;
     const text=enabled?t('Ⅱ 暂停动态预览','Ⅱ Pause motion'):t('▶ 播放动态预览','▶ Play motion');
-    if(toggle.textContent!==text)toggle.textContent=text;
+    if(caption.textContent!==text)caption.textContent=text;
     toggle.setAttribute('aria-pressed',String(enabled));
     toggle.setAttribute('aria-label',enabled?t('自动播放已开启；暂停本页动态媒体','Autoplay is on; pause moving media on this page'):t('自动播放已暂停；播放本页动态媒体','Autoplay is paused; play moving media on this page'));
   }

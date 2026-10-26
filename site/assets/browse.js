@@ -175,16 +175,26 @@ function bootAdaptiveCardRows(main) {
 }
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
-function cardFooter(x, english, timeline=false) {
+export function modelWorkSetting(x) {
+  const value=String(x.originalLevel||'').trim();
+  // Historical catalog grades are not model settings or reasoning effort.
+  return /^(?:L\d(?:-L\d)?(?:-offaxis)?|offaxis|meta)$/i.test(value)?'':value;
+}
+function settingCaption(x,english) {
+  const t=(zh,en)=>english?(globalThis.PelicanI18n?.text(en)||en):zh;
+  const value=modelWorkSetting(x)||t('档位未记录','Setting not recorded');
+  return `<span class="model-work-setting" title="${esc(t('来源设置／运行','Source settings / run')+': '+value)}">${esc(value)}</span>`;
+}
+function cardFooter(x, english, timeline=false, modelDetails=false) {
   const names=x.modelNames?.length?x.modelNames:[english?'Model not specified':'模型未标注'];
   const number=x.caseNumber ? '#'+x.caseNumber : (english?'Source archive':'来源存档');
   const date=x.date || (english?'Date not recorded':'日期未记录');
   const dateLabel=date+(x.datePrecision==='month'?(english?' · exact day unknown':' · 具体日未知'):'');
   const time=`<time class="${timeline?'timeline-date':'card-date'}" datetime="${esc(x.date)}" title="${esc(dateLabel)}" aria-label="${esc(dateLabel)}">${esc(date)}</time>`;
-  const models=timeline?`<a href="${esc(x.path)}">${esc(names[0])}</a>`:names.map(name=>`<span class="model-name">${esc(name)}</span>`).join('');
+  const models=timeline?`<a href="${esc(x.path)}">${esc(names[0])}</a>${modelDetails?settingCaption(x,english):''}`:names.map(name=>`<span class="model-name">${esc(name)}</span>`).join('');
   return `<div class="${timeline?'timeline-meta':'card-foot'}"><span class="case-number" aria-label="${esc(number)}">${esc(number)}</span><div class="${timeline?'timeline-model':'card-models'}" tabindex="0" aria-label="${english?'Source-labelled models':'来源标注的模型'}" title="${esc(x.model)}">${models}</div>${time}</div>`;
 }
-export function renderCard(x, {view='standard', english=false, timeline=false} = {}) {
+export function renderCard(x, {view='standard', english=false, timeline=false, modelDetails=false} = {}) {
   const t = (zh,en) => english ? (globalThis.PelicanI18n?.text(en)||en) : zh;
   if (x.isBatch) {
     const batch=x.batch;
@@ -200,9 +210,9 @@ export function renderCard(x, {view='standard', english=false, timeline=false} =
   if(kind==='video')image+=`<video class="motion-layer" data-motion-kind="video" data-motion-src="${src}" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>`;
   if(kind==='iframe')image+=`<span class="motion-layer motion-frame"><iframe data-motion-kind="iframe" data-motion-src="${src}" title="${esc(x.title)}" loading="lazy" scrolling="no" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" aria-hidden="true" tabindex="-1"></iframe></span>`;
   const cover = `<a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}${view==='images'?'':`<span class="media-label">${esc(x.formatLabel)}</span>${x.sourceLabel?`<span class="source-label" title="${esc(x.sourceLabel)}">${esc(x.sourceLabel)}</span>`:''}`}</a>`;
-  if (view === 'images') return `<article class="card">${cover}</article>`;
+  if (view === 'images') return `<article class="card">${cover}${modelDetails?`<div class="model-work-caption">${settingCaption(x,english)}</div>`:''}</article>`;
   if (timeline) {
-    return `<article class="card timeline-card"><a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}</a>${cardFooter(x,english,true)}</article>`;
+    return `<article class="card timeline-card"><a class="card-cover" href="${esc(x.path)}" aria-label="${esc(x.title)}">${image}</a>${cardFooter(x,english,true,modelDetails)}</article>`;
   }
   return `<article class="card specimen-card">${cover}<div class="card-body" tabindex="0" aria-label="${t('作品说明','Work description')}"><h3><a href="${esc(x.path)}">${esc(x.title)}</a></h3>${x.topicTags?.includes("derivative")?`<div class="card-meta"><a href="${english?"/en":""}/derivatives/" rel="tag">${t("衍生作品","Derivative works")}</a></div>`:""}<p class="note">${esc(x.notes || x.author)}</p></div>${cardFooter(x,english)}</article>`;
 }
@@ -214,7 +224,7 @@ export function modelGroupMembers(group) {
 export function renderModelCard(group, {view='standard',english=false,index=0}={}) {
   const members=modelGroupMembers(group),primary=members[0];
   const label=(english?(globalThis.PelicanI18n?.text(`View all ${members.length} works of this version`)||`View all ${members.length} works of this version`):`查看该型号的全部 ${members.length} 件作品`)+' · '+primary.model;
-  const button=`<button type="button" class="model-more" data-model-more="${index}" aria-haspopup="dialog" aria-label="${esc(label)}" title="${esc(label)}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+  const button=`<button type="button" class="model-more" data-model-more="${index}" aria-haspopup="dialog" aria-label="${esc(label)}" title="${esc(label)}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
   return renderCard(primary,{view,english,timeline:true})
     .replace('<article class="','<article data-model-group="'+esc(modelKey(group))+'" class="model-more-card ')
     .replace('</article>',button+'</article>');
@@ -223,7 +233,7 @@ export function renderModelCard(group, {view='standard',english=false,index=0}={
 function modelWorksDialog(root,t) {
   const dialog=document.createElement('dialog');
   dialog.className='model-dialog';dialog.setAttribute('aria-labelledby','model-dialog-title');
-  dialog.innerHTML=`<header class="model-dialog-head"><div><h2 id="model-dialog-title"></h2><p data-model-dialog-count></p></div><div class="model-dialog-actions"><button type="button" class="model-dialog-close" data-model-dialog-close autofocus aria-label="${t('关闭浮窗','Close dialog')}" title="${t('关闭浮窗','Close dialog')}">×</button></div></header><div class="model-dialog-body"></div>`;
+  dialog.innerHTML=`<header class="model-dialog-head"><div><h2 id="model-dialog-title"></h2><p data-model-dialog-count></p></div><div class="model-dialog-actions"><button type="button" class="model-dialog-close" data-model-dialog-close autofocus aria-label="${t('关闭浮窗','Close dialog')}" title="${t('关闭浮窗','Close dialog')}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div></header><div class="model-dialog-body"></div>`;
   root.append(dialog);
   const body=dialog.querySelector('.model-dialog-body'),cache=new Map();
   let trigger,position,motionHome;
@@ -248,7 +258,7 @@ function modelWorksDialog(root,t) {
     let collection=cache.get(key);
     if(!collection){
       collection=document.createElement('div');collection.className='model-dialog-collection';
-      collection.innerHTML='<div class="grid">'+members.map(x=>renderCard(x,{view,english,timeline:true})).join('')+'</div>';
+      collection.innerHTML='<div class="grid">'+members.map(x=>renderCard(x,{view,english,timeline:true,modelDetails:true})).join('')+'</div>';
       body.append(collection);cache.set(key,collection);
     }
     for(const child of body.children)child.hidden=child!==collection;

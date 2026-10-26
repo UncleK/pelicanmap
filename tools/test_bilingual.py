@@ -32,6 +32,7 @@ class BilingualTests(unittest.TestCase):
                 alternates={x['hreflang']:x['href'] for x in soup.select('link[hreflang]')}
                 self.assertEqual(set(alternates),{'zh-CN','en','ru','pt-BR','x-default'})
                 self.assertIn('/en/',alternates['en'])
-                self.assertEqual(soup.select_one('a[data-language]')['href'],('/'+rel.removesuffix('index.html')) if prefix else '/en/'+rel.removesuffix('index.html'))
+                target='zh-CN' if prefix else 'en'
+                self.assertEqual(soup.select_one(f'.language-menu a[data-language][hreflang="{target}"]')['href'],('/'+rel.removesuffix('index.html')) if prefix else '/en/'+rel.removesuffix('index.html'))
 
 if __name__=='__main__': unittest.main()

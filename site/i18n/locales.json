@@ -190,7 +190,9 @@
       "Before AI, a pelican was already riding a bicycle": "Пеликан ездил на велосипеде ещё до ИИ",
       "Follow @Kedashu on X": "@Kedashu в X",
       "Explore the work, prompt category and original source.": "Работа, категория запроса и исходный источник.",
-      "Close dialog": "Закрыть окно"
+      "Close dialog": "Закрыть окно",
+      "Setting not recorded": "Настройка не указана",
+      "Source settings / run": "Настройки / запуск по источнику"
     },
     "editorial": {
       "about": {
@@ -408,7 +410,9 @@
       "Before AI, a pelican was already riding a bicycle": "Antes da IA, um pelicano já andava de bicicleta",
       "Follow @Kedashu on X": "Siga @Kedashu no X",
       "Explore the work, prompt category and original source.": "Explore a obra, a categoria do prompt e a fonte original.",
-      "Close dialog": "Fechar janela"
+      "Close dialog": "Fechar janela",
+      "Setting not recorded": "Configuração não registrada",
+      "Source settings / run": "Configurações / execução da fonte"
     },
     "editorial": {
       "about": {
