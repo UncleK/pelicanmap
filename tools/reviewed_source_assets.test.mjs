@@ -25,3 +25,14 @@ test('unreviewed asset does not acquire a cache exemption',()=>{
  assert.equal(reviewedSourceAsset({url:'https://example.com/image.webp'}),null);
  assert.throws(()=>reviewedSourceAsset({url:'https://example.com/image.webp',reviewedSourceAsset:{path:row.path,sha256:row.sha256}}));
 });
+
+test('LCZ preview exemption remains bound to one public response and source model',()=>{
+ const entry=rows.find(x=>x.url==='https://upload.lcz.me/uploads/466abd95-6e86-4c50-b05f-e32bdfb1d102.jpeg');
+ const media={url:entry.url,reviewedSourceAsset:{path:entry.path,sha256:entry.sha256}};
+ const source={...entry.bindings[0],evidence:[entry.bindings[0].sourceUrl,entry.url]};
+ assert.equal(validateReviewedSourceAsset(source,media),true);
+ for(const changed of [{...source,model:'Gemini'}, {...source,sourceUrl:'https://lcz.me/topic/2591'}, {...source,evidence:[]}])
+   assert.throws(()=>validateReviewedSourceAsset(changed,media));
+ assert.throws(()=>reviewedSourceAsset({...media,url:entry.url+'?different=1'}));
+ assert.throws(()=>verifyReviewedSourceBytes(entry,Buffer.from('changed response')));
+});

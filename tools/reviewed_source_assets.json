@@ -446,5 +446,17 @@
         "model": "Kimi K3.1 Pro"
       }
     ]
+  },
+  {
+    "url": "https://upload.lcz.me/uploads/466abd95-6e86-4c50-b05f-e32bdfb1d102.jpeg",
+    "path": "pelican-archive/research/2026-10-29-daily-intake/lcz-root-3-original.jpeg",
+    "sha256": "9f6ed397ea1f19e26f1b6ba415a13cee2310965f3083e1b5c01d0989d2e24561",
+    "bytes": 159361,
+    "bindings": [
+      {
+        "sourceUrl": "https://lcz.me/topic/2590",
+        "model": "Qwen3.8 Flash-Next"
+      }
+    ]
   }
 ]

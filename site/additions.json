@@ -72745,5 +72745,2304 @@
     },
     "sourcePublicationDate": "2026-10-27",
     "sourceResponseTimestamp": "2026-10-27T18:13:57+00:00"
+  },
+  {
+    "id": "x-xiangxiang103-terra-extreme-svg-2026-10-27",
+    "originalId": "x-xiangxiang103-terra-extreme-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 极高",
+    "model": "GPT-6.1 Terra",
+    "author": "雨哥向前冲 (@xiangxiang103)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项公开四次 SVG 动画测试；保留本次原始档位标签，不把“极高／Ultra”换算为猜测的 API 档位，也不替失败细节补画。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiangxiang103/status/2114902354449547443",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "极高",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "6109e4a88743ed22a69ba112bc7e634d2448e98cb353871b9c5eb986cdf7ffd4",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "box": {
+            "left": 40,
+            "top": 188,
+            "width": 720,
+            "height": 480
+          },
+          "startFrame": 0,
+          "endFrame": 384,
+          "sourceFrames": 384,
+          "sourceFps": 24,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 384,
+          "decodedFrameHashesSha256": "1daf593b6ac949add62fcb3846915c6e9ef9c752871195489b6161dd5c7f9d45"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "6109e4a88743ed22a69ba112bc7e634d2448e98cb353871b9c5eb986cdf7ffd4",
+          "frameTime": 2,
+          "sha256": "e60cb2903dbe774018981896c5dc22891fa73a27adf7a8d061e75cb0f607d857"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "frameTime": 1,
+          "sha256": "cf76ed92c7bc7a8d43bb0514ec77f3acfd13c0c0717dada492d185eeecae4713"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiangxiang103-terra-extreme-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiangxiang103-terra-extreme-svg-2026-10-27/",
+    "markdown": "/specimens/x-xiangxiang103-terra-extreme-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · 极高",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author describes four actual SVG animation tests. Original effort labels are retained without guessing API equivalents; output defects are preserved. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiangxiang103/status/2114902354449547443",
+        "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiangxiang103/status/2114902354449547443"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "xiangxiang103-terra-2026-10-27",
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:09:48+00:00"
+  },
+  {
+    "id": "x-xiangxiang103-terra-ultra-svg-2026-10-27",
+    "originalId": "x-xiangxiang103-terra-ultra-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · Ultra",
+    "model": "GPT-6.1 Terra",
+    "author": "雨哥向前冲 (@xiangxiang103)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项公开四次 SVG 动画测试；保留本次原始档位标签，不把“极高／Ultra”换算为猜测的 API 档位，也不替失败细节补画。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiangxiang103/status/2114902354449547443",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Ultra",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "ce74cec8404fd6ce9f8b8c067b1f38585e0c5bd410a1833de1c533717c4511fb",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "box": {
+            "left": 790,
+            "top": 188,
+            "width": 720,
+            "height": 480
+          },
+          "startFrame": 0,
+          "endFrame": 384,
+          "sourceFrames": 384,
+          "sourceFps": 24,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 384,
+          "decodedFrameHashesSha256": "ca4bb56f8879b5d96cd95c393a6a85b3b758c780e349892a273138b3cd4f3432"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "ce74cec8404fd6ce9f8b8c067b1f38585e0c5bd410a1833de1c533717c4511fb",
+          "frameTime": 2,
+          "sha256": "f00b22aaf19aa98758a8d959d72b2de921c5d434cf362755d8b480c00cc663ad"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "frameTime": 1,
+          "sha256": "cf76ed92c7bc7a8d43bb0514ec77f3acfd13c0c0717dada492d185eeecae4713"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiangxiang103-terra-ultra-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiangxiang103-terra-ultra-svg-2026-10-27/",
+    "markdown": "/specimens/x-xiangxiang103-terra-ultra-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Ultra",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author describes four actual SVG animation tests. Original effort labels are retained without guessing API equivalents; output defects are preserved. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiangxiang103/status/2114902354449547443",
+        "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiangxiang103/status/2114902354449547443"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "xiangxiang103-terra-2026-10-27",
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:09:48+00:00"
+  },
+  {
+    "id": "x-xiangxiang103-deepseek-flash-max-svg-2026-10-27",
+    "originalId": "x-xiangxiang103-deepseek-flash-max-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · Max",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "雨哥向前冲 (@xiangxiang103)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项公开四次 SVG 动画测试；保留本次原始档位标签，不把“极高／Ultra”换算为猜测的 API 档位，也不替失败细节补画。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiangxiang103/status/2114902354449547443",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-2.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "31a010f7b1e9d37459f141a05e146fa2c04c7dd703d595059a6e495fec320668",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "box": {
+            "left": 40,
+            "top": 776,
+            "width": 720,
+            "height": 480
+          },
+          "startFrame": 0,
+          "endFrame": 384,
+          "sourceFrames": 384,
+          "sourceFps": 24,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 384,
+          "decodedFrameHashesSha256": "15767925850df2fc84f18df48606082eeb27cb99826d2eb3032bf2909168e41e"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "31a010f7b1e9d37459f141a05e146fa2c04c7dd703d595059a6e495fec320668",
+          "frameTime": 2,
+          "sha256": "6f9ca1b7669c38cac56cbc9aa5400058f4b65d1fac8adefd7c16b727aeecd72d"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-2-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "frameTime": 1,
+          "sha256": "cf76ed92c7bc7a8d43bb0514ec77f3acfd13c0c0717dada492d185eeecae4713"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-2-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiangxiang103-deepseek-flash-max-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiangxiang103-deepseek-flash-max-svg-2026-10-27/",
+    "markdown": "/specimens/x-xiangxiang103-deepseek-flash-max-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Max",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "The author describes four actual SVG animation tests. Original effort labels are retained without guessing API equivalents; output defects are preserved. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiangxiang103/status/2114902354449547443",
+        "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiangxiang103/status/2114902354449547443"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:09:48+00:00"
+  },
+  {
+    "id": "x-xiangxiang103-sonnet-5-5-max-svg-2026-10-27",
+    "originalId": "x-xiangxiang103-sonnet-5-5-max-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · Max",
+    "model": "Claude Sonnet 5.5",
+    "author": "雨哥向前冲 (@xiangxiang103)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项公开四次 SVG 动画测试；保留本次原始档位标签，不把“极高／Ultra”换算为猜测的 API 档位，也不替失败细节补画。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiangxiang103/status/2114902354449547443",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-3.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "4e754dccfcf2168cfcebf994bded46fd4c1dd1ef33f8ef7f20f0ea49cd81928f",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "box": {
+            "left": 790,
+            "top": 776,
+            "width": 720,
+            "height": 480
+          },
+          "startFrame": 0,
+          "endFrame": 384,
+          "sourceFrames": 384,
+          "sourceFps": 24,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 384,
+          "decodedFrameHashesSha256": "413056ce12912eae71de172ba33d468c46b4f769117d77ef6346af2078d98d4f"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "4e754dccfcf2168cfcebf994bded46fd4c1dd1ef33f8ef7f20f0ea49cd81928f",
+          "frameTime": 2,
+          "sha256": "16ca3b01bc9e958da91270403c3655fbe067d34148141afedf98d23a8ae681aa"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-3-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+        "sha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29",
+          "sourceSha256": "52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f",
+          "frameTime": 1,
+          "sha256": "cf76ed92c7bc7a8d43bb0514ec77f3acfd13c0c0717dada492d185eeecae4713"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114902354449547443-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114902354449547443-panel-3-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiangxiang103-sonnet-5-5-max-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiangxiang103-sonnet-5-5-max-svg-2026-10-27/",
+    "markdown": "/specimens/x-xiangxiang103-sonnet-5-5-max-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Max",
+        "model": "Claude Sonnet 5.5",
+        "notes": "The author describes four actual SVG animation tests. Original effort labels are retained without guessing API equivalents; output defects are preserved. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiangxiang103/status/2114902354449547443",
+        "https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiangxiang103/status/2114902354449547443"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:09:48+00:00"
+  },
+  {
+    "id": "x-hiwise-opus-5-5-bicycle-rides-pelican-2026-10-27",
+    "originalId": "x-hiwise-opus-5-5-bicycle-rides-pelican-2026-10-27",
+    "kind": "timeline",
+    "title": "自行车骑鹈鹕",
+    "model": "Claude Opus 5.5",
+    "author": "启明破晓 (@hiwise_aigc)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面明确将主客体反转：自行车骑着鹈鹕，归入衍生。Terra 的 Ultra 来自原片标签；Opus 未提供实际档位。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/hiwise_aigc/status/2115130734944129251",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "创作一个自行车骑鹈鹕的 SVG 2D 动画，充分发挥创意，输出完整可运行的 HTML。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+        "sha256": "a56ea6e4d3b7e5db794ad93b766cb0db6501a44400d49ae74daefb4e681b0c93",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+          "box": {
+            "left": 0,
+            "top": 288,
+            "width": 1080,
+            "height": 680
+          },
+          "startFrame": 0,
+          "endFrame": 928,
+          "sourceFrames": 928,
+          "sourceFps": 60,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 928,
+          "decodedFrameHashesSha256": "aca9857c4927138bfd7876c4d12ed431f1a41a01b7bcb654e5ddee553540d265"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "a56ea6e4d3b7e5db794ad93b766cb0db6501a44400d49ae74daefb4e681b0c93",
+          "frameTime": 2,
+          "sha256": "0fd295c8f761cd1545d923381280bc99952801e811a8ddba99789600aaa55f26"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/hiwise_aigc-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+        "sha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+          "frameTime": 1,
+          "sha256": "3454b8f70753b243c65ead41b35152d6dacdc920383c47bc9c104aa92054ade9"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/hiwise_aigc-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-hiwise-opus-5-5-bicycle-rides-pelican-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-hiwise-opus-5-5-bicycle-rides-pelican-2026-10-27/",
+    "markdown": "/specimens/x-hiwise-opus-5-5-bicycle-rides-pelican-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "A bicycle riding a pelican",
+        "model": "Claude Opus 5.5",
+        "notes": "The prompt explicitly reverses the subjects, so this is a derivative. Terra Ultra is visible in the original; the Opus effort is unspecified. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "创作一个自行车骑鹈鹕的 SVG 2D 动画，充分发挥创意，输出完整可运行的 HTML。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/hiwise_aigc/status/2115130734944129251",
+        "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/hiwise_aigc/status/2115130734944129251"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T17:17:19+00:00"
+  },
+  {
+    "id": "x-hiwise-terra-ultra-bicycle-rides-pelican-2026-10-27",
+    "originalId": "x-hiwise-terra-ultra-bicycle-rides-pelican-2026-10-27",
+    "kind": "timeline",
+    "title": "自行车骑鹈鹕",
+    "model": "GPT-6.1 Terra",
+    "author": "启明破晓 (@hiwise_aigc)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面明确将主客体反转：自行车骑着鹈鹕，归入衍生。Terra 的 Ultra 来自原片标签；Opus 未提供实际档位。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/hiwise_aigc/status/2115130734944129251",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Ultra",
+    "promptCategory": "derivative",
+    "promptStatus": "创作一个自行车骑鹈鹕的 SVG 2D 动画，充分发挥创意，输出完整可运行的 HTML。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+        "sha256": "5f2348710bb0ef8868902824fb87b53506867bbcf0feeb0c431cf2fe023f16a9",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+          "box": {
+            "left": 0,
+            "top": 1276,
+            "width": 1080,
+            "height": 644
+          },
+          "startFrame": 0,
+          "endFrame": 928,
+          "sourceFrames": 928,
+          "sourceFps": 60,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 928,
+          "decodedFrameHashesSha256": "25bf12ec24bb5eed3a3c1bcd005b9b26cfd18110f1963e051b9d3c4c1362c605"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "5f2348710bb0ef8868902824fb87b53506867bbcf0feeb0c431cf2fe023f16a9",
+          "frameTime": 2,
+          "sha256": "125c5b863309f2d7c6e340284c3a86d89822aa036ad7cdcc9c501868dbbcacf4"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/hiwise_aigc-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+        "sha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29",
+          "sourceSha256": "b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041",
+          "frameTime": 1,
+          "sha256": "3454b8f70753b243c65ead41b35152d6dacdc920383c47bc9c104aa92054ade9"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/hiwise_aigc-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115130734944129251-panel-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-hiwise-terra-ultra-bicycle-rides-pelican-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-hiwise-terra-ultra-bicycle-rides-pelican-2026-10-27/",
+    "markdown": "/specimens/x-hiwise-terra-ultra-bicycle-rides-pelican-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "A bicycle riding a pelican",
+        "model": "GPT-6.1 Terra",
+        "notes": "The prompt explicitly reverses the subjects, so this is a derivative. Terra Ultra is visible in the original; the Opus effort is unspecified. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "创作一个自行车骑鹈鹕的 SVG 2D 动画，充分发挥创意，输出完整可运行的 HTML。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/hiwise_aigc/status/2115130734944129251",
+        "https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/hiwise_aigc/status/2115130734944129251"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T17:17:19+00:00"
+  },
+  {
+    "id": "x-palomino-terra-dog-passenger-2026-10-27",
+    "originalId": "x-palomino-terra-dog-passenger-2026-10-27",
+    "kind": "timeline",
+    "title": "载着小狗的鹈鹕骑车",
+    "model": "GPT-6.1 Terra",
+    "author": "Palomino (@trypalomino)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面增加背上的小狗乘客，归衍生；按四象限明确标签分别计四个实际输出，不把价格或 Token 数当推理档位，Terra Pro 保留来源原标签。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/trypalomino/status/2115120801351627229",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "61cebc280e52d68436881576ff857a29921173c349b11ba686d900c980033621",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 1080,
+            "height": 1080
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "b4e548cd456be256bab5e97e9ef00f21adb68235853782b18420a45739280e9d"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "61cebc280e52d68436881576ff857a29921173c349b11ba686d900c980033621",
+          "frameTime": 2,
+          "sha256": "814e7f2040d7a7c96571a3d6e9a28d987a36d2f222d9dbf877396c65e31fef4a"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "frameTime": 1,
+          "sha256": "60c394281161c9ce4e620f2a0b4c312568ec681aa8292b01fe6c86e3e0190833"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-palomino-terra-dog-passenger-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-palomino-terra-dog-passenger-2026-10-27/",
+    "markdown": "/specimens/x-palomino-terra-dog-passenger-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling with a dog passenger",
+        "model": "GPT-6.1 Terra",
+        "notes": "The dog passenger makes this a derivative prompt. Four labelled quadrants represent four outputs. Prices and token counts are not effort labels; Terra Pro is retained as reported. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/trypalomino/status/2115120801351627229",
+        "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/trypalomino/status/2115120801351627229"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T16:37:50+00:00"
+  },
+  {
+    "id": "x-palomino-terra-pro-dog-passenger-2026-10-27",
+    "originalId": "x-palomino-terra-pro-dog-passenger-2026-10-27",
+    "kind": "timeline",
+    "title": "载着小狗的鹈鹕骑车",
+    "model": "GPT-6.1 Terra Pro",
+    "author": "Palomino (@trypalomino)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面增加背上的小狗乘客，归衍生；按四象限明确标签分别计四个实际输出，不把价格或 Token 数当推理档位，Terra Pro 保留来源原标签。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/trypalomino/status/2115120801351627229",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "d7001f49e7f7ea17b82f5779bcbd9f4f49aeb1af9132ef3ab1538bfdfb1a86d7",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "box": {
+            "left": 1080,
+            "top": 0,
+            "width": 1080,
+            "height": 1080
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "4d33caf84969f79f0d4500a6f2f655af6d6802b1a55ad68a181a1e69b8f703fb"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "d7001f49e7f7ea17b82f5779bcbd9f4f49aeb1af9132ef3ab1538bfdfb1a86d7",
+          "frameTime": 2,
+          "sha256": "ed6de727f7a0209ded6ef78fb6ed0fb54ac7428082bec4157208bfae72293510"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "frameTime": 1,
+          "sha256": "60c394281161c9ce4e620f2a0b4c312568ec681aa8292b01fe6c86e3e0190833"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-palomino-terra-pro-dog-passenger-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-palomino-terra-pro-dog-passenger-2026-10-27/",
+    "markdown": "/specimens/x-palomino-terra-pro-dog-passenger-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling with a dog passenger",
+        "model": "GPT-6.1 Terra Pro",
+        "notes": "The dog passenger makes this a derivative prompt. Four labelled quadrants represent four outputs. Prices and token counts are not effort labels; Terra Pro is retained as reported. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/trypalomino/status/2115120801351627229",
+        "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/trypalomino/status/2115120801351627229"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T16:37:50+00:00"
+  },
+  {
+    "id": "x-palomino-luna-dog-passenger-2026-10-27",
+    "originalId": "x-palomino-luna-dog-passenger-2026-10-27",
+    "kind": "timeline",
+    "title": "载着小狗的鹈鹕骑车",
+    "model": "GPT-6 Luna",
+    "author": "Palomino (@trypalomino)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面增加背上的小狗乘客，归衍生；按四象限明确标签分别计四个实际输出，不把价格或 Token 数当推理档位，Terra Pro 保留来源原标签。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/trypalomino/status/2115120801351627229",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-2.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "a2434957f7e0ea871a92b3d18e1d8d97ca3ba841b72c4dbc45796ef80103482b",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "box": {
+            "left": 0,
+            "top": 1080,
+            "width": 1080,
+            "height": 1080
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "8008542f71baadff6c165e741f36fa9a51bdc5be3d584c23cc2071e350ab386f"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "a2434957f7e0ea871a92b3d18e1d8d97ca3ba841b72c4dbc45796ef80103482b",
+          "frameTime": 2,
+          "sha256": "b47a09da6982cf7ce1bc496e2e2fedfe757f8887e9899d7e4e4eaa12186bc239"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-2-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "frameTime": 1,
+          "sha256": "60c394281161c9ce4e620f2a0b4c312568ec681aa8292b01fe6c86e3e0190833"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-2-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-palomino-luna-dog-passenger-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-palomino-luna-dog-passenger-2026-10-27/",
+    "markdown": "/specimens/x-palomino-luna-dog-passenger-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling with a dog passenger",
+        "model": "GPT-6 Luna",
+        "notes": "The dog passenger makes this a derivative prompt. Four labelled quadrants represent four outputs. Prices and token counts are not effort labels; Terra Pro is retained as reported. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/trypalomino/status/2115120801351627229",
+        "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Luna"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/trypalomino/status/2115120801351627229"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T16:37:50+00:00"
+  },
+  {
+    "id": "x-palomino-sol-dog-passenger-2026-10-27",
+    "originalId": "x-palomino-sol-dog-passenger-2026-10-27",
+    "kind": "timeline",
+    "title": "载着小狗的鹈鹕骑车",
+    "model": "GPT-6.1 Sol",
+    "author": "Palomino (@trypalomino)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "题面增加背上的小狗乘客，归衍生；按四象限明确标签分别计四个实际输出，不把价格或 Token 数当推理档位，Terra Pro 保留来源原标签。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/trypalomino/status/2115120801351627229",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-3.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "2e005a47a47226e667d5e6769c97594648cde0c77ab97f030a1e183d7b5dda9d",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "box": {
+            "left": 1080,
+            "top": 1080,
+            "width": 1080,
+            "height": 1080
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "0cda9b647a429b6e3852e01cdb4f38c8e14e08c980ed4fc0c91c7433c5623d7b"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "2e005a47a47226e667d5e6769c97594648cde0c77ab97f030a1e183d7b5dda9d",
+          "frameTime": 2,
+          "sha256": "e045673a04ccf06bd96d4807a046e216109a4cf88749167fda193a31456c7347"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-3-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+        "sha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29",
+          "sourceSha256": "29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0",
+          "frameTime": 1,
+          "sha256": "60c394281161c9ce4e620f2a0b4c312568ec681aa8292b01fe6c86e3e0190833"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/trypalomino-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115120801351627229-panel-3-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-palomino-sol-dog-passenger-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-palomino-sol-dog-passenger-2026-10-27/",
+    "markdown": "/specimens/x-palomino-sol-dog-passenger-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling with a dog passenger",
+        "model": "GPT-6.1 Sol",
+        "notes": "The dog passenger makes this a derivative prompt. Four labelled quadrants represent four outputs. Prices and token counts are not effort labels; Terra Pro is retained as reported. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle, with a small dog riding on its back.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/trypalomino/status/2115120801351627229",
+        "https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/trypalomino/status/2115120801351627229"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T16:37:50+00:00"
+  },
+  {
+    "id": "x-rainy-terra-max-threejs-2026-10-27",
+    "originalId": "x-rainy-terra-max-threejs-2026-10-27",
+    "kind": "timeline",
+    "title": "海边公路的 3D 鹈鹕骑车",
+    "model": "GPT-6.1 Terra",
+    "author": "兴雨 (@YxzRainy)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者明确用 Three.js 测试同一题面，上方 Terra Max、下方 Sol Max。三维、海景及附属天气控件不改变常规题分类。本帖未逐字提供完整单次提示词；后续三模型对照的同两件不重复计数。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/YxzRainy/status/2114972070996226190",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+        "sha256": "2b059d4c9c804c1fa5858d426ba24b56b127ac28ae93eb141d9ea98b9cbd71f8",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 1080,
+            "height": 720
+          },
+          "startFrame": 0,
+          "endFrame": 414,
+          "sourceFrames": 414,
+          "sourceFps": 60,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 414,
+          "decodedFrameHashesSha256": "1263bbc95af783e5465c4cc8e2f1d7e0d037275bbf90c2a614266c995e193a13"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "2b059d4c9c804c1fa5858d426ba24b56b127ac28ae93eb141d9ea98b9cbd71f8",
+          "frameTime": 2,
+          "sha256": "27cfa456e6db5555ffe97b247203a114cbec3b03c04b214217c31db3e8850406"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114972070996226190-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+        "sha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+          "frameTime": 1,
+          "sha256": "cb1e92f1531a7e58ea933f8b9c174a9d595e3c10e3c1c1d2cc91e5b7efd250e8"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114972070996226190-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-rainy-terra-max-threejs-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-rainy-terra-max-threejs-2026-10-27/",
+    "markdown": "/specimens/x-rainy-terra-max-threejs-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "3D pelican cycling along the coast",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author explicitly identifies two Three.js outputs, Terra Max above Sol Max. A 3D seaside implementation and weather controls remain classic cycling. This post does not provide the complete verbatim input. The same two outputs in the later comparison are not counted again. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/YxzRainy/status/2114972070996226190",
+        "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/YxzRainy/status/2114972070996226190"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T06:46:50+00:00"
+  },
+  {
+    "id": "x-rainy-sol-max-threejs-2026-10-27",
+    "originalId": "x-rainy-sol-max-threejs-2026-10-27",
+    "kind": "timeline",
+    "title": "海边公路的 3D 鹈鹕骑车",
+    "model": "GPT-6.1 Sol",
+    "author": "兴雨 (@YxzRainy)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者明确用 Three.js 测试同一题面，上方 Terra Max、下方 Sol Max。三维、海景及附属天气控件不改变常规题分类。本帖未逐字提供完整单次提示词；后续三模型对照的同两件不重复计数。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/YxzRainy/status/2114972070996226190",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+        "sha256": "71ec33eed18d67b7f66bf139a718e339dbaf9362f8024c3449bd15073a19d990",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+          "box": {
+            "left": 0,
+            "top": 720,
+            "width": 1080,
+            "height": 720
+          },
+          "startFrame": 0,
+          "endFrame": 414,
+          "sourceFrames": 414,
+          "sourceFps": 60,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 414,
+          "decodedFrameHashesSha256": "cdfd10f82eb7ca0fd60ff5f8ed3f8a6a34151acb9c88d41b54cd2de45ee54043"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "71ec33eed18d67b7f66bf139a718e339dbaf9362f8024c3449bd15073a19d990",
+          "frameTime": 2,
+          "sha256": "398bd120bbf14b12154cdce7f50e10df27d7e15a31150fb960fc75ed595a11e0"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114972070996226190-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+        "sha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29",
+          "sourceSha256": "002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05",
+          "frameTime": 1,
+          "sha256": "cb1e92f1531a7e58ea933f8b9c174a9d595e3c10e3c1c1d2cc91e5b7efd250e8"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114972070996226190-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114972070996226190-panel-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-rainy-sol-max-threejs-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-rainy-sol-max-threejs-2026-10-27/",
+    "markdown": "/specimens/x-rainy-sol-max-threejs-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "3D pelican cycling along the coast",
+        "model": "GPT-6.1 Sol",
+        "notes": "The author explicitly identifies two Three.js outputs, Terra Max above Sol Max. A 3D seaside implementation and weather controls remain classic cycling. This post does not provide the complete verbatim input. The same two outputs in the later comparison are not counted again. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/YxzRainy/status/2114972070996226190",
+        "https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/YxzRainy/status/2114972070996226190"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T06:46:50+00:00"
+  },
+  {
+    "id": "x-rainy-deepseek-v41-f-1017-max-threejs-2026-10-27",
+    "originalId": "x-rainy-deepseek-v41-f-1017-max-threejs-2026-10-27",
+    "kind": "timeline",
+    "title": "夕阳海岸的 3D 鹈鹕骑车",
+    "model": "DeepSeek V4.1 F 1017",
+    "author": "兴雨 (@YxzRainy)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者公开 Three.js 完整题面与三栏型号，取中栏 DeepSeek V4.1 F 1017 Max；保留 F 原标签，不将其猜作 Pro。仅新增这一实际输出，上下栏已按更早的原帖分别登记。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/YxzRainy/status/2115048659343782307",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "用 Three.js 创建一个 3D 场景：一只鹈鹕正骑着自行车沿海边公路前进。\n要求鹈鹕真正骑在自行车上，双脚踩踏板，翅膀控制车把，车轮随骑行转动，动作自然连贯。\n场景生动、细节丰富，包含自然环境、动态效果、光影和交互功能。\n充分发挥你的 3D 建模、动画和视觉设计能力，完成一个精致、可直接运行的网页作品。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115048659343782307-panel-0-medium.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29",
+        "sha256": "9cfaf0e70d6b3f62eba9d10fb8ac5589b68aad21237b34299eb3c28276c2a29f",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29",
+          "sourceSha256": "866b6582d55c675ca610808a881a937ae534bce1d6249033ca83088302c1c2ae",
+          "box": {
+            "left": 0,
+            "top": 1076,
+            "width": 1816,
+            "height": 1076
+          },
+          "startFrame": 0,
+          "endFrame": 1657,
+          "sourceFrames": 1657,
+          "sourceFps": 60,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 1657,
+          "decodedFrameHashesSha256": "5437e26885bf064c26cac32dce5fb5db254099804b7fbc39997e56805589f44d"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29",
+          "sourceSha256": "9cfaf0e70d6b3f62eba9d10fb8ac5589b68aad21237b34299eb3c28276c2a29f",
+          "frameTime": 2,
+          "sha256": "808cf8ef94794f27343033ac3de94b24a437f7d6fbccafe1b9131adbee4321de"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115048659343782307-panel-0-medium-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115048659343782307-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29",
+        "sha256": "866b6582d55c675ca610808a881a937ae534bce1d6249033ca83088302c1c2ae",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29",
+          "sourceSha256": "866b6582d55c675ca610808a881a937ae534bce1d6249033ca83088302c1c2ae",
+          "frameTime": 1,
+          "sha256": "75e0e163eefba392ec11ed23483aff293543132219d8c601cd91addf05f415c5"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115048659343782307-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115048659343782307-panel-0-medium-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-rainy-deepseek-v41-f-1017-max-threejs-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-rainy-deepseek-v41-f-1017-max-threejs-2026-10-27/",
+    "markdown": "/specimens/x-rainy-deepseek-v41-f-1017-max-threejs-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "3D pelican cycling at sunset",
+        "model": "DeepSeek V4.1 F 1017",
+        "notes": "The author publishes the complete Three.js prompt and identifies the middle panel as DeepSeek V4.1 F 1017 Max. The F label is retained without guessing Pro. Only this output is added; the upper and lower outputs are recorded from the earlier post. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "用 Three.js 创建一个 3D 场景：一只鹈鹕正骑着自行车沿海边公路前进。\n要求鹈鹕真正骑在自行车上，双脚踩踏板，翅膀控制车把，车轮随骑行转动，动作自然连贯。\n场景生动、细节丰富，包含自然环境、动态效果、光影和交互功能。\n充分发挥你的 3D 建模、动画和视觉设计能力，完成一个精致、可直接运行的网页作品。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/YxzRainy/status/2115048659343782307",
+        "https://x.com/YxzRainy/status/2115095168613536133",
+        "https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 F 1017"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/YxzRainy/status/2115048659343782307",
+      "https://x.com/YxzRainy/status/2115095168613536133"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T11:51:10+00:00"
+  },
+  {
+    "id": "x-gibbsfree-sol-high-web-animation-2026-10-27",
+    "originalId": "x-gibbsfree-sol-high-web-animation-2026-10-27",
+    "kind": "timeline",
+    "title": "海风中的鹈鹕骑车",
+    "model": "GPT-6.1 Sol",
+    "author": "zihan wang (@gibbsfree8660)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者明确称分别用两个模型构建网页动画、各运行一次，并标注左 Sol high／右 Terra max；依据这一公开工作流收录。未逐字公开完整提示词，仅引用“pelican riding a bicycle”题面。展示裁切保留整幅骑行动画，页面标题与控制栏仍在完整原片中。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/gibbsfree8660/status/2114913998265061392",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-0.mp4",
+        "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+        "sha256": "54800b5047e25753ef082d00f2518f656a3c761a981c96e85e0e673a28eb30db",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+          "box": {
+            "left": 104,
+            "top": 270,
+            "width": 396,
+            "height": 190
+          },
+          "startFrame": 0,
+          "endFrame": 180,
+          "sourceFrames": 180,
+          "sourceFps": 20,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 180,
+          "decodedFrameHashesSha256": "6b29b0193c12f79d938fef9e0ca27acd517a9546261da85a850aea41f64c94e0"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "54800b5047e25753ef082d00f2518f656a3c761a981c96e85e0e673a28eb30db",
+          "frameTime": 2,
+          "sha256": "f69e4172da555e674293da2b27ea0fe3fd55663a1eb91044db0b29b6aad9e2b4"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114913998265061392-1-original.mp4",
+        "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+        "sha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+          "frameTime": 1,
+          "sha256": "b211ab8d84df199dbf71f7b13f68ac317cdf7a61d6f5f5634535f0b5a7d20386"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114913998265061392-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-gibbsfree-sol-high-web-animation-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-gibbsfree-sol-high-web-animation-2026-10-27/",
+    "markdown": "/specimens/x-gibbsfree-sol-high-web-animation-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling in the sea breeze",
+        "model": "GPT-6.1 Sol",
+        "notes": "The author explicitly reports building two web animations, one run each, labelled Sol high on the left and Terra max on the right. This public workflow is the code-generation evidence. The full verbatim prompt is unavailable; only the task phrase is quoted. Crops retain the complete animated artwork; page headings and controls remain in the original. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/gibbsfree8660/status/2114913998265061392",
+        "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/gibbsfree8660/status/2114913998265061392"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": true,
+      "sourceReportedRuns": 1
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:56:05+00:00"
+  },
+  {
+    "id": "x-gibbsfree-terra-max-web-animation-2026-10-27",
+    "originalId": "x-gibbsfree-terra-max-web-animation-2026-10-27",
+    "kind": "timeline",
+    "title": "海风中的鹈鹕骑车",
+    "model": "GPT-6.1 Terra",
+    "author": "zihan wang (@gibbsfree8660)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者明确称分别用两个模型构建网页动画、各运行一次，并标注左 Sol high／右 Terra max；依据这一公开工作流收录。未逐字公开完整提示词，仅引用“pelican riding a bicycle”题面。展示裁切保留整幅骑行动画，页面标题与控制栏仍在完整原片中。 按原片固定画面无损裁出本模型的完整时段，全部解码帧像素与相对时序通过校验；完整原对照及原音轨另附。未公开取得完整源 HTML/SVG，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/gibbsfree8660/status/2114913998265061392",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-1.mp4",
+        "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+        "sha256": "d2da17a91663097b4c0355841bd900dfe93b01dacf1e7cbe5155e8fb646b5db6",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+          "box": {
+            "left": 606,
+            "top": 206,
+            "width": 584,
+            "height": 328
+          },
+          "startFrame": 0,
+          "endFrame": 180,
+          "sourceFrames": 180,
+          "sourceFps": 20,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 180,
+          "decodedFrameHashesSha256": "96d788f1583395ad8d9cdbfb4973ae226c834a121937a96871de61cc17e44aac"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "d2da17a91663097b4c0355841bd900dfe93b01dacf1e7cbe5155e8fb646b5db6",
+          "frameTime": 2,
+          "sha256": "721ed12ceb5d2a6d45b53914fdc47dedc1d4ea6b1249ee6be87efe8a12b368a2"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114913998265061392-1-original.mp4",
+        "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+        "sha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4",
+          "sourceSha256": "fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd",
+          "frameTime": 1,
+          "sha256": "b211ab8d84df199dbf71f7b13f68ac317cdf7a61d6f5f5634535f0b5a7d20386"
+        },
+        "detailOnly": true,
+        "caption": "完整原始对照录屏",
+        "captionEn": "完整原始对照录屏",
+        "poster": "/media/collected/2026-10-29-daily-intake/2114913998265061392-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114913998265061392-artwork-panel-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-gibbsfree-terra-max-web-animation-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-gibbsfree-terra-max-web-animation-2026-10-27/",
+    "markdown": "/specimens/x-gibbsfree-terra-max-web-animation-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling in the sea breeze",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author explicitly reports building two web animations, one run each, labelled Sol high on the left and Terra max on the right. This public workflow is the code-generation evidence. The full verbatim prompt is unavailable; only the task phrase is quoted. Crops retain the complete animated artwork; page headings and controls remain in the original. The complete model panel is cropped losslessly from the recording, with every decoded frame and relative timing verified. The unedited comparison and its original audio are retained separately. Full source HTML/SVG is unavailable; no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/gibbsfree8660/status/2114913998265061392",
+        "https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/gibbsfree8660/status/2114913998265061392"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": true,
+      "sourceReportedRuns": 1
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T02:56:05+00:00"
+  },
+  {
+    "id": "x-devanmetz-terra-max-svg-2026-10-26",
+    "originalId": "x-devanmetz-terra-max-svg-2026-10-26",
+    "kind": "timeline",
+    "title": "绿拱下的鹈鹕骑车",
+    "model": "GPT-6.1 Terra",
+    "author": "Devan Metz (@devanmetz)",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者明确给出 Max 和 SVG 提示词。完整原 JPG 预览保留；未找到公开原 SVG，不把截图冒充源码或动画。公开日按原帖 UTC 10 月 26 日，区别于浏览器显示的北京时间 27 日。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/devanmetz/status/2114791836590158131",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2114791836590158131-1-original.jpg",
+        "source": "https://pbs.twimg.com/media/HVk_nk7XEAA8JCK.jpg?name=orig",
+        "sha256": "82b3c493e09fb43098b9e3e36842ce768157da855ee1277ebdaba05a0cc6b03a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2114791836590158131-1-original.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-devanmetz-terra-max-svg-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-devanmetz-terra-max-svg-2026-10-26/",
+    "markdown": "/specimens/x-devanmetz-terra-max-svg-2026-10-26/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling beneath a green arch",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author explicitly gives Max and the SVG prompt. The complete original JPG preview is retained; no public original SVG was found, and the screenshot is not presented as code or motion. The publication day is October 26 UTC, distinct from the October 27 local browser date. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/devanmetz/status/2114791836590158131",
+        "https://pbs.twimg.com/media/HVk_nk7XEAA8JCK.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/devanmetz/status/2114791836590158131"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:50:39+00:00"
+  },
+  {
+    "id": "x-frog-qwen38-flash-next-q2-0-2026-10-28",
+    "originalId": "x-frog-qwen38-flash-next-q2-0-2026-10-28",
+    "kind": "timeline",
+    "title": "本地 Q2_0 鹈鹕骑车",
+    "model": "Qwen3.8 Flash-Next",
+    "author": "蛙地魔法师 (@ll685998568638)",
+    "date": "2026-10-28",
+    "month": "2026-10",
+    "notes": "作者公开 Strata 本地部署、Pi + HyperFrames 代码动画工作流及原始提示词。保留完整 16.043 秒原容器与 AAC 立体声音轨、同帖配置原图。Q2_0 是量化设置，非推理档位；原 HTML／工程未公开取得。主体保持一只鹈鹕骑车，开场字幕与结尾拟声不另计衍生。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/ll685998568638/status/2115465246685253921",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Q2_0（量化）",
+    "promptCategory": "classic",
+    "promptStatus": "给我做一个鹈鹕骑自行车",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115465246685253921-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115463859234373632/vid/avc1/1920x1080/5aRq6hfOGex5HZoZ.mp4?tag=29",
+        "sha256": "988cc6778e6b75a213397e07753058b79219e0e4767bd4331ec17fea22e520cf",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115463859234373632/vid/avc1/1920x1080/5aRq6hfOGex5HZoZ.mp4?tag=29",
+          "sourceSha256": "988cc6778e6b75a213397e07753058b79219e0e4767bd4331ec17fea22e520cf",
+          "frameTime": 2,
+          "sha256": "214f2f6999208f17bb0079f16cd5909b6c3c30e957cf1522b0f78ab80ea53d77"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-29-daily-intake/2115465246685253921-1-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/2115465246685253921-2-original.jpg",
+        "source": "https://pbs.twimg.com/media/HVukS0vWUAA5K90.jpg?name=orig",
+        "sha256": "24a349dc7261a9bc7e1d31473d510c103f79277e34fdb64cfe089ca10076faf8",
+        "detailOnly": true,
+        "caption": "作者公开的本地配置原图",
+        "captionEn": "作者公开的本地配置原图",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/2115465246685253921-1-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-frog-qwen38-flash-next-q2-0-2026-10-28/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-frog-qwen38-flash-next-q2-0-2026-10-28/",
+    "markdown": "/specimens/x-frog-qwen38-flash-next-q2-0-2026-10-28/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Local Q2_0 pelican cycling",
+        "model": "Qwen3.8 Flash-Next",
+        "notes": "The author documents local Strata, Pi and HyperFrames code animation and the exact prompt. The complete 16.043-second original container, stereo AAC track and hardware screenshot are retained. Q2_0 denotes quantization, not effort; the original project is unavailable. A title and sound-effect caption do not change the single-pelican cycling task. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "给我做一个鹈鹕骑自行车",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/ll685998568638/status/2115465246685253921",
+        "https://video.twimg.com/amplify_video/2115463859234373632/vid/avc1/1920x1080/5aRq6hfOGex5HZoZ.mp4?tag=29",
+        "https://pbs.twimg.com/media/HVukS0vWUAA5K90.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8 Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/ll685998568638/status/2115465246685253921"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-28",
+    "sourceResponseTimestamp": "2026-10-28T15:26:32+00:00"
+  },
+  {
+    "id": "x-bardia-haiku-svg-2026-10-27",
+    "originalId": "x-bardia-haiku-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车的静态 SVG 预览",
+    "model": "Claude Haiku（版本未注明）",
+    "author": "Bardia 👾 (@0xbardia)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者发布 SVG 题面；对应截图明确出现内联 SVG 说明或 .svg 文件输出，保留失败造型。Haiku 版本未知，不猜为当前版本；Grok 4.7 由作者公开回复确认。只忠实裁去聊天界面，完整截图另附，原 SVG 未公开取得。同帖另两幅 Gemini 图像存在调用文生图的争议，未据 SVG 题面直接认定代码生成。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/0xbardia/status/2115208983552131502",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/bardia-1-artwork.png",
+        "source": "https://pbs.twimg.com/media/HVq7VLRWcAApfJV.jpg?name=orig",
+        "sha256": "f8758c3ee8f727574288cf1c889143f60ac2e3d55597254b90ee1bee833a81b7",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "866f457f4baff591419f288536cab5dd835d1ef38c1dead06825423596ab71ba",
+          "box": [
+            100,
+            420,
+            980,
+            950
+          ],
+          "pixelSha256": "11fcf3e8d1628948fe45c19fab497ef26e7058e25616a8aab437509019a9b45f"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/bardia-1-original.jpg",
+        "source": "https://pbs.twimg.com/media/HVq7VLRWcAApfJV.jpg?name=orig",
+        "sha256": "866f457f4baff591419f288536cab5dd835d1ef38c1dead06825423596ab71ba",
+        "detailOnly": true,
+        "caption": "完整作者截图",
+        "captionEn": "完整作者截图",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/bardia-1-artwork.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bardia-haiku-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bardia-haiku-svg-2026-10-27/",
+    "markdown": "/specimens/x-bardia-haiku-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Static preview of a pelican bicycle SVG",
+        "model": "Claude Haiku（版本未注明）",
+        "notes": "The creator publishes the SVG task; the selected screenshot explicitly describes inline SVG or a .svg output. Output defects are retained. The Haiku version is unknown; Grok 4.7 is confirmed by the author reply. The artwork is cropped without redrawing and the complete screenshot is attached; original SVG is unavailable. The other two Gemini images have unresolved image-generation workflow evidence and are not admitted from the requested SVG wording alone. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/0xbardia/status/2115208983552131502",
+        "https://pbs.twimg.com/media/HVq7VLRWcAApfJV.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Haiku（版本未注明）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/0xbardia/status/2115208983552131502"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T22:28:15+00:00",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-29-daily-intake/bardia-1-original.jpg",
+      "crop": "/media/collected/2026-10-29-daily-intake/bardia-1-artwork.png",
+      "box": [
+        100,
+        420,
+        980,
+        950
+      ],
+      "sourceSha256": "866f457f4baff591419f288536cab5dd835d1ef38c1dead06825423596ab71ba",
+      "cropSha256": "f8758c3ee8f727574288cf1c889143f60ac2e3d55597254b90ee1bee833a81b7",
+      "pixelSha256": "11fcf3e8d1628948fe45c19fab497ef26e7058e25616a8aab437509019a9b45f"
+    }
+  },
+  {
+    "id": "x-bardia-grok-4-7-svg-2026-10-27",
+    "originalId": "x-bardia-grok-4-7-svg-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车的静态 SVG 预览",
+    "model": "Grok 4.7",
+    "author": "Bardia 👾 (@0xbardia)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者发布 SVG 题面；对应截图明确出现内联 SVG 说明或 .svg 文件输出，保留失败造型。Haiku 版本未知，不猜为当前版本；Grok 4.7 由作者公开回复确认。只忠实裁去聊天界面，完整截图另附，原 SVG 未公开取得。同帖另两幅 Gemini 图像存在调用文生图的争议，未据 SVG 题面直接认定代码生成。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/0xbardia/status/2115208983552131502",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/bardia-2-artwork.png",
+        "source": "https://pbs.twimg.com/media/HVq7VuIWUAAoNCX.jpg?name=orig",
+        "sha256": "8c9b52c3d4278285a712629abc93b99f6e1704d5005838537aeeccad2add6f5a",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "3b67efeb5db4bca722b6f0fc983dc588c33cfeb1f676203119f1761fc3967a29",
+          "box": [
+            62,
+            896,
+            1772,
+            2176
+          ],
+          "pixelSha256": "859214ffc098d84cae9910eba7a4e1cc63f51f2bee31336a46a7c4d8b6bcd6b6"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/bardia-2-original.jpg",
+        "source": "https://pbs.twimg.com/media/HVq7VuIWUAAoNCX.jpg?name=orig",
+        "sha256": "3b67efeb5db4bca722b6f0fc983dc588c33cfeb1f676203119f1761fc3967a29",
+        "detailOnly": true,
+        "caption": "完整作者截图",
+        "captionEn": "完整作者截图",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/bardia-2-artwork.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bardia-grok-4-7-svg-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bardia-grok-4-7-svg-2026-10-27/",
+    "markdown": "/specimens/x-bardia-grok-4-7-svg-2026-10-27/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Static preview of a pelican bicycle SVG",
+        "model": "Grok 4.7",
+        "notes": "The creator publishes the SVG task; the selected screenshot explicitly describes inline SVG or a .svg output. Output defects are retained. The Haiku version is unknown; Grok 4.7 is confirmed by the author reply. The artwork is cropped without redrawing and the complete screenshot is attached; original SVG is unavailable. The other two Gemini images have unresolved image-generation workflow evidence and are not admitted from the requested SVG wording alone. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/0xbardia/status/2115208983552131502",
+        "https://x.com/0xbardia/status/2115379888081269149",
+        "https://pbs.twimg.com/media/HVq7VuIWUAAoNCX.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Grok 4.7"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/0xbardia/status/2115208983552131502",
+      "https://x.com/0xbardia/status/2115379888081269149"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T22:28:15+00:00",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-29-daily-intake/bardia-2-original.jpg",
+      "crop": "/media/collected/2026-10-29-daily-intake/bardia-2-artwork.png",
+      "box": [
+        62,
+        896,
+        1772,
+        2176
+      ],
+      "sourceSha256": "3b67efeb5db4bca722b6f0fc983dc588c33cfeb1f676203119f1761fc3967a29",
+      "cropSha256": "8c9b52c3d4278285a712629abc93b99f6e1704d5005838537aeeccad2add6f5a",
+      "pixelSha256": "859214ffc098d84cae9910eba7a4e1cc63f51f2bee31336a46a7c4d8b6bcd6b6"
+    }
+  },
+  {
+    "id": "lcz-unarem-qwen38-flash-next-iq3-s-airplane-puzzle-2026-10-26",
+    "originalId": "lcz-unarem-qwen38-flash-next-iq3-s-airplane-puzzle-2026-10-26",
+    "kind": "timeline",
+    "title": "机翼骑行、叠乘与糖果题",
+    "model": "Qwen3.8 Flash-Next",
+    "author": "UnaRem",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者在本地硬件测试中明确标注 qwen3.8-flash-next-iq3_s、200k 上下文及完整 SVG 提示词。图中包含飞机机翼、孙悟空、北极熊、秦始皇和糖果推理扩展题，归衍生；保留原作答案 21 及失败细节，不改成他人答案。完整作者截图与原帖留档，原 SVG 未公开取得；日期取帖子 UTC 时间戳，不采用搜索引擎抓取日。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://lcz.me/topic/2590",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "IQ3_S · 200k 上下文",
+    "promptCategory": "derivative",
+    "promptStatus": "做一张精细的SVG图片，内容是鹈鹕骑着自行车在孙悟空开的大型飞机机翼上骑行，\n鹈鹕展开翅膀，上面托着秦始皇的北极熊，秦始皇骑在熊上打螺丝。鹈鹕喊出\n“在一个黑色的袋子里放有三种口味的糖果，每种糖果有两种不同的形状（圆形和五角星形，不同的形状靠手感可以分辨）。现已知不同口味的糖和不同形状的数量统计如下表。参赛者需要在活动前决定摸出的糖果数目，那么，最少取出多少个糖果才能保证手中同时拥有不同形状的苹果味和桃子味的糖？（同时手中有圆形苹果味匹配五角星桃子味糖果，或者有圆形桃子味匹配五角星苹果味糖果都满足要求）\n苹果味 桃子味 西瓜味\n圆形 7 9 8\n五角星形 7 6 4”\n\n的结果数值\n\n",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/lcz-root-3-artwork.png",
+        "source": "https://upload.lcz.me/uploads/466abd95-6e86-4c50-b05f-e32bdfb1d102.jpeg",
+        "sha256": "d327457be7e486a2140a2c7a70911390e14322bf3eeed2594eb7b3a08a8941c9",
+        "extraction": {
+          "kind": "faithful-crop",
+          "sourceSha256": "9f6ed397ea1f19e26f1b6ba415a13cee2310965f3083e1b5c01d0989d2e24561",
+          "box": [
+            0,
+            0,
+            1604,
+            910
+          ],
+          "pixelSha256": "890c0dfd863df8950fca04dfdee5803206b23793616fccaaf96fd67ce7aa84b9"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-10-29-daily-intake/lcz-root-3-original.jpeg",
+        "source": "https://upload.lcz.me/uploads/466abd95-6e86-4c50-b05f-e32bdfb1d102.jpeg",
+        "sha256": "9f6ed397ea1f19e26f1b6ba415a13cee2310965f3083e1b5c01d0989d2e24561",
+        "detailOnly": true,
+        "caption": "完整作者截图",
+        "captionEn": "完整作者截图",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-29-daily-intake/lcz-root-3-artwork.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/lcz-unarem-qwen38-flash-next-iq3-s-airplane-puzzle-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/lcz-unarem-qwen38-flash-next-iq3-s-airplane-puzzle-2026-10-26/",
+    "markdown": "/specimens/lcz-unarem-qwen38-flash-next-iq3-s-airplane-puzzle-2026-10-26/index.md",
+    "updated": "2026-10-29",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Wing cycling, stacked passengers and a candy puzzle",
+        "model": "Qwen3.8 Flash-Next",
+        "notes": "The author gives the local qwen3.8-flash-next-iq3_s model, 200k context and complete SVG prompt. The airplane wing, fictional passengers and candy puzzle make this a derivative. The original answer 21 and defects are preserved rather than corrected. The full source screenshot and post are archived; original SVG is unavailable. The date comes from the post UTC timestamp, not the search crawl date. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "做一张精细的SVG图片，内容是鹈鹕骑着自行车在孙悟空开的大型飞机机翼上骑行，\n鹈鹕展开翅膀，上面托着秦始皇的北极熊，秦始皇骑在熊上打螺丝。鹈鹕喊出\n“在一个黑色的袋子里放有三种口味的糖果，每种糖果有两种不同的形状（圆形和五角星形，不同的形状靠手感可以分辨）。现已知不同口味的糖和不同形状的数量统计如下表。参赛者需要在活动前决定摸出的糖果数目，那么，最少取出多少个糖果才能保证手中同时拥有不同形状的苹果味和桃子味的糖？（同时手中有圆形苹果味匹配五角星桃子味糖果，或者有圆形桃子味匹配五角星苹果味糖果都满足要求）\n苹果味 桃子味 西瓜味\n圆形 7 9 8\n五角星形 7 6 4”\n\n的结果数值\n\n",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://lcz.me/topic/2590",
+        "https://upload.lcz.me/uploads/466abd95-6e86-4c50-b05f-e32bdfb1d102.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8 Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://lcz.me/topic/2590"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T02:25:53.678000+00:00",
+    "cropProvenance": {
+      "original": "/media/collected/2026-10-29-daily-intake/lcz-root-3-original.jpeg",
+      "crop": "/media/collected/2026-10-29-daily-intake/lcz-root-3-artwork.png",
+      "box": [
+        0,
+        0,
+        1604,
+        910
+      ],
+      "sourceSha256": "9f6ed397ea1f19e26f1b6ba415a13cee2310965f3083e1b5c01d0989d2e24561",
+      "cropSha256": "d327457be7e486a2140a2c7a70911390e14322bf3eeed2594eb7b3a08a8941c9",
+      "pixelSha256": "890c0dfd863df8950fca04dfdee5803206b23793616fccaaf96fd67ce7aa84b9"
+    }
   }
 ]

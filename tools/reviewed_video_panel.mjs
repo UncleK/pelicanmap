@@ -26,7 +26,13 @@ export const PANELS={
     url:'https://video.twimg.com/amplify_video/2112853138575441920/vid/avc1/1080x1080/Ng_uZHpg7GqggdIY.mp4?tag=29',
     sha256:'4b7ea39781cfd9cf908b80e47dd572cf664e7cfcd9c58f43a948aac852c7f2e4',
     width:1080,height:1080,frames:1624,fps:60,
-    boxes:[[0,0,540,1080],[540,0,540,1080]],ranges:[[0,1624]]}
+    boxes:[[0,0,540,1080],[540,0,540,1080]],ranges:[[0,1624]]},
+  "https://x.com/xiangxiang103/status/2114902354449547443":{"url":"https://video.twimg.com/amplify_video/2114902215869747200/vid/avc1/1550x1296/wn1-5wRNiVnuA6Cb.mp4?tag=29","sha256":"52603f854e693567feb7f469fa97ec7f126e6411830bafb63ec00c439585465f","width":1550,"height":1296,"frames":384,"fps":24,"boxes":[[40,188,720,480],[790,188,720,480],[40,776,720,480],[790,776,720,480]],"ranges":[[0,384]]},
+  "https://x.com/hiwise_aigc/status/2115130734944129251":{"url":"https://video.twimg.com/amplify_video/2115129317734916096/vid/avc1/1080x1920/kqjwczlAxE6FAW6S.mp4?tag=29","sha256":"b3ac84df65eff412af8f07e14a1c75945b19b3f57b262b52a1827937e1961041","width":1080,"height":1920,"frames":928,"fps":60,"boxes":[[0,288,1080,680],[0,1276,1080,644]],"ranges":[[0,928]]},
+  "https://x.com/trypalomino/status/2115120801351627229":{"url":"https://video.twimg.com/amplify_video/2115120766144442368/vid/avc1/2160x2160/yTFKL3lOtbItEqyq.mp4?tag=29","sha256":"29add64d18c2dca65416dd7173150e091f12764c3b955996fdc19096bb75cff0","width":2160,"height":2160,"frames":360,"fps":30,"boxes":[[0,0,1080,1080],[1080,0,1080,1080],[0,1080,1080,1080],[1080,1080,1080,1080]],"ranges":[[0,360]]},
+  "https://x.com/YxzRainy/status/2114972070996226190":{"url":"https://video.twimg.com/amplify_video/2114972041233543168/vid/avc1/1080x1440/Lc-YHQidf4H_6JsZ.mp4?tag=29","sha256":"002b4202fa22f31092bc55c2054a09edb12ba64e5b6755dbd0d3d3628a4b6a05","width":1080,"height":1440,"frames":414,"fps":60,"boxes":[[0,0,1080,720],[0,720,1080,720]],"ranges":[[0,414]]},
+  "https://x.com/YxzRainy/status/2115048659343782307":{"url":"https://video.twimg.com/amplify_video/2115048557342490624/vid/avc1/1816x3228/KfU8HOtcPIYkR49I.mp4?tag=29","sha256":"866b6582d55c675ca610808a881a937ae534bce1d6249033ca83088302c1c2ae","width":1816,"height":3228,"frames":1657,"fps":60,"boxes":[[0,1076,1816,1076]],"ranges":[[0,1657]]},
+  "https://x.com/gibbsfree8660/status/2114913998265061392":{"url":"https://video.twimg.com/tweet_video/HVmvBE3XwAAvMJb.mp4","sha256":"fb8ac4d544277b220bbc736d666d103e7964d3623a5e7ae02b9901334234e4dd","width":1200,"height":674,"frames":180,"fps":20,"boxes":[[104,270,396,190],[606,206,584,328]],"ranges":[[0,180]]}
 };
 
 export function validateVideoPanel(c,m,root){

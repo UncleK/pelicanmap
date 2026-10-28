@@ -38,6 +38,26 @@ test('October 23 comparisons accept only the complete reviewed panels and origin
 test('changed remote source fails before local files are accessed',async()=>{
   await assert.rejects(readReviewedVideoPanel(sample().media[0],Buffer.from('changed original'),ROOT),/remote source hash/);
 });
+
+test('reviewed October 29 comparisons cannot expand their source, panel or timing boundary',()=>{
+  const sources=['xiangxiang103/status/2114902354449547443','hiwise_aigc/status/2115130734944129251',
+    'trypalomino/status/2115120801351627229','YxzRainy/status/2114972070996226190',
+    'YxzRainy/status/2115048659343782307','gibbsfree8660/status/2114913998265061392'];
+  for(const suffix of sources){
+    const sourceUrl='https://x.com/'+suffix,spec=PANELS[sourceUrl];
+    for(const box of spec.boxes){
+      const c=sample();c.sourceUrl=sourceUrl;c.evidence=[sourceUrl,spec.url];
+      c.media[0].url=spec.url;c.media[1].url=spec.url;c.media[1].sha256=spec.sha256;
+      Object.assign(c.media[0].reviewedVideoPanel,{sourceSha256:spec.sha256,box:[...box],frames:[...spec.ranges[0]]});
+      assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+      for(const mutate of [x=>x.media[0].reviewedVideoPanel.box[1]+=2,
+        x=>x.media[0].reviewedVideoPanel.frames[1]--,x=>x.media[0].reviewedVideoPanel.sourceSha256='0'.repeat(64),
+        x=>x.media.pop(),x=>x.media[1].sha256='0'.repeat(64),x=>x.sourceUrl+='?other=1']){
+        const bad=structuredClone(c);mutate(bad);assert.throws(()=>validateVideoPanel(bad,bad.media[0],ROOT));
+      }
+    }
+  }
+});
 test('deduplication distinguishes real panel and prompt outputs sharing the original',()=>{
   const c=sample(),s=c.media[0].reviewedVideoPanel;
   const asset={source:c.media[0].url,sha256:'a'.repeat(64),extraction:{kind:'reviewed-video-panel',sourceSha256:s.sourceSha256,
