@@ -71715,5 +71715,1035 @@
       },
       "method": "actual-browser-original-complete-document-frame"
     }
+  },
+  {
+    "id": "simon-gpt-6-1-terra-none-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-none-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · none",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 none。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "none",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-none.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "7ba6a0d84584074063df5a3a9fa66c898f45e8b462f5941ca1c01fd6cd7e2260",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-none.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-none-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-none-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-none-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · none",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:22:13"
+  },
+  {
+    "id": "simon-gpt-6-1-terra-low-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-low-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · low",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 low。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-low.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "14b6f87a6b455374834fe8549b8e5acd5ae61fb58bf3d61f121fdb1f52f40844",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-low.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-low-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-low-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-low-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · low",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:22:38"
+  },
+  {
+    "id": "simon-gpt-6-1-terra-medium-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-medium-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · medium",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 medium。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-medium.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "7354afaba1af9f95086809b397736b2dd0f334c5935dcf10f1c4533dbfbf0841",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-medium.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-medium-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-medium-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-medium-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · medium",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:22:52"
+  },
+  {
+    "id": "simon-gpt-6-1-terra-high-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-high-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · high",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 high。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-high.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "f7a5a5f1b1884cbb0de018242b806d74ab30ed6993cec31027ef40f71dc28fe8",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-high-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-high-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-high-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · high",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:23:14"
+  },
+  {
+    "id": "simon-gpt-6-1-terra-xhigh-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-xhigh-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · xhigh",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 xhigh。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-xhigh.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "4509b8efe5905367bcbd6236b08e149f3a6364d2b81b01505323875848150d74",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 4,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-xhigh.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-xhigh-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-xhigh-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-xhigh-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · xhigh",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:23:46"
+  },
+  {
+    "id": "simon-gpt-6-1-terra-max-2026-10-26",
+    "originalId": "simon-gpt-6-1-terra-max-2026-10-26",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · max",
+    "model": "GPT-6.1 Terra",
+    "author": "Simon Willison",
+    "date": "2026-10-26",
+    "month": "2026-10",
+    "notes": "作者公开同一题面的六个实际档位输出；本件为 max。保留完整固定版本响应、原始 SVG 与公开时间；不把档位顺序视为偏好。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/terra-max.svg",
+        "source": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "sha256": "7aca51613f7ba2e2e52d7cc051e999cd50296d4fd3d292c5ddc6f2653370caa0",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "ea8563eace4f29e4df057bdec3640ea8e3fde772bfe4146418dd34dd833c71c7",
+          "responseIndex": 5,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/terra-max.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+    "path": "/specimens/simon-gpt-6-1-terra-max-2026-10-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt-6-1-terra-max-2026-10-26/",
+    "markdown": "/specimens/simon-gpt-6-1-terra-max-2026-10-26/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · max",
+        "model": "GPT-6.1 Terra",
+        "notes": "One of six explicitly labelled reasoning-effort outputs for the same prompt. The complete pinned response transcript and original SVG are retained; display order is not an author preference. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/855d951d12c68eccca5374cd7d4f834e",
+        "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+        "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/855d951d12c68eccca5374cd7d4f834e/raw/489ee503b0bd9088a78317d038115d8ebb5c7bb2/terra.md",
+      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "modelRunGroup": "simon-gpt-6-1-terra-2026-10-26",
+    "sourcePublicationDate": "2026-10-26",
+    "sourceResponseTimestamp": "2026-10-26T18:24:56"
+  },
+  {
+    "id": "linuxdo-pipu-terra-ultra-2026-10-27",
+    "originalId": "linuxdo-pipu-terra-ultra-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕的骑行时光",
+    "model": "GPT-6.1 Terra",
+    "author": "Pipu（霹雳大德）",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项标注型号，并在同帖第 4 楼公开 HTML/SVG 2D 动画提示词。本次只能取得作者完整截图；完整 HTML 和原动态未公开取得，不把截图标为动画。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3079516",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "Ultra",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/pipu-terra.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/9/c/0/9c01750766fd362f148b90f05f8832998b4dff9d.jpeg",
+        "sha256": "214baa71582de0cc29838cf0c865bd941bac0c559383a2e2ad4685fc943daa8a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/pipu-terra.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-pipu-terra-ultra-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-pipu-terra-ultra-2026-10-27/",
+    "markdown": "/specimens/linuxdo-pipu-terra-ultra-2026-10-27/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "A little ride by the sea — source screenshot",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author identifies this model and publishes the HTML/SVG animation prompt in post 4. Only the complete author screenshot is available; the original HTML and motion remain unavailable and are not reconstructed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3079516",
+        "https://linux.do/t/topic/3079516/4",
+        "https://cdn3.ldstatic.com/original/4X/9/c/0/9c01750766fd362f148b90f05f8832998b4dff9d.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3079516",
+      "https://linux.do/t/topic/3079516/4"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T01:40:00Z"
+  },
+  {
+    "id": "linuxdo-pipu-sol-high-2026-10-27",
+    "originalId": "linuxdo-pipu-sol-high-2026-10-27",
+    "kind": "timeline",
+    "title": "乘风，慢慢骑",
+    "model": "GPT-6.1 Sol",
+    "author": "Pipu（霹雳大德）",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项标注型号，并在同帖第 4 楼公开 HTML/SVG 2D 动画提示词。本次只能取得作者完整截图；完整 HTML 和原动态未公开取得，不把截图标为动画。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3079516",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/pipu-sol.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/e/e/3/ee3058dc36508fa141a61eb8afcf7704ab443608.jpeg",
+        "sha256": "e780485062b8c760f4c0a1cad7b3a0734803dd7494d26a69d2046c1d9b2e2f66",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/pipu-sol.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-pipu-sol-high-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-pipu-sol-high-2026-10-27/",
+    "markdown": "/specimens/linuxdo-pipu-sol-high-2026-10-27/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Ride slowly with the wind — source screenshot",
+        "model": "GPT-6.1 Sol",
+        "notes": "The author identifies this model and publishes the HTML/SVG animation prompt in post 4. Only the complete author screenshot is available; the original HTML and motion remain unavailable and are not reconstructed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3079516",
+        "https://linux.do/t/topic/3079516/4",
+        "https://cdn3.ldstatic.com/original/4X/e/e/3/ee3058dc36508fa141a61eb8afcf7704ab443608.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3079516",
+      "https://linux.do/t/topic/3079516/4"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T01:40:00Z"
+  },
+  {
+    "id": "linuxdo-pipu-kimi-2026-10-27",
+    "originalId": "linuxdo-pipu-kimi-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕与海风",
+    "model": "Kimi K3.1 Pro",
+    "author": "Pipu（霹雳大德）",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者逐项标注型号，并在同帖第 4 楼公开 HTML/SVG 2D 动画提示词。本次只能取得作者完整截图；完整 HTML 和原动态未公开取得，不把截图标为动画。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3079516/8",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/pipu-kimi.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/c/1/e/c1e6fb5e608cc2895f5bf5f178ce4886f22671c5.jpeg",
+        "sha256": "4aa160dff053187856bcf5f380a14534fef366ae2374c3c12757ba3516474737",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/pipu-kimi.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-pipu-kimi-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-pipu-kimi-2026-10-27/",
+    "markdown": "/specimens/linuxdo-pipu-kimi-2026-10-27/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican and sea breeze — source screenshot",
+        "model": "Kimi K3.1 Pro",
+        "notes": "The author identifies this model and publishes the HTML/SVG animation prompt in post 4. Only the complete author screenshot is available; the original HTML and motion remain unavailable and are not reconstructed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3079516/8",
+        "https://linux.do/t/topic/3079516",
+        "https://linux.do/t/topic/3079516/4",
+        "https://cdn3.ldstatic.com/original/4X/c/1/e/c1e6fb5e608cc2895f5bf5f178ce4886f22671c5.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3079516",
+      "https://linux.do/t/topic/3079516/4"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T05:39:00Z"
+  },
+  {
+    "id": "x-arthur-opus-5-5-sunset-flight-2026-10-28",
+    "originalId": "x-arthur-opus-5-5-sunset-flight-2026-10-28",
+    "kind": "timeline",
+    "title": "夕阳栈桥骑行与飞升",
+    "model": "Claude Opus 5.5",
+    "author": "Arthur C (@0xarthurzs)",
+    "date": "2026-10-28",
+    "month": "2026-10",
+    "notes": "作者明确称全由代码制作，公开提示词；完整原片含骑行、细节镜头及结尾展翅飞升，按扩展叙事归衍生。原片 26.816 秒、1078×1402、含 AAC 立体声音轨，完整保存。未公开取得完整源代码，不列为可玩演示。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/0xarthurzs/status/2115284923968045179",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "画一个最复杂、最精细、最精美的鹈鹕骑自行车，用什么技术都行，画一天都可以。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/arthur-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115226713483567104/vid/avc1/1078x1402/q70AKEYh8jSx5zB4.mp4?tag=29",
+        "sha256": "0d8162217126e79416b4743b2e1e8eab86418950e7ed3d5ee829e7a40f9247d6",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115226713483567104/vid/avc1/1078x1402/q70AKEYh8jSx5zB4.mp4?tag=29",
+          "sourceSha256": "0d8162217126e79416b4743b2e1e8eab86418950e7ed3d5ee829e7a40f9247d6",
+          "frameTime": 1,
+          "sha256": "e7c3fbbe8adfa13589bf60c8c447d7ea65c147e45cdad98bc8bbffd59951b09e"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-28-resumed-intake/arthur-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/arthur-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-arthur-opus-5-5-sunset-flight-2026-10-28/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-arthur-opus-5-5-sunset-flight-2026-10-28/",
+    "markdown": "/specimens/x-arthur-opus-5-5-sunset-flight-2026-10-28/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Sunset boardwalk cycling and flight",
+        "model": "Claude Opus 5.5",
+        "notes": "The author explicitly describes code generation and publishes the prompt. The complete 26.816-second recording includes cycling, detail shots and a final flight sequence, classified as a derivative narrative. Original 1078×1402 video and stereo AAC audio are preserved; complete code is unavailable and no playable demo is claimed. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "画一个最复杂、最精细、最精美的鹈鹕骑自行车，用什么技术都行，画一天都可以。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/0xarthurzs/status/2115284923968045179",
+        "https://video.twimg.com/amplify_video/2115226713483567104/vid/avc1/1078x1402/q70AKEYh8jSx5zB4.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/0xarthurzs/status/2115284923968045179"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-28",
+    "sourceResponseTimestamp": "2026-10-28T03:30:00+00:00"
+  },
+  {
+    "id": "x-chasen-terra-mechanical-boost-2026-10-27",
+    "originalId": "x-chasen-terra-mechanical-boost-2026-10-27",
+    "kind": "timeline",
+    "title": "机甲鹈鹕与 BOOST 赛道",
+    "model": "GPT-6.1 Terra",
+    "author": "Chasen (@chasen_liao)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者明确用 Pi／ZenMux 生成完整内联 HTML/SVG，原录屏显示车轮踩踏和 BOOST 喷射加速。按机甲竞速扩展题归衍生；完整 9.233 秒原录屏及同帖原图保留。未取得完整源 HTML。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chasen_liao/status/2115107746148467058",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "请直接制作一个酷炫机甲版「鹈鹕骑自行车」的可运行视觉作品。用一个完整HTML交付，主体由你原创绘制的内联SVG构成，CSS/JS全部内联，不使用外部图片、视频、字体或库。若支持预览请直接展示。不要给方案、教程或伪代码。\n\n主角必须一眼认出是鹈鹕：长而厚的鸟喙、明显下喙喉囊、鸟类头颈与身躯比例；同时是设计精密的未来机甲。陶瓷白与深枪灰装甲，少量橙红警示涂装，青蓝发光反应炉，外露液压关节、线缆和分层金属羽片；鸟喙像航空器整流罩，半透明喉囊里有发光能量核心。不要把它画成普通机器人戴鸟头。\n\n鹈鹕以低伏竞速姿态骑一辆未来自行车，两个机械脚踩踏板，两翼末端抓住车把。自行车必须有清晰且合理的前后轮、车架、前叉、把手、曲柄、踏板、齿盘和链条。画面用侧面略带3/4的追拍构图，鹈鹕和自行车占据绝大部分面积。背景是深色未来高架赛道，地面反光、远处建筑视差、少量速度线与轮胎火星，强调速度和重量感，别让光效盖住主体。\n\n这是一个用来测试模型绘图和动作一致性的作品：踩踏要持续自然，左右曲柄相差180度，脚始终贴着对应踏板，膝关节随之弯曲；车轮旋转、辐条、曲柄和链条的运动方向一致；身体有小幅悬挂起伏，装甲羽片和线缆有惯性。不能仅让整只鸟上下晃动来冒充骑车。提供正常骑行的无缝动画循环，另设一个小小的 BOOST 按钮或空格键，触发约2秒的反应炉点亮、加速、喷口尾焰和速度线增强，结束后自然回到骑行。\n\n画面要像值得截图发推的机甲设定艺术，有明确剪影、装甲层次、金属高光、环境光和接触阴影，不要emoji、素材拼贴、简笔画或满屏发光圆圈。屏幕除很小的「PELICAN // OVERDRIVE」和BOOST外不需要说明文字或网页导航。自适应16:9横屏，打开立即有完整画面和动作。优先保证主体造型、脚踏联动和首轮运行成功，控制代码规模。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/chasen_liao-2-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115107698178174976/vid/avc1/1512x1008/zg3WrQzbhxMbQvct.mp4?tag=29",
+        "sha256": "d7483d6e703beefa89c291f1e5c01d747c67c7479725add263f64c00a04236f6",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115107698178174976/vid/avc1/1512x1008/zg3WrQzbhxMbQvct.mp4?tag=29",
+          "sourceSha256": "d7483d6e703beefa89c291f1e5c01d747c67c7479725add263f64c00a04236f6",
+          "frameTime": 1,
+          "sha256": "37ac4df141b302c6005f6336353093ac80f6b5cdf8923ead8fc85e5c48724efc"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-28-resumed-intake/chasen_liao-2-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/chasen_liao-1-original.jpg",
+        "source": "https://pbs.twimg.com/media/HVpfNm2aAAEja4B.jpg?name=orig",
+        "sha256": "6e6a9f959381d82555706573ef129a0ed5ace15a92ebc06d187e27221bc29bcb",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/chasen_liao-2-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chasen-terra-mechanical-boost-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chasen-terra-mechanical-boost-2026-10-27/",
+    "markdown": "/specimens/x-chasen-terra-mechanical-boost-2026-10-27/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Mechanical pelican and BOOST track",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author reports generating inline HTML/SVG through Pi and ZenMux. The original recording shows pedalling and BOOST jet acceleration, a derivative racing prompt. The complete original recording and source screenshot are retained; full HTML is unavailable. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "请直接制作一个酷炫机甲版「鹈鹕骑自行车」的可运行视觉作品。用一个完整HTML交付，主体由你原创绘制的内联SVG构成，CSS/JS全部内联，不使用外部图片、视频、字体或库。若支持预览请直接展示。不要给方案、教程或伪代码。\n\n主角必须一眼认出是鹈鹕：长而厚的鸟喙、明显下喙喉囊、鸟类头颈与身躯比例；同时是设计精密的未来机甲。陶瓷白与深枪灰装甲，少量橙红警示涂装，青蓝发光反应炉，外露液压关节、线缆和分层金属羽片；鸟喙像航空器整流罩，半透明喉囊里有发光能量核心。不要把它画成普通机器人戴鸟头。\n\n鹈鹕以低伏竞速姿态骑一辆未来自行车，两个机械脚踩踏板，两翼末端抓住车把。自行车必须有清晰且合理的前后轮、车架、前叉、把手、曲柄、踏板、齿盘和链条。画面用侧面略带3/4的追拍构图，鹈鹕和自行车占据绝大部分面积。背景是深色未来高架赛道，地面反光、远处建筑视差、少量速度线与轮胎火星，强调速度和重量感，别让光效盖住主体。\n\n这是一个用来测试模型绘图和动作一致性的作品：踩踏要持续自然，左右曲柄相差180度，脚始终贴着对应踏板，膝关节随之弯曲；车轮旋转、辐条、曲柄和链条的运动方向一致；身体有小幅悬挂起伏，装甲羽片和线缆有惯性。不能仅让整只鸟上下晃动来冒充骑车。提供正常骑行的无缝动画循环，另设一个小小的 BOOST 按钮或空格键，触发约2秒的反应炉点亮、加速、喷口尾焰和速度线增强，结束后自然回到骑行。\n\n画面要像值得截图发推的机甲设定艺术，有明确剪影、装甲层次、金属高光、环境光和接触阴影，不要emoji、素材拼贴、简笔画或满屏发光圆圈。屏幕除很小的「PELICAN // OVERDRIVE」和BOOST外不需要说明文字或网页导航。自适应16:9横屏，打开立即有完整画面和动作。优先保证主体造型、脚踏联动和首轮运行成功，控制代码规模。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chasen_liao/status/2115107746148467058",
+        "https://x.com/chasen_liao/status/2115107854831243427",
+        "https://video.twimg.com/amplify_video/2115107698178174976/vid/avc1/1512x1008/zg3WrQzbhxMbQvct.mp4?tag=29",
+        "https://pbs.twimg.com/media/HVpfNm2aAAEja4B.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chasen_liao/status/2115107746148467058",
+      "https://x.com/chasen_liao/status/2115107854831243427"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T15:45:58+00:00"
+  },
+  {
+    "id": "x-leo-qwen4-kerria-recursive-controller-2026-10-27",
+    "originalId": "x-leo-qwen4-kerria-recursive-controller-2026-10-27",
+    "kind": "timeline",
+    "title": "手柄与双鹈鹕递归骑行",
+    "model": "Qwen 4 Kerria（27B／Flash 未定，来源推测）",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "作者公开递归 SVG 动画提示词；保留完整原动图 MP4。作者把模型推测为 Qwen 4 Kerria（27B 或 Flash），又猜测 Max；未提供实际路由证明，保留不确定性，不登记为已确认的 Max。属于递归衍生题；完整源代码未公开取得。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2115144988539658271",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "用svg生成一个游戏控制器骑着自行车骑着鹈鹕骑着自行车再骑着一只步行的鹈鹕在路上走的动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-28-resumed-intake/leo114119-1-original.mp4",
+        "source": "https://video.twimg.com/tweet_video/HVqBGr0WUAAQ8aF.mp4",
+        "sha256": "97215976e81cfc63cac3d1c59a5a5c02290ea5527c1efebde98fbbaa84b36390",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HVqBGr0WUAAQ8aF.mp4",
+          "sourceSha256": "97215976e81cfc63cac3d1c59a5a5c02290ea5527c1efebde98fbbaa84b36390",
+          "frameTime": 1,
+          "sha256": "4392f04663f741c5c7cb8e5ddff055c9becc6d82eee4f122422c36f651d07b7f"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-28-resumed-intake/leo114119-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-28-resumed-intake/leo114119-1-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo-qwen4-kerria-recursive-controller-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo-qwen4-kerria-recursive-controller-2026-10-27/",
+    "markdown": "/specimens/x-leo-qwen4-kerria-recursive-controller-2026-10-27/index.md",
+    "updated": "2026-10-28",
+    "rights": "作品与原媒体归原作者。保留署名、出处与原有声明；未发现明确开源许可，不声称获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Recursive controller and two pelicans",
+        "model": "Qwen 4 Kerria（27B／Flash 未定，来源推测）",
+        "notes": "The author publishes the recursive SVG animation prompt; the complete original GIF-format MP4 is retained. The author suggests Qwen 4 Kerria, possibly 27B or Flash, and also speculates about Max; no actual route is proven. The uncertainty is retained, no confirmed Max attribution is made. This is a derivative recursive prompt; full code is unavailable. Model labels are source-reported and not independently authenticated.",
+        "rights": "Rights remain with the original creator. Attribution, sources and original notices are retained; no explicit open-source permission was found or claimed.",
+        "promptStatus": "用svg生成一个游戏控制器骑着自行车骑着鹈鹕骑着自行车再骑着一只步行的鹈鹕在路上走的动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2115144988539658271",
+        "https://video.twimg.com/tweet_video/HVqBGr0WUAAQ8aF.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 4 Kerria（27B／Flash 未定，来源推测）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2115144988539658271"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-27",
+    "sourceResponseTimestamp": "2026-10-27T18:13:57+00:00"
   }
 ]
