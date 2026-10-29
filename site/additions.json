@@ -75044,5 +75044,590 @@
       "cropSha256": "d327457be7e486a2140a2c7a70911390e14322bf3eeed2594eb7b3a08a8941c9",
       "pixelSha256": "890c0dfd863df8950fca04dfdee5803206b23793616fccaaf96fd67ce7aa84b9"
     }
+  },
+  {
+    "id": "svgnew-gemini-pelican-svg-2026-10-16",
+    "originalId": "svgnew-gemini-pelican-svg-2026-10-16",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · SVG.new 原始代码测试",
+    "model": "Gemini 4 Argon",
+    "author": "SVG.new",
+    "date": "2026-10-16",
+    "month": "2026-10",
+    "notes": "作者文章说明 2026 年 10 月 16 日使用同一 SVG 提示词与默认设置，保留首份回答；日期采用作者记录的测试日，首次公开日未证。文章明确标注本份为一次 API 调用。保留完整原始静态 SVG；图片模型生成后转描的其余样例不在本次收录内。型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/svgnew-gemini.svg",
+        "source": "https://svg.new/pelican/gemini-4-argon.svg",
+        "sha256": "7ee5a614a9b4f7a6a19c95c0246b1c0e55a441765b4f4e082237a60fd38ded32",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/svgnew-gemini.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://svg.new/pelican/gemini-4-argon.svg",
+    "path": "/specimens/svgnew-gemini-pelican-svg-2026-10-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/svgnew-gemini-pelican-svg-2026-10-16/",
+    "markdown": "/specimens/svgnew-gemini-pelican-svg-2026-10-16/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · SVG.new code test",
+        "model": "Gemini 4 Argon",
+        "notes": "The creator reports testing the shared SVG prompt with default settings on 16 October 2026 and keeping the first answer. The date is the creator-reported test day; the first publication date is unverified.The article explicitly labels this output as one API call.The complete original static SVG is preserved. Image-model outputs traced into vectors are excluded. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://svg.new/pelican-riding-a-bicycle-svg",
+        "https://svg.new/pelican/gemini-4-argon.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://svg.new/pelican-riding-a-bicycle-svg",
+      "https://svg.new/pelican/gemini-4-argon.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "firstPublicationDateKnown": false,
+      "settings": "default",
+      "firstResponseRetained": true,
+      "tool": "API"
+    }
+  },
+  {
+    "id": "svgnew-sol-pelican-svg-2026-10-16",
+    "originalId": "svgnew-sol-pelican-svg-2026-10-16",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · SVG.new 原始代码测试",
+    "model": "GPT-6.1 Sol",
+    "author": "SVG.new",
+    "date": "2026-10-16",
+    "month": "2026-10",
+    "notes": "作者文章说明 2026 年 10 月 16 日使用同一 SVG 提示词与默认设置，保留首份回答；日期采用作者记录的测试日，首次公开日未证。文章明确标注本份为一次 API 调用。保留完整原始静态 SVG；图片模型生成后转描的其余样例不在本次收录内。型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/svgnew-sol.svg",
+        "source": "https://svg.new/pelican/gpt-6-1-sol.svg",
+        "sha256": "2484a7676fa5f87f08f593898e82bfa71a26bc0e46b5f6b75bcf91efd0e4f273",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/svgnew-sol.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://svg.new/pelican/gpt-6-1-sol.svg",
+    "path": "/specimens/svgnew-sol-pelican-svg-2026-10-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/svgnew-sol-pelican-svg-2026-10-16/",
+    "markdown": "/specimens/svgnew-sol-pelican-svg-2026-10-16/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · SVG.new code test",
+        "model": "GPT-6.1 Sol",
+        "notes": "The creator reports testing the shared SVG prompt with default settings on 16 October 2026 and keeping the first answer. The date is the creator-reported test day; the first publication date is unverified.The article explicitly labels this output as one API call.The complete original static SVG is preserved. Image-model outputs traced into vectors are excluded. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://svg.new/pelican-riding-a-bicycle-svg",
+        "https://svg.new/pelican/gpt-6-1-sol.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://svg.new/pelican-riding-a-bicycle-svg",
+      "https://svg.new/pelican/gpt-6-1-sol.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "firstPublicationDateKnown": false,
+      "settings": "default",
+      "firstResponseRetained": true,
+      "tool": "API"
+    }
+  },
+  {
+    "id": "svgnew-sonnet-pelican-svg-2026-10-16",
+    "originalId": "svgnew-sonnet-pelican-svg-2026-10-16",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · SVG.new 原始代码测试",
+    "model": "Claude Sonnet 5.5",
+    "author": "SVG.new",
+    "date": "2026-10-16",
+    "month": "2026-10",
+    "notes": "作者文章说明 2026 年 10 月 16 日使用同一 SVG 提示词与默认设置，保留首份回答；日期采用作者记录的测试日，首次公开日未证。文章明确标注本份为一次 API 调用。保留完整原始静态 SVG；图片模型生成后转描的其余样例不在本次收录内。型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/svgnew-sonnet.svg",
+        "source": "https://svg.new/pelican/claude-sonnet-5-5.svg",
+        "sha256": "71c011912fd7386ea985a82ad3695227bd6abd1ce1366721a3d2050b70483550",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/svgnew-sonnet.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://svg.new/pelican/claude-sonnet-5-5.svg",
+    "path": "/specimens/svgnew-sonnet-pelican-svg-2026-10-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/svgnew-sonnet-pelican-svg-2026-10-16/",
+    "markdown": "/specimens/svgnew-sonnet-pelican-svg-2026-10-16/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · SVG.new code test",
+        "model": "Claude Sonnet 5.5",
+        "notes": "The creator reports testing the shared SVG prompt with default settings on 16 October 2026 and keeping the first answer. The date is the creator-reported test day; the first publication date is unverified.The article explicitly labels this output as one API call.The complete original static SVG is preserved. Image-model outputs traced into vectors are excluded. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://svg.new/pelican-riding-a-bicycle-svg",
+        "https://svg.new/pelican/claude-sonnet-5-5.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://svg.new/pelican-riding-a-bicycle-svg",
+      "https://svg.new/pelican/claude-sonnet-5-5.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "firstPublicationDateKnown": false,
+      "settings": "default",
+      "firstResponseRetained": true,
+      "tool": "API"
+    }
+  },
+  {
+    "id": "svgnew-opus-pelican-svg-2026-10-16",
+    "originalId": "svgnew-opus-pelican-svg-2026-10-16",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · SVG.new 原始代码测试",
+    "model": "Claude Opus 5.5",
+    "author": "SVG.new",
+    "date": "2026-10-16",
+    "month": "2026-10",
+    "notes": "作者文章说明 2026 年 10 月 16 日使用同一 SVG 提示词与默认设置，保留首份回答；日期采用作者记录的测试日，首次公开日未证。本份由搭建该页面的 Claude Code 会话生成；不把会话调用写成独立 API 调用。保留完整原始静态 SVG；图片模型生成后转描的其余样例不在本次收录内。型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/svgnew-opus.svg",
+        "source": "https://svg.new/pelican/claude-opus-5-5.svg",
+        "sha256": "ea0cb6ea580415174d9f7b9df40cdc6cb25bd53c8ac9b64482dd5b138eb3df2f",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/svgnew-opus.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://svg.new/pelican/claude-opus-5-5.svg",
+    "path": "/specimens/svgnew-opus-pelican-svg-2026-10-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/svgnew-opus-pelican-svg-2026-10-16/",
+    "markdown": "/specimens/svgnew-opus-pelican-svg-2026-10-16/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · SVG.new code test",
+        "model": "Claude Opus 5.5",
+        "notes": "The creator reports testing the shared SVG prompt with default settings on 16 October 2026 and keeping the first answer. The date is the creator-reported test day; the first publication date is unverified.This output was written in the Claude Code session that built the page; no separate API call is claimed.The complete original static SVG is preserved. Image-model outputs traced into vectors are excluded. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://svg.new/pelican-riding-a-bicycle-svg",
+        "https://svg.new/pelican/claude-opus-5-5.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://svg.new/pelican-riding-a-bicycle-svg",
+      "https://svg.new/pelican/claude-opus-5-5.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "firstPublicationDateKnown": false,
+      "settings": "default",
+      "firstResponseRetained": true,
+      "tool": "Claude Code"
+    }
+  },
+  {
+    "id": "x-hamer-2024-qwen38-nvfp4-2026-10-29",
+    "originalId": "x-hamer-2024-qwen38-nvfp4-2026-10-29",
+    "kind": "timeline",
+    "title": "本地 Qwen 鹈鹕骑车 · NVFP4 · medium",
+    "model": "Qwen3.8-Flash-Next",
+    "author": "Hamer (@Hamer_2024)",
+    "date": "2026-10-29",
+    "month": "2026-10",
+    "notes": "作者明确说明一次生成纯 HTML、SVG 与原生 JS，无外部素材或依赖，并记录 NVFP4 量化、vLLM 双卡、128K 上下文与 medium 档位。保留完整 4 秒原始录屏；完整源文件与逐字提示词未公开取得。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Hamer_2024/status/2115731889256608028",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "NVFP4 · medium",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/2115731889256608028-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115731833577222144/vid/avc1/1200x700/64tRPEJHkn_KCQja.mp4?tag=29",
+        "sha256": "00f72e53e1a5e00f389f181d5be2747f36815e9dc99a4ff7017571335b79b515",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115731833577222144/vid/avc1/1200x700/64tRPEJHkn_KCQja.mp4?tag=29",
+          "sourceSha256": "00f72e53e1a5e00f389f181d5be2747f36815e9dc99a4ff7017571335b79b515",
+          "frameTime": 1,
+          "sha256": "ea55e7c46731ecad7bbc5bee8df8346f0e32669ecea5e9abd0e2e2de02c24140"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-30-daily-intake/2115731889256608028-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/2115731889256608028-1-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-hamer-2024-qwen38-nvfp4-2026-10-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-hamer-2024-qwen38-nvfp4-2026-10-29/",
+    "markdown": "/specimens/x-hamer-2024-qwen38-nvfp4-2026-10-29/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Local Qwen pelican cycling · NVFP4 · medium",
+        "model": "Qwen3.8-Flash-Next",
+        "notes": "The creator explicitly describes one-pass HTML, SVG and native JavaScript without external assets or dependencies, with NVFP4 quantization, dual-GPU vLLM, 128K context and medium effort. The complete 4-second recording is preserved; full source files and the verbatim prompt are unavailable. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Hamer_2024/status/2115731889256608028",
+        "https://video.twimg.com/amplify_video/2115731833577222144/vid/avc1/1200x700/64tRPEJHkn_KCQja.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8-Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Hamer_2024/status/2115731889256608028"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": true
+    },
+    "sourcePublicationDate": "2026-10-29",
+    "sourceResponseTimestamp": "2026-10-29T09:06:05+00:00"
+  },
+  {
+    "id": "x-jerry-galaxy-qwen38-oq4e-2026-10-29",
+    "originalId": "x-jerry-galaxy-qwen38-oq4e-2026-10-29",
+    "kind": "timeline",
+    "title": "本地 Qwen 鹈鹕骑车 · oQ4e",
+    "model": "Qwen3.8-Flash-Next",
+    "author": "Jerry Xiong (@Jerry_Galaxy)",
+    "date": "2026-10-29",
+    "month": "2026-10",
+    "notes": "作者记录 M3 Ultra 256GB、本地 oQ4e 量化、DeepSeek Harness、设置 200K 上下文／任务使用 96K、约半小时及平均 79 tok/s。明确说明 HTML 内联 SVG 与纯 CSS 循环；保留完整原录屏，不裁掉生成器界面。未取得完整源文件和逐字提示词。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Jerry_Galaxy/status/2115666646107136484",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "oQ4e",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/2115666646107136484-1-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115665291304992768/vid/avc1/3072x1728/jf39JGnlDPA0hS0S.mp4?tag=29",
+        "sha256": "6619614776a4ce4bb086297cc5995eb34d508b3c5d0e727284b0af1bffd700bb",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115665291304992768/vid/avc1/3072x1728/jf39JGnlDPA0hS0S.mp4?tag=29",
+          "sourceSha256": "6619614776a4ce4bb086297cc5995eb34d508b3c5d0e727284b0af1bffd700bb",
+          "frameTime": 8,
+          "sha256": "36819b86b66fa8fe1f2d1134fadf991f9a9a76ac98b8207ffc07849d24dc93d5"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-30-daily-intake/2115666646107136484-1-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/2115666646107136484-1-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-jerry-galaxy-qwen38-oq4e-2026-10-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-jerry-galaxy-qwen38-oq4e-2026-10-29/",
+    "markdown": "/specimens/x-jerry-galaxy-qwen38-oq4e-2026-10-29/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Local Qwen pelican cycling · oQ4e",
+        "model": "Qwen3.8-Flash-Next",
+        "notes": "The creator records an M3 Ultra with 256GB, local oQ4e quantization, DeepSeek Harness, a configured 200K context with 96K used, about half an hour and 79 tokens/s. The post explicitly identifies inline SVG and a CSS loop in an HTML preview. The complete recording, including its harness UI, is retained. Full source files and the verbatim prompt are unavailable. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Jerry_Galaxy/status/2115666646107136484",
+        "https://video.twimg.com/amplify_video/2115665291304992768/vid/avc1/3072x1728/jf39JGnlDPA0hS0S.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8-Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Jerry_Galaxy/status/2115666646107136484"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-29",
+    "sourceResponseTimestamp": "2026-10-29T04:46:50+00:00"
+  },
+  {
+    "id": "x-airbagsooo-flamingo-derivative-2026-10-29",
+    "originalId": "x-airbagsooo-flamingo-derivative-2026-10-29",
+    "kind": "timeline",
+    "title": "火烈鸟骑车 · 鹈鹕题衍生",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Airbags (@Airbagsooo)",
+    "date": "2026-10-29",
+    "month": "2026-10",
+    "notes": "作者明确把鹈鹕测试改为火烈鸟，以 ChatGPT 编写提示词，再由 WorkBuddy 与 DeepSeek-V4.1-Flash 生成 SVG 骑车动画，归入角色替换衍生题。完整 8 秒原视频与作者附带的代码测试评价截图留档；截图中的 8.6/10 是 ChatGPT 评价，不是本馆评分。完整原 SVG／HTML 和逐字提示词未公开取得。 型号按来源标注，未独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Airbagsooo/status/2115748860534603843",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/airbags-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2115748536293928960/vid/avc1/1280x720/r45f8pzMGW4ymWDO.mp4?tag=29",
+        "sha256": "fbc0d51f8d7035ba3a7ed5c840ab9e9ca9b3f39a43e7b6455611ed865d2db7a2",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2115748536293928960/vid/avc1/1280x720/r45f8pzMGW4ymWDO.mp4?tag=29",
+          "sourceSha256": "fbc0d51f8d7035ba3a7ed5c840ab9e9ca9b3f39a43e7b6455611ed865d2db7a2",
+          "frameTime": 1,
+          "sha256": "da0cb7d5397148275632ce0999d8534bde7508f2b0be5edde3314391c3b352c2"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-10-30-daily-intake/airbags-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-10-30-daily-intake/airbags-prompt.png",
+        "source": "https://pbs.twimg.com/media/HVygjBzbcAAticG.png?name=orig",
+        "sha256": "40fe08ba749d352b664b63dbbc4a0064a36ffcf0a1e185a085e2736476d2204f",
+        "detailOnly": true,
+        "caption": "作者附图（ChatGPT 评价截图，非本馆评分）",
+        "captionEn": "Creator attachment: ChatGPT evaluation, not an archive score",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-10-30-daily-intake/airbags-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-airbagsooo-flamingo-derivative-2026-10-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-airbagsooo-flamingo-derivative-2026-10-29/",
+    "markdown": "/specimens/x-airbagsooo-flamingo-derivative-2026-10-29/index.md",
+    "updated": "2026-10-30",
+    "rights": "作品与原文件归原作者。保留署名、出处和原有声明；未发现明确开源许可，不声称获得开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Flamingo cycling · pelican-test derivative",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "The creator explicitly adapts the pelican test to a flamingo, using a ChatGPT-written prompt with WorkBuddy and DeepSeek-V4.1-Flash to create an SVG cycling animation. This character substitution belongs to derivatives. The complete 8-second recording and the attached code-test evaluation screenshot are retained. Its 8.6/10 is a ChatGPT evaluation, not an archive score. Full SVG/HTML and the verbatim prompt are unavailable. Model labels are source-reported and not independently authenticated.",
+        "rights": "Works and original files remain creator-owned. Attribution, sources and existing notices are preserved; no explicit open-source license was found or claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Airbagsooo/status/2115748860534603843",
+        "https://pbs.twimg.com/media/HVygjBzbcAAticG.png?name=orig",
+        "https://video.twimg.com/amplify_video/2115748536293928960/vid/avc1/1280x720/r45f8pzMGW4ymWDO.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Airbagsooo/status/2115748860534603843"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-29",
+    "sourceResponseTimestamp": "2026-10-29T10:13:31+00:00"
   }
 ]

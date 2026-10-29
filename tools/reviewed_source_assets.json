@@ -458,5 +458,53 @@
         "model": "Qwen3.8 Flash-Next"
       }
     ]
+  },
+  {
+    "url": "https://svg.new/pelican/gemini-4-argon.svg",
+    "path": "pelican-archive/research/2026-10-30-daily-intake/svgnew-gemini.svg",
+    "sha256": "7ee5a614a9b4f7a6a19c95c0246b1c0e55a441765b4f4e082237a60fd38ded32",
+    "bytes": 15913,
+    "bindings": [
+      {
+        "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://svg.new/pelican/gpt-6-1-sol.svg",
+    "path": "pelican-archive/research/2026-10-30-daily-intake/svgnew-sol.svg",
+    "sha256": "2484a7676fa5f87f08f593898e82bfa71a26bc0e46b5f6b75bcf91efd0e4f273",
+    "bytes": 5710,
+    "bindings": [
+      {
+        "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://svg.new/pelican/claude-sonnet-5-5.svg",
+    "path": "pelican-archive/research/2026-10-30-daily-intake/svgnew-sonnet.svg",
+    "sha256": "71c011912fd7386ea985a82ad3695227bd6abd1ce1366721a3d2050b70483550",
+    "bytes": 3910,
+    "bindings": [
+      {
+        "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://svg.new/pelican/claude-opus-5-5.svg",
+    "path": "pelican-archive/research/2026-10-30-daily-intake/svgnew-opus.svg",
+    "sha256": "ea0cb6ea580415174d9f7b9df40cdc6cb25bd53c8ac9b64482dd5b138eb3df2f",
+    "bytes": 2378,
+    "bindings": [
+      {
+        "sourceUrl": "https://svg.new/pelican-riding-a-bicycle-svg",
+        "model": "Claude Opus 5.5"
+      }
+    ]
   }
 ]
