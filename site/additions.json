@@ -76179,5 +76179,625 @@
       "attempts": 1,
       "apiModel": "openai/gpt-6.1-terra-pro"
     }
+  },
+  {
+    "id": "x-marmaduke-fable55-max-feathered-2026-10-30",
+    "originalId": "x-marmaduke-fable55-max-feathered-2026-10-30",
+    "kind": "timeline",
+    "title": "细羽鹈鹕与绿色公路车",
+    "model": "Claude Fable 5.5",
+    "author": "can (@marmaduke091)",
+    "date": "2026-10-30",
+    "month": "2026-10",
+    "notes": "发布者标注 Fable 5.5 Max，并在公开回复补发「Animated, still SVG」的完整 8 秒原动画。原静态图和动画作为同一件保留；原帖与回复的提示词措辞分别保存，不推断迭代次数或正式开放情况。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/marmaduke091/status/2116233349391962392",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116301812907258341-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116301670749552640/vid/avc1/1920x1440/Lmrcvo1HLNvLabMP.mp4?tag=29",
+        "sha256": "20bc5254ac6fcc288c5d54ca7ea52bba0656368a3cc49ac446ea43f626c4a6e8",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116301670749552640/vid/avc1/1920x1440/Lmrcvo1HLNvLabMP.mp4?tag=29",
+          "sourceSha256": "20bc5254ac6fcc288c5d54ca7ea52bba0656368a3cc49ac446ea43f626c4a6e8",
+          "frameTime": 1,
+          "sha256": "54942f92bcfa4aa30ab451cea71bf411de0669be54d927a39e0be9085523585b"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-recent-expanded/2116301812907258341-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116233349391962392-1.jpg",
+        "source": "https://pbs.twimg.com/media/HV5eqzhWEAEwhwj.jpg?name=orig",
+        "sha256": "2afcebca18519761b9c0ce549280e3416f56cb68ffe587ac861e673c281bd355",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116301812907258341-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-marmaduke-fable55-max-feathered-2026-10-30/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-marmaduke-fable55-max-feathered-2026-10-30/",
+    "markdown": "/specimens/x-marmaduke-fable55-max-feathered-2026-10-30/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Feathered pelican on a green road bicycle",
+        "model": "Claude Fable 5.5",
+        "notes": "The publisher labels this Fable 5.5 Max and adds a complete eight-second animation in a public reply stating “Animated, still SVG”. The still and animation are one work. Prompt wording differs between the post and reply and both are preserved; iteration count and public release status are unknown. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/marmaduke091/status/2116233349391962392",
+        "https://video.twimg.com/amplify_video/2116301670749552640/vid/avc1/1920x1440/Lmrcvo1HLNvLabMP.mp4?tag=29",
+        "https://pbs.twimg.com/media/HV5eqzhWEAEwhwj.jpg?name=orig",
+        "https://x.com/marmaduke091/status/2116301812907258341",
+        "https://x.com/marmaduke091/status/2116238110216602075"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/marmaduke091/status/2116233349391962392",
+      "https://x.com/marmaduke091/status/2116301812907258341",
+      "https://x.com/marmaduke091/status/2116238110216602075"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "Max",
+      "replyPrompt": "can you generate an svg of a pelican riding a bicycle"
+    }
+  },
+  {
+    "id": "x-chetaslua-fable-new-sunset-2026-10-29",
+    "originalId": "x-chetaslua-fable-new-sunset-2026-10-29",
+    "kind": "timeline",
+    "title": "海湾落日中的鹈鹕骑车",
+    "model": "Fable（新检查点，来源标注）",
+    "author": "未署名生成者；Chetaslua (@chetaslua) 发布",
+    "date": "2026-10-29",
+    "month": "2026-10",
+    "notes": "发布者明确称本作 SVG 为新 Fable 检查点输出，并称已向 @legit_api 核实采用普通 SVG 提示词。保留完整原始静态图片；原始生成者未公开署名，不把发布者认定为生成者，也不猜具体 5.x 版本。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2115882032840732893",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2115882032840732893-1.jpg",
+        "source": "https://pbs.twimg.com/media/HV0e67-akAAx1nh.jpg?name=orig",
+        "sha256": "ffa0ed2d5e9e5dd56d04d292e8191e0c285df6a94cce8b36e663639d0d127673",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2115882032840732893-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chetaslua-fable-new-sunset-2026-10-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-fable-new-sunset-2026-10-29/",
+    "markdown": "/specimens/x-chetaslua-fable-new-sunset-2026-10-29/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican cycling beside a sunset bay",
+        "model": "Fable（新检查点，来源标注）",
+        "notes": "The publisher explicitly describes this as an SVG output from a new Fable checkpoint and says @legit_api confirmed a normal SVG prompt. The complete original still is preserved. The generating author is not publicly identified; the publisher is not assumed to be the creator and no exact 5.x version is inferred. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2115882032840732893",
+        "https://pbs.twimg.com/media/HV0e67-akAAx1nh.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Fable（新检查点，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2115882032840732893"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-inmerson-kerria-oddbird-2026-10-31",
+    "originalId": "x-inmerson-kerria-oddbird-2026-10-31",
+    "kind": "timeline",
+    "title": "Oddbird 骑行网页中的鹈鹕 SVG",
+    "model": "Kerria",
+    "author": "Inmersion (@Inmerson)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "原帖明确标注匿名模型 Kerria 与 SVG 提示词，原始截图展示包含品牌、按钮和文案的骑行网页设计，归入网页衍生作品。保留完整浏览器截图；不依据网友猜测改写为 Qwen 4。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Inmerson/status/2116458368759898230",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116458368759898230-1.jpg",
+        "source": "https://pbs.twimg.com/media/HV8rbnGWAAAXOzX.jpg?name=orig",
+        "sha256": "7a996d71126be235e08f5b031f235a00ef5fa470cdaf3349868b07f5a0aa517c",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116458368759898230-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-inmerson-kerria-oddbird-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-inmerson-kerria-oddbird-2026-10-31/",
+    "markdown": "/specimens/x-inmerson-kerria-oddbird-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican SVG in the Oddbird cycling page",
+        "model": "Kerria",
+        "notes": "The post explicitly labels the anonymous model Kerria and gives an SVG prompt. Its original screenshot shows a complete cycling-page design with branding, buttons and copy, archived as a derivative web design. The full browser screenshot is preserved; speculation about Qwen 4 is not adopted. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Inmerson/status/2116458368759898230",
+        "https://pbs.twimg.com/media/HV8rbnGWAAAXOzX.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kerria"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Inmerson/status/2116458368759898230"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-mediocrity-alex-deepseek-local-2026-10-31",
+    "originalId": "x-mediocrity-alex-deepseek-local-2026-10-31",
+    "kind": "timeline",
+    "title": "本地 DeepSeek 海边骑行动画",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Alex (@Mediocrity_Alex)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "作者记录本地四张 RTX Pro 6000 Blackwell、原生 DeepSeek harness、max 思考，一次提示生成，耗时 20 分 12 秒、267K token。按本地文本模型与 coding harness 的生成工作流收录；未提供逐字提示词或源码。原录屏完整保留，原始 DTS 时间戳警告留档，完整解码通过。作者 9/10 属个人评价。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Mediocrity_Alex/status/2116354536684318921",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116354536684318921-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116354403183771648/vid/avc1/1596x1056/3919O9dqTUWt1RYX.mp4?tag=29",
+        "sha256": "f60f8f0b2d781a0b61f60ae875b64c134ac040b4719a02cd3d26d339a9dbfd7c",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116354403183771648/vid/avc1/1596x1056/3919O9dqTUWt1RYX.mp4?tag=29",
+          "sourceSha256": "f60f8f0b2d781a0b61f60ae875b64c134ac040b4719a02cd3d26d339a9dbfd7c",
+          "frameTime": 1,
+          "sha256": "6ca8a3e39b1c0e823f6e610f5c1ac0ac30893bdb298e73e333e760c340cb4f75"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-recent-expanded/2116354536684318921-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116354536684318921-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-mediocrity-alex-deepseek-local-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-mediocrity-alex-deepseek-local-2026-10-31/",
+    "markdown": "/specimens/x-mediocrity-alex-deepseek-local-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Local DeepSeek seaside cycling animation",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "The creator reports four local RTX Pro 6000 Blackwell GPUs, the stock DeepSeek harness, max thinking, one prompt and one attempt, taking 20m12s and 267K tokens. The local text-model/coding-harness workflow establishes code generation; the verbatim prompt and source are unavailable. The full recording is retained; original DTS timestamp warnings are logged and decoding completed. The 9/10 is the creator’s own rating. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Mediocrity_Alex/status/2116354536684318921",
+        "https://video.twimg.com/amplify_video/2116354403183771648/vid/avc1/1596x1056/3919O9dqTUWt1RYX.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Mediocrity_Alex/status/2116354536684318921"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-ufdcqg-argon-prompt-1-2026-10-31",
+    "originalId": "x-ufdcqg-argon-prompt-1-2026-10-31",
+    "kind": "timeline",
+    "title": "Argon 鹈鹕骑车 · 精细措辞",
+    "model": "Gemini 4 Argon",
+    "author": "23 (@Ufdcqg)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "作者明确两份输出均使用 Argon，分别记录两种提示词。每份原始图片分别计一件；本作对应第 1 种提示词，不从排列猜推理档位或作者默认。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Ufdcqg/status/2116385963962138839",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "Prompt 1",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116385963962138839-1.jpg",
+        "source": "https://pbs.twimg.com/media/HV7pzBKXoAAj6Zx.jpg?name=orig",
+        "sha256": "753e717b54e4acc3e2cdab17153c6786b98dfae982c6c103d74c9e050b585477",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116385963962138839-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-ufdcqg-argon-prompt-1-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-ufdcqg-argon-prompt-1-2026-10-31/",
+    "markdown": "/specimens/x-ufdcqg-argon-prompt-1-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Argon pelican · prompt wording 1",
+        "model": "Gemini 4 Argon",
+        "notes": "The author explicitly says both outputs used Argon and documents two prompts. Each original image is a separate output; this is prompt 1. Thinking effort and author preference are unknown. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Ufdcqg/status/2116385963962138839",
+        "https://pbs.twimg.com/media/HV7pzBKXoAAj6Zx.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Ufdcqg/status/2116385963962138839"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "promptComparison": true,
+      "actualPrompt": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can"
+    }
+  },
+  {
+    "id": "x-ufdcqg-argon-prompt-2-2026-10-31",
+    "originalId": "x-ufdcqg-argon-prompt-2-2026-10-31",
+    "kind": "timeline",
+    "title": "Argon 鹈鹕骑车 · 简短措辞",
+    "model": "Gemini 4 Argon",
+    "author": "23 (@Ufdcqg)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "作者明确两份输出均使用 Argon，分别记录两种提示词。每份原始图片分别计一件；本作对应第 2 种提示词，不从排列猜推理档位或作者默认。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Ufdcqg/status/2116385963962138839",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "Prompt 2",
+    "promptCategory": "classic",
+    "promptStatus": "Can you generate an svg of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116385963962138839-2.jpg",
+        "source": "https://pbs.twimg.com/media/HV7pz7JW8AAZEk8.jpg?name=orig",
+        "sha256": "6b91e21cef2e0fd28edbf92951f19919d39259ebee6f563535d49e976b64e14e",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116385963962138839-2.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-ufdcqg-argon-prompt-2-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-ufdcqg-argon-prompt-2-2026-10-31/",
+    "markdown": "/specimens/x-ufdcqg-argon-prompt-2-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Argon pelican · prompt wording 2",
+        "model": "Gemini 4 Argon",
+        "notes": "The author explicitly says both outputs used Argon and documents two prompts. Each original image is a separate output; this is prompt 2. Thinking effort and author preference are unknown. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "Can you generate an svg of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Ufdcqg/status/2116385963962138839",
+        "https://pbs.twimg.com/media/HV7pz7JW8AAZEk8.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Ufdcqg/status/2116385963962138839"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "promptComparison": true,
+      "actualPrompt": "Can you generate an svg of a pelican riding a bicycle."
+    }
+  },
+  {
+    "id": "x-mezeezain-argon-high-2026-10-31",
+    "originalId": "x-mezeezain-argon-high-2026-10-31",
+    "kind": "timeline",
+    "title": "Argon High 的海边鹈鹕",
+    "model": "Gemini 4 Argon",
+    "author": "Zain (@MeZeeZain)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "作者在 SVG 骑车原帖的公开回复中上传本份输出，明确「Gemini Argon High thinking」。保留完整原图；提示词的完整单次措辞与迭代次数未知，父帖的 Fable 型号不传给此输出。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/MeZeeZain/status/2116331833684009293",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116331833684009293-1.jpg",
+        "source": "https://pbs.twimg.com/media/HV64lPmW0AAXFWv.jpg?name=orig",
+        "sha256": "339fe8f21eb740caf72c64bbcc597289c74f48cd7f2448b855959a7f8390fd27",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116331833684009293-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-mezeezain-argon-high-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-mezeezain-argon-high-2026-10-31/",
+    "markdown": "/specimens/x-mezeezain-argon-high-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Argon High seaside pelican",
+        "model": "Gemini 4 Argon",
+        "notes": "The author posts this output in a public reply to the SVG cycling thread and explicitly labels it “Gemini Argon High thinking”. The complete original image is preserved. Exact prompt wording and iteration count are unknown; the parent post’s Fable label is not inherited. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/MeZeeZain/status/2116331833684009293",
+        "https://pbs.twimg.com/media/HV64lPmW0AAXFWv.jpg?name=orig",
+        "https://x.com/marmaduke091/status/2116233349391962392"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/MeZeeZain/status/2116331833684009293",
+      "https://x.com/marmaduke091/status/2116233349391962392"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-guojih-glm53flash-halloween-2026-10-31",
+    "originalId": "x-guojih-glm53flash-halloween-2026-10-31",
+    "kind": "timeline",
+    "title": "万圣节午夜糖果骑行",
+    "model": "GLM 5.3 Flash",
+    "author": "薄荷清尘 (@0GuoJiH)",
+    "date": "2026-10-31",
+    "month": "2026-10",
+    "notes": "作者明确在 Zcode 中使用 GLM 5.3 flash 构建本作；完整 6 秒原视频展示巫师帽、南瓜、幽灵和墓地的万圣节糖果骑行，归入节日衍生作品。原始提示词与完整代码未提供。 型号与作者说明按公开来源记录，未经独立认证；完整源码未公开取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/0GuoJiH/status/2116530938045985062",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-recent-expanded/2116530938045985062-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116530916692811776/vid/avc1/1000x750/VotcoLAW03RY6NPY.mp4?tag=29",
+        "sha256": "8e8bcfd3bebd4b0f8502d16eecf0bc1891c4f8d9d592ffa217a31a66e1a3b867",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116530916692811776/vid/avc1/1000x750/VotcoLAW03RY6NPY.mp4?tag=29",
+          "sourceSha256": "8e8bcfd3bebd4b0f8502d16eecf0bc1891c4f8d9d592ffa217a31a66e1a3b867",
+          "frameTime": 1,
+          "sha256": "898cfa4914aab3e966548ffdbef1d26023f04d9dbe30f0efcc61b3521b19275e"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-recent-expanded/2116530938045985062-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-recent-expanded/2116530938045985062-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-guojih-glm53flash-halloween-2026-10-31/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-guojih-glm53flash-halloween-2026-10-31/",
+    "markdown": "/specimens/x-guojih-glm53flash-halloween-2026-10-31/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Halloween midnight candy ride",
+        "model": "GLM 5.3 Flash",
+        "notes": "The creator explicitly reports building this with GLM 5.3 Flash in Zcode. The full six-second recording shows a Halloween candy ride with a witch hat, pumpkins, ghosts and a graveyard, classified as a holiday derivative. The original prompt and complete code were not provided. Model labels and generation details are source-reported, not independently authenticated; complete source code was not obtained.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/0GuoJiH/status/2116530938045985062",
+        "https://video.twimg.com/amplify_video/2116530916692811776/vid/avc1/1000x750/VotcoLAW03RY6NPY.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM 5.3 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/0GuoJiH/status/2116530938045985062"
+    ],
+    "datePrecision": "day"
   }
 ]
