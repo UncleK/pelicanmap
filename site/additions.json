@@ -75933,5 +75933,251 @@
       "sourceReported": true,
       "settings": "Deepseek Harness; single-turn"
     }
+  },
+  {
+    "id": "hypeorcode-particle-1-2026-10-28",
+    "originalId": "hypeorcode-particle-1-2026-10-28",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Particle-1",
+    "author": "hype or code",
+    "date": "2026-10-28",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成，档位 high；日期为来源记录的运行日期，首次公开日未知。型号及设置按来源标注，未经独立认证；保留完整静态 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/particle-1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-daily-intake/particle-1.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/particle-1.51c90041.svg",
+        "sha256": "d8cfdf901cb4bd339f3a27ec734ff1dd0954ff112cd71e9e7fff0a649a07e45c",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-daily-intake/particle-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/particle-1.51c90041.txt",
+    "path": "/specimens/hypeorcode-particle-1-2026-10-28/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-particle-1-2026-10-28/",
+    "markdown": "/specimens/hypeorcode-particle-1-2026-10-28/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Particle-1",
+        "notes": "The source reports one OpenRouter API attempt with effort high. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG is preserved.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/particle-1/",
+        "https://hypeorcode.com/o/pelican-bicycle/particle-1.51c90041.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/particle-1.51c90041.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/particle-1.b2667489.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Particle-1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/particle-1/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/particle-1.51c90041.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/particle-1.b2667489.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "high",
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "particle-ai/particle-1"
+    }
+  },
+  {
+    "id": "hypeorcode-gpt-6-1-terra-2026-10-27",
+    "originalId": "hypeorcode-gpt-6-1-terra-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "GPT-6.1 Terra",
+    "author": "hype or code",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成，档位 medium；日期为来源记录的运行日期，首次公开日未知。型号及设置按来源标注，未经独立认证；保留完整静态 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-daily-intake/gpt-6-1-terra.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra.31ca2ed2.svg",
+        "sha256": "93aadcba4c208992cda3481217f9b6ce8a1055fb18db8dd77865f4b40831e6e3",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-daily-intake/gpt-6-1-terra.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra.31ca2ed2.txt",
+    "path": "/specimens/hypeorcode-gpt-6-1-terra-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-gpt-6-1-terra-2026-10-27/",
+    "markdown": "/specimens/hypeorcode-gpt-6-1-terra-2026-10-27/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "GPT-6.1 Terra",
+        "notes": "The source reports one OpenRouter API attempt with effort medium. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG is preserved.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra/",
+        "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra.31ca2ed2.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra.31ca2ed2.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra.5d706e66.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra.31ca2ed2.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra.5d706e66.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "openai/gpt-6.1-terra"
+    }
+  },
+  {
+    "id": "hypeorcode-gpt-6-1-terra-pro-2026-10-27",
+    "originalId": "hypeorcode-gpt-6-1-terra-pro-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "GPT-6.1 Terra Pro",
+    "author": "hype or code",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成，档位 medium；日期为来源记录的运行日期，首次公开日未知。型号及设置按来源标注，未经独立认证；保留完整静态 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra-pro/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-daily-intake/gpt-6-1-terra-pro.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.svg",
+        "sha256": "9e7596e01c6d3a175ae34afe4f4b801ff7a6d48a88bb337579e16662749e7778",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-daily-intake/gpt-6-1-terra-pro.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.txt",
+    "path": "/specimens/hypeorcode-gpt-6-1-terra-pro-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-gpt-6-1-terra-pro-2026-10-27/",
+    "markdown": "/specimens/hypeorcode-gpt-6-1-terra-pro-2026-10-27/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "GPT-6.1 Terra Pro",
+        "notes": "The source reports one OpenRouter API attempt with effort medium. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG is preserved.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra-pro/",
+        "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra-pro.64755789.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra-pro/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/gpt-6-1-terra-pro.64755789.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "openai/gpt-6.1-terra-pro"
+    }
   }
 ]

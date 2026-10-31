@@ -15,7 +15,7 @@
 [在线统计图 ↗](https://unclek.github.io/pelicanmap/zh/#statistics) · 徽章自动读取在线接口，受图片缓存影响。时间线为作品子集，评分资料单列。
 
 <!-- collection-stats:start -->
-馆藏快照（2026-10-31）：**1,208** 件作品 · **1,044** 件常规作品 · **164** 件衍生作品。后两项是总数的分项。 [在线统计](https://pelicanmap.aveniqa.com/api/v1/stats) · 此区由 `npm run build:project` 自动生成。
+馆藏快照（2026-11-01）：**1,211** 件作品 · **1,047** 件常规作品 · **164** 件衍生作品。后两项是总数的分项。 [在线统计](https://pelicanmap.aveniqa.com/api/v1/stats) · 此区由 `npm run build:project` 自动生成。
 
 <a href="https://pelicanmap.aveniqa.com/" lang="zh-CN">中文</a> · [English](https://pelicanmap.aveniqa.com/en/) · [Русский](https://pelicanmap.aveniqa.com/ru/) · [Português (Brasil)](https://pelicanmap.aveniqa.com/pt-BR/)
 <!-- collection-stats:end -->

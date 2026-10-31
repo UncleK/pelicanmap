@@ -506,5 +506,41 @@
         "model": "Claude Opus 5.5"
       }
     ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/particle-1.51c90041.svg",
+    "path": "pelican-archive/research/2026-11-01-daily-intake/particle-1.svg",
+    "sha256": "d8cfdf901cb4bd339f3a27ec734ff1dd0954ff112cd71e9e7fff0a649a07e45c",
+    "bytes": 8911,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/particle-1/",
+        "model": "Particle-1"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra.31ca2ed2.svg",
+    "path": "pelican-archive/research/2026-11-01-daily-intake/gpt-6-1-terra.svg",
+    "sha256": "93aadcba4c208992cda3481217f9b6ce8a1055fb18db8dd77865f4b40831e6e3",
+    "bytes": 4569,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/gpt-6-1-terra-pro.63f78f4f.svg",
+    "path": "pelican-archive/research/2026-11-01-daily-intake/gpt-6-1-terra-pro.svg",
+    "sha256": "9e7596e01c6d3a175ae34afe4f4b801ff7a6d48a88bb337579e16662749e7778",
+    "bytes": 5221,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gpt-6-1-terra-pro/",
+        "model": "GPT-6.1 Terra Pro"
+      }
+    ]
   }
 ]
