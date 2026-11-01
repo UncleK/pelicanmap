@@ -542,5 +542,257 @@
         "model": "GPT-6.1 Terra Pro"
       }
     ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/flint.60b70193.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/flint.svg",
+    "sha256": "b6fb5982def763c0e5e2c7aa41cf8e1054bf8b89785aee8076a3e19964a2d5fd",
+    "bytes": 1832,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/flint/",
+        "model": "Flint"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/glimpse.2b5a9389.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/glimpse.svg",
+    "sha256": "18835f2449c88d914a0b2192e39c9c1d64a2d6ccd4f2fc7b81c2eb58d361ffea",
+    "bytes": 4343,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/glimpse/",
+        "model": "Glimpse"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/beam-1-0.a218f8bd.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/beam-1-0.svg",
+    "sha256": "c4586a4a6d18c1a753ca223cf407c3643291a2d9e051cd8b4657e756ea7567c8",
+    "bytes": 4840,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/beam-1-0/",
+        "model": "Beam 1.0"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/mercury-3.4272f00a.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/mercury-3.svg",
+    "sha256": "2e081285ed8e0afaaffbdcaba0ac7eec9bf2fd3adf5a1532cc0cad944d81a4de",
+    "bytes": 6123,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mercury-3/",
+        "model": "Mercury 3"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/ternary-bonsai-2-9b.57873da5.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/ternary-bonsai-2-9b.svg",
+    "sha256": "10de8250e807fa5f201cd0945176f4ff8ba6f15e0666784acd6c7da479a89008",
+    "bytes": 3123,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ternary-bonsai-2-9b/",
+        "model": "Ternary Bonsai 2 9B"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/xing-4-0.167174e8.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/xing-4-0.svg",
+    "sha256": "5201eb34574594a8cb02e056227eed3981b695fa163396abf8b6f3b10bc39c9f",
+    "bytes": 3195,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/xing-4-0/",
+        "model": "Xing 4.0"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/muse-spark-open.a7c480ed.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/muse-spark-open.svg",
+    "sha256": "a2eba911f607066483644838347ef868bec7aa074ac1f6087e00f5b46fcf062c",
+    "bytes": 13880,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/muse-spark-open/",
+        "model": "Muse Spark Open"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/nemotron-3-5-super-vl.svg",
+    "sha256": "034850c842c07ac895a470814079a5da2f5699247aed64603a83682825d24027",
+    "bytes": 4243,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-super-vl/",
+        "model": "Nemotron 3.5 Super VL"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/pareto-26-10.e4dbdedd.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/pareto-26-10.svg",
+    "sha256": "293a3902bbaa26ccc809415569f8558eaabac862e1616af80ce0df506119b92f",
+    "bytes": 9615,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/pareto-26-10/",
+        "model": "Pareto 26.10"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/lfm2-5-24b-a2b.svg",
+    "sha256": "1e456c4ba8b1c5e4c1f48e5ca7f8eb4a7a73609d90b5349d20f12ccbe5e31dc9",
+    "bytes": 1313,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/lfm2-5-24b-a2b/",
+        "model": "LFM2.5-24B-A2B"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/pareto-26-9.359c917a.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/pareto-26-9.svg",
+    "sha256": "35a15f470523d440ad7a0f551927f5a44db10d1f57ad9b116706c5b0f91b025e",
+    "bytes": 7485,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/pareto-26-9/",
+        "model": "Pareto 26.9"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/ling-3-1-flash.0bc575ec.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/ling-3-1-flash.svg",
+    "sha256": "92462253dded3087c2a202da86544b790f6ba4feba85ee9b1232de65743212b4",
+    "bytes": 8678,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ling-3-1-flash/",
+        "model": "Ling 3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/ember-1.d11a5a76.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/ember-1.svg",
+    "sha256": "c3f6026efe636d30378956d8e0dbe64a4dea24a69160c5e42292af31f7ba9b1d",
+    "bytes": 7996,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ember-1/",
+        "model": "Ember-1"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-flash.9fce2349.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/mimo-v2-6-flash.svg",
+    "sha256": "55ee6d8c79064e0cc0f1db6366c94a42b252c17b90e4552acebc95d61669ea24",
+    "bytes": 7571,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-flash/",
+        "model": "MiMo v2.6 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-pro.e457d06e.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/mimo-v2-6-pro.svg",
+    "sha256": "c372a60db85c71fd532a5b3e582e303c98ac497f20d0c4601d06fc0da28b0241",
+    "bytes": 8321,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-pro/",
+        "model": "MiMo v2.6 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/fugu-max.45747424.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/fugu-max.svg",
+    "sha256": "deaa26ad23eae012e147afbd377d440ea5f9b4df6a8c4fbbf4b3925c7d846b24",
+    "bytes": 5265,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/fugu-max/",
+        "model": "Fugu Max"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/hy4-preview.b341b83a.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/hy4-preview.svg",
+    "sha256": "e76cf993c33249f18a77a1f7f434c985274bc97993ddc747aaf6b6036a81b9cf",
+    "bytes": 6985,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4-preview/",
+        "model": "Hy4 Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/nemotron-3-5-lightning.svg",
+    "sha256": "de21fe1948075505feeb2b14de134d161686c93adee655de18667af428aafdf9",
+    "bytes": 1580,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-lightning/",
+        "model": "Nemotron 3.5 Lightning"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/laguna-s-2-1.91ff9043.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/laguna-s-2-1.svg",
+    "sha256": "d75e0349f46294de0d3b25911d217249c414d339f00eb2b21fda8b6d6187aea6",
+    "bytes": 2024,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/laguna-s-2-1/",
+        "model": "Laguna S 2.1"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/inkling.4204dfb5.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/inkling.svg",
+    "sha256": "b3de915fa6c66ea55169d2709679c80a61c36d2a3085020a9674d655d1f5ba53",
+    "bytes": 5150,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/inkling/",
+        "model": "Inkling"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-ultra.c45ee676.svg",
+    "path": "pelican-archive/research/2026-11-01-model-breadth/nemotron-3-ultra.svg",
+    "sha256": "924d1f93a49fac183d71d7b5be3ae211b3bd2240acf98904d4cabc9f727305dd",
+    "bytes": 9502,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-ultra/",
+        "model": "Nemotron 3 Ultra"
+      }
+    ]
   }
 ]

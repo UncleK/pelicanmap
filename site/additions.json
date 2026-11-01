@@ -76799,5 +76799,2030 @@
       "https://x.com/0GuoJiH/status/2116530938045985062"
     ],
     "datePrecision": "day"
+  },
+  {
+    "id": "hypeorcode-flint-2026-10-21",
+    "originalId": "hypeorcode-flint-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Flint",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/flint/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/flint.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/flint.60b70193.svg",
+        "sha256": "b6fb5982def763c0e5e2c7aa41cf8e1054bf8b89785aee8076a3e19964a2d5fd",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/flint.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/flint.60b70193.txt",
+    "path": "/specimens/hypeorcode-flint-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-flint-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-flint-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Flint",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/flint/",
+        "https://hypeorcode.com/o/pelican-bicycle/flint.60b70193.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/flint.60b70193.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/flint.5280085e.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Flint"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/flint/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/flint.60b70193.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/flint.5280085e.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "recursive/flint-v1.0:free"
+    }
+  },
+  {
+    "id": "hypeorcode-glimpse-2026-10-22",
+    "originalId": "hypeorcode-glimpse-2026-10-22",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Glimpse",
+    "author": "hype or code",
+    "date": "2026-10-22",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/glimpse/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/glimpse.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/glimpse.2b5a9389.svg",
+        "sha256": "18835f2449c88d914a0b2192e39c9c1d64a2d6ccd4f2fc7b81c2eb58d361ffea",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/glimpse.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/glimpse.2b5a9389.txt",
+    "path": "/specimens/hypeorcode-glimpse-2026-10-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-glimpse-2026-10-22/",
+    "markdown": "/specimens/hypeorcode-glimpse-2026-10-22/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Glimpse",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/glimpse/",
+        "https://hypeorcode.com/o/pelican-bicycle/glimpse.2b5a9389.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/glimpse.2b5a9389.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/glimpse.fc55bf6a.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Glimpse"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/glimpse/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/glimpse.2b5a9389.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/glimpse.fc55bf6a.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "elorian/glimpse"
+    }
+  },
+  {
+    "id": "hypeorcode-beam-1-0-2026-10-21",
+    "originalId": "hypeorcode-beam-1-0-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Beam 1.0",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/beam-1-0/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/beam-1-0.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/beam-1-0.a218f8bd.svg",
+        "sha256": "c4586a4a6d18c1a753ca223cf407c3643291a2d9e051cd8b4657e756ea7567c8",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/beam-1-0.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/beam-1-0.a218f8bd.txt",
+    "path": "/specimens/hypeorcode-beam-1-0-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-beam-1-0-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-beam-1-0-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Beam 1.0",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/beam-1-0/",
+        "https://hypeorcode.com/o/pelican-bicycle/beam-1-0.a218f8bd.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/beam-1-0.a218f8bd.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/beam-1-0.d58fff3a.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Beam 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/beam-1-0/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/beam-1-0.a218f8bd.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/beam-1-0.d58fff3a.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "reflection/beam-1.0-501b-a23b"
+    }
+  },
+  {
+    "id": "hypeorcode-mercury-3-2026-10-21",
+    "originalId": "hypeorcode-mercury-3-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Mercury 3",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mercury-3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/mercury-3.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/mercury-3.4272f00a.svg",
+        "sha256": "2e081285ed8e0afaaffbdcaba0ac7eec9bf2fd3adf5a1532cc0cad944d81a4de",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/mercury-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/mercury-3.4272f00a.txt",
+    "path": "/specimens/hypeorcode-mercury-3-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-mercury-3-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-mercury-3-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Mercury 3",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/mercury-3/",
+        "https://hypeorcode.com/o/pelican-bicycle/mercury-3.4272f00a.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mercury-3.4272f00a.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mercury-3.c82e13ce.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Mercury 3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/mercury-3/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mercury-3.4272f00a.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mercury-3.c82e13ce.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "inception/mercury-3"
+    }
+  },
+  {
+    "id": "hypeorcode-ternary-bonsai-2-9b-2026-11-01",
+    "originalId": "hypeorcode-ternary-bonsai-2-9b-2026-11-01",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Ternary Bonsai 2 9B",
+    "author": "hype or code",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ternary-bonsai-2-9b/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/ternary-bonsai-2-9b.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/ternary-bonsai-2-9b.57873da5.svg",
+        "sha256": "10de8250e807fa5f201cd0945176f4ff8ba6f15e0666784acd6c7da479a89008",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/ternary-bonsai-2-9b.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/ternary-bonsai-2-9b.57873da5.txt",
+    "path": "/specimens/hypeorcode-ternary-bonsai-2-9b-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-ternary-bonsai-2-9b-2026-11-01/",
+    "markdown": "/specimens/hypeorcode-ternary-bonsai-2-9b-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Ternary Bonsai 2 9B",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/ternary-bonsai-2-9b/",
+        "https://hypeorcode.com/o/pelican-bicycle/ternary-bonsai-2-9b.57873da5.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ternary-bonsai-2-9b.57873da5.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ternary-bonsai-2-9b.0436dc38.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Ternary Bonsai 2 9B"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/ternary-bonsai-2-9b/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ternary-bonsai-2-9b.57873da5.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ternary-bonsai-2-9b.0436dc38.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "prism-ml/ternary-bonsai-2-9b"
+    }
+  },
+  {
+    "id": "hypeorcode-xing-4-0-2026-10-22",
+    "originalId": "hypeorcode-xing-4-0-2026-10-22",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Xing 4.0",
+    "author": "hype or code",
+    "date": "2026-10-22",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/xing-4-0/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/xing-4-0.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/xing-4-0.167174e8.svg",
+        "sha256": "5201eb34574594a8cb02e056227eed3981b695fa163396abf8b6f3b10bc39c9f",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/xing-4-0.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/xing-4-0.167174e8.txt",
+    "path": "/specimens/hypeorcode-xing-4-0-2026-10-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-xing-4-0-2026-10-22/",
+    "markdown": "/specimens/hypeorcode-xing-4-0-2026-10-22/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Xing 4.0",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/xing-4-0/",
+        "https://hypeorcode.com/o/pelican-bicycle/xing-4-0.167174e8.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/xing-4-0.167174e8.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/xing-4-0.077b295a.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Xing 4.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/xing-4-0/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/xing-4-0.167174e8.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/xing-4-0.077b295a.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "xingchen-agi/xing4.0-29b-a4b:free"
+    }
+  },
+  {
+    "id": "hypeorcode-muse-spark-open-2026-10-21",
+    "originalId": "hypeorcode-muse-spark-open-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Muse Spark Open",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/muse-spark-open/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/muse-spark-open.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/muse-spark-open.a7c480ed.svg",
+        "sha256": "a2eba911f607066483644838347ef868bec7aa074ac1f6087e00f5b46fcf062c",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/muse-spark-open.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/muse-spark-open.a7c480ed.txt",
+    "path": "/specimens/hypeorcode-muse-spark-open-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-muse-spark-open-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-muse-spark-open-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Muse Spark Open",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/muse-spark-open/",
+        "https://hypeorcode.com/o/pelican-bicycle/muse-spark-open.a7c480ed.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/muse-spark-open.a7c480ed.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/muse-spark-open.70e09231.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Spark Open"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/muse-spark-open/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/muse-spark-open.a7c480ed.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/muse-spark-open.70e09231.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "meta/muse-spark-open"
+    }
+  },
+  {
+    "id": "hypeorcode-nemotron-3-5-super-vl-2026-10-21",
+    "originalId": "hypeorcode-nemotron-3-5-super-vl-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Nemotron 3.5 Super VL",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-super-vl/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/nemotron-3-5-super-vl.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.svg",
+        "sha256": "034850c842c07ac895a470814079a5da2f5699247aed64603a83682825d24027",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/nemotron-3-5-super-vl.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.txt",
+    "path": "/specimens/hypeorcode-nemotron-3-5-super-vl-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-nemotron-3-5-super-vl-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-nemotron-3-5-super-vl-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Nemotron 3.5 Super VL",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-super-vl/",
+        "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-super-vl.bb9bdcf0.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nemotron 3.5 Super VL"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-super-vl/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-super-vl.d0c76952.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-super-vl.bb9bdcf0.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "nvidia/nemotron-3.5-super-vl:free"
+    }
+  },
+  {
+    "id": "hypeorcode-pareto-26-10-2026-10-22",
+    "originalId": "hypeorcode-pareto-26-10-2026-10-22",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Pareto 26.10",
+    "author": "hype or code",
+    "date": "2026-10-22",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/pareto-26-10/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/pareto-26-10.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/pareto-26-10.e4dbdedd.svg",
+        "sha256": "293a3902bbaa26ccc809415569f8558eaabac862e1616af80ce0df506119b92f",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/pareto-26-10.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-10.e4dbdedd.txt",
+    "path": "/specimens/hypeorcode-pareto-26-10-2026-10-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-pareto-26-10-2026-10-22/",
+    "markdown": "/specimens/hypeorcode-pareto-26-10-2026-10-22/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Pareto 26.10",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/pareto-26-10/",
+        "https://hypeorcode.com/o/pelican-bicycle/pareto-26-10.e4dbdedd.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-10.e4dbdedd.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-10.4b211508.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Pareto 26.10"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/pareto-26-10/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-10.e4dbdedd.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-10.4b211508.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "unbiased/pareto-26.10"
+    }
+  },
+  {
+    "id": "hypeorcode-lfm2-5-24b-a2b-2026-10-23",
+    "originalId": "hypeorcode-lfm2-5-24b-a2b-2026-10-23",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "LFM2.5-24B-A2B",
+    "author": "hype or code",
+    "date": "2026-10-23",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/lfm2-5-24b-a2b/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/lfm2-5-24b-a2b.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.svg",
+        "sha256": "1e456c4ba8b1c5e4c1f48e5ca7f8eb4a7a73609d90b5349d20f12ccbe5e31dc9",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/lfm2-5-24b-a2b.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.txt",
+    "path": "/specimens/hypeorcode-lfm2-5-24b-a2b-2026-10-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-lfm2-5-24b-a2b-2026-10-23/",
+    "markdown": "/specimens/hypeorcode-lfm2-5-24b-a2b-2026-10-23/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "LFM2.5-24B-A2B",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/lfm2-5-24b-a2b/",
+        "https://hypeorcode.com/o/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/lfm2-5-24b-a2b.88eb4940.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "LFM2.5-24B-A2B"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/lfm2-5-24b-a2b/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/lfm2-5-24b-a2b.b99e2c8f.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/lfm2-5-24b-a2b.88eb4940.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "liquid/lfm-2.5-24b-a2b"
+    }
+  },
+  {
+    "id": "hypeorcode-pareto-26-9-2026-10-22",
+    "originalId": "hypeorcode-pareto-26-9-2026-10-22",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Pareto 26.9",
+    "author": "hype or code",
+    "date": "2026-10-22",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/pareto-26-9/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/pareto-26-9.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/pareto-26-9.359c917a.svg",
+        "sha256": "35a15f470523d440ad7a0f551927f5a44db10d1f57ad9b116706c5b0f91b025e",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/pareto-26-9.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-9.359c917a.txt",
+    "path": "/specimens/hypeorcode-pareto-26-9-2026-10-22/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-pareto-26-9-2026-10-22/",
+    "markdown": "/specimens/hypeorcode-pareto-26-9-2026-10-22/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Pareto 26.9",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/pareto-26-9/",
+        "https://hypeorcode.com/o/pelican-bicycle/pareto-26-9.359c917a.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-9.359c917a.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-9.c97b495d.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Pareto 26.9"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/pareto-26-9/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-9.359c917a.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/pareto-26-9.c97b495d.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "unbiased/pareto-26.9"
+    }
+  },
+  {
+    "id": "hypeorcode-ling-3-1-flash-2026-10-21",
+    "originalId": "hypeorcode-ling-3-1-flash-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Ling 3.1 Flash",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ling-3-1-flash/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/ling-3-1-flash.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/ling-3-1-flash.0bc575ec.svg",
+        "sha256": "92462253dded3087c2a202da86544b790f6ba4feba85ee9b1232de65743212b4",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/ling-3-1-flash.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/ling-3-1-flash.0bc575ec.txt",
+    "path": "/specimens/hypeorcode-ling-3-1-flash-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-ling-3-1-flash-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-ling-3-1-flash-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Ling 3.1 Flash",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/ling-3-1-flash/",
+        "https://hypeorcode.com/o/pelican-bicycle/ling-3-1-flash.0bc575ec.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ling-3-1-flash.0bc575ec.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ling-3-1-flash.231aff2c.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Ling 3.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/ling-3-1-flash/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ling-3-1-flash.0bc575ec.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ling-3-1-flash.231aff2c.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "inclusionai/ling-3.1-flash"
+    }
+  },
+  {
+    "id": "hypeorcode-ember-1-2026-10-23",
+    "originalId": "hypeorcode-ember-1-2026-10-23",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Ember-1",
+    "author": "hype or code",
+    "date": "2026-10-23",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ember-1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/ember-1.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/ember-1.d11a5a76.svg",
+        "sha256": "c3f6026efe636d30378956d8e0dbe64a4dea24a69160c5e42292af31f7ba9b1d",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/ember-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/ember-1.d11a5a76.txt",
+    "path": "/specimens/hypeorcode-ember-1-2026-10-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-ember-1-2026-10-23/",
+    "markdown": "/specimens/hypeorcode-ember-1-2026-10-23/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Ember-1",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/ember-1/",
+        "https://hypeorcode.com/o/pelican-bicycle/ember-1.d11a5a76.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ember-1.d11a5a76.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/ember-1.614f2582.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Ember-1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/ember-1/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ember-1.d11a5a76.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/ember-1.614f2582.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "fireworks/ember-1"
+    }
+  },
+  {
+    "id": "hypeorcode-mimo-v2-6-flash-2026-10-21",
+    "originalId": "hypeorcode-mimo-v2-6-flash-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "MiMo v2.6 Flash",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-flash/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/mimo-v2-6-flash.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-flash.9fce2349.svg",
+        "sha256": "55ee6d8c79064e0cc0f1db6366c94a42b252c17b90e4552acebc95d61669ea24",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/mimo-v2-6-flash.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-flash.9fce2349.txt",
+    "path": "/specimens/hypeorcode-mimo-v2-6-flash-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-mimo-v2-6-flash-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-mimo-v2-6-flash-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "MiMo v2.6 Flash",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-flash/",
+        "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-flash.9fce2349.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-flash.9fce2349.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-flash.bd57b386.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "MiMo v2.6 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-flash/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-flash.9fce2349.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-flash.bd57b386.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "xiaomi/mimo-v2.6-flash"
+    }
+  },
+  {
+    "id": "hypeorcode-mimo-v2-6-pro-2026-10-21",
+    "originalId": "hypeorcode-mimo-v2-6-pro-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "MiMo v2.6 Pro",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-pro/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/mimo-v2-6-pro.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-pro.e457d06e.svg",
+        "sha256": "c372a60db85c71fd532a5b3e582e303c98ac497f20d0c4601d06fc0da28b0241",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/mimo-v2-6-pro.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-pro.e457d06e.txt",
+    "path": "/specimens/hypeorcode-mimo-v2-6-pro-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-mimo-v2-6-pro-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-mimo-v2-6-pro-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "MiMo v2.6 Pro",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-pro/",
+        "https://hypeorcode.com/o/pelican-bicycle/mimo-v2-6-pro.e457d06e.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-pro.e457d06e.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-pro.f3b8ff77.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "MiMo v2.6 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/mimo-v2-6-pro/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-pro.e457d06e.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/mimo-v2-6-pro.f3b8ff77.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "xiaomi/mimo-v2.6-pro"
+    }
+  },
+  {
+    "id": "hypeorcode-fugu-max-2026-11-01",
+    "originalId": "hypeorcode-fugu-max-2026-11-01",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Fugu Max",
+    "author": "hype or code",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "来源记录通过 OpenRouter API 单次生成，档位 high。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/fugu-max/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/fugu-max.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/fugu-max.45747424.svg",
+        "sha256": "deaa26ad23eae012e147afbd377d440ea5f9b4df6a8c4fbbf4b3925c7d846b24",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/fugu-max.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/fugu-max.45747424.txt",
+    "path": "/specimens/hypeorcode-fugu-max-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-fugu-max-2026-11-01/",
+    "markdown": "/specimens/hypeorcode-fugu-max-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Fugu Max",
+        "notes": "The source reports one OpenRouter API attempt with effort high. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/fugu-max/",
+        "https://hypeorcode.com/o/pelican-bicycle/fugu-max.45747424.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/fugu-max.45747424.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/fugu-max.686553f6.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Fugu Max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/fugu-max/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/fugu-max.45747424.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/fugu-max.686553f6.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "sakana/fugu-max",
+      "effort": "high"
+    }
+  },
+  {
+    "id": "hypeorcode-hy4-preview-2026-10-21",
+    "originalId": "hypeorcode-hy4-preview-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Hy4 Preview",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4-preview/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/hy4-preview.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/hy4-preview.b341b83a.svg",
+        "sha256": "e76cf993c33249f18a77a1f7f434c985274bc97993ddc747aaf6b6036a81b9cf",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/hy4-preview.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-preview.b341b83a.txt",
+    "path": "/specimens/hypeorcode-hy4-preview-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-hy4-preview-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-hy4-preview-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Hy4 Preview",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/hy4-preview/",
+        "https://hypeorcode.com/o/pelican-bicycle/hy4-preview.b341b83a.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-preview.b341b83a.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-preview.45f92bd4.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4 Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/hy4-preview/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-preview.b341b83a.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-preview.45f92bd4.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "tencent/hy4-preview"
+    }
+  },
+  {
+    "id": "hypeorcode-nemotron-3-5-lightning-2026-10-21",
+    "originalId": "hypeorcode-nemotron-3-5-lightning-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Nemotron 3.5 Lightning",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-lightning/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/nemotron-3-5-lightning.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.svg",
+        "sha256": "de21fe1948075505feeb2b14de134d161686c93adee655de18667af428aafdf9",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/nemotron-3-5-lightning.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.txt",
+    "path": "/specimens/hypeorcode-nemotron-3-5-lightning-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-nemotron-3-5-lightning-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-nemotron-3-5-lightning-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Nemotron 3.5 Lightning",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-lightning/",
+        "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-lightning.8d729087.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nemotron 3.5 Lightning"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-5-lightning/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-lightning.a1eb65fb.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-5-lightning.8d729087.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "nvidia/nemotron-3.5-lightning:free"
+    }
+  },
+  {
+    "id": "hypeorcode-laguna-s-2-1-2026-10-21",
+    "originalId": "hypeorcode-laguna-s-2-1-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Laguna S 2.1",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/laguna-s-2-1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/laguna-s-2-1.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/laguna-s-2-1.91ff9043.svg",
+        "sha256": "d75e0349f46294de0d3b25911d217249c414d339f00eb2b21fda8b6d6187aea6",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/laguna-s-2-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/laguna-s-2-1.91ff9043.txt",
+    "path": "/specimens/hypeorcode-laguna-s-2-1-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-laguna-s-2-1-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-laguna-s-2-1-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Laguna S 2.1",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/laguna-s-2-1/",
+        "https://hypeorcode.com/o/pelican-bicycle/laguna-s-2-1.91ff9043.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/laguna-s-2-1.91ff9043.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/laguna-s-2-1.35117ce7.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Laguna S 2.1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/laguna-s-2-1/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/laguna-s-2-1.91ff9043.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/laguna-s-2-1.35117ce7.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "poolside/laguna-s-2.1"
+    }
+  },
+  {
+    "id": "hypeorcode-inkling-2026-10-27",
+    "originalId": "hypeorcode-inkling-2026-10-27",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Inkling",
+    "author": "hype or code",
+    "date": "2026-10-27",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成，档位 high。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/inkling/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/inkling.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/inkling.4204dfb5.svg",
+        "sha256": "b3de915fa6c66ea55169d2709679c80a61c36d2a3085020a9674d655d1f5ba53",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/inkling.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/inkling.4204dfb5.txt",
+    "path": "/specimens/hypeorcode-inkling-2026-10-27/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-inkling-2026-10-27/",
+    "markdown": "/specimens/hypeorcode-inkling-2026-10-27/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Inkling",
+        "notes": "The source reports one OpenRouter API attempt with effort high. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/inkling/",
+        "https://hypeorcode.com/o/pelican-bicycle/inkling.4204dfb5.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/inkling.4204dfb5.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/inkling.ebefaafd.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/inkling/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/inkling.4204dfb5.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/inkling.ebefaafd.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "thinkingmachines/inkling",
+      "effort": "high"
+    }
+  },
+  {
+    "id": "hypeorcode-nemotron-3-ultra-2026-10-21",
+    "originalId": "hypeorcode-nemotron-3-ultra-2026-10-21",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "Nemotron 3 Ultra",
+    "author": "hype or code",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "来源记录通过 OpenRouter API 单次生成；未记录推理档位。日期为来源记录的运行日期，首次公开日未知。型号与设置按来源标注，未经独立认证；完整静态 SVG 与原始输出保持，包括原有绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-ultra/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/nemotron-3-ultra.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-ultra.c45ee676.svg",
+        "sha256": "924d1f93a49fac183d71d7b5be3ae211b3bd2240acf98904d4cabc9f727305dd",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/nemotron-3-ultra.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-ultra.c45ee676.txt",
+    "path": "/specimens/hypeorcode-nemotron-3-ultra-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-nemotron-3-ultra-2026-10-21/",
+    "markdown": "/specimens/hypeorcode-nemotron-3-ultra-2026-10-21/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留署名和出处，未声明开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · single SVG test",
+        "model": "Nemotron 3 Ultra",
+        "notes": "The source reports one OpenRouter API attempt; reasoning effort is not recorded. The date is the reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated. The complete static SVG and raw output are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned; attribution and source are preserved, with no open-source license claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-ultra/",
+        "https://hypeorcode.com/o/pelican-bicycle/nemotron-3-ultra.c45ee676.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-ultra.c45ee676.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-ultra.d8b78e15.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nemotron 3 Ultra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/nemotron-3-ultra/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-ultra.c45ee676.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nemotron-3-ultra.d8b78e15.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    }
+  },
+  {
+    "id": "x-finiyang-astra62-perihelion-2026-11-01",
+    "originalId": "x-finiyang-astra62-perihelion-2026-11-01",
+    "kind": "timeline",
+    "title": "近日点：海上竖环骑行",
+    "model": "GPT-6.2 Astra（灰度，来源标注）",
+    "author": "Fini.Yang (@FiniYang)",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "原作者称 Codex 灰度 GPT-6.2 Astra 测试，并在公开回复给出完整 Three.js／离线 index.html 代码生成提示词。海上竖环、日食与分镜属于扩展叙事，归入衍生。保存完整原录屏；公开提示词不等于已取得源文件，完整 HTML／依赖尚未公开取得，不提供站内可执行演示。 型号与生成说明按来源记录，未经独立认证；截至本轮未找到官方 GPT-6.2 型号公告。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/FiniYang/status/2116856735390683281",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "做一个可以直接在浏览器里玩的 3D 作品《近日点》：一只戴红色骑行帽、系红围巾的白鹈鹕，骑着一辆朱红色自行车，沿海上轨道冲进一个竖直圆环，倒挂着从日食前穿过。\n\n我要的是能实时渲染、能换视角的网页。打开后它自己骑；我随时可以暂停，拖动鼠标绕到它背后，放大看它的脚到底有没有踩在踏板上。请直接写出并运行代码，最终给我一个可离线打开的 index.html，把 Three.js 和必要资源打包进去。所有模型用代码创建。\n\n骑行是这个作品的核心。请先让自行车在直轨上骑得可信，再做圆环。两个曲柄始终相差 180°，每只蹼脚跟随自己的踏板，用逆向运动学求腿部弯曲。翅尖扶住左右车把，身体坐在鞍座上，踩下去时肩背稍微起伏，围巾慢半拍跟上。车轮按走过的距离转动。进入弯道时，分别求前后轮在轨道上的接触位置，用两个轮轴决定车架姿态。到达环顶时，即使摄像机保持水平，鹈鹕和车也应该真的头朝下。\n\n美术方向是精心上漆的复古微缩模型。鹈鹕要有一眼就认得出的长喙、下垂的橙金色喉囊和分层飞羽。自行车有细辐条、黄铜牙盘、皮鞍座和 07 号牌。海面是深青色，日食的金边在碎浪里反光。一条窄轨从海面伸来，卷成完整的竖环再伸出去。让入口和出口前后错开，使这条路在三维空间中真正连通。\n\n默认播放一段约 18 秒的自动运镜：从侧面跟骑，推近到鹈鹕眼里的一弯日食反光，再跟着它爬上圆环。第 9 秒左右，让它倒挂在日轮前。随后拉远，在环道上短暂留下七个沿途真实姿态的半透明残影。出环时，几条飞鱼从桥下跃起。\n\n交互只保留几个必要操作：空格播放或暂停，时间轴跳到任意时刻，拖动画面进入自由视角，滚轮缩放，按 V 返回自动镜头。切换镜头时保持当前时间和姿势。让骑手、车轮、围巾、飞鱼和残影都由同一个时间参数驱动，这样来回拖动进度条，同一时刻总能回到同一幅画面。\n\n完成后实际在浏览器里做一次验收：暂停在第 9 秒，绕到车的另一侧，拉近检查两只脚和两个车轮；再把时间轴拖回起点，确认能正常重播。交付可以直接打开的 HTML。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/2116856735390683281-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116856401951916032/vid/avc1/1280x720/aJmziBE7ONi139JQ.mp4?tag=29",
+        "sha256": "8c99df03c103f173aa2ee94e0e9126b85518b68415967267a2d1816276954c8c",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116856401951916032/vid/avc1/1280x720/aJmziBE7ONi139JQ.mp4?tag=29",
+          "sourceSha256": "8c99df03c103f173aa2ee94e0e9126b85518b68415967267a2d1816276954c8c",
+          "frameTime": 1,
+          "sha256": "923b4c20677fc6c84ba9e6b23bb79d56daf54e02c83129135ba134946a1bc6ac"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-model-breadth/2116856735390683281-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/2116856735390683281-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-finiyang-astra62-perihelion-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-finiyang-astra62-perihelion-2026-11-01/",
+    "markdown": "/specimens/x-finiyang-astra62-perihelion-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Perihelion: a vertical loop over the sea",
+        "model": "GPT-6.2 Astra（灰度，来源标注）",
+        "notes": "The author reports a Codex canary test of GPT-6.2 Astra and publishes the complete Three.js/offline index.html generation prompt. The sea loop, eclipse and cinematic sequence are classified as a derivative. The complete original recording is retained; the prompt is not a source-file delivery. Complete HTML/dependencies were not publicly obtained, so no executable demo is offered. Model and generation details are source-reported, not independently authenticated. No official GPT-6.2 model announcement was found in this pass.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "做一个可以直接在浏览器里玩的 3D 作品《近日点》：一只戴红色骑行帽、系红围巾的白鹈鹕，骑着一辆朱红色自行车，沿海上轨道冲进一个竖直圆环，倒挂着从日食前穿过。\n\n我要的是能实时渲染、能换视角的网页。打开后它自己骑；我随时可以暂停，拖动鼠标绕到它背后，放大看它的脚到底有没有踩在踏板上。请直接写出并运行代码，最终给我一个可离线打开的 index.html，把 Three.js 和必要资源打包进去。所有模型用代码创建。\n\n骑行是这个作品的核心。请先让自行车在直轨上骑得可信，再做圆环。两个曲柄始终相差 180°，每只蹼脚跟随自己的踏板，用逆向运动学求腿部弯曲。翅尖扶住左右车把，身体坐在鞍座上，踩下去时肩背稍微起伏，围巾慢半拍跟上。车轮按走过的距离转动。进入弯道时，分别求前后轮在轨道上的接触位置，用两个轮轴决定车架姿态。到达环顶时，即使摄像机保持水平，鹈鹕和车也应该真的头朝下。\n\n美术方向是精心上漆的复古微缩模型。鹈鹕要有一眼就认得出的长喙、下垂的橙金色喉囊和分层飞羽。自行车有细辐条、黄铜牙盘、皮鞍座和 07 号牌。海面是深青色，日食的金边在碎浪里反光。一条窄轨从海面伸来，卷成完整的竖环再伸出去。让入口和出口前后错开，使这条路在三维空间中真正连通。\n\n默认播放一段约 18 秒的自动运镜：从侧面跟骑，推近到鹈鹕眼里的一弯日食反光，再跟着它爬上圆环。第 9 秒左右，让它倒挂在日轮前。随后拉远，在环道上短暂留下七个沿途真实姿态的半透明残影。出环时，几条飞鱼从桥下跃起。\n\n交互只保留几个必要操作：空格播放或暂停，时间轴跳到任意时刻，拖动画面进入自由视角，滚轮缩放，按 V 返回自动镜头。切换镜头时保持当前时间和姿势。让骑手、车轮、围巾、飞鱼和残影都由同一个时间参数驱动，这样来回拖动进度条，同一时刻总能回到同一幅画面。\n\n完成后实际在浏览器里做一次验收：暂停在第 9 秒，绕到车的另一侧，拉近检查两只脚和两个车轮；再把时间轴拖回起点，确认能正常重播。交付可以直接打开的 HTML。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/FiniYang/status/2116856735390683281",
+        "https://x.com/FiniYang/status/2116864580467179634",
+        "https://video.twimg.com/amplify_video/2116856401951916032/vid/avc1/1280x720/aJmziBE7ONi139JQ.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra（灰度，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/FiniYang/status/2116856735390683281",
+      "https://x.com/FiniYang/status/2116864580467179634"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-leo-astra62-orbital-studies-2026-11-01",
+    "originalId": "x-leo-astra62-orbital-studies-2026-11-01",
+    "kind": "timeline",
+    "title": "Orbital Studies：日食环道骑行",
+    "model": "GPT-6.2 Astra（灰度，来源标注）",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "发布者标注灰度 GPT-6.2 Astra。原录屏可见「REAL-TIME 3D / SCULPTED IN CODE」、离线保存与时间轴／相机控制，为代码场景录屏；主体、轨道和界面与 Fini 原作有可见差异，按独立来源输出保留，不把采用相近题面当成转载。完整提示词和 HTML 未公开取得，实际迭代次数未知；不借用他人的提示词或提供站内可执行演示。竖环与日食叙事归入衍生。 型号与生成说明按来源记录，未经独立认证；截至本轮未找到官方 GPT-6.2 型号公告。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2116898129115287901",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/2116898129115287901.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116897711245123584/vid/avc1/1818x834/-GuYk-mvPiUcAV8y.mp4?tag=29",
+        "sha256": "abfd7de9444b8f226d670ab80a7f6664ca4760601e0983878b87da00f21e759a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116897711245123584/vid/avc1/1818x834/-GuYk-mvPiUcAV8y.mp4?tag=29",
+          "sourceSha256": "abfd7de9444b8f226d670ab80a7f6664ca4760601e0983878b87da00f21e759a",
+          "frameTime": 1,
+          "sha256": "9a0e930f383e67ca28a723e44d42764bb41fdb82d23ac83c463fe43ebad41a9f"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-model-breadth/2116898129115287901-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/2116898129115287901-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo-astra62-orbital-studies-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo-astra62-orbital-studies-2026-11-01/",
+    "markdown": "/specimens/x-leo-astra62-orbital-studies-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Orbital Studies: cycling through an eclipse loop",
+        "model": "GPT-6.2 Astra（灰度，来源标注）",
+        "notes": "The publisher labels this a GPT-6.2 Astra canary output. The original recording displays REAL-TIME 3D / SCULPTED IN CODE, offline saving, a timeline and camera controls. The rider, track and interface visibly differ from Fini’s output; this is retained as a separate source-reported output, not conflated solely because the subject is similar. The complete prompt, HTML and iteration count are unknown; another creator’s prompt is not borrowed and no executable demo is offered. The loop/eclipse narrative is classified as a derivative. Model and generation details are source-reported, not independently authenticated. No official GPT-6.2 model announcement was found in this pass.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2116898129115287901",
+        "https://video.twimg.com/amplify_video/2116897711245123584/vid/avc1/1818x834/-GuYk-mvPiUcAV8y.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra（灰度，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2116898129115287901"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-notjazii-fable55-bike-on-pelican-2026-11-01",
+    "originalId": "x-notjazii-fable55-bike-on-pelican-2026-11-01",
+    "kind": "timeline",
+    "title": "自行车乘着飞行鹈鹕",
+    "model": "Fable 5.5（来源标注）",
+    "author": "J A Z I I (@notjazii)",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "作者以 Fable 5.5 标注，并在公开回复说明由 Opus 5.5 路由、底层新型号未独立确定；保留这个不确定性，不称已正式发布 Fable。作者在同帖对照回复公开了反向题 SVG 动画提示词，保留原始拼写「buke」。完整原动画保留，源码未公开取得。反向题归入衍生。 型号及设置按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/notjazii/status/2116861637890379891",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "create a very realistic styled buke riding on a pelican. animate and using svg?",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/2116861637890379891-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116861194216800256/vid/avc1/1920x1200/qJcH0vJptJ2WMjn-.mp4?tag=29",
+        "sha256": "e824c11e7b87881d858b544855732f470d00848a5e8d585a51ac7ab138bc8fef",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116861194216800256/vid/avc1/1920x1200/qJcH0vJptJ2WMjn-.mp4?tag=29",
+          "sourceSha256": "e824c11e7b87881d858b544855732f470d00848a5e8d585a51ac7ab138bc8fef",
+          "frameTime": 1,
+          "sha256": "5183c73fac6ad6472c7534de619e158ecc4fb5164ae419170a25be56fd147a7d"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-model-breadth/2116861637890379891-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/2116861637890379891-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-notjazii-fable55-bike-on-pelican-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-notjazii-fable55-bike-on-pelican-2026-11-01/",
+    "markdown": "/specimens/x-notjazii-fable55-bike-on-pelican-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Bicycle riding a flying pelican",
+        "model": "Fable 5.5（来源标注）",
+        "notes": "The author labels this Fable 5.5 and explains in a public reply that access is routed through Opus 5.5; the underlying new model is not independently established. This is not a claim of an official Fable release. A comparison reply in the same thread supplies the reversed-subject animated SVG prompt, including the original spelling “buke”. The complete original animation is retained; source code was not publicly obtained. This reversed subject is classified as a derivative. Model and settings are source-reported, not independently authenticated.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "create a very realistic styled buke riding on a pelican. animate and using svg?",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/notjazii/status/2116861637890379891",
+        "https://x.com/notjazii/status/2116873043188527579",
+        "https://x.com/notjazii/status/2116877886754050057",
+        "https://video.twimg.com/amplify_video/2116861194216800256/vid/avc1/1920x1200/qJcH0vJptJ2WMjn-.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Fable 5.5（来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/notjazii/status/2116861637890379891",
+      "https://x.com/notjazii/status/2116873043188527579",
+      "https://x.com/notjazii/status/2116877886754050057"
+    ],
+    "datePrecision": "day"
+  },
+  {
+    "id": "x-notjazii-opus55-high-bike-on-pelican-2026-11-01",
+    "originalId": "x-notjazii-opus55-high-bike-on-pelican-2026-11-01",
+    "kind": "timeline",
+    "title": "反向题：鹈鹕载着自行车",
+    "model": "Claude Opus 5.5",
+    "author": "J A Z I I (@notjazii)",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "作者在 Fable 对照帖中明确标注 Opus 5.5、high 档，并给出 SVG 动画提示词；保留原始拼写「buke」。保存完整原始 GIF 的 MP4 载体，未改写运动；源码未公开取得。反向题归入衍生，不与同帖另一模型的实际输出合并计数。 型号及设置按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/notjazii/status/2116873043188527579",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "create a very realistic styled buke riding on a pelican. animate and using svg?",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-01-model-breadth/2116873043188527579-1.mp4",
+        "source": "https://video.twimg.com/tweet_video/HWCkyq3bQAAKk5p.mp4",
+        "sha256": "ffafac9aa1c71c91412f6a8e53fbf78391a17034bdc1dbf0033dad1e69a5162d",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HWCkyq3bQAAKk5p.mp4",
+          "sourceSha256": "ffafac9aa1c71c91412f6a8e53fbf78391a17034bdc1dbf0033dad1e69a5162d",
+          "frameTime": 1,
+          "sha256": "e6de70ca8e21085660484af15c5d8b3a099332a61d497d930e57a0f041265258"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-01-model-breadth/2116873043188527579-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-01-model-breadth/2116873043188527579-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-notjazii-opus55-high-bike-on-pelican-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-notjazii-opus55-high-bike-on-pelican-2026-11-01/",
+    "markdown": "/specimens/x-notjazii-opus55-high-bike-on-pelican-2026-11-01/index.md",
+    "updated": "2026-11-01",
+    "rights": "作品归原作者；保留原始出处、署名和原有声明，未声称开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Reversed subject: a pelican carrying a bicycle",
+        "model": "Claude Opus 5.5",
+        "notes": "The author explicitly labels the comparison Opus 5.5 at high effort and supplies the SVG-animation prompt, including the original spelling “buke”. The complete MP4 carrier of the original GIF is preserved without replacing its motion; source code was not publicly obtained. This reversed subject is a derivative and is counted separately from the other model’s actual output in the thread. Model and settings are source-reported, not independently authenticated.",
+        "rights": "The work remains creator-owned; original sources, attribution and notices are preserved. No open-source license is claimed.",
+        "promptStatus": "create a very realistic styled buke riding on a pelican. animate and using svg?",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/notjazii/status/2116873043188527579",
+        "https://video.twimg.com/tweet_video/HWCkyq3bQAAKk5p.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/notjazii/status/2116873043188527579"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "high"
+    }
   }
 ]
