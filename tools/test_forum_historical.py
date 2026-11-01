@@ -18,7 +18,7 @@ class ForumHistoricalTests(unittest.TestCase):
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+13)
         self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+13)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         self.assertFalse(any('evolink' in x['id'] or 'deepthink' in x['id'] for x in NEW))
         for x in NEW:self.assertEqual(x['sourcePublicationDate'],x['date'])
 

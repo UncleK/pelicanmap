@@ -20,7 +20,7 @@ class MotionRecoveryTests(unittest.TestCase):
         self.assertEqual([x['originalLevel'] for x in group if not x.get('representativeOf')],['medium'])
         self.assertTrue(all(len(x['comparisonIds'])==4 and x['comparisonType']=='settings-and-iterations' for x in group))
         self.assertTrue(next(x for x in group if 'refined' in x['id'])['generationConditions']['visualIteration'])
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
     def test_exact_originals_and_crops(self):
         for a in A['newOriginals']:
             p=ROOT/'public-site'/a['src'].lstrip('/')

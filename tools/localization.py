@@ -20,7 +20,8 @@ def artwork_year_range(items):
 
 def write_runtime():
     """The browser dictionary is generated from the same reviewed locale registry."""
-    data=json.dumps(LOCALES,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
+    browser_locales={lang:{key:value for key,value in locale.items() if key!='serverStrings'} for lang,locale in LOCALES.items()}
+    data=json.dumps(browser_locales,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
     runtime=r'''
 (() => {
   const locales=__DATA__;
@@ -70,10 +71,18 @@ def write_runtime():
 def translate(text,lang):
     strings=LOCALES[lang].get('strings',{})
     core=text.strip()
+    server_strings=LOCALES[lang].get('serverStrings',{})
+    if core in server_strings:return text.replace(core,server_strings[core])
+    for label,value in server_strings.items():
+        if core.startswith((label+' #',label+': ')):return text.replace(label,value,1)
     if core in strings:return text.replace(core,strings[core])
     ru=lang=='ru'
     if core.startswith('LAST UPDATED / '):return text.replace('LAST UPDATED / ','ОБНОВЛЕНО / ' if ru else 'ATUALIZADO EM / ')
     patterns=[(r'^(\d+) cases · Page (\d+) / (\d+)$',lambda m:f'{m[1]} работ · Страница {m[2]} / {m[3]}' if ru else f'{m[1]} obras · Página {m[2]} / {m[3]}'),
+      (r'^(\d+) model labels · (\d+) effort groups · (\d+) samples$',lambda m:f'Моделей: {m[1]} · Групп настроек: {m[2]} · Образцов: {m[3]}' if ru else f'Modelos: {m[1]} · Grupos de esforço: {m[2]} · Amostras: {m[3]}'),
+      (r'^(\d+) samples · excluded from case count$',lambda m:f'{m[1]} образцов · вне общего числа работ' if ru else f'{m[1]} amostras · fora do total de obras'),
+      (r'^(\d+) samples$',lambda m:f'Образцов: {m[1]}' if ru else f'Amostras: {m[1]}'),
+      (r'^([a-z]+) · Sample (\d+)/(\d+)$',lambda m:f'{m[1]} · Образец {m[2]}/{m[3]}' if ru else f'{m[1]} · Amostra {m[2]}/{m[3]}'),
       (r'^Page (\d+) / (\d+)$',lambda m:f'Страница {m[1]} / {m[2]}' if ru else f'Página {m[1]} / {m[2]}'),
       (r'^(.*) · Page (\d+)$',lambda m:translate(m[1],lang)+(f' · Страница {m[2]}' if ru else f' · Página {m[2]}'))]
     for pattern,render in patterns:

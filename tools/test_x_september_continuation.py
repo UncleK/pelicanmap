@@ -16,7 +16,7 @@ class XSeptemberContinuationTests(unittest.TestCase):
         self.assertEqual(len(A['added']),3)
         self.assertGreaterEqual(CAT['counts']['cases'],937)
         self.assertGreaterEqual(CAT['counts']['timeline'],614)
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         self.assertFalse(any(x['sourceUrl']==A['duplicateSource'] for x in CAT['items']))
         for ident in A['added']:
             item=BY[ident]

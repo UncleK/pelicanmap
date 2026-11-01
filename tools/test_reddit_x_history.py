@@ -27,7 +27,7 @@ class RedditXHistoryTests(unittest.TestCase):
         previous=json.loads((ROOT/'pelican-archive/research/2026-10-02-collapsed-search/before-catalog.json').read_text(encoding='utf8'))
         original=next(x for x in previous['items'] if x['id']==USER_REMOVED)
         self.assertTrue(user_requested_context_change(self,original,BY[USER_REMOVED],'caseVisible'))
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         self.assertEqual(len(AUDIT['newOriginals']),34)
         self.assertFalse(any('jurly' in x['id'] or 'sahil' in x['id'] for x in NEW))
         for x in NEW:self.assertEqual(x['sourcePublicationDate'],x['date'])

@@ -54,7 +54,8 @@ class BenchmarkReferenceTests(unittest.TestCase):
         main=[x for x in data['rows'] if x['config']=='default']
         for prefix in ['', 'en/']:
             index=BeautifulSoup((OUT/prefix/'tags/benchmark/index.html').read_text(encoding='utf8'),'html.parser')
-            self.assertEqual(len(index.select('[data-benchmark-collection]')),2)
+            self.assertEqual(len(index.select('[data-benchmark-collection]')),len(json.loads((ROOT/'site/benchmarks/index.json').read_text(encoding='utf8'))))
+            self.assertIsNotNone(index.select_one('[data-benchmark-collection="tihu-2026-11-01"]'))
             self.assertIn('OpenEnv',index.get_text())
             self.assertIn('Pelican Benchmark',index.get_text())
             pb_collection=BeautifulSoup((OUT/prefix/'collections/pelicanbenchmark-2026-09-28/index.html').read_text(encoding='utf8'),'html.parser')

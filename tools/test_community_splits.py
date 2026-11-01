@@ -18,7 +18,7 @@ class CommunitySplitsTests(unittest.TestCase):
         self.assertFalse(any(x['timelineVisible'] and is_derivative(x) for x in NEW))
         self.assertGreaterEqual(CAT['counts']['cases'],AUDIT['oldCases']+13)
         self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+6)
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
         sweep=[x for x in NEW if 'maximumwishbone' in x['id']]
         self.assertEqual(len(sweep),5)

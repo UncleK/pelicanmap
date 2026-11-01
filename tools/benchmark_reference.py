@@ -27,10 +27,12 @@ def index_page(language='zh'):
         data = json.loads((ROOT/'site/benchmarks'/definition['file']).read_text(encoding='utf8'))
         rows = [x for x in data['rows'] if x['config'] == 'default']
         models = sorted({x['model'] for x in rows})
-        chosen = [next(x for x in rows if x['model'] == model and x.get('localPng')) for model in models[:6]]
-        images = ''.join(f'<img src="{E(x["localPng"])}" alt="{E(x["model"])} · {t("原始样本", "Original sample")}" width="320" height="210" loading="lazy">' for x in chosen)
+        preview = lambda row: row.get('localPreview') or row.get('localPng')
+        chosen = [next(x for x in rows if x['model'] == model and preview(x)) for model in models[:6]]
+        images = ''.join(f'<img src="{E(preview(x))}" alt="{E(x["model"])} · {t("原始样本", "Original sample")}" width="320" height="210" loading="lazy">' for x in chosen)
         path = ('/en' if en else '')+definition['path']
-        body += f'<article class="benchmark-collection" data-benchmark-collection="{E(definition["id"])}"><a class="benchmark-collection-cover" href="{E(path)}" aria-label="{E(definition["title"][language])}">{images}</a><div><p class="small">{E(data["publicationDate"])} · {len(models)} {t("个模型标签", "model labels")} · {len(rows)} {t("条主任务记录", "main-task rows")}</p><h2><a href="{E(path)}">{E(definition["title"][language])}</a></h2><p>{E(definition["description"][language])}</p><a class="text-link" href="{E(path)}">'+t('进入合集 →', 'Open benchmark →')+'</a></div></article>'
+        date = data.get('runDate') or data.get('publicationDate') or ''
+        body += f'<article class="benchmark-collection" data-benchmark-collection="{E(definition["id"])}"><a class="benchmark-collection-cover" href="{E(path)}" aria-label="{E(definition["title"][language])}">{images}</a><div><p class="small">{E(date)} · {len(models)} {t("个模型标签", "model labels")} · {len(rows)} {t("条主任务记录", "main-task rows")}</p><h2><a href="{E(path)}">{E(definition["title"][language])}</a></h2><p>{E(definition["description"][language])}</p><a class="text-link" href="{E(path)}">'+t('进入合集 →', 'Open benchmark →')+'</a></div></article>'
     return '/tags/benchmark/', title, desc, body+'</div>'
 
 
@@ -60,6 +62,9 @@ def stats(rows):
 def record_details(item, language='zh'):
     if not item.get('referenceOnly'):
         return ''
+    if item.get('benchmarkCollection') == 'tihu-2026-11-01':
+        from tihu_benchmark import record_details as tihu_record_details
+        return tihu_record_details(item, language)
     en = language == 'en'
     row = item.get('datasetSample', {})
     metadata = {key: row.get(key) for key in FIELDS}
@@ -138,6 +143,8 @@ def pages(items, language='zh'):
     yield '/benchmarks/openenv-2026-07-29/catalogue/', t('评分参考 · 任务目录', 'Scoring reference · Task catalogue'), desc, coverage_body
 
     yield from pelicanbenchmark_pages(language)
+    from tihu_benchmark import pages as tihu_pages
+    yield from tihu_pages(items, language)
 
 
 def pelicanbenchmark_pages(language='zh'):
@@ -190,4 +197,3 @@ def pelicanbenchmark_pages(language='zh'):
     body = intro+'<h2>'+t('按模型浏览评测原件', 'Browse benchmark originals by model')+'</h2>'+controls+sections+empty+back+'</div>'
 
     yield '/collections/pelicanbenchmark-2026-09-28/', title, description, body
-

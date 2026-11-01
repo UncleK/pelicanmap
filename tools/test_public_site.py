@@ -91,7 +91,7 @@ class PublicSiteTests(unittest.TestCase):
         self.assertEqual(len(group_records(samples,True)),1)
         self.assertEqual(catalog['counts']['cases'],len(group_records(catalog['items'])))
         self.assertEqual(catalog['counts']['samples'],0)
-        self.assertEqual(catalog['counts']['referenceRecords'],138)
+        self.assertEqual(catalog['counts']['referenceRecords'],sum(bool(x.get('referenceOnly')) for x in catalog['items']))
         self.assertTrue(all(x['caseNumber'] is None and x['kind']=='reference' for x in samples))
         for prefix in ['', 'en/']:
             path=OUT/prefix/'collections/openenv-2026-07-29/index.html'

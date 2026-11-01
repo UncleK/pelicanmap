@@ -3,18 +3,51 @@
     "id": "openenv-2026-07-29",
     "file": "openenv-2026-07-29.json",
     "path": "/collections/openenv-2026-07-29/",
-    "title": {"zh": "HuggingFace / OpenEnv · 鹈鹕 SVG 评分对照", "en": "HuggingFace / OpenEnv · Pelican SVG scoring reference"},
-    "description": {"zh": "同一份上游实验：数据由 HuggingFace 发布，评分来自 OpenEnv 环境。7 个模型标签、139 条主任务记录；30 条题面覆盖样本单列。", "en": "One upstream experiment: data published on HuggingFace, scored by the OpenEnv environment. Seven model labels and 139 main-task rows; 30 prompt-coverage samples are separate."},
+    "title": {
+      "zh": "HuggingFace / OpenEnv · 鹈鹕 SVG 评分对照",
+      "en": "HuggingFace / OpenEnv · Pelican SVG scoring reference"
+    },
+    "description": {
+      "zh": "同一份上游实验：数据由 HuggingFace 发布，评分来自 OpenEnv 环境。7 个模型标签、139 条主任务记录；30 条题面覆盖样本单列。",
+      "en": "One upstream experiment: data published on HuggingFace, scored by the OpenEnv environment. Seven model labels and 139 main-task rows; 30 prompt-coverage samples are separate."
+    },
     "referenceOnly": true,
-    "tags": ["benchmark"]
+    "tags": [
+      "benchmark"
+    ]
   },
   {
     "id": "pelicanbenchmark-2026-09-28",
     "file": "pelicanbenchmark-2026-09-28.json",
     "path": "/collections/pelicanbenchmark-2026-09-28/",
-    "title": {"zh": "Pelican Benchmark · 动态 HTML 评测跑道", "en": "Pelican Benchmark · Animated HTML track"},
-    "description": {"zh": "pelicanbenchmark.com 评测站公开的动态 HTML track。收录 29 个模型独立代码生成的自包含 HTML 动画原件与运行预览。", "en": "The animated HTML track from pelicanbenchmark.com. Features 29 standalone code-generated HTML animations and runtime previews across models."},
+    "title": {
+      "zh": "Pelican Benchmark · 动态 HTML 评测跑道",
+      "en": "Pelican Benchmark · Animated HTML track"
+    },
+    "description": {
+      "zh": "pelicanbenchmark.com 评测站公开的动态 HTML track。收录 29 个模型独立代码生成的自包含 HTML 动画原件与运行预览。",
+      "en": "The animated HTML track from pelicanbenchmark.com. Features 29 standalone code-generated HTML animations and runtime previews across models."
+    },
     "referenceOnly": true,
-    "tags": ["benchmark"]
+    "tags": [
+      "benchmark"
+    ]
+  },
+  {
+    "id": "tihu-2026-11-01",
+    "file": "tihu-2026-11-01.json",
+    "path": "/collections/tihu-2026-11-01/",
+    "referenceOnly": true,
+    "tags": [
+      "benchmark"
+    ],
+    "title": {
+      "zh": "Tihu · 鹈鹕 SVG 专项评测",
+      "en": "Tihu · Pelican SVG benchmark"
+    },
+    "description": {
+      "zh": "同一提示词下的型号与档位样本集中展示，保留 SVG 原件、出处与历史编号。上游 AI 参考分单列，不计入常规馆藏。",
+      "en": "Source model/effort samples with their original SVGs, provenance and former archive numbers. Upstream AI scores remain separate from the main collection."
+    }
   }
 ]

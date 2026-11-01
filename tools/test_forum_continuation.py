@@ -20,7 +20,7 @@ class ForumContinuationTests(unittest.TestCase):
         self.assertGreaterEqual(CAT['counts']['timeline'],AUDIT['oldTimeline']+14)
         self.assertTrue(all(x['caseVisible'] and len(x['modelNames'])==1 and not x.get('referenceOnly') for x in NEW))
         self.assertEqual(sum(x['task']=='derived' for x in NEW),2)
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         self.assertEqual(len(AUDIT['newOriginals']),19)
 
     def test_originals_decode_and_primary_media_is_first(self):

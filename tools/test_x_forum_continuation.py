@@ -15,7 +15,7 @@ class XForumContinuationTests(unittest.TestCase):
         self.assertEqual(len(A['added']),6)
         self.assertGreaterEqual(CAT['counts']['cases'],A['expectedCases'])
         self.assertGreaterEqual(CAT['counts']['timeline'],A['expectedTimeline'])
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         for index,ident in enumerate(A['added']):
             x=BY[ident]
             self.assertEqual(x['date'],'2026-09-27' if index<2 else '2026-09-28')

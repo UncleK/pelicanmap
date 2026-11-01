@@ -17,7 +17,7 @@ class XEarlierReviewTests(unittest.TestCase):
         # The earlier user removal plus four preserved direct-video context records.
         self.assertGreaterEqual(CAT['counts']['cases'],A['expectedCases']-1-4)
         self.assertGreaterEqual(CAT['counts']['timeline'],A['expectedTimeline']-1-4)
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
         manifest=json.loads((DIR/'approved-manifest.json').read_text(encoding='utf8'))
         self.assertTrue(manifest['reviewed'])
         for c in manifest['cases']:

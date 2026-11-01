@@ -227,6 +227,30 @@
           "В русской и португальской версиях локализован интерфейс. Описания и запросы сохраняются на языке источника или в существующем английском переводе, что явно отмечено в translationScope и recordTextLanguage."
         ]
       }
+    },
+    "serverStrings": {
+      "Tihu · Pelican SVG benchmark": "Tihu · SVG-бенчмарк с пеликаном",
+      "Browse Tihu source samples by model and effort; excluded from the main collection and timeline.": "Образцы Tihu по моделям и настройкам. Они не входят в основную коллекцию и хронологию.",
+      "Tihu Benchmark sample; excluded from the main collection and timeline.": "Образец бенчмарка Tihu; вне основной коллекции и хронологии.",
+      "Former archive number": "Прежний номер в архиве",
+      "Open Tihu Benchmark collection →": "Открыть коллекцию Tihu Benchmark →",
+      "Source AI reference score": "Справочная оценка ИИ из источника",
+      "Sample details": "Об образце",
+      "Upstream outputs, not a Pelican Bicycle Archive ranking": "Результаты источника, а не рейтинг Pelican Bicycle Archive",
+      "Scores come from Tihu AI judges. This archive neither rescores the samples nor ranks models by them.": "Оценки выставлены ИИ-судьями Tihu. Архив не оценивает образцы заново и не ранжирует по ним модели.",
+      "Publisher": "Публикация",
+      "Test date": "Дата теста",
+      "Fixed prompt": "Фиксированный запрос",
+      "Source rules": "Правила источника",
+      "Dates and model labels follow the source and are not independently authenticated.": "Даты и названия моделей сохранены по источнику и независимо не подтверждены.",
+      "Search samples below": "Поиск по образцам ниже",
+      "Model label": "Модель по источнику",
+      "Source terms and archival notes": "Условия источника и сведения об архивировании",
+      "Original sample IDs, detail URLs, SVG files and former archive numbers are preserved. Current main-collection numbers remain derived from counted works. Further systematic evaluation batches belong in Benchmark.": "Исходные ID, ссылки, SVG-файлы и прежние номера сохранены. Текущие номера основной коллекции вычисляются по учитываемым работам. Новые серии систематических тестов относятся к Benchmark.",
+      "Tihu licenses test records/commentary under CC BY 4.0 and states that SVG images follow each vendor’s terms. Tihu attribution, source links and test dates are preserved; the record license is not extended to all SVGs.": "Записи тестов и комментарии Tihu доступны по CC BY 4.0; для SVG действуют условия соответствующих поставщиков. Сохранены имя Tihu, ссылки и даты тестов; лицензия записей не распространяется автоматически на все SVG.",
+      "Source model/effort samples with their original SVGs, provenance and former archive numbers. Upstream AI scores remain separate from the main collection.": "Образцы по моделям и настройкам с исходными SVG, происхождением и прежними номерами. Оценки ИИ источника отделены от основной коллекции.",
+      "All models": "Все модели",
+      "No matching samples.": "Нет подходящих образцов."
     }
   },
   "pt-BR": {
@@ -447,6 +471,30 @@
           "As versões em russo e português localizam a interface. Descrições e prompts mantêm o idioma da fonte ou a tradução existente em inglês, conforme translationScope e recordTextLanguage."
         ]
       }
+    },
+    "serverStrings": {
+      "Tihu · Pelican SVG benchmark": "Tihu · Benchmark de pelicanos em SVG",
+      "Browse Tihu source samples by model and effort; excluded from the main collection and timeline.": "Explore amostras do Tihu por modelo e esforço; elas ficam fora da coleção principal e da linha do tempo.",
+      "Tihu Benchmark sample; excluded from the main collection and timeline.": "Amostra do benchmark Tihu; fora da coleção principal e da linha do tempo.",
+      "Former archive number": "Número anterior no acervo",
+      "Open Tihu Benchmark collection →": "Abrir coleção Tihu Benchmark →",
+      "Source AI reference score": "Nota de referência de IA na fonte",
+      "Sample details": "Detalhes da amostra",
+      "Upstream outputs, not a Pelican Bicycle Archive ranking": "Resultados da fonte, não um ranking do Pelican Bicycle Archive",
+      "Scores come from Tihu AI judges. This archive neither rescores the samples nor ranks models by them.": "As notas vêm dos avaliadores de IA do Tihu. O acervo não reavalia as amostras nem classifica modelos por essas notas.",
+      "Publisher": "Publicador",
+      "Test date": "Data do teste",
+      "Fixed prompt": "Prompt fixo",
+      "Source rules": "Regras da fonte",
+      "Dates and model labels follow the source and are not independently authenticated.": "Datas e nomes dos modelos seguem a fonte e não foram autenticados de forma independente.",
+      "Search samples below": "Pesquisar nas amostras abaixo",
+      "Model label": "Modelo informado pela fonte",
+      "Source terms and archival notes": "Termos da fonte e notas de arquivamento",
+      "Original sample IDs, detail URLs, SVG files and former archive numbers are preserved. Current main-collection numbers remain derived from counted works. Further systematic evaluation batches belong in Benchmark.": "Os IDs originais, links, arquivos SVG e números anteriores foram preservados. Os números atuais da coleção principal são derivados das obras contabilizadas. Novas séries de avaliação sistemática ficam em Benchmark.",
+      "Tihu licenses test records/commentary under CC BY 4.0 and states that SVG images follow each vendor’s terms. Tihu attribution, source links and test dates are preserved; the record license is not extended to all SVGs.": "O Tihu licencia registros e comentários sob CC BY 4.0 e informa que os SVGs seguem os termos de cada fornecedor. Crédito, links e datas foram preservados; a licença dos registros não se estende a todos os SVGs.",
+      "Source model/effort samples with their original SVGs, provenance and former archive numbers. Upstream AI scores remain separate from the main collection.": "Amostras por modelo e esforço com SVGs originais, procedência e números anteriores. As notas de IA da fonte ficam separadas da coleção principal.",
+      "All models": "Todos os modelos",
+      "No matching samples.": "Nenhuma amostra encontrada."
     }
   }
 }

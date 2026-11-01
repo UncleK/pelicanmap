@@ -64,6 +64,6 @@ class CommunityNileTests(unittest.TestCase):
         self.assertTrue(enhanced['timelineVisible'])
         self.assertEqual(enhanced['comparisonType'],'prompt')
         self.assertEqual(len(enhanced['comparisonIds']),2)
-        self.assertEqual(CAT['counts']['referenceRecords'],138)
+        self.assertEqual(sum(bool(x.get('referenceOnly')) and x['id'].startswith('hf-openenv-') for x in CAT['items']),138)
 
 if __name__=='__main__':unittest.main()

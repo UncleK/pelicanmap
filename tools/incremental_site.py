@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CURRENT = None
 RENDER_MODULES = ('build_public_site', 'build_english', 'incremental_site', 'localization', 'editorial_content',
     'detail_presentation', 'case_policy', 'collection_views', 'card_metadata', 'model_chronology',
-    'experiment_batches', 'benchmark_reference', 'historical_context', 'thumbnail_overrides',
+    'experiment_batches', 'benchmark_reference', 'tihu_benchmark', 'historical_context', 'thumbnail_overrides',
     'record_overrides', 'detail_frames', 'source_layout', 'catalog_policy', 'generation_scope', 'motion_restorations')
 RELATIONS = ('comparisonIds', 'childIds', 'linkedCaseIds', 'relatedSourceIds', 'variantIds', 'duplicateIds')
 
