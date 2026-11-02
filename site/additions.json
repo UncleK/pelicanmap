@@ -87803,5 +87803,2423 @@
       "https://x.com/chetaslua/status/2116882696882487627"
     ],
     "datePrecision": "day"
+  },
+  {
+    "id": "x-vegeta9-deepseek-v41-flash-svg-animation-2026-11-02",
+    "originalId": "x-vegeta9-deepseek-v41-flash-svg-animation-2026-11-02",
+    "kind": "timeline",
+    "title": "沿海公路 · SVG 鹈鹕骑行",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "雷欧 (@vegeta9_) 发布；生成者未独立确认",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "发布者在原帖明确说明 SVG 代码生成，并将附带动画标注为 deepseek-v4.1-flash 输出。保留完整原始录屏，未取得生成对话或完整 SVG；不把科普帖中的能力判断当作本馆验证结论。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/vegeta9_/status/2117195020784828540",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117195020784828540-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117184350492241920/vid/avc1/2362x1416/kzFe7Npm9QRjBwi8.mp4?tag=29",
+        "sha256": "f0f2e722e78bf5b0fdb8bdf6c0fa0f8c6a5b4dcb8c3b8c7a3c78bd0bc5625905",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117184350492241920/vid/avc1/2362x1416/kzFe7Npm9QRjBwi8.mp4?tag=29",
+          "sourceSha256": "f0f2e722e78bf5b0fdb8bdf6c0fa0f8c6a5b4dcb8c3b8c7a3c78bd0bc5625905",
+          "frameTime": 0.5,
+          "sha256": "622ed7e5ac96e26c2e3a8753e430693a06efeb6c456efd3c6d0a0a92c9f452c5"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117195020784828540-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117195020784828540-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-vegeta9-deepseek-v41-flash-svg-animation-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-vegeta9-deepseek-v41-flash-svg-animation-2026-11-02/",
+    "markdown": "/specimens/x-vegeta9-deepseek-v41-flash-svg-animation-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Coastal road · SVG pelican ride",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "The original publisher explicitly describes SVG code generation and labels the attached animation deepseek-v4.1-flash. The complete original recording is preserved; the generation conversation and full SVG were not obtained. General capability claims in the explainer are not treated as archive findings. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/vegeta9_/status/2117195020784828540",
+        "https://video.twimg.com/amplify_video/2117184350492241920/vid/avc1/2362x1416/kzFe7Npm9QRjBwi8.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/vegeta9_/status/2117195020784828540"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "promptKnown": false,
+      "effortKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-itepsilon-gemini-argon-svg-preview-2026-11-02",
+    "originalId": "x-itepsilon-gemini-argon-svg-preview-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · Argon 原帖预览",
+    "model": "Gemini Argon（来源标注）",
+    "author": "Ganbold Li (@itepsilon)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者公开 SVG 提示词与 Gemini Argon 标签，仅取得原帖完整静态图。未公开取得 SVG 源码或动画，不把静态图称作动态原件；不从图片外观推断推理档位或迭代次数。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/itepsilon/status/2117059589858574524",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117059589858574524-1.jpg",
+        "source": "https://pbs.twimg.com/media/HWFOVY_bQAAqf8h.jpg?name=orig",
+        "sha256": "e9924dd9bbaaf83695ffb6d857ad24435d6ef9428298584a0552a7c039bd2ad7",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117059589858574524-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-itepsilon-gemini-argon-svg-preview-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-itepsilon-gemini-argon-svg-preview-2026-11-02/",
+    "markdown": "/specimens/x-itepsilon-gemini-argon-svg-preview-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · source Argon preview",
+        "model": "Gemini Argon（来源标注）",
+        "notes": "The author publishes the SVG prompt and Gemini Argon label. Only the complete original static image is available. The SVG source and an animation were not obtained; the image is not presented as a recovered animation. Effort and iteration count are not inferred from appearance. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/itepsilon/status/2117059589858574524",
+        "https://pbs.twimg.com/media/HWFOVY_bQAAqf8h.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini Argon（来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/itepsilon/status/2117059589858574524"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePreviewOnly": true,
+      "effortKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "hypeorcode-glm-5-3-flashx-legal-2026-11-02",
+    "originalId": "hypeorcode-glm-5-3-flashx-legal-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 单次 SVG 测试",
+    "model": "GLM 5.3 FlashX Legal",
+    "author": "hype or code",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "来源记录经 OpenRouter API 单次生成，实际模型标识 z-ai/glm-5.3-flashx-legal，服务方 Z.AI，max 档。日期是来源运行时间，首次公开时刻未确定；保留完整 SVG、原始响应、元数据与提示词。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/glm-5-3-flashx-legal/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/hype-glm-5-3-flashx-legal.svg",
+        "source": "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.a7d63216.txt",
+        "sha256": "77910d807dfb04a4f14d9e9b963ebd5dd3cb3387bcb975230c896c716c7e8139",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/hype-glm-5-3-flashx-legal.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.a7d63216.txt",
+    "path": "/specimens/hypeorcode-glm-5-3-flashx-legal-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-glm-5-3-flashx-legal-2026-11-02/",
+    "markdown": "/specimens/hypeorcode-glm-5-3-flashx-legal-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · single SVG test",
+        "model": "GLM 5.3 FlashX Legal",
+        "notes": "The source records one OpenRouter API attempt with API identifier z-ai/glm-5.3-flashx-legal, served by Z.AI, at max effort. The date is the reported run date; the first-publication time is unknown. The complete SVG, raw response, metadata and exact prompt are preserved. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/glm-5-3-flashx-legal/",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.a7d63216.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.d858664d.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM 5.3 FlashX Legal"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/glm-5-3-flashx-legal/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.a7d63216.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.d858664d.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "attempts": 1,
+      "tool": "OpenRouter API",
+      "apiModel": "z-ai/glm-5.3-flashx-legal",
+      "effort": "max",
+      "servedBy": "Z.AI"
+    }
+  },
+  {
+    "id": "hf-ista-deepseek-v41-flash-1017-gsq-rco-coder-svg-2026-11-02",
+    "originalId": "hf-ista-deepseek-v41-flash-1017-gsq-rco-coder-svg-2026-11-02",
+    "kind": "timeline",
+    "title": "GSQ-RCO Coder · 沿海公路原始 SVG 动画",
+    "model": "DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder",
+    "author": "ISTA Deep Algorithms and Systems Lab（发布者）",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "模型卡明确将此动画归为剪枝 Coder 的 HTML/SVG 代码输出；保留固定修订的完整 SVG 及所有原生 SMIL 动画，不重画、不替失败结构修正。原模型卡注明完整提示词与推理档位待补，因此留空，不以发布日期冒充生成日。模型权重许可不扩大为本 SVG 的单独开源授权。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/ista-pelican.svg",
+        "source": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/resolve/54229d38d588a66d1c6cff08af7b281b9326c656/assets/pelican.svg",
+        "sha256": "3aba3233ba4f725a1cccccc8fb90e92832dbeacd4209b619a48df86a6fe84d14",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/ista-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/resolve/54229d38d588a66d1c6cff08af7b281b9326c656/assets/pelican.svg",
+    "path": "/specimens/hf-ista-deepseek-v41-flash-1017-gsq-rco-coder-svg-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hf-ista-deepseek-v41-flash-1017-gsq-rco-coder-svg-2026-11-02/",
+    "markdown": "/specimens/hf-ista-deepseek-v41-flash-1017-gsq-rco-coder-svg-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "GSQ-RCO Coder · original coastal SVG animation",
+        "model": "DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder",
+        "notes": "The model card explicitly attributes this code-generated animated SVG to the pruned Coder. The complete pinned SVG and all native SMIL animation are preserved without redrawing or repairing geometry. The card marks the exact prompt and reasoning effort as TBD, so they remain unknown. Publication evidence is not treated as a generation date, and the model-weight license is not extended to the SVG. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+        "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/blob/54229d38d588a66d1c6cff08af7b281b9326c656/README.md",
+        "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/resolve/54229d38d588a66d1c6cff08af7b281b9326c656/assets/pelican.svg",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/blob/54229d38d588a66d1c6cff08af7b281b9326c656/README.md",
+      "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/resolve/54229d38d588a66d1c6cff08af7b281b9326c656/assets/pelican.svg",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "revision": "54229d38d588a66d1c6cff08af7b281b9326c656",
+      "promptKnown": false,
+      "effortKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round1-opus55-2026-11-02",
+    "originalId": "x-evals-ag-round1-opus55-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 原题",
+    "model": "Claude Opus 5.5",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 1 组实际输出，原片标签明确对应本模型。同帖设置图公开完整的单页 HTML 提示词，并明确逐模型单次生成、零手工修改。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 1 · Original prompt",
+    "promptCategory": "classic",
+    "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-0-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "8bbd3deb785e564a7662aa07a5950f896ff95e9f45c1d4fa7eb83dbf0460792e",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "c5334c52bf8839524abb345379ab953d36a91feb09c70ed94819ed614d2a98d3"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "8bbd3deb785e564a7662aa07a5950f896ff95e9f45c1d4fa7eb83dbf0460792e",
+          "frameTime": 2,
+          "sha256": "3563bf9f2dd8627b57c3c19899133ffb9445a6cb8d2adb94f2f44622a97d4409"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-0-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "frameTime": 1,
+          "sha256": "338036f254de45e9aca11413655d97d6c5fd4948137d3fc8c626d1c9cde6ed7d"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-0-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round1-opus55-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round1-opus55-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round1-opus55-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Original prompt",
+        "model": "Claude Opus 5.5",
+        "notes": "The author’s round 1 output is matched to this model by the source panel label. The original setup image provides the complete single-HTML prompt and explicitly reports one attempt per model with no manual edits. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117148447983935908",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117148447983935908",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 1",
+      "promptCompleteness": "complete source image",
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round1-terra61-2026-11-02",
+    "originalId": "x-evals-ag-round1-terra61-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 原题",
+    "model": "GPT-6.1 Terra",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 1 组实际输出，原片标签明确对应本模型。同帖设置图公开完整的单页 HTML 提示词，并明确逐模型单次生成、零手工修改。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 1 · Original prompt",
+    "promptCategory": "classic",
+    "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-1-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "c21abfe2b4d2be8a410faec7b54776b649814837745569e5cc27bf1709565787",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "box": {
+            "left": 960,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "db0b9394e0da8385eb38d627b0a9b22d91a7fc877a03fee6211ad60ec0fd6093"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "c21abfe2b4d2be8a410faec7b54776b649814837745569e5cc27bf1709565787",
+          "frameTime": 2,
+          "sha256": "c0bae77e869e856ecc5d36ef399c1f077c699944178e509a8d35fb4a15a25448"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-1-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "frameTime": 1,
+          "sha256": "338036f254de45e9aca11413655d97d6c5fd4948137d3fc8c626d1c9cde6ed7d"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-1-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round1-terra61-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round1-terra61-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round1-terra61-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Original prompt",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author’s round 1 output is matched to this model by the source panel label. The original setup image provides the complete single-HTML prompt and explicitly reports one attempt per model with no manual edits. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117148447983935908",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117148447983935908",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 1",
+      "promptCompleteness": "complete source image",
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round1-argon4-2026-11-02",
+    "originalId": "x-evals-ag-round1-argon4-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 原题",
+    "model": "Gemini 4 Argon",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 1 组实际输出，原片标签明确对应本模型。同帖设置图公开完整的单页 HTML 提示词，并明确逐模型单次生成、零手工修改。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 1 · Original prompt",
+    "promptCategory": "classic",
+    "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-2-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "984e13d931fcf4ef1169ab9542d4692bfdc6c097c15d9337938e544219270939",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "box": {
+            "left": 0,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "07cd6b0e831cd036a50f2fcf8efcadd1e4d44ea1a61e164969d1cc937236f677"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "984e13d931fcf4ef1169ab9542d4692bfdc6c097c15d9337938e544219270939",
+          "frameTime": 2,
+          "sha256": "48ea069e15d67a213f48280ad81a2329af21909c69511dc772aa8a9d59cfe57c"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-2-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "frameTime": 1,
+          "sha256": "338036f254de45e9aca11413655d97d6c5fd4948137d3fc8c626d1c9cde6ed7d"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-2-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round1-argon4-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round1-argon4-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round1-argon4-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Original prompt",
+        "model": "Gemini 4 Argon",
+        "notes": "The author’s round 1 output is matched to this model by the source panel label. The original setup image provides the complete single-HTML prompt and explicitly reports one attempt per model with no manual edits. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117148447983935908",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117148447983935908",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 1",
+      "promptCompleteness": "complete source image",
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round1-fable51-2026-11-02",
+    "originalId": "x-evals-ag-round1-fable51-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 原题",
+    "model": "Claude Fable 5.1",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 1 组实际输出，原片标签明确对应本模型。同帖设置图公开完整的单页 HTML 提示词，并明确逐模型单次生成、零手工修改。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 1 · Original prompt",
+    "promptCategory": "classic",
+    "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-3-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "4f84bd3d67c047d11fde1729f5d131cda6b1ed2b6f5b0368fc07419e6e07657a",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "box": {
+            "left": 960,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "f5a1a53a8087f77c32a2113fd9b8ffb518ca78af2470b4cbbc5e7cc095a521c7"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "4f84bd3d67c047d11fde1729f5d131cda6b1ed2b6f5b0368fc07419e6e07657a",
+          "frameTime": 2,
+          "sha256": "c3dd1df6451ec94a34c7dbe4ca2d18d76d8050ee2076205d1a7f0f2495c2f22c"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-3-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+        "sha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+          "sourceSha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+          "frameTime": 1,
+          "sha256": "338036f254de45e9aca11413655d97d6c5fd4948137d3fc8c626d1c9cde6ed7d"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117148447983935908-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117148447983935908-panel-3-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round1-fable51-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round1-fable51-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round1-fable51-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Original prompt",
+        "model": "Claude Fable 5.1",
+        "notes": "The author’s round 1 output is matched to this model by the source panel label. The original setup image provides the complete single-HTML prompt and explicitly reports one attempt per model with no manual edits. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "Make an animation of a pelican riding a bicycle. Single HTML page, no external images or video.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117148447983935908",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117148447983935908",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 1",
+      "promptCompleteness": "complete source image",
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round2-opus55-2026-11-02",
+    "originalId": "x-evals-ag-round2-opus55-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 去除背景",
+    "model": "Claude Opus 5.5",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 2 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 2 · No background elements",
+    "promptCategory": "classic",
+    "promptStatus": "no background elements",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-0-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "fdfee7ac63f66bd48119ddfe8c5366e7a33c6f1739e74b00e2b15d72e1ac98a9",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "91cae1bdbf15e0c9d8ba4a68e66e12abd2e644fdb99f9052709b7d166958189b"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "fdfee7ac63f66bd48119ddfe8c5366e7a33c6f1739e74b00e2b15d72e1ac98a9",
+          "frameTime": 2,
+          "sha256": "091a62986a6c2e71e22f4b8e3c86ff77b86c257e1a4229ac4cdc5a1173bb5240"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-0-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "frameTime": 1,
+          "sha256": "57a9edc8d32e15513ac1bad9bc14e3fd156490596261c7998dac1281c3ca5eb4"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-0-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round2-opus55-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round2-opus55-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round2-opus55-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · No background elements",
+        "model": "Claude Opus 5.5",
+        "notes": "The author’s round 2 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "no background elements",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117160278395936772",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117160278395936772",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 2",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round2-terra61-2026-11-02",
+    "originalId": "x-evals-ag-round2-terra61-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 去除背景",
+    "model": "GPT-6.1 Terra",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 2 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 2 · No background elements",
+    "promptCategory": "classic",
+    "promptStatus": "no background elements",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-1-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "0d399ef38be67983adf94564f8106486837c7915fe3db76c6e563df47f25e024",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "box": {
+            "left": 960,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "6d0717dbd1afb07b92a6afb22ffac70b5939d5e5d8a524c47582a5a73d233db9"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "0d399ef38be67983adf94564f8106486837c7915fe3db76c6e563df47f25e024",
+          "frameTime": 2,
+          "sha256": "54db24e811132d957fe24ca100a0e55440a0c19eab12d06f59d7d4a075625bbc"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-1-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "frameTime": 1,
+          "sha256": "57a9edc8d32e15513ac1bad9bc14e3fd156490596261c7998dac1281c3ca5eb4"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-1-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round2-terra61-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round2-terra61-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round2-terra61-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · No background elements",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author’s round 2 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "no background elements",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117160278395936772",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117160278395936772",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 2",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round2-argon4-2026-11-02",
+    "originalId": "x-evals-ag-round2-argon4-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 去除背景",
+    "model": "Gemini 4 Argon",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 2 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 2 · No background elements",
+    "promptCategory": "classic",
+    "promptStatus": "no background elements",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-2-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "ea2deca1d529c9aa601e7ce00d7026e1991063da97a1753125c5f1871bd242f7",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "box": {
+            "left": 0,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "6fe1fb5d833bb7577815375a954acfbaa9361a0106372971ad10bcfc0bf71da3"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "ea2deca1d529c9aa601e7ce00d7026e1991063da97a1753125c5f1871bd242f7",
+          "frameTime": 2,
+          "sha256": "27aee35a583281dad8a44ae93c0b93d9b220138baa7f497ab1fee5c2904356e8"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-2-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "frameTime": 1,
+          "sha256": "57a9edc8d32e15513ac1bad9bc14e3fd156490596261c7998dac1281c3ca5eb4"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-2-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round2-argon4-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round2-argon4-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round2-argon4-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · No background elements",
+        "model": "Gemini 4 Argon",
+        "notes": "The author’s round 2 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "no background elements",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117160278395936772",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117160278395936772",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 2",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round2-fable51-2026-11-02",
+    "originalId": "x-evals-ag-round2-fable51-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 去除背景",
+    "model": "Claude Fable 5.1",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 2 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 2 · No background elements",
+    "promptCategory": "classic",
+    "promptStatus": "no background elements",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-3-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "705d19528fae3dc5680e382d4d173e0429661184459969bcd8a6ef524707bdd5",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "box": {
+            "left": 960,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "4166287129c6cf6cdbefbc0462e0b8a6b7d9dac045d06fda3b185fa4576ef8ef"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "705d19528fae3dc5680e382d4d173e0429661184459969bcd8a6ef524707bdd5",
+          "frameTime": 2,
+          "sha256": "1f52dbcfde556b9e407309f723d1926579b034ddc95c7b2516653638db65cc21"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-3-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+        "sha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+          "sourceSha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+          "frameTime": 1,
+          "sha256": "57a9edc8d32e15513ac1bad9bc14e3fd156490596261c7998dac1281c3ca5eb4"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117160278395936772-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117160278395936772-panel-3-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round2-fable51-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round2-fable51-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round2-fable51-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · No background elements",
+        "model": "Claude Fable 5.1",
+        "notes": "The author’s round 2 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "no background elements",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117160278395936772",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117160278395936772",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 2",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round3-opus55-2026-11-02",
+    "originalId": "x-evals-ag-round3-opus55-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 写实 3D",
+    "model": "Claude Opus 5.5",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 3 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 3 · Realistic 3D",
+    "promptCategory": "classic",
+    "promptStatus": "realistic 3D",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-0-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "0cab625865ad86a6df0985008c10a45721301963aca5a7d9007a8ccaf766d256",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "be053e01c91216cadab516ec18c33a30916264c9f904f17b416b4696e7fbb833"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "0cab625865ad86a6df0985008c10a45721301963aca5a7d9007a8ccaf766d256",
+          "frameTime": 2,
+          "sha256": "1178201858a17a24d55e8521ee1b7875f45db6cd2f3fe6bad032e033730c50b4"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-0-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "frameTime": 1,
+          "sha256": "ac184e751d8f0ac2ecc97175058d58db2162ea1c57d38d4c68c3810980233f17"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-0-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round3-opus55-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round3-opus55-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round3-opus55-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Realistic 3D",
+        "model": "Claude Opus 5.5",
+        "notes": "The author’s round 3 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "realistic 3D",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117281079975711172",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117281079975711172",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 3",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round3-terra61-2026-11-02",
+    "originalId": "x-evals-ag-round3-terra61-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 写实 3D",
+    "model": "GPT-6.1 Terra",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 3 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 3 · Realistic 3D",
+    "promptCategory": "classic",
+    "promptStatus": "realistic 3D",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-1-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "0ea5841709ce4e1f683b8ec788df4b71207328bfe757a564c041c397b31bf5b2",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "box": {
+            "left": 960,
+            "top": 0,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "04b2ccc7a126348b6ea0742060c990e102a66076c2dfc4796c6471c42c154273"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "0ea5841709ce4e1f683b8ec788df4b71207328bfe757a564c041c397b31bf5b2",
+          "frameTime": 2,
+          "sha256": "7a91cd4c4d73482d611c578f2835b77fab74a8983c6e2a671dc918c67a94aee2"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-1-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "frameTime": 1,
+          "sha256": "ac184e751d8f0ac2ecc97175058d58db2162ea1c57d38d4c68c3810980233f17"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-1-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round3-terra61-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round3-terra61-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round3-terra61-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Realistic 3D",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author’s round 3 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "realistic 3D",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117281079975711172",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117281079975711172",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 3",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round3-argon4-2026-11-02",
+    "originalId": "x-evals-ag-round3-argon4-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 写实 3D",
+    "model": "Gemini 4 Argon",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 3 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 3 · Realistic 3D",
+    "promptCategory": "classic",
+    "promptStatus": "realistic 3D",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-2-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "94ed744b707efc05fbd2bce3dfb473ceb77d9460709d4ce1b3a16bcf97174e64",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "box": {
+            "left": 0,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "67603fb4e81f06fd1bfb1bb91181edac980d47e45506450a0dcfbceb697a471c"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "94ed744b707efc05fbd2bce3dfb473ceb77d9460709d4ce1b3a16bcf97174e64",
+          "frameTime": 2,
+          "sha256": "d0ff2cf9f5a92b49768beb6a21e2b48d0e2490c2c6e5afacab0e29040a90a038"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-2-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "frameTime": 1,
+          "sha256": "ac184e751d8f0ac2ecc97175058d58db2162ea1c57d38d4c68c3810980233f17"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-2-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round3-argon4-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round3-argon4-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round3-argon4-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Realistic 3D",
+        "model": "Gemini 4 Argon",
+        "notes": "The author’s round 3 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "realistic 3D",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117281079975711172",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117281079975711172",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 3",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-evals-ag-round3-fable51-2026-11-02",
+    "originalId": "x-evals-ag-round3-fable51-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 写实 3D",
+    "model": "Claude Fable 5.1",
+    "author": "Evals (@evals_ag)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者发布的第 3 组实际输出，原片标签明确对应本模型。本轮逐字完整提示词未公开，保留原文公开的提示片段。 完整保留原始 12 秒对照录屏与本模型固定分栏；未获取 HTML 源码，不列为站内可玩。三组使用不同题面，属于一次性创作者对照，不是反复采样持续评分的 Benchmark。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Round 3 · Realistic 3D",
+    "promptCategory": "classic",
+    "promptStatus": "realistic 3D",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-3-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "ccdac28b3d5d2cbfa4971b76e19c9d47e97b4066312e1e973e457a893ef2d34b",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "box": {
+            "left": 960,
+            "top": 540,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 360,
+          "sourceFrames": 360,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 360,
+          "decodedFrameHashesSha256": "4f4207b3bd6dc5bb11c930ed43a611fd23f8821d9699908e4cf7a42df9c631b4"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "ccdac28b3d5d2cbfa4971b76e19c9d47e97b4066312e1e973e457a893ef2d34b",
+          "frameTime": 2,
+          "sha256": "0d478ecceb2699d4e8f93c7c9cfb8b68c46c62e0c789cec30130087ddb5b5377"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-3-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+        "sha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+          "sourceSha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+          "frameTime": 1,
+          "sha256": "ac184e751d8f0ac2ecc97175058d58db2162ea1c57d38d4c68c3810980233f17"
+        },
+        "detailOnly": true,
+        "caption": "完整三模型／四模型对照原片",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117281079975711172-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117281079975711172-panel-3-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-evals-ag-round3-fable51-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-evals-ag-round3-fable51-2026-11-02/",
+    "markdown": "/specimens/x-evals-ag-round3-fable51-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican riding a bicycle · Realistic 3D",
+        "model": "Claude Fable 5.1",
+        "notes": "The author’s round 3 output is matched to this model by the source panel label. The complete verbatim prompt for this round is not public; only its public prompt fragment is retained. The complete 12-second comparison and this fixed model panel are preserved. The original HTML was not obtained and no runnable on-site demo is claimed. These are authored comparisons with three distinct prompts, not repeatedly sampled, continuously scored benchmark cohorts. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "realistic 3D",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/evals_ag/status/2117281079975711172",
+        "https://x.com/evals_ag/status/2117152467662372985",
+        "https://x.com/evals_ag/status/2117148607359111171",
+        "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.1"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/evals_ag/status/2117281079975711172",
+      "https://x.com/evals_ag/status/2117152467662372985",
+      "https://x.com/evals_ag/status/2117148607359111171"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "comparisonRound": "round 3",
+      "promptCompleteness": "public excerpt only",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-stonerao-3d-showcase-astra6-2026-11-02",
+    "originalId": "x-stonerao-3d-showcase-astra6-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 3D 网页展台",
+    "model": "GPT-6 Astra",
+    "author": "stonerao (@china_stonerao)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者在回复公开 HTML／3D 动画题面；原录屏四格标签对应模型。作品加入品牌式网页排版、玻璃／镜面展台和舞台灯光，按网页展示衍生收录。画面中的 GPT6.1 Terr 标签按原样保留，不补写型号后缀或推理档位。完整原片和音轨保留，源码未公开取得。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-0-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "c9adcfd3e4a19602ba5b89ae2abe3e144d20b8c005955cefd8e284fd72c25493",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 428,
+            "height": 360
+          },
+          "startFrame": 0,
+          "endFrame": 176,
+          "sourceFrames": 176,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 176,
+          "decodedFrameHashesSha256": "200f215595ef469ec8426a598b655a9b1cf4fd0b16535ca1dce7522d186f79da"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "c9adcfd3e4a19602ba5b89ae2abe3e144d20b8c005955cefd8e284fd72c25493",
+          "frameTime": 2,
+          "sha256": "1bfaa7d06d1e65ac3e44f327b873083f486eb66bf5f7ff9028ceaf2c1e5da90b"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-0-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "frameTime": 1,
+          "sha256": "bd8162a08f437bc8ff7351a86bd98e6b9775208526841d65d8ff1dac0aaf7340"
+        },
+        "detailOnly": true,
+        "caption": "完整四模型对照录屏及原音轨",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-0-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-stonerao-3d-showcase-astra6-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-stonerao-3d-showcase-astra6-2026-11-02/",
+    "markdown": "/specimens/x-stonerao-3d-showcase-astra6-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · 3D web showcase",
+        "model": "GPT-6 Astra",
+        "notes": "The original author supplies the HTML/3D animation prompt in a reply, and the four source panels identify the models. The branded page layouts, glass/mirrored display stages and theatrical lighting are archived as derivative web showcases. The literal source label GPT6.1 Terr is preserved without completing its suffix or guessing effort. The complete source recording and audio are retained; source HTML was not obtained. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/china_stonerao/status/2117198598073192595",
+        "https://x.com/china_stonerao/status/2117198655690244489",
+        "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/china_stonerao/status/2117198598073192595",
+      "https://x.com/china_stonerao/status/2117198655690244489"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effortKnown": false,
+      "iterationCountKnown": false,
+      "sourcePanel": 1
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-stonerao-3d-showcase-terr61-2026-11-02",
+    "originalId": "x-stonerao-3d-showcase-terr61-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 3D 网页展台",
+    "model": "GPT6.1 Terr（来源画面标注）",
+    "author": "stonerao (@china_stonerao)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者在回复公开 HTML／3D 动画题面；原录屏四格标签对应模型。作品加入品牌式网页排版、玻璃／镜面展台和舞台灯光，按网页展示衍生收录。画面中的 GPT6.1 Terr 标签按原样保留，不补写型号后缀或推理档位。完整原片和音轨保留，源码未公开取得。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-1-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "d22024202abd277c804e67420054dfec90c880847884ed4dabb4d0e2ce904a2e",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "box": {
+            "left": 428,
+            "top": 0,
+            "width": 428,
+            "height": 360
+          },
+          "startFrame": 0,
+          "endFrame": 176,
+          "sourceFrames": 176,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 176,
+          "decodedFrameHashesSha256": "f680ad664a01454b4a62d8b9978a7356347536cce0a250b618abcbe07c217adb"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "d22024202abd277c804e67420054dfec90c880847884ed4dabb4d0e2ce904a2e",
+          "frameTime": 2,
+          "sha256": "68ab7890265e165f8a9db45b5f14bd3bd29254e9f43dd4a91348161aef7f5f31"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-1-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "frameTime": 1,
+          "sha256": "bd8162a08f437bc8ff7351a86bd98e6b9775208526841d65d8ff1dac0aaf7340"
+        },
+        "detailOnly": true,
+        "caption": "完整四模型对照录屏及原音轨",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-1-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-stonerao-3d-showcase-terr61-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-stonerao-3d-showcase-terr61-2026-11-02/",
+    "markdown": "/specimens/x-stonerao-3d-showcase-terr61-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · 3D web showcase",
+        "model": "GPT6.1 Terr（来源画面标注）",
+        "notes": "The original author supplies the HTML/3D animation prompt in a reply, and the four source panels identify the models. The branded page layouts, glass/mirrored display stages and theatrical lighting are archived as derivative web showcases. The literal source label GPT6.1 Terr is preserved without completing its suffix or guessing effort. The complete source recording and audio are retained; source HTML was not obtained. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/china_stonerao/status/2117198598073192595",
+        "https://x.com/china_stonerao/status/2117198655690244489",
+        "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT6.1 Terr（来源画面标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/china_stonerao/status/2117198598073192595",
+      "https://x.com/china_stonerao/status/2117198655690244489"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effortKnown": false,
+      "iterationCountKnown": false,
+      "sourcePanel": 2
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-stonerao-3d-showcase-glm53-2026-11-02",
+    "originalId": "x-stonerao-3d-showcase-glm53-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 3D 网页展台",
+    "model": "GLM 5.3",
+    "author": "stonerao (@china_stonerao)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者在回复公开 HTML／3D 动画题面；原录屏四格标签对应模型。作品加入品牌式网页排版、玻璃／镜面展台和舞台灯光，按网页展示衍生收录。画面中的 GPT6.1 Terr 标签按原样保留，不补写型号后缀或推理档位。完整原片和音轨保留，源码未公开取得。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-2-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "7e7f1afc079d4a779bce0b9bab9b9cad6d2b9103ea510e760d7cff85b4b3b39f",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "box": {
+            "left": 0,
+            "top": 360,
+            "width": 428,
+            "height": 360
+          },
+          "startFrame": 0,
+          "endFrame": 176,
+          "sourceFrames": 176,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 176,
+          "decodedFrameHashesSha256": "cd7f642b9a48b04b9fae5a80f4a17b35b2d5292786db411927bc0a489cf34b6c"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "7e7f1afc079d4a779bce0b9bab9b9cad6d2b9103ea510e760d7cff85b4b3b39f",
+          "frameTime": 2,
+          "sha256": "af1e1557e5a0d5a117395592de707316a0938bc88771f0321446d6f8c58ea517"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-2-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "frameTime": 1,
+          "sha256": "bd8162a08f437bc8ff7351a86bd98e6b9775208526841d65d8ff1dac0aaf7340"
+        },
+        "detailOnly": true,
+        "caption": "完整四模型对照录屏及原音轨",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-2-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-stonerao-3d-showcase-glm53-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-stonerao-3d-showcase-glm53-2026-11-02/",
+    "markdown": "/specimens/x-stonerao-3d-showcase-glm53-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · 3D web showcase",
+        "model": "GLM 5.3",
+        "notes": "The original author supplies the HTML/3D animation prompt in a reply, and the four source panels identify the models. The branded page layouts, glass/mirrored display stages and theatrical lighting are archived as derivative web showcases. The literal source label GPT6.1 Terr is preserved without completing its suffix or guessing effort. The complete source recording and audio are retained; source HTML was not obtained. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/china_stonerao/status/2117198598073192595",
+        "https://x.com/china_stonerao/status/2117198655690244489",
+        "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM 5.3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/china_stonerao/status/2117198598073192595",
+      "https://x.com/china_stonerao/status/2117198655690244489"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effortKnown": false,
+      "iterationCountKnown": false,
+      "sourcePanel": 3
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-stonerao-3d-showcase-deepseek1017-2026-11-02",
+    "originalId": "x-stonerao-3d-showcase-deepseek1017-2026-11-02",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 3D 网页展台",
+    "model": "DeepSeek V4.1 Flash 1017",
+    "author": "stonerao (@china_stonerao)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者在回复公开 HTML／3D 动画题面；原录屏四格标签对应模型。作品加入品牌式网页排版、玻璃／镜面展台和舞台灯光，按网页展示衍生收录。画面中的 GPT6.1 Terr 标签按原样保留，不补写型号后缀或推理档位。完整原片和音轨保留，源码未公开取得。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-3-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "ed7e5e4dcc1788b6ae1a8d44e7d66b9cd9098e786be84c8589a6c674c0e80846",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "box": {
+            "left": 428,
+            "top": 360,
+            "width": 428,
+            "height": 360
+          },
+          "startFrame": 0,
+          "endFrame": 176,
+          "sourceFrames": 176,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 176,
+          "decodedFrameHashesSha256": "e76971c54c4667b20e16b1b25e35dccfdc7a58c615c8318941dc7521312389a8"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "ed7e5e4dcc1788b6ae1a8d44e7d66b9cd9098e786be84c8589a6c674c0e80846",
+          "frameTime": 2,
+          "sha256": "dd49db96e756f1fdfe1c3e5373cbec56e7bfaac7ff379eab987f9b4b0995cf81"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-3-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+        "sha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+          "sourceSha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+          "frameTime": 1,
+          "sha256": "bd8162a08f437bc8ff7351a86bd98e6b9775208526841d65d8ff1dac0aaf7340"
+        },
+        "detailOnly": true,
+        "caption": "完整四模型对照录屏及原音轨",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117198598073192595-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117198598073192595-panel-3-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-stonerao-3d-showcase-deepseek1017-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-stonerao-3d-showcase-deepseek1017-2026-11-02/",
+    "markdown": "/specimens/x-stonerao-3d-showcase-deepseek1017-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · 3D web showcase",
+        "model": "DeepSeek V4.1 Flash 1017",
+        "notes": "The original author supplies the HTML/3D animation prompt in a reply, and the four source panels identify the models. The branded page layouts, glass/mirrored display stages and theatrical lighting are archived as derivative web showcases. The literal source label GPT6.1 Terr is preserved without completing its suffix or guessing effort. The complete source recording and audio are retained; source HTML was not obtained. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "创建一个HTML，内容是绘制一个鹈鹕骑自行车的3D动画，骨骼动画完整，需要包含辉光、AO、SSR。你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/china_stonerao/status/2117198598073192595",
+        "https://x.com/china_stonerao/status/2117198655690244489",
+        "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash 1017"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/china_stonerao/status/2117198598073192595",
+      "https://x.com/china_stonerao/status/2117198655690244489"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effortKnown": false,
+      "iterationCountKnown": false,
+      "sourcePanel": 4
+    },
+    "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-delroy715-deepseek-v41-engram-zero-2026-11-02",
+    "originalId": "x-delroy715-deepseek-v41-engram-zero-2026-11-02",
+    "kind": "timeline",
+    "title": "Engram 置零 · 未修正的原始骑行",
+    "model": "DeepSeek V4.1（Engram 置零，来源标注）",
+    "author": "码农暖爸 (@Delroy715)",
+    "date": "2026-11-02",
+    "month": "2026-11",
+    "notes": "作者描述本地 Engram 置零后生成单页 HTML/SVG，并逐项展示拼写与 DOM 错误。这里只把左栏未修正模型输出计一件，右栏人工修正版不拆成新作；保留完整前后对照视频和说明图，不替失败细节补画。量化型号、完整提示词和 HTML 未取得；架构因果解释只是作者观点，不作独立验证结论。 型号及生成条件按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Delroy715/status/2117259793669013728",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Engram 置零 · 原始未修正",
+    "promptCategory": "classic",
+    "promptStatus": "让 AI 用 SVG 画一只骑自行车的鹈鹕",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117259793669013728-panel-0-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+        "sha256": "c91e021a6d7c58e130ddac1fe5e2c4e6e188460ac8e7a63bd0f6697196b6fbd0",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+          "sourceSha256": "ea3fad0005d4ce3dc7c030d67312dad5bf0463011173dceb5a2857c9cbe2a335",
+          "box": {
+            "left": 0,
+            "top": 212,
+            "width": 960,
+            "height": 540
+          },
+          "startFrame": 0,
+          "endFrame": 300,
+          "sourceFrames": 300,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 300,
+          "decodedFrameHashesSha256": "7f80cde60bb541a996ef869a554276e5e15878a603b8d2c24956508a8f5e5586"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+          "sourceSha256": "c91e021a6d7c58e130ddac1fe5e2c4e6e188460ac8e7a63bd0f6697196b6fbd0",
+          "frameTime": 2,
+          "sha256": "20797fb3aff838364c7d680d37bad6ebfd0b69e433eff917fd2529aaa8b8d3b3"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117259793669013728-panel-0-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117259797951336686-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+        "sha256": "ea3fad0005d4ce3dc7c030d67312dad5bf0463011173dceb5a2857c9cbe2a335",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+          "sourceSha256": "ea3fad0005d4ce3dc7c030d67312dad5bf0463011173dceb5a2857c9cbe2a335",
+          "frameTime": 1,
+          "sha256": "a631c0dba08e4355aa9de0aa57ee7b58d0982c1234e867600aa39d6c8f737399"
+        },
+        "detailOnly": true,
+        "caption": "完整原始输出／人工修正对照视频",
+        "captionEn": "Complete unedited source comparison recording",
+        "poster": "/media/collected/2026-11-03-daily-intake/2117259797951336686-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-03-daily-intake/2117259793669013728-1.jpg",
+        "source": "https://pbs.twimg.com/media/HWID0CqawAAS05Y.jpg?name=orig",
+        "sha256": "0f5df2baf281e86636e25a931f28176933e41bb171be916b8587df04395063e2",
+        "detailOnly": true,
+        "caption": "原始说明图（右侧人工修正不另计作品）",
+        "captionEn": "Complete original explanatory image; the manual repair is not a second work",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-03-daily-intake/2117259793669013728-panel-0-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-delroy715-deepseek-v41-engram-zero-2026-11-02/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-delroy715-deepseek-v41-engram-zero-2026-11-02/",
+    "markdown": "/specimens/x-delroy715-deepseek-v41-engram-zero-2026-11-02/index.md",
+    "updated": "2026-11-03",
+    "rights": "作品与原媒体归原作者；保留署名、出处和原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Engram zeroed · original uncorrected ride",
+        "model": "DeepSeek V4.1（Engram 置零，来源标注）",
+        "notes": "The author describes a local HTML/SVG run with Engram zeroed and illustrates spelling and DOM defects. Only the uncorrected left-hand model output counts as one work; the manually repaired right-hand version is not a second generated work. The complete before/after video and explanatory image are preserved without repairing defects. Exact quantization, full prompt and HTML are unavailable. Architectural explanations remain the author’s claims, not independently verified findings. Model labels and generation conditions are source-reported, not independently authenticated.",
+        "rights": "The work and source media remain creator-owned. Attribution, provenance and existing notices are retained; no open-source permission is claimed.",
+        "promptStatus": "让 AI 用 SVG 画一只骑自行车的鹈鹕",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Delroy715/status/2117259793669013728",
+        "https://x.com/Delroy715/status/2117259797951336686",
+        "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+        "https://pbs.twimg.com/media/HWID0CqawAAS05Y.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1（Engram 置零，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Delroy715/status/2117259793669013728",
+      "https://x.com/Delroy715/status/2117259797951336686"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "setting": "Engram zeroed; uncorrected model output",
+      "quantizationKnown": false,
+      "promptCompleteness": "author paraphrase only"
+    },
+    "sourcePublicationDate": "2026-11-02"
   }
 ]

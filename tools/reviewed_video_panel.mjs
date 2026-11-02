@@ -7,6 +7,11 @@ import {cropPath} from './reviewed_video_crop.mjs';
 
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 export const PANELS={
+  "https://x.com/china_stonerao/status/2117198598073192595":{"url":"https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14","sha256":"e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a","width":856,"height":720,"frames":176,"fps":30,"boxes":[[0,0,428,360],[428,0,428,360],[0,360,428,360],[428,360,428,360]],"ranges":[[0,176]]},
+  "https://x.com/Delroy715/status/2117259793669013728":{"url":"https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29","sha256":"ea3fad0005d4ce3dc7c030d67312dad5bf0463011173dceb5a2857c9cbe2a335","width":1920,"height":1080,"frames":300,"fps":30,"boxes":[[0,212,960,540]],"ranges":[[0,300]]},
+  "https://x.com/evals_ag/status/2117148447983935908":{"url":"https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29","sha256":"7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4","width":1920,"height":1080,"frames":360,"fps":30,"boxes":[[0,0,960,540],[960,0,960,540],[0,540,960,540],[960,540,960,540]],"ranges":[[0,360]]},
+  "https://x.com/evals_ag/status/2117160278395936772":{"url":"https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29","sha256":"b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3","width":1920,"height":1080,"frames":360,"fps":30,"boxes":[[0,0,960,540],[960,0,960,540],[0,540,960,540],[960,540,960,540]],"ranges":[[0,360]]},
+  "https://x.com/evals_ag/status/2117281079975711172":{"url":"https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29","sha256":"16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64","width":1920,"height":1080,"frames":360,"fps":30,"boxes":[[0,0,960,540],[960,0,960,540],[0,540,960,540],[960,540,960,540]],"ranges":[[0,360]]},
   'https://x.com/chetaslua/status/2113503273361777086':{
     url:'https://video.twimg.com/amplify_video/2113502609416036352/vid/avc1/848x480/BgL8fXrUzL96hdQz.mp4?tag=29',
     sha256:'b41cb1175ead9b1f82a236325ef1e405dd5d022ed164639607e5fe801b9434e5',

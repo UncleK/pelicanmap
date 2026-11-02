@@ -2150,5 +2150,173 @@
         "model": "MiniMax M3"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117148361501626368/vid/avc1/1920x1080/xBKEuVpHiPbwuLY9.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117148447983935908-1.mp4",
+    "sha256": "7f76bdce39da9094722548ee4c1de03edcf13e708f0347bc2ff75849480557d4",
+    "bytes": 5646397,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+        "model": "Claude Opus 5.5"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+        "model": "GPT-6.1 Terra"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+        "model": "Gemini 4 Argon"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117148447983935908",
+        "model": "Claude Fable 5.1"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117159971846844416/vid/avc1/1920x1080/NsCgB1-uuhUy9UAV.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117160278395936772-1.mp4",
+    "sha256": "b3be887e7cab11f2598d7c7a1c2978940551f144b90b6cc84201474b80213cd3",
+    "bytes": 4767824,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+        "model": "Claude Opus 5.5"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+        "model": "GPT-6.1 Terra"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+        "model": "Gemini 4 Argon"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117160278395936772",
+        "model": "Claude Fable 5.1"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117280987050889217/vid/avc1/1920x1080/CsLtG1Jo-ZiSo-Z2.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117281079975711172-1.mp4",
+    "sha256": "16af6bff38edb9b7b13a7dece26480067be72e3c91eaf39f0e0c0c8bb0d59e64",
+    "bytes": 9810822,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+        "model": "Claude Opus 5.5"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+        "model": "GPT-6.1 Terra"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+        "model": "Gemini 4 Argon"
+      },
+      {
+        "sourceUrl": "https://x.com/evals_ag/status/2117281079975711172",
+        "model": "Claude Fable 5.1"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117198391939932160/vid/avc1/856x720/XYVvdVBQ9_JQXhzR.mp4?tag=14",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117198598073192595-1.mp4",
+    "sha256": "e3fffddcac14bc4552f8904d5f8c192c068e178ec51e35a89ce5f768cf23525a",
+    "bytes": 600944,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+        "model": "GPT-6 Astra"
+      },
+      {
+        "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+        "model": "GPT6.1 Terr（来源画面标注）"
+      },
+      {
+        "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+        "model": "GLM 5.3"
+      },
+      {
+        "sourceUrl": "https://x.com/china_stonerao/status/2117198598073192595",
+        "model": "DeepSeek V4.1 Flash 1017"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117259526965698560/vid/avc1/1920x1080/2QuoHZ1j3lpx2m_9.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117259797951336686-1.mp4",
+    "sha256": "ea3fad0005d4ce3dc7c030d67312dad5bf0463011173dceb5a2857c9cbe2a335",
+    "bytes": 2911062,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Delroy715/status/2117259793669013728",
+        "model": "DeepSeek V4.1（Engram 置零，来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWID0CqawAAS05Y.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117259793669013728-1.jpg",
+    "sha256": "0f5df2baf281e86636e25a931f28176933e41bb171be916b8587df04395063e2",
+    "bytes": 251143,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Delroy715/status/2117259793669013728",
+        "model": "DeepSeek V4.1（Engram 置零，来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117184350492241920/vid/avc1/2362x1416/kzFe7Npm9QRjBwi8.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117195020784828540-1.mp4",
+    "sha256": "f0f2e722e78bf5b0fdb8bdf6c0fa0f8c6a5b4dcb8c3b8c7a3c78bd0bc5625905",
+    "bytes": 4975400,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/vegeta9_/status/2117195020784828540",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWFOVY_bQAAqf8h.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/2117059589858574524-1.jpg",
+    "sha256": "e9924dd9bbaaf83695ffb6d857ad24435d6ef9428298584a0552a7c039bd2ad7",
+    "bytes": 84104,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/itepsilon/status/2117059589858574524",
+        "model": "Gemini Argon（来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/raw/pelican-bicycle/glm-5-3-flashx-legal.a7d63216.txt",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/hype-glm-5-3-flashx-legal.svg",
+    "sha256": "77910d807dfb04a4f14d9e9b963ebd5dd3cb3387bcb975230c896c716c7e8139",
+    "bytes": 14020,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/glm-5-3-flashx-legal/",
+        "model": "GLM 5.3 FlashX Legal"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF/resolve/54229d38d588a66d1c6cff08af7b281b9326c656/assets/pelican.svg",
+    "path": "pelican-archive/research/2026-11-03-daily-intake/ista-pelican.svg",
+    "sha256": "3aba3233ba4f725a1cccccc8fb90e92832dbeacd4209b619a48df86a6fe84d14",
+    "bytes": 74282,
+    "bindings": [
+      {
+        "sourceUrl": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+        "model": "DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder"
+      }
+    ]
   }
 ]
