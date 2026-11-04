@@ -2318,5 +2318,273 @@
         "model": "DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117872790024175617/vid/avc1/1280x720/bQdyGnSBbDXRBpzn.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117873046522622104-0.mp4",
+    "sha256": "943be4262fa473477899b6073c109030959cf62aa2fd788d981029791e10dd34",
+    "bytes": 1345483,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117872798408622080/vid/avc1/1920x1080/BnrloeLHyscDRxLt.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117873046522622104-1.mp4",
+    "sha256": "f11e9c885aaba2f788ffb0698a4289e0f22fd2c6c7af92e5c9a990385b8da50f",
+    "bytes": 7232853,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117872790716252160/vid/avc1/1920x1080/bskbN3KmU9Wckldc.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117873046522622104-2.mp4",
+    "sha256": "5afea4acbdd3213698d2bea0a20a77fcd394217901496d382f86d6237c062652",
+    "bytes": 4043907,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117636400031936512/vid/avc1/1200x800/ufPSi6dSRWFgrxk0.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117636489899295142-0.mp4",
+    "sha256": "efb842f42409c0b8f0c683856528adadb7b6f169f71b4bce10007d16b1c0cbba",
+    "bytes": 1153623,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/LumeoLab/status/2117636489899295142",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117866749207146496/vid/avc1/1614x984/CMPHE1p6VCNYuvN3.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117867014631063733-0.mp4",
+    "sha256": "8d08133de956028e4851ac6744bd7e37ad0c09e79a58a25210b7c67e223fb0eb",
+    "bytes": 10195106,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Moblacksoil/status/2117867014631063733",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117888037522911232/vid/avc1/1780x1080/5507I3xw2d-PeDYG.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117888359335178741-0.mp4",
+    "sha256": "f76e3ce5ae0386f8ce5b67314dded0b85a7a12b6b3372be770bd3b252dce0c1d",
+    "bytes": 4555318,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Eileeness160708/status/2117888359335178741",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117994190667997406-0.mp4",
+    "sha256": "1bf79e7a77cf4e4bba8acc2fa2eb057360ffb2d2f92b07813e84c928096611a2",
+    "bytes": 2501187,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/1",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWSZ0-7bMAAsPZs.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117987492859380060-0.jpg",
+    "sha256": "64564088d56a562ecda99a12546719e1bf06e495c36e4f1a95004600f7dca49b",
+    "bytes": 147903,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/1",
+        "model": "GPT-6.1 Sol"
+      },
+      {
+        "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/2",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117994190667997406-1.mp4",
+    "sha256": "adba0648ed3d6921619e7151cf4982ec3283fac65900e8587ad9ed9ea256a113",
+    "bytes": 2154563,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/2",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117951147239682360-0.mp4",
+    "sha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+    "bytes": 5817431,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+        "model": "Hy4"
+      },
+      {
+        "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+        "model": "Hy4 Preview"
+      },
+      {
+        "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+        "model": "DeepSeek V4.1 Flash 1017"
+      },
+      {
+        "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWQeKleWoAADsKX.png?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117851096416911480-0.png",
+    "sha256": "6a5c45398c5a6d96cf8e9f360ef271a8147e63e546f9ec5449a66b2d1018ab1e",
+    "bytes": 55897,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2117851096416911480",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWQd_n1bwAARSI2.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117850779520495758-0.jpg",
+    "sha256": "774b0885a4c05e9c81b66022b23df91b055bbfdd5f40bae47b09204ce0444a39",
+    "bytes": 68035,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ul3140773077392/status/2117850779520495758",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/tweet_video/HWQViYaaUAA73oC.mp4",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117841606221213711-1.mp4",
+    "sha256": "8bc5fd8f7f5398fe4572f93c822c91ff3cceebc8c8e317d025ca83d3f49f509e",
+    "bytes": 121136,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/meseven_journey/status/2117841606221213711",
+        "model": "DeepSeek V4.1 Flash 1017 GSQ-RCO Coder IQ2_XXS"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWQTVopbMAAO9hi.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117841606221213711-0.jpg",
+    "sha256": "7a6d168e9b38dde598eeff11947689e637e20de1e0d21e4c4143ec4805b71004",
+    "bytes": 90482,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/meseven_journey/status/2117841606221213711",
+        "model": "DeepSeek V4.1 Flash 1017 GSQ-RCO Coder IQ2_XXS"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWQHhv-bQAAD-D9.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117826012419625246-0.jpg",
+    "sha256": "b24a88dba2c1123078cc480fe8fd07af599bcfb998ef4ba7778dc31fefe56cdd",
+    "bytes": 183008,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Bryan_Explorer/status/2117826012419625246",
+        "model": "GPT-6.1 Astra（来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWQHhxSbUAA2uL4.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117826012419625246-1.jpg",
+    "sha256": "e6b3ca71e4f90c391d3eb4dfda7d86d01f76d9238e3f3eff759ab9a8fc5604cd",
+    "bytes": 155424,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Bryan_Explorer/status/2117826012419625246",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117495442283925504/vid/avc1/1320x894/nx-jWA5rHAZ-z3ZP.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117495471346176156-0.mp4",
+    "sha256": "ad25cdc59ff0c79aa8546e6fa7a0a65003e104c4359b7e56605b244a8769f868",
+    "bytes": 3452243,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ChrisGPT/status/2117495471346176156",
+        "model": "Claude Fable 5.5 / Opus 5.6（来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118008618901778432/vid/avc1/1280x720/0J216JFFuSq2e0bf.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2118008848091152810-0.mp4",
+    "sha256": "377a9d86c2a9864a430513d62cd31bb6416f45e8bc63e16f8be7a23691412654",
+    "bytes": 514385,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/ganfanren_ai/status/2118008848091152810",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117624553018978304/vid/avc1/1124x634/fjt5LCfXBUUJ1cJw.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117624976190869983-0.mp4",
+    "sha256": "10f7b38cf275f976fe3862f5e03368a3a5714a23122b6629f2aa61509c17e3e0",
+    "bytes": 5003250,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2117624976190869983",
+        "model": "Kentia（Arena 匿名标签）"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HWNQXZbWoAAsaCg.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117624976190869983-1.jpg",
+    "sha256": "1c589d7cfc32cd0e0b4f292a10ef1e6700a56eb5b9c33a4a9d278ffabd42619f",
+    "bytes": 126995,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2117624976190869983",
+        "model": "Kentia（Arena 匿名标签）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117843501182484480/vid/avc1/2880x1720/w-3P9hgFK1iMJgcO.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-05-daily-intake/2117843682481365154-0.mp4",
+    "sha256": "44e16744363f37ff23021c0913ba86129ca3b2f9510df28d9c492d8c1cd3a70b",
+    "bytes": 31987468,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Jason85885174/status/2117843682481365154",
+        "model": "Gemini 4 Argon"
+      }
+    ]
   }
 ]

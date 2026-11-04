@@ -90221,5 +90221,2003 @@
       "promptCompleteness": "author paraphrase only"
     },
     "sourcePublicationDate": "2026-11-02"
+  },
+  {
+    "id": "x-wangray-svg-hy4-2026-11-04",
+    "originalId": "x-wangray-svg-hy4-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 三模型单次对照",
+    "model": "Hy4",
+    "author": "Ray Wang (@wangray)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者明确公开单文件 HTML/SVG 题面，并说明各模型分别导出 MP4；原片左上标签对应本件，完整保留独立原视频。没有把作者个人排名或速度判断当作本馆结论。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117873046522622104-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117872790024175617/vid/avc1/1280x720/bQdyGnSBbDXRBpzn.mp4?tag=29",
+        "sha256": "943be4262fa473477899b6073c109030959cf62aa2fd788d981029791e10dd34",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117872790024175617/vid/avc1/1280x720/bQdyGnSBbDXRBpzn.mp4?tag=29",
+          "sourceSha256": "943be4262fa473477899b6073c109030959cf62aa2fd788d981029791e10dd34",
+          "frameTime": 0.5,
+          "sha256": "85d5241d80d4bee1f05c8e074dac6cce5f34f5297cb3945e5dbd71f96fed9417"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117873046522622104-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117873046522622104-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-wangray-svg-hy4-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-wangray-svg-hy4-2026-11-04/",
+    "markdown": "/specimens/x-wangray-svg-hy4-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · authored model comparison",
+        "model": "Hy4",
+        "notes": "The author publishes the single-HTML/SVG prompt and reports separate MP4 exports. The source’s top-left label binds this complete original clip to the model. Personal rankings and speed claims are not archive findings. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/wangray/status/2117873046522622104",
+        "https://video.twimg.com/amplify_video/2117872790024175617/vid/avc1/1280x720/bQdyGnSBbDXRBpzn.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/wangray/status/2117873046522622104"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-wangray-svg-opus55-2026-11-04",
+    "originalId": "x-wangray-svg-opus55-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 三模型单次对照",
+    "model": "Claude Opus 5.5",
+    "author": "Ray Wang (@wangray)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者明确公开单文件 HTML/SVG 题面，并说明各模型分别导出 MP4；原片左上标签对应本件，完整保留独立原视频。没有把作者个人排名或速度判断当作本馆结论。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117873046522622104-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117872798408622080/vid/avc1/1920x1080/BnrloeLHyscDRxLt.mp4?tag=29",
+        "sha256": "f11e9c885aaba2f788ffb0698a4289e0f22fd2c6c7af92e5c9a990385b8da50f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117872798408622080/vid/avc1/1920x1080/BnrloeLHyscDRxLt.mp4?tag=29",
+          "sourceSha256": "f11e9c885aaba2f788ffb0698a4289e0f22fd2c6c7af92e5c9a990385b8da50f",
+          "frameTime": 0.5,
+          "sha256": "0a1a6e7cdce47ca8b261e6e3cc40660618c629e5b8d3a89f352b0ce342966a48"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117873046522622104-1-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117873046522622104-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-wangray-svg-opus55-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-wangray-svg-opus55-2026-11-04/",
+    "markdown": "/specimens/x-wangray-svg-opus55-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · authored model comparison",
+        "model": "Claude Opus 5.5",
+        "notes": "The author publishes the single-HTML/SVG prompt and reports separate MP4 exports. The source’s top-left label binds this complete original clip to the model. Personal rankings and speed claims are not archive findings. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/wangray/status/2117873046522622104",
+        "https://video.twimg.com/amplify_video/2117872798408622080/vid/avc1/1920x1080/BnrloeLHyscDRxLt.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/wangray/status/2117873046522622104"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-wangray-svg-sol61-2026-11-04",
+    "originalId": "x-wangray-svg-sol61-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 三模型单次对照",
+    "model": "GPT-6.1 Sol",
+    "author": "Ray Wang (@wangray)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者明确公开单文件 HTML/SVG 题面，并说明各模型分别导出 MP4；原片左上标签对应本件，完整保留独立原视频。没有把作者个人排名或速度判断当作本馆结论。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/wangray/status/2117873046522622104",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117873046522622104-2.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117872790716252160/vid/avc1/1920x1080/bskbN3KmU9Wckldc.mp4?tag=29",
+        "sha256": "5afea4acbdd3213698d2bea0a20a77fcd394217901496d382f86d6237c062652",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117872790716252160/vid/avc1/1920x1080/bskbN3KmU9Wckldc.mp4?tag=29",
+          "sourceSha256": "5afea4acbdd3213698d2bea0a20a77fcd394217901496d382f86d6237c062652",
+          "frameTime": 0.5,
+          "sha256": "757b7cfe58ea641896602444b4ae70497fc145c478676c3fcd073330cc4694a4"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117873046522622104-2-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117873046522622104-2-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-wangray-svg-sol61-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-wangray-svg-sol61-2026-11-04/",
+    "markdown": "/specimens/x-wangray-svg-sol61-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican bicycle · authored model comparison",
+        "model": "GPT-6.1 Sol",
+        "notes": "The author publishes the single-HTML/SVG prompt and reports separate MP4 exports. The source’s top-left label binds this complete original clip to the model. Personal rankings and speed claims are not archive findings. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "Create an HTML file containing a 2D animation of a pelican riding a bicycle drawn with SVG",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/wangray/status/2117873046522622104",
+        "https://video.twimg.com/amplify_video/2117872790716252160/vid/avc1/1920x1080/bskbN3KmU9Wckldc.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/wangray/status/2117873046522622104"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-lumeolab-opus55-svg-2026-11-03",
+    "originalId": "x-lumeolab-opus55-svg-2026-11-03",
+    "kind": "timeline",
+    "title": "沿海公路 · 一次 SVG 动画",
+    "model": "Claude Opus 5.5",
+    "author": "Lumeo Labs (@LumeoLab)",
+    "date": "2026-11-03",
+    "month": "2026-11",
+    "notes": "作者明确标注 Opus 5.5、animated SVG 和 one shot，保留完整 7 秒原动画。后续回复称另用 Grok 评分／修改，未公开本次具体修改链，不能把后续未见输出另计作品。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/LumeoLab/status/2117636489899295142",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117636489899295142-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117636400031936512/vid/avc1/1200x800/ufPSi6dSRWFgrxk0.mp4?tag=29",
+        "sha256": "efb842f42409c0b8f0c683856528adadb7b6f169f71b4bce10007d16b1c0cbba",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117636400031936512/vid/avc1/1200x800/ufPSi6dSRWFgrxk0.mp4?tag=29",
+          "sourceSha256": "efb842f42409c0b8f0c683856528adadb7b6f169f71b4bce10007d16b1c0cbba",
+          "frameTime": 0.5,
+          "sha256": "60ab8deaf7ff94c9b767610d404991cde5701efff97309a7ff609cc0e40afc87"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117636489899295142-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117636489899295142-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-lumeolab-opus55-svg-2026-11-03/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-lumeolab-opus55-svg-2026-11-03/",
+    "markdown": "/specimens/x-lumeolab-opus55-svg-2026-11-03/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Coastal road · one-shot SVG animation",
+        "model": "Claude Opus 5.5",
+        "notes": "The author explicitly labels this Opus 5.5 animated SVG as one shot. The complete seven-second source animation is retained. Later claims about Grok-guided revisions do not create additional unseen works. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/LumeoLab/status/2117636489899295142",
+        "https://video.twimg.com/amplify_video/2117636400031936512/vid/avc1/1200x800/ufPSi6dSRWFgrxk0.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/LumeoLab/status/2117636489899295142"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-03"
+  },
+  {
+    "id": "x-moblacksoil-hy4-threejs-2026-11-04",
+    "originalId": "x-moblacksoil-hy4-threejs-2026-11-04",
+    "kind": "timeline",
+    "title": "Hy4 · 昼夜 3D 骑行",
+    "model": "Hy4",
+    "author": "墨无归 (@Moblacksoil)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者明确标注 Three.js 3D 代码动画；完整原录屏保留踩踏、切换昼夜及过曝失败。BlackSoilMo 的同片转载合并去重，不修正失败，不另计切换视角。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Moblacksoil/status/2117867014631063733",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117867014631063733-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117866749207146496/vid/avc1/1614x984/CMPHE1p6VCNYuvN3.mp4?tag=29",
+        "sha256": "8d08133de956028e4851ac6744bd7e37ad0c09e79a58a25210b7c67e223fb0eb",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117866749207146496/vid/avc1/1614x984/CMPHE1p6VCNYuvN3.mp4?tag=29",
+          "sourceSha256": "8d08133de956028e4851ac6744bd7e37ad0c09e79a58a25210b7c67e223fb0eb",
+          "frameTime": 0.5,
+          "sha256": "68d9bcc01ead2ddecb5543f693b14c0a9d57d24dc924c2e648dcb96ed4cb4593"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117867014631063733-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117867014631063733-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-moblacksoil-hy4-threejs-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-moblacksoil-hy4-threejs-2026-11-04/",
+    "markdown": "/specimens/x-moblacksoil-hy4-threejs-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 · day and dusk 3D ride",
+        "model": "Hy4",
+        "notes": "The author identifies the output as a Three.js code animation. The full source recording retains pedaling, lighting changes and daytime overexposure. The identical BlackSoilMo repost is not a second work, and defects or alternate views are not repaired or separately counted. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Moblacksoil/status/2117867014631063733",
+        "https://video.twimg.com/amplify_video/2117866749207146496/vid/avc1/1614x984/CMPHE1p6VCNYuvN3.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Moblacksoil/status/2117867014631063733"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-soren-hy4-denim-svg-2026-11-04",
+    "originalId": "x-soren-hy4-denim-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "工装帽与牛仔服 · 鹈鹕骑行",
+    "model": "Hy4",
+    "author": "Soren (@Eileeness160708)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "原帖公开 WorkBuddy、HY4 及完整 HTML/SVG 提示词。保留完整录屏及原来不完美的牛仔服、踩踏与调速表现。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Eileeness160708/status/2117888359335178741",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "帮我生成一个 HTML 文件，内容是用 SVG 绘制一只鹈鹕骑自行车的 2D 动画，要求轮子转动和脚蹬动作保持连贯。注意鹈鹕戴着一个工人帽，穿着一身牛仔服，带墨镜。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117888359335178741-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117888037522911232/vid/avc1/1780x1080/5507I3xw2d-PeDYG.mp4?tag=29",
+        "sha256": "f76e3ce5ae0386f8ce5b67314dded0b85a7a12b6b3372be770bd3b252dce0c1d",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117888037522911232/vid/avc1/1780x1080/5507I3xw2d-PeDYG.mp4?tag=29",
+          "sourceSha256": "f76e3ce5ae0386f8ce5b67314dded0b85a7a12b6b3372be770bd3b252dce0c1d",
+          "frameTime": 0.5,
+          "sha256": "d73a537ad8f4f3c5a1c13a014d79ab6b983bda48fb3af46a307e15e2fc1747ff"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117888359335178741-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117888359335178741-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-soren-hy4-denim-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-soren-hy4-denim-svg-2026-11-04/",
+    "markdown": "/specimens/x-soren-hy4-denim-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Hard hat and denim · pelican ride",
+        "model": "Hy4",
+        "notes": "The original post provides WorkBuddy, HY4 and the complete HTML/SVG prompt. The complete recording preserves the original denim, pedaling and speed-control defects. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "帮我生成一个 HTML 文件，内容是用 SVG 绘制一只鹈鹕骑自行车的 2D 动画，要求轮子转动和脚蹬动作保持连贯。注意鹈鹕戴着一个工人帽，穿着一身牛仔服，带墨镜。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Eileeness160708/status/2117888359335178741",
+        "https://video.twimg.com/amplify_video/2117888037522911232/vid/avc1/1780x1080/5507I3xw2d-PeDYG.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Eileeness160708/status/2117888359335178741"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-xueyu-hy4-svg-2026-11-04",
+    "originalId": "x-xueyu-hy4-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 创作者四模型对照",
+    "model": "Hy4",
+    "author": "雪瑜 (@xueyu1125)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "同一创作者公开的单次模型对照，四格标签逐件对应原动画；保留完整四格原片、无损单件分栏与公开提示词。个人排序不作本馆评分。作者称 Preview 是 8 月 31 日旧输出，DeepSeek 也沿用旧测试；本件日期仅为这次可证对照公开日，不冒充生成日。较早双格片传输截断，未将残片归档为完整原件，留待续补。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-hy4-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "e111ef2240e8febdf5e9ae5bc7ac59a3b6dcb838cf91bd6a5f52b393bb36199a",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 674,
+            "height": 440
+          },
+          "startFrame": 0,
+          "endFrame": 586,
+          "sourceFrames": 586,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 586,
+          "decodedFrameHashesSha256": "2b8ee5e1dfa215bf994ce2a43ba413c18bf25c70f27531888c636cb089acc59f"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "e111ef2240e8febdf5e9ae5bc7ac59a3b6dcb838cf91bd6a5f52b393bb36199a",
+          "frameTime": 0.5,
+          "sha256": "1a3d0953e9e1806d46dc4215d28fd1111f6e38bfe4ad0be78beee96bbc9ecd42"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-hy4-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "frameTime": 1,
+          "sha256": "9b27e8e598b63ffe555202e0e767a6f0ae23502a7300eed9a0d013e58d308e5b"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117951147239682360-hy4-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xueyu-hy4-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xueyu-hy4-svg-2026-11-04/",
+    "markdown": "/specimens/x-xueyu-hy4-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · four-model comparison",
+        "model": "Hy4",
+        "notes": "This is an authored comparison with one shown output per model, matched by the four source labels. The complete four-panel recording, faithful individual panel and public prompt are retained. The author’s ranking is not archive scoring. Preview is reported as an August 31 output and DeepSeek is also reused; this date is only the evidenced comparison publication date, not generation time. The earlier two-panel recording was truncated during transfer and remains pending; no partial file is presented as a complete original. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xueyu1125/status/2117951147239682360",
+        "https://x.com/xueyu1125/status/2117915434351788062",
+        "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xueyu1125/status/2117951147239682360",
+      "https://x.com/xueyu1125/status/2117915434351788062"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-xueyu-preview-svg-2026-11-04",
+    "originalId": "x-xueyu-preview-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 创作者四模型对照",
+    "model": "Hy4 Preview",
+    "author": "雪瑜 (@xueyu1125)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "同一创作者公开的单次模型对照，四格标签逐件对应原动画；保留完整四格原片、无损单件分栏与公开提示词。个人排序不作本馆评分。作者称 Preview 是 8 月 31 日旧输出，DeepSeek 也沿用旧测试；本件日期仅为这次可证对照公开日，不冒充生成日。较早双格片传输截断，未将残片归档为完整原件，留待续补。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-preview-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "e7bf24b17c9f1c51dd2b8aa27436484b13a2ced7768546bfeffbcc36d28a2a63",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "box": {
+            "left": 714,
+            "top": 0,
+            "width": 612,
+            "height": 440
+          },
+          "startFrame": 0,
+          "endFrame": 586,
+          "sourceFrames": 586,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 586,
+          "decodedFrameHashesSha256": "7470b71f2c60b8f8c616474442da165a7ef8be4f6079eaed6072a0204832c5e6"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "e7bf24b17c9f1c51dd2b8aa27436484b13a2ced7768546bfeffbcc36d28a2a63",
+          "frameTime": 0.5,
+          "sha256": "27e0765b9271086769ad9dc8ec3497fa2722fed388098197473849e193bc1e1f"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-preview-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "frameTime": 1,
+          "sha256": "9b27e8e598b63ffe555202e0e767a6f0ae23502a7300eed9a0d013e58d308e5b"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117951147239682360-preview-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xueyu-preview-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xueyu-preview-svg-2026-11-04/",
+    "markdown": "/specimens/x-xueyu-preview-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · four-model comparison",
+        "model": "Hy4 Preview",
+        "notes": "This is an authored comparison with one shown output per model, matched by the four source labels. The complete four-panel recording, faithful individual panel and public prompt are retained. The author’s ranking is not archive scoring. Preview is reported as an August 31 output and DeepSeek is also reused; this date is only the evidenced comparison publication date, not generation time. The earlier two-panel recording was truncated during transfer and remains pending; no partial file is presented as a complete original. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xueyu1125/status/2117951147239682360",
+        "https://x.com/xueyu1125/status/2117915434351788062",
+        "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4 Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xueyu1125/status/2117951147239682360",
+      "https://x.com/xueyu1125/status/2117915434351788062"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-xueyu-deepseek-svg-2026-11-04",
+    "originalId": "x-xueyu-deepseek-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 创作者四模型对照",
+    "model": "DeepSeek V4.1 Flash 1017",
+    "author": "雪瑜 (@xueyu1125)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "同一创作者公开的单次模型对照，四格标签逐件对应原动画；保留完整四格原片、无损单件分栏与公开提示词。个人排序不作本馆评分。作者称 Preview 是 8 月 31 日旧输出，DeepSeek 也沿用旧测试；本件日期仅为这次可证对照公开日，不冒充生成日。较早双格片传输截断，未将残片归档为完整原件，留待续补。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-deepseek-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "a5ecb36d706900ea110a47194e86a93ac1354e5e53b50cd0caac958c4ecdc2fe",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "box": {
+            "left": 0,
+            "top": 554,
+            "width": 680,
+            "height": 400
+          },
+          "startFrame": 0,
+          "endFrame": 586,
+          "sourceFrames": 586,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 586,
+          "decodedFrameHashesSha256": "fed1d58ec26f96e6604acf278de70372238e9ba1b549dac0cb39e99c604a614d"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "a5ecb36d706900ea110a47194e86a93ac1354e5e53b50cd0caac958c4ecdc2fe",
+          "frameTime": 0.5,
+          "sha256": "a6fdd1d001f1746373fcaa866d8dabf76e9f74bb601b13b005c543b9504cfabd"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-deepseek-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "frameTime": 1,
+          "sha256": "9b27e8e598b63ffe555202e0e767a6f0ae23502a7300eed9a0d013e58d308e5b"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117951147239682360-deepseek-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xueyu-deepseek-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xueyu-deepseek-svg-2026-11-04/",
+    "markdown": "/specimens/x-xueyu-deepseek-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · four-model comparison",
+        "model": "DeepSeek V4.1 Flash 1017",
+        "notes": "This is an authored comparison with one shown output per model, matched by the four source labels. The complete four-panel recording, faithful individual panel and public prompt are retained. The author’s ranking is not archive scoring. Preview is reported as an August 31 output and DeepSeek is also reused; this date is only the evidenced comparison publication date, not generation time. The earlier two-panel recording was truncated during transfer and remains pending; no partial file is presented as a complete original. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xueyu1125/status/2117951147239682360",
+        "https://x.com/xueyu1125/status/2117915434351788062",
+        "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash 1017"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xueyu1125/status/2117951147239682360",
+      "https://x.com/xueyu1125/status/2117915434351788062"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-xueyu-kimi-svg-2026-11-04",
+    "originalId": "x-xueyu-kimi-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 创作者四模型对照",
+    "model": "Kimi K3.1 Pro",
+    "author": "雪瑜 (@xueyu1125)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "同一创作者公开的单次模型对照，四格标签逐件对应原动画；保留完整四格原片、无损单件分栏与公开提示词。个人排序不作本馆评分。作者称 Preview 是 8 月 31 日旧输出，DeepSeek 也沿用旧测试；本件日期仅为这次可证对照公开日，不冒充生成日。较早双格片传输截断，未将残片归档为完整原件，留待续补。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-kimi-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "46891d24fae7ff27d9d4ea3baba47e6f7ddb26a70ef63000943a6e4557ad6f7d",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "box": {
+            "left": 716,
+            "top": 554,
+            "width": 610,
+            "height": 400
+          },
+          "startFrame": 0,
+          "endFrame": 586,
+          "sourceFrames": 586,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 586,
+          "decodedFrameHashesSha256": "76aea32b58dee8c3bc55f082f102251c59cd851dae369e4907621aa39d80e9bc"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "46891d24fae7ff27d9d4ea3baba47e6f7ddb26a70ef63000943a6e4557ad6f7d",
+          "frameTime": 0.5,
+          "sha256": "5935178de612c5c433cd4a778f62546373d51272d305ff9643258a3b3408247e"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-kimi-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+        "sha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29",
+          "sourceSha256": "d4d0062beabf95f62dfb3da6c3ef7aa01764d1668aad91dfda4900a93d135506",
+          "frameTime": 1,
+          "sha256": "9b27e8e598b63ffe555202e0e767a6f0ae23502a7300eed9a0d013e58d308e5b"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117951147239682360-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117951147239682360-kimi-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xueyu-kimi-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xueyu-kimi-svg-2026-11-04/",
+    "markdown": "/specimens/x-xueyu-kimi-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · four-model comparison",
+        "model": "Kimi K3.1 Pro",
+        "notes": "This is an authored comparison with one shown output per model, matched by the four source labels. The complete four-panel recording, faithful individual panel and public prompt are retained. The author’s ranking is not archive scoring. Preview is reported as an August 31 output and DeepSeek is also reused; this date is only the evidenced comparison publication date, not generation time. The earlier two-panel recording was truncated during transfer and remains pending; no partial file is presented as a complete original. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个svg动画：鹈鹕骑自行车，用H5给我展示下",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xueyu1125/status/2117951147239682360",
+        "https://x.com/xueyu1125/status/2117915434351788062",
+        "https://video.twimg.com/amplify_video/2117950927961485312/vid/avc1/1326x1068/TnBMnA7Xk_2Eiu7C.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xueyu1125/status/2117951147239682360",
+      "https://x.com/xueyu1125/status/2117915434351788062"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-leo-hy4-svg-preview-2026-11-04",
+    "originalId": "x-leo-hy4-svg-preview-2026-11-04",
+    "kind": "timeline",
+    "title": "Hy4 · 海边静态预览",
+    "model": "Hy4",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "原帖明确为 SVG／HTML 代码生成，当前只公开取得这张完整静态预览，未取得动画文件或源码；不把静态图称为动态原件。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2117851096416911480",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117851096416911480-0.png",
+        "source": "https://pbs.twimg.com/media/HWQeKleWoAADsKX.png?name=orig",
+        "sha256": "6a5c45398c5a6d96cf8e9f360ef271a8147e63e546f9ec5449a66b2d1018ab1e",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117851096416911480-0.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo-hy4-svg-preview-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo-hy4-svg-preview-2026-11-04/",
+    "markdown": "/specimens/x-leo-hy4-svg-preview-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 · coastal source preview",
+        "model": "Hy4",
+        "notes": "The post explicitly identifies SVG/HTML code generation. Only this complete static preview was publicly obtained; neither the animation file nor source code was available. The still is not presented as recovered motion. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2117851096416911480",
+        "https://pbs.twimg.com/media/HWQeKleWoAADsKX.png?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2117851096416911480"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "sourcePreviewOnly": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-ouli-hy4-css-preview-2026-11-04",
+    "originalId": "x-ouli-hy4-css-preview-2026-11-04",
+    "kind": "timeline",
+    "title": "Hy4 · CSS 骑行预览",
+    "model": "Hy4",
+    "author": "欧里 (@ul3140773077392)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "原帖明确为 SVG／HTML 代码生成，当前只公开取得这张完整静态预览，未取得动画文件或源码；不把静态图称为动态原件。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/ul3140773077392/status/2117850779520495758",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "编写单文件HTML，内含SVG动画：卡通鹈鹕（白/浅黄色、大喉囊）骑带辐条自行车，车轮旋转、腿部踩踏板、背景后移模拟移动，纯CSS Keyframes控制，无外部库",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117850779520495758-0.jpg",
+        "source": "https://pbs.twimg.com/media/HWQd_n1bwAARSI2.jpg?name=orig",
+        "sha256": "774b0885a4c05e9c81b66022b23df91b055bbfdd5f40bae47b09204ce0444a39",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117850779520495758-0.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-ouli-hy4-css-preview-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-ouli-hy4-css-preview-2026-11-04/",
+    "markdown": "/specimens/x-ouli-hy4-css-preview-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 · CSS cycling preview",
+        "model": "Hy4",
+        "notes": "The post explicitly identifies SVG/HTML code generation. Only this complete static preview was publicly obtained; neither the animation file nor source code was available. The still is not presented as recovered motion. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "编写单文件HTML，内含SVG动画：卡通鹈鹕（白/浅黄色、大喉囊）骑带辐条自行车，车轮旋转、腿部踩踏板、背景后移模拟移动，纯CSS Keyframes控制，无外部库",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/ul3140773077392/status/2117850779520495758",
+        "https://pbs.twimg.com/media/HWQd_n1bwAARSI2.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/ul3140773077392/status/2117850779520495758"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "sourcePreviewOnly": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-meseven-deepseek-gsq-rco-coder-iq2-xxs-2026-11-04",
+    "originalId": "x-meseven-deepseek-gsq-rco-coder-iq2-xxs-2026-11-04",
+    "kind": "timeline",
+    "title": "本地 IQ2_XXS · SVG 骑行",
+    "model": "DeepSeek V4.1 Flash 1017 GSQ-RCO Coder IQ2_XXS",
+    "author": "米柒说｜Local AI & Agents (@meseven_journey)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者明确记录单 RTX 3090、64 GB DDR4、Strata 0.2.10 与 2-bit IQ2_XXS，并说明让该模型生成 SVG 动画页面。保留完整 4 秒原动图及性能说明图。普通 HTTP 取动图受限后，已从同一公开原帖经 Chrome 下载原 MP4；性能数字是作者报告，非本馆独立复现。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/meseven_journey/status/2117841606221213711",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117841606221213711-1.mp4",
+        "source": "https://video.twimg.com/tweet_video/HWQViYaaUAA73oC.mp4",
+        "sha256": "8bc5fd8f7f5398fe4572f93c822c91ff3cceebc8c8e317d025ca83d3f49f509e",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HWQViYaaUAA73oC.mp4",
+          "sourceSha256": "8bc5fd8f7f5398fe4572f93c822c91ff3cceebc8c8e317d025ca83d3f49f509e",
+          "frameTime": 0.5,
+          "sha256": "0e19a530e8490466162759858af2f4c8bb38d52352bee9d3c2160aa0134e696c"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117841606221213711-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117841606221213711-0.jpg",
+        "source": "https://pbs.twimg.com/media/HWQTVopbMAAO9hi.jpg?name=orig",
+        "sha256": "7a6d168e9b38dde598eeff11947689e637e20de1e0d21e4c4143ec4805b71004",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117841606221213711-1-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-meseven-deepseek-gsq-rco-coder-iq2-xxs-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-meseven-deepseek-gsq-rco-coder-iq2-xxs-2026-11-04/",
+    "markdown": "/specimens/x-meseven-deepseek-gsq-rco-coder-iq2-xxs-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Local IQ2_XXS · SVG ride",
+        "model": "DeepSeek V4.1 Flash 1017 GSQ-RCO Coder IQ2_XXS",
+        "notes": "The author specifies a single RTX 3090, 64 GB DDR4, Strata 0.2.10 and 2-bit IQ2_XXS, and explicitly reports SVG animation generation. The complete four-second original GIF-container MP4 and setup image are preserved. The same public MP4 was downloaded through Chrome after ordinary HTTP access failed. Performance figures remain source-reported. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/meseven_journey/status/2117841606221213711",
+        "https://video.twimg.com/tweet_video/HWQViYaaUAA73oC.mp4",
+        "https://pbs.twimg.com/media/HWQTVopbMAAO9hi.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash 1017 GSQ-RCO Coder IQ2_XXS"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/meseven_journey/status/2117841606221213711"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "tool": "Strata 0.2.10",
+      "quantization": "IQ2_XXS",
+      "hardware": "RTX 3090 + 64 GB DDR4"
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-bryan-singapore-astra61-fast-2026-11-04",
+    "originalId": "x-bryan-singapore-astra61-fast-2026-11-04",
+    "kind": "timeline",
+    "title": "金沙湾 · SVG 原帖预览",
+    "model": "GPT-6.1 Astra（来源标注）",
+    "author": "李家俊 Bryan (@Bryan_Explorer)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者公开确切 SVG 提示词与两张分别标为 GPT Fast／Claude 的实际输出，并说明各跑一次。GPT 型号按正文的“6.1Astra”保留，不改成传闻 6.2 或替作者纠正型号。静态预览不冒充已取得的 SVG／动画；来源中的速度、额度与偏好只是单次报告。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Bryan_Explorer/status/2117826012419625246",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "max · Fast",
+    "promptCategory": "classic",
+    "promptStatus": "请生成一段 SVG 代码，绘制一只正在新加坡金沙骑自行车的鹈鹕。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117826012419625246-0.jpg",
+        "source": "https://pbs.twimg.com/media/HWQHhv-bQAAD-D9.jpg?name=orig",
+        "sha256": "b24a88dba2c1123078cc480fe8fd07af599bcfb998ef4ba7778dc31fefe56cdd",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117826012419625246-0.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bryan-singapore-astra61-fast-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bryan-singapore-astra61-fast-2026-11-04/",
+    "markdown": "/specimens/x-bryan-singapore-astra61-fast-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Marina Bay · source SVG preview",
+        "model": "GPT-6.1 Astra（来源标注）",
+        "notes": "The author supplies the SVG prompt and separate outputs labelled GPT Fast and Claude, reporting one attempt each. The literal text label 6.1Astra is retained without upgrading it to rumored 6.2 or correcting the source. Static previews are not presented as original SVG files or recovered animations; latency, quota and preferences are one-run reports. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "请生成一段 SVG 代码，绘制一只正在新加坡金沙骑自行车的鹈鹕。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Bryan_Explorer/status/2117826012419625246",
+        "https://pbs.twimg.com/media/HWQHhv-bQAAD-D9.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Astra（来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Bryan_Explorer/status/2117826012419625246"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "effort": "max",
+      "speed": "Fast",
+      "attempts": 1,
+      "sourcePreviewOnly": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-bryan-singapore-opus55-max-2026-11-04",
+    "originalId": "x-bryan-singapore-opus55-max-2026-11-04",
+    "kind": "timeline",
+    "title": "金沙湾 · SVG 原帖预览",
+    "model": "Claude Opus 5.5",
+    "author": "李家俊 Bryan (@Bryan_Explorer)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者公开确切 SVG 提示词与两张分别标为 GPT Fast／Claude 的实际输出，并说明各跑一次。GPT 型号按正文的“6.1Astra”保留，不改成传闻 6.2 或替作者纠正型号。静态预览不冒充已取得的 SVG／动画；来源中的速度、额度与偏好只是单次报告。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Bryan_Explorer/status/2117826012419625246",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "max · 默认速度",
+    "promptCategory": "classic",
+    "promptStatus": "请生成一段 SVG 代码，绘制一只正在新加坡金沙骑自行车的鹈鹕。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117826012419625246-1.jpg",
+        "source": "https://pbs.twimg.com/media/HWQHhxSbUAA2uL4.jpg?name=orig",
+        "sha256": "e6b3ca71e4f90c391d3eb4dfda7d86d01f76d9238e3f3eff759ab9a8fc5604cd",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117826012419625246-1.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bryan-singapore-opus55-max-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bryan-singapore-opus55-max-2026-11-04/",
+    "markdown": "/specimens/x-bryan-singapore-opus55-max-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Marina Bay · source SVG preview",
+        "model": "Claude Opus 5.5",
+        "notes": "The author supplies the SVG prompt and separate outputs labelled GPT Fast and Claude, reporting one attempt each. The literal text label 6.1Astra is retained without upgrading it to rumored 6.2 or correcting the source. Static previews are not presented as original SVG files or recovered animations; latency, quota and preferences are one-run reports. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "请生成一段 SVG 代码，绘制一只正在新加坡金沙骑自行车的鹈鹕。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Bryan_Explorer/status/2117826012419625246",
+        "https://pbs.twimg.com/media/HWQHhxSbUAA2uL4.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Bryan_Explorer/status/2117826012419625246"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "effort": "max",
+      "speed": "default",
+      "attempts": 1,
+      "sourcePreviewOnly": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-chrisgpt-moon-astronaut-svg-2026-11-03",
+    "originalId": "x-chrisgpt-moon-astronaut-svg-2026-11-03",
+    "kind": "timeline",
+    "title": "月球上 · 宇航员骑鹈鹕骑车",
+    "model": "Claude Fable 5.5 / Opus 5.6（来源标注）",
+    "author": "Chris (@ChrisGPT)",
+    "date": "2026-11-03",
+    "month": "2026-11",
+    "notes": "原作者称为 SVG，并使用“Fable 5.5 / Opus 5.6”合并标签；只收实际展示的一件输出，不拆成两模型作品，也不认证新型号。宇航员、月面与地球构成扩展叙事，归衍生。完整原片保留；机械精度与未使用网络是作者说明，不作独立复现。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/ChrisGPT/status/2117495471346176156",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117495471346176156-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117495442283925504/vid/avc1/1320x894/nx-jWA5rHAZ-z3ZP.mp4?tag=29",
+        "sha256": "ad25cdc59ff0c79aa8546e6fa7a0a65003e104c4359b7e56605b244a8769f868",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117495442283925504/vid/avc1/1320x894/nx-jWA5rHAZ-z3ZP.mp4?tag=29",
+          "sourceSha256": "ad25cdc59ff0c79aa8546e6fa7a0a65003e104c4359b7e56605b244a8769f868",
+          "frameTime": 0.5,
+          "sha256": "79176e3aa4c831bf1a8d9000aae4943e1924d0edad6a6aa679df1d6d3fe16818"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117495471346176156-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117495471346176156-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chrisgpt-moon-astronaut-svg-2026-11-03/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chrisgpt-moon-astronaut-svg-2026-11-03/",
+    "markdown": "/specimens/x-chrisgpt-moon-astronaut-svg-2026-11-03/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "On the Moon · astronaut on a cycling pelican",
+        "model": "Claude Fable 5.5 / Opus 5.6（来源标注）",
+        "notes": "The author calls this an SVG and uses the combined label Fable 5.5 / Opus 5.6. Only the one shown output is counted; it is not split into two models or treated as an authenticated new release. The astronaut, Moon and Earth extend the scenario and place it in derivatives. The complete source clip is retained; mechanical accuracy and no-web claims remain the author’s statements. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/ChrisGPT/status/2117495471346176156",
+        "https://video.twimg.com/amplify_video/2117495442283925504/vid/avc1/1320x894/nx-jWA5rHAZ-z3ZP.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.5 / Opus 5.6（来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/ChrisGPT/status/2117495471346176156"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-03"
+  },
+  {
+    "id": "x-ganfanren-hy4-recursive-city-wheel-2026-11-04",
+    "originalId": "x-ganfanren-hy4-recursive-city-wheel-2026-11-04",
+    "kind": "timeline",
+    "title": "城市化作车轮 · 夜间骑行",
+    "model": "Hy4",
+    "author": "饭饭猛猛炫、 (@ganfanren_ai)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者在同帖回复公开完整单文件 HTML／纯 SVG 题面，并说明由 Hy4 自拟创意再生成。原片末尾镜头拉远，将夜间城市化成巨型自行车轮，属于递归／扩展叙事衍生。保留完整 6 秒录屏和原始提示词，不借题面要求宣称全部物理约束已实现。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/ganfanren_ai/status/2118008848091152810",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "请生成一个单独的 HTML 文件，内含一段用纯 SVG 绘制的 2D 动画（允许少量原生 JavaScript 做运动计算）。\n禁止使用 Canvas、外部图片、外部字体、外部库和任何网络请求。只输出完整 HTML 代码。\n\n【画面】\n夜晚的深圳。一只鹈鹕骑着一辆复古黑色自行车，从人才公园出发，沿滨海路向西，\n场景连续变化（公园 → 树影 → 天际线 → 水面 → 企鹅岛）。低机位侧面跟拍，\n镜头平滑平移、推近、拉远，全片一镜到底。鹈鹕始终是同一只，羽毛、喉囊、\n车架的造型在全过程中完全一致。\n\n【必须成立的物理关系】（重点，不是装饰）\n1. 两只脚掌始终贴合左右踏板；踏板相位由车轮行进距离计算，不得各转各的。\n   车停下时脚立即停蹬，绝不能出现「车停了、脚还在空踩」。\n2. 车轮辐条转速、地面标线后移速度、两侧路灯掠过速度，三者严格一致。\n3. 长喙与喉囊朝向车把前方，随踩踏节奏轻微上下摆动，但任何时刻都不得\n   穿过车把或前轮。\n4. 拖动进度条到任意时间点，画面直接回到该时刻的确定状态：所有元素由\n   时间函数计算得出，不重新随机、不重新生长。\n\n【创意机关】\n沿途所有景物——路灯、树影、月亮、云、天际线、水面反光——只允许用「圆」\n和「圆弧」构成，与车轮同构。最后一镜镜头持续拉远：观众才看清整座城市的\n轮廓本身是一个巨大的自行车轮，鹈鹕自始至终骑在这只大轮的轮缘上，而它\n脚下那辆小车的轮子，正与大轮同步转动。定格 2 秒，结束。\n\n【禁止】不出现任何文字、水印、Logo；不附解释，只输出 HTML 文件本身。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2118008848091152810-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118008618901778432/vid/avc1/1280x720/0J216JFFuSq2e0bf.mp4?tag=29",
+        "sha256": "377a9d86c2a9864a430513d62cd31bb6416f45e8bc63e16f8be7a23691412654",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118008618901778432/vid/avc1/1280x720/0J216JFFuSq2e0bf.mp4?tag=29",
+          "sourceSha256": "377a9d86c2a9864a430513d62cd31bb6416f45e8bc63e16f8be7a23691412654",
+          "frameTime": 0.5,
+          "sha256": "9792e7b0ba29af73ecae52eea3357768b11b72e5ede1a912e0839bc256a5dbb7"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2118008848091152810-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2118008848091152810-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-ganfanren-hy4-recursive-city-wheel-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-ganfanren-hy4-recursive-city-wheel-2026-11-04/",
+    "markdown": "/specimens/x-ganfanren-hy4-recursive-city-wheel-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "The city becomes a wheel · night ride",
+        "model": "Hy4",
+        "notes": "The author’s reply publishes the complete single-HTML/pure-SVG prompt and reports Hy4 proposing and executing the idea. The six-second source ends with a pullback revealing a city-sized bicycle wheel, a recursive narrative derivative. The full clip and prompt are preserved; requested physical constraints are not claimed as independently achieved. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "请生成一个单独的 HTML 文件，内含一段用纯 SVG 绘制的 2D 动画（允许少量原生 JavaScript 做运动计算）。\n禁止使用 Canvas、外部图片、外部字体、外部库和任何网络请求。只输出完整 HTML 代码。\n\n【画面】\n夜晚的深圳。一只鹈鹕骑着一辆复古黑色自行车，从人才公园出发，沿滨海路向西，\n场景连续变化（公园 → 树影 → 天际线 → 水面 → 企鹅岛）。低机位侧面跟拍，\n镜头平滑平移、推近、拉远，全片一镜到底。鹈鹕始终是同一只，羽毛、喉囊、\n车架的造型在全过程中完全一致。\n\n【必须成立的物理关系】（重点，不是装饰）\n1. 两只脚掌始终贴合左右踏板；踏板相位由车轮行进距离计算，不得各转各的。\n   车停下时脚立即停蹬，绝不能出现「车停了、脚还在空踩」。\n2. 车轮辐条转速、地面标线后移速度、两侧路灯掠过速度，三者严格一致。\n3. 长喙与喉囊朝向车把前方，随踩踏节奏轻微上下摆动，但任何时刻都不得\n   穿过车把或前轮。\n4. 拖动进度条到任意时间点，画面直接回到该时刻的确定状态：所有元素由\n   时间函数计算得出，不重新随机、不重新生长。\n\n【创意机关】\n沿途所有景物——路灯、树影、月亮、云、天际线、水面反光——只允许用「圆」\n和「圆弧」构成，与车轮同构。最后一镜镜头持续拉远：观众才看清整座城市的\n轮廓本身是一个巨大的自行车轮，鹈鹕自始至终骑在这只大轮的轮缘上，而它\n脚下那辆小车的轮子，正与大轮同步转动。定格 2 秒，结束。\n\n【禁止】不出现任何文字、水印、Logo；不附解释，只输出 HTML 文件本身。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/ganfanren_ai/status/2118008848091152810",
+        "https://x.com/ganfanren_ai/status/2118008878311022961",
+        "https://video.twimg.com/amplify_video/2118008618901778432/vid/avc1/1280x720/0J216JFFuSq2e0bf.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/ganfanren_ai/status/2118008848091152810",
+      "https://x.com/ganfanren_ai/status/2118008878311022961"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-leo-kentia-riviera-web-showcase-2026-11-03",
+    "originalId": "x-leo-kentia-riviera-web-showcase-2026-11-03",
+    "kind": "timeline",
+    "title": "海风骑士 · 海滨骑行网页",
+    "model": "Kentia（Arena 匿名标签）",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-03",
+    "month": "2026-11",
+    "notes": "原帖录屏与 Arena 附图共同显示同一 SVG 手绘网页、Kentia 匿名标签、图鉴／创作札记与控制台。按完整网页设计衍生收录，不把作者先猜 Flash、后转述 Plus 当正式型号。完整录屏与原附图保持，未取得公开完整 HTML，不镜像运行。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2117624976190869983",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117624976190869983-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117624553018978304/vid/avc1/1124x634/fjt5LCfXBUUJ1cJw.mp4?tag=29",
+        "sha256": "10f7b38cf275f976fe3862f5e03368a3a5714a23122b6629f2aa61509c17e3e0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117624553018978304/vid/avc1/1124x634/fjt5LCfXBUUJ1cJw.mp4?tag=29",
+          "sourceSha256": "10f7b38cf275f976fe3862f5e03368a3a5714a23122b6629f2aa61509c17e3e0",
+          "frameTime": 0.5,
+          "sha256": "2045fbe0089cccf3c821d3e416523756294be19c7e1cfd9c4fa8eb0fd9f61e57"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117624976190869983-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117624976190869983-1.jpg",
+        "source": "https://pbs.twimg.com/media/HWNQXZbWoAAsaCg.jpg?name=orig",
+        "sha256": "1c589d7cfc32cd0e0b4f292a10ef1e6700a56eb5b9c33a4a9d278ffabd42619f",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117624976190869983-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo-kentia-riviera-web-showcase-2026-11-03/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo-kentia-riviera-web-showcase-2026-11-03/",
+    "markdown": "/specimens/x-leo-kentia-riviera-web-showcase-2026-11-03/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Riviera · cycling web showcase",
+        "model": "Kentia（Arena 匿名标签）",
+        "notes": "The recording and Arena screenshot show the same hand-drawn SVG web work, the anonymous Kentia label, an illustrated guide/journal and a control console. It is archived as a derivative web showcase. The author’s Flash guess and later Plus hearsay are not authenticated model identities. The complete recording and source image remain intact; the full HTML was not obtained or mirrored. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2117624976190869983",
+        "https://video.twimg.com/amplify_video/2117624553018978304/vid/avc1/1124x634/fjt5LCfXBUUJ1cJw.mp4?tag=29",
+        "https://pbs.twimg.com/media/HWNQXZbWoAAsaCg.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kentia（Arena 匿名标签）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2117624976190869983"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-11-03"
+  },
+  {
+    "id": "x-lynch-gemini4-argon-pelican-cruiser-2026-11-04",
+    "originalId": "x-lynch-gemini4-argon-pelican-cruiser-2026-11-04",
+    "kind": "timeline",
+    "title": "海岸巡航 · 投喂、兔跳与冲刺",
+    "model": "Gemini 4 Argon",
+    "author": "林奇Lynch (@Jason85885174)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者公开说明 Gemini 4 Argon 一轮生成网页动画，回复给出原始题面；原录屏实际展示网页控件与状态变化。作品扩展投喂飞鱼、兔跳、翘头和破风冲刺任务，按衍生收录。保留完整原录屏，未取得完整 HTML，不将录屏冒称站内交互。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Jason85885174/status/2117843682481365154",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "在web端做一个鹈鹕骑自行车的动画，细节效果拉满",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake/2117843682481365154-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117843501182484480/vid/avc1/2880x1720/w-3P9hgFK1iMJgcO.mp4?tag=29",
+        "sha256": "44e16744363f37ff23021c0913ba86129ca3b2f9510df28d9c492d8c1cd3a70b",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117843501182484480/vid/avc1/2880x1720/w-3P9hgFK1iMJgcO.mp4?tag=29",
+          "sourceSha256": "44e16744363f37ff23021c0913ba86129ca3b2f9510df28d9c492d8c1cd3a70b",
+          "frameTime": 0.5,
+          "sha256": "7566cc88367e6b233400a92361db0b67f6b1065e8dde1dcd87d5134aa9ac04d2"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake/2117843682481365154-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake/2117843682481365154-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-lynch-gemini4-argon-pelican-cruiser-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-lynch-gemini4-argon-pelican-cruiser-2026-11-04/",
+    "markdown": "/specimens/x-lynch-gemini4-argon-pelican-cruiser-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Cruiser · feeding, hopping and sprinting",
+        "model": "Gemini 4 Argon",
+        "notes": "The author reports a one-round Gemini 4 Argon web animation and supplies the prompt in a reply. The original recording visibly demonstrates page controls and state changes. Feeding flying fish, bunny hops, wheelies and sprinting extend the task into a derivative. The complete recording is preserved without presenting it as an on-site interactive program. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "在web端做一个鹈鹕骑自行车的动画，细节效果拉满",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Jason85885174/status/2117843682481365154",
+        "https://x.com/Jason85885174/status/2117855638844067974",
+        "https://video.twimg.com/amplify_video/2117843501182484480/vid/avc1/2880x1720/w-3P9hgFK1iMJgcO.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Jason85885174/status/2117843682481365154",
+      "https://x.com/Jason85885174/status/2117855638844067974"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-bangbuilds-sol-svg-2026-11-04",
+    "originalId": "x-bangbuilds-sol-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 同题循环动画",
+    "model": "GPT-6.1 Sol",
+    "author": "邦法 (@bangbuilds)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "原始对话录屏清楚展示完整 HTML/SVG/CSS/JS 题面、生成的 HTML 文件及对应模型。主展示仅无损裁出作品区域，聊天文本与完整原片另附；模型实际缺陷保留。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/1",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个独立的 HTML 文件，用 SVG + CSS/JavaScript 实现“鹈鹕骑自行车”的循环动画。\n要求：\n1. 鹈鹕特征清晰：长喙、大喉囊、白色羽毛，不能画成鸭子。\n2. 鹈鹕坐在车座上，翅膀扶着车把，两只脚踩住脚踏板。\n3. 脚踏板绕曲柄中心旋转，两腿随之自然弯曲，脚不能脱离踏板。\n4. 自行车结构合理，两个车轮、车架、车把、车座、曲柄和链条清晰可见。\n5. 车轮转动、蹬踏和地面向后移动协调一致，呈现向前骑行的效果。\n6. 动画流畅、无缝循环，画面简洁美观。\n不使用外部图片、库或网络资源。直接给出完整代码，保存为 HTML 后即可在浏览器打开运行。 @scene:54",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-sol-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+        "sha256": "2f0b0ac6b3f28cef1d9a04c8fcaf233d2aea1b618a5e573fc49cb03cba1240af",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+          "sourceSha256": "1bf79e7a77cf4e4bba8acc2fa2eb057360ffb2d2f92b07813e84c928096611a2",
+          "box": {
+            "left": 784,
+            "top": 214,
+            "width": 1024,
+            "height": 696
+          },
+          "startFrame": 0,
+          "endFrame": 383,
+          "sourceFrames": 383,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 383,
+          "decodedFrameHashesSha256": "8dff5fd449e42068365f928c9f25fd0921ad0db04e49c51cf4aede09b7466a7f"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+          "sourceSha256": "2f0b0ac6b3f28cef1d9a04c8fcaf233d2aea1b618a5e573fc49cb03cba1240af",
+          "frameTime": 0.5,
+          "sha256": "6d22aacf77f99c311980295b096ddcd7cd6a3bb46b3ffce3bf4615b0c8f2ebc8"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-sol-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+        "sha256": "1bf79e7a77cf4e4bba8acc2fa2eb057360ffb2d2f92b07813e84c928096611a2",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+          "sourceSha256": "1bf79e7a77cf4e4bba8acc2fa2eb057360ffb2d2f92b07813e84c928096611a2",
+          "frameTime": 1,
+          "sha256": "13c749320309ed68f808f37a441b2e2dbba6dc19278a388f457aa9ec617171b6"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-0-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117987492859380060-0.jpg",
+        "source": "https://pbs.twimg.com/media/HWSZ0-7bMAAsPZs.jpg?name=orig",
+        "sha256": "64564088d56a562ecda99a12546719e1bf06e495c36e4f1a95004600f7dca49b",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-sol-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bangbuilds-sol-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bangbuilds-sol-svg-2026-11-04/",
+    "markdown": "/specimens/x-bangbuilds-sol-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · loop animation",
+        "model": "GPT-6.1 Sol",
+        "notes": "The original recording shows the full HTML/SVG/CSS/JS prompt, generated HTML file and model. The primary view is a faithful lossless crop of the work; the complete conversation recording is attached. Original defects are retained. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "创建一个独立的 HTML 文件，用 SVG + CSS/JavaScript 实现“鹈鹕骑自行车”的循环动画。\n要求：\n1. 鹈鹕特征清晰：长喙、大喉囊、白色羽毛，不能画成鸭子。\n2. 鹈鹕坐在车座上，翅膀扶着车把，两只脚踩住脚踏板。\n3. 脚踏板绕曲柄中心旋转，两腿随之自然弯曲，脚不能脱离踏板。\n4. 自行车结构合理，两个车轮、车架、车把、车座、曲柄和链条清晰可见。\n5. 车轮转动、蹬踏和地面向后移动协调一致，呈现向前骑行的效果。\n6. 动画流畅、无缝循环，画面简洁美观。\n不使用外部图片、库或网络资源。直接给出完整代码，保存为 HTML 后即可在浏览器打开运行。 @scene:54",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/bangbuilds/status/2117994190667997406/video/1",
+        "https://x.com/bangbuilds/status/2117994190667997406",
+        "https://x.com/bangbuilds/status/2117987492859380060",
+        "https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29",
+        "https://pbs.twimg.com/media/HWSZ0-7bMAAsPZs.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/bangbuilds/status/2117994190667997406",
+      "https://x.com/bangbuilds/status/2117987492859380060"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "effort": "high"
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-bangbuilds-hy4-svg-2026-11-04",
+    "originalId": "x-bangbuilds-hy4-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 同题循环动画",
+    "model": "Hy4",
+    "author": "邦法 (@bangbuilds)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "原始对话录屏清楚展示完整 HTML/SVG/CSS/JS 题面、生成的 HTML 文件及对应模型。主展示仅无损裁出作品区域，聊天文本与完整原片另附；模型实际缺陷保留。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/bangbuilds/status/2117994190667997406/video/2",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个独立的 HTML 文件，用 SVG + CSS/JavaScript 实现“鹈鹕骑自行车”的循环动画。\n要求：\n1. 鹈鹕特征清晰：长喙、大喉囊、白色羽毛，不能画成鸭子。\n2. 鹈鹕坐在车座上，翅膀扶着车把，两只脚踩住脚踏板。\n3. 脚踏板绕曲柄中心旋转，两腿随之自然弯曲，脚不能脱离踏板。\n4. 自行车结构合理，两个车轮、车架、车把、车座、曲柄和链条清晰可见。\n5. 车轮转动、蹬踏和地面向后移动协调一致，呈现向前骑行的效果。\n6. 动画流畅、无缝循环，画面简洁美观。\n不使用外部图片、库或网络资源。直接给出完整代码，保存为 HTML 后即可在浏览器打开运行。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-hy4-panel-preserve.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+        "sha256": "35d1dc30faa497f96b99a4b7e1522c612d3a53a405452b2c2a0c3ab121462e01",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+          "sourceSha256": "adba0648ed3d6921619e7151cf4982ec3283fac65900e8587ad9ed9ea256a113",
+          "box": {
+            "left": 978,
+            "top": 296,
+            "width": 888,
+            "height": 618
+          },
+          "startFrame": 0,
+          "endFrame": 311,
+          "sourceFrames": 311,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 311,
+          "decodedFrameHashesSha256": "96a28cb40de784f134d6ce893bc76b7702a021d4bc32f9c0a607700a9d93a872"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+          "sourceSha256": "35d1dc30faa497f96b99a4b7e1522c612d3a53a405452b2c2a0c3ab121462e01",
+          "frameTime": 0.5,
+          "sha256": "770a032f877bf7b3d38772a9d48c09805077762cf0e854cf0f55544905137a6c"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-hy4-panel-preserve-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-1.mp4",
+        "source": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+        "sha256": "adba0648ed3d6921619e7151cf4982ec3283fac65900e8587ad9ed9ea256a113",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+          "sourceSha256": "adba0648ed3d6921619e7151cf4982ec3283fac65900e8587ad9ed9ea256a113",
+          "frameTime": 1,
+          "sha256": "68d8cc3fc47c952622450766651cea7e8ad10f6ddf512b0e9ef7d4ccba632d9d"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-1-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-05-daily-intake-corrected/2117987492859380060-0.jpg",
+        "source": "https://pbs.twimg.com/media/HWSZ0-7bMAAsPZs.jpg?name=orig",
+        "sha256": "64564088d56a562ecda99a12546719e1bf06e495c36e4f1a95004600f7dca49b",
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-05-daily-intake-corrected/2117994190667997406-hy4-panel-preserve-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-bangbuilds-hy4-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-bangbuilds-hy4-svg-2026-11-04/",
+    "markdown": "/specimens/x-bangbuilds-hy4-svg-2026-11-04/index.md",
+    "updated": "2026-11-05",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican ride · loop animation",
+        "model": "Hy4",
+        "notes": "The original recording shows the full HTML/SVG/CSS/JS prompt, generated HTML file and model. The primary view is a faithful lossless crop of the work; the complete conversation recording is attached. Original defects are retained. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "创建一个独立的 HTML 文件，用 SVG + CSS/JavaScript 实现“鹈鹕骑自行车”的循环动画。\n要求：\n1. 鹈鹕特征清晰：长喙、大喉囊、白色羽毛，不能画成鸭子。\n2. 鹈鹕坐在车座上，翅膀扶着车把，两只脚踩住脚踏板。\n3. 脚踏板绕曲柄中心旋转，两腿随之自然弯曲，脚不能脱离踏板。\n4. 自行车结构合理，两个车轮、车架、车把、车座、曲柄和链条清晰可见。\n5. 车轮转动、蹬踏和地面向后移动协调一致，呈现向前骑行的效果。\n6. 动画流畅、无缝循环，画面简洁美观。\n不使用外部图片、库或网络资源。直接给出完整代码，保存为 HTML 后即可在浏览器打开运行。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/bangbuilds/status/2117994190667997406/video/2",
+        "https://x.com/bangbuilds/status/2117994190667997406",
+        "https://x.com/bangbuilds/status/2117987492859380060",
+        "https://video.twimg.com/amplify_video/2117993467049893889/vid/avc1/1894x1080/ePas7zaxbOwiwKdn.mp4?tag=29",
+        "https://pbs.twimg.com/media/HWSZ0-7bMAAsPZs.jpg?name=orig"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/bangbuilds/status/2117994190667997406",
+      "https://x.com/bangbuilds/status/2117987492859380060"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false
+    },
+    "sourcePublicationDate": "2026-11-04"
   }
 ]
