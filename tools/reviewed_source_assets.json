@@ -2646,5 +2646,21 @@
         "model": "GLM-5.3 Flash"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-07-daily-discovery/2118344638583255484-0.mp4",
+    "sha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+    "bytes": 3752003,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2118344638583255484",
+        "model": "DeepSeek V4.1 Flash"
+      },
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2118344638583255484",
+        "model": "Hy4"
+      }
+    ]
   }
 ]

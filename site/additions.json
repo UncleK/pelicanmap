@@ -92951,5 +92951,241 @@
       "sourceIncludesGiveaway": true
     },
     "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-leo114119-deepseek-v41-flash-seaside-svg-2026-11-05",
+    "originalId": "x-leo114119-deepseek-v41-flash-seaside-svg-2026-11-05",
+    "kind": "timeline",
+    "title": "海风正好 · Arena 海边骑行",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-05",
+    "month": "2026-11",
+    "notes": "作者以 DeepSeek V4.1 Flash 标注上栏 Arena 输出。车型、海岸和版式与 11 月 4 日同作者另一片有区别。具体版本后缀与档位未披露。 保留完整对照原片及按原像素分栏的动画，作者评价仅为来源看法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2118344638583255484",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个 鹈鹕在海边骑车的 svg 动画，细节要尽量完善，画面要精美",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-deepseek-v41-flash-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+        "sha256": "1a34d5cfff7ee90120f47c81c0f9772b7def7d391ef8489f8099f9e315ebec81",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+          "box": {
+            "left": 0,
+            "top": 0,
+            "width": 1080,
+            "height": 754
+          },
+          "startFrame": 0,
+          "endFrame": 462,
+          "sourceFrames": 462,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 462,
+          "decodedFrameHashesSha256": "85fc3ebcdaf5a0cc3cee6d068ca0e53f1871789caa880bd6d16e868e7afeb047"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "1a34d5cfff7ee90120f47c81c0f9772b7def7d391ef8489f8099f9e315ebec81",
+          "frameTime": 0.5,
+          "sha256": "801b6b74cb6cb6fb3d9e66b349b0dfaadd89300002f67bc25c340e693125a169"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-deepseek-v41-flash-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+        "sha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+          "frameTime": 1,
+          "sha256": "7378ed3ad9d2a7e077ede49a90d49cd068742b5924661b38e9d65beee6bfb216"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-deepseek-v41-flash-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo114119-deepseek-v41-flash-seaside-svg-2026-11-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo114119-deepseek-v41-flash-seaside-svg-2026-11-05/",
+    "markdown": "/specimens/x-leo114119-deepseek-v41-flash-seaside-svg-2026-11-05/index.md",
+    "updated": "2026-11-07",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "A little ride by the sea · Arena",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "The upper Arena output is labelled DeepSeek V4.1 Flash. The bicycle, scenery and layout differ from the author’s November 4 clip. The exact version suffix and effort are undisclosed. The complete comparison video and pixel-faithful panel are retained. The creator’s evaluation remains source-reported. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个 鹈鹕在海边骑车的 svg 动画，细节要尽量完善，画面要精美",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2118344638583255484",
+        "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2118344638583255484"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "tool": "Arena"
+    },
+    "sourcePublicationDate": "2026-11-05"
+  },
+  {
+    "id": "x-leo114119-hy4-dsh-seaside-svg-2026-11-05",
+    "originalId": "x-leo114119-hy4-dsh-seaside-svg-2026-11-05",
+    "kind": "timeline",
+    "title": "夕阳海岸 · DeepSeek Harness 骑行",
+    "model": "Hy4",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-05",
+    "month": "2026-11",
+    "notes": "作者在重新测试中以 Hy4 标注下栏 DeepSeek Harness 输出，说明比较旨在排除 WorkBuddy 的影响。 保留完整对照原片及按原像素分栏的动画，作者评价仅为来源看法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2118344638583255484",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "生成一个 鹈鹕在海边骑车的 svg 动画，细节要尽量完善，画面要精美",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-hy4-dsh-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+        "sha256": "9f278caa022a12c1b5665ff571018e4c9422576a68bb32b48197bdb575912fa8",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+          "box": {
+            "left": 0,
+            "top": 762,
+            "width": 1080,
+            "height": 742
+          },
+          "startFrame": 0,
+          "endFrame": 462,
+          "sourceFrames": 462,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 462,
+          "decodedFrameHashesSha256": "84008654202623b45a414d1a85952bf45bf5fe3d95039065824d602be4ae0007"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "9f278caa022a12c1b5665ff571018e4c9422576a68bb32b48197bdb575912fa8",
+          "frameTime": 0.5,
+          "sha256": "ebe0c6ebae5f44391520320687e0e541fde3bfeeadc968d98d66908d21b66828"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-hy4-dsh-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+        "sha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29",
+          "sourceSha256": "9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3",
+          "frameTime": 1,
+          "sha256": "7378ed3ad9d2a7e077ede49a90d49cd068742b5924661b38e9d65beee6bfb216"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-07-daily-discovery/2118344638583255484-hy4-dsh-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo114119-hy4-dsh-seaside-svg-2026-11-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo114119-hy4-dsh-seaside-svg-2026-11-05/",
+    "markdown": "/specimens/x-leo114119-hy4-dsh-seaside-svg-2026-11-05/index.md",
+    "updated": "2026-11-07",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Sunset shore ride · DeepSeek Harness",
+        "model": "Hy4",
+        "notes": "The author labels the lower DeepSeek Harness output Hy4 and describes revisiting the comparison outside WorkBuddy. The complete comparison video and pixel-faithful panel are retained. The creator’s evaluation remains source-reported. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "生成一个 鹈鹕在海边骑车的 svg 动画，细节要尽量完善，画面要精美",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2118344638583255484",
+        "https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2118344638583255484"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "tool": "DeepSeek Harness (DSH)"
+    },
+    "sourcePublicationDate": "2026-11-05"
   }
 ]
