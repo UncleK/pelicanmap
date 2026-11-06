@@ -2586,5 +2586,65 @@
         "model": "Gemini 4 Argon"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118192564603944961/vid/avc1/1360x840/JcajX05hKYCTeHK4.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-06-catchup/2118193280517058577-0.mp4",
+    "sha256": "1218cffefa558cd7270b15b9983f05a7838de3437412164ca0987da8d34cb2e6",
+    "bytes": 2091337,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Kedashu/status/2118193280517058577",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118323409486811136/vid/avc1/1920x1080/ILjweuVB6evJJJ4f.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-06-catchup/2118323489560219791-0.mp4",
+    "sha256": "7dac38e645c11bbcec96b4c50fac4f030105162b55cf2d5df0450176b45f50e3",
+    "bytes": 10238767,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2118323489560219791",
+        "model": "Claude Sonnet 5.5 Extra（来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118373207451533312/vid/avc1/1900x1080/9bPC7iIn13iciuLa.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-06-catchup/2118375269849567631-0.mp4",
+    "sha256": "3470b71eb16f35f3c453f1df22be029dc2fbda98eecb2ec58be5cb894be5e2ad",
+    "bytes": 8592401,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/hiwise_aigc/status/2118375269849567631",
+        "model": "Sonus（Qoder 来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-06-catchup/2118102232780480804-0.mp4",
+    "sha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+    "bytes": 8740662,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+        "model": "LongCat-2.5"
+      },
+      {
+        "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+        "model": "GPT-6.1 Terra"
+      },
+      {
+        "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+        "model": "Gemini 4 Argon"
+      },
+      {
+        "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+        "model": "GLM-5.3 Flash"
+      }
+    ]
   }
 ]

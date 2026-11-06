@@ -92219,5 +92219,737 @@
       "generationDateKnown": false
     },
     "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-kedashu-hy4-svg-second-draft-2026-11-05",
+    "originalId": "x-kedashu-hy4-svg-second-draft-2026-11-05",
+    "kind": "timeline",
+    "title": "红围巾骑行 · Hy4 第二稿",
+    "model": "Hy4",
+    "author": "UnclK (@Kedashu)",
+    "date": "2026-11-05",
+    "month": "2026-11",
+    "notes": "作者公开 SVG 动画题面，说明首稿后只补一句「很一般哦」。收录实际公开的第二稿，保留完整 8 秒原片；首稿未另计。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Kedashu/status/2118193280517058577",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "做一个鹈鹕骑车的SVG动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118193280517058577-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118192564603944961/vid/avc1/1360x840/JcajX05hKYCTeHK4.mp4?tag=29",
+        "sha256": "1218cffefa558cd7270b15b9983f05a7838de3437412164ca0987da8d34cb2e6",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118192564603944961/vid/avc1/1360x840/JcajX05hKYCTeHK4.mp4?tag=29",
+          "sourceSha256": "1218cffefa558cd7270b15b9983f05a7838de3437412164ca0987da8d34cb2e6",
+          "frameTime": 0.5,
+          "sha256": "b331e0fe4a809a5302869e791d282ba5992de5fae3998b71d14403172555f9f6"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118193280517058577-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118193280517058577-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-kedashu-hy4-svg-second-draft-2026-11-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-kedashu-hy4-svg-second-draft-2026-11-05/",
+    "markdown": "/specimens/x-kedashu-hy4-svg-second-draft-2026-11-05/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Red scarf ride · second Hy4 draft",
+        "model": "Hy4",
+        "notes": "The author publishes the SVG animation prompt and reports one follow-up comment after the first draft. The full eight-second source shows the second draft; the unseen first draft is not counted. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "做一个鹈鹕骑车的SVG动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Kedashu/status/2118193280517058577",
+        "https://video.twimg.com/amplify_video/2118192564603944961/vid/avc1/1360x840/JcajX05hKYCTeHK4.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Kedashu/status/2118193280517058577"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": true,
+      "sourceReportedTurns": 2,
+      "followUpPrompt": "很一般哦"
+    },
+    "sourcePublicationDate": "2026-11-05"
+  },
+  {
+    "id": "x-chetaslua-sonnet55-extra-realistic-svg-2026-11-05",
+    "originalId": "x-chetaslua-sonnet55-extra-realistic-svg-2026-11-05",
+    "kind": "timeline",
+    "title": "写实鹈鹕与折叠车 · SVG 创作记录",
+    "model": "Claude Sonnet 5.5 Extra（来源标注）",
+    "author": "Chetaslua (@chetaslua)",
+    "date": "2026-11-05",
+    "month": "2026-11",
+    "notes": "作者在原帖及录屏明确展示 Python 生成 SVG 的过程。保留完整演示原片；这是静态画作的创作记录。Extra 是作者记录的档位，实际后台路由未知。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2118323489560219791",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "draw a detailed svg of pelican riding bike as realistic as you can only with codes , no external assets and no cheeating",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118323489560219791-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118323409486811136/vid/avc1/1920x1080/ILjweuVB6evJJJ4f.mp4?tag=29",
+        "sha256": "7dac38e645c11bbcec96b4c50fac4f030105162b55cf2d5df0450176b45f50e3",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118323409486811136/vid/avc1/1920x1080/ILjweuVB6evJJJ4f.mp4?tag=29",
+          "sourceSha256": "7dac38e645c11bbcec96b4c50fac4f030105162b55cf2d5df0450176b45f50e3",
+          "frameTime": 0.15,
+          "sha256": "1bc666d5859f30ff3fd9ccc3f246363a84a320a4871014ec98f783e8cd308e43"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118323489560219791-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118323489560219791-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chetaslua-sonnet55-extra-realistic-svg-2026-11-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-sonnet55-extra-realistic-svg-2026-11-05/",
+    "markdown": "/specimens/x-chetaslua-sonnet55-extra-realistic-svg-2026-11-05/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Realistic pelican and folding bicycle · SVG process",
+        "model": "Claude Sonnet 5.5 Extra（来源标注）",
+        "notes": "The source post and full video document an SVG generated by Python. The video is a process recording of a still illustration. Extra is the source-reported setting; the underlying route is unknown. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "draw a detailed svg of pelican riding bike as realistic as you can only with codes , no external assets and no cheeating",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2118323489560219791",
+        "https://video.twimg.com/amplify_video/2118323409486811136/vid/avc1/1920x1080/ILjweuVB6evJJJ4f.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5 Extra（来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2118323489560219791"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "effort": "Extra",
+      "recordingOfStaticOutput": true,
+      "backendModelUnverified": true
+    },
+    "sourcePublicationDate": "2026-11-05"
+  },
+  {
+    "id": "x-hiwise-qoder-sonus-canvas-ride-2026-11-05",
+    "originalId": "x-hiwise-qoder-sonus-canvas-ride-2026-11-05",
+    "kind": "timeline",
+    "title": "丘陵公路 · Sonus Canvas 骑行",
+    "model": "Sonus（Qoder 来源标注）",
+    "author": "启明破晓 (@hiwise_aigc)",
+    "date": "2026-11-05",
+    "month": "2026-11",
+    "notes": "原作者注明 Qoder 国际版 Sonus。录屏可见模型选单、HTML5 Canvas／JavaScript 生成说明、文件写入与动画预览。保留完整录屏，重复出现的同一提示词不据此拆成多件。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/hiwise_aigc/status/2118375269849567631",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个鹈鹕骑自行车的动画，输出html，请开始发挥你的创作能力",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118375269849567631-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118373207451533312/vid/avc1/1900x1080/9bPC7iIn13iciuLa.mp4?tag=29",
+        "sha256": "3470b71eb16f35f3c453f1df22be029dc2fbda98eecb2ec58be5cb894be5e2ad",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118373207451533312/vid/avc1/1900x1080/9bPC7iIn13iciuLa.mp4?tag=29",
+          "sourceSha256": "3470b71eb16f35f3c453f1df22be029dc2fbda98eecb2ec58be5cb894be5e2ad",
+          "frameTime": 11,
+          "sha256": "784969c7c97ca19abd2778b1b5b9023700688a04b5632e6ea75a961e267e823b"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118375269849567631-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118375269849567631-0-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-hiwise-qoder-sonus-canvas-ride-2026-11-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-hiwise-qoder-sonus-canvas-ride-2026-11-05/",
+    "markdown": "/specimens/x-hiwise-qoder-sonus-canvas-ride-2026-11-05/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Hillside road · Sonus Canvas ride",
+        "model": "Sonus（Qoder 来源标注）",
+        "notes": "The author identifies Sonus in Qoder International. The recording shows the model selector, HTML5 Canvas/JavaScript generation, a file write and the rendered animation. The complete recording is retained; repeated appearances of the prompt are not counted as distinct works. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "创建一个鹈鹕骑自行车的动画，输出html，请开始发挥你的创作能力",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/hiwise_aigc/status/2118375269849567631",
+        "https://video.twimg.com/amplify_video/2118373207451533312/vid/avc1/1900x1080/9bPC7iIn13iciuLa.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Sonus（Qoder 来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/hiwise_aigc/status/2118375269849567631"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "tool": "Qoder International",
+      "renderer": "HTML5 Canvas / JavaScript"
+    },
+    "sourcePublicationDate": "2026-11-05"
+  },
+  {
+    "id": "x-noclipepe-longcat25-svg-2026-11-04",
+    "originalId": "x-noclipepe-longcat25-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 四模型 SVG 对照",
+    "model": "LongCat-2.5",
+    "author": "noclipepe (@noclipepe)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者说明同一 SVG 题面，每个模型一次生成；原片的标签将每格与型号对应。主预览取原片前段的无损分栏，完整带声音对照原片保留。原帖带 LongCat 赠码活动，评分与价格是作者说法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-longcat25-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "28156d506295bae7615407409ecd874f550a673f84050754ebf224df294256be",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "box": {
+            "left": 52,
+            "top": 86,
+            "width": 530,
+            "height": 532
+          },
+          "startFrame": 30,
+          "endFrame": 90,
+          "sourceFrames": 858,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 60,
+          "decodedFrameHashesSha256": "0342c31a7528bc5dcedbedb119fcede6ca28aa8ee4ab98e5b5a5d395cafb1e89"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "28156d506295bae7615407409ecd874f550a673f84050754ebf224df294256be",
+          "frameTime": 0.5,
+          "sha256": "f42b3468ec2cb493d5900cc2afd040162df133236cb669ccc27f2f43d0c3da89"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-longcat25-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "frameTime": 1,
+          "sha256": "acac91416ea19181d53596273dbfd98e210721dd63239ae998967cc57ce81dec"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118102232780480804-longcat25-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-noclipepe-longcat25-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-noclipepe-longcat25-svg-2026-11-04/",
+    "markdown": "/specimens/x-noclipepe-longcat25-svg-2026-11-04/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican on a bike · four-model SVG comparison",
+        "model": "LongCat-2.5",
+        "notes": "The author reports one attempt per model on the same SVG task; each source panel is labelled. The preview is an early lossless panel extraction, and the complete comparison with sound remains attached. The post includes a LongCat giveaway; scores and prices are the author’s claims. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/noclipepe/status/2118102232780480804",
+        "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "LongCat-2.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/noclipepe/status/2118102232780480804"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1,
+      "sourceIncludesGiveaway": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-noclipepe-terra61-svg-2026-11-04",
+    "originalId": "x-noclipepe-terra61-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 四模型 SVG 对照",
+    "model": "GPT-6.1 Terra",
+    "author": "noclipepe (@noclipepe)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者说明同一 SVG 题面，每个模型一次生成；原片的标签将每格与型号对应。主预览取原片前段的无损分栏，完整带声音对照原片保留。原帖带 LongCat 赠码活动，评分与价格是作者说法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-terra61-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "541bea030f696de63458810f94820f5a9bb1cc5a50944e10e9a16dac7e681754",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "box": {
+            "left": 616,
+            "top": 86,
+            "width": 530,
+            "height": 532
+          },
+          "startFrame": 30,
+          "endFrame": 90,
+          "sourceFrames": 858,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 60,
+          "decodedFrameHashesSha256": "0a1a3961643edac9d82bec9135a2168385e0c90651394d14ac6f3a684148708f"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "541bea030f696de63458810f94820f5a9bb1cc5a50944e10e9a16dac7e681754",
+          "frameTime": 0.5,
+          "sha256": "50d70b9cec2803a8abf62a4580d17996549976c8f9475e89f4e85a33a4393566"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-terra61-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "frameTime": 1,
+          "sha256": "acac91416ea19181d53596273dbfd98e210721dd63239ae998967cc57ce81dec"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118102232780480804-terra61-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-noclipepe-terra61-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-noclipepe-terra61-svg-2026-11-04/",
+    "markdown": "/specimens/x-noclipepe-terra61-svg-2026-11-04/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican on a bike · four-model SVG comparison",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author reports one attempt per model on the same SVG task; each source panel is labelled. The preview is an early lossless panel extraction, and the complete comparison with sound remains attached. The post includes a LongCat giveaway; scores and prices are the author’s claims. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/noclipepe/status/2118102232780480804",
+        "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/noclipepe/status/2118102232780480804"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1,
+      "sourceIncludesGiveaway": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-noclipepe-argon4-svg-2026-11-04",
+    "originalId": "x-noclipepe-argon4-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 四模型 SVG 对照",
+    "model": "Gemini 4 Argon",
+    "author": "noclipepe (@noclipepe)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者说明同一 SVG 题面，每个模型一次生成；原片的标签将每格与型号对应。主预览取原片前段的无损分栏，完整带声音对照原片保留。原帖带 LongCat 赠码活动，评分与价格是作者说法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-argon4-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "95f8baa046dc93cd442f0959012e15e6dae4b64b4e8c3cf027fcb509e9be8cde",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "box": {
+            "left": 52,
+            "top": 632,
+            "width": 530,
+            "height": 534
+          },
+          "startFrame": 30,
+          "endFrame": 90,
+          "sourceFrames": 858,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 60,
+          "decodedFrameHashesSha256": "30086a97b268e915c3a0be2bf3780c2db2668679ebb87b54aeccb1664417dcfc"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "95f8baa046dc93cd442f0959012e15e6dae4b64b4e8c3cf027fcb509e9be8cde",
+          "frameTime": 0.5,
+          "sha256": "9a56eda52d11595158b8e67849058c2e26347eb05fa03c6b2c8ed4ec119aff5b"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-argon4-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "frameTime": 1,
+          "sha256": "acac91416ea19181d53596273dbfd98e210721dd63239ae998967cc57ce81dec"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118102232780480804-argon4-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-noclipepe-argon4-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-noclipepe-argon4-svg-2026-11-04/",
+    "markdown": "/specimens/x-noclipepe-argon4-svg-2026-11-04/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican on a bike · four-model SVG comparison",
+        "model": "Gemini 4 Argon",
+        "notes": "The author reports one attempt per model on the same SVG task; each source panel is labelled. The preview is an early lossless panel extraction, and the complete comparison with sound remains attached. The post includes a LongCat giveaway; scores and prices are the author’s claims. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/noclipepe/status/2118102232780480804",
+        "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/noclipepe/status/2118102232780480804"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1,
+      "sourceIncludesGiveaway": true
+    },
+    "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "x-noclipepe-glm53-flash-svg-2026-11-04",
+    "originalId": "x-noclipepe-glm53-flash-svg-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑车 · 四模型 SVG 对照",
+    "model": "GLM-5.3 Flash",
+    "author": "noclipepe (@noclipepe)",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "作者说明同一 SVG 题面，每个模型一次生成；原片的标签将每格与型号对应。主预览取原片前段的无损分栏，完整带声音对照原片保留。原帖带 LongCat 赠码活动，评分与价格是作者说法。 日期为可证公开日；型号与条件按来源记录，未独立认证。未取得完整源代码，不列为站内可玩。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/noclipepe/status/2118102232780480804",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-glm53-flash-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "bf3e57ca7db75d28548606fe88d0662d839acbe655aedf4873a3644343b8454d",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "box": {
+            "left": 616,
+            "top": 632,
+            "width": 530,
+            "height": 534
+          },
+          "startFrame": 30,
+          "endFrame": 90,
+          "sourceFrames": 858,
+          "sourceFps": 30,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 60,
+          "decodedFrameHashesSha256": "d8436976a21c0427d0fa6eb1de63f90454c3468dfdf60cf22d4b4847ef731b8c"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "bf3e57ca7db75d28548606fe88d0662d839acbe655aedf4873a3644343b8454d",
+          "frameTime": 0.5,
+          "sha256": "68a6fbb833262b9b0877350784a7b202bf88573dd04ec1f017b723e1fdc25fda"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-glm53-flash-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-06-catchup/2118102232780480804-0.mp4",
+        "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+        "sha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29",
+          "sourceSha256": "931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5",
+          "frameTime": 1,
+          "sha256": "acac91416ea19181d53596273dbfd98e210721dd63239ae998967cc57ce81dec"
+        },
+        "detailOnly": true,
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-06-catchup/2118102232780480804-0-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-06-catchup/2118102232780480804-glm53-flash-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-noclipepe-glm53-flash-svg-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-noclipepe-glm53-flash-svg-2026-11-04/",
+    "markdown": "/specimens/x-noclipepe-glm53-flash-svg-2026-11-04/index.md",
+    "updated": "2026-11-06",
+    "rights": "作品与原媒体归原作者；保留署名、出处及原有声明，不声称已获开源授权。",
+    "i18n": {
+      "en": {
+        "title": "Pelican on a bike · four-model SVG comparison",
+        "model": "GLM-5.3 Flash",
+        "notes": "The author reports one attempt per model on the same SVG task; each source panel is labelled. The preview is an early lossless panel extraction, and the complete comparison with sound remains attached. The post includes a LongCat giveaway; scores and prices are the author’s claims. The date is the evidenced publication date. Model labels and conditions are source-reported, not independently authenticated. Complete source code was not obtained; no runnable on-site demo is claimed.",
+        "rights": "The work and original media remain creator-owned. Attribution, provenance and existing notices are preserved; no open-source permission is claimed.",
+        "promptStatus": "an animated SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/noclipepe/status/2118102232780480804",
+        "https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM-5.3 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/noclipepe/status/2118102232780480804"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "attempts": 1,
+      "sourceIncludesGiveaway": true
+    },
+    "sourcePublicationDate": "2026-11-04"
   }
 ]
