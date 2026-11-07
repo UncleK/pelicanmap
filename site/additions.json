@@ -93187,5 +93187,167 @@
       "tool": "DeepSeek Harness (DSH)"
     },
     "sourcePublicationDate": "2026-11-05"
+  },
+  {
+    "id": "pb-qwen38-flash-next-iq3-xxs-medium-2026-11-06",
+    "originalId": "pb-qwen38-flash-next-iq3-xxs-medium-2026-11-06",
+    "kind": "timeline",
+    "title": "本地量化 Qwen · 红车骑行",
+    "model": "qwen3.8-flash-next-iq3_xxs",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-11-06",
+    "month": "2026-11",
+    "notes": "贡献者标注使用 pi、Medium、IQ3_XXS 和 single-turn，生成日与投稿日均为 2026-11-06。保留原 SVG 中的长腿、踩踏关系与自行车结构。 型号、档位与生成过程为投稿者自述，未独立认证。完整原件、提示词与来源页面均已归档。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/7wvYX5f1pYj5Qvagj-QShQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-08-daily-intake/7wvYX5f1pYj5Qvagj-QShQ.svg",
+        "source": "https://works.pelicanbenchmark.com/7wvYX5f1pYj5Qvagj-QShQ.svg",
+        "sha256": "855a6af91d5057731d999a74c45ab5119f2255f71e292a825fc1f18e4d09f775",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-08-daily-intake/7wvYX5f1pYj5Qvagj-QShQ.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-qwen38-flash-next-iq3-xxs-medium-2026-11-06/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-qwen38-flash-next-iq3-xxs-medium-2026-11-06/",
+    "markdown": "/specimens/pb-qwen38-flash-next-iq3-xxs-medium-2026-11-06/index.md",
+    "updated": "2026-11-08",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Quantized Qwen · red bicycle",
+        "model": "qwen3.8-flash-next-iq3_xxs",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports pi, Medium effort, IQ3_XXS and a single-turn generation. Both the reported run and submission dates are November 6. The original leg, pedal and frame geometry is preserved. Model, effort and workflow are contributor-reported and not independently authenticated. The complete original SVG, prompt and source page are preserved.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/7wvYX5f1pYj5Qvagj-QShQ",
+        "https://works.pelicanbenchmark.com/7wvYX5f1pYj5Qvagj-QShQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen3.8-flash-next-iq3_xxs"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/7wvYX5f1pYj5Qvagj-QShQ",
+      "https://works.pelicanbenchmark.com/7wvYX5f1pYj5Qvagj-QShQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "Medium",
+      "tool": "pi",
+      "generationMode": "single-turn",
+      "sourceReportedGenerationDate": "2026-11-06"
+    },
+    "sourcePublicationDate": "2026-11-06"
+  },
+  {
+    "id": "pb-crouton-aplha-max-2026-11-04",
+    "originalId": "pb-crouton-aplha-max-2026-11-04",
+    "kind": "timeline",
+    "title": "CrouTon Aplha · 蓝帽骑行",
+    "model": "CrouTon Aplha",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "模型拼写 CrouTon Aplha 按贡献者原标注保留，Max、OpenCode 和 single-turn 均为来源描述。页面另填生成日 2026-04-11，尚无法核实；本馆采用可证投稿日 2026-11-04。 型号、档位与生成过程为投稿者自述，未独立认证。完整原件、提示词与来源页面均已归档。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/ZOetboDh8IpgmKYeL94h7Q",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-08-daily-intake/ZOetboDh8IpgmKYeL94h7Q.svg",
+        "source": "https://works.pelicanbenchmark.com/ZOetboDh8IpgmKYeL94h7Q.svg",
+        "sha256": "3bff5146257c8a6fa7c51cd64207d96cdf8fdd5a88283e24ca2872398117d970",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-08-daily-intake/ZOetboDh8IpgmKYeL94h7Q.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-crouton-aplha-max-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-crouton-aplha-max-2026-11-04/",
+    "markdown": "/specimens/pb-crouton-aplha-max-2026-11-04/index.md",
+    "updated": "2026-11-08",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "CrouTon Aplha · blue hat ride",
+        "model": "CrouTon Aplha",
+        "author": "Anonymous (source contributor)",
+        "notes": "The literal contributor model label CrouTon Aplha is retained, with source-reported Max, OpenCode and single-turn settings. The page separately reports an unverified generation date of April 11; the archive uses the evidenced November 4 submission date. Model, effort and workflow are contributor-reported and not independently authenticated. The complete original SVG, prompt and source page are preserved.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/ZOetboDh8IpgmKYeL94h7Q",
+        "https://works.pelicanbenchmark.com/ZOetboDh8IpgmKYeL94h7Q.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "CrouTon Aplha"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/ZOetboDh8IpgmKYeL94h7Q",
+      "https://works.pelicanbenchmark.com/ZOetboDh8IpgmKYeL94h7Q.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "Max",
+      "tool": "OpenCode",
+      "generationMode": "single-turn",
+      "sourceReportedGenerationDate": "2026-04-11"
+    },
+    "sourcePublicationDate": "2026-11-04"
   }
 ]
