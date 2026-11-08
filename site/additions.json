@@ -93349,5 +93349,988 @@
       "sourceReportedGenerationDate": "2026-04-11"
     },
     "sourcePublicationDate": "2026-11-04"
+  },
+  {
+    "id": "pb-classic-b77bkwimz0dfowfefpgl3q-2026-10-16",
+    "originalId": "pb-classic-b77bkwimz0dfowfefpgl3q-2026-10-16",
+    "kind": "timeline",
+    "title": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw · 社区 SVG 骑行",
+    "model": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-16",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、Strata、High 档位。本馆采用可证投稿日 2026-10-16，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/B77BKwIMz0dfOwfEfPgL3Q",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/B77BKwIMz0dfOwfEfPgL3Q.svg",
+        "source": "https://works.pelicanbenchmark.com/B77BKwIMz0dfOwfEfPgL3Q.svg",
+        "sha256": "240874d0344cc3a971444aa1915f8e00c1f3c36d5c0c8142e0eb7f74cce65da9",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/B77BKwIMz0dfOwfEfPgL3Q.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-b77bkwimz0dfowfefpgl3q-2026-10-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-b77bkwimz0dfowfefpgl3q-2026-10-16/",
+    "markdown": "/specimens/pb-classic-b77bkwimz0dfowfefpgl3q-2026-10-16/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw · community SVG ride",
+        "model": "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation using Strata with High effort. The archive uses the evidenced submission date, 2026-10-16; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/B77BKwIMz0dfOwfEfPgL3Q",
+        "https://works.pelicanbenchmark.com/B77BKwIMz0dfOwfEfPgL3Q.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 3.8 Flash Next - EXL Quantized 4.05bpw"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/B77BKwIMz0dfOwfEfPgL3Q",
+      "https://works.pelicanbenchmark.com/B77BKwIMz0dfOwfEfPgL3Q.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Alibaba (Qwen) · Qwen 3.8 Flash Next - EXL Quantized 4.05bpw (High)",
+      "sourceThinkingLevel": "High",
+      "effort": "High",
+      "tool": "Strata",
+      "sourceReportedGenerationDate": "2026-10-16"
+    },
+    "sourcePublicationDate": "2026-10-16"
+  },
+  {
+    "id": "pb-classic-jvx0ebkex3oas1asb668mq-2026-10-09",
+    "originalId": "pb-classic-jvx0ebkex3oas1asb668mq-2026-10-09",
+    "kind": "timeline",
+    "title": "Mistral Large 4 · 社区 SVG 骑行",
+    "model": "Mistral Large 4",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-09",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、Mistral Vibe、Low 档位。本馆采用可证投稿日 2026-10-09，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/JvX0EBkex3oAS1ASb668MQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/JvX0EBkex3oAS1ASb668MQ.svg",
+        "source": "https://works.pelicanbenchmark.com/JvX0EBkex3oAS1ASb668MQ.svg",
+        "sha256": "e1b1d8a7364233c44111c3cbbcd432cd007157430f0510104196c1227bd9c16a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/JvX0EBkex3oAS1ASb668MQ.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-jvx0ebkex3oas1asb668mq-2026-10-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-jvx0ebkex3oas1asb668mq-2026-10-09/",
+    "markdown": "/specimens/pb-classic-jvx0ebkex3oas1asb668mq-2026-10-09/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Mistral Large 4 · community SVG ride",
+        "model": "Mistral Large 4",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation using Mistral Vibe with Low effort. The archive uses the evidenced submission date, 2026-10-09; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/JvX0EBkex3oAS1ASb668MQ",
+        "https://works.pelicanbenchmark.com/JvX0EBkex3oAS1ASb668MQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Mistral Large 4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/JvX0EBkex3oAS1ASb668MQ",
+      "https://works.pelicanbenchmark.com/JvX0EBkex3oAS1ASb668MQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Mistral AI · Mistral Large 4 (Low)",
+      "sourceThinkingLevel": "Low",
+      "effort": "Low",
+      "tool": "Mistral Vibe",
+      "sourceReportedGenerationDate": "2026-10-09"
+    },
+    "sourcePublicationDate": "2026-10-09"
+  },
+  {
+    "id": "pb-classic-esdp8-mtbrqqr4frld-nkg-2026-10-09",
+    "originalId": "pb-classic-esdp8-mtbrqqr4frld-nkg-2026-10-09",
+    "kind": "timeline",
+    "title": "GPT-5.6 Sol · 社区 SVG 骑行",
+    "model": "GPT-5.6 Sol",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-09",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、Medium 档位。本馆采用可证投稿日 2026-10-09，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/eSdp8_mtbrQQR4FrLd_nKg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/eSdp8_mtbrQQR4FrLd_nKg.svg",
+        "source": "https://works.pelicanbenchmark.com/eSdp8_mtbrQQR4FrLd_nKg.svg",
+        "sha256": "7c9c9c42c4ee4baef968d8efc20ede993839f020a2665c0f935a59fc0b8a9809",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/eSdp8_mtbrQQR4FrLd_nKg.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-esdp8-mtbrqqr4frld-nkg-2026-10-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-esdp8-mtbrqqr4frld-nkg-2026-10-09/",
+    "markdown": "/specimens/pb-classic-esdp8-mtbrqqr4frld-nkg-2026-10-09/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "GPT-5.6 Sol · community SVG ride",
+        "model": "GPT-5.6 Sol",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation with Medium effort. The archive uses the evidenced submission date, 2026-10-09; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/eSdp8_mtbrQQR4FrLd_nKg",
+        "https://works.pelicanbenchmark.com/eSdp8_mtbrQQR4FrLd_nKg.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-5.6 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/eSdp8_mtbrQQR4FrLd_nKg",
+      "https://works.pelicanbenchmark.com/eSdp8_mtbrQQR4FrLd_nKg.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "OpenAI · GPT-5.6 Sol (Medium)",
+      "sourceThinkingLevel": "Medium",
+      "effort": "Medium"
+    },
+    "sourcePublicationDate": "2026-10-09"
+  },
+  {
+    "id": "pb-classic-sv28bexgpjb4yjjw2cucnw-2026-10-08",
+    "originalId": "pb-classic-sv28bexgpjb4yjjw2cucnw-2026-10-08",
+    "kind": "timeline",
+    "title": "haiku 5.5 · 社区 SVG 骑行",
+    "model": "haiku 5.5",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-08",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、Official web / app chat、High 档位。本馆采用可证投稿日 2026-10-08，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/Sv28BExgPjB4YJjw2CUCnw",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/Sv28BExgPjB4YJjw2CUCnw.svg",
+        "source": "https://works.pelicanbenchmark.com/Sv28BExgPjB4YJjw2CUCnw.svg",
+        "sha256": "414b49cc241a0376a07d954059ec5a32112590c41b7df0ba0baa00b4f33dbbfb",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/Sv28BExgPjB4YJjw2CUCnw.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-sv28bexgpjb4yjjw2cucnw-2026-10-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-sv28bexgpjb4yjjw2cucnw-2026-10-08/",
+    "markdown": "/specimens/pb-classic-sv28bexgpjb4yjjw2cucnw-2026-10-08/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "haiku 5.5 · community SVG ride",
+        "model": "haiku 5.5",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation using Official web / app chat with High effort. The archive uses the evidenced submission date, 2026-10-08; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/Sv28BExgPjB4YJjw2CUCnw",
+        "https://works.pelicanbenchmark.com/Sv28BExgPjB4YJjw2CUCnw.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "haiku 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/Sv28BExgPjB4YJjw2CUCnw",
+      "https://works.pelicanbenchmark.com/Sv28BExgPjB4YJjw2CUCnw.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Anthropic · haiku 5.5 (High)",
+      "sourceThinkingLevel": "High",
+      "effort": "High",
+      "tool": "Official web / app chat"
+    },
+    "sourcePublicationDate": "2026-10-08"
+  },
+  {
+    "id": "pb-classic-ixiqppigg7iipohwqlgkta-2026-10-08",
+    "originalId": "pb-classic-ixiqppigg7iipohwqlgkta-2026-10-08",
+    "kind": "timeline",
+    "title": "qwen3.8-flash-next-iq3_s · 社区 SVG 骑行",
+    "model": "qwen3.8-flash-next-iq3_s",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-08",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、Strata and OpenWebUI、High 档位。本馆采用可证投稿日 2026-10-08，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/IXIqppigG7iIPoHWqlGktA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/IXIqppigG7iIPoHWqlGktA.svg",
+        "source": "https://works.pelicanbenchmark.com/IXIqppigG7iIPoHWqlGktA.svg",
+        "sha256": "6964a190c03428d07613510399cedd3a10630e30092c372e87d91457136934c7",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/IXIqppigG7iIPoHWqlGktA.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-ixiqppigg7iipohwqlgkta-2026-10-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-ixiqppigg7iipohwqlgkta-2026-10-08/",
+    "markdown": "/specimens/pb-classic-ixiqppigg7iipohwqlgkta-2026-10-08/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "qwen3.8-flash-next-iq3_s · community SVG ride",
+        "model": "qwen3.8-flash-next-iq3_s",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation using Strata and OpenWebUI with High effort. The archive uses the evidenced submission date, 2026-10-08; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/IXIqppigG7iIPoHWqlGktA",
+        "https://works.pelicanbenchmark.com/IXIqppigG7iIPoHWqlGktA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "qwen3.8-flash-next-iq3_s"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/IXIqppigG7iIPoHWqlGktA",
+      "https://works.pelicanbenchmark.com/IXIqppigG7iIPoHWqlGktA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Tencent (Strata) · qwen3.8-flash-next-iq3_s (High)",
+      "sourceThinkingLevel": "High",
+      "effort": "High",
+      "tool": "Strata and OpenWebUI",
+      "sourceNotes": "Strata • Qwen3.8-Flash-Next IQ3_S • Vision enabled • Single GPU + RAM offload • 262K context, INT8 KV cache • High reasoning • Open WebUI connected • ~50 tokens/s • Text, vision, long-context tests passed."
+    },
+    "sourcePublicationDate": "2026-10-08"
+  },
+  {
+    "id": "pb-classic-tw3crai0nrjnbk63qerqha-2026-10-05",
+    "originalId": "pb-classic-tw3crai0nrjnbk63qerqha-2026-10-05",
+    "kind": "timeline",
+    "title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF · 社区 SVG 骑行",
+    "model": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-10-05",
+    "month": "2026-10",
+    "notes": "来源投稿标注 single-turn、VS code；实际推理档位未提供。本馆采用可证投稿日 2026-10-05，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/tw3craI0nrJnBk63QeRqhA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/tw3craI0nrJnBk63QeRqhA.svg",
+        "source": "https://works.pelicanbenchmark.com/tw3craI0nrJnBk63QeRqhA.svg",
+        "sha256": "40843f09ba16e02f82c44c58b46919419da3ef3e3304f375e2f0112cfc1a9d7d",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/tw3craI0nrJnBk63QeRqhA.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-tw3crai0nrjnbk63qerqha-2026-10-05/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-tw3crai0nrjnbk63qerqha-2026-10-05/",
+    "markdown": "/specimens/pb-classic-tw3crai0nrjnbk63qerqha-2026-10-05/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF · community SVG ride",
+        "model": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation using VS code; reasoning effort is unknown. The archive uses the evidenced submission date, 2026-10-05; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/tw3craI0nrJnBk63QeRqhA",
+        "https://works.pelicanbenchmark.com/tw3craI0nrJnBk63QeRqhA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/tw3craI0nrJnBk63QeRqhA",
+      "https://works.pelicanbenchmark.com/tw3craI0nrJnBk63QeRqhA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Strata · ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+      "sourceThinkingLevel": "Not sure",
+      "tool": "VS code"
+    },
+    "sourcePublicationDate": "2026-10-05"
+  },
+  {
+    "id": "pb-classic-uw2amtr0g4yujoxn559hig-2026-09-30",
+    "originalId": "pb-classic-uw2amtr0g4yujoxn559hig-2026-09-30",
+    "kind": "timeline",
+    "title": "DeepSeek-V4.1-Flash · 社区 SVG 骑行",
+    "model": "DeepSeek-V4.1-Flash",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-09-30",
+    "month": "2026-09",
+    "notes": "来源投稿标注 single-turn、Default (didn't change it) 档位。本馆采用可证投稿日 2026-09-30，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/UW2aMtr0g4yUJOxn559hIg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Default (didn't change it)",
+    "promptCategory": "classic",
+    "promptStatus": "Please use SVG to draw a pelican riding a bicycle. Only output complete, standalone SVG code that can be rendered independently. Do not explain, and do not call image generation tools.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/UW2aMtr0g4yUJOxn559hIg.svg",
+        "source": "https://works.pelicanbenchmark.com/UW2aMtr0g4yUJOxn559hIg.svg",
+        "sha256": "55615effe89c28dc1792533e8555d0ae556cff2e9582fd729facc787778a365b",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/UW2aMtr0g4yUJOxn559hIg.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-uw2amtr0g4yujoxn559hig-2026-09-30/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-uw2amtr0g4yujoxn559hig-2026-09-30/",
+    "markdown": "/specimens/pb-classic-uw2amtr0g4yujoxn559hig-2026-09-30/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek-V4.1-Flash · community SVG ride",
+        "model": "DeepSeek-V4.1-Flash",
+        "author": "Anonymous (source contributor)",
+        "notes": "The contributor reports a single-turn generation with Default (didn't change it) effort. The archive uses the evidenced submission date, 2026-09-30; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Please use SVG to draw a pelican riding a bicycle. Only output complete, standalone SVG code that can be rendered independently. Do not explain, and do not call image generation tools.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/UW2aMtr0g4yUJOxn559hIg",
+        "https://works.pelicanbenchmark.com/UW2aMtr0g4yUJOxn559hIg.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek-V4.1-Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/UW2aMtr0g4yUJOxn559hIg",
+      "https://works.pelicanbenchmark.com/UW2aMtr0g4yUJOxn559hIg.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "DeepSeek · DeepSeek-V4.1-Flash",
+      "sourceThinkingLevel": "Default (didn't change it)",
+      "effort": "Default (didn't change it)",
+      "sourceReportedGenerationDate": "2026-09-30"
+    },
+    "sourcePublicationDate": "2026-09-30"
+  },
+  {
+    "id": "pb-classic-zu7dnyeiy6-pcp2ljmcgfa-2026-09-29",
+    "originalId": "pb-classic-zu7dnyeiy6-pcp2ljmcgfa-2026-09-29",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 · 社区 SVG 骑行",
+    "model": "Claude Opus 5.5",
+    "author": "admin（来源投稿署名）",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "来源投稿标注 single-turn、Default (didn't change it) 档位。本馆采用可证投稿日 2026-09-29，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/Zu7dnYeIY6_PCp2LjmCgFA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Default (didn't change it)",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/Zu7dnYeIY6_PCp2LjmCgFA.svg",
+        "source": "https://works.pelicanbenchmark.com/Zu7dnYeIY6_PCp2LjmCgFA.svg",
+        "sha256": "c68691dcc59ac3850982a4ccd0f0ac384bf02a299a884066fe68eeca6f857562",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/Zu7dnYeIY6_PCp2LjmCgFA.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-zu7dnyeiy6-pcp2ljmcgfa-2026-09-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-zu7dnyeiy6-pcp2ljmcgfa-2026-09-29/",
+    "markdown": "/specimens/pb-classic-zu7dnyeiy6-pcp2ljmcgfa-2026-09-29/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 · community SVG ride",
+        "model": "Claude Opus 5.5",
+        "author": "admin (source contributor)",
+        "notes": "The contributor reports a single-turn generation with Default (didn't change it) effort. The archive uses the evidenced submission date, 2026-09-29; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/Zu7dnYeIY6_PCp2LjmCgFA",
+        "https://works.pelicanbenchmark.com/Zu7dnYeIY6_PCp2LjmCgFA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/Zu7dnYeIY6_PCp2LjmCgFA",
+      "https://works.pelicanbenchmark.com/Zu7dnYeIY6_PCp2LjmCgFA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Anthropic · Claude Opus 5.5",
+      "sourceThinkingLevel": "Default (didn't change it)",
+      "effort": "Default (didn't change it)"
+    },
+    "sourcePublicationDate": "2026-09-29"
+  },
+  {
+    "id": "pb-classic-bg-n8uc361ryfxg65x6cmw-2026-09-29",
+    "originalId": "pb-classic-bg-n8uc361ryfxg65x6cmw-2026-09-29",
+    "kind": "timeline",
+    "title": "GPT-6 Luna · 社区 SVG 骑行",
+    "model": "GPT-6 Luna",
+    "author": "admin（来源投稿署名）",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "来源投稿标注 single-turn、XHigh 档位。本馆采用可证投稿日 2026-09-29，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/bG_n8uc361ryFxG65X6cmw",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "XHigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/bG_n8uc361ryFxG65X6cmw.svg",
+        "source": "https://works.pelicanbenchmark.com/bG_n8uc361ryFxG65X6cmw.svg",
+        "sha256": "8fd1c6df696d27b92b48385591660324a2d02d6a2d14764a154525846ead43b3",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/bG_n8uc361ryFxG65X6cmw.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-bg-n8uc361ryfxg65x6cmw-2026-09-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-bg-n8uc361ryfxg65x6cmw-2026-09-29/",
+    "markdown": "/specimens/pb-classic-bg-n8uc361ryfxg65x6cmw-2026-09-29/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Luna · community SVG ride",
+        "model": "GPT-6 Luna",
+        "author": "admin (source contributor)",
+        "notes": "The contributor reports a single-turn generation with XHigh effort. The archive uses the evidenced submission date, 2026-09-29; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/bG_n8uc361ryFxG65X6cmw",
+        "https://works.pelicanbenchmark.com/bG_n8uc361ryFxG65X6cmw.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Luna"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/bG_n8uc361ryFxG65X6cmw",
+      "https://works.pelicanbenchmark.com/bG_n8uc361ryFxG65X6cmw.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "OpenAI · GPT-6 Luna (XHigh)",
+      "sourceThinkingLevel": "XHigh",
+      "effort": "XHigh"
+    },
+    "sourcePublicationDate": "2026-09-29"
+  },
+  {
+    "id": "pb-classic-j0ce60bqg-kmjgf7ez3-aa-2026-09-29",
+    "originalId": "pb-classic-j0ce60bqg-kmjgf7ez3-aa-2026-09-29",
+    "kind": "timeline",
+    "title": "Claude Sonnet 5.5 · 社区 SVG 骑行",
+    "model": "Claude Sonnet 5.5",
+    "author": "admin（来源投稿署名）",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "来源投稿标注 single-turn、High 档位。本馆采用可证投稿日 2026-09-29，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/J0Ce60bqG_KMjgf7Ez3_aA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/J0Ce60bqG_KMjgf7Ez3_aA.svg",
+        "source": "https://works.pelicanbenchmark.com/J0Ce60bqG_KMjgf7Ez3_aA.svg",
+        "sha256": "c23f79cb1d1987da9382c0793bf37749e23b43e70e972fda83680ec82ed32113",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/J0Ce60bqG_KMjgf7Ez3_aA.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-j0ce60bqg-kmjgf7ez3-aa-2026-09-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-j0ce60bqg-kmjgf7ez3-aa-2026-09-29/",
+    "markdown": "/specimens/pb-classic-j0ce60bqg-kmjgf7ez3-aa-2026-09-29/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Claude Sonnet 5.5 · community SVG ride",
+        "model": "Claude Sonnet 5.5",
+        "author": "admin (source contributor)",
+        "notes": "The contributor reports a single-turn generation with High effort. The archive uses the evidenced submission date, 2026-09-29; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/J0Ce60bqG_KMjgf7Ez3_aA",
+        "https://works.pelicanbenchmark.com/J0Ce60bqG_KMjgf7Ez3_aA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Sonnet 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/J0Ce60bqG_KMjgf7Ez3_aA",
+      "https://works.pelicanbenchmark.com/J0Ce60bqG_KMjgf7Ez3_aA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Anthropic · Claude Sonnet 5.5 (High)",
+      "sourceThinkingLevel": "High",
+      "effort": "High"
+    },
+    "sourcePublicationDate": "2026-09-29"
+  },
+  {
+    "id": "pb-classic-cqzobkfinizaxlvpsqgigq-2026-09-29",
+    "originalId": "pb-classic-cqzobkfinizaxlvpsqgigq-2026-09-29",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 · 社区 SVG 骑行",
+    "model": "Claude Opus 5.5",
+    "author": "admin（来源投稿署名）",
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "notes": "来源投稿标注 single-turn、High 档位。本馆采用可证投稿日 2026-09-29，生成日另按来源记录；型号、档位和工作流均为投稿者自述，未独立认证。完整原 SVG、实际提示词和来源页面均已归档，保留原有几何与绘制缺陷。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/cqZobKFiNIZAXlVPsqgiGQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/cqZobKFiNIZAXlVPsqgiGQ.svg",
+        "source": "https://works.pelicanbenchmark.com/cqZobKFiNIZAXlVPsqgiGQ.svg",
+        "sha256": "890d33002feaabf8f327491c63fa089142e15a179b4f279685ec8258bf43121b",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/cqZobKFiNIZAXlVPsqgiGQ.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/pb-classic-cqzobkfinizaxlvpsqgigq-2026-09-29/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-cqzobkfinizaxlvpsqgigq-2026-09-29/",
+    "markdown": "/specimens/pb-classic-cqzobkfinizaxlvpsqgigq-2026-09-29/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 · community SVG ride",
+        "model": "Claude Opus 5.5",
+        "author": "admin (source contributor)",
+        "notes": "The contributor reports a single-turn generation with High effort. The archive uses the evidenced submission date, 2026-09-29; any reported generation date is preserved separately. Model, effort and workflow are contributor-reported, not independently authenticated. The complete original SVG, actual prompt and source page are preserved, including drawing defects.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/cqZobKFiNIZAXlVPsqgiGQ",
+        "https://works.pelicanbenchmark.com/cqZobKFiNIZAXlVPsqgiGQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/cqZobKFiNIZAXlVPsqgiGQ",
+      "https://works.pelicanbenchmark.com/cqZobKFiNIZAXlVPsqgiGQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "generationMode": "single-turn",
+      "sourceModelLabel": "Anthropic · Claude Opus 5.5 (High)",
+      "sourceThinkingLevel": "High",
+      "effort": "High"
+    },
+    "sourcePublicationDate": "2026-09-29"
+  },
+  {
+    "id": "hypeorcode-hy4-2026-11-07",
+    "originalId": "hypeorcode-hy4-2026-11-07",
+    "kind": "timeline",
+    "title": "Hy4 · 青绿自行车",
+    "model": "Hy4",
+    "author": "hype or code",
+    "date": "2026-11-07",
+    "month": "2026-11",
+    "notes": "来源记录 2026-11-07 通过 OpenRouter API、tencent/hy4、high 档位单次生成，服务商为 Tencent。保留完整静态 SVG、原始输出、提示词与运行元数据；日期为来源记录的运行日，首次公开日未知。型号与设置按来源标注，未经独立认证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-09-daily-discovery/hy4.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/hy4.68eae1a0.svg",
+        "sha256": "9ef62073ca10deb5b7051b77e0ae3261429d4493987652de32ae73ffccd301e4",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-09-daily-discovery/hy4.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/hy4.68eae1a0.txt",
+    "path": "/specimens/hypeorcode-hy4-2026-11-07/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-hy4-2026-11-07/",
+    "markdown": "/specimens/hypeorcode-hy4-2026-11-07/index.md",
+    "updated": "2026-11-09",
+    "rights": "作品归原作者；保留来源署名、出处及声明，归档不改变原有权利。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 · teal bicycle",
+        "model": "Hy4",
+        "notes": "The source records one OpenRouter API attempt on November 7 using tencent/hy4, high effort, served by Tencent. The complete static SVG, raw output, prompt and run metadata are preserved. The date is the source-reported run date; first publication date is unknown. Model and settings are source-reported, not independently authenticated.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained; archiving does not change the original rights.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/hy4/",
+        "https://hypeorcode.com/o/pelican-bicycle/hy4.68eae1a0.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4.68eae1a0.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4.ee71fdba.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/hy4/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4.68eae1a0.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4.ee71fdba.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "tencent/hy4",
+      "effort": "high",
+      "servedBy": "Tencent",
+      "sourceReportedRunAt": "2026-11-07T11:49:24.085Z"
+    }
   }
 ]

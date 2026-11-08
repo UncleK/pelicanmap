@@ -2662,5 +2662,17 @@
         "model": "Hy4"
       }
     ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/hy4.68eae1a0.svg",
+    "path": "pelican-archive/research/2026-11-09-daily-discovery/hype-hy4.svg",
+    "sha256": "9ef62073ca10deb5b7051b77e0ae3261429d4493987652de32ae73ffccd301e4",
+    "bytes": 13802,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4/",
+        "model": "Hy4"
+      }
+    ]
   }
 ]
