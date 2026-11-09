@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {safeName,validateImageExtension,validateSvg,extractTranscriptSvg,extractHardPromptsSvg,validateCandidate,canonicalUrl,duplicateOf,makeRecord,faithfulCrop,assertSafeCapturePath,assertSafeDemoPath,ASTRALYN_ARENA_URL} from './import_collection_batch.mjs';
 
 test('HTML-dependent animations cannot be silently reduced to static or partial SVG',()=>{
@@ -17,6 +18,26 @@ const sample=()=>({id:'test-pelican-2026-07-29',sourceUrl:'https://example.com/s
   title:{zh:'真实输出',en:'Actual output'},notes:{zh:'按来源记录',en:'As attributed by the source'},rights:{zh:'权利归原作者',en:'Rights remain with the author'},
   evidence:['https://example.com/source'],media:[{url:'https://static.simonwillison.net/test.svg',filename:'test.svg',caption:{zh:'原始输出',en:'Original output'}}]});
 const asset={src:'/media/collected/test/test.svg',source:'https://static.simonwillison.net/test.svg',sha256:'a'.repeat(64)};
+test('a reviewed Tihu sample imports as a reference and rejects a changed run identity',()=>{
+  const url='https://art.tihu.app/2026-11-01/claude-opus-5-5/high/1.svg';
+  const registry=JSON.parse(readFileSync(new URL('./reviewed_source_assets.json',import.meta.url),'utf8'));
+  const reviewed=registry.find(row=>row.url===url);
+  const {sourceUrl,model}=reviewed.bindings[0];
+  const id='tihu-2026-11-01-claude-opus-5-5-high-1';
+  const candidate={...sample(),id,sourceUrl,model,date:'2026-11-01',
+    evidence:[sourceUrl,url],referenceOnly:true,benchmarkCollection:'tihu-2026-11-01',
+    datasetSample:{id,model,effort:'high',sample:1},
+    media:[{url,filename:`${id}.svg`,reviewedSourceAsset:{path:reviewed.path,sha256:reviewed.sha256}}]};
+  const record=makeRecord(candidate,[{...asset,source:url}],'2026-11-10');
+  assert.equal(record.referenceOnly,true);
+  assert.equal(record.kind,'reference');
+  assert.equal(record.benchmarkCollection,'tihu-2026-11-01');
+  for(const invalid of [{...candidate,referenceOnly:false},
+    {...candidate,benchmarkCollection:'tihu-2026-11-08'},
+    {...candidate,datasetSample:{...candidate.datasetSample,sample:2}}])
+    assert.throws(()=>validateCandidate(invalid),/Benchmark classification/);
+});
+
 test('Arena iframe intake is restricted to the reviewed full Astralyn document',()=>{
   const sourceUrl='https://linux.do/t/topic/3056564/14';
   const c={...sample(),sourceUrl,model:'Kibitz',format:'animation',evidence:[sourceUrl,ASTRALYN_ARENA_URL],media:[{

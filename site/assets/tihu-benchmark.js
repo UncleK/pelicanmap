@@ -1,5 +1,5 @@
 (() => {
-  const root = document.querySelector('[data-batch-page="tihu-2026-11-01"]');
+  const root = document.querySelector('[data-batch-page^="tihu-"]');
   const count = root?.querySelector('[data-batch-count]');
   const lang = document.documentElement.lang;
   if (!count || !['ru', 'pt-BR'].includes(lang)) return;

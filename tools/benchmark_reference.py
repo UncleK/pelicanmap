@@ -62,7 +62,7 @@ def stats(rows):
 def record_details(item, language='zh'):
     if not item.get('referenceOnly'):
         return ''
-    if item.get('benchmarkCollection') == 'tihu-2026-11-01':
+    if re.fullmatch(r'tihu-\d{4}-\d{2}-\d{2}', item.get('benchmarkCollection') or ''):
         from tihu_benchmark import record_details as tihu_record_details
         return tihu_record_details(item, language)
     en = language == 'en'

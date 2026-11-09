@@ -162,6 +162,18 @@ export function validateCandidate(c) {
   if(c.unitType!=='single-model-output' || c.modelToMediaVerified!==true) throw Error('Review one model-to-output mapping before importing');
   if(c.media.length>1 && !c.media.slice(1).every(x=>x.detailOnly===true)) throw Error('Split comparison outputs; complete source images must be detailOnly');
   if (!c.evidence?.length || c.evidence.some(x=>!x.startsWith('https://'))) throw Error('Missing source-check evidence');
+  const tihu = /^https:\/\/tihu\.app\/days\/(\d{4}-\d{2}-\d{2})\/([a-z0-9-]+)\/([a-z0-9-]+)\/([1-9]\d*)\/$/.exec(c.sourceUrl);
+  if (tihu || c.referenceOnly || c.benchmarkCollection) {
+    const [, day, slug, effort, number] = tihu || [];
+    const sample = c.datasetSample;
+    if (!tihu || c.referenceOnly !== true || c.benchmarkCollection !== `tihu-${day}` ||
+        c.id !== `tihu-${day}-${slug}-${effort}-${number}` || c.date !== day ||
+        c.format !== (c.media[0].allowAnimation === true ? 'animation' : 'svg') ||
+        c.media.length !== 1 || c.media[0].url !== `https://art.tihu.app/${day}/${slug}/${effort}/${number}.svg` ||
+        !c.media[0].filename.endsWith('.svg') || !c.media[0].reviewedSourceAsset ||
+        sample?.id !== c.id || sample.model !== c.model || sample.effort !== effort || sample.sample !== Number(number))
+      throw Error('Tihu samples require an exact reviewed source binding and Benchmark classification');
+  }
   for (const m of c.media) {
     safeName(m.filename);
     if(m.reviewedLocalOriginal){
@@ -235,7 +247,8 @@ export function validateCandidate(c) {
       throw Error('Author preview needs the reviewed DiffusionGemma Gist, exact image URL and pinned PNG hash');
     if(new URL(m.url).hostname==='cdn3.ldstatic.com' &&
       (!/^https:\/\/linux\.do\/t\/topic\/\d+(?:\/\d+)?$/.test(c.sourceUrl) ||
-       !/^\/original\/4X\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]{40}\.(png|jpe?g|webp|gif)$/.test(new URL(m.url).pathname) ||
+       !/^\/original\/4X\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]\/[a-f0-9]{40}\.(png|jpe?g|webp|gif|svg)$/.test(new URL(m.url).pathname) ||
+       (new URL(m.url).pathname.endsWith('.svg') && !(reviewedSource && c.format==='svg' && m.filename.endsWith('.svg'))) ||
        !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
       throw Error('Forum media needs a reviewed topic, original upload, source link and pinned hash');
     if(new URL(m.url).hostname==='gist.githubusercontent.com' && !/^\/[^/]+\/[a-f0-9]{32}\/raw\/[a-f0-9]{40}\//.test(new URL(m.url).pathname))throw Error('Gist media needs a pinned version');
@@ -366,7 +379,8 @@ export function makeRecord(c, assets, updated) {
   const title=localized(c.title),notes=localized(c.notes),rights=localized(c.rights);
   const media=assets.map((a,i)=>({src:a.src,source:a.source,sha256:a.sha256,...(a.extraction?{extraction:a.extraction}:{}),...(a.posterProvenance?{posterProvenance:a.posterProvenance}:{}),...(c.media[i].detailOnly?{detailOnly:true}:{}),caption:localized(c.media[i].caption || {zh:'原始输出',en:'Original output'}).zh,captionEn:localized(c.media[i].caption || {zh:'原始输出',en:'Original output'}).en,poster:a.poster || ''}));
   const recordPath='/specimens/'+c.id+'/';
-  return {id:c.id,originalId:c.id,kind:'timeline',title:title.zh,model:c.model,author:c.author,date:c.date,month:c.date.slice(0,7),
+  return {id:c.id,originalId:c.id,kind:c.referenceOnly?'reference':'timeline',title:title.zh,model:c.model,author:c.author,date:c.date,month:c.date.slice(0,7),
+    ...(c.referenceOnly?{referenceOnly:true,benchmarkCollection:c.benchmarkCollection}:{}),
     notes:notes.zh,source:'community',sourceLabel:'社区记录',sourceUrl:c.sourceUrl,format:c.format,
     formatLabel:{svg:'静态 SVG',image:'图像',animation:'动画','3d':'三维作品',game:'游戏 / 交互',video:'视频',audio:'音频',other:'其他媒体'}[c.format],originalForm:c.format,
     originalLevel:c.variant || '',promptCategory:c.promptCategory || 'classic',promptStatus:c.prompt || '来源未完整提供逐条提示词，请查看原始链接',dateBasis:c.dateBasis || 'source-publication',

@@ -2,6 +2,7 @@
 import hashlib
 import json
 import unittest
+from unittest.mock import patch
 from collections import Counter
 from pathlib import Path
 from bs4 import BeautifulSoup
@@ -84,7 +85,8 @@ class TihuCoreTests(unittest.TestCase):
     def test_benchmark_generator_includes_new_and_existing_collections(self):
         from benchmark_reference import pages as benchmark_pages
         items=apply_case_policy(BEFORE['items'],ROOT/'pelican-web')
-        rendered=list(benchmark_pages(items,'en'))
+        with patch('tihu_benchmark.collections',return_value=['tihu-2026-11-01']):
+            rendered=list(benchmark_pages(items,'en'))
         paths=[row[0] for row in rendered]
         for path in [PATH,'/collections/openenv-2026-07-29/','/collections/pelicanbenchmark-2026-09-28/']:
             self.assertEqual(paths.count(path),1)
