@@ -12914,5 +12914,23 @@
         }
       }
     }
+  },
+  "consumer451-opus5-extra-pelican-pedal-2026-09-02": {
+    "sourceUrl": "https://news.ycombinator.com/item?id=49532609",
+    "role": "case",
+    "reason": "A playable obstacle course adds gliding, collectible fish, scoring and damage to the original cycling task. It belongs in derivative works.",
+    "evidence": [
+      "https://news.ycombinator.com/item?id=49532609",
+      "https://claude.ai/public/artifacts/e723244b-fa52-4e63-9819-4f84e5ac0c4f",
+      "https://news.ycombinator.com/item?id=49532059",
+      "https://claude.ai/public/artifacts/b37a9ee2-f5bc-4ff9-ae90-a1fb8917c737",
+      "https://news.ycombinator.com/item?id=49526704",
+      "https://news.ycombinator.com/item?id=49535223",
+      "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+      "https://raw.githubusercontent.com/mrdoob/three.js/r128/LICENSE"
+    ],
+    "fields": {
+      "promptCategory": "derivative"
+    }
   }
 }
