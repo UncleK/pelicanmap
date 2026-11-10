@@ -4858,5 +4858,57 @@
         "model": "Claude Fable 5.2"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/motion/jeff-dean-release-original.mp4",
+    "sha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+    "bytes": 5043978,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/JeffDean/status/2024525132266688757",
+        "model": "Gemini 3 Pro"
+      },
+      {
+        "sourceUrl": "https://x.com/JeffDean/status/2024525132266688757",
+        "model": "Gemini 3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/user-attachments/assets/c70b70e7-688f-4202-8bae-c9dd1b04619c",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/illustration/lexh-cerebras-pelican-original.svg",
+    "sha256": "c6c494a4fe4572ebd8bc90b4ad33d98d6c92e1ce7fb18acc16bc8bd6c27982f4",
+    "bytes": 442,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/irthomasthomas/llm-cerebras/pull/8",
+        "model": "cerebras-llama-4-scout-17b-16e-instruct"
+      }
+    ]
+  },
+  {
+    "url": "https://s3.ifanr.com/wp-content/uploads/2026/11/tihu.gif",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/interactive/ifanr-hy4-author-preview.gif",
+    "sha256": "88dece7a762d099d207b69796b2bf79f1fe2dc283f01c5818d25b0a1f63c6b5a",
+    "bytes": 4708519,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.ifanr.com/1687613",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/519f6a817a1f3060af5ec021a658ba873b0ae090/solo-horizon-beta.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/illustration/consortium/consortium-solo-horizon-beta-519f6a817a1f.svg",
+    "bytes": 6069,
+    "sha256": "ac0aeb4d98cd747a7383d0794c45adaaee576f4534e6b8954b540a8b8bbc5bb2",
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/irthomasthomas/Pelicans-consortium/commit/519f6a817a1f3060af5ec021a658ba873b0ae090",
+        "model": "horizon-beta"
+      }
+    ]
   }
 ]

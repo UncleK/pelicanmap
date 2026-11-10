@@ -12873,5 +12873,46 @@
       }
     },
     "timelineVisible": false
+  },
+  "claude-opus-playable-coast-f678d85a": {
+    "sourceUrl": "https://claude-opus-5-5.riba2534.cn/",
+    "role": "case",
+    "reason": "Creator’s original X post and linked pinned project establish the author, prompt, reported one-session model configuration, and source publication date. Preserve existing specimen ID, number, original recorded date, media and demo.",
+    "evidence": [
+      "https://x.com/riba2534/status/2102470079254556793",
+      "https://x.com/riba2534/status/2102584893909930258",
+      "https://x.com/riba2534/status/2102657259197403463",
+      "https://github.com/riba2534/claude-opus-5-5-demo/blob/f5d3367a3896ea478990188131f9252c394abd3d/README.md",
+      "https://github.com/riba2534/claude-opus-5-5-demo/commit/54adc1fb64155f9dd7c1c90ecae7b8185ac540b8",
+      "https://news.ycombinator.com/item?id=49813254"
+    ],
+    "fields": {
+      "title": "Claude Opus 5.5 · 海岸公路骑行",
+      "author": "riba2534",
+      "model": "Claude Opus 5.5",
+      "reviewedModelNames": [
+        "Claude Opus 5.5"
+      ],
+      "notes": "riba2534 用 Claude Code 发出一条提示，由 Claude Opus 5.5 生成这件海岸公路骑行作品。公开仓库记录 xhigh、1M 上下文及单会话，作者称初版代码未手工修改。其后公开源码并提交过移动端界面修复。作品包含鱼群、昼夜、海浪与多个镜头，Hacker News 有读者称画面惊艳、玩法较弱。生成档位按作者公开记录。",
+      "promptStatus": "生成一个鹈鹕骑自行车的 3D 页面，尽可能把你所有的能力全部都用上. /bytedcli 然后上传到 CDN 上, 把访问链接给我",
+      "originalLevel": "xhigh",
+      "sourceCodeUrl": "https://github.com/riba2534/claude-opus-5-5-demo/tree/f5d3367a3896ea478990188131f9252c394abd3d/pelican-bike",
+      "sourcePublicationDate": "2026-09-22",
+      "generationMethod": "code-generated",
+      "codeGenerationEvidence": [
+        "https://x.com/riba2534/status/2102470079254556793",
+        "https://github.com/riba2534/claude-opus-5-5-demo/blob/f5d3367a3896ea478990188131f9252c394abd3d/README.md",
+        "https://x.com/riba2534/status/2102657259197403463"
+      ],
+      "i18n": {
+        "en": {
+          "title": "Claude Opus 5.5 · Coastal Bicycle Ride",
+          "author": "riba2534",
+          "model": "Claude Opus 5.5",
+          "notes": "riba2534 gave Claude Opus 5.5 one prompt in Claude Code for this coastal ride. The public repository records xhigh effort, a 1M context window and one session. The creator reports no manual edits to the first version. They later released the source and committed a mobile interface fix. The game includes fish, day and night, waves and multiple cameras. A Hacker News reader praised its appearance but found the gameplay less engaging. Settings are creator-reported.",
+          "promptStatus": "生成一个鹈鹕骑自行车的 3D 页面，尽可能把你所有的能力全部都用上. /bytedcli 然后上传到 CDN 上, 把访问链接给我"
+        }
+      }
+    }
   }
 }

@@ -7,6 +7,12 @@ import {cropPath} from './reviewed_video_crop.mjs';
 
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 export const PANELS={
+  'https://x.com/JeffDean/status/2024525132266688757':{
+    url:'https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21',
+    sha256:'600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91',
+    width:1920,height:1080,frames:750,fps:25,
+    boxes:[[36,140,908,680],[976,140,908,680]],ranges:[[0,135]],
+    models:['Gemini 3 Pro','Gemini 3.1 Pro']},
   "https://x.com/leo114119/status/2118344638583255484":{"url":"https://video.twimg.com/amplify_video/2118344212668461056/vid/avc1/1080x1504/exX-LzByM5MNCFoH.mp4?tag=29","sha256":"9defc5970bc354b8fb31ce14f42982578fa462bba368833a2a3e1960176eb6a3","width":1080,"height":1504,"frames":462,"fps":30,"boxes":[[0,0,1080,754],[0,762,1080,742]],"ranges":[[0,462]]},
   "https://x.com/noclipepe/status/2118102232780480804":{"url":"https://video.twimg.com/amplify_video/2118100251852615680/vid/avc1/1200x1200/y9VXW4s3SeSlN_c5.mp4?tag=29","sha256":"931c297f41c1d820da5753acb011f9f249fff0e02a71b004ea0c8bb17c5b1bf5","width":1200,"height":1200,"frames":858,"fps":30,"boxes":[[52,86,530,532],[616,86,530,532],[52,632,530,534],[616,632,530,534]],"ranges":[[30,90]]},
   "https://x.com/bangbuilds/status/2117994190667997406/video/1":{"url":"https://video.twimg.com/amplify_video/2117993451765841920/vid/avc1/1838x1080/Q1ovM12OsMvPoLRw.mp4?tag=29","sha256":"1bf79e7a77cf4e4bba8acc2fa2eb057360ffb2d2f92b07813e84c928096611a2","width":1838,"height":1080,"frames":383,"fps":30.0,"boxes":[[784,214,1024,696]],"ranges":[[0,383]]},
@@ -47,12 +53,13 @@ export const PANELS={
 
 export function validateVideoPanel(c,m,root){
   const spec=PANELS[c.sourceUrl],s=m.reviewedVideoPanel;
+  const boxIndex=spec?.boxes.findIndex(box=>JSON.stringify(box)===JSON.stringify(s?.box));
   if(!spec || !s || m.url!==spec.url || s.sourceSha256!==spec.sha256 ||
      c.format!=='animation' || m!==c.media[0] || m.detailOnly ||
      !c.evidence.includes(c.sourceUrl) || !c.evidence.includes(m.url) ||
      !/^[a-f0-9]{64}$/.test(m.sha256||'') || !m.filename.endsWith('.mp4') ||
      s.method!=='ffmpeg-skill/crop.py+cut.py:lossless-preserve-color' ||
-     !spec.boxes.some(box=>JSON.stringify(box)===JSON.stringify(s.box)) ||
+     boxIndex===-1 || (spec.models && c.model!==spec.models[boxIndex]) ||
      !spec.ranges.some(range=>JSON.stringify(range)===JSON.stringify(s.frames)) ||
      ['crop','hls','browserCapture','svgFromHardPrompts','svgFromTranscript','reviewedVideoSegment','reviewedVideoCrop'].some(k=>m[k]!==undefined))
     throw Error('Panel extraction requires the exact reviewed source, panel and frame range');

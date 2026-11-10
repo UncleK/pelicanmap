@@ -39,6 +39,23 @@ test('changed remote source fails before local files are accessed',async()=>{
   await assert.rejects(readReviewedVideoPanel(sample().media[0],Buffer.from('changed original'),ROOT),/remote source hash/);
 });
 
+test('Gemini release comparison binds each labelled panel to its model',()=>{
+  const c=sample();
+  c.sourceUrl='https://x.com/JeffDean/status/2024525132266688757';
+  const spec=PANELS[c.sourceUrl];
+  c.evidence=[c.sourceUrl,spec.url];
+  c.media[0].url=c.media[1].url=spec.url;
+  c.media[1].sha256=spec.sha256;
+  const panel=c.media[0].reviewedVideoPanel;
+  Object.assign(panel,{sourceSha256:spec.sha256,box:spec.boxes[0],frames:spec.ranges[0]});
+  c.model='Gemini 3 Pro';
+  assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+  panel.box=spec.boxes[1];
+  assert.throws(()=>validateVideoPanel(c,c.media[0],ROOT),/exact reviewed source/);
+  c.model='Gemini 3.1 Pro';
+  assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+});
+
 test('reviewed October 29 comparisons cannot expand their source, panel or timing boundary',()=>{
   const sources=['xiangxiang103/status/2114902354449547443','hiwise_aigc/status/2115130734944129251',
     'trypalomino/status/2115120801351627229','YxzRainy/status/2114972070996226190',

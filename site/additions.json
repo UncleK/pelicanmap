@@ -112733,5 +112733,492 @@
     "modelRunGroup": "simon-muse-ember-2026-11-09",
     "sourcePublicationDate": "2026-11-09",
     "sourceResponseTimestamp": "2026-11-09T18:18:53"
+  },
+  {
+    "id": "x-jeffdean-gemini3-pro-launch-pelican-2026-02-19",
+    "originalId": "x-jeffdean-gemini3-pro-launch-pelican-2026-02-19",
+    "kind": "timeline",
+    "title": "Gemini 3 Pro · 官方 SVG 动画左栏",
+    "model": "Gemini 3 Pro",
+    "author": "Google Gemini team, published by Jeff Dean (@JeffDean)",
+    "date": "2026-02-19",
+    "month": "2026-02",
+    "notes": "Google 发布对照的左栏标注 Gemini 3 Pro，给出动画 SVG 题面。车架没有闭合到曲柄，脚和踏板在部分画面中错开。保留原貌。主预览为开场鹈鹕画面左栏，六题整片及原音轨另附。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/JeffDean/status/2024525132266688757",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini3pro-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "sha256": "08a6c981cf0c4c1d1c8cd67259009bb0cc08a8dc8faa6838988bbc19e05f097a",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+          "box": {
+            "left": 36,
+            "top": 140,
+            "width": 908,
+            "height": 680
+          },
+          "startFrame": 0,
+          "endFrame": 135,
+          "sourceFrames": 750,
+          "sourceFps": 25,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 135,
+          "decodedFrameHashesSha256": "128e920e7182352201c3b6f49710bdd706495a453386652a1d768c8ee680263d"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "08a6c981cf0c4c1d1c8cd67259009bb0cc08a8dc8faa6838988bbc19e05f097a",
+          "frameTime": 0.5,
+          "sha256": "95563a28ece51ed39849bd5118a5d2694e03b42ff6d83c1d322fd5165a1a94b4"
+        },
+        "caption": "官方原发布视频的单模型鹈鹕画面",
+        "captionEn": "Single-model pelican panel from the official video",
+        "poster": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini3pro-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/2024525132266688757-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "sha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+          "frameTime": 1,
+          "sha256": "0315ef916bfd83e3ed0a1e4cfeac278a00a63891cda072b7d9c8452dcfd13d72"
+        },
+        "detailOnly": true,
+        "caption": "官方完整六题对照，保留原音轨",
+        "captionEn": "Complete official six-prompt comparison with original audio",
+        "poster": "/media/collected/2026-11-10-history-expansion/2024525132266688757-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini3pro-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-jeffdean-gemini3-pro-launch-pelican-2026-02-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-jeffdean-gemini3-pro-launch-pelican-2026-02-19/",
+    "markdown": "/specimens/x-jeffdean-gemini3-pro-launch-pelican-2026-02-19/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留 Google Gemini 团队及发布者 Jeff Dean 的署名、出处与完整原发布视频。未发现可执行 SVG 或明确开源许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3 Pro · official SVG animation, left panel",
+        "model": "Gemini 3 Pro",
+        "author": "Google Gemini team, published by Jeff Dean (@JeffDean)",
+        "notes": "Google labels this the Gemini 3 Pro run in the left panel and shows the animated-SVG prompt. The frame does not connect through to the crank, and feet and pedals separate in parts of the animation. The left pelican panel is shown as recorded, with the complete six-prompt video and its original audio attached.",
+        "rights": "Google Gemini team and publisher Jeff Dean are credited. The source and complete published video are retained. No executable SVG or explicit open-source license was found.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/JeffDean/status/2024525132266688757",
+        "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "https://simonwillison.net/2026/Feb/19/gemini-31-pro/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/JeffDean/status/2024525132266688757",
+      "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false,
+      "sourceMetadata": {
+        "disclaimer": "Results for illustrative purposes and may vary"
+      }
+    },
+    "sourcePublicationDate": "2026-02-19",
+    "sourceResponseTimestamp": "2026-02-19T16:43:00Z"
+  },
+  {
+    "id": "x-jeffdean-gemini31-pro-launch-pelican-2026-02-19",
+    "originalId": "x-jeffdean-gemini31-pro-launch-pelican-2026-02-19",
+    "kind": "timeline",
+    "title": "Gemini 3.1 Pro · 官方 SVG 动画右栏",
+    "model": "Gemini 3.1 Pro",
+    "author": "Google Gemini team, published by Jeff Dean (@JeffDean)",
+    "date": "2026-02-19",
+    "month": "2026-02",
+    "notes": "Google 发布对照的右栏标注 Gemini 3.1 Pro。相同题面下，这次输出画出较完整的车架和辐条，并加入围巾、山景和滚动路面。主预览为开场鹈鹕画面右栏，六题整片及原音轨另附。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/JeffDean/status/2024525132266688757",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini31pro-panel.mp4",
+        "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "sha256": "0b91a1c2543479f2869cc85f675474a1e17ab16bebadb2757e202b3b6bf8a350",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+          "box": {
+            "left": 976,
+            "top": 140,
+            "width": 908,
+            "height": 680
+          },
+          "startFrame": 0,
+          "endFrame": 135,
+          "sourceFrames": 750,
+          "sourceFps": 25,
+          "method": "ffmpeg-skill/crop.py+cut.py:lossless-preserve-color",
+          "decodedFrames": 135,
+          "decodedFrameHashesSha256": "32e047aa337ca633c7603f289690a8f0d3348f1d61d97e135134b45bd28a9125"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "0b91a1c2543479f2869cc85f675474a1e17ab16bebadb2757e202b3b6bf8a350",
+          "frameTime": 0.5,
+          "sha256": "2377eeee9e422b6171d9081a957d3c0b96feb63a445a71c6b4bc9f77cc460b8e"
+        },
+        "caption": "官方原发布视频的单模型鹈鹕画面",
+        "captionEn": "Single-model pelican panel from the official video",
+        "poster": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini31pro-panel-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/2024525132266688757-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "sha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+          "sourceSha256": "600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91",
+          "frameTime": 1,
+          "sha256": "0315ef916bfd83e3ed0a1e4cfeac278a00a63891cda072b7d9c8452dcfd13d72"
+        },
+        "detailOnly": true,
+        "caption": "官方完整六题对照，保留原音轨",
+        "captionEn": "Complete official six-prompt comparison with original audio",
+        "poster": "/media/collected/2026-11-10-history-expansion/2024525132266688757-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-history-expansion/2024525132266688757-gemini31pro-panel-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-jeffdean-gemini31-pro-launch-pelican-2026-02-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-jeffdean-gemini31-pro-launch-pelican-2026-02-19/",
+    "markdown": "/specimens/x-jeffdean-gemini31-pro-launch-pelican-2026-02-19/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留 Google Gemini 团队及发布者 Jeff Dean 的署名、出处与完整原发布视频。未发现可执行 SVG 或明确开源许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 3.1 Pro · official SVG animation, right panel",
+        "model": "Gemini 3.1 Pro",
+        "author": "Google Gemini team, published by Jeff Dean (@JeffDean)",
+        "notes": "Google labels this the Gemini 3.1 Pro run in the right panel. Under the same prompt, this output depicts a more complete bike frame and spokes, with a scarf, mountains and a scrolling road. The right pelican panel is shown as recorded, with the complete six-prompt video and its original audio attached.",
+        "rights": "Google Gemini team and publisher Jeff Dean are credited. The source and complete published video are retained. No executable SVG or explicit open-source license was found.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/JeffDean/status/2024525132266688757",
+        "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "https://simonwillison.net/2026/Feb/19/gemini-31-pro/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/JeffDean/status/2024525132266688757",
+      "https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": false,
+      "generationDateKnown": false,
+      "sourceMetadata": {
+        "disclaimer": "Results for illustrative purposes and may vary"
+      }
+    },
+    "sourcePublicationDate": "2026-02-19",
+    "sourceResponseTimestamp": "2026-02-19T16:43:00Z"
+  },
+  {
+    "id": "lexh-cerebras-llama4-scout-2025-04-10",
+    "originalId": "lexh-cerebras-llama4-scout-2025-04-10",
+    "kind": "timeline",
+    "title": "Llama 4 Scout · 鹈鹕骑车题原始 SVG",
+    "model": "cerebras-llama-4-scout-17b-16e-instruct",
+    "author": "lexh",
+    "date": "2025-04-10",
+    "month": "2025-04",
+    "notes": "lexh 在 Cerebras 上用 LLM CLI 请求模型以 schema 返回 SVG 字段，并在 PR 上传该文件。原图能渲染，只有灰色几何组合，未形成可辨认的鹈鹕骑车场景。采用 PR 的 UTC 公开日；档位未注明。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/irthomasthomas/llm-cerebras/pull/8",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/lexh-cerebras-llama4-scout-2025-04-10.svg",
+        "source": "https://github.com/user-attachments/assets/c70b70e7-688f-4202-8bae-c9dd1b04619c",
+        "sha256": "c6c494a4fe4572ebd8bc90b4ad33d98d6c92e1ce7fb18acc16bc8bd6c27982f4",
+        "caption": "作者上传的原始 SVG",
+        "captionEn": "Original author-uploaded SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-history-expansion/lexh-cerebras-llama4-scout-2025-04-10.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/user-attachments/assets/c70b70e7-688f-4202-8bae-c9dd1b04619c",
+    "path": "/specimens/lexh-cerebras-llama4-scout-2025-04-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/lexh-cerebras-llama4-scout-2025-04-10/",
+    "markdown": "/specimens/lexh-cerebras-llama4-scout-2025-04-10/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留 lexh 署名与公开原始附件；PR 未给附件单独的开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Llama 4 Scout · Original SVG for the bicycle pelican prompt",
+        "model": "cerebras-llama-4-scout-17b-16e-instruct",
+        "notes": "lexh used the LLM CLI with a schema to request an SVG field on Cerebras and uploaded this file to the pull request. The original renders as a cluster of gray shapes without a recognisable bicycle-riding pelican. Dated to the pull request’s UTC publication day. Effort was not reported.",
+        "rights": "Attribution to lexh and the original public attachment are retained. The pull request does not state a separate open licence for the artwork.",
+        "promptStatus": "SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/irthomasthomas/llm-cerebras/pull/8",
+        "https://api.github.com/repos/irthomasthomas/llm-cerebras/pulls/8",
+        "https://github.com/user-attachments/assets/c70b70e7-688f-4202-8bae-c9dd1b04619c",
+        "https://github.com/irthomasthomas/llm-cerebras/commit/c792d20d20c04fddd49307922dea70053580e122"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "cerebras-llama-4-scout-17b-16e-instruct"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/irthomasthomas/llm-cerebras/pull/8",
+      "https://api.github.com/repos/irthomasthomas/llm-cerebras/pulls/8"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2025-04-10"
+  },
+  {
+    "id": "irthomasthomas-horizon-beta-solo-2025-08-06",
+    "originalId": "irthomasthomas-horizon-beta-solo-2025-08-06",
+    "kind": "timeline",
+    "title": "horizon-beta · 单模型鹈鹕骑车",
+    "model": "horizon-beta",
+    "author": "irthomasthomas",
+    "date": "2025-08-06",
+    "month": "2025-08",
+    "notes": "原提交把这份 SVG 标为 horizon-beta 的单模型结果，日志记录相同题面及单模型命令。画面保留海岸背景与原始车架几何。保留作者当时使用的匿名路由标签与提交公开日；不把其它混合输出或早先归因不明的文件并入此作品。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/irthomasthomas/Pelicans-consortium/commit/519f6a817a1f3060af5ec021a658ba873b0ae090",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/irthomasthomas-horizon-beta-solo-2025-08-06.svg",
+        "source": "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/519f6a817a1f3060af5ec021a658ba873b0ae090/solo-horizon-beta.svg",
+        "sha256": "ac0aeb4d98cd747a7383d0794c45adaaee576f4534e6b8954b540a8b8bbc5bb2",
+        "caption": "原始 SVG · 单模型",
+        "captionEn": "Original SVG · solo run",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-history-expansion/irthomasthomas-horizon-beta-solo-2025-08-06.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/519f6a817a1f3060af5ec021a658ba873b0ae090/solo-horizon-beta.svg",
+    "path": "/specimens/irthomasthomas-horizon-beta-solo-2025-08-06/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/irthomasthomas-horizon-beta-solo-2025-08-06/",
+    "markdown": "/specimens/irthomasthomas-horizon-beta-solo-2025-08-06/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留公开原 SVG、出处和署名；源仓库未声明单独的开放作品许可。",
+    "i18n": {
+      "en": {
+        "title": "horizon-beta · Single-model pelican on a bicycle",
+        "model": "horizon-beta",
+        "notes": "The source commit labels this SVG as the solo horizon-beta output, and the log documents the prompt and solo command. The original coastal scene and bicycle geometry are preserved. The historical routing label and commit publication day are retained. Mixed outputs and earlier versions with ambiguous attribution are excluded.",
+        "rights": "The public original SVG, source and attribution are retained. The source repository states no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/irthomasthomas/Pelicans-consortium/commit/519f6a817a1f3060af5ec021a658ba873b0ae090",
+        "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/519f6a817a1f3060af5ec021a658ba873b0ae090/solo-horizon-beta.svg",
+        "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/5fcf6b822110295da060f68a6faca7b91dee5e13/automation.log",
+        "https://github.com/irthomasthomas/Pelicans-consortium/blob/5fcf6b822110295da060f68a6faca7b91dee5e13/HANDOFF.md"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "horizon-beta"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/irthomasthomas/Pelicans-consortium/commit/519f6a817a1f3060af5ec021a658ba873b0ae090",
+      "https://raw.githubusercontent.com/irthomasthomas/Pelicans-consortium/5fcf6b822110295da060f68a6faca7b91dee5e13/automation.log"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": false,
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2025-08-06"
+  },
+  {
+    "id": "ifanr-appso-hy4-pelican-cyclist-2026-11-04",
+    "originalId": "ifanr-appso-hy4-pelican-cyclist-2026-11-04",
+    "kind": "timeline",
+    "title": "鹈鹕骑行 · 交互式海岸 3D 动画",
+    "model": "Hy4",
+    "author": "张子豪／APPSO（爱范儿）",
+    "date": "2026-11-04",
+    "month": "2026-11",
+    "notes": "APPSO 在 WorkBuddy 内以一条提示调用 Hy4 生成这件海岸骑行动画。完整的 Three.js 程序化场景包含双足 IK 踩踏、六种镜头、光线切换、调速与鹈鹕叫声。档案保留作者文章的 19 帧原 GIF，可在作者分享页操作。作者未单列生成时间或推理设置。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.ifanr.com/1687613",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "画出一只极其逼真的鹈鹕骑自行车可交互 3D 动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-history-expansion/ifanr-appso-hy4-pelican-cyclist-original.gif",
+        "source": "https://s3.ifanr.com/wp-content/uploads/2026/11/tihu.gif",
+        "sha256": "88dece7a762d099d207b69796b2bf79f1fe2dc283f01c5818d25b0a1f63c6b5a",
+        "caption": "爱范儿原文发布的完整 GIF 动图",
+        "captionEn": "Complete original GIF published by ifanr",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-history-expansion/ifanr-appso-hy4-pelican-cyclist-original.gif",
+    "demoUrl": "",
+    "externalUrl": "https://www.workbuddy.link/p/7I6DjyunKkjQhzwbKD7UPG",
+    "sourceCodeUrl": "https://www.workbuddy.link/p/7I6DjyunKkjQhzwbKD7UPG",
+    "path": "/specimens/ifanr-appso-hy4-pelican-cyclist-2026-11-04/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/ifanr-appso-hy4-pelican-cyclist-2026-11-04/",
+    "markdown": "/specimens/ifanr-appso-hy4-pelican-cyclist-2026-11-04/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品及原预览权利归来源权利方。本条保存作者原文发布的预览并链接作者公开分享页。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Cyclist · Interactive Coastal 3D Animation",
+        "model": "Hy4",
+        "author": "Zhang Zihao / APPSO (ifanr)",
+        "notes": "APPSO used Hy4 in WorkBuddy with one prompt to generate this coastal cycling animation. The procedural Three.js scene includes two-leg inverse-kinematics pedaling, six cameras, lighting changes, speed control, and a pelican call. The archive retains the original 19-frame GIF from the article. The creator’s shared page is interactive. The generation time and reasoning settings were not separately published.",
+        "rights": "The work and its preview remain with their respective rights holders. This record preserves the preview published in the original article and links to the creator’s public share page.",
+        "promptStatus": "画出一只极其逼真的鹈鹕骑自行车可交互 3D 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.ifanr.com/1687613",
+        "https://www.workbuddy.link/p/7I6DjyunKkjQhzwbKD7UPG",
+        "https://s3.ifanr.com/wp-content/uploads/2026/11/tihu.gif",
+        "https://workbuddy-space-static.codebuddy.work/page/7I6DjyunKkjQhzwbKD7UPG/5TqHzJECj8Lr/pelican-cyclist.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.ifanr.com/1687613",
+      "https://www.workbuddy.link/p/7I6DjyunKkjQhzwbKD7UPG",
+      "https://workbuddy-space-static.codebuddy.work/page/7I6DjyunKkjQhzwbKD7UPG/5TqHzJECj8Lr/pelican-cyclist.html"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-11-04"
   }
 ]

@@ -224,12 +224,20 @@ export function validateCandidate(c) {
        c.format!=='animation' || m.allowAnimation!==true || !m.filename.endsWith('.svg') ||
        !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url) || !c.evidence.includes(c.sourceUrl)))
       throw Error('OpenPaths media requires the reviewed animation article, exact original SVG URL and pinned hash');
-    if(new URL(m.url).hostname==='github.com' &&
-      (!/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) ||
-       !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
-       !/\.(png|jpe?g|webp)$/i.test(m.filename) || !/^[a-f0-9]{64}$/.test(m.sha256||'') ||
-       !c.evidence.includes(m.url) || !c.evidence.some(x=>/^https:\/\/github\.com\/[^/]+\/[^/]+\/(?:commit|blob)\/[a-f0-9]{40}(?:\/|$)/.test(x))))
-      throw Error('Repository preview requires a pinned public source, original raster attachment and reviewed hash');
+    if(new URL(m.url).hostname==='github.com'){
+      const pinnedRepoPreview=/^https:\/\/github\.com\/[^/?#]+\/[^/?#]+(?:\/blob\/[a-f0-9]{40}\/README\.md)?$/.test(c.sourceUrl) &&
+        /\.(png|jpe?g|webp)$/i.test(m.filename) &&
+        c.evidence.some(x=>/^https:\/\/github\.com\/[^/]+\/[^/]+\/(?:commit|blob)\/[a-f0-9]{40}(?:\/|$)/.test(x));
+      const reviewedPullRequestSvg=reviewedSource &&
+        /^https:\/\/github\.com\/[^/?#]+\/[^/?#]+\/pull\/[1-9]\d*$/.test(c.sourceUrl) &&
+        m===c.media[0] && c.format==='svg' && m.filename.endsWith('.svg') &&
+        !m.svgFromTranscript && !m.svgFromHardPrompts && !m.browserCapture &&
+        m.sha256===m.reviewedSourceAsset.sha256;
+      if(!(pinnedRepoPreview || reviewedPullRequestSvg) ||
+        !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
+        !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url))
+        throw Error('Repository preview requires a pinned public source, original attachment and reviewed hash');
+    }
     if(new URL(m.url).hostname==='nezhar.com' &&
       (c.sourceUrl!=='https://nezhar.com/blog/gpt-5-model-price-comparison-via-pelicans-on-bicycle/' ||
        m.url!=='https://nezhar.com/images/gpt-5-pelicans.png' || !m.filename.endsWith('.png') ||
