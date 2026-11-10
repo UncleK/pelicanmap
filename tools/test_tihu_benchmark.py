@@ -35,9 +35,15 @@ class TihuCoreTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(original.read_bytes()).hexdigest(),row['svgSha256'])
 
     def test_classification_changes_only_the_reviewed_samples(self):
-        result=apply_card_metadata(apply_case_policy(BEFORE['items'],ROOT/'pelican-web'))
-        old={x['id']:x for x in BEFORE['items']}
         ids={row['id'] for row in load()['rows']}
+        original={x['id']:x for x in BEFORE['items']}
+        reviews=json.loads((ROOT/'site/case-reviews.json').read_text(encoding='utf8'))
+        reviews={key: value for key, value in reviews.items() if key in original}
+        controls=apply_case_policy(BEFORE['items'],ROOT/'pelican-web',
+                                   reviews={key: value for key, value in reviews.items() if key not in ids})
+        old={x['id']:x for x in controls}
+        result=apply_case_policy(BEFORE['items'],ROOT/'pelican-web',reviews=reviews)
+        apply_card_metadata(result,BEFORE)
         self.assertEqual(len(result),len(old))
         for item in result:
             if item['id'] not in ids:
@@ -47,7 +53,7 @@ class TihuCoreTests(unittest.TestCase):
             self.assertTrue(item['referenceOnly'])
             self.assertFalse(is_case(item));self.assertFalse(in_timeline(item))
             self.assertIsNone(item['caseNumber'])
-            self.assertEqual(item['archivedCaseNumber'],old[item['id']]['caseNumber'])
+            self.assertEqual(item['archivedCaseNumber'],original[item['id']]['caseNumber'])
             for key in ['id','path','date','model','sourceUrl','media','thumbnail','rights']:
                 self.assertEqual(item[key],old[item['id']][key],key)
             self.assertIn('Open Tihu Benchmark',record_details(item,'en'))
@@ -56,7 +62,8 @@ class TihuCoreTests(unittest.TestCase):
         items=apply_case_policy(BEFORE['items'],ROOT/'pelican-web')
         for lang in ['zh','en']:
             local=[dict(item,path=('/en'+item['path']) if lang=='en' else item['path']) for item in items]
-            path,title,description,body=next(pages(local,lang))
+            with patch('tihu_benchmark.collections',return_value=['tihu-2026-11-01']):
+                path,title,description,body=next(pages(local,lang))
             self.assertEqual(path,PATH)
             soup=BeautifulSoup(body,'html.parser')
             self.assertEqual(len(soup.select('.batch-model')),10)

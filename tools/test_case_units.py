@@ -125,7 +125,8 @@ class CaseUnitTests(unittest.TestCase):
         self.assertEqual(BY['simon-source-1989123523206578351-gpt-5-1-none']['date'],'2025-11-13')
 
     def test_policy_is_idempotent_for_server_rebuilds(self):
-        again=apply_card_metadata(apply_case_policy(ITEMS,OUT))
+        again=apply_case_policy(ITEMS,OUT)
+        apply_card_metadata(again,CAT)
         self.assertEqual(ITEMS,again)
 
     def test_old_play_entries_and_same_day_prompt_alternative_are_preserved(self):

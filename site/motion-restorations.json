@@ -860,5 +860,16 @@
       "originalDisplayedDocumentSha256": "01f819e1f309e2e18b3596d7b717d28cd6c010b98516eccd6c0423e7fd8027be",
       "preservedDisplayedDocument": "demos/all-works-motion/aidad-kimi-max-2026-10-24/display-source.html"
     }
+  },
+  "simon-hn-kimi-k2-6-pedaling-pelican-2026-04-20": {
+    "reviewed": true,
+    "sourceUrl": "https://news.ycombinator.com/item?id=47837045",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/ecaad98efe0f747e27bc0e0ebc669e94/raw/9fcb0a890876c458a30349b3e04d39a3750c2283/pelican.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/historical-motion/simon-kimi-k26-2026-04-20/",
+    "sha256": "624ca0809e02dd71bf2bfd0d95b411399b39120db76e9f8ae55d34a9561b08b8",
+    "sourceBytes": 18235,
+    "fullDocument": true,
+    "reviewEvidence": "2026-11-10-history-expansion/motion/simon-kimi-k26-motion-proof.txt",
+    "safety": "Byte-exact complete original, one inline script and CSS; DOM and SVG transforms, requestAnimationFrame, three local controls only. Isolated Chrome at 1200x800 confirmed continuing wheel, pedal, near-foot and wing motion and pause. No external requests, browser script errors, storage, navigation or dependencies."
   }
 }

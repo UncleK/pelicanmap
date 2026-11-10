@@ -233,7 +233,11 @@ export function validateCandidate(c) {
         m===c.media[0] && c.format==='svg' && m.filename.endsWith('.svg') &&
         !m.svgFromTranscript && !m.svgFromHardPrompts && !m.browserCapture &&
         m.sha256===m.reviewedSourceAsset.sha256;
-      if(!(pinnedRepoPreview || reviewedPullRequestSvg) ||
+      const reviewedIssuePreview=reviewedSource &&
+        /^https:\/\/github\.com\/[^/?#]+\/[^/?#]+\/issues\/[1-9]\d*#issuecomment-[1-9]\d*$/.test(c.sourceUrl) &&
+        m===c.media[0] && c.format==='image' && /\.(png|jpe?g|webp)$/i.test(m.filename) &&
+        !m.crop && !m.browserCapture && m.sha256===m.reviewedSourceAsset.sha256;
+      if(!(pinnedRepoPreview || reviewedPullRequestSvg || reviewedIssuePreview) ||
         !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
         !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url))
         throw Error('Repository preview requires a pinned public source, original attachment and reviewed hash');
