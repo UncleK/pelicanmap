@@ -20,7 +20,13 @@ class HistoryLinkTests(unittest.TestCase):
             x=BY[c['id']]
             self.assertTrue(x['caseVisible'])
             self.assertFalse(x.get('referenceOnly') or x.get('interactive'))
-            self.assertEqual(x['format'],'svg')
+            if c['id']=='history-5b61866c-0-0':
+                self.assertEqual(x['format'],'animation')
+                self.assertEqual(x['motionPreview'],{'type':'image','src':x['media'][1]['src']})
+                self.assertEqual(x['media'][1]['source'],
+                                 'https://static.simonwillison.net/static/2025/gemini-2.5-flash-preview-05-20-animated.svg')
+            else:
+                self.assertEqual(x['format'],'svg')
             self.assertEqual(x['modelNames'],[c['model']])
             self.assertEqual(x['date'],c['date'])
             self.assertLess(x['date'],'2026-09')

@@ -285,9 +285,16 @@
   "origin-gemini-exp-1206-svg-9bee0291": {
     "sourceUrl": "https://github.com/simonw/pelican-bicycle",
     "role": "case",
-    "reason": "Original single SVG; repository additions retain documented first-publication dates.",
+    "reason": "The source archives the initial SVG and the author’s animation-only follow-up in the same conversation. The source, copies, and media variants retain their stable records and form one counted work.",
     "evidence": [
-      "https://github.com/simonw/pelican-bicycle"
+      "https://github.com/simonw/pelican-bicycle",
+      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "https://gist.github.com/simonw/4728316a9e4854c6e62fa25c40759bb6",
+      "https://static.simonwillison.net/static/2024/gemini-exp-1206.svg",
+      "https://static.simonwillison.net/static/2024/gemini-exp-1206-animated.svg",
+      "https://x.com/simonw/status/1865087864729690540",
+      "https://pelicanzoo.ai/p/gemini-exp-1206",
+      "https://pelicanzoo.ai/p/gemini-exp-1206-animated"
     ],
     "fields": {
       "author": "Simon Willison",
@@ -295,7 +302,43 @@
       "dateBasis": "first-file-public-commit",
       "date": "2024-12-06",
       "month": "2024-12",
-      "dateEvidenceUrl": "https://github.com/simonw/pelican-bicycle/commit/5ee0fcf9f9533ee2702483995ea4d63adfb6ad85"
+      "dateEvidenceUrl": "https://github.com/simonw/pelican-bicycle/commit/5ee0fcf9f9533ee2702483995ea4d63adfb6ad85",
+      "sourceCodeUrl": "https://gist.github.com/simonw/4728316a9e4854c6e62fa25c40759bb6",
+      "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+      "generationConditions": {
+        "sourceReported": true,
+        "tool": "llm-gemini",
+        "sourceMetadata": {
+          "followupPrompt": "now animate it",
+          "documentedTurns": 2
+        },
+        "iterationCountKnown": true
+      },
+      "media": [
+        {
+          "src": "/media/origin/gemini-exp-1206.svg",
+          "source": "https://github.com/simonw/pelican-bicycle",
+          "caption": "",
+          "poster": ""
+        },
+        {
+          "src": "/media/collected/2026-11-10-motion-history-followup/2024-gemini-exp1206-author-animated.svg",
+          "source": "https://static.simonwillison.net/static/2024/gemini-exp-1206-animated.svg",
+          "sha256": "6a79ad39fdc08b99b6ff61d1784c5412799d363c39476a7adb14eb236654a614",
+          "caption": "作者发布的原始 SVG 动画，保留完整字节",
+          "captionEn": "Author-published animated SVG, original bytes retained",
+          "poster": ""
+        }
+      ],
+      "representativeMedia": "/media/collected/2026-11-10-motion-history-followup/2024-gemini-exp1206-author-animated.svg",
+      "format": "animation",
+      "formatLabel": "动画",
+      "notes": "Simon Willison 先运行原始鹈鹕 SVG 题，随后在同一对话追加 now animate it。两轮保留原稿，主展示用作者发布的原始 SVG 动画，静态文件仍可查看。原帖和图库副本保留各自出处与历史编号。",
+      "i18n": {
+        "en": {
+          "notes": "Simon Willison ran the original pelican SVG prompt, then asked “now animate it” in the same conversation. Both responses are preserved. The main display uses the author’s original animated SVG, with the still SVG retained. The source post and gallery copies keep their sources and former numbers."
+        }
+      }
     }
   },
   "origin-gpt-3-5-turbo-svg-fd1a55bb": {
@@ -650,35 +693,58 @@
   },
   "zoo-gemini-exp-1206-animated-aa44b6ec": {
     "sourceUrl": "https://pelicanzoo.ai/p/gemini-exp-1206-animated",
-    "role": "case",
-    "reason": "",
+    "role": "duplicate",
+    "reason": "The source animation is a same-conversation motion-only revision. Preserve this historical source row and its original Zoo media.",
     "evidence": [
       "https://pelicanzoo.ai/p/gemini-exp-1206-animated",
-      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/"
+      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "https://gist.github.com/simonw/4728316a9e4854c6e62fa25c40759bb6",
+      "https://static.simonwillison.net/static/2024/gemini-exp-1206-animated.svg"
     ],
     "fields": {
       "author": "Simon Willison",
       "date": "2024-12-06",
       "month": "2024-12",
       "dateBasis": "earliest-source-publication",
-      "dateEvidenceUrl": "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/"
-    }
+      "dateEvidenceUrl": "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "canonicalId": "origin-gemini-exp-1206-svg-9bee0291",
+      "archivedCaseNumber": 38,
+      "sourceCodeUrl": "https://static.simonwillison.net/static/2024/gemini-exp-1206-animated.svg",
+      "notes": "同一对话追加 now animate it 的动态版本；保留 Pelican Zoo 文件和作者原件链接。 本页保留历史编号 #38、原链接及原有附件。",
+      "i18n": {
+        "en": {
+          "notes": "A motion follow-up from the same conversation. The Pelican Zoo file and the first-party animated SVG link are retained. This page preserves former number #38, the original link, and its archived media."
+        }
+      }
+    },
+    "timelineVisible": false
   },
   "zoo-gemini-exp-1206-2c4a9bff": {
     "sourceUrl": "https://pelicanzoo.ai/p/gemini-exp-1206",
-    "role": "case",
-    "reason": "",
+    "role": "duplicate",
+    "reason": "Zoo static SVG matches the first-party source after viewport and SVG-ID packaging. This mirror is not a separate generation.",
     "evidence": [
       "https://pelicanzoo.ai/p/gemini-exp-1206",
-      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/"
+      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "https://static.simonwillison.net/static/2024/gemini-exp-1206.svg"
     ],
     "fields": {
       "author": "Simon Willison",
       "date": "2024-12-06",
       "month": "2024-12",
       "dateBasis": "earliest-source-publication",
-      "dateEvidenceUrl": "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/"
-    }
+      "dateEvidenceUrl": "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "canonicalId": "origin-gemini-exp-1206-svg-9bee0291",
+      "archivedCaseNumber": 37,
+      "sourceCodeUrl": "https://static.simonwillison.net/static/2024/gemini-exp-1206.svg",
+      "notes": "Pelican Zoo 转载版。与首发 SVG 相比，图库文件仅调整外层尺寸与 SVG 标识符。 本页保留历史编号 #37、原链接及原有附件。",
+      "i18n": {
+        "en": {
+          "notes": "A Pelican Zoo mirror. Its packaging only changes outer dimensions and SVG identifier namespaces. This page preserves former number #37, the original link, and its archived media."
+        }
+      }
+    },
+    "timelineVisible": false
   },
   "zoo-pelican-bicycle-llama-430250c9": {
     "sourceUrl": "https://pelicanzoo.ai/p/pelican-bicycle-llama",
@@ -876,19 +942,31 @@
   },
   "zoo-gemini-2-5-flash-preview-05-20-animated-fe56ccbe": {
     "sourceUrl": "https://pelicanzoo.ai/p/gemini-2.5-flash-preview-05-20-animated",
-    "role": "case",
-    "reason": "",
+    "role": "duplicate",
+    "reason": "The author explicitly reuses the thinking-enabled conversation to animate the earlier drawing. Preserve the follow-up revision and old source record.",
     "evidence": [
       "https://pelicanzoo.ai/p/gemini-2.5-flash-preview-05-20-animated",
-      "https://simonwillison.net/2025/May/20/gemini-25/"
+      "https://simonwillison.net/2025/May/20/gemini-25/",
+      "https://gist.github.com/simonw/5b61866cb4ce67899934c29a9de1b4be",
+      "https://static.simonwillison.net/static/2025/gemini-2.5-flash-preview-05-20-animated.svg"
     ],
     "fields": {
       "author": "Simon Willison",
       "date": "2025-05-20",
       "month": "2025-05",
       "dateBasis": "earliest-source-publication",
-      "dateEvidenceUrl": "https://simonwillison.net/2025/May/20/gemini-25/"
-    }
+      "dateEvidenceUrl": "https://simonwillison.net/2025/May/20/gemini-25/",
+      "canonicalId": "history-5b61866c-0-0",
+      "archivedCaseNumber": 100,
+      "sourceCodeUrl": "https://static.simonwillison.net/static/2025/gemini-2.5-flash-preview-05-20-animated.svg",
+      "notes": "作者复用 thinking 开启的原对话追加动画。保留 Pelican Zoo 文件、动作缺陷及作者原件链接。 本页保留历史编号 #100、原链接及原有附件。",
+      "i18n": {
+        "en": {
+          "notes": "The author reused the thinking-enabled conversation to animate the drawing. The Pelican Zoo file, motion defects, and first-party original link are retained. This page preserves former number #100, the original link, and its archived media."
+        }
+      }
+    },
+    "timelineVisible": false
   },
   "zoo-gemini-2-5-flash-09de2e2b": {
     "sourceUrl": "https://pelicanzoo.ai/p/gemini-2.5-flash",
@@ -4722,12 +4800,14 @@
   "x-1865186263713849592-3be5f912": {
     "sourceUrl": "https://x.com/matvelloso/status/1865186263713849592",
     "role": "duplicate",
-    "reason": "Exact already archived primary media; a repost/context page does not create a new artwork.",
+    "reason": "This post quotes the X copy of the same SVG. Link directly to the original SVG record to keep the source chain one hop.",
     "evidence": [
-      "https://x.com/matvelloso/status/1865186263713849592"
+      "https://x.com/matvelloso/status/1865186263713849592",
+      "https://x.com/simonw/status/1865087864729690540",
+      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/"
     ],
     "fields": {
-      "canonicalId": "x-simon-gemini-exp1206-2024-12-06-d6d74cb1"
+      "canonicalId": "origin-gemini-exp-1206-svg-9bee0291"
     },
     "timelineVisible": false
   },
@@ -5145,16 +5225,67 @@
   "history-5b61866c-0-0": {
     "sourceUrl": "https://simonwillison.net/2025/May/20/gemini-25/",
     "role": "case",
-    "reason": "Reviewed source-labelled single static output; exact bytes, settings/run and publication date preserved.",
+    "reason": "The author explicitly reused the thinking-enabled conversation for a motion follow-up. Initial still and original motion are versions of the same archived work. The thinking_budget=0 output is a separate run.",
     "evidence": [
       "https://gist.github.com/simonw/5b61866cb4ce67899934c29a9de1b4be",
       "https://gist.githubusercontent.com/simonw/5b61866cb4ce67899934c29a9de1b4be/raw/8f7351708580cc0a34c355744b6e1e194d847329/pelican.md",
-      "https://simonwillison.net/2025/May/20/gemini-25/"
+      "https://simonwillison.net/2025/May/20/gemini-25/",
+      "https://static.simonwillison.net/static/2025/gemini-2.5-flash-preview-05-20-animated.svg",
+      "https://pelicanzoo.ai/p/gemini-2.5-flash-preview-05-20-animated"
     ],
     "fields": {
       "reviewedModelNames": [
         "gemini-2.5-flash-preview-05-20"
-      ]
+      ],
+      "generationConditions": {
+        "sourceReported": true,
+        "tool": "llm-gemini",
+        "sourceMetadata": {
+          "thinking": "enabled in initial run",
+          "followupPrompt": "Now animate it",
+          "sourceConversationId": "01jvqjqz9aha979yemcp7a4885",
+          "documentedTurns": 2
+        },
+        "iterationCountKnown": true
+      },
+      "media": [
+        {
+          "src": "/media/collected/2026-10-01-user-history-links/history-5b61866c-0-0.svg",
+          "source": "https://gist.githubusercontent.com/simonw/5b61866cb4ce67899934c29a9de1b4be/raw/8f7351708580cc0a34c355744b6e1e194d847329/pelican.md",
+          "sha256": "a0a2817496c5eceab2c8876e1e69c7ad911c39e973f702f8f4fae0663c696456",
+          "extraction": {
+            "kind": "transcript-response",
+            "sourceSha256": "1772811f291d357ddd3c94e9bac5c2a36bc6761b75e843714a6e85d24455fcf6",
+            "responseIndex": 0,
+            "svgIndex": 0
+          },
+          "caption": "原始静态 SVG · source output",
+          "captionEn": "Original static SVG · source output",
+          "poster": ""
+        },
+        {
+          "src": "/media/collected/2026-11-10-motion-history-followup/2025-gemini-flash-0520-author-animated.svg",
+          "source": "https://static.simonwillison.net/static/2025/gemini-2.5-flash-preview-05-20-animated.svg",
+          "sha256": "8ce13b1a2de0bc92dac1c299087efb99d9dd934330bf8de9ea0619360c7c040b",
+          "caption": "作者发布的原始 SVG 动画，保留完整字节",
+          "captionEn": "Author-published animated SVG, original bytes retained",
+          "poster": ""
+        }
+      ],
+      "representativeMedia": "/media/collected/2026-11-10-motion-history-followup/2025-gemini-flash-0520-author-animated.svg",
+      "format": "animation",
+      "formatLabel": "动画",
+      "notes": "作者在开启 thinking 的原对话中追加 Now animate it，保留首次静态 SVG 和追加的原始动画 SVG。后续版本仍使用同一车架和鸟体，并有脚部运动缺陷。对照的 thinking_budget=0 来自独立运行，继续保留 #99。",
+      "i18n": {
+        "en": {
+          "title": "gemini-2.5-flash-preview-05-20 · default thinking",
+          "model": "gemini-2.5-flash-preview-05-20",
+          "notes": "The author followed up with “Now animate it” in the thinking-enabled conversation. The initial static SVG and the later native animated SVG are retained. The follow-up keeps the same bike frame and bird body, including flawed leg motion. The independent thinking_budget=0 run retains number #99.",
+          "rights": "Rights remain with the original author; archiving does not change the source licence.",
+          "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+          "promptCategory": "Source-documented test"
+        }
+      }
     }
   },
   "history-d8765ea8-0-0": {
@@ -12932,5 +13063,27 @@
     "fields": {
       "promptCategory": "derivative"
     }
+  },
+  "x-simon-gemini-exp1206-2024-12-06-d6d74cb1": {
+    "sourceUrl": "https://x.com/simonw/status/1865087864729690540",
+    "role": "duplicate",
+    "reason": "The author’s X JPEG and first-party SVG show the same generation and geometry. The X attachment is a separate archived rendition.",
+    "evidence": [
+      "https://x.com/simonw/status/1865087864729690540",
+      "https://simonwillison.net/2024/Dec/6/gemini-exp-1206/",
+      "https://static.simonwillison.net/static/2024/gemini-exp-1206.svg",
+      "https://pbs.twimg.com/media/GeIfOoIasAAQFbR.jpg?name=orig"
+    ],
+    "fields": {
+      "canonicalId": "origin-gemini-exp-1206-svg-9bee0291",
+      "archivedCaseNumber": 36,
+      "notes": "同一次 SVG 生成在 X 发布的栅格版本。 本页保留历史编号 #36、原链接及原有附件。",
+      "i18n": {
+        "en": {
+          "notes": "The creator posted this raster rendition of the same SVG on X. This page preserves former number #36, the original link, and its archived media."
+        }
+      }
+    },
+    "timelineVisible": false
   }
 }
