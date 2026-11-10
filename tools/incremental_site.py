@@ -206,7 +206,7 @@ def collection_version(items):
     return CURRENT.collection_version(items) if CURRENT else fingerprint(items)[:20]
 
 
-def build(date=None, *, items=None, prepare=True):
+def build(date=None, *, items=None, prepare=True, prior_catalog=None):
     global CURRENT
     from localization import write_runtime
     write_runtime()
@@ -222,7 +222,7 @@ def build(date=None, *, items=None, prepare=True):
         zh.BUILD_CACHE = en.BUILD_CACHE = cache
         zh.UPDATED = en.UPDATED = date
         try:
-            zh.build(items=items, prepare=prepare)
+            zh.build(items=items, prepare=prepare, prior_catalog=prior_catalog)
             en.build()
             from localization import build as build_locales
             build_locales(zh.OUT,cache)

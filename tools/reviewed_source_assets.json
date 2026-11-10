@@ -4750,5 +4750,113 @@
         "model": "Composer 2.5"
       }
     ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/muse-ember.f0bbd26a.svg",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/muse-ember.svg",
+    "sha256": "8c82eda910d771f9c6ac63711a357112fcc58ad5f697ed2b22e03064c8e2be52",
+    "bytes": 8938,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/muse-ember/",
+        "model": "Muse Ember"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/nex-n2-6.ced45082.svg",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/nex-n2-6.svg",
+    "sha256": "8d52af0dde09ef3109a803a4a6d5ef43f86f97c4289e6ee3805bed393888d35e",
+    "bytes": 5896,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nex-n2-6/",
+        "model": "Nex-N2.6"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/5/f/9/5f935eb92955028ddd115fd8698f3091d1c9d529.svg",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/motion-discovery/mythos-3139947/pelican_bicycle.svg",
+    "sha256": "d8481a052301e5e140bfd06a1753096d20207a3dc910be20bf1a696c6358fb87",
+    "bytes": 6012,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3139947",
+        "model": "Mythos"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/tweet_video/HU_PE0JaIAAm5hz.mp4",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/motion-discovery/leo-minimax-2112134450926739599/author-original.mp4",
+    "sha256": "27b83234287064216e5a2c5f717f1c06cd41a5dc8be05748bf79987168896810",
+    "bytes": 215807,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/leo114119/status/2112134450926739599",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113618113665122304/vid/avc1/1920x982/C_plgt8zLat1ZP3P.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/motion-discovery/procedural-beach-cruiser/statswire-author-original.mp4",
+    "sha256": "33271f9be0b3169daee52b6c3f0d514f39a585d511dc4e500c741feaedc163e2",
+    "bytes": 22792271,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/StatsWire/status/2113635302485159945",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113647503891456000/vid/avc1/1280x720/kYv6e1hXmBxjV57A.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/motion-discovery/procedural-beach-cruiser/lumeo-author-original.mp4",
+    "sha256": "f4621a889578035ef66240674f360ab0928dea8a875817f887c4a91b660fe94d",
+    "bytes": 1734481,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/LumeoLab/status/2113647667024695313",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/b/4/1/b41a995d3247669f60b2929fd050f688d9678742.jpeg",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/interactive-discovery/pedal-forum-original.jpeg",
+    "sha256": "7043b13b343bac8e445481c4800f64ca81c162e8e41b9ec2406e05edbe2b7bc9",
+    "bytes": 176012,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/2864794",
+        "model": "GPT-6 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/illustration-discovery/simon-muse-ember-source.md",
+    "sha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+    "bytes": 53311,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "model": "Muse Ember 1.0"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+    "path": "pelican-archive/research/2026-11-10-loop-intake/illustration-discovery/simon-fable-5-2-source.md",
+    "sha256": "668e8336e6dc464983dd5ba605a4852cb5e0773ec6d7df6b53aa32b02c8527d4",
+    "bytes": 104912,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
   }
 ]

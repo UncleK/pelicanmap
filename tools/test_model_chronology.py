@@ -121,8 +121,9 @@ class ModelChronologyTests(unittest.TestCase):
             self.assertEqual(current[key].get('caseVisible'),previous.get('caseVisible'),key)
             if not reviewed_derivative_classification_change(self,previous,current[key],'timelineVisible') and not reviewed_all_classic_timeline_change(self,previous,current[key],'timelineVisible'):
                 self.assertEqual(current[key].get('timelineVisible'),previous.get('timelineVisible'),key)
-        numbered=sorted([x for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')],key=lambda x:(x['date'],x['id']))
-        self.assertEqual([x['caseNumber'] for x in numbered],list(range(1,len(numbered)+1)))
+        numbered=[x['caseNumber'] for x in CAT['items'] if x.get('caseVisible') and not x.get('referenceOnly')]
+        self.assertEqual(len(set(numbered)),len(numbered))
+        self.assertTrue(all(type(n) is int and 0 < n <= CAT['caseNumberHighWaterMark'] for n in numbered))
     def test_release_conflict_and_explicit_snapshots_are_not_guessed(self):
         rows=[{'id':'pre','date':'2025-04-17','model':'Gemini 2.5 Flash','modelNames':['Gemini 2.5 Flash']},
               {'id':'snapshot','date':'2025-04-17','model':'gemini-2.5-flash-preview-04-17','modelNames':['gemini-2.5-flash-preview-04-17']},

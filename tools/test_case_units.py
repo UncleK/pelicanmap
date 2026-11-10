@@ -79,8 +79,9 @@ class CaseUnitTests(unittest.TestCase):
         self.assertTrue(all(len(x['modelNames'])==1 for x in cases))
         self.assertEqual(len(cases),CAT['counts']['cases'])
         self.assertEqual(sum(in_timeline(x) for x in ITEMS),CAT['counts']['timeline'])
-        ordered=sorted(cases,key=lambda x:(x['date'],x['id']))
-        self.assertEqual([x['caseNumber'] for x in ordered],list(range(1,len(cases)+1)))
+        numbers={x['caseNumber'] for x in cases}
+        self.assertEqual(len(numbers),len(cases))
+        self.assertTrue(all(type(n) is int and 0 < n <= CAT['caseNumberHighWaterMark'] for n in numbers))
         for x in ITEMS:
             if not is_case(x):self.assertIsNone(x['caseNumber'])
             if in_timeline(x):

@@ -166,8 +166,13 @@ def build(batch, include_runtime=False):
     with cached_hashes(ROOT/'deploy-build/local-file-hashes.json'):
         reuse_published_bytes(batch, baseline, reviewed)
     compiled = dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
-    entry = "import sys,json;sys.path.insert(0,sys.argv[2]);import build_public_site as zh;import build_english as en;from incremental_site import build;zh.ASSET_VERSION=en.ASSET_VERSION=sys.argv[1];print(json.dumps(build(sys.argv[3])))"
-    result = subprocess.run([sys.executable, '-B', '-c', entry, prepared['assetVersion'], str(ROOT/'tools'), compiled],
+    entry = ("import sys,json;from pathlib import Path;sys.path.insert(0,sys.argv[2]);"
+             "import build_public_site as zh;import build_english as en;from incremental_site import build;"
+             "zh.ASSET_VERSION=en.ASSET_VERSION=sys.argv[1];"
+             "previous=json.loads(Path(sys.argv[4]).read_text(encoding='utf8'));"
+             "print(json.dumps(build(sys.argv[3],prior_catalog=previous)))")
+    result = subprocess.run([sys.executable, '-B', '-c', entry, prepared['assetVersion'], str(ROOT/'tools'), compiled,
+                             str(batch/'catalog-before.json')],
                             cwd=ROOT, capture_output=True, text=True, timeout=600)
     (batch/'build.log').write_text(result.stdout+'\n'+result.stderr, encoding='utf8')
     if result.returncode:

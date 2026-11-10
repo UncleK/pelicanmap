@@ -1,4 +1,4 @@
-"""Chronological display numbers and conservative, source-labelled model names."""
+"""Stable display numbers and conservative, source-labelled model names."""
 import html
 import re
 
@@ -67,15 +67,26 @@ def model_names(label):
     return names
 
 
-def apply_card_metadata(items):
+def apply_card_metadata(items, previous):
     from experiment_batches import group_records
+    numbers = {item['id']: item['caseNumber'] for item in group_records(previous.get('items', []))
+               if item.get('caseNumber') is not None}
+    if any(type(number) is not int or number <= 0 for number in numbers.values()) or len(set(numbers.values())) != len(numbers):
+        raise ValueError('The prior catalog contains invalid or duplicate case numbers')
+    last_number = max(previous.get('caseNumberHighWaterMark', 0), max(numbers.values(), default=0))
     cases = sorted(group_records(items), key=lambda x: (x['date'], x['id']))
-    numbers = {x['id']: number for number, x in enumerate(cases, 1)}
+    active = {}
+    for case in cases:
+        key = case['id']
+        if key not in numbers:
+            last_number += 1
+        active[key] = numbers.get(key, last_number)
     for item in items:
-        key = 'batch-'+item['batch']['id'] if item.get('batch') else item['id']
-        item['caseNumber'] = numbers.get(key)
+        batch = item.get('batch')
+        key = 'batch-'+batch['id'] if batch and 'batch-'+batch['id'] in active else item['id']
+        item['caseNumber'] = active.get(key)
         item['modelNames'] = item.get('reviewedModelNames') or model_names(item['model'])
-    return items
+    return last_number
 
 
 def card_footer(item, language='zh', timeline=False):

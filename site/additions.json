@@ -111246,5 +111246,1492 @@
       "sample": 1,
       "upstreamScoreText": "4.29 ± 0.57"
     }
+  },
+  {
+    "id": "hypeorcode-muse-ember-2026-11-09",
+    "originalId": "hypeorcode-muse-ember-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember · Hype or Code 鹈鹕骑车",
+    "model": "Muse Ember",
+    "author": "hype or code",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "来源记录经 OpenRouter API 使用 meta/muse-ember、max 档位单次生成。保留完整静态原 SVG、原始输出、提示词和运行元数据。作品日期采用来源记录的 UTC 运行日，首次公开日未知。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/muse-ember.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/muse-ember.f0bbd26a.svg",
+        "sha256": "8c82eda910d771f9c6ac63711a357112fcc58ad5f697ed2b22e03064c8e2be52",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/muse-ember.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/muse-ember.f0bbd26a.txt",
+    "path": "/specimens/hypeorcode-muse-ember-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-muse-ember-2026-11-09/",
+    "markdown": "/specimens/hypeorcode-muse-ember-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品归原作者，保留原署名、出处与声明。归档不改变原作品权利。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember · Hype or Code pelican ride",
+        "model": "Muse Ember",
+        "notes": "The source records one OpenRouter API run of meta/muse-ember with max effort. The original SVG, raw output, prompt and run metadata are preserved. The date is the reported UTC run day. First publication is unknown.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/muse-ember/",
+        "https://hypeorcode.com/o/pelican-bicycle/muse-ember.f0bbd26a.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/muse-ember.f0bbd26a.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/muse-ember.5eb4959b.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/muse-ember/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/muse-ember.f0bbd26a.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/muse-ember.5eb4959b.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "meta/muse-ember",
+      "effort": "max",
+      "servedBy": "Meta",
+      "sourceReportedRunAt": "2026-11-09T22:10:45.234Z"
+    }
+  },
+  {
+    "id": "hypeorcode-nex-n2-6-2026-11-10",
+    "originalId": "hypeorcode-nex-n2-6-2026-11-10",
+    "kind": "timeline",
+    "title": "Nex-N2.6 · Hype or Code 鹈鹕骑车",
+    "model": "Nex-N2.6",
+    "author": "hype or code",
+    "date": "2026-11-10",
+    "month": "2026-11",
+    "notes": "来源记录经 OpenRouter API 使用 nex-agi/nex-n2.6、high 档位单次生成。保留完整静态原 SVG、原始输出、提示词和运行元数据。作品日期采用来源记录的 UTC 运行日，首次公开日未知。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/nex-n2-6/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/nex-n2-6.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/nex-n2-6.ced45082.svg",
+        "sha256": "8d52af0dde09ef3109a803a4a6d5ef43f86f97c4289e6ee3805bed393888d35e",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/nex-n2-6.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/nex-n2-6.ced45082.txt",
+    "path": "/specimens/hypeorcode-nex-n2-6-2026-11-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-nex-n2-6-2026-11-10/",
+    "markdown": "/specimens/hypeorcode-nex-n2-6-2026-11-10/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品归原作者，保留原署名、出处与声明。归档不改变原作品权利。",
+    "i18n": {
+      "en": {
+        "title": "Nex-N2.6 · Hype or Code pelican ride",
+        "model": "Nex-N2.6",
+        "notes": "The source records one OpenRouter API run of nex-agi/nex-n2.6 with high effort. The original SVG, raw output, prompt and run metadata are preserved. The date is the reported UTC run day. First publication is unknown.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/nex-n2-6/",
+        "https://hypeorcode.com/o/pelican-bicycle/nex-n2-6.ced45082.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nex-n2-6.ced45082.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/nex-n2-6.93efb82e.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nex-N2.6"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/nex-n2-6/",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nex-n2-6.ced45082.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/nex-n2-6.93efb82e.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "nex-agi/nex-n2.6",
+      "effort": "high",
+      "servedBy": "Nex AGI",
+      "sourceReportedRunAt": "2026-11-10T03:44:51.637Z"
+    }
+  },
+  {
+    "id": "linuxdo-ryanchou1994-mythos-2026-11-08",
+    "originalId": "linuxdo-ryanchou1994-mythos-2026-11-08",
+    "kind": "timeline",
+    "title": "Mythos · 作者公开的骑行 SVG",
+    "model": "Mythos",
+    "author": "萊恩 (@ryanchou1994)",
+    "date": "2026-11-08",
+    "month": "2026-11",
+    "notes": "作者标注 Mythos 中思考，先生成 HTML，再让模型转成 SVG。保留公开的完整静态 SVG。作者在回复中说明未公开原 HTML，另有读者指出鹈鹕双脚与踏板位置偏离。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3139947",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "中思考",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/pelican_bicycle.svg",
+        "source": "https://cdn3.ldstatic.com/original/4X/5/f/9/5f935eb92955028ddd115fd8698f3091d1c9d529.svg",
+        "sha256": "d8481a052301e5e140bfd06a1753096d20207a3dc910be20bf1a696c6358fb87",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/pelican_bicycle.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-ryanchou1994-mythos-2026-11-08/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-ryanchou1994-mythos-2026-11-08/",
+    "markdown": "/specimens/linuxdo-ryanchou1994-mythos-2026-11-08/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品归原作者，保留原署名、出处与声明。归档不改变原作品权利。",
+    "i18n": {
+      "en": {
+        "title": "Mythos · published pelican ride SVG",
+        "model": "Mythos",
+        "notes": "The author reports Mythos with medium thinking, first generating HTML and then requesting an SVG conversion. The complete published static SVG is preserved. A reply confirms the HTML was not shared. A reader noted that the feet were misaligned with the pedals.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3139947",
+        "https://cdn3.ldstatic.com/original/4X/5/f/9/5f935eb92955028ddd115fd8698f3091d1c9d529.svg",
+        "https://linux.do/t/topic/3139947/4",
+        "https://linux.do/t/topic/3139947/5",
+        "https://linux.do/t/topic/3139947/8"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Mythos"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3139947",
+      "https://linux.do/t/topic/3139947/5"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "中思考",
+      "workflow": "HTML then SVG conversion"
+    },
+    "sourcePublicationDate": "2026-11-08"
+  },
+  {
+    "id": "x-leo114119-minimax-m31-flash-svg-animation-2026-10-19",
+    "originalId": "x-leo114119-minimax-m31-flash-svg-animation-2026-10-19",
+    "kind": "timeline",
+    "title": "MiniMax M3.1 Flash · MiniCode 鹈鹕动画",
+    "model": "MiniMax M3.1 Flash",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-10-19",
+    "month": "2026-10",
+    "notes": "原作者标注使用 MiniMax M3.1 Flash 与 MiniCode 生成 SVG 动画。保留 X 原帖附的完整 6 秒循环视频。原帖未附 SVG 源码或完整提示词。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2112134450926739599",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/leo-minimax-m31-flash-original.mp4",
+        "source": "https://video.twimg.com/tweet_video/HU_PE0JaIAAm5hz.mp4",
+        "sha256": "27b83234287064216e5a2c5f717f1c06cd41a5dc8be05748bf79987168896810",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/tweet_video/HU_PE0JaIAAm5hz.mp4",
+          "sourceSha256": "27b83234287064216e5a2c5f717f1c06cd41a5dc8be05748bf79987168896810",
+          "frameTime": 1,
+          "sha256": "38c9b0db4a5a3f0a990a07eda607293998a46fc4905e187811cb3be01097562c"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-10-loop-intake/leo-minimax-m31-flash-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/leo-minimax-m31-flash-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo114119-minimax-m31-flash-svg-animation-2026-10-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo114119-minimax-m31-flash-svg-animation-2026-10-19/",
+    "markdown": "/specimens/x-leo114119-minimax-m31-flash-svg-animation-2026-10-19/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品归原作者，保留原署名、出处与声明。归档不改变原作品权利。",
+    "i18n": {
+      "en": {
+        "title": "MiniMax M3.1 Flash · MiniCode pelican animation",
+        "model": "MiniMax M3.1 Flash",
+        "notes": "The author reports generating the SVG animation with MiniMax M3.1 Flash and MiniCode. The complete six-second video attachment is preserved. The post does not include the SVG code or complete prompt.",
+        "rights": "The work remains creator-owned. Attribution, provenance and notices are retained.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2112134450926739599",
+        "https://video.twimg.com/tweet_video/HU_PE0JaIAAm5hz.mp4",
+        "https://www.eet-china.com/mp/a532504.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "MiniMax M3.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2112134450926739599"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "MiniCode",
+      "sourcePublicationAt": "2026-10-19T10:51:09Z"
+    },
+    "sourcePublicationDate": "2026-10-19"
+  },
+  {
+    "id": "x-statswire-gemini4-carbon-pelican-cruiser-3d-2026-10-23",
+    "originalId": "x-statswire-gemini4-carbon-pelican-cruiser-3d-2026-10-23",
+    "kind": "timeline",
+    "title": "海滨巡航 3D · 骑行与特技",
+    "model": "Gemini 4 Carbon",
+    "author": "Stats Wire (@StatsWire)",
+    "date": "2026-10-23",
+    "month": "2026-10",
+    "notes": "Stats Wire 在 Arena 用 Gemini 4 Carbon 生成程序化 Three.js 骑行场景。原录屏可见骑行特技、鱼食、服装、镜头和光照设置。原帖讨论了画面卡顿和控件布局，Lumeo Labs 随后用同一构想做了独立版本。保留完整原录屏，完整程序与实际提示词未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/StatsWire/status/2113635302485159945",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/2113635302485159945-author-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2113618113665122304/vid/avc1/1920x982/C_plgt8zLat1ZP3P.mp4?tag=29",
+        "sha256": "33271f9be0b3169daee52b6c3f0d514f39a585d511dc4e500c741feaedc163e2",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2113618113665122304/vid/avc1/1920x982/C_plgt8zLat1ZP3P.mp4?tag=29",
+          "sourceSha256": "33271f9be0b3169daee52b6c3f0d514f39a585d511dc4e500c741feaedc163e2",
+          "frameTime": 4,
+          "sha256": "379b1d2951e611cac777c821aa2fe30198fa05d545fb781f400da4bcf3b699ca"
+        },
+        "caption": "作者公开的完整原录屏",
+        "captionEn": "Complete original recording shared by the creator",
+        "poster": "/media/collected/2026-11-10-loop-intake/2113635302485159945-author-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/2113635302485159945-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-statswire-gemini4-carbon-pelican-cruiser-3d-2026-10-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-statswire-gemini4-carbon-pelican-cruiser-3d-2026-10-23/",
+    "markdown": "/specimens/x-statswire-gemini4-carbon-pelican-cruiser-3d-2026-10-23/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留原作者／发布者署名、原帖与原媒体；未查到明确开源许可。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Cruiser 3D · riding and tricks",
+        "model": "Gemini 4 Carbon",
+        "notes": "Stats Wire reports building the procedural Three.js scene with Gemini 4 Carbon in Arena. The recording shows riding tricks, fish snacks, outfit, camera, and lighting controls. Replies discuss choppy playback and the UI. Lumeo Labs then built a separate version from the same idea. The complete recording is retained. The full program and exact prompt were not published.",
+        "rights": "Creator or publisher attribution, the source post, and original media are retained. No explicit open-source license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/StatsWire/status/2113635302485159945",
+        "https://video.twimg.com/amplify_video/2113618113665122304/vid/avc1/1920x982/C_plgt8zLat1ZP3P.mp4?tag=29",
+        "https://x.com/LumeoLab/status/2113647667024695313",
+        "https://x.com/kepochnik/status/2113639114302206302",
+        "https://x.com/Heamanth_alturi/status/2113636814527578424"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Carbon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/StatsWire/status/2113635302485159945"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Arena",
+      "iterationCountKnown": false
+    },
+    "sourcePublicationDate": "2026-10-23",
+    "sourceResponseTimestamp": "2026-10-23T14:15:00Z"
+  },
+  {
+    "id": "x-lumeolab-opus55-procedural-beach-cruiser-3d-2026-10-23",
+    "originalId": "x-lumeolab-opus55-procedural-beach-cruiser-3d-2026-10-23",
+    "kind": "timeline",
+    "title": "海滩上的复古自行车 · Three.js",
+    "model": "Claude Opus 5.5",
+    "author": "Lumeo Labs (@LumeoLab)",
+    "date": "2026-10-23",
+    "month": "2026-10",
+    "notes": "Lumeo Labs 引用 Stats Wire 的 Gemini 4 Carbon 案例，用 Claude Opus 5.5 独立生成单文件 Three.js 版本。作者报告一次提示、约 12 分钟、没有手工修改，补帖公开题面。鱼在车篮里，画面展示一只鹈鹕在海滩上骑车。保留完整原录屏，未取得 HTML。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/LumeoLab/status/2113647667024695313",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "build a 100% procedural 3d pelican riding a vintage beach cruiser in three.js. single html file, no external assets.",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/2113647667024695313-author-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2113647503891456000/vid/avc1/1280x720/kYv6e1hXmBxjV57A.mp4?tag=29",
+        "sha256": "f4621a889578035ef66240674f360ab0928dea8a875817f887c4a91b660fe94d",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2113647503891456000/vid/avc1/1280x720/kYv6e1hXmBxjV57A.mp4?tag=29",
+          "sourceSha256": "f4621a889578035ef66240674f360ab0928dea8a875817f887c4a91b660fe94d",
+          "frameTime": 4,
+          "sha256": "25336c06ef94ef04d2a32ced46d1cdf9783be585560910c78109e3e6fa81c96d"
+        },
+        "caption": "作者公开的完整原录屏",
+        "captionEn": "Complete original recording shared by the creator",
+        "poster": "/media/collected/2026-11-10-loop-intake/2113647667024695313-author-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/2113647667024695313-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-lumeolab-opus55-procedural-beach-cruiser-3d-2026-10-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-lumeolab-opus55-procedural-beach-cruiser-3d-2026-10-23/",
+    "markdown": "/specimens/x-lumeolab-opus55-procedural-beach-cruiser-3d-2026-10-23/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留原作者／发布者署名、原帖与原媒体；未查到明确开源许可。",
+    "i18n": {
+      "en": {
+        "title": "Vintage beach cruiser · Three.js",
+        "model": "Claude Opus 5.5",
+        "notes": "Lumeo Labs used Claude Opus 5.5 to make an independent single-file Three.js version after quoting the Gemini 4 Carbon work by Stats Wire. The author reports one prompt, about 12 minutes, and no manual edits, and shared the brief in a follow-up. The clip shows one pelican riding on a beach with a fish in the basket. The complete recording is preserved. The HTML was not obtained.",
+        "rights": "Creator or publisher attribution, the source post, and original media are retained. No explicit open-source license was found.",
+        "promptStatus": "build a 100% procedural 3d pelican riding a vintage beach cruiser in three.js. single html file, no external assets.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/LumeoLab/status/2113647667024695313",
+        "https://x.com/LumeoLab/status/2114086666071896572",
+        "https://x.com/StatsWire/status/2113635302485159945",
+        "https://video.twimg.com/amplify_video/2113647503891456000/vid/avc1/1280x720/kYv6e1hXmBxjV57A.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/LumeoLab/status/2113647667024695313",
+      "https://x.com/LumeoLab/status/2114086666071896572"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "iterationCountKnown": true,
+      "attempts": 1,
+      "manualEdits": false
+    },
+    "sourcePublicationDate": "2026-10-23",
+    "sourceResponseTimestamp": "2026-10-23T15:04:08Z"
+  },
+  {
+    "id": "linuxdo-2864794-pelican-pedal-2026-09-06",
+    "originalId": "linuxdo-2864794-pelican-pedal-2026-09-06",
+    "kind": "timeline",
+    "title": "鹈鹕踏浪",
+    "model": "GPT-6 Pro",
+    "author": "bandaot（chat01.ai）",
+    "date": "2026-09-06",
+    "month": "2026-09",
+    "notes": "一只骑单车的鹈鹕在三条海岸车道上换道、跳跃、低头，收集小鱼和道具。公开对话记录一次用户提示和生成过程，成品为无需运行依赖的 WebGL 2 网页游戏。作者在原帖回复确认使用 Chat01 的 gpt-6-pro。多位玩家实测指出能反复触发无敌冲刺，作者在同帖回应；另有玩家贴出移动端试玩截图。可到作者原址操作。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/2864794",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "生成 html，一个以鹈鹕骑自行车为主题的 3D 网页跑酷游戏，\n所有中间文件一并保留不要丢弃，最终输出的 HTML 只要编译成单 HTML 即可。\n没有要求和限制，请向我展现你的能力上限，效果越好我越满意。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/pelican-pedal-author-original.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/b/4/1/b41a995d3247669f60b2929fd050f688d9678742.jpeg",
+        "sha256": "7043b13b343bac8e445481c4800f64ca81c162e8e41b9ec2406e05edbe2b7bc9",
+        "caption": "作者原帖发布的完整游戏预览",
+        "captionEn": "Original game preview published in the creator’s post",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/pelican-pedal-author-original.jpeg",
+    "demoUrl": "",
+    "externalUrl": "https://pelican-pedal.zecoba.workers.dev/",
+    "sourceCodeUrl": "https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33",
+    "path": "/specimens/linuxdo-2864794-pelican-pedal-2026-09-06/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-2864794-pelican-pedal-2026-09-06/",
+    "markdown": "/specimens/linuxdo-2864794-pelican-pedal-2026-09-06/index.md",
+    "updated": "2026-11-10",
+    "rights": "作品和预览权利归原作者。此处归档作者公开发布的原预览，并链接作者试玩页及公开生成记录。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Pedal",
+        "model": "GPT-6 Pro",
+        "author": "bandaot (chat01.ai)",
+        "notes": "A cycling pelican switches lanes, jumps, and ducks while collecting fish and power-ups on a 3D coastal road. The public conversation shows one user prompt and the code generation process for the dependency-free WebGL 2 game. The creator confirmed Chat01’s gpt-6-pro in a reply. Several players reported that the invincible dash could be repeatedly activated, and the creator replied in the same thread. Another player shared a mobile screenshot. Play on the creator’s site.",
+        "rights": "The work and preview belong to the creator. This record archives the original preview publicly posted by the creator and links to the creator’s game and public generation record.",
+        "promptStatus": "生成 html，一个以鹈鹕骑自行车为主题的 3D 网页跑酷游戏，\n所有中间文件一并保留不要丢弃，最终输出的 HTML 只要编译成单 HTML 即可。\n没有要求和限制，请向我展现你的能力上限，效果越好我越满意。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/2864794",
+        "https://linux.do/t/topic/2864794/3",
+        "https://linux.do/t/topic/2864794/4",
+        "https://linux.do/t/topic/2864794/5",
+        "https://linux.do/t/topic/2864794/8",
+        "https://linux.do/t/topic/2864794/16",
+        "https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33",
+        "https://cdn3.ldstatic.com/original/4X/b/4/1/b41a995d3247669f60b2929fd050f688d9678742.jpeg",
+        "https://pelican-pedal.zecoba.workers.dev/",
+        "https://files.chat01.ai/python-generations/fae538f0-0b3d-4b18-a635-4ccc24e1c2f6/pelican-pedal-complete-project.zip",
+        "https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10",
+        "https://linux.do/t/topic/2867474/4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://chat01.ai/zh/chat/01M1VJ5K55803V2YK3T2NKTX33",
+      "https://linux.do/t/topic/2864794/16",
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/10"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-09-06",
+    "sourceResponseTimestamp": "2026-09-06T14:32:44.453Z"
+  },
+  {
+    "id": "simon-muse-ember-minimal-2026-11-09",
+    "originalId": "simon-muse-ember-minimal-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - minimal 档鹈鹕骑车",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 minimal 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "minimal",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-minimal-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "0bfd4abfaee55190cd01f3dd8ba74af947b3f5d543e876c29d0e4b05734bc35d",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-minimal-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-minimal-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-minimal-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-minimal-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - minimal effort pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "Simon Willison’s minimal effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "minimal"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:18:29"
+  },
+  {
+    "id": "simon-muse-ember-low-2026-11-09",
+    "originalId": "simon-muse-ember-low-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - low 档鹈鹕骑车",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 low 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-low-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "c8d05ad75a8f84bd955090d351bd74534b229e64ad05dc9fe213bf1df8b1ed4e",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-low-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-low-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-low-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-low-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - low effort pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "Simon Willison’s low effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "low"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:18:36"
+  },
+  {
+    "id": "simon-muse-ember-medium-2026-11-09",
+    "originalId": "simon-muse-ember-medium-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - medium 档鹈鹕骑车",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 medium 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-medium-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "a99c4640739646593b6f9cc44f37690f807c3a8a2f92cb06830b22929deaa540",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-medium-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-medium-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-medium-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-medium-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - medium effort pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "Simon Willison’s medium effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "medium"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:18:43"
+  },
+  {
+    "id": "simon-muse-ember-xhigh-2026-11-09",
+    "originalId": "simon-muse-ember-xhigh-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - xhigh 档鹈鹕骑车",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 xhigh 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-xhigh-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "c2d3271dc29dbcc3b5804b0c2943811d07361a6be9b961ef2ef178d540d66f3b",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 4,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-xhigh-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-xhigh-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-xhigh-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-xhigh-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - xhigh effort pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "Simon Willison’s xhigh effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "xhigh"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:19:05"
+  },
+  {
+    "id": "simon-muse-ember-max-2026-11-09",
+    "originalId": "simon-muse-ember-max-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - max 档鹈鹕骑车",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 max 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-max-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "e76e8d2f2493e1499d5edcb82acd62c6e0d8dbc6c3702ae15b16172aac5e2204",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 5,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-max-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-max-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-max-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-max-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - max effort pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "Simon Willison’s max effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "max"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:19:17"
+  },
+  {
+    "id": "simon-fable-5-2-low-2026-11-09",
+    "originalId": "simon-fable-5-2-low-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 - low 档鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 low 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-low-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "sha256": "5b82c3c02ec414db7b75405833fdd2cf1d24bff9efd90a507098094832744950",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "668e8336e6dc464983dd5ba605a4852cb5e0773ec6d7df6b53aa32b02c8527d4",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-low-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+    "path": "/specimens/simon-fable-5-2-low-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-fable-5-2-low-2026-11-09/",
+    "markdown": "/specimens/simon-fable-5-2-low-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 - low effort pelican riding a bicycle",
+        "model": "Claude Fable 5.2",
+        "notes": "Simon Willison’s low effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+        "https://gist.github.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://api.github.com/gists/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "https://news.ycombinator.com/item?id=50431752"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+      "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "low"
+    },
+    "modelRunGroup": "simon-fable-5-2-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T20:01:06"
+  },
+  {
+    "id": "simon-fable-5-2-medium-2026-11-09",
+    "originalId": "simon-fable-5-2-medium-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 - medium 档鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 medium 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-medium-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "sha256": "920d267da5c8c400bc1894c669d804f46c012f5d61134e2114a7faebd3b66bf7",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "668e8336e6dc464983dd5ba605a4852cb5e0773ec6d7df6b53aa32b02c8527d4",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-medium-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+    "path": "/specimens/simon-fable-5-2-medium-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-fable-5-2-medium-2026-11-09/",
+    "markdown": "/specimens/simon-fable-5-2-medium-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 - medium effort pelican riding a bicycle",
+        "model": "Claude Fable 5.2",
+        "notes": "Simon Willison’s medium effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+        "https://gist.github.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://api.github.com/gists/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "https://news.ycombinator.com/item?id=50431752"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+      "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "medium"
+    },
+    "modelRunGroup": "simon-fable-5-2-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T20:01:21"
+  },
+  {
+    "id": "simon-fable-5-2-high-2026-11-09",
+    "originalId": "simon-fable-5-2-high-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 - high 档鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 high 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-high-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "sha256": "44afa07f6b2e1af9c1465a8cd54e2e12aeffb6c94b6215c8f1b5500fb9d4632d",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "668e8336e6dc464983dd5ba605a4852cb5e0773ec6d7df6b53aa32b02c8527d4",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-high-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+    "path": "/specimens/simon-fable-5-2-high-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-fable-5-2-high-2026-11-09/",
+    "markdown": "/specimens/simon-fable-5-2-high-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 - high effort pelican riding a bicycle",
+        "model": "Claude Fable 5.2",
+        "notes": "Simon Willison’s high effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+        "https://gist.github.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://api.github.com/gists/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "https://news.ycombinator.com/item?id=50431752"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+      "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "high"
+    },
+    "modelRunGroup": "simon-fable-5-2-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T20:36:36"
+  },
+  {
+    "id": "simon-fable-5-2-xhigh-2026-11-09",
+    "originalId": "simon-fable-5-2-xhigh-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 - xhigh 档鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题 xhigh 档静态结果。模型与档位按作者日志记录，SVG 逐字提取自固定版本响应。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-xhigh-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "sha256": "c0b283b5742aea57c33f26abcb484bb611e5e2b42b761ac637c59b4ed9754fa7",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "668e8336e6dc464983dd5ba605a4852cb5e0773ec6d7df6b53aa32b02c8527d4",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "原始静态 SVG",
+        "captionEn": "Original static SVG",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-fable-5-2-xhigh-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+    "path": "/specimens/simon-fable-5-2-xhigh-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-fable-5-2-xhigh-2026-11-09/",
+    "markdown": "/specimens/simon-fable-5-2-xhigh-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 - xhigh effort pelican riding a bicycle",
+        "model": "Claude Fable 5.2",
+        "notes": "Simon Willison’s xhigh effort SVG for the common prompt. Model and effort follow the author’s log. The SVG is extracted verbatim from the pinned response, and dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+        "https://gist.github.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://api.github.com/gists/bcd1a1bf38b929b0bbbae2e38b808e97",
+        "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+        "https://news.ycombinator.com/item?id=50431752"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/bcd1a1bf38b929b0bbbae2e38b808e97/raw/27f08ba8e8a66e7a97975374f365a3aab3eeafb9/pelicans.md",
+      "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "xhigh"
+    },
+    "modelRunGroup": "simon-fable-5-2-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T20:02:38"
+  },
+  {
+    "id": "simon-muse-ember-high-2026-11-09",
+    "originalId": "simon-muse-ember-high-2026-11-09",
+    "kind": "timeline",
+    "title": "Muse Ember 1.0 - high 档鹈鹕骑车动画",
+    "model": "Muse Ember 1.0",
+    "author": "Simon Willison",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "固定版本的 high 档响应含完整 SVG，未使用 Markdown 代码围栏。原作者的对比页未展示这一档。归档原始 SVG，实际播放确认两个车轮旋转及车身起伏。日期为 Gist 的 UTC 公开日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-high-2026-11-09.svg",
+        "source": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "sha256": "cd973bebd39769a2097174ea8bbb03c9067b18e4235da9994c850eb7773db06d",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "c989d3338cf05a07c38d12311ba9405de92d80e9be19a12d1138b6239bcc3e38",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "原始 SMIL SVG 动画",
+        "captionEn": "Original SMIL SVG animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-10-loop-intake/simon-muse-ember-high-2026-11-09.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+    "path": "/specimens/simon-muse-ember-high-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-muse-ember-high-2026-11-09/",
+    "markdown": "/specimens/simon-muse-ember-high-2026-11-09/index.md",
+    "updated": "2026-11-10",
+    "rights": "保留作者署名及出处。作者日志与文章未标明单独的作品开放许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Ember 1.0 - high effort animated pelican riding a bicycle",
+        "model": "Muse Ember 1.0",
+        "notes": "The pinned high-effort response contains a complete SVG outside a Markdown code fence. This level was omitted from the author’s comparison gallery. The original SVG is preserved. Playback confirmed two rotating wheels and a bobbing rider. Dated to the Gist’s UTC publication day.",
+        "rights": "Attribution and original sources are retained. The author’s log and article state no separate open artwork licence.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://gist.github.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://api.github.com/gists/c7666e8a54d84f724ac8121f9fa6cc4d",
+        "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+        "https://news.ycombinator.com/item?id=50429478"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Ember 1.0"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/c7666e8a54d84f724ac8121f9fa6cc4d/raw/1ca05c5cb6936da95d16841de96afeb4ce28520b/muse-ember-pelican-efforts.md",
+      "https://simonwillison.net/2026/Nov/10/muse-ember/"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false,
+      "reasoningEffort": "high"
+    },
+    "modelRunGroup": "simon-muse-ember-2026-11-09",
+    "sourcePublicationDate": "2026-11-09",
+    "sourceResponseTimestamp": "2026-11-09T18:18:53"
   }
 ]

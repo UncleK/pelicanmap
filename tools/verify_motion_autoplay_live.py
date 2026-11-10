@@ -48,8 +48,7 @@ def detail(task):
 def main():
     baseline_catalog=Path(os.environ.get('PELICAN_BASELINE_CATALOG',str(DIR/'before-catalog.json')))
     before=json.loads(baseline_catalog.read_text(encoding='utf8'))
-    # Reviewed intake may append works and renumber chronological display labels,
-    # but must preserve the originals verified at the autoplay release.
+    # Preserve the originals verified at the autoplay release.
     for key in ['cases','timeline']:
         assert LOCAL['counts'][key]>=before['counts'][key]
     assert LOCAL['counts']['referenceRecords']==before['counts']['referenceRecords']

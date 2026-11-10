@@ -134,14 +134,28 @@ class PublicSiteTests(unittest.TestCase):
                 self.assertEqual(frame['src'], item['demoUrl'])
             self.assertNotIn('github-openvglab-opus55', str(soup))
 
-    def test_chronological_case_numbers_and_model_only_footers(self):
+    def test_backfill_preserves_case_numbers_without_reusing_removed_numbers(self):
+        from card_metadata import apply_card_metadata
+        previous = {'items': [
+            {'id': 'first', 'date': '2026-11-01', 'model': 'First', 'caseNumber': 1},
+            {'id': 'removed', 'date': '2026-11-02', 'model': 'Removed', 'caseNumber': 2},
+        ], 'caseNumberHighWaterMark': 3}
+        current = [dict(previous['items'][0]),
+                   {'id': 'backfill', 'date': '2026-10-01', 'model': 'Older'},
+                   {'id': 'reference', 'date': '2026-10-01', 'model': 'Reference', 'referenceOnly': True}]
+        self.assertEqual(apply_card_metadata(current, previous), 4)
+        self.assertEqual([item['caseNumber'] for item in current], [1, 4, None])
+        self.assertEqual(apply_card_metadata(current, {'items': current, 'caseNumberHighWaterMark': 4}), 4)
+
+    def test_stable_case_numbers_and_model_only_footers(self):
         from card_metadata import model_names
         self.assertEqual(model_names('GPT-3.5 → GPT-6 montage'),['GPT-3.5','GPT-6'])
         self.assertEqual(model_names('GPT-5.3 Codex Spark vs Codex'),['GPT-5.3 Codex Spark','Codex'])
         self.assertEqual(model_names('unspecified agent'),[])
         catalogs=[json.loads((OUT/p/'data/catalog.json').read_text(encoding='utf8')) for p in ['', 'en']]
-        cases=sorted(group_records(catalogs[0]['items']),key=lambda x:(x['date'],x['id']))
-        self.assertEqual([x['caseNumber'] for x in cases],list(range(1,len(cases)+1)))
+        numbers=[x['caseNumber'] for x in group_records(catalogs[0]['items'])]
+        self.assertEqual(len(set(numbers)),len(numbers))
+        self.assertTrue(all(type(number) is int and 0 < number <= catalogs[0]['caseNumberHighWaterMark'] for number in numbers))
         self.assertEqual({x['id']:x['caseNumber'] for x in catalogs[0]['items']},{x['id']:x['caseNumber'] for x in catalogs[1]['items']})
         samples=[x for x in catalogs[0]['items'] if x.get('batch')]
         self.assertEqual(len({x['caseNumber'] for x in samples}),1)

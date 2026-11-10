@@ -33,8 +33,10 @@ def get(url):
 catalog = json.loads(get(BASE+'/data/catalog.json')[0])
 local = json.loads((ROOT/'site/catalog.json').read_text(encoding='utf8'))
 assert {x['id'] for x in catalog['items']} == {x['id'] for x in local['items']}
-ordered=sorted(group_records(catalog['items']),key=lambda x:(x['date'],x['id']))
-assert [x['caseNumber'] for x in ordered]==list(range(1,catalog['counts']['cases']+1))
+assert {x['id']:x['caseNumber'] for x in catalog['items']} == {x['id']:x['caseNumber'] for x in local['items']}
+numbers={x['caseNumber'] for x in group_records(catalog['items'])}
+assert len(numbers)==catalog['counts']['cases']
+assert all(type(n) is int and 0 < n <= catalog['caseNumberHighWaterMark'] for n in numbers)
 assert len({x['caseNumber'] for x in catalog['items'] if x.get('batch')})==1
 play_ids = set()
 for prefix in ['', '/en']:
@@ -128,4 +130,4 @@ for url in {x['demoUrl'] for x in catalog['items'] if x.get('interactive')}:
     assert b'<html' in content.lower()
 assert len(play_ids)==5,'Four legacy demos plus one verified restored interactive work'
 assert 'variora-gemini-3-8-flash-2026-09-20' in play_ids
-print(json.dumps({'cases': catalog['counts']['cases'], 'raw_records': len(catalog['items']), 'reference_records': catalog['counts']['referenceRecords'], 'benchmark_rows': len(reference['rows']), 'timeline': catalog['counts']['timeline'], 'playable_demos': len(play_ids), 'archived_media_byte_identical': len(media), 'bilingual_browse_and_local_iframes': 'passed', 'chronological_numbers_and_card_regions': 'passed'}))
+print(json.dumps({'cases': catalog['counts']['cases'], 'raw_records': len(catalog['items']), 'reference_records': catalog['counts']['referenceRecords'], 'benchmark_rows': len(reference['rows']), 'timeline': catalog['counts']['timeline'], 'playable_demos': len(play_ids), 'archived_media_byte_identical': len(media), 'bilingual_browse_and_local_iframes': 'passed', 'stable_numbers_and_card_regions': 'passed'}))

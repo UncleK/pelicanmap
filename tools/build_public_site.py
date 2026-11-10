@@ -338,8 +338,11 @@ def detail(item, items):
     if item['id']==HISTORY_ID:md+=historical_markdown()
     dump(OUT/item['markdown'].lstrip('/'),md+'\n')
 
-def build(items=None,prepare=True):
+def build(items=None,prepare=True,prior_catalog=None):
     PAGES.clear()
+    if prior_catalog is None:
+        previous_path = ROOT/'site/catalog.json'
+        prior_catalog = json.loads(previous_path.read_text(encoding='utf8')) if previous_path.exists() else {}
     if prepare:prepare_assets()
     if items is None:
         items=[normalize(r,kind) for kind in ['gallery','timeline'] for r in DATA[kind]]
@@ -353,7 +356,7 @@ def build(items=None,prepare=True):
     items=apply_demo_policy(items)
     items=apply_batches(items)
     items=apply_case_policy(items,OUT)
-    items=apply_card_metadata(items)
+    last_case_number=apply_card_metadata(items, prior_catalog)
     items=apply_model_chronology(items)
     items=apply_motion_previews(items,OUT)
     items=apply_detail_frames(items,OUT)
@@ -424,7 +427,7 @@ def build(items=None,prepare=True):
     archives=[x for x in items if not is_case(x) and not x.get('referenceOnly')]
     archive_body=top('原帖合集与来源存档','已拆分的合集、转载和归属待核对资料保留在这里，不重复计作品数。')+'<ul>'+''.join('<li>'+link(x['path'],x['date']+' · '+x['title'])+'</li>' for x in archives)+'</ul>'
     page('/collections/source-records/','原帖合集与来源存档','完整原帖和未计数资料。',archive_body,nav='/sources/')
-    build_machine_data(items)
+    build_machine_data(items, last_case_number)
     page('/404.html','页面未找到','页面地址可能有误，或馆藏目录已经调整。',top('这份标本不在这里','页面地址可能有误，或馆藏目录已经调整。')+'<p><a class="button" href="/specimens/">返回馆藏</a></p>',noindex=True)
     dump(OUT/'robots.txt',f'User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /mcp\nDisallow: /_download-parts/\n\nSitemap: {BASE}/sitemap.xml\n')
     if not BUILD_CACHE:dump(OUT/'sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}{e(p)}</loc><lastmod>{UPDATED}</lastmod></url>' for p in PAGES)+'</urlset>')
@@ -505,11 +508,12 @@ def build_sources(items):
     page('/sources/','资料与来源','原始仓库、演示与 Simon Willison 的鹈鹕骑车实验来历。',render(DATA,[x for x in items if not x.get('referenceOnly')]),nav='/sources/')
 
 
-def build_machine_data(items):
+def build_machine_data(items, last_case_number):
     catalog={'version':CATALOG_VERSION,'updated':UPDATED,'site':BASE,'counts':dict(COUNTS),'countingNote':'counts.cases 是独立作品数（各档位分别计）；counts.timeline 是全部已收常规作品数（衍生单列），与作品数不相加。caseVisible=false 的合集/转载/待核对资料和 referenceOnly 评分不进入主列表、总数、编号或默认 API。timelineVisible 控制时间线；kind 是历史来源分类。完整 items 保留旧档案及原图，不能按 items.length 计算案例数。','collectingPolicy':'/data/collecting-policy.json','benchmarkUrl':'/tags/benchmark/','benchmarkDataUrl':'/data/benchmark.json','items':items}
     jdump(OUT/'data/collecting-policy.json',json.loads((ROOT/'site/collecting-policy.json').read_text(encoding='utf8')))
     catalog['timelineSortBasis']='model-release'
     catalog['worksSortBasis']='artwork-date'
+    catalog['caseNumberHighWaterMark']=last_case_number
     catalog['modelReleaseRegistry']='/data/model-releases.json'
     jdump(OUT/'data/model-releases.json',json.loads((ROOT/'site/model-releases.json').read_text(encoding='utf8')))
     jdump(OUT/'data/catalog.json',catalog)
