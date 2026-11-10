@@ -38,6 +38,27 @@ test('a reviewed Tihu sample imports as a reference and rejects a changed run id
     assert.throws(()=>validateCandidate(invalid),/Benchmark classification/);
 });
 
+test('revised Tihu artifacts retain their official date and exact reviewed revision',()=>{
+  const day='2026-10-11',slug='claude-opus-5-5',effort='medium',revision='r-4e01d53777fb4004b1da00a1390351d0';
+  const url=`https://art.tihu.app/${day}/${slug}/${effort}/${revision}/2.svg`;
+  const registry=JSON.parse(readFileSync(new URL('./reviewed_source_assets.json',import.meta.url),'utf8'));
+  const reviewed=registry.find(row=>row.url===url);
+  const {sourceUrl,model}=reviewed.bindings[0];
+  const id=`tihu-${day}-${slug}-${effort}-2`;
+  const c={...sample(),id,sourceUrl,model,date:day,referenceOnly:true,benchmarkCollection:`tihu-${day}`,
+    evidence:[sourceUrl,url],datasetSample:{id,model,effort,sample:2},
+    generationConditions:{sourceArtifactRevision:revision},
+    media:[{url,filename:`${id}.svg`,sha256:reviewed.sha256,
+      reviewedSourceAsset:{path:reviewed.path,sha256:reviewed.sha256}}]};
+  assert.doesNotThrow(()=>validateCandidate(c));
+  for(const mutate of [x=>delete x.generationConditions.sourceArtifactRevision,
+    x=>x.generationConditions.sourceArtifactRevision='..',x=>x.media[0].sha256='0'.repeat(64),
+    x=>x.date='2026-10-14']){
+    const bad=structuredClone(c);mutate(bad);
+    assert.throws(()=>validateCandidate(bad),/Benchmark classification/);
+  }
+});
+
 test('Arena iframe intake is restricted to the reviewed full Astralyn document',()=>{
   const sourceUrl='https://linux.do/t/topic/3056564/14';
   const c={...sample(),sourceUrl,model:'Kibitz',format:'animation',evidence:[sourceUrl,ASTRALYN_ARENA_URL],media:[{

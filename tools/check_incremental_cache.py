@@ -11,6 +11,8 @@ from check_delta_release import check_live_bytes
 BASE = 'https://pelicanmap.aveniqa.com'
 ENTRIES = ('index.html', 'en/index.html', 'data/catalog.json', 'en/data/catalog.json',
            'data/catalog.csv', 'en/data/catalog.csv', 'llms.txt', 'en/llms.txt',
+           'ru/data/catalog.json', 'ru/data/catalog.csv',
+           'pt-BR/data/catalog.json', 'pt-BR/data/catalog.csv',
            'index.md', 'en/index.md', 'openapi.json', 'feed.xml', 'en/feed.xml', 'sitemap.xml')
 
 

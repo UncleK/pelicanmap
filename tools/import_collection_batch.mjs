@@ -166,11 +166,16 @@ export function validateCandidate(c) {
   if (tihu || c.referenceOnly || c.benchmarkCollection) {
     const [, day, slug, effort, number] = tihu || [];
     const sample = c.datasetSample;
+    const revision = c.generationConditions?.sourceArtifactRevision;
+    const media = c.media[0];
+    const artifactPath = `${day}/${slug}/${effort}/${revision ? revision+'/' : ''}${number}.svg`;
     if (!tihu || c.referenceOnly !== true || c.benchmarkCollection !== `tihu-${day}` ||
         c.id !== `tihu-${day}-${slug}-${effort}-${number}` || c.date !== day ||
-        c.format !== (c.media[0].allowAnimation === true ? 'animation' : 'svg') ||
-        c.media.length !== 1 || c.media[0].url !== `https://art.tihu.app/${day}/${slug}/${effort}/${number}.svg` ||
-        !c.media[0].filename.endsWith('.svg') || !c.media[0].reviewedSourceAsset ||
+        c.format !== (media.allowAnimation === true ? 'animation' : 'svg') ||
+        c.media.length !== 1 || media.url !== `https://art.tihu.app/${artifactPath}` ||
+        !media.filename.endsWith('.svg') || !media.reviewedSourceAsset ||
+        (revision !== undefined && (!/^r-[a-f0-9]{32}$/.test(revision) ||
+          media.sha256 !== media.reviewedSourceAsset.sha256)) ||
         sample?.id !== c.id || sample.model !== c.model || sample.effort !== effort || sample.sample !== Number(number))
       throw Error('Tihu samples require an exact reviewed source binding and Benchmark classification');
   }

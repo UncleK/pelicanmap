@@ -1,7 +1,14 @@
 {
-  "version": "2026-10-06-batch-collection-v2",
+  "version": "2026-11-10-lifecycle-collection-v3",
   "unit": "one source-attributed model output at one documented time",
   "dateRange": "all source-established dates",
+  "coverage": {
+    "priority": "early baselines, model releases and settings, documented iterations, and identifiable public failures",
+    "appearanceIsAdmissionCriterion": false,
+    "prioritizeSubstantivePublicDiscussion": true,
+    "noOutput": "preserve source evidence and classify as a Benchmark reference or pending research when no displayable original is available",
+    "publicCaseNumbers": "keep existing assignments when backfilling historical works"
+  },
   "allMediaTypes": true,
   "generationScope": {
     "focus": "source-reviewed LLM code-generated works",
@@ -47,7 +54,7 @@
       "safety"
     ],
     "releaseChecksRequired": true,
-    "readySubsetPolicy": "accumulate verified subsets across two-hour collection runs; consolidate all ready unique works in the first daily run after 20:00 Asia/Shanghai, with one complete release/check cycle; unresolved candidates do not block the daily verified batch; no minimum artwork quota and no per-batch approval",
+    "readySubsetPolicy": "consolidate verified subsets at the end of each collection run. Unresolved candidates do not delay the verified batch. No minimum artwork quota and no per-batch approval",
     "scopeExpansion": "outside the existing pelican all-date, all-presentation-media code-generation scope requires user direction"
   },
   "restrictedRetrievalFallback": {
@@ -100,13 +107,15 @@
   "upstreamScoreDisclaimer": "上游输出，非本馆排名",
   "modelClaimStatus": "source-reported-not-independently-authenticated",
   "collectionBatching": {
-    "collectionIntervalHours": 2,
+    "collectionIntervalHours": 1,
     "publicationTimezone": "Asia/Shanghai",
-    "publicationAfterLocalTime": "20:00",
-    "successfulConsolidatedReleasesPerLocalDay": 1,
+    "publicationAfterLocalTime": null,
+    "successfulConsolidatedReleasesPerLocalDay": null,
+    "successfulConsolidatedReleasesPerRun": 1,
     "pendingIndex": "maintenance/collection-pending.json",
     "deduplicationScope": "published catalog plus all pending reviewed outputs",
-    "ordinaryCollectionRunsBuildOrDeploy": false,
+    "ordinaryCollectionRunsBuildOrDeploy": true,
+    "buildOnlyWithVerifiedChanges": true,
     "allReleaseChecksPreserved": true,
     "minimumWorkQuota": null
   },
