@@ -107,7 +107,7 @@
   "upstreamScoreDisclaimer": "上游输出，非本馆排名",
   "modelClaimStatus": "source-reported-not-independently-authenticated",
   "collectionBatching": {
-    "collectionIntervalHours": 1,
+    "collectionIntervalHours": 24,
     "publicationTimezone": "Asia/Shanghai",
     "publicationAfterLocalTime": null,
     "successfulConsolidatedReleasesPerLocalDay": null,

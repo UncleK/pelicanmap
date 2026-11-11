@@ -319693,5 +319693,1605 @@
       }
     },
     "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "x-leo114119-qwen-4-preview-qoder-pelican-bicycle-2026-11-11",
+    "originalId": "x-leo114119-qwen-4-preview-qoder-pelican-bicycle-2026-11-11",
+    "kind": "timeline",
+    "title": "Qwen 4 Preview · 骑车与鹈鹕的 SVG 动画",
+    "model": "Qwen 4 Preview",
+    "author": "Leo · Building w/ AI (@leo114119)",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "Leo 用 Qoder 驱动 Qwen 4 Preview 生成鹈鹕骑自行车的 SVG 动画，并录下约 16 秒的成品。画面里鹈鹕与自行车的关系是倒置的，成了鹈鹕扛着车，馆藏如实保留这一缺陷。作者评价它与此前的 Qoduck 几乎没有区别，并认为 SVG 动画不是 Qwen 4 的强项。逐条提示词原帖未给出。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/leo114119/status/2120353514337812551",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-grok-round1/leo114119-qwen-4-preview-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2120353318543249409/vid/avc1/1576x808/z_8cchJ9Rvb_m12Z.mp4",
+        "sha256": "13a1b61fe77788bd12d61b9eb933a2af6346adcd417d1d368dd929655c25d01a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2120353318543249409/vid/avc1/1576x808/z_8cchJ9Rvb_m12Z.mp4",
+          "sourceSha256": "13a1b61fe77788bd12d61b9eb933a2af6346adcd417d1d368dd929655c25d01a",
+          "frameTime": 1,
+          "sha256": "8ff6803e8f23a4d91ca79f949a98288f7b6ac576055237640803044d7e084128"
+        },
+        "caption": "作者原帖完整视频",
+        "captionEn": "Complete video from the original post",
+        "poster": "/media/collected/2026-11-11-grok-round1/leo114119-qwen-4-preview-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-grok-round1/leo114119-qwen-4-preview-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-leo114119-qwen-4-preview-qoder-pelican-bicycle-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-leo114119-qwen-4-preview-qoder-pelican-bicycle-2026-11-11/",
+    "markdown": "/specimens/x-leo114119-qwen-4-preview-qoder-pelican-bicycle-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "视频由 Leo 在 X 原帖发布，完整保留出处。型号与工具由作者在帖中说明，馆藏未独立验证。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 4 Preview · SVG animation of a pelican and a bicycle",
+        "model": "Qwen 4 Preview",
+        "notes": "Leo used Qoder to drive Qwen 4 Preview to generate an SVG animation of a pelican and a bicycle, and recorded the roughly 16-second result. The relationship is inverted, with the pelican carrying the bike. The archive keeps that defect as it is. The author found it nearly identical to the earlier Qoduck output and judged SVG animation not to be a strength of Qwen 4. The exact prompt is not given in the post.",
+        "rights": "Video published by Leo in the original X post, with the source retained. The model and tool are reported by the author and have not been independently verified.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/leo114119/status/2120353514337812551",
+        "https://video.twimg.com/amplify_video/2120353318543249409/vid/avc1/1576x808/z_8cchJ9Rvb_m12Z.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 4 Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/leo114119/status/2120353514337812551"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Qoder",
+      "sourceMetadata": {
+        "sourcePublishedAt": "2026-11-11T03:10:46Z"
+      }
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "x-fxmqs-fable-5-2-seaside-pier-3d-pelican-2026-11-11",
+    "originalId": "x-fxmqs-fable-5-2-seaside-pier-3d-pelican-2026-11-11",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 · 海边栈道的 3D 鹈鹕骑行",
+    "model": "Claude Fable 5.2",
+    "author": "风雪漫千山 (@fxmqs)",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "风雪漫千山用一句话提示词让 Fable 5.2 写出鹈鹕骑车的 3D HTML 单页，并按分镜录成 20 秒视频：白天栈道骑行、镜头环绕、车速升到 28 公里每小时并出现码表读数、按铃、两次切换视角，最后转入有月亮和路灯的夜景。馆藏保留作者原帖的完整视频。作者自评效果普通。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/fxmqs/status/2120415160502456755",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个鹈鹕骑车的3D html单页，给我录个20秒左右的视频！视频内容：0–2.5 秒：白天海边栈道，鹈鹕正常骑行。2.5–6 秒：镜头缓慢绕着鹈鹕转。6.5 秒起：车速提到 28 km/h，围巾飘起，码表数字上升。9.5 秒：按铃，鹈鹕张嘴。11.5 秒和 14 秒：切换两次视角。16.5 秒起：切到夜景，月亮、路灯和车灯亮起。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-grok-round1/fxmqs-fable-5-2-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2120414986963177472/vid/avc1/1280x720/d5XXL2W5IhHO8DT6.mp4",
+        "sha256": "14841252fd985bbe514f8e6c27502b1687094c2df39846bdbb9ebdb09139c5e2",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2120414986963177472/vid/avc1/1280x720/d5XXL2W5IhHO8DT6.mp4",
+          "sourceSha256": "14841252fd985bbe514f8e6c27502b1687094c2df39846bdbb9ebdb09139c5e2",
+          "frameTime": 1,
+          "sha256": "9de650363c78cb800c543360259d06a0e4f581c5ea087ef96505708b3fadedae"
+        },
+        "caption": "作者原帖完整视频",
+        "captionEn": "Complete video from the original post",
+        "poster": "/media/collected/2026-11-11-grok-round1/fxmqs-fable-5-2-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-grok-round1/fxmqs-fable-5-2-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-fxmqs-fable-5-2-seaside-pier-3d-pelican-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-fxmqs-fable-5-2-seaside-pier-3d-pelican-2026-11-11/",
+    "markdown": "/specimens/x-fxmqs-fable-5-2-seaside-pier-3d-pelican-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "视频由 风雪漫千山 在 X 原帖发布，完整保留出处。型号由作者在帖中说明，馆藏未独立验证。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 · 3D pelican ride on a seaside boardwalk",
+        "model": "Claude Fable 5.2",
+        "notes": "风雪漫千山 gave Fable 5.2 a one-line prompt to build a 3D HTML page of a pelican riding a bicycle, then recorded a 20-second video to a shot list: a daytime boardwalk ride, an orbiting camera, speed rising to 28 km/h with a speedometer readout, a bell ring, two view changes and a switch to a night scene with moon and lamps. The full video from the original post is retained. The author rated the result as unremarkable.",
+        "rights": "Video published by 风雪漫千山 in the original X post, with the source retained. The model name is reported by the author and has not been independently verified.",
+        "promptStatus": "创建一个鹈鹕骑车的3D html单页，给我录个20秒左右的视频！视频内容：0–2.5 秒：白天海边栈道，鹈鹕正常骑行。2.5–6 秒：镜头缓慢绕着鹈鹕转。6.5 秒起：车速提到 28 km/h，围巾飘起，码表数字上升。9.5 秒：按铃，鹈鹕张嘴。11.5 秒和 14 秒：切换两次视角。16.5 秒起：切到夜景，月亮、路灯和车灯亮起。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/fxmqs/status/2120415160502456755",
+        "https://video.twimg.com/amplify_video/2120414986963177472/vid/avc1/1280x720/d5XXL2W5IhHO8DT6.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/fxmqs/status/2120415160502456755"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "HTML single page",
+      "sourceMetadata": {
+        "sourcePublishedAt": "2026-11-11T07:15:44Z"
+      }
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11",
+    "originalId": "web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11",
+    "kind": "timeline",
+    "title": "ERNIE 5.5 Flash Preview · 鹈鹕测试：116 秒穿越 20 种画风",
+    "model": "ERNIE 5.5 Flash Preview",
+    "author": "百度文心 ERNIE 团队",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "百度在 ERNIE 5.5 Flash Preview 发布页公布的作品：模型在智能体环境里用 Python 从零写出一部 116 秒的 2D 动画短片，全部由一万多行代码驱动。一只白鹈鹕骑着自行车，从公元前 4000 年的撒哈拉岩画一路骑到大模型时代的代码编辑器，途中变成汉代石刻拓片、爪哇皮影、示波器曲线和 8 位像素画，最后抵达“鹈鹕 #21 发布会”。每帧用 Pycairo 矢量绘制，再经 NumPy 与 Pillow 后期处理；配乐选自 22 段录音，由模型自己写的剪辑脚本对齐场景切换。三个场景的静态背景调用了图像生成工具，人物与花瓣、水波等动态由代码叠加。创意设计来自哔哩哔哩创作者 @近步抱告_。馆藏保留百度员工在 X 上发布的 720p 完整视频及音轨，官方原片地址已记录。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-grok-round1/baidu-ernie-pelican-test-720p.mp4",
+        "source": "https://video.twimg.com/amplify_video/2120434283051667456/vid/avc1/1280x720/lT73NERphFlAVD93.mp4",
+        "sha256": "e01344c0f82917e933f22ec7ae95370b3c07c1aea4b6764dec43bc469aaf9217",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2120434283051667456/vid/avc1/1280x720/lT73NERphFlAVD93.mp4",
+          "sourceSha256": "e01344c0f82917e933f22ec7ae95370b3c07c1aea4b6764dec43bc469aaf9217",
+          "frameTime": 1,
+          "sha256": "52dbdb366f75d1e1acee7d7e018d020029eb38dee9157b1fbb07067f4d822388"
+        },
+        "caption": "官方线程 720p 完整视频，保留音轨",
+        "captionEn": "Complete 720p video and audio from the official thread",
+        "poster": "/media/collected/2026-11-11-grok-round1/baidu-ernie-pelican-test-720p-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-grok-round1/baidu-ernie-pelican-test-720p-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11/",
+    "markdown": "/specimens/web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "作品及说明来自百度 ERNIE 官方发布页，完整保留出处；视频取自百度 ERNIE 传播团队成员在 X 发布的官方线程。配乐选段与图像生成素材的外部来源以发布页说明为准。馆藏仅作研究与存档展示。",
+    "i18n": {
+      "en": {
+        "title": "ERNIE 5.5 Flash Preview · The Pelican Test: 116 seconds through 20 art styles",
+        "model": "ERNIE 5.5 Flash Preview",
+        "author": "Baidu ERNIE team",
+        "notes": "Work published by Baidu on the ERNIE 5.5 Flash Preview release page. The model wrote a 116-second 2D animated short from scratch in Python inside an agent harness, driven by more than 10,000 lines of code. A white pelican rides a bicycle from Saharan rock art of 4000 BCE to a code editor in the age of large language models, turning into a Han dynasty stone rubbing, a Javanese shadow puppet, an oscilloscope trace and 8-bit pixel art on the way, and arriving at the Pelican #21 Launch Event. Each frame is vector-drawn with Pycairo and post-processed with NumPy and Pillow. The soundtrack uses 22 recordings cut to the scene changes by an editing script the model wrote. For three scenes the model called an image generation tool for static backgrounds, then animated figures, petals and water over them in code. Concept design by Bilibili creator @近步抱告_. The archive retains the 720p full video and audio posted on X by a Baidu staff account. The official original file address is recorded.",
+        "rights": "Work and description come from Baidu's official ERNIE release page, with the source retained in full. The video is taken from the official thread posted on X by a member of Baidu's ERNIE communications team. External sources for soundtrack clips and image-generation material are as stated on the release page. Shown for research and archival purposes.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+        "https://x.com/CatherineQMLYT/status/2120434916370616826",
+        "https://x.com/Baidu_Inc/status/2120391732248637734",
+        "https://ernie-blog.cdn.bcebos.com/research-assets/ernie-5-5-flash-preview/originals/pelican-test-animation-original.1ec41fa06fbe.mp4",
+        "https://video.twimg.com/amplify_video/2120434283051667456/vid/avc1/1280x720/lT73NERphFlAVD93.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "ERNIE 5.5 Flash Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "https://x.com/CatherineQMLYT/status/2120434916370616826"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Python / Pycairo / NumPy / Pillow / FFmpeg, agent harness",
+      "sourceMetadata": {
+        "releasePageDate": "2026-11-11",
+        "xPostPublishedAt": "2026-11-11T08:34:14Z",
+        "durationSeconds": 116,
+        "artStyles": 20,
+        "officialOriginalSha256": "1ec41fa06fbe1ee33d74b385cc57ec50c6d5dce7d55abe303d7a7cfd168a22d2"
+      }
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "x-xiangxiang103-qwen4-max-preview-interactive-pelican-2026-11-11",
+    "originalId": "x-xiangxiang103-qwen4-max-preview-interactive-pelican-2026-11-11",
+    "kind": "timeline",
+    "title": "Qwen4-Max-Preview · 鹈鹕骑车交互网页",
+    "model": "Qwen4-Max-Preview",
+    "author": "雨哥向前冲 (@xiangxiang103)",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "雨哥向前冲在 Qoder 首发预览当天，只给 Qwen4-Max-Preview 一句经典题：生成鹈鹕骑自行车的动画 SVG。模型没有只画一张图，而是交出一个完整的交互网页。视频录下 Qoder 里的对话与生成的页面操作过程，共约两分钟。馆藏保留作者原帖的 1080p 完整视频及音轨。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiangxiang103/status/2120414419230605560",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-grok-round1/xiangxiang103-qwen4-max-preview-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2120411088886050816/vid/avc1/1652x1080/OVnOi2dQL0s9wEZd.mp4",
+        "sha256": "c9a0c3fea0f23139820c2c02a7f746ef6b3e38d8a264d068a7450dec0ab527f0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2120411088886050816/vid/avc1/1652x1080/OVnOi2dQL0s9wEZd.mp4",
+          "sourceSha256": "c9a0c3fea0f23139820c2c02a7f746ef6b3e38d8a264d068a7450dec0ab527f0",
+          "frameTime": 1,
+          "sha256": "4b0f4d6004a14013c8fc3f4343f45b0ed488e3f6a82c51c995547565d73e00db"
+        },
+        "caption": "作者原帖 1080p 完整视频，保留音轨",
+        "captionEn": "Complete 1080p video and audio from the original post",
+        "poster": "/media/collected/2026-11-11-grok-round1/xiangxiang103-qwen4-max-preview-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-grok-round1/xiangxiang103-qwen4-max-preview-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiangxiang103-qwen4-max-preview-interactive-pelican-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiangxiang103-qwen4-max-preview-interactive-pelican-2026-11-11/",
+    "markdown": "/specimens/x-xiangxiang103-qwen4-max-preview-interactive-pelican-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "视频由 雨哥向前冲 在 X 原帖发布，完整保留出处。型号由作者在帖中说明，馆藏未独立验证。",
+    "i18n": {
+      "en": {
+        "title": "Qwen4-Max-Preview · Interactive pelican-on-a-bicycle page",
+        "model": "Qwen4-Max-Preview",
+        "notes": "On the day Qoder opened its Qwen4-Max-Preview preview, 雨哥向前冲 gave the model only the classic prompt: an animated SVG of a pelican riding a bicycle. The model did not stop at a drawing and returned a complete interactive web page. The roughly two-minute video records the Qoder conversation and the generated page in use. The full 1080p video and audio from the original post are retained.",
+        "rights": "Video published by 雨哥向前冲 in the original X post, with the source retained. The model name is reported by the author and has not been independently verified.",
+        "promptStatus": "Generate an animated SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiangxiang103/status/2120414419230605560",
+        "https://video.twimg.com/amplify_video/2120411088886050816/vid/avc1/1652x1080/OVnOi2dQL0s9wEZd.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4-Max-Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiangxiang103/status/2120414419230605560"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Qoder",
+      "sourceMetadata": {
+        "sourcePublishedAt": "2026-11-11T07:12:47Z"
+      }
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10",
+    "originalId": "x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10",
+    "kind": "timeline",
+    "title": "Gemini 4 Carbon · 鹈鹕大冒险：山景城园区 3D 游戏",
+    "model": "Gemini 4 Carbon",
+    "author": "Sundar Pichai (@sundarpichai)",
+    "date": "2026-11-10",
+    "month": "2026-11",
+    "notes": "Sundar Pichai 在 X 上公布的演示：Gemini 4 Carbon 借助 Antigravity 的 /swarm，由建造者与评审子智能体反复迭代，用 Blender 与 Three.js 写出一款可玩的 3D 浏览器游戏。玩家扮成骑着 GBike 的鹈鹕，在谷歌山景城园区里自由骑行。馆藏保留作者原帖的 1080p 完整视频及音轨。游戏源代码未公开，因此不提供试玩入口。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/sundarpichai/status/2120198811297694192",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-grok-round1/sundarpichai-pelican-quest-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2120196803442384898/vid/avc1/1918x1080/35pxz0LWOfNsSKB-.mp4",
+        "sha256": "3bab2dbab6a303e8aadb5d31069b99e288e64720fc33cfc99aaee49218dfe719",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2120196803442384898/vid/avc1/1918x1080/35pxz0LWOfNsSKB-.mp4",
+          "sourceSha256": "3bab2dbab6a303e8aadb5d31069b99e288e64720fc33cfc99aaee49218dfe719",
+          "frameTime": 1,
+          "sha256": "d02e162a5652d5727d5449c9d866fd4dcbb0b787c7fba02b3d9749a873cd8fa5"
+        },
+        "caption": "作者原帖 1080p 完整视频，保留音轨",
+        "captionEn": "Complete 1080p video and audio from the original post",
+        "poster": "/media/collected/2026-11-11-grok-round1/sundarpichai-pelican-quest-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-grok-round1/sundarpichai-pelican-quest-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10/",
+    "markdown": "/specimens/x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10/index.md",
+    "updated": "2026-11-11",
+    "rights": "视频由 Sundar Pichai 在 X 原帖发布，完整保留出处。Google 官方账号随后发布同一演示并说明由 Gemini 4 Carbon 与 /swarm 构建。馆藏仅作研究与存档展示。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Carbon · Pelican Quest: a 3D Mountain View campus game",
+        "model": "Gemini 4 Carbon",
+        "notes": "Demo published by Sundar Pichai on X. Gemini 4 Carbon, working through Antigravity's /swarm with builder and critic subagents iterating in loops, wrote a playable 3D browser game in Blender and Three.js. The player rides a GBike as a pelican around Google's Mountain View campus. The full 1080p video and audio from the original post are retained. The game's source code is not public, so no play link is offered.",
+        "rights": "Video published by Sundar Pichai in the original X post, with the source retained. The official Google account later posted the same demo and stated it was built with Gemini 4 Carbon and /swarm. Shown for research and archival purposes.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/sundarpichai/status/2120198811297694192",
+        "https://x.com/Google/status/2120260356413051147",
+        "https://video.twimg.com/amplify_video/2120196803442384898/vid/avc1/1918x1080/35pxz0LWOfNsSKB-.mp4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Carbon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/sundarpichai/status/2120198811297694192",
+      "https://x.com/Google/status/2120260356413051147"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Google Antigravity /swarm / Blender / Three.js",
+      "sourceMetadata": {
+        "sourcePublishedAt": "2026-11-10T16:56:02Z",
+        "officialPostPublishedAt": "2026-11-10T21:00:36Z"
+      }
+    },
+    "sourcePublicationDate": "2026-11-10"
+  },
+  {
+    "id": "nvidia-nysso-qwen38-flash-next-autoround-2026-09-01",
+    "originalId": "nvidia-nysso-qwen38-flash-next-autoround-2026-09-01",
+    "kind": "timeline",
+    "title": "Qwen3.8-Flash-Next AutoRound hybrid · 鹈鹕骑车",
+    "model": "Qwen3.8-Flash-Next",
+    "author": "Nysso",
+    "date": "2026-09-01",
+    "month": "2026-09",
+    "notes": "作者在验证 Intel W4A16 AutoRound 混合量化配方后用 Claude 作客户端运行 SVG 题，耗时 4 分 11 秒。作者称模型自行测试并重做了几次。保留完整原 PNG，原 SVG 未找到。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://forums.developer.nvidia.com/t/qwen3-8-flash-next-recipe-for-1x-gb10-at-mtp-3-c-1-code-is-47-5t-s-json-is-60t-s-prefix-cache-ok-intel-autoround-int4-quant/381932/4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "AutoRound hybrid",
+    "promptCategory": "classic",
+    "promptStatus": "create svg picture of pelican riding on bike, save as f_pelican",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/nysso-author-original.png",
+        "source": "https://global.discourse-cdn.com/nvidia/original/4X/0/d/a/0dae364d0b2868083ed9b8a5c049c643f79f118a.png",
+        "sha256": "c9181243c1c0cf628d1c2be87b71ccf8ad7cb1e8c50732ab7739bc7a6b3b857e",
+        "caption": "发布者上传的完整原渲染图",
+        "captionEn": "Full original render uploaded by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/nysso-author-original.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/nvidia-nysso-qwen38-flash-next-autoround-2026-09-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nvidia-nysso-qwen38-flash-next-autoround-2026-09-01/",
+    "markdown": "/specimens/nvidia-nysso-qwen38-flash-next-autoround-2026-09-01/index.md",
+    "updated": "2026-11-11",
+    "rights": "保存发布者公开上传的渲染图及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3.8-Flash-Next AutoRound hybrid · Pelican on a bicycle",
+        "model": "Qwen3.8-Flash-Next",
+        "notes": "After confirming the Intel W4A16 AutoRound hybrid recipe worked, the author used Claude as the harness for this SVG task. It took 4m 11s and the model recreated the image after its own tests. The complete original PNG is preserved. The raw SVG was not located.",
+        "rights": "The uploader’s public render is preserved with its source and attribution. No separate artwork license was located.",
+        "promptStatus": "create svg picture of pelican riding on bike, save as f_pelican",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://forums.developer.nvidia.com/t/qwen3-8-flash-next-recipe-for-1x-gb10-at-mtp-3-c-1-code-is-47-5t-s-json-is-60t-s-prefix-cache-ok-intel-autoround-int4-quant/381932/4",
+        "https://global.discourse-cdn.com/nvidia/original/4X/0/d/a/0dae364d0b2868083ed9b8a5c049c643f79f118a.png",
+        "https://forums.developer.nvidia.com/posts/1857116.json",
+        "https://forums.developer.nvidia.com/t/qwen3-8-flash-next-recipe-for-1x-gb10-at-mtp-3-c-1-code-is-47-5t-s-json-is-60t-s-prefix-cache-ok-intel-autoround-int4-quant/381932/3",
+        "https://github.com/Saren-Arterius/qwen3.8-Flash-DGX-AutoRound/blob/01c5914f322716b39fd71d5584ed800955582e65/README.md"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8-Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://forums.developer.nvidia.com/t/qwen3-8-flash-next-recipe-for-1x-gb10-at-mtp-3-c-1-code-is-47-5t-s-json-is-60t-s-prefix-cache-ok-intel-autoround-int4-quant/381932/4"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "sourceSvgAvailable": false,
+      "sourcePublicationTimestamp": "2026-09-01T12:35:50.610Z",
+      "harness": "Claude (source wording)",
+      "recipe": "Intel W4A16 AutoRound int4 / int8 / FP8 hybrid as documented in the recipe",
+      "sourceRuntimeSeconds": 251,
+      "iterations": "Several recreations after self-tests; exact number not stated"
+    }
+  },
+  {
+    "id": "nvidia-rob01-gpt56-terra-medium-2026-10-21",
+    "originalId": "nvidia-rob01-gpt56-terra-medium-2026-10-21",
+    "kind": "timeline",
+    "title": "GPT-5.6 Terra Medium · 鹈鹕骑车",
+    "model": "GPT-5.6 Terra",
+    "author": "rob01",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "原文将 Terra 写作 Tera。单只鹈鹕骑行图中保留作者发布的标题与几何缺陷。收录作者公开上传的完整 JPG，未找到原 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/rob01-gpt56tera-author-render.jpeg",
+        "source": "https://global.discourse-cdn.com/nvidia/original/4X/1/0/6/106a53f267ee0aaf599c5379d90c6a03ca027ee4.jpeg",
+        "sha256": "fb30cc23b0cf6ea5a390a0ba4dbb6d86fad174202fe9715177b7b6dfc136eb73",
+        "caption": "发布者上传的完整原渲染图",
+        "captionEn": "Full original render uploaded by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/rob01-gpt56tera-author-render.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/nvidia-rob01-gpt56-terra-medium-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nvidia-rob01-gpt56-terra-medium-2026-10-21/",
+    "markdown": "/specimens/nvidia-rob01-gpt56-terra-medium-2026-10-21/index.md",
+    "updated": "2026-11-11",
+    "rights": "保存发布者公开上传的渲染图及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "GPT-5.6 Terra Medium · Pelican on a bicycle",
+        "model": "GPT-5.6 Terra",
+        "notes": "The source spells Terra “Tera.” The published illustration’s title and drawing imperfections are preserved. The full source-published JPEG is preserved. No raw SVG was located.",
+        "rights": "The uploader’s public render is preserved with its source and attribution. No separate artwork license was located.",
+        "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "https://global.discourse-cdn.com/nvidia/original/4X/1/0/6/106a53f267ee0aaf599c5379d90c6a03ca027ee4.jpeg",
+        "https://forums.developer.nvidia.com/posts/1876606.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-5.6 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "sourceSvgAvailable": false,
+      "sourcePublicationTimestamp": "2026-10-21T03:15:20.531Z",
+      "sourceModelLabel": "Open AI Chat GPT 5.6 Tera - Medium",
+      "effort": "Medium",
+      "client": "Open AI Chat"
+    }
+  },
+  {
+    "id": "nvidia-rob01-gpt61-sol-medium-2026-10-21",
+    "originalId": "nvidia-rob01-gpt61-sol-medium-2026-10-21",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol Medium · 鹈鹕骑车",
+    "model": "GPT-6.1 Sol",
+    "author": "rob01",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "保留完整的围巾鹈鹕、青色车架和车把细节。收录作者公开上传的完整 JPG，未找到原 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/rob01-sol61-author-render.jpeg",
+        "source": "https://global.discourse-cdn.com/nvidia/original/4X/e/8/5/e8537b2d7b9a6474eb07e1a96e325a7db5b46e29.jpeg",
+        "sha256": "e064bf61fd07dbcc1a2728ed2742cbf76d6af059db87bea42826ad8ac8e15d02",
+        "caption": "发布者上传的完整原渲染图",
+        "captionEn": "Full original render uploaded by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/rob01-sol61-author-render.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/nvidia-rob01-gpt61-sol-medium-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nvidia-rob01-gpt61-sol-medium-2026-10-21/",
+    "markdown": "/specimens/nvidia-rob01-gpt61-sol-medium-2026-10-21/index.md",
+    "updated": "2026-11-11",
+    "rights": "保存发布者公开上传的渲染图及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol Medium · Pelican on a bicycle",
+        "model": "GPT-6.1 Sol",
+        "notes": "Preserves the complete red-scarf pelican, teal bicycle and handlebar details. The full source-published JPEG is preserved. No raw SVG was located.",
+        "rights": "The uploader’s public render is preserved with its source and attribution. No separate artwork license was located.",
+        "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "https://global.discourse-cdn.com/nvidia/original/4X/e/8/5/e8537b2d7b9a6474eb07e1a96e325a7db5b46e29.jpeg",
+        "https://forums.developer.nvidia.com/posts/1876606.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "sourceSvgAvailable": false,
+      "sourcePublicationTimestamp": "2026-10-21T03:15:20.531Z",
+      "sourceModelLabel": "Open AI Chat Sol 6.1 - Medium",
+      "effort": "Medium",
+      "client": "Open AI Chat"
+    }
+  },
+  {
+    "id": "nvidia-rob01-deepseek-v41-flash-1017-xhigh-2026-10-21",
+    "originalId": "nvidia-rob01-deepseek-v41-flash-1017-xhigh-2026-10-21",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash 1017 xHigh · 鹈鹕骑车",
+    "model": "DeepSeek V4.1 Flash 1017",
+    "author": "rob01",
+    "date": "2026-10-21",
+    "month": "2026-10",
+    "notes": "作者标为 xHigh、三台 DGX 上通过 Hermes 运行。保留原始几何缺陷。量化未说明。收录作者公开上传的完整 JPG，未找到原 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xHigh",
+    "promptCategory": "classic",
+    "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/rob01-ds41-1017-author-render.jpeg",
+        "source": "https://global.discourse-cdn.com/nvidia/original/4X/e/0/a/e0a16cc6bad81390229375d462607492fd98a0ed.jpeg",
+        "sha256": "a054db0015d3e2911137552ccfc27b69133a085ff5bce2f32c76cb596ccf8101",
+        "caption": "发布者上传的完整原渲染图",
+        "captionEn": "Full original render uploaded by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/rob01-ds41-1017-author-render.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/nvidia-rob01-deepseek-v41-flash-1017-xhigh-2026-10-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/nvidia-rob01-deepseek-v41-flash-1017-xhigh-2026-10-21/",
+    "markdown": "/specimens/nvidia-rob01-deepseek-v41-flash-1017-xhigh-2026-10-21/index.md",
+    "updated": "2026-11-11",
+    "rights": "保存发布者公开上传的渲染图及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash 1017 xHigh · Pelican on a bicycle",
+        "model": "DeepSeek V4.1 Flash 1017",
+        "notes": "The author reports xHigh with Hermes on three DGX systems. Drawing imperfections are preserved. The quantization was not specified. The full source-published JPEG is preserved. No raw SVG was located.",
+        "rights": "The uploader’s public render is preserved with its source and attribution. No separate artwork license was located.",
+        "promptStatus": "Draw a SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "https://global.discourse-cdn.com/nvidia/original/4X/e/0/a/e0a16cc6bad81390229375d462607492fd98a0ed.jpeg",
+        "https://forums.developer.nvidia.com/posts/1876606.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash 1017"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "previewOnly": true,
+      "sourceSvgAvailable": false,
+      "sourcePublicationTimestamp": "2026-10-21T03:15:20.531Z",
+      "sourceModelLabel": "DeepSeek 4.1 1017 - xHigh on 3xDGX using Hermes",
+      "effort": "xHigh",
+      "harness": "Hermes",
+      "hardware": "3 × DGX"
+    }
+  },
+  {
+    "id": "hn-49449244-qwen38-flash-next-2026-08-26",
+    "originalId": "hn-49449244-qwen38-flash-next-2026-08-26",
+    "kind": "timeline",
+    "title": "Qwen3.8-Flash-Next · 红头盔与青绿自行车",
+    "model": "Qwen3.8-Flash-Next",
+    "author": "Imustaskforhelp / SerJaimeLannister",
+    "date": "2026-08-26",
+    "month": "2026-08",
+    "notes": "作者在 Hacker News 发布测试，使用 Hugging Face Spaces 的公开限流 Qwen3.8-Flash-Next 聊天端。白鹈鹕戴红头盔骑青绿自行车。原 SVG 附在作者的 Gist 评论，完整保留。推理档位和量化未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49449244",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/hn-49449244-qwen38-flash-next-original.svg",
+        "source": "https://gist.github.com/user-attachments/assets/ccabe886-7863-4bfd-8499-e19a56088fcf",
+        "sha256": "9fa9ce67c8a472edf84d8e5deefe16761ad3a6b12d5c57986ba77a17464089cf",
+        "caption": "作者公开原 SVG",
+        "captionEn": "Original SVG shared by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/hn-49449244-qwen38-flash-next-original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.github.com/user-attachments/assets/ccabe886-7863-4bfd-8499-e19a56088fcf",
+    "path": "/specimens/hn-49449244-qwen38-flash-next-2026-08-26/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hn-49449244-qwen38-flash-next-2026-08-26/",
+    "markdown": "/specimens/hn-49449244-qwen38-flash-next-2026-08-26/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留作者署名及公开分享链接。未见单件作品开放许可证。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3.8-Flash-Next · Red helmet and teal bicycle",
+        "model": "Qwen3.8-Flash-Next",
+        "notes": "The author shared this run on Hacker News and identified the public, rate-limited Qwen3.8-Flash-Next chat on Hugging Face Spaces as the harness. A white pelican in a red helmet rides a teal bicycle. The full SVG attached to the author’s Gist comment is retained. Reasoning effort and quantization were not published.",
+        "rights": "Author attribution and public share links retained. No separate licence was found for this work.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://news.ycombinator.com/item?id=49449244",
+        "https://gist.github.com/SerJaimeLannister/8fdef9c00175da0ca6cd97f158b8f14d?permalink_comment_id=6334222#gistcomment-6334222",
+        "https://news.ycombinator.com/item?id=49448210",
+        "https://victor-chat-with-qwen3-8-flash-next.hf.space/",
+        "https://gist.github.com/user-attachments/assets/ccabe886-7863-4bfd-8499-e19a56088fcf"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8-Flash-Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://news.ycombinator.com/item?id=49449244",
+      "https://gist.github.com/SerJaimeLannister/8fdef9c00175da0ca6cd97f158b8f14d?permalink_comment_id=6334222#gistcomment-6334222"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "harness": "Hugging Face Spaces · Victor Qwen3.8-Flash-Next public chat"
+    },
+    "sourcePublicationDate": "2026-08-26"
+  },
+  {
+    "id": "web-oasis-gpt6-astra-xhigh-2026-11-10",
+    "originalId": "web-oasis-gpt6-astra-xhigh-2026-11-10",
+    "kind": "timeline",
+    "title": "GPT-6 Astra · Oasis Xhigh 骑车鹈鹕",
+    "model": "GPT-6 Astra",
+    "author": "Karthikeya Meesala",
+    "date": "2026-11-10",
+    "month": "2026-11",
+    "notes": "Karthikeya Meesala 在新开的 Codex 会话中以 Xhigh 档运行同一 SVG 题面，保留首次结果，未追加修正。馆藏媒体为作者文章发布的完整静态渲染，原 SVG 源码未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/oasis-gpt6-astra-xhigh-publisher-render.webp",
+        "source": "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2F51a72347-claude-fable-5-pelican-rides-bicycle-under-yellow-sun-illustrating.webp",
+        "sha256": "79294640a8aebb5c2c00e957474d2a6be26a536cc63ee69fdf6d4afd309d2771",
+        "caption": "作者文章发布的完整 SVG 静态渲染",
+        "captionEn": "Complete static SVG render published by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/oasis-gpt6-astra-xhigh-publisher-render.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/web-oasis-gpt6-astra-xhigh-2026-11-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/web-oasis-gpt6-astra-xhigh-2026-11-10/",
+    "markdown": "/specimens/web-oasis-gpt6-astra-xhigh-2026-11-10/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留作者署名及原刊出处。源站标注 © 2026 Mercury Intelligence Inc.，未见单件素材再许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6 Astra · Oasis Xhigh pelican on a bicycle",
+        "model": "GPT-6 Astra",
+        "notes": "Karthikeya Meesala ran the SVG prompt at Xhigh in a fresh Codex session and kept the first result without follow-up or repair. The archived media is the complete static render published in the article. The underlying SVG code has not been published.",
+        "rights": "Author and publication attribution retained. The source site carries © 2026 Mercury Intelligence Inc.; no separate sample licence was found.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra",
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra#1-drawing-a-pelican-riding-a-bicycle",
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra#how-the-runs-were-compared",
+        "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2F51a72347-claude-fable-5-pelican-rides-bicycle-under-yellow-sun-illustrating.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra#1-drawing-a-pelican-riding-a-bicycle",
+      "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra#how-the-runs-were-compared"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "harness": "Codex",
+      "reasoningEffort": "xhigh"
+    },
+    "sourcePublicationDate": "2026-11-10"
+  },
+  {
+    "id": "web-oasis-gemini4-argon-high-2026-11-10",
+    "originalId": "web-oasis-gemini4-argon-high-2026-11-10",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon · Oasis High 骑车鹈鹕",
+    "model": "Gemini 4 Argon",
+    "author": "Karthikeya Meesala",
+    "date": "2026-11-10",
+    "month": "2026-11",
+    "notes": "Karthikeya Meesala 在 Gemini 网页端以 High 档运行同一 SVG 题面，并注明消息附有匿名要求。画面把骑行鹈鹕放入圆形构图。馆藏媒体为作者文章发布的完整静态渲染，原 SVG 源码未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/oasis-gemini4-argon-high-publisher-render.webp",
+        "source": "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2Fd616fa33-claude-fable-5-png-pelican-riding-bicycle.webp",
+        "sha256": "5847fee64242540eb683d3c444593dc18d8b02b4cb177ae1adb68e5543dabd0a",
+        "caption": "作者文章发布的完整 SVG 静态渲染",
+        "captionEn": "Complete static SVG render published by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/oasis-gemini4-argon-high-publisher-render.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/web-oasis-gemini4-argon-high-2026-11-10/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/web-oasis-gemini4-argon-high-2026-11-10/",
+    "markdown": "/specimens/web-oasis-gemini4-argon-high-2026-11-10/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留作者署名及原刊出处。源站标注 © 2026 Mercury Intelligence Inc.，未见单件素材再许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon · Oasis High pelican on a bicycle",
+        "model": "Gemini 4 Argon",
+        "notes": "Karthikeya Meesala ran the SVG prompt at High in the Gemini web app and reports an added anonymity instruction. The cycling pelican is framed in a circle. The archived media is the complete static render published in the article. The underlying SVG code has not been published.",
+        "rights": "Author and publication attribution retained. The source site carries © 2026 Mercury Intelligence Inc.; no separate sample licence was found.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon",
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon#1-drawing-a-pelican-riding-a-bicycle",
+        "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon#how-the-runs-were-compared",
+        "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2Fd616fa33-claude-fable-5-png-pelican-riding-bicycle.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon#1-drawing-a-pelican-riding-a-bicycle",
+      "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon#how-the-runs-were-compared"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "harness": "Gemini web app",
+      "reasoningEffort": "high"
+    },
+    "sourcePublicationDate": "2026-11-10"
+  },
+  {
+    "id": "bilibili-chimao-qwen4-max-preview-three-styles-2026-11-11",
+    "originalId": "bilibili-chimao-qwen4-max-preview-three-styles-2026-11-11",
+    "kind": "timeline",
+    "title": "Qwen4-Max-Preview · 海岸骑行三种画风",
+    "model": "Qwen4-Max-Preview",
+    "author": "吃毛不吐毛球",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "作者在 Qwen Studio Agent 中运行经典 SVG 题面。因额度耗尽，这次运行提前结束，留下 627 行 SVG 与 CSS，包含海岸落日、工程蓝图和波普网点三种显示模式。Gemini 4 Argon 只参与录屏剪辑和发布。保存同一作品的完整公开录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.bilibili.com/video/BV1krWy6xEkw/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "Pelican riding a bicycle in SVG（用SVG画一只骑自行车的鹈鹕）",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/qwen-partial-author-original.mp4",
+        "source": "https://cn-gddg-ct-01-10.bilivideo.com/upgcxcode/71/05/43510530571/43510530571-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=bcache&og=ali&mid=0&nbs=1&oi=3730181056&deadline=1794417163&trid=0000234070879ebf4ead9c2a2d32a0fdb4au&uipk=5&platform=pc&upsig=ab913713090c16462dd5aa3d88094f8a&uparams=e,gen,os,og,mid,nbs,oi,deadline,trid,uipk,platform&cdnid=61310&bvc=vod&nettype=0&bw=553063&lrs=6&V=v3.1.1.0&qn_dyeid=e2a042854e1f300100835a1d6af485eb&agrr=0&buvid=&build=0&dl=0&f=u_0_0&orderid=0,3",
+        "sha256": "56e0241faf486120d11ce29aac6b7053a166f8b9cba05b48f0a256baa5d176b6",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://cn-gddg-ct-01-10.bilivideo.com/upgcxcode/71/05/43510530571/43510530571-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=bcache&og=ali&mid=0&nbs=1&oi=3730181056&deadline=1794417163&trid=0000234070879ebf4ead9c2a2d32a0fdb4au&uipk=5&platform=pc&upsig=ab913713090c16462dd5aa3d88094f8a&uparams=e,gen,os,og,mid,nbs,oi,deadline,trid,uipk,platform&cdnid=61310&bvc=vod&nettype=0&bw=553063&lrs=6&V=v3.1.1.0&qn_dyeid=e2a042854e1f300100835a1d6af485eb&agrr=0&buvid=&build=0&dl=0&f=u_0_0&orderid=0,3",
+          "sourceSha256": "56e0241faf486120d11ce29aac6b7053a166f8b9cba05b48f0a256baa5d176b6",
+          "frameTime": 1,
+          "sha256": "71d589a915a58e006a0307f5384a71ae139b66bd5edb34f867a2d9922510d06e"
+        },
+        "caption": "作者发布的完整 B 站 720p 录像",
+        "captionEn": "Complete author-published 720p Bilibili recording",
+        "poster": "/media/collected/2026-11-11-codex-launch-release/qwen-partial-author-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/qwen-partial-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/bilibili-chimao-qwen4-max-preview-three-styles-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/bilibili-chimao-qwen4-max-preview-three-styles-2026-11-11/",
+    "markdown": "/specimens/bilibili-chimao-qwen4-max-preview-three-styles-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留发布者公开发布的录像、署名及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Qwen4-Max-Preview · One seaside ride, three styles",
+        "model": "Qwen4-Max-Preview",
+        "notes": "The author ran the classic SVG prompt in Qwen Studio Agent. The run hit a token limit and left 627 lines of SVG and CSS with coastal sunset, technical blueprint, and pop-art halftone modes. Gemini 4 Argon helped edit and publish the recording. The complete public recording contains three modes of one work.",
+        "rights": "The uploader’s public recording is preserved with source and attribution. No separate artwork license was found.",
+        "promptStatus": "Pelican riding a bicycle in SVG（用SVG画一只骑自行车的鹈鹕）",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.bilibili.com/video/BV1krWy6xEkw/",
+        "https://www.bilibili.com/video/BV1krWy6xEkw/#reply319859930769",
+        "https://api.bilibili.com/x/player/playurl?bvid=BV1krWy6xEkw&cid=43510530571&qn=64&fnver=0&fnval=0&fourk=0",
+        "https://cn-gddg-ct-01-10.bilivideo.com/upgcxcode/71/05/43510530571/43510530571-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=bcache&og=ali&mid=0&nbs=1&oi=3730181056&deadline=1794417163&trid=0000234070879ebf4ead9c2a2d32a0fdb4au&uipk=5&platform=pc&upsig=ab913713090c16462dd5aa3d88094f8a&uparams=e,gen,os,og,mid,nbs,oi,deadline,trid,uipk,platform&cdnid=61310&bvc=vod&nettype=0&bw=553063&lrs=6&V=v3.1.1.0&qn_dyeid=e2a042854e1f300100835a1d6af485eb&agrr=0&buvid=&build=0&dl=0&f=u_0_0&orderid=0,3"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4-Max-Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.bilibili.com/video/BV1krWy6xEkw/",
+      "https://www.bilibili.com/video/BV1krWy6xEkw/#reply319859930769"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Qwen 4 Max Preview",
+      "sourcePublicationTimestamp": "2026-11-11T07:59:14Z",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "bilibiliQuality": 64
+      },
+      "client": "Qwen Studio Agent",
+      "completion": "partial; token limit reached",
+      "videoEditingModel": "Gemini 4 Argon"
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "bilibili-maomao-qwen4-max-preview-seaside-svg-2026-11-11",
+    "originalId": "bilibili-maomao-qwen4-max-preview-seaside-svg-2026-11-11",
+    "kind": "timeline",
+    "title": "Qwen4-Max-Preview · 可调速的海边骑行",
+    "model": "Qwen4-Max-Preview",
+    "author": "猫猫才不是凶手",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "作者说一次提示生成无依赖的单文件 HTML，画面未经手工修改。完整录屏展示实时 SVG、双腿联动、速度、光照和配件切换。馆藏保留 B 站公开的 720p 版本，暂未找到可运行的 HTML 原件。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yHWL62Ems/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/qwen-playable-author-original.mp4",
+        "source": "https://upos-sz-estgcos.bilivideo.com/upgcxcode/56/62/43506336256/43506336256-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&mid=0&trid=6397886824914482af2e04a85ccbc28u&uipk=5&og=cos&deadline=1794417163&oi=3730181056&platform=pc&nbs=1&gen=playurlv3&os=estgcos&upsig=e1ef21b87a2e3294f25f282d78c8369a&uparams=e,mid,trid,uipk,og,deadline,oi,platform,nbs,gen,os&bvc=vod&nettype=0&bw=690490&lrs=5&V=v3.1.1.0&dl=0&f=u_0_0&qn_dyeid=1ce895bfd36f803e0028e4b06af485eb&agrr=0&buvid=&build=0&orderid=0,3",
+        "sha256": "bb67ed4235b18b742daaaf562bfd57f7d3ebd6767956887a26d2c28c33727b61",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://upos-sz-estgcos.bilivideo.com/upgcxcode/56/62/43506336256/43506336256-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&mid=0&trid=6397886824914482af2e04a85ccbc28u&uipk=5&og=cos&deadline=1794417163&oi=3730181056&platform=pc&nbs=1&gen=playurlv3&os=estgcos&upsig=e1ef21b87a2e3294f25f282d78c8369a&uparams=e,mid,trid,uipk,og,deadline,oi,platform,nbs,gen,os&bvc=vod&nettype=0&bw=690490&lrs=5&V=v3.1.1.0&dl=0&f=u_0_0&qn_dyeid=1ce895bfd36f803e0028e4b06af485eb&agrr=0&buvid=&build=0&orderid=0,3",
+          "sourceSha256": "bb67ed4235b18b742daaaf562bfd57f7d3ebd6767956887a26d2c28c33727b61",
+          "frameTime": 1,
+          "sha256": "73c837ab6e649b0fcdb9e5795d96e86df19077b49b82e651f87af68f0a65c3ac"
+        },
+        "caption": "作者发布的完整 B 站 720p 录像",
+        "captionEn": "Complete author-published 720p Bilibili recording",
+        "poster": "/media/collected/2026-11-11-codex-launch-release/qwen-playable-author-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/qwen-playable-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/bilibili-maomao-qwen4-max-preview-seaside-svg-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/bilibili-maomao-qwen4-max-preview-seaside-svg-2026-11-11/",
+    "markdown": "/specimens/bilibili-maomao-qwen4-max-preview-seaside-svg-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留发布者公开发布的录像、署名及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Qwen4-Max-Preview · Seaside ride with speed controls",
+        "model": "Qwen4-Max-Preview",
+        "notes": "The author reports that one prompt produced a dependency-free HTML file, with no manual changes to the artwork. The complete recording shows live SVG, linked legs, speed controls, lighting, and accessory options. The archive preserves the public 720p Bilibili rendition. The runnable HTML has yet to be located.",
+        "rights": "The uploader’s public recording is preserved with source and attribution. No separate artwork license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.bilibili.com/video/BV1yHWL62Ems/",
+        "https://api.bilibili.com/x/player/playurl?bvid=BV1yHWL62Ems&cid=43506336256&qn=64&fnver=0&fnval=0&fourk=0",
+        "https://upos-sz-estgcos.bilivideo.com/upgcxcode/56/62/43506336256/43506336256-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&mid=0&trid=6397886824914482af2e04a85ccbc28u&uipk=5&og=cos&deadline=1794417163&oi=3730181056&platform=pc&nbs=1&gen=playurlv3&os=estgcos&upsig=e1ef21b87a2e3294f25f282d78c8369a&uparams=e,mid,trid,uipk,og,deadline,oi,platform,nbs,gen,os&bvc=vod&nettype=0&bw=690490&lrs=5&V=v3.1.1.0&dl=0&f=u_0_0&qn_dyeid=1ce895bfd36f803e0028e4b06af485eb&agrr=0&buvid=&build=0&orderid=0,3"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4-Max-Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.bilibili.com/video/BV1yHWL62Ems/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Qwen4-Max-Preview",
+      "sourcePublicationTimestamp": "2026-11-11T04:51:58Z",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "bilibiliQuality": 64
+      },
+      "workflow": "one prompt, one output; no manual artwork edits",
+      "originalCapture": "1600×900, 24 fps, as reported by the author",
+      "promptStatus": "One prompt reported; verbatim prompt not public"
+    },
+    "sourcePublicationDate": "2026-11-11"
+  },
+  {
+    "id": "bilibili-origa3mi-claude-fable-5-2-high-crab-2026-11-09",
+    "originalId": "bilibili-origa3mi-claude-fable-5-2-high-crab-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 High · 戴螃蟹头盔的鹈鹕",
+    "model": "Claude Fable 5.2",
+    "author": "鸢一映月_Origa3mi",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者用 GPT 生成的三视图作参考，让 Fable 5.2 High 用 Three.js 制作骑行演示。画面是低多边形海岸和头顶 Claude 螃蟹吉祥物的鹈鹕。作者说额度耗尽，作品停在预览阶段。保留完整原帖录像，暂未找到可运行代码。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tfWK68EX9/",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "High",
+    "promptCategory": "derivative",
+    "promptStatus": "用Three.js帮我做一个三维的Claude小螃蟹吉祥物盘在鹈鹕的头上起自行车的演示动画",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/fable-crab-author-original.mp4",
+        "source": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/85/34/43474423485/43474423485-1-192.mp4?e=ig8euxZM2rNcNbRzhbdVhwdlhWhghwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&trid=a336ba40f6eb4e39bdcf603a2d273a2u&mid=0&os=estgoss&og=ali&deadline=1794417248&nbs=1&oi=3730181056&gen=playurlv3&uipk=5&platform=pc&upsig=f6c89f6138c41ab9ee1329d3f29108ea&uparams=e,trid,mid,os,og,deadline,nbs,oi,gen,uipk,platform&bvc=vod&nettype=0&bw=1057589&lrs=-1&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=2d35fe15a3c71b54002b058b6af48640&agrr=0&orderid=0,3",
+        "sha256": "a1690431b76f0fb9f0729da2cc80ec9716244b3cc46827c166ab5687efb24882",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/85/34/43474423485/43474423485-1-192.mp4?e=ig8euxZM2rNcNbRzhbdVhwdlhWhghwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&trid=a336ba40f6eb4e39bdcf603a2d273a2u&mid=0&os=estgoss&og=ali&deadline=1794417248&nbs=1&oi=3730181056&gen=playurlv3&uipk=5&platform=pc&upsig=f6c89f6138c41ab9ee1329d3f29108ea&uparams=e,trid,mid,os,og,deadline,nbs,oi,gen,uipk,platform&bvc=vod&nettype=0&bw=1057589&lrs=-1&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=2d35fe15a3c71b54002b058b6af48640&agrr=0&orderid=0,3",
+          "sourceSha256": "a1690431b76f0fb9f0729da2cc80ec9716244b3cc46827c166ab5687efb24882",
+          "frameTime": 11,
+          "sha256": "2abc8cbb1a49f593de14c6b8fb6227edee102ec1831938355f520989cda2ceaa"
+        },
+        "caption": "作者发布的完整 B 站 720p 录像",
+        "captionEn": "Complete author-published 720p Bilibili recording",
+        "poster": "/media/collected/2026-11-11-codex-launch-release/fable-crab-author-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/gpt-reference-three-view.png",
+        "source": "https://i0.hdslb.com/bfs/new_dyn/fa3c3e2f28094436272ea61969cd7984283399806.png",
+        "sha256": "5ed71e33a756fd4018d3574ee8600c637086a31408913bdfe126bc4b583df811",
+        "detailOnly": true,
+        "caption": "作者补充的 GPT 三视图参考输入",
+        "captionEn": "GPT-generated three-view reference input shared by the author",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/author-preview-screenshot.png",
+        "source": "https://i0.hdslb.com/bfs/new_dyn/68fba2361e87dbe1ee3e66366a14562c283399806.png",
+        "sha256": "37ced260aea8ebabb7eeab544f2a84e9f37a73cad3cca7adfe0dd57da20dfad4",
+        "detailOnly": true,
+        "caption": "作者补充的预览截图",
+        "captionEn": "Preview screenshot shared by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/fable-crab-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/bilibili-origa3mi-claude-fable-5-2-high-crab-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/bilibili-origa3mi-claude-fable-5-2-high-crab-2026-11-09/",
+    "markdown": "/specimens/bilibili-origa3mi-claude-fable-5-2-high-crab-2026-11-09/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留发布者公开发布的录像、署名及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 High · Pelican with a crab helmet",
+        "model": "Claude Fable 5.2",
+        "notes": "The author used a GPT-generated three-view reference and prompted Fable 5.2 High to build the cycling demo in Three.js. A pelican carries the Claude crab mascot through a low-poly coastal scene. The author reports hitting a quota and stopping at the preview stage. The complete published recording is preserved. Runnable code has yet to be located.",
+        "rights": "The uploader’s public recording is preserved with source and attribution. No separate artwork license was found.",
+        "promptStatus": "用Three.js帮我做一个三维的Claude小螃蟹吉祥物盘在鹈鹕的头上起自行车的演示动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.bilibili.com/video/BV1tfWK68EX9/",
+        "https://www.bilibili.com/video/BV1tfWK68EX9/#reply323502443072",
+        "https://www.bilibili.com/video/BV1tfWK68EX9/#reply323502231360",
+        "https://api.bilibili.com/x/player/playurl?bvid=BV1tfWK68EX9&cid=43474423485&qn=64&fnver=0&fnval=0&fourk=0",
+        "https://upos-sz-estgoss.bilivideo.com/upgcxcode/85/34/43474423485/43474423485-1-192.mp4?e=ig8euxZM2rNcNbRzhbdVhwdlhWhghwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&trid=a336ba40f6eb4e39bdcf603a2d273a2u&mid=0&os=estgoss&og=ali&deadline=1794417248&nbs=1&oi=3730181056&gen=playurlv3&uipk=5&platform=pc&upsig=f6c89f6138c41ab9ee1329d3f29108ea&uparams=e,trid,mid,os,og,deadline,nbs,oi,gen,uipk,platform&bvc=vod&nettype=0&bw=1057589&lrs=-1&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=2d35fe15a3c71b54002b058b6af48640&agrr=0&orderid=0,3",
+        "https://i0.hdslb.com/bfs/new_dyn/fa3c3e2f28094436272ea61969cd7984283399806.png",
+        "https://i0.hdslb.com/bfs/new_dyn/68fba2361e87dbe1ee3e66366a14562c283399806.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.bilibili.com/video/BV1tfWK68EX9/",
+      "https://www.bilibili.com/video/BV1tfWK68EX9/#reply323502443072",
+      "https://www.bilibili.com/video/BV1tfWK68EX9/#reply323502231360"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Fable 5.2",
+      "sourcePublicationTimestamp": "2026-11-09T22:43:18Z",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "bilibiliQuality": 64
+      },
+      "tool": "Three.js",
+      "effort": "High",
+      "completion": "partial; quota reached",
+      "referenceInput": "GPT-generated three-view concept, identified by the author"
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "bilibili-ekosystem-claude-fable-5-2-max-seaside-svg-2026-11-09",
+    "originalId": "bilibili-ekosystem-claude-fable-5-2-max-seaside-svg-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 Max · 18 层视差的海边骑行",
+    "model": "Claude Fable 5.2",
+    "author": "ekosystem",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者在 Claude Code 中用一句提示生成 SVG 与原生 JavaScript 的单文件动画，并在回复中确认 Max 档位。完整公开录像约 53 秒，从约 15 秒起展示成品，包括车轮、脚踏联动和多层背景。暂未找到可运行的 HTML 原件。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Max",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML 文件，使用SVG 绘制一只鹈鹕骑自行车的2D 动画。要求：车轮旋转、脚踏与腿部联动、背景可移动，输出单文件HTML",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/fable-eko-author-original.mp4",
+        "source": "https://cn-zjjh-ct-04-06.bilivideo.com/upgcxcode/34/58/43474095834/43474095834-1-192.mp4?e=ig8euxZM2rNcNbNV7WdVhwdlhbdBhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&platform=pc&mid=0&nbs=1&gen=playurlv3&os=bcache&deadline=1794417248&trid=00004bb319daaca347a09826b06b69a0139u&oi=3730181056&og=cos&upsig=ddfe9a3fb43d79bbeb280c71447ff6b3&uparams=e,uipk,platform,mid,nbs,gen,os,deadline,trid,oi,og&cdnid=6591&bvc=vod&nettype=0&bw=1640399&lrs=14&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=e3ed0b51ac07cfe700ec90ba6af48640&agrr=0&orderid=0,3",
+        "sha256": "a7f2fb67ca302aef8bea4534c5d82729b68102e44ecac1def9ad56d7eaf40743",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://cn-zjjh-ct-04-06.bilivideo.com/upgcxcode/34/58/43474095834/43474095834-1-192.mp4?e=ig8euxZM2rNcNbNV7WdVhwdlhbdBhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&platform=pc&mid=0&nbs=1&gen=playurlv3&os=bcache&deadline=1794417248&trid=00004bb319daaca347a09826b06b69a0139u&oi=3730181056&og=cos&upsig=ddfe9a3fb43d79bbeb280c71447ff6b3&uparams=e,uipk,platform,mid,nbs,gen,os,deadline,trid,oi,og&cdnid=6591&bvc=vod&nettype=0&bw=1640399&lrs=14&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=e3ed0b51ac07cfe700ec90ba6af48640&agrr=0&orderid=0,3",
+          "sourceSha256": "a7f2fb67ca302aef8bea4534c5d82729b68102e44ecac1def9ad56d7eaf40743",
+          "frameTime": 18,
+          "sha256": "f2114883635dd724f7bde7997d0ef7ddf504ce67e208fa7f314af2769162f1f4"
+        },
+        "caption": "作者发布的完整 B 站 720p 录像",
+        "captionEn": "Complete author-published 720p Bilibili recording",
+        "poster": "/media/collected/2026-11-11-codex-launch-release/fable-eko-author-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/fable-eko-author-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/bilibili-ekosystem-claude-fable-5-2-max-seaside-svg-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/bilibili-ekosystem-claude-fable-5-2-max-seaside-svg-2026-11-09/",
+    "markdown": "/specimens/bilibili-ekosystem-claude-fable-5-2-max-seaside-svg-2026-11-09/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留发布者公开发布的录像、署名及出处。未见单独作品许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 Max · Seaside ride with 18 parallax layers",
+        "model": "Claude Fable 5.2",
+        "notes": "The author generated a single-file SVG and native JavaScript animation in Claude Code and confirmed Max effort in a reply. The complete public recording is about 53 seconds long and shows the finished animation, wheels, pedals, and layered background from about 15 seconds. The runnable HTML has yet to be located.",
+        "rights": "The uploader’s public recording is preserved with source and attribution. No separate artwork license was found.",
+        "promptStatus": "创建一个HTML 文件，使用SVG 绘制一只鹈鹕骑自行车的2D 动画。要求：车轮旋转、脚踏与腿部联动、背景可移动，输出单文件HTML",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.bilibili.com/video/BV1zvWP6MECB/",
+        "https://www.bilibili.com/video/BV1zvWP6MECB/#reply319734923617",
+        "https://api.bilibili.com/x/player/playurl?bvid=BV1zvWP6MECB&cid=43474095834&qn=64&fnver=0&fnval=0&fourk=0",
+        "https://cn-zjjh-ct-04-06.bilivideo.com/upgcxcode/34/58/43474095834/43474095834-1-192.mp4?e=ig8euxZM2rNcNbNV7WdVhwdlhbdBhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&platform=pc&mid=0&nbs=1&gen=playurlv3&os=bcache&deadline=1794417248&trid=00004bb319daaca347a09826b06b69a0139u&oi=3730181056&og=cos&upsig=ddfe9a3fb43d79bbeb280c71447ff6b3&uparams=e,uipk,platform,mid,nbs,gen,os,deadline,trid,oi,og&cdnid=6591&bvc=vod&nettype=0&bw=1640399&lrs=14&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=e3ed0b51ac07cfe700ec90ba6af48640&agrr=0&orderid=0,3"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.bilibili.com/video/BV1zvWP6MECB/",
+      "https://www.bilibili.com/video/BV1zvWP6MECB/#reply319734923617"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Fable 5.2",
+      "sourcePublicationTimestamp": "2026-11-09T20:37:39Z",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "bilibiliQuality": 64
+      },
+      "client": "Claude Code",
+      "effort": "Max",
+      "workflow": "one prompt; no manual artwork edits",
+      "providerModelId": "claude-fable-5-2"
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11",
+    "originalId": "github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11",
+    "kind": "timeline",
+    "title": "小星球环骑",
+    "model": "Claude Fable 5.2",
+    "author": "Aaron Xu (@AaronXu-Lab)",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "Aaron Xu 在 Prompt 擂台公开这件 Fable 5.2 的独立 3D 作品，并以同一提交登记成品和模型。玩家控制鹈鹕绕着小星球骑车，可转向、跳跃、扑翼、摇铃吸引鱼群，并在跟拍、迎面和星球全景间切换。作者未公布思考档位。馆内镜像保留原件及相对依赖。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/AaronXu-Lab/Aaron-Portfolio/commit/74e6719f7f933c109aed97cea641a9a5ff2b4973",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "生成一个鹈鹕骑自行车的可交互 3D 页面，尽可能发挥你的建模、动画、视觉设计与交互能力。风格、场景和玩法自由发挥。\n\n优先为手机设计：适配 320–430px 宽度，支持触控，骑行动画自然流畅。请主动为主要操作补充键盘快捷键，具体按键自行设计。作品直接作为页面主体，不需要宣传介绍。使用实际运行的 3D 场景，不以图片或视频代替。\n\n## 完成后接入指南\n\n请阅读当前项目的 workflows/prompt-lab.md，按其中约定将作品接入 Prompt 擂台 并完成验证。保留其他作品，不修改展示台。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/aaronxu-fable-5-2-tiny-planet-browser-frame.png",
+        "source": "https://raw.githubusercontent.com/AaronXu-Lab/Aaron-Portfolio/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01/index.html",
+        "sha256": "e8008fd53ed1b6f09a7f19558e063d23f48b8e34b1eaa5172768cf7a99023df3",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "194934eb2f7bcf19d19803815ba0268759b5cf5d75cd1a1adfcac82a14330173",
+          "frameSha256": "e8008fd53ed1b6f09a7f19558e063d23f48b8e34b1eaa5172768cf7a99023df3",
+          "viewport": {
+            "width": 1000,
+            "height": 660
+          },
+          "method": "isolated Chromium screenshot after riding, ringing the bell and switching to the front camera on the complete unmodified source"
+        },
+        "caption": "完整原作实玩截帧（迎面镜头）",
+        "captionEn": "Actual gameplay frame from the complete original (front camera)",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/aaronxu-fable-5-2-tiny-planet-browser-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://www.xuweinan.com/tools/prompt-lab/entries/fable-5-2-pelican-run-01/index.html",
+    "sourceCodeUrl": "https://github.com/AaronXu-Lab/Aaron-Portfolio/tree/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01",
+    "path": "/specimens/github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11/",
+    "markdown": "/specimens/github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "原作署名 Aaron Xu，按项目 MIT 许可证镜像。随附原作者 MIT 文本及 Three.js r185 的 MIT 文本。",
+    "i18n": {
+      "en": {
+        "title": "Tiny Planet Tour",
+        "model": "Claude Fable 5.2",
+        "notes": "Aaron Xu published this independent Fable 5.2 3D game in Prompt Lab and registered the finished work and model in the same commit. Steer the pelican around a tiny planet, jump or flap, ring the bell to attract fish, and switch between chase, front and planetary views. The author did not publish a reasoning effort setting. The archive mirror preserves the original files and relative dependencies.",
+        "rights": "Original work credited to Aaron Xu and mirrored under the repository’s MIT license. The mirror includes the creator’s MIT notice and the Three.js r185 MIT notice.",
+        "promptStatus": "生成一个鹈鹕骑自行车的可交互 3D 页面，尽可能发挥你的建模、动画、视觉设计与交互能力。风格、场景和玩法自由发挥。\n\n优先为手机设计：适配 320–430px 宽度，支持触控，骑行动画自然流畅。请主动为主要操作补充键盘快捷键，具体按键自行设计。作品直接作为页面主体，不需要宣传介绍。使用实际运行的 3D 场景，不以图片或视频代替。\n\n## 完成后接入指南\n\n请阅读当前项目的 workflows/prompt-lab.md，按其中约定将作品接入 Prompt 擂台 并完成验证。保留其他作品，不修改展示台。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/AaronXu-Lab/Aaron-Portfolio/commit/74e6719f7f933c109aed97cea641a9a5ff2b4973",
+        "https://www.xuweinan.com/tools/prompt-lab/entries/fable-5-2-pelican-run-01/index.html",
+        "https://www.xuweinan.com/tools/prompt-lab/?model=fable-5-2-pelican-run-01",
+        "https://github.com/AaronXu-Lab/Aaron-Portfolio/tree/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01",
+        "https://raw.githubusercontent.com/AaronXu-Lab/Aaron-Portfolio/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01/index.html",
+        "https://raw.githubusercontent.com/AaronXu-Lab/Aaron-Portfolio/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/prompt.txt",
+        "https://github.com/AaronXu-Lab/Aaron-Portfolio/blob/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries.json",
+        "https://github.com/AaronXu-Lab/Aaron-Portfolio/blob/74e6719f7f933c109aed97cea641a9a5ff2b4973/workflows/prompt-lab.md",
+        "https://github.com/AaronXu-Lab/Aaron-Portfolio/blob/74e6719f7f933c109aed97cea641a9a5ff2b4973/LICENSE",
+        "https://github.com/mrdoob/three.js/blob/r185/LICENSE"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/AaronXu-Lab/Aaron-Portfolio/commit/74e6719f7f933c109aed97cea641a9a5ff2b4973",
+      "https://github.com/AaronXu-Lab/Aaron-Portfolio/blob/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries.json",
+      "https://github.com/AaronXu-Lab/Aaron-Portfolio/blob/74e6719f7f933c109aed97cea641a9a5ff2b4973/workflows/prompt-lab.md"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Fable 5.2",
+      "providerModelId": "claude-fable-5-2",
+      "sourceMetadata": {
+        "workId": "fable-5-2-pelican-run-01",
+        "promptVersion": "pelican-v1",
+        "sourcePublishedAt": "2026-11-11T14:02:41Z",
+        "sourceRevision": "74e6719f7f933c109aed97cea641a9a5ff2b4973",
+        "reasoningEffort": "not stated by source",
+        "runtime": "Three.js r185 (local, MIT)"
+      }
+    },
+    "sourcePublicationDate": "2026-11-11",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/AaronXu-Lab/Aaron-Portfolio/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01/index.html",
+      "sourceHtmlSha256": "194934eb2f7bcf19d19803815ba0268759b5cf5d75cd1a1adfcac82a14330173",
+      "frameSha256": "e8008fd53ed1b6f09a7f19558e063d23f48b8e34b1eaa5172768cf7a99023df3",
+      "viewport": {
+        "width": 1000,
+        "height": 660
+      },
+      "method": "isolated Chromium screenshot after riding, ringing the bell and switching to the front camera on the complete unmodified source"
+    }
+  },
+  {
+    "id": "linuxdo-2dr-carbon-dsh-pelican-preview-2026-11-11",
+    "originalId": "linuxdo-2dr-carbon-dsh-pelican-preview-2026-11-11",
+    "kind": "timeline",
+    "title": "Gemini 4 Carbon · 反代标注的极简骑行动画",
+    "model": "Gemini 4 Carbon",
+    "author": "2dr",
+    "date": "2026-11-11",
+    "month": "2026-11",
+    "notes": "作者在 DeepSeek Harness 里选择 Gemini 4 Carbon，通过反代生成一份极简骑行 SVG 动画。车架和身体高度简化，按作者发布的 61 帧 GIF 保留。论坛讨论提出不同的路由解释，后台实际型号未经验证。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3157011/1",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画，你不需要任何测试，不要使用任何 skill",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-11-codex-launch-release/2dr-carbon-dsh-author-original.gif",
+        "source": "https://cdn3.ldstatic.com/original/4X/6/1/4/614781c9547850e77ec8c71b4b6f973ae501c4ca.gif",
+        "sha256": "25cb4e205f0415a47c91df00394f718361f8bc6b61b24f52837488149555f078",
+        "caption": "作者发布的完整动图",
+        "captionEn": "Complete author-published animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-11-codex-launch-release/2dr-carbon-dsh-author-original.gif",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-2dr-carbon-dsh-pelican-preview-2026-11-11/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-2dr-carbon-dsh-pelican-preview-2026-11-11/",
+    "markdown": "/specimens/linuxdo-2dr-carbon-dsh-pelican-preview-2026-11-11/index.md",
+    "updated": "2026-11-11",
+    "rights": "保留作者公开的 GIF 和原帖署名，未见单独许可声明。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Carbon · Minimal cycling animation from a proxied run",
+        "model": "Gemini 4 Carbon",
+        "notes": "The author selected Gemini 4 Carbon in DeepSeek Harness via a proxy and generated a minimal cycling SVG animation. The 61-frame author-published GIF preserves the rudimentary bird and frame. The actual backend model was not independently confirmed.",
+        "rights": "The source-published GIF is archived with attribution. No separate license was found.",
+        "promptStatus": "创建一个 HTML，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画，你不需要任何测试，不要使用任何 skill",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3157011/1",
+        "https://cdn3.ldstatic.com/original/4X/6/1/4/614781c9547850e77ec8c71b4b6f973ae501c4ca.gif",
+        "https://cdn3.ldstatic.com/original/4X/e/8/a/e8a367606832b059e019928b9cbc3d5e5b32928b.png",
+        "https://linux.do/t/topic/3157011/13"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Carbon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3157011/1",
+      "https://cdn3.ldstatic.com/original/4X/e/8/a/e8a367606832b059e019928b9cbc3d5e5b32928b.png"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "harness": "DeepSeek Harness",
+      "sourceReported": true,
+      "backendUnverified": true,
+      "sourceHtmlAvailable": false
+    }
   }
 ]

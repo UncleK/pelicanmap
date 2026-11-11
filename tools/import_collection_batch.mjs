@@ -259,11 +259,20 @@ export function validateCandidate(c) {
        m.url!=='https://nezhar.com/images/gpt-5-pelicans.png' || !m.filename.endsWith('.png') ||
        !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
       throw Error('Author preview requires the reviewed GPT-5 article, exact raster URL and pinned hash');
-    if(new URL(m.url).hostname==='gist.github.com' &&
-      (!/^https:\/\/gist\.github\.com\/[^/?#]+\/[a-f0-9]{32}(?:\?permalink_comment_id=\d+)?$/.test(c.sourceUrl) ||
-       !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
-       !m.filename.endsWith('.png') || !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url)))
-      throw Error('Gist previews need a reviewed original Gist, published attachment and pinned PNG hash');
+    if(new URL(m.url).hostname==='gist.github.com'){
+      const reviewedHnSvg=reviewedSource &&
+        c.sourceUrl==='https://news.ycombinator.com/item?id=49449244' &&
+        c.model==='Qwen3.8-Flash-Next' &&
+        m.url==='https://gist.github.com/user-attachments/assets/ccabe886-7863-4bfd-8499-e19a56088fcf' &&
+        c.media.length===1 && c.format==='svg' && m.filename.endsWith('.svg') &&
+        !m.svgFromTranscript && !m.svgFromHardPrompts && !m.browserCapture && !m.crop &&
+        m.sha256===m.reviewedSourceAsset.sha256;
+      const publishedPng=/^https:\/\/gist\.github\.com\/[^/?#]+\/[a-f0-9]{32}(?:\?permalink_comment_id=\d+)?$/.test(c.sourceUrl) &&
+        /^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) &&
+        m.filename.endsWith('.png') && /^[a-f0-9]{64}$/.test(m.sha256||'') && c.evidence.includes(m.url);
+      if(!reviewedHnSvg && !publishedPng)
+        throw Error('Gist previews need a reviewed original Gist, published attachment and pinned PNG hash');
+    }
     if(new URL(m.url).hostname==='peterc.org' &&
       (c.sourceUrl!=='https://gist.github.com/peterc/7672e74ec1437945e5fca5ce2c1c95a8' ||
        m.url!=='https://peterc.org/misc/pelican.png' || !m.filename.endsWith('.png') ||

@@ -30014,5 +30014,173 @@
         "model": "Claude Fable 5.2"
       }
     ]
+  },
+  {
+    "url": "https://global.discourse-cdn.com/nvidia/original/4X/0/d/a/0dae364d0b2868083ed9b8a5c049c643f79f118a.png",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/nvidia/nysso-author-original.png",
+    "sha256": "c9181243c1c0cf628d1c2be87b71ccf8ad7cb1e8c50732ab7739bc7a6b3b857e",
+    "bytes": 42582,
+    "bindings": [
+      {
+        "sourceUrl": "https://forums.developer.nvidia.com/t/qwen3-8-flash-next-recipe-for-1x-gb10-at-mtp-3-c-1-code-is-47-5t-s-json-is-60t-s-prefix-cache-ok-intel-autoround-int4-quant/381932/4",
+        "model": "Qwen3.8-Flash-Next"
+      }
+    ]
+  },
+  {
+    "url": "https://global.discourse-cdn.com/nvidia/original/4X/1/0/6/106a53f267ee0aaf599c5379d90c6a03ca027ee4.jpeg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/nvidia/rob01-gpt56tera-author-render.jpeg",
+    "sha256": "fb30cc23b0cf6ea5a390a0ba4dbb6d86fad174202fe9715177b7b6dfc136eb73",
+    "bytes": 84484,
+    "bindings": [
+      {
+        "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://global.discourse-cdn.com/nvidia/original/4X/e/8/5/e8537b2d7b9a6474eb07e1a96e325a7db5b46e29.jpeg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/nvidia/rob01-sol61-author-render.jpeg",
+    "sha256": "e064bf61fd07dbcc1a2728ed2742cbf76d6af059db87bea42826ad8ac8e15d02",
+    "bytes": 135537,
+    "bindings": [
+      {
+        "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://global.discourse-cdn.com/nvidia/original/4X/e/0/a/e0a16cc6bad81390229375d462607492fd98a0ed.jpeg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/nvidia/rob01-ds41-1017-author-render.jpeg",
+    "sha256": "a054db0015d3e2911137552ccfc27b69133a085ff5bce2f32c76cb596ccf8101",
+    "bytes": 85608,
+    "bindings": [
+      {
+        "sourceUrl": "https://forums.developer.nvidia.com/t/deepseek-v4-1-flash/382725/285",
+        "model": "DeepSeek V4.1 Flash 1017"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.github.com/user-attachments/assets/ccabe886-7863-4bfd-8499-e19a56088fcf",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/benchmark/hn-49449244/gist-image.svg",
+    "sha256": "9fa9ce67c8a472edf84d8e5deefe16761ad3a6b12d5c57986ba77a17464089cf",
+    "bytes": 5365,
+    "bindings": [
+      {
+        "sourceUrl": "https://news.ycombinator.com/item?id=49449244",
+        "model": "Qwen3.8-Flash-Next"
+      }
+    ]
+  },
+  {
+    "url": "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2F51a72347-claude-fable-5-pelican-rides-bicycle-under-yellow-sun-illustrating.webp",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/root/astra-oasis.webp",
+    "sha256": "79294640a8aebb5c2c00e957474d2a6be26a536cc63ee69fdf6d4afd309d2771",
+    "bytes": 55152,
+    "bindings": [
+      {
+        "sourceUrl": "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gpt-6-astra",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://docs.joinoasis.com/api/cms/asset/glossary%2Fassets%2Fd616fa33-claude-fable-5-png-pelican-riding-bicycle.webp",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/root/argon-oasis.webp",
+    "sha256": "5847fee64242540eb683d3c444593dc18d8b02b4cb177ae1adb68e5543dabd0a",
+    "bytes": 28164,
+    "bindings": [
+      {
+        "sourceUrl": "https://docs.joinoasis.com/blog/claude-fable-5-2-vs-gemini-4-argon",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://cn-gddg-ct-01-10.bilivideo.com/upgcxcode/71/05/43510530571/43510530571-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=bcache&og=ali&mid=0&nbs=1&oi=3730181056&deadline=1794417163&trid=0000234070879ebf4ead9c2a2d32a0fdb4au&uipk=5&platform=pc&upsig=ab913713090c16462dd5aa3d88094f8a&uparams=e,gen,os,og,mid,nbs,oi,deadline,trid,uipk,platform&cdnid=61310&bvc=vod&nettype=0&bw=553063&lrs=6&V=v3.1.1.0&qn_dyeid=e2a042854e1f300100835a1d6af485eb&agrr=0&buvid=&build=0&dl=0&f=u_0_0&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/qwen-partial/author-original.mp4",
+    "sha256": "56e0241faf486120d11ce29aac6b7053a166f8b9cba05b48f0a256baa5d176b6",
+    "bytes": 1106126,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1krWy6xEkw/",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://upos-sz-estgcos.bilivideo.com/upgcxcode/56/62/43506336256/43506336256-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&mid=0&trid=6397886824914482af2e04a85ccbc28u&uipk=5&og=cos&deadline=1794417163&oi=3730181056&platform=pc&nbs=1&gen=playurlv3&os=estgcos&upsig=e1ef21b87a2e3294f25f282d78c8369a&uparams=e,mid,trid,uipk,og,deadline,oi,platform,nbs,gen,os&bvc=vod&nettype=0&bw=690490&lrs=5&V=v3.1.1.0&dl=0&f=u_0_0&qn_dyeid=1ce895bfd36f803e0028e4b06af485eb&agrr=0&buvid=&build=0&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/qwen-playable/author-original.mp4",
+    "sha256": "bb67ed4235b18b742daaaf562bfd57f7d3ebd6767956887a26d2c28c33727b61",
+    "bytes": 1467292,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1yHWL62Ems/",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/85/34/43474423485/43474423485-1-192.mp4?e=ig8euxZM2rNcNbRzhbdVhwdlhWhghwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&trid=a336ba40f6eb4e39bdcf603a2d273a2u&mid=0&os=estgoss&og=ali&deadline=1794417248&nbs=1&oi=3730181056&gen=playurlv3&uipk=5&platform=pc&upsig=f6c89f6138c41ab9ee1329d3f29108ea&uparams=e,trid,mid,os,og,deadline,nbs,oi,gen,uipk,platform&bvc=vod&nettype=0&bw=1057589&lrs=-1&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=2d35fe15a3c71b54002b058b6af48640&agrr=0&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/fable-crab/author-original.mp4",
+    "sha256": "a1690431b76f0fb9f0729da2cc80ec9716244b3cc46827c166ab5687efb24882",
+    "bytes": 2643974,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1tfWK68EX9/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://i0.hdslb.com/bfs/new_dyn/fa3c3e2f28094436272ea61969cd7984283399806.png",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/fable-crab/gpt-reference-three-view.png",
+    "sha256": "5ed71e33a756fd4018d3574ee8600c637086a31408913bdfe126bc4b583df811",
+    "bytes": 1796331,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1tfWK68EX9/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://i0.hdslb.com/bfs/new_dyn/68fba2361e87dbe1ee3e66366a14562c283399806.png",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/fable-crab/author-preview-screenshot.png",
+    "sha256": "37ced260aea8ebabb7eeab544f2a84e9f37a73cad3cca7adfe0dd57da20dfad4",
+    "bytes": 1693605,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1tfWK68EX9/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cn-zjjh-ct-04-06.bilivideo.com/upgcxcode/34/58/43474095834/43474095834-1-192.mp4?e=ig8euxZM2rNcNbNV7WdVhwdlhbdBhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&platform=pc&mid=0&nbs=1&gen=playurlv3&os=bcache&deadline=1794417248&trid=00004bb319daaca347a09826b06b69a0139u&oi=3730181056&og=cos&upsig=ddfe9a3fb43d79bbeb280c71447ff6b3&uparams=e,uipk,platform,mid,nbs,gen,os,deadline,trid,oi,og&cdnid=6591&bvc=vod&nettype=0&bw=1640399&lrs=14&V=v3.1.1&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=e3ed0b51ac07cfe700ec90ba6af48640&agrr=0&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/motion/fable-eko/author-original.mp4",
+    "sha256": "a7f2fb67ca302aef8bea4534c5d82729b68102e44ecac1def9ad56d7eaf40743",
+    "bytes": 10867647,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/6/1/4/614781c9547850e77ec8c71b4b6f973ae501c4ca.gif",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2308/root/carbon-dsh-2dr-low-output.gif",
+    "sha256": "25cb4e205f0415a47c91df00394f718361f8bc6b61b24f52837488149555f078",
+    "bytes": 104531,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3157011/1",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
   }
 ]

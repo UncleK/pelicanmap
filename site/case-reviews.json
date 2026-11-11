@@ -1,4 +1,44 @@
 {
+  "x-sundarpichai-gemini-4-carbon-pelican-quest-2026-11-10": {
+    "sourceUrl": "https://x.com/sundarpichai/status/2120198811297694192",
+    "role": "case",
+    "reason": "The official demo adds an explorable Google campus and player-controlled adventure to the bicycle task.",
+    "evidence": [
+      "https://x.com/sundarpichai/status/2120198811297694192",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    ],
+    "fields": {
+      "topicTags": ["derivative"],
+      "externalUrl": "https://aistudio.google.com/apps/bundled/pelican-campus-quest",
+      "notes": "Sundar Pichai 在 X 上公布的演示：Gemini 4 Carbon 借助 Antigravity 的 /swarm，由建造者与评审子智能体反复迭代，用 Blender 与 Three.js 写出一款可玩的 3D 浏览器游戏。玩家扮成骑着 GBike 的鹈鹕，在谷歌山景城园区里自由骑行。馆藏保留作者原帖的 1080p 完整视频及音轨。Google 官方提供了 AI Studio 演示入口，打开需要登录 Google 账号。",
+      "i18n": {
+        "en": {
+          "title": "Gemini 4 Carbon · Pelican Quest: a 3D Mountain View campus game",
+          "model": "Gemini 4 Carbon",
+          "notes": "Demo published by Sundar Pichai on X. Gemini 4 Carbon, working through Antigravity's /swarm with builder and critic subagents iterating in loops, wrote a playable 3D browser game in Blender and Three.js. The player rides a GBike as a pelican around Google's Mountain View campus. The full 1080p video and audio from the original post are retained. Google's official AI Studio demo requires signing in to a Google account.",
+          "rights": "Video published by Sundar Pichai in the original X post, with the source retained. The official Google account later posted the same demo and stated it was built with Gemini 4 Carbon and /swarm. Shown for research and archival purposes.",
+          "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+          "promptCategory": "Source-documented test"
+        }
+      }
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "timelineVisible": false
+  },
+  "web-baidu-ernie-5-5-flash-preview-pelican-test-2026-11-11": {
+    "sourceUrl": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+    "role": "case",
+    "reason": "The 116-second short stages a historical journey through twenty art styles, with distinct scenes and a narrative ending.",
+    "evidence": [
+      "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "https://x.com/CatherineQMLYT/status/2120434916370616826"
+    ],
+    "fields": {
+      "topicTags": ["derivative"]
+    },
+    "policyVersion": "2026-10-26-classic-timeline-v3",
+    "timelineVisible": false
+  },
   "linuxdo-ds32-cn-off-2025-12-01": {
     "sourceUrl": "https://linux.do/t/topic/1244131",
     "role": "case",

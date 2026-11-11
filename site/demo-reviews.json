@@ -89,5 +89,24 @@
       "Rear wheel transform changed continuously"
     ],
     "safety": "Complete application reviewed; local opaque-origin iframe tested. Only original Tailwind CDN and Google Fonts references. No application network/storage/eval/navigation/forms/permissions. Original HTML bytes retained on isolated demo domain."
+  },
+  "github-aaronxu-claude-fable-5-2-tiny-planet-2026-11-11": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/aaronxu-fable-5-2-tiny-planet/index.html",
+    "controls": {
+      "zh": "按 W／↑ 踩踏，A／D 或左右方向键转向，S／↓ 刹车，空格跳跃或扑翼。按 E 摇铃吸引附近的鱼，按 C 切换镜头。手机按住画面踩踏，左右拖动转向，可点「跳」和「铃」。可点声音按钮静音。",
+      "en": "Hold W or Up to pedal, steer with A/D or Left/Right, brake with S or Down, and press Space to jump or flap. E rings the bell to attract nearby fish. C switches cameras. On touchscreens, hold the scene to pedal, drag sideways to steer, and tap 跳 (Jump) or 铃 (Bell). The sound button mutes the game."
+    },
+    "reviewedAt": "2026-11-11",
+    "sourceUrl": "https://github.com/AaronXu-Lab/Aaron-Portfolio/tree/74e6719f7f933c109aed97cea641a9a5ff2b4973/public/tools/prompt-lab/entries/fable-5-2-pelican-run-01",
+    "sourceSha256": "194934eb2f7bcf19d19803815ba0268759b5cf5d75cd1a1adfcac82a14330173",
+    "license": "MIT — Aaron Xu (2026), and MIT — Three.js authors (r185); both complete notices included in the demo files.",
+    "verifiedActions": [
+      "W increased speed 0 → 3.44 and advanced distance 0 → 1.41 in recorded game units.",
+      "D changed steering 0 → 0.21. Space changed grounded true → false and raised the rider.",
+      "Camera controls showed the front-facing rider and the whole planet. Ringing the bell activated its cooldown, attracted fish and the visible fish counter rose from 0 to 5 during riding.",
+      "Help opened and closed. Sound button toggled aria-pressed true → false.",
+      "At 390px width, emulated touch press advanced the bike and the document did not overflow horizontally."
+    ],
+    "safety": "The complete, unmodified eight-file project and both MIT notices were reviewed. The author-hosted project byte-matches the fixed source. Chromium ran with network requests restricted to the isolated local origin and no external requests or script errors. The source uses only work-prefixed localStorage for progress/preferences and synthesizes audio with WebAudio. No external CDNs, account data, custom permissions or source rewrites."
   }
 }
