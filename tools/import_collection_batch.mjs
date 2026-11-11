@@ -242,7 +242,14 @@ export function validateCandidate(c) {
         /^https:\/\/github\.com\/[^/?#]+\/[^/?#]+\/issues\/[1-9]\d*#issuecomment-[1-9]\d*$/.test(c.sourceUrl) &&
         m===c.media[0] && c.format==='image' && /\.(png|jpe?g|webp)$/i.test(m.filename) &&
         !m.crop && !m.browserCapture && m.sha256===m.reviewedSourceAsset.sha256;
-      if(!(pinnedRepoPreview || reviewedPullRequestSvg || reviewedIssuePreview) ||
+      const reviewedSaulReadmeSvg=reviewedSource &&
+        c.sourceUrl==='https://github.com/svgnew/Saul/blob/20af151aed008a467e2440087af5be7d017ce7b8/README.md' &&
+        c.model==='Claude Sonnet 4.5' &&
+        m.url==='https://github.com/user-attachments/assets/515fe4cf-29a8-4f4e-acb9-1f20ae516ace' &&
+        m===c.media[0] && c.format==='svg' && m.filename.endsWith('.svg') &&
+        !m.svgFromTranscript && !m.svgFromHardPrompts && !m.browserCapture && !m.crop &&
+        m.sha256===m.reviewedSourceAsset.sha256;
+      if(!(pinnedRepoPreview || reviewedPullRequestSvg || reviewedIssuePreview || reviewedSaulReadmeSvg) ||
         !/^\/user-attachments\/assets\/[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(new URL(m.url).pathname) ||
         !/^[a-f0-9]{64}$/.test(m.sha256||'') || !c.evidence.includes(m.url))
         throw Error('Repository preview requires a pinned public source, original attachment and reviewed hash');

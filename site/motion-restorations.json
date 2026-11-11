@@ -871,5 +871,16 @@
     "fullDocument": true,
     "reviewEvidence": "2026-11-10-history-expansion/motion/simon-kimi-k26-motion-proof.txt",
     "safety": "Byte-exact complete original, one inline script and CSS; DOM and SVG transforms, requestAnimationFrame, three local controls only. Isolated Chrome at 1200x800 confirmed continuing wheel, pedal, near-foot and wing motion and pause. No external requests, browser script errors, storage, navigation or dependencies."
+  },
+  "linuxdo-yaoeif-gpt6-max-pelican-overdrive-2026-11-10": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/3013236/14",
+    "sourceCodeUrl": "https://01a1c59f-1752-7292-9ed7-31cf519e1cc3.codepenusercontent.com/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/all-works-motion/linuxdo-yaoeif-gpt6-max-pelican-overdrive-2026-11-10/",
+    "sha256": "f963c42194e303a314c6e46ba5ab547cb0b3d6ef773180406150170a21277cc5",
+    "sourceBytes": 718183,
+    "fullDocument": true,
+    "reviewEvidence": "2026-11-10-motion-recent-supplement/yaoeif-offline-motion-proof.json",
+    "safety": "Exact self-contained original, including embedded r160 Three.js matching the upstream file after trimming whitespace. No externally referenced assets. Isolated Chrome confirms two rotating wheel assemblies, pixel motion, camera change, paused time and resume; zero HTTP requests, errors or downloads. The save button constructs a local HTML blob only on click."
   }
 }

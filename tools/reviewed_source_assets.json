@@ -29510,5 +29510,509 @@
         "model": "Claude Opus"
       }
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-BF16.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-BF16.svg",
+    "sha256": "a0414d8058f8745ff0bf7af4d114276024bf6482429b15efedc33b70deb68db5",
+    "bytes": 1239,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-BF16.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-IQ4_NL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-IQ4_NL.svg",
+    "sha256": "ca116cb0840af257f736effc9064e69daa59eb3562b3baff18b019299d5ecb0d",
+    "bytes": 1387,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-IQ4_NL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-IQ4_XS.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-IQ4_XS.svg",
+    "sha256": "519356b79fef744567ef18d68d047f530fe5071ae84383f72eca5bd2471d5761",
+    "bytes": 979,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-IQ4_XS.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q3_K_M.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q3_K_M.svg",
+    "sha256": "941d317081fddf20beb4bbdbd128eb663b6bf2ff6046398f895cda6a839851bb",
+    "bytes": 779,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_M.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q3_K_S.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q3_K_S.svg",
+    "sha256": "5305dbc310fb8311241e8c09109b95ae264e4c7b0d074a2c38bca7215d3d1cb6",
+    "bytes": 1077,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_S.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q4_0.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q4_0.svg",
+    "sha256": "7f05fd349381d7dd81e238a2c44636bc3dc1ca69ef7d0d7a528abe863e58c755",
+    "bytes": 948,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_0.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q4_1.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q4_1.svg",
+    "sha256": "40bb0ade3eeded2ed6a9f4c2e8243fa7320d99350bcdb045a3044100604643ad",
+    "bytes": 1199,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_1.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q4_K_M.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q4_K_M.svg",
+    "sha256": "69ab488bb14c610a083280ccc3d7f166e4e00c1a34b11be249fda65bc2e7fcec",
+    "bytes": 1018,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_M.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q4_K_S.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q4_K_S.svg",
+    "sha256": "dbf550c084604b4127261a943ccb03c90ef0077015f61a1fbe3fd61dd2b2af3a",
+    "bytes": 555,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_S.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q5_K_M.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q5_K_M.svg",
+    "sha256": "d9b134b08295f92b7dde22c08aac2982cc9c1100cfc2372180d52db000e7d85a",
+    "bytes": 1600,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_M.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q5_K_S.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q5_K_S.svg",
+    "sha256": "b2874bae91817797352c9115960489e338fc5c94777acfb3c93a8abfbf4a811a",
+    "bytes": 1742,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_S.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q6_K.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q6_K.svg",
+    "sha256": "6dcb797a6e7ccce1f333b353bd03ed72ed6d83344e501199bf0105fd8c10e20d",
+    "bytes": 797,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q6_K.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-Q8_0.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-Q8_0.svg",
+    "sha256": "c1def242d8fc779203d86f87661e0bce966348936c3ef5e1eb019c23d0ee9f29",
+    "bytes": 1606,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q8_0.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-UD-Q3_K_XL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-UD-Q3_K_XL.svg",
+    "sha256": "bfa2b05a8d92b8e44c84901c01af707ce4878c7da5a29d7eef768a7e5d2d1164",
+    "bytes": 1418,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q3_K_XL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-UD-Q4_K_XL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-UD-Q4_K_XL.svg",
+    "sha256": "4b72065a2c2e3e1f036c3a409869bcfafe0ac010adb9d0001ff904f59eb82c24",
+    "bytes": 975,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-UD-Q4_K_XL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-UD-Q5_K_XL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-UD-Q5_K_XL.svg",
+    "sha256": "1bf1ea824334ca501cf7caffafd1327080b43722ae268c1b9a60df45c57bb622",
+    "bytes": 2030,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q5_K_XL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-UD-Q6_K_XL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-UD-Q6_K_XL.svg",
+    "sha256": "4895e753a41cf45193e04f08442546ef72094f5efe0f14bf0033f535cd41fba9",
+    "bytes": 803,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q6_K_XL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonw/granite-4.1-3b-gguf-pelicans/50b9d8251fa19480b09135b406065ffaaa27a3c5/granite-4.1-3b-UD-Q8_K_XL.svg",
+    "path": "pelican-archive/research/2026-11-10-history-expansion/benchmark/early-sources/granite/pinned/granite-4.1-3b-UD-Q8_K_XL.svg",
+    "sha256": "4a72c98a3b664e9f984d670ddc8c99b169ca013ef760fa5c0efd742101087339",
+    "bytes": 1002,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q8_K_XL.svg",
+        "model": "Granite 4.1 3B"
+      }
+    ]
+  },
+  {
+    "url": "https://claude.ai/public/artifacts/b47c2dd5-41a6-452c-8701-5a476db0a488",
+    "path": "pelican-archive/research/2026-11-10-early-interactive-recovery/dr-dshiv-opus41-original.html",
+    "sha256": "220e56c01a1c635a11c4259896972da7931e6f2fcb938fe262c7c1236f22f76c",
+    "bytes": 17687,
+    "bindings": [
+      {
+        "sourceUrl": "https://news.ycombinator.com/item?id=45870745",
+        "model": "Claude Opus 4.1"
+      }
+    ]
+  },
+  {
+    "url": "https://ipfs.infogaps.net/ipfs/QmUC2187YomxUvKihxakFJ8JiVViNwx7Ygd6RUKeRSwKZv?filename=%E9%B9%88%E9%B9%95%E9%AA%91%E8%87%AA%E8%A1%8C%E8%BD%A6.svg",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/steper/classic.svg",
+    "bytes": 15620,
+    "sha256": "786d93974b1607d93a82abcf253588c5a777f9d804abb09df9a36c3940b71564",
+    "bindings": [
+      {
+        "sourceUrl": "https://zhichai.net/topic/178634695",
+        "model": "GLM-5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://ipfs.infogaps.net/ipfs/QmddL7bavJXStSbg7tHfD7rVQnr3Qu77J6zgkxFWRB7d8N?filename=%E9%B9%88%E9%B9%95%E9%AA%91%E8%87%AA%E8%A1%8C%E8%BD%A6_%E6%B7%B1%E7%A9%BA%E7%89%88.svg",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/steper/deep-space.svg",
+    "bytes": 15702,
+    "sha256": "73edce65df1041a7cd8d8bbc458d8d72f4761204ca8aa969e84254883532dd9c",
+    "bindings": [
+      {
+        "sourceUrl": "https://zhichai.net/topic/178634695",
+        "model": "GLM-5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/user-attachments/assets/515fe4cf-29a8-4f4e-acb9-1f20ae516ace",
+    "path": "pelican-archive/research/2026-11-10-motion-early-continuation/saul-pelican-original.svg",
+    "sha256": "ef297e43d091313fe0324539a5e0afbc25a8cc7ddff1b6ed8bb25b97d78b2eda",
+    "bytes": 6577,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/svgnew/Saul/blob/20af151aed008a467e2440087af5be7d017ce7b8/README.md",
+        "model": "Claude Sonnet 4.5"
+      }
+    ]
+  },
+  {
+    "url": "https://kefong.net/uploads/202610-b32227165e57.png",
+    "path": "pelican-archive/research/2026-11-10-motion-early-continuation/kefong-202610-b32227165e57.png",
+    "sha256": "8bd181c0e5f42c1feffcac211d7cb8ae2c23ca390a71b4693281eef6ad8e02d9",
+    "bytes": 94461,
+    "bindings": [
+      {
+        "sourceUrl": "https://kefong.net/post/pelican-bicycle-test",
+        "model": "Qwen3.8-Flash-Next"
+      }
+    ]
+  },
+  {
+    "url": "https://kefong.net/uploads/202610-6fdf4dc464e8.png",
+    "path": "pelican-archive/research/2026-11-10-motion-early-continuation/kefong-202610-6fdf4dc464e8.png",
+    "sha256": "49daedfbb79e599677689c223cca6e1bcca7f7d1d9c1fd0866b1de78a75bba6c",
+    "bytes": 435405,
+    "bindings": [
+      {
+        "sourceUrl": "https://kefong.net/post/pelican-bicycle-test",
+        "model": "Qwen3.8-Flash-Next"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX9QW1EQJJP3V98NQ2ACDD.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01KXZX9QW1EQJJP3V98NQ2ACDD.html",
+    "sha256": "b75eadfc9cb45f0f9e2b7cb599bc7a9b22a83f260253233cccb786fc05aa967c",
+    "bytes": 18633,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX9QW1EQJJP3V98NQ2ACDD.html",
+        "model": "Gemma 4 31b-it-qat"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX8SZMAM2T4XZ59RKEKTD8.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01KXZX8SZMAM2T4XZ59RKEKTD8.html",
+    "sha256": "b5a078c4e83f643df69b63c2ff50c4cd288a34fe890d1d3c6665f0eefd2b98e1",
+    "bytes": 19208,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX8SZMAM2T4XZ59RKEKTD8.html",
+        "model": "Gemma 4 26b-a4b-it-qat"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX7VY1CG9NNTDG3P3AQMZC.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01KXZX7VY1CG9NNTDG3P3AQMZC.html",
+    "sha256": "ec577120d213ed05cfea0a8174a134d075ad9b551fdb49cbc9ca76a84cabb695",
+    "bytes": 18396,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01KXZX7VY1CG9NNTDG3P3AQMZC.html",
+        "model": "Gemma 4 12b-it-qat"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01KZR0GF8E0DY9C6BBFQJ4PBKD.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01KZR0GF8E0DY9C6BBFQJ4PBKD.html",
+    "sha256": "bb8f2929542643df22ed34bedd9209f744a2595ccfdb837186a06f7eadd8bade",
+    "bytes": 18393,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01KZR0GF8E0DY9C6BBFQJ4PBKD.html",
+        "model": "Muse Glimmer 30b"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M0252JC45QXQPPF6F8DR7ZT8.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M0252JC45QXQPPF6F8DR7ZT8.html",
+    "sha256": "8bdbce851770a13d30d6762830e10cda4a5ce7e51b6424e35d05fe5422c8e90a",
+    "bytes": 25404,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M0252JC45QXQPPF6F8DR7ZT8.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M023WKEQNS3PRJJ4RRHX1BWT.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M023WKEQNS3PRJJ4RRHX1BWT.html",
+    "sha256": "c3226f56c236d45c2d2777b2d5837fbd22b6a127f036d3fddcf692c57065a253",
+    "bytes": 24017,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023WKEQNS3PRJJ4RRHX1BWT.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M023VKX6B5FKKX83HQSA0SV9.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M023VKX6B5FKKX83HQSA0SV9.html",
+    "sha256": "751690cec6eed7e43b6f33bf735ebafb9261b0b616a0d5dfbdbe4f111fa897f8",
+    "bytes": 25427,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023VKX6B5FKKX83HQSA0SV9.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M024CMA4JA499WG00H5VDXD3.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M024CMA4JA499WG00H5VDXD3.html",
+    "sha256": "3e765cb8f9cb81aeae1af24994b445a3e1d47cc407d13d8f47cec36cd74f5739",
+    "bytes": 34818,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M024CMA4JA499WG00H5VDXD3.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M023ZMWEE1SPKYVV7X5JRGCM.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M023ZMWEE1SPKYVV7X5JRGCM.html",
+    "sha256": "563012a9eba7308baa72c197e89a0d2c4edab48917cc80dab8b32d94a8e5bd52",
+    "bytes": 29318,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023ZMWEE1SPKYVV7X5JRGCM.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M023T79TF6K6Z0RHMQ44TAEE.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M023T79TF6K6Z0RHMQ44TAEE.html",
+    "sha256": "3bc9874770d1f783db731ca6908dbf6d47325b1020556adb3350cf67bd8893b5",
+    "bytes": 28768,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023T79TF6K6Z0RHMQ44TAEE.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://morphifex-gallery.pages.dev/works/illustration-01M023XJJS5WTDCBM3M64SRQ7Z.html",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/morphifex/illustration-01M023XJJS5WTDCBM3M64SRQ7Z.html",
+    "sha256": "6572d40238a779545a1c78b8938a26ca51cf597282f1137a87375ac39ee31844",
+    "bytes": 26589,
+    "bindings": [
+      {
+        "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023XJJS5WTDCBM3M64SRQ7Z.html",
+        "model": "Qwen3.8 (Ollama latest)"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Neptune-Cross/pelican-rides/5af281ce13b46793811db493d29b756da4291d81/uploads/bonsai-2-27b-%E9%B9%88%E9%B9%95%E6%B5%8B%E8%AF%95-cc7c0193.html",
+    "path": "pelican-archive/research/2026-11-10-model-history-sources/neptune-bonsai.html",
+    "sha256": "cc7c019388398fa70a1fd72d153856c16269e52d8837f26ed094d0e3cd7571d2",
+    "bytes": 15828,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Neptune-Cross/pelican-rides/commit/5af281ce13b46793811db493d29b756da4291d81",
+        "model": "Bonsai 2 27B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Neptune-Cross/pelican-rides/0f9422ac59a4bdd9107ff7efa9a21b81c1f16f50/uploads/gemini-3.8-flash-20260919-%E9%B9%88%E9%B9%95%E6%B5%8B%E8%AF%95-fd83e9a8.html",
+    "path": "pelican-archive/research/2026-11-10-model-history-sources/neptune-gemini.html",
+    "sha256": "fd83e9a81104472512d24699631ad25c2147cef987981e4b10663acc7f3a6e6f",
+    "bytes": 69591,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Neptune-Cross/pelican-rides/commit/0f9422ac59a4bdd9107ff7efa9a21b81c1f16f50",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Neptune-Cross/pelican-rides/dd77624958ad4185211765599e8c95f4dfcd23d4/uploads/gpt-6-luna-max-20260917-%E9%B9%88%E9%B9%95%E6%B5%8B%E8%AF%95-1a407160.html",
+    "path": "pelican-archive/research/2026-11-10-model-history-sources/neptune-luna-max.html",
+    "sha256": "1a407160304deb0bb5992fa49d06e5bc9f3fd89758b65e16fdedce1924e02eec",
+    "bytes": 18395,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Neptune-Cross/pelican-rides/commit/dd77624958ad4185211765599e8c95f4dfcd23d4",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Neptune-Cross/pelican-rides/beb12337cfbf4f5c666eeaf32ceaf6e55ac515ba/uploads/gpt-6-luna-xhigh-20260917-%E9%B9%88%E9%B9%95%E6%B5%8B%E8%AF%95-8ec80b66.html",
+    "path": "pelican-archive/research/2026-11-10-model-history-sources/neptune-luna-xhigh.html",
+    "sha256": "8ec80b66be264d2ae13b1cf30d21234edd732028b485a24546322a668b8a11a6",
+    "bytes": 20130,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Neptune-Cross/pelican-rides/commit/beb12337cfbf4f5c666eeaf32ceaf6e55ac515ba",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://01a1c59f-1752-7292-9ed7-31cf519e1cc3.codepenusercontent.com/index.html",
+    "path": "pelican-archive/research/2026-11-10-motion-recent-supplement/yao-index.html",
+    "sha256": "f963c42194e303a314c6e46ba5ab547cb0b3d6ef773180406150170a21277cc5",
+    "bytes": 718183,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3013236/14",
+        "model": "GPT-6"
+      }
+    ]
+  },
+  {
+    "url": "https://linux.do/t/topic/2889137/11",
+    "path": "pelican-archive/research/2026-11-10-illustration-continuation/linuxdo-ugly/windz-original-code.svg",
+    "bytes": 3301,
+    "sha256": "a439470428633aaa39fe7cb80848ad3e273354a564a857c558d364e86e8bc5d7",
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/2889137/11",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2119924755642142720/vid/avc1/1920x1080/FSal6V3h5_D38_cH.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-techfren-fable-blender/techfren-original.mp4",
+    "sha256": "e292e2c3239414afebf95890222cf400cf1eecf0ccd1c5363829bedce6c572ba",
+    "bytes": 10853918,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/techfren/status/2119924958134702276",
+        "model": "Claude Fable 5.2"
+      }
+    ]
   }
 ]

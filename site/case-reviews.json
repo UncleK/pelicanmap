@@ -13085,5 +13085,337 @@
       }
     },
     "timelineVisible": false
+  },
+  "simonw-granite-41-3b-bf16-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-BF16.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-BF16.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-iq4-nl-2026-05-04": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-IQ4_NL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-IQ4_NL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/fa1cd86fe5eba555467caaba932f5e22bb2ce301"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/fa1cd86fe5eba555467caaba932f5e22bb2ce301",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-05-04"
+    }
+  },
+  "simonw-granite-41-3b-iq4-xs-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-IQ4_XS.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-IQ4_XS.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q3-k-m-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_M.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_M.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q3-k-s-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_S.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q3_K_S.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q4-0-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_0.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_0.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q4-1-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_1.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_1.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q4-k-m-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_M.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_M.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q4-k-s-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_S.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q4_K_S.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q5-k-m-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_M.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_M.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q5-k-s-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_S.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q5_K_S.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q6-k-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q6_K.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q6_K.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-q8-0-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q8_0.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-Q8_0.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-ud-q3-k-xl-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q3_K_XL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q3_K_XL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-ud-q4-k-xl-2026-05-04": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-UD-Q4_K_XL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/fa1cd86fe5eba555467caaba932f5e22bb2ce301/granite-4.1-3b-UD-Q4_K_XL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/fa1cd86fe5eba555467caaba932f5e22bb2ce301"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/fa1cd86fe5eba555467caaba932f5e22bb2ce301",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-05-04"
+    }
+  },
+  "simonw-granite-41-3b-ud-q5-k-xl-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q5_K_XL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q5_K_XL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-ud-q6-k-xl-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q6_K_XL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q6_K_XL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "simonw-granite-41-3b-ud-q8-k-xl-2026-04-30": {
+    "sourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q8_K_XL.svg",
+    "role": "case",
+    "reason": "The same quantization study has two dated source revisions. Compare the original outputs within each exact dated revision.",
+    "evidence": [
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/blob/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4/granite-4.1-3b-UD-Q8_K_XL.svg",
+      "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/simonw/granite-4.1-3b-gguf-pelicans/commit/9e68d0b1e368fbc0eaa317e8c01ac44c773d89a4",
+      "modelRunGroup": "simonw-granite-41-3b-gguf-2026-04-30"
+    }
+  },
+  "morphifex-01m0252jc45qxqppf6f8dr7zt8": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M0252JC45QXQPPF6F8DR7ZT8.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M0252JC45QXQPPF6F8DR7ZT8.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m023wkeqns3prjj4rrhx1bwt": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023WKEQNS3PRJJ4RRHX1BWT.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M023WKEQNS3PRJJ4RRHX1BWT.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m023vkx6b5fkkx83hqsa0sv9": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023VKX6B5FKKX83HQSA0SV9.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M023VKX6B5FKKX83HQSA0SV9.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m024cma4ja499wg00h5vdxd3": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M024CMA4JA499WG00H5VDXD3.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M024CMA4JA499WG00H5VDXD3.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m023zmwee1spkyvv7x5jrgcm": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023ZMWEE1SPKYVV7X5JRGCM.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M023ZMWEE1SPKYVV7X5JRGCM.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m023t79tf6k6z0rhmq44taee": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023T79TF6K6Z0RHMQ44TAEE.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M023T79TF6K6Z0RHMQ44TAEE.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
+  },
+  "morphifex-01m023xjjs5wtdcbm3m64srq7z": {
+    "sourceUrl": "https://morphifex-gallery.pages.dev/works/illustration-01M023XJJS5WTDCBM3M64SRQ7Z.html",
+    "role": "case",
+    "reason": "Individual works share a topic, model label and date. The source pages do not establish a shared complete prompt or a single settings sweep.",
+    "evidence": [
+      "https://morphifex-gallery.pages.dev/works/illustration-01M023XJJS5WTDCBM3M64SRQ7Z.html",
+      "https://morphifex-gallery.pages.dev/",
+      "https://morphifex.pages.dev/",
+      "https://note.com/akb428/n/ne940d390d31b"
+    ],
+    "fields": {
+      "modelRunGroup": ""
+    }
   }
 }
