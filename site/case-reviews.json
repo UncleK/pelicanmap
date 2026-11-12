@@ -8,7 +8,9 @@
       "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
     ],
     "fields": {
-      "topicTags": ["derivative"],
+      "topicTags": [
+        "derivative"
+      ],
       "externalUrl": "https://aistudio.google.com/apps/bundled/pelican-campus-quest",
       "notes": "Sundar Pichai 在 X 上公布的演示：Gemini 4 Carbon 借助 Antigravity 的 /swarm，由建造者与评审子智能体反复迭代，用 Blender 与 Three.js 写出一款可玩的 3D 浏览器游戏。玩家扮成骑着 GBike 的鹈鹕，在谷歌山景城园区里自由骑行。馆藏保留作者原帖的 1080p 完整视频及音轨。Google 官方提供了 AI Studio 演示入口，打开需要登录 Google 账号。",
       "i18n": {
@@ -34,7 +36,9 @@
       "https://x.com/CatherineQMLYT/status/2120434916370616826"
     ],
     "fields": {
-      "topicTags": ["derivative"]
+      "topicTags": [
+        "derivative"
+      ]
     },
     "policyVersion": "2026-10-26-classic-timeline-v3",
     "timelineVisible": false
@@ -13456,6 +13460,76 @@
     ],
     "fields": {
       "modelRunGroup": ""
+    }
+  },
+  "nebius-sujee-minimax-m2-1-a-2026-01-16": {
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle/images/minimax-m2.1-a.svg",
+    "role": "case",
+    "reason": "The same pinned Nebius Cookbook commit publishes both named samples for this model. Keep each individual source file and use the pinned test folder as the comparison source.",
+    "evidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle/images/minimax-m2.1-a.svg",
+      "https://github.com/nebius/token-factory-cookbook/tree/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/nebius/token-factory-cookbook/tree/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle"
+    }
+  },
+  "nebius-sujee-minimax-m2-1-b-2026-01-16": {
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle/images/minimax-m2.1-b.svg",
+    "role": "case",
+    "reason": "The same pinned Nebius Cookbook commit publishes both named samples for this model. Keep each individual source file and use the pinned test folder as the comparison source.",
+    "evidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle/images/minimax-m2.1-b.svg",
+      "https://github.com/nebius/token-factory-cookbook/tree/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/nebius/token-factory-cookbook/tree/996ba1408a28aac1c10a72c50aaf003970c6fb3b/fun/pelican-riding-bicycle"
+    }
+  },
+  "nebius-sujee-kimi-k2-5-a-2026-02-13": {
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle/images/kimi-k2.5-a.svg",
+    "role": "case",
+    "reason": "The same pinned Nebius Cookbook commit publishes both named samples for this model. Keep each individual source file and use the pinned test folder as the comparison source.",
+    "evidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle/images/kimi-k2.5-a.svg",
+      "https://github.com/nebius/token-factory-cookbook/tree/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/nebius/token-factory-cookbook/tree/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle"
+    }
+  },
+  "nebius-sujee-kimi-k2-5-b-2026-02-13": {
+    "sourceUrl": "https://github.com/nebius/token-factory-cookbook/blob/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle/images/kimi-k2.5-b.svg",
+    "role": "case",
+    "reason": "The same pinned Nebius Cookbook commit publishes both named samples for this model. Keep each individual source file and use the pinned test folder as the comparison source.",
+    "evidence": [
+      "https://github.com/nebius/token-factory-cookbook/blob/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle/images/kimi-k2.5-b.svg",
+      "https://github.com/nebius/token-factory-cookbook/tree/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/nebius/token-factory-cookbook/tree/2f76fcda1f5ed0359d3f4cc5c0b2500900767750/fun/pelican-riding-bicycle"
+    }
+  },
+  "github-yalex-kim-k-exaone-25-low-2026-11-10": {
+    "sourceUrl": "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/results/pelican-low/pelican.svg",
+    "role": "case",
+    "reason": "Single run per effort in one author comparison; the pinned repository preserves each model output separately.",
+    "evidence": [
+      "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/README.md"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/README.md"
+    }
+  },
+  "github-yalex-kim-k-exaone-25-high-2026-11-10": {
+    "sourceUrl": "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/results/pelican-high/pelican.svg",
+    "role": "case",
+    "reason": "Single run per effort in one author comparison; the pinned repository preserves each model output separately.",
+    "evidence": [
+      "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/README.md"
+    ],
+    "fields": {
+      "runSourceUrl": "https://github.com/yalex-kim/k-exaone-bench/blob/d065e8d33cc50176bd221e4d5111dc161d7a7718/README.md"
     }
   }
 }

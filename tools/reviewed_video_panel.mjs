@@ -7,6 +7,19 @@ import {cropPath} from './reviewed_video_crop.mjs';
 
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 export const PANELS={
+  'https://x.com/MOPS_PUGS/status/2120002841532125235':{
+    url:'https://video.twimg.com/amplify_video/2120002345509814272/vid/avc1/1080x1350/-5EEoL5lUeDYek-K.mp4?tag=29',
+    sha256:'a563f4f19e077c95e46d6fe119aca604c093865689e0b0cf6cdcd9e19a960496',
+    width:1080,height:1350,frames:450,fps:30,
+    boxes:[[58,490,470,294],[550,488,474,294]],ranges:[[15,165]],
+    models:['Claude Fable 5.2','Claude Haiku 5.5'],
+    method:'ffmpeg:lossless-panel-preserve-color-and-timing'},
+  'https://x.com/YxzRainy/status/2117961593199992899':{
+    url:'https://video.twimg.com/amplify_video/2117961511121612800/vid/avc1/1760x2346/KaerrS_ndvpuHlMT.mp4?tag=29',
+    sha256:'5c707b21387a5b913f5914bb71df067e46629db32f6d39b0ba63bcafde3c1be9',
+    width:1760,height:2346,frames:1423,fps:60,
+    boxes:[[0,1160,1760,1186]],ranges:[[960,1392]],models:['Hy4'],
+    format:'3d',method:'ffmpeg:lossless-panel-preserve-color-and-timing'},
   'https://x.com/JeffDean/status/2024525132266688757':{
     url:'https://video.twimg.com/amplify_video/2024525037299281920/vid/avc1/1920x1080/PTCLfky51Ho6U6v8.mp4?tag=21',
     sha256:'600080cae3d22c463e6bf369d0636b38bafab2536e3e93540a1ce3ad9ac08a91',
@@ -55,10 +68,10 @@ export function validateVideoPanel(c,m,root){
   const spec=PANELS[c.sourceUrl],s=m.reviewedVideoPanel;
   const boxIndex=spec?.boxes.findIndex(box=>JSON.stringify(box)===JSON.stringify(s?.box));
   if(!spec || !s || m.url!==spec.url || s.sourceSha256!==spec.sha256 ||
-     c.format!=='animation' || m!==c.media[0] || m.detailOnly ||
+     c.format!==(spec.format ?? 'animation') || m!==c.media[0] || m.detailOnly ||
      !c.evidence.includes(c.sourceUrl) || !c.evidence.includes(m.url) ||
      !/^[a-f0-9]{64}$/.test(m.sha256||'') || !m.filename.endsWith('.mp4') ||
-     s.method!=='ffmpeg-skill/crop.py+cut.py:lossless-preserve-color' ||
+     s.method!==(spec.method ?? 'ffmpeg-skill/crop.py+cut.py:lossless-preserve-color') ||
      boxIndex===-1 || (spec.models && c.model!==spec.models[boxIndex]) ||
      !spec.ranges.some(range=>JSON.stringify(range)===JSON.stringify(s.frames)) ||
      ['crop','hls','browserCapture','svgFromHardPrompts','svgFromTranscript','reviewedVideoSegment','reviewedVideoCrop'].some(k=>m[k]!==undefined))

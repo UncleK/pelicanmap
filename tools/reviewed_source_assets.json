@@ -30182,5 +30182,369 @@
         "model": "Gemini 4 Carbon"
       }
     ]
+  },
+  {
+    "url": "https://cn-sccd-ct-02-16.bilivideo.com/upgcxcode/96/14/43509811496/43509811496-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&platform=pc&gen=playurlv3&deadline=1794420124&trid=000019343ee4014c476394cb620910e972cu&os=bcache&og=cos&mid=0&oi=3730181056&nbs=1&uipk=5&upsig=19e6c953294f948bae81152e41f662a9&uparams=e,platform,gen,deadline,trid,os,og,mid,oi,nbs,uipk&cdnid=89716&bvc=vod&nettype=0&bw=691114&lrs=8&V=v3.1.1.0&agrr=0&buvid=&build=0&dl=0&f=u_0_0&qn_dyeid=7f2dab8678ff3d0b00ac7eaf6af4917c&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-12-daily-quality-review/motion/qwen-art-first/author-original-qn64.mp4",
+    "sha256": "d30acb5657b39842ece73edad4318b37b9eb87f82ea752663b089a8140770b89",
+    "bytes": 11835342,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1MTW16zEqm/",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://cn-jsnt-ct-01-11.bilivideo.com/upgcxcode/38/83/43521148338/43521148338-1-192.mp4?e=ig8euxZM2rNcNbRznwdVhwdlhWh3hwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&nbs=1&trid=00000e2336673b4a4bbca54e609d4af461cu&mid=0&deadline=1794420123&og=cos&uipk=5&oi=3730181056&platform=pc&gen=playurlv3&os=bcache&upsig=ce4f2bd03ba203440d2efa892fee0180&uparams=e,nbs,trid,mid,deadline,og,uipk,oi,platform,gen,os&cdnid=4281&bvc=vod&nettype=0&bw=1106743&lrs=18&V=v3.1.1.0&qn_dyeid=438aac2ad890919500322f326af4917b&agrr=0&buvid=&build=0&dl=0&f=u_0_0&orderid=0,3",
+    "path": "pelican-archive/research/2026-11-12-daily-quality-review/motion/qwen-art-second/author-original-qn64.mp4",
+    "sha256": "206c1f065b8402863e19356faf5efc9d6347c3e6e7c9648f6f07456dae786e03",
+    "bytes": 18952981,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.bilibili.com/video/BV1MDW16uEJb/",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/7/8/8/7888f71deca0f68dfaebe32962f3d970549da263.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-1851/supermadmax-original.svg",
+    "sha256": "34b515e08fc3c585d952bf44835b5579949404a34d63c5bb77ef04399e641b07",
+    "bytes": 732161,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3152549",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6af35c87bab568bf85332a4a_6af35c821b7bc001348b8709_google-gemini-4-carbon-demo.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-1923/aimlapi-carbon-original.svg",
+    "sha256": "f7d74799b2dd28357ffce14fe2085ab8d6c4406d6b36eecfd574d77aa79e265b",
+    "bytes": 16640,
+    "bindings": [
+      {
+        "sourceUrl": "https://aimlapi.com/models/google-gemini-4-carbon",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/raw/pelican-bicycle/gemini-4-carbon.c36c9518.txt",
+    "path": "pelican-archive/research/2026-11-12-launch-direct/static/hype-carbon-author-raw.txt",
+    "sha256": "a674ef2ae2028f891b4401395671918699c448a4345bf25aef01deec6db8a485",
+    "bytes": 20348,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gemini-4-carbon/",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/6/0/1/6017d9360af6510f188b8737f46fce0a170c6a98.gif",
+    "path": "pelican-archive/research/2026-11-12-launch-0030/root/fist2005-original-original.gif",
+    "sha256": "836b86b21a52bd0b53ccc266952fc1f1eb7e27b198b636b8bf652f1b813063ca",
+    "bytes": 3793550,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3147326/1",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/c/c/f/ccf958414b692b94de21a41364b0f18b9520af2b.gif",
+    "path": "pelican-archive/research/2026-11-12-launch-0030/root/fist2005-realistic-original.gif",
+    "sha256": "cf76d36b9411b80315a749d70fc5bb841d1dbf34300af4010eabce41cb11992b",
+    "bytes": 3790630,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3147326/1",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/b/2/7/b27647d349c7579aead35f04b323c8c5b2195409.gif",
+    "path": "pelican-archive/research/2026-11-12-launch-0030/root/fist2005-kyoani-original.gif",
+    "sha256": "d06355a907ae29d4ed08b6c19c10c0b6e4b6bdc484f3e180c64179b88fb6ae7d",
+    "bytes": 3567125,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3147326/1",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/5/5/9/559a963813be54f6e6510e2e0ec09afbb363664f.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-1851/flymyd-antigravity-original.svg",
+    "sha256": "b6349648bcb005376f05ad41e7af9b5572e97934b67be609995d6a5cfc6f2192",
+    "bytes": 90679,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3155792",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2119273440704401408/vid/avc1/1022x720/CfthHELZ-sfdcr9_.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2223/carbon/2119273492499808703-media-1.mp4",
+    "sha256": "b2e628f20532f61788f3c5ee9a988ca2e26960567ae9c3638fb6b454949a170c",
+    "bytes": 1284553,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/dragono64v/status/2119273492499808703",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2119273468449685504/vid/avc1/1174x720/wSwVaQfvEMP4XQaY.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2223/carbon/2119273492499808703-media-2.mp4",
+    "sha256": "ebcc0509de3791562f959c16a45a7b0eb426242c9193638a8f5a2cd3fde8c034",
+    "bytes": 1308345,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/dragono64v/status/2119273492499808703",
+        "model": "腾讯混元 Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/museumofmodels/collection/3ae5010a83e6fc3e34a339d865d605701c44aa82/data/answers/svg-layout.jsonl#L280",
+    "path": "pelican-archive/research/2026-11-12-launch-0030/illustration/museum-of-models-claude-fable-5-2-svg-layout.svg",
+    "bytes": 2593,
+    "sha256": "e50abbaa7e8727e23479eeb7a1c6620122c1573aa5f9f25d13f4c5136b8b9055",
+    "bindings": [
+      {
+        "sourceUrl": "https://museumofmodels.com/q/pelican-on-a-bicycle#claude-fable-5.2",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120235764508471296/vid/avc1/2880x1800/seLZ3Mu1A2STnp03.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-qwen-carbon/harshith-carbon-medium-original.mp4",
+    "sha256": "69dab4cb496ccd9a5dc21d1415afacc310dd7e944c14d83155d3735672a9ba9b",
+    "bytes": 29443779,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/HarshithLucky3/status/2120236571165368720",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117646777268494336/vid/avc1/1200x790/2p_Q7BWcsR-Ioiid.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2023/lumeo-round3-original.mp4",
+    "sha256": "461abfa3d5578ef0faf0f6483a1d93bb0ca47cee4fe85a06fcdf218e35b112e4",
+    "bytes": 1518131,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/LumeoLab/status/2117646881832816825",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117645228047785984/vid/avc1/1600x540/LP5ffFp1bX1lNJpj.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2023/lumeo-round2-original.mp4",
+    "sha256": "c6978fdb24ef26bc4d1f4a53c91a80440cabcfde00df745980a0c73822fded70",
+    "bytes": 607351,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/LumeoLab/status/2117646881832816825",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120388962959458304/vid/avc1/1782x1116/UCn7lH3ars4De1P8.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-12-launch-0047/motion/xingyu-qwen-author-original.mp4",
+    "sha256": "f4f6cad0b7b47e531381869931ea3305d8345448b80bff9f2b78856af65f6f2e",
+    "bytes": 8655024,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/YxzRainy/status/2120389025777471750",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120150652026269696/vid/avc1/1920x1920/Px1VltMZB6vhD0vt.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-12-launch-0047/root/marcel-original.mp4",
+    "bytes": 60775172,
+    "sha256": "d416100f47d755368a1b5cfd7fe8df4b71a4babeccbcdcff7dd0850e44742251",
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/marcthecreatorr/status/2120151349924938083",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2117961511121612800/vid/avc1/1760x2346/KaerrS_ndvpuHlMT.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2223/yxz-hy4/author-original-video.mp4",
+    "sha256": "5c707b21387a5b913f5914bb71df067e46629db32f6d39b0ba63bcafde3c1be9",
+    "bytes": 23158346,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/YxzRainy/status/2117961593199992899",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2113230737172512769/vid/avc1/2560x1600/YLhDlLtF_a3puM_r.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2252/projects/drsta-argon/drsta-argon-original.mp4",
+    "sha256": "1633adb607bff04b39a6ddfc829db34e77750afe04ecff4ad1eafc249ec1dd09",
+    "bytes": 21930477,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/DrstaOne/status/2113233023034638482",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://b156790b-8b51-4325-ba34-69fbefbfc382.frame.claudeusercontent.com/_f/1794261043-803f/?__frame_v=manifest.2c8e6922c1ff5bab.json",
+    "path": "pelican-archive/research/2026-11-12-launch-0102/interactive/marcel-original-frame.html",
+    "sha256": "4ea1331de0ecfb438efa34c731ba810ce6a213455d2e090becb109b924b5cd15",
+    "bytes": 119520,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/marcthecreatorr/status/2120151349924938083",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120434492984942592/vid/avc1/1966x1080/Fn7r2taaAErYPYwC.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2053/chetas-original-1080p.mp4",
+    "sha256": "cb8aca4ae8432961fd93061cbbc91863179f93315fef7b76b5604e071e8472ab",
+    "bytes": 38754312,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2120438091647218025",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120002345509814272/vid/avc1/1080x1350/-5EEoL5lUeDYek-K.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-12-launch-0047/root/mops-original.mp4",
+    "sha256": "a563f4f19e077c95e46d6fe119aca604c093865689e0b0cf6cdcd9e19a960496",
+    "bytes": 1730663,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/MOPS_PUGS/status/2120002841532125235",
+        "model": "Claude Fable 5.2"
+      },
+      {
+        "sourceUrl": "https://x.com/MOPS_PUGS/status/2120002841532125235",
+        "model": "Claude Haiku 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn.paicoding.com/stutymore/longcat-2-5-pelican-bike-20261103152655-04f90013.gif",
+    "path": "pelican-archive/research/2026-11-12-launch-0121/interactive/wanger-original.gif",
+    "sha256": "65ff554c9718673ba04e46421f65f20aa7b6dc64be4533cfbd815d511e4815b6",
+    "bytes": 1643662,
+    "bindings": [
+      {
+        "sourceUrl": "https://javabetter.cn/ai/video/longcat-2-5.html",
+        "model": "LongCat 2.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120523108998426624/vid/avc1/1920x1080/qDmK0gmubC9Kb0eB.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-12-launch-0121/motion/aifun-49-original.mp4",
+    "sha256": "8845b3fb627d1feb965462a59cc7aa80946ad2f340c580b35bdcbac840f5da13",
+    "bytes": 31318602,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/UFO2002616/status/2120523427044110521",
+        "model": "GPT-6.2 Astra（灰度，来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120358003602075648/vid/avc1/1920x1080/j4zXD5lHO5RsqBVJ.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-qwen-carbon/kayshen-qwen4-max-1080p.mp4",
+    "sha256": "565ee11c4cdb2c76c15e725b0059356811d9c15a088f3f2b4d0a1feb4e810d62",
+    "bytes": 17930834,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/kayshen_xu/status/2120358686921261268",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2119975178503393280/vid/avc1/1920x1080/Gs-8xy1pqulceVLL.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-1827/yanglei-fable52-eclipse.mp4",
+    "sha256": "ae6b0671e6ee1437e4040fc412bdd5ae692f88636d8b379571c7436c81b6ada5",
+    "bytes": 21461355,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/yangleiocx3/status/2119975320765796448",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/b/2/5/b2595fa1da23b271530310cfc6a8e4932fbb2f6a.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2154/fable-motion/linuxdo-3150727/post-1-original.svg",
+    "sha256": "2dfed8f26cdea75b173076f16ac26995281202a444b93cc3e241827359769925",
+    "bytes": 18654,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3150727/1",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/a/a/c/aacb048311863d527ca39c0553b7f7d2bf019f03.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2154/fable-motion/linuxdo-3150727/post-9-original.svg",
+    "sha256": "7829d663b08a1a2791c87a925610fb353f9cd624fb891a082e881352bc0cf095",
+    "bytes": 24383,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3150727/9",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/b/5/b/b5b3ccd57a098bc9e1237559bc0242dc67f92726.svg",
+    "path": "pelican-archive/research/2026-11-11-launch-followup-2154/fable-motion/linuxdo-3150727/post-11-original.svg",
+    "sha256": "48e6c015dde8f9eda59d6a54fafa58a76153fe46274a61cb24ad0c82dc60be3c",
+    "bytes": 47784,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3150727/11",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120559831769923585/vid/avc1/1280x720/Llq_iY-z687L9dIr.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-12-launch-0138/motion/lai-qwen-original.mp4",
+    "sha256": "fda05e6b3ed739ec21ba90f4086382e81f5b0783c925f1e5b667737be2683ebf",
+    "bytes": 701156,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/LAI111236159888/status/2120559856562454883",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
   }
 ]

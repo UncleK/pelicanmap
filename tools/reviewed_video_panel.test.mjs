@@ -39,6 +39,28 @@ test('changed remote source fails before local files are accessed',async()=>{
   await assert.rejects(readReviewedVideoPanel(sample().media[0],Buffer.from('changed original'),ROOT),/remote source hash/);
 });
 
+test('Hy4 accepts only the reviewed 3D excerpt with the complete source',()=>{
+  const c=sample();
+  c.sourceUrl='https://x.com/YxzRainy/status/2117961593199992899';
+  const spec=PANELS[c.sourceUrl];
+  c.model='Hy4';
+  c.format='3d';
+  c.evidence=[c.sourceUrl,spec.url];
+  c.media[0].url=c.media[1].url=spec.url;
+  c.media[1].sha256=spec.sha256;
+  Object.assign(c.media[0].reviewedVideoPanel,{
+    sourceSha256:spec.sha256,box:[0,1160,1760,1186],frames:[960,1392],
+    method:'ffmpeg:lossless-panel-preserve-color-and-timing'});
+  assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+  for(const mutate of [row=>row.model='DeepSeek',row=>row.format='animation',
+    row=>row.media[0].reviewedVideoPanel.box[1]=0,row=>row.media[0].reviewedVideoPanel.frames[0]=0,
+    row=>row.media[0].reviewedVideoPanel.method='ffmpeg-skill/crop.py+cut.py:lossless-preserve-color',
+    row=>row.media.pop()]){
+    const bad=structuredClone(c);mutate(bad);
+    assert.throws(()=>validateVideoPanel(bad,bad.media[0],ROOT));
+  }
+});
+
 test('Gemini release comparison binds each labelled panel to its model',()=>{
   const c=sample();
   c.sourceUrl='https://x.com/JeffDean/status/2024525132266688757';
@@ -54,6 +76,26 @@ test('Gemini release comparison binds each labelled panel to its model',()=>{
   assert.throws(()=>validateVideoPanel(c,c.media[0],ROOT),/exact reviewed source/);
   c.model='Gemini 3.1 Pro';
   assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+});
+
+test('EA of AI comparison binds each Claude model to its own five-second panel',()=>{
+  const c=sample();
+  c.sourceUrl='https://x.com/MOPS_PUGS/status/2120002841532125235';
+  const spec=PANELS[c.sourceUrl];
+  c.evidence=[c.sourceUrl,spec.url];
+  c.media[0].url=c.media[1].url=spec.url;
+  c.media[1].sha256=spec.sha256;
+  const panel=c.media[0].reviewedVideoPanel;
+  Object.assign(panel,{sourceSha256:spec.sha256,box:[58,490,470,294],frames:[15,165],
+    method:'ffmpeg:lossless-panel-preserve-color-and-timing'});
+  c.model='Claude Fable 5.2';
+  assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+  panel.box=[550,488,474,294];
+  assert.throws(()=>validateVideoPanel(c,c.media[0],ROOT),/exact reviewed source/);
+  c.model='Claude Haiku 5.5';
+  assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+  panel.frames=[15,166];
+  assert.throws(()=>validateVideoPanel(c,c.media[0],ROOT),/exact reviewed source/);
 });
 
 test('reviewed October 29 comparisons cannot expand their source, panel or timing boundary',()=>{
