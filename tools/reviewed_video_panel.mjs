@@ -7,6 +7,13 @@ import {cropPath} from './reviewed_video_crop.mjs';
 
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 export const PANELS={
+  'https://x.com/teddyaisi/status/2120858620795748859':{
+    url:'https://video.twimg.com/amplify_video/2120858422228942848/vid/avc1/1280x720/CaNX-AgtY3d0VTED.mp4?tag=29',
+    sha256:'c585d1caecb6d685912c91eb3c6f46765d73b2f0933a8b9e98a400f18c5fe4bd',
+    width:1280,height:720,frames:288,fps:24,
+    boxes:[[8,8,416,704],[432,8,416,704],[856,8,416,704]],ranges:[[0,288]],
+    models:['GPT-6.1 Sol','GPT-6 Astra','GPT-6.1 Terra'],
+    method:'ffmpeg:lossless-panel-preserve-color-and-timing'},
   'https://x.com/MOPS_PUGS/status/2120002841532125235':{
     url:'https://video.twimg.com/amplify_video/2120002345509814272/vid/avc1/1080x1350/-5EEoL5lUeDYek-K.mp4?tag=29',
     sha256:'a563f4f19e077c95e46d6fe119aca604c093865689e0b0cf6cdcd9e19a960496',

@@ -127,3 +127,28 @@ test('deduplication distinguishes real panel and prompt outputs sharing the orig
   prior.extraction.box.left=0;prior.extraction.startFrame=360;prior.extraction.endFrame=960;
   assert.equal(duplicateOf(c,[asset],[{id:'other-prompt',media:[prior]}]),'');
 });
+
+test('Teddy comparison binds all three source-labelled columns to their models',()=>{
+  const sourceUrl='https://x.com/teddyaisi/status/2120858620795748859';
+  const spec=PANELS[sourceUrl];
+  const models=['GPT-6.1 Sol','GPT-6 Astra','GPT-6.1 Terra'];
+  const boxes=[[8,8,416,704],[432,8,416,704],[856,8,416,704]];
+  for(const [index,model] of models.entries()){
+    const c=sample();
+    c.sourceUrl=sourceUrl;c.model=model;c.evidence=[sourceUrl,spec.url];
+    c.media[0].url=c.media[1].url=spec.url;c.media[1].sha256=spec.sha256;
+    Object.assign(c.media[0].reviewedVideoPanel,{
+      sourceSha256:spec.sha256,box:boxes[index],frames:[0,288],
+      method:'ffmpeg:lossless-panel-preserve-color-and-timing'});
+    assert.doesNotThrow(()=>validateVideoPanel(c,c.media[0],ROOT));
+    for(const change of [
+      row=>row.model=models[(index+1)%models.length],
+      row=>row.media[0].reviewedVideoPanel.box=boxes[(index+1)%boxes.length],
+      row=>row.media[0].reviewedVideoPanel.frames=[0,287],
+      row=>row.media.pop(),
+    ]){
+      const changed=structuredClone(c);change(changed);
+      assert.throws(()=>validateVideoPanel(changed,changed.media[0],ROOT),/requires|retain/);
+    }
+  }
+});

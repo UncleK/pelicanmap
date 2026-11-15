@@ -30546,5 +30546,2401 @@
         "model": "Qwen4-Max-Preview"
       }
     ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/ce357e95149cd16f65ec7e7106ed4fed/raw/9429a14ef772aac5039d273c4bf38f413d073f17/hydrogen.md",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/static-backlog/simon-hydrogen-gist-0.md",
+    "sha256": "71253de430b7f96795211018c9a70876367c5ac943f8f449ea42b839ff718876",
+    "bytes": 23682,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/ling-3-2-flash.e1ca4597.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/static-backlog/ling-original.svg",
+    "sha256": "7c8fc2f05889d9cda794e920e1b301feaeaf143cce8a25ffe0709edc834f3c18",
+    "bytes": 7954,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ling-3-2-flash/",
+        "model": "Ling 3.2 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/gemini-4-hydrogen.48b8a6b5.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/static-backlog/hydrogen-original.svg",
+    "sha256": "150531f36159f93bf734ee28de67a78d6479130636b230d675da4a8564f62f6c",
+    "bytes": 14347,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/gemini-4-hydrogen/",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/mi-dm-k-3-0-pro.27cd62bc.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/static-backlog/mi-dm-k-3-0-pro.svg",
+    "sha256": "4c4fc9c02b13e2e9d5ec06cccfd57db69686d1542c08c642a501d08101b4bed3",
+    "bytes": 1415,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/mi-dm-k-3-0-pro/",
+        "model": "Mi:dm K 3.0 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/ernie-light-dt-1-0.64d91fb3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/static-backlog/ernie-light-dt-1-0.svg",
+    "sha256": "efff222c0b71834eb8642cd4caf4b9ef5007eac8adb7aa38db9902e6b75879ea",
+    "bytes": 9753,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/ernie-light-dt-1-0/",
+        "model": "ERNIE-Light-DT-1.0"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120869148419076096/vid/avc1/1920x1080/dMSUV-rQCgtTJw9w.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/interactive/cached-originals/JunquanB-1-original.mp4",
+    "sha256": "b639c08ef5697a86e51ae1c612c90ea9733b041fed91c78035a023f62502e478",
+    "bytes": 26389830,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/JunquanB/status/2120869955478683765",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120886190480183296/vid/avc1/2880x1720/UsrWKdL93kLuCjfW.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/interactive/cached-originals/Jason85885174-1-original.mp4",
+    "sha256": "db1ef2a4fc62055a46964f708e8812067152b9dc44bec8feb91e50b8cac75c91",
+    "bytes": 29194232,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Jason85885174/status/2120886487860527125",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121262918335647744/vid/avc1/1270x1200/qiKjUdUm42RJ7rrX.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/bang-original.mp4",
+    "sha256": "c677daee3098e69bf1dd23cca1407988f1d33be89784e1bbb2b431bb22211563",
+    "bytes": 13724757,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/bangbuilds/status/2121265271243710839",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121250826299854848/vid/avc1/1152x850/i7XoXk8zm6dUe2X3.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/wwh-leo-original.mp4",
+    "sha256": "2644cdfd190426b408b566f3ab0a2dd2bcc4eeecf6ed22adef53867f94f333be",
+    "bytes": 57030281,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/wwh5441/pelican-6000-pure-code",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121256393990877184/vid/avc1/1670x1240/L9eI2LSEsvisxNNH.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/wwh-liro-original.mp4",
+    "sha256": "fbb0a1528b9e42f6b6f78d42c55b1044e174c29211b78a3fe5a2077f6d974d37",
+    "bytes": 28423963,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/wwh5441/pelican-6000-pure-code",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120906159989358593/vid/avc1/1032x1844/VBraZnhXHWmvoAee.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/xuk-gpt-6-astra-original.mp4",
+    "sha256": "ea1598c525013bb368ce0dd6856f93c70da1c258afe29f0d6f2e4c68fb9bb083",
+    "bytes": 6738839,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/XuK512520/status/2120906317468713339",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120906259377639424/vid/avc1/992x1746/FxhVYUcnnwBbtLb5.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/xuk-gpt-6-1-sol-original.mp4",
+    "sha256": "ad0d910147b6b93b81c0d47904b9f380cec5d390fc441ef7cc096a1c492b7471",
+    "bytes": 6670036,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/XuK512520/status/2120906317468713339",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-medium-2.svg",
+    "sha256": "30c3491f1c07aaecbbfd52e6d65b99890091418383c0f28ebcdc43511fdd43e0",
+    "bytes": 12451,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/medium/2/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-max-1.svg",
+    "sha256": "2980ec4770ecefb279c3dd783db4d34121778e8a9a3765113dfe2c00bfd93d28",
+    "bytes": 5908,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/max/1/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-high-2.svg",
+    "sha256": "bd6de7f100bdbfc3c745f30a4f06fb3f66e279e4e35fc7e92123d769b4c0da33",
+    "bytes": 11820,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/high/2/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-max-2.svg",
+    "sha256": "1a72c62e27a7390ff79f41fb6fdce8a07bf5fcbad3480db01e0d644cfb44d054",
+    "bytes": 4884,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/max/2/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-max-2.svg",
+    "sha256": "513852f86f151f08da93319404b3b3a4ff2fa094a15b0d3ea35b3f7761e85c9a",
+    "bytes": 5163,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/max/2/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-max-3.svg",
+    "sha256": "203e8bb2a25c2e21a173ad6a0d2c1e11ff88071316b9d4a177c6f6fad321725c",
+    "bytes": 6887,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/max/3/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-low-3.svg",
+    "sha256": "301fc86f30efbcdf38b51a9fe1936458e0cea3121459e2a63d91f971fcd62df0",
+    "bytes": 4505,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/low/3/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-low-2.svg",
+    "sha256": "a8e81d8d4c99d6605e31ae8d75aeb342d8b3cfd5534ff528beabd47c82744422",
+    "bytes": 3111,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/low/2/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-low-1.svg",
+    "sha256": "b910cd16012b7e31ce96c79b4997e0bd774c6fb8d6c7d0797b01416c1c477994",
+    "bytes": 4108,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/low/1/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-medium-1.svg",
+    "sha256": "c0c54ddb4bcb6af0083166ab1ff7778b6173833e572111bda21d7f497c636180",
+    "bytes": 3498,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/medium/1/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-medium-2.svg",
+    "sha256": "1e321705b0976160faad5ac16e05e35bcd4e24fd841ba2d5e512fe3bf81ebd01",
+    "bytes": 3548,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/medium/2/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-astra/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-astra-medium-3.svg",
+    "sha256": "22e1fa10665415ef7b6ce43dd0576feb50fd59be5531324ac0a1a682cd922091",
+    "bytes": 3089,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-astra/medium/3/",
+        "model": "GPT-6 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-high-3.svg",
+    "sha256": "9b1ad33b82dbfa2edb69477689dd5db0d0069fc6f546b688e3187e22f286b775",
+    "bytes": 11701,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/high/3/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-high-1.svg",
+    "sha256": "a124b3ee78f45dd1af37d65538c21f81c00cddddea9a6ce11ed35afb4e20860f",
+    "bytes": 13182,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/high/1/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-medium-1.svg",
+    "sha256": "f8ed0659d2f711e6951b879484f75ed54b929a264fc025ab8155111c5213c3ac",
+    "bytes": 11534,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/medium/1/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-medium-3.svg",
+    "sha256": "73a8061855d4a76b91970a9c32bbe5cbb3e120d1a851082d396e08c811d01994",
+    "bytes": 7525,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/medium/3/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-low-1.svg",
+    "sha256": "49836fce91a2322ef1efd831f8683c6a61ef075f0a11ab7b4c6775d6cb34fe03",
+    "bytes": 8229,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/low/1/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-low-2.svg",
+    "sha256": "46c5ba7d14964f51dadaceb8174b1e8d5c94761378a97fba6939a45519c392d4",
+    "bytes": 8602,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/low/2/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-4-argon/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-4-argon-low-3.svg",
+    "sha256": "049d5701bf472d506cc7121645c2dc2d48dd02fe7bcb859bdea737df322681b8",
+    "bytes": 7378,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-4-argon/low/3/",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-max-1.svg",
+    "sha256": "5f358abac077d6fbaa12f1c31eb0f64740dc8a7ff437f3c0dacb06ccb49ed9d0",
+    "bytes": 6443,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/max/1/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-max-3.svg",
+    "sha256": "abf7ebf39c78a9035c82b0c9f10b69c2a58a2f13c006ff240374a6056a99b9cc",
+    "bytes": 5728,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/max/3/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-medium-3.svg",
+    "sha256": "893fcfeea808ef0c85589bab4f1012c39afb4b7293dc86339978af1fc47c7b7c",
+    "bytes": 4344,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/medium/3/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-medium-1.svg",
+    "sha256": "00999429eb7779f6a9bc7f7fc9ae41f6b4cb3c92d8c5b88917d1e17ccd132a5b",
+    "bytes": 3931,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/medium/1/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-medium-2.svg",
+    "sha256": "4ed546641cd0697d01ad7e37958c7152df3d02b50edb2e6b5d1a6b628066c715",
+    "bytes": 4169,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/medium/2/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-low-3.svg",
+    "sha256": "df1947a2dd74236506c6eb5b73773cda48b3bc4cbd693d40e80d03d0f8f4534e",
+    "bytes": 3800,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/low/3/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-low-1.svg",
+    "sha256": "886ee1a667628ece1a00b1133c714fe1582f5e71d25f2a41114dfc7f9f355086",
+    "bytes": 3874,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/low/1/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-sol/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-sol-low-2.svg",
+    "sha256": "246f10e54720d218134cba0e5a534a6e05826eacc83f3620e8faf4439ac1fcad",
+    "bytes": 3845,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-sol/low/2/",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-high-1.svg",
+    "sha256": "a4f8bbbe053820fd14479f77ea4bbc14c396ac9000a65f1d91b7eb41330b97bf",
+    "bytes": 5666,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/high/1/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-high-2.svg",
+    "sha256": "387cec0fea8e789c5552e8bee36772130d8478131b928e2fdf80592890cbdb64",
+    "bytes": 4624,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/high/2/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-high-3.svg",
+    "sha256": "5bcf6b0755fd5ae9eb337458588d64f1448b8313bcca16ac6c0bfe36f970c096",
+    "bytes": 3305,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/high/3/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-medium-3.svg",
+    "sha256": "cd3220c529a734cf22d8708360f10a5dfd6bfe7d648ab31a4036a9cc1d6200a2",
+    "bytes": 3055,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/medium/3/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-medium-1.svg",
+    "sha256": "2f4ee99bca2bfdd3cd2363d4fc12b6b2de6810c542262f0092844d3c7a6ea9bb",
+    "bytes": 3210,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/medium/1/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-medium-2.svg",
+    "sha256": "1b4014b92dd2aa6ca00d2481ddcde8e0f88be98619b0224ce5dbfd3217099b89",
+    "bytes": 3185,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/medium/2/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-low-2.svg",
+    "sha256": "2389697c648d317f939971c33cef234bb6224ff4a25e35c03b3db839b1123676",
+    "bytes": 3390,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/low/2/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-low-3.svg",
+    "sha256": "748c59c6dd1e33ba85dbb98b5b29bba0e32d4675ab006ec4e3b1d3ad6adfdf21",
+    "bytes": 2640,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/low/3/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-fable-5-2/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-fable-5-2-low-1.svg",
+    "sha256": "d50fd2843e262ff1cc9baec06a0ce23b2fca8af7fb4dd56aa60757748725a6f5",
+    "bytes": 2398,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-fable-5-2/low/1/",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-flash/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-flash-default-3.svg",
+    "sha256": "52aa8f19d1bb67587fed62b760af7a8160401f491a88ac25e761d5d1ca3f52d3",
+    "bytes": 9045,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-flash/default/3/",
+        "model": "Qwen3.8-Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-flash/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-flash-default-1.svg",
+    "sha256": "7e8a7ee0dfdd7987c095d8dd0a132de1a599ad2621fab168774cc685c1c45763",
+    "bytes": 8578,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-flash/default/1/",
+        "model": "Qwen3.8-Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-flash/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-flash-default-2.svg",
+    "sha256": "a553a6c40ea1163e8525f43cd65fa63da486d2e76f0a3f54ab0dee13925aef58",
+    "bytes": 9222,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-flash/default/2/",
+        "model": "Qwen3.8-Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-medium-2.svg",
+    "sha256": "9bba4e9a74dd81de9666c7dcd0e5bae2f194f3344e69570ba60c02db004bda55",
+    "bytes": 3979,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/medium/2/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-medium-1.svg",
+    "sha256": "cb2b627ae2ceccfbcac908e92337f36d726ba681aba7298de34d83cf73358a3d",
+    "bytes": 3869,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/medium/1/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-medium-3.svg",
+    "sha256": "ed1c518f70feb6625390e3ef8505f3d198205ba334d9b573f7013de3e7e2b687",
+    "bytes": 3705,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/medium/3/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-high-1.svg",
+    "sha256": "bec0e5e457e61990218365a5104abbf22fae96dca1cb44c9e81076776e14469e",
+    "bytes": 4226,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/high/1/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-high-2.svg",
+    "sha256": "8ffab6f7939676a1420e3c1f7d5c0340b5ed2b3754c980f5988e52ab179d7543",
+    "bytes": 4406,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/high/2/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-high-3.svg",
+    "sha256": "70a02cb38be242f7d1a88eebe74df9e8ae2a3a1521f84fe4851a214ba0915d24",
+    "bytes": 3955,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/high/3/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-low-1.svg",
+    "sha256": "943352e6101a031415ed894ee5901e4451c1bce35b2080aa111277136882dc03",
+    "bytes": 2780,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/low/1/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-low-2.svg",
+    "sha256": "4227aeaba265623f135236b4b0b2f22b3c1d50a5e0bc41dadd4eb49b307debda",
+    "bytes": 2381,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/low/2/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-opus-5-5/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-opus-5-5-low-3.svg",
+    "sha256": "0f18579bb76ff25867191634eb41d33e62e9716a303dd20c90c10eeabe375666",
+    "bytes": 2122,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-opus-5-5/low/3/",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-max/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-max-max-2.svg",
+    "sha256": "f974ee7a436aa64612d0aa5f9eb3f8ce725286c4879389677acc29ade465ef3c",
+    "bytes": 9666,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-max/max/2/",
+        "model": "Qwen3.8-Max"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-max/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-max-max-3.svg",
+    "sha256": "3ea6a36e93d90eb81723465feda0cb79fdcaae526f4c7573b46e1459722a7bfd",
+    "bytes": 8994,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-max/max/3/",
+        "model": "Qwen3.8-Max"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/qwen3-8-max/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-qwen3-8-max-max-1.svg",
+    "sha256": "54bcf79d36472c48be6e9e3d37b67ba2f643a00a3e26c99bbdd814a587605ed0",
+    "bytes": 9940,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/qwen3-8-max/max/1/",
+        "model": "Qwen3.8-Max"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3-1-pro/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-1-pro-default-1.svg",
+    "sha256": "a799bbf5d3e1cdfadff17e2219fa9844bdea36ba120d9cabc24c18382677dd07",
+    "bytes": 7391,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3-1-pro/default/1/",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3-1-pro/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-1-pro-default-2.svg",
+    "sha256": "4e12a67da1b42d9db725b8f20304b4398645d690e3265721767679022907ef4a",
+    "bytes": 7088,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3-1-pro/default/2/",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3-1-pro/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-1-pro-default-3.svg",
+    "sha256": "8901f9dd8997859a4c26d593eda4f996f32e799782f3ad6e6718f61d5c63b2d8",
+    "bytes": 7034,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3-1-pro/default/3/",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-max-1.svg",
+    "sha256": "96460441b6609241c45e8214cdb546abda428c7f9db5caee89548975817db5d8",
+    "bytes": 4586,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/max/1/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-max-3.svg",
+    "sha256": "90152fa0bacf89d3ebfb81b34e45e5834d21755332c36a24dc00ab05bf2ac38e",
+    "bytes": 3847,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/max/3/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-max-2.svg",
+    "sha256": "95beb26cf3cf989410f92446219fc07d1a2121fcbdf0187d59adbc5d98f91210",
+    "bytes": 3672,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/max/2/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-medium-1.svg",
+    "sha256": "7b0e357e58da6403a5fed765be6328da5cf0557f856f56a0bc6c29f5bd673644",
+    "bytes": 2868,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/medium/1/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-medium-3.svg",
+    "sha256": "276d515fbba2b6e4498edb9f728cabfdef29c96405aa16d1aa718e940db57b0a",
+    "bytes": 3056,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/medium/3/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-medium-2.svg",
+    "sha256": "27a5d1ba6d12c6f5e3c8c34a34273102cad306b733943cf2547d99800334f20c",
+    "bytes": 2482,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/medium/2/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-low-2.svg",
+    "sha256": "5d63de98df0988b2dbb490c7c6031dcb76d9142a62ded4739befcf485b4b1eca",
+    "bytes": 3747,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/low/2/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-low-3.svg",
+    "sha256": "d6d1f724fde2fbb5db211810c882acc463d8ec0d498d4973f0b97fc44019f40a",
+    "bytes": 2419,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/low/3/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-sol/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-sol-low-1.svg",
+    "sha256": "0c171467e413fa0509e85b17656600fa2031a370a4b45773280ccd9eaaaf2e45",
+    "bytes": 1825,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-sol/low/1/",
+        "model": "GPT-6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3-flash/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-flash-default-1.svg",
+    "sha256": "74813294e8e59fd194c25b05063b4a197e5716ed8ab7a6ad4cb248a912a1674d",
+    "bytes": 8238,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3-flash/default/1/",
+        "model": "GLM 5.3 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3-flash/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-flash-default-3.svg",
+    "sha256": "a5408d3f69e44cb5dc2445b2d30229ce0c774850c855226be79d60e2fcb41f6d",
+    "bytes": 5232,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3-flash/default/3/",
+        "model": "GLM 5.3 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3-flash/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-flash-default-2.svg",
+    "sha256": "af9e73b80c13607576d8757e1d19080becfa25c489914d9e5353f2fb5dba4526",
+    "bytes": 7501,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3-flash/default/2/",
+        "model": "GLM 5.3 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-max-3.svg",
+    "sha256": "3ce774d280356d8f11f672e648b46cdec4e557fe74bf35258b344c02793ea113",
+    "bytes": 5637,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/max/3/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-max-2.svg",
+    "sha256": "41c444e886fa0855b95fe241cbd96aa85c7f053ad4a32697110eb52aeaee0700",
+    "bytes": 6058,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/max/2/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-max-1.svg",
+    "sha256": "f2dcc5c27f87fb0512bc1699cdc6409c1af6aab23040d12d5beac3fe45fe31e4",
+    "bytes": 5319,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/max/1/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-low-2.svg",
+    "sha256": "0bd2e519cf1f6403f42e2481e0c427b095810638f8eba79fa8041382f023ca5d",
+    "bytes": 2793,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/low/2/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-low-1.svg",
+    "sha256": "dc5b02a221c6dd7e4fdf47cc7e8991c8aaf4ee8150137d3067f968c83c6a33b5",
+    "bytes": 3823,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/low/1/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-low-3.svg",
+    "sha256": "7710974fed1a6c9e09e040e09e60d1426e5c850ab46026616469e7e6a7fa8c44",
+    "bytes": 2545,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/low/3/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-high-1.svg",
+    "sha256": "f662a890f5e7457256f45824c3e86edfb0bf21882742de732c48d83a7b93d410",
+    "bytes": 3792,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/high/1/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-high-3.svg",
+    "sha256": "04a358d2bcb0e9b1c3a040d33f4c6c62ca837fe310a396611e165af19993c33d",
+    "bytes": 2768,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/high/3/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/kimi-k3/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-kimi-k3-high-2.svg",
+    "sha256": "18ea975d6f378de549484ce5eebab77b75f1174d957b8f64bdc018d598cca6f8",
+    "bytes": 3017,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/kimi-k3/high/2/",
+        "model": "Kimi K3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-medium-1.svg",
+    "sha256": "6d5c400dcbf2434baad227176b129464b2bb6baa5fe74174efc44aa55c3fd5d1",
+    "bytes": 20340,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/medium/1/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-medium-2.svg",
+    "sha256": "9228263a085fa57aecf79bb984a6b35e6529268d0f307965f601fdf6f596c37c",
+    "bytes": 20809,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/medium/2/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/medium/4.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-medium-4.svg",
+    "sha256": "8285126fc6e9f2565c8c8210454bf6c6f4d96d99bce748ff1b8963588963c89a",
+    "bytes": 20586,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/medium/4/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-low-2.svg",
+    "sha256": "677d2fa7cbeec0012e4a0ddb95433143d873d6ab0f74d11738f66a3d18bd3189",
+    "bytes": 14460,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/low/2/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-low-3.svg",
+    "sha256": "89af22dcd2158f219aca7cb702af822d8ae3469abf78d9afcbe3913209a20259",
+    "bytes": 14779,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/low/3/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-low-1.svg",
+    "sha256": "d2c907cdb0103a2f3f6a14f175ff3d87e078407d7fec22cd75cea4dc62226d81",
+    "bytes": 17790,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/low/1/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-high-1.svg",
+    "sha256": "f1082e74eae0b06413041be6cbb4900b2dd499d18ce62c1304b4aea2e35094e9",
+    "bytes": 27083,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/high/1/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-high-3.svg",
+    "sha256": "4bf8363d1aedfe0d9f38626f9dc60390c1a7a9213b70cf1656962dafed5d0f78",
+    "bytes": 29544,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/high/3/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-8-flash/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-8-flash-high-2.svg",
+    "sha256": "c5360d3bad8ffb95f0b82a8ab10d66a65aaeef566a9c6597b40f4f57204acbc2",
+    "bytes": 37290,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-8-flash/high/2/",
+        "model": "Gemini 3.8 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-max-1.svg",
+    "sha256": "4724d955afea2a5314b2de9a2747468c8272b05ed556b37c6f73dd38583f0b52",
+    "bytes": 5379,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/max/1/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-max-3.svg",
+    "sha256": "3f183ef11433abf296d006273023dcfa6d7e15de25525f7ef6a1be2230910b7b",
+    "bytes": 4527,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/max/3/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-max-2.svg",
+    "sha256": "240407149d9de1f1be8d3db834fa0b16a29252e9a8d6667485a315434a7f1532",
+    "bytes": 4858,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/max/2/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-low-1.svg",
+    "sha256": "69827acebb4a1ec433376fe1d27363f2f50941d55cc2088fd8076635904a4dfa",
+    "bytes": 3131,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/low/1/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-low-3.svg",
+    "sha256": "f5d3892d93994894488724f4814bbc034557ef4be3f56490bdcef79890ac9cf6",
+    "bytes": 2966,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/low/3/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-low-2.svg",
+    "sha256": "33726bd7c5143a335ef7af4f803b71d4286d23296ca2c3f6e2104f933fa2446c",
+    "bytes": 2553,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/low/2/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-medium-1.svg",
+    "sha256": "fda637ffeeeee3638b5dce4f275baf12ed8a9265bda250084dc836c211323833",
+    "bytes": 2590,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/medium/1/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-medium-2.svg",
+    "sha256": "93816afa9dc42306d10148148b2cd8bb8b0827019a97e51fbb1a4f4f510174c4",
+    "bytes": 2803,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/medium/2/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-1-terra/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-1-terra-medium-3.svg",
+    "sha256": "622dd7790b532579ff47c1387b317e0f954d87ccb2033c46d96d071d641cdc7c",
+    "bytes": 2915,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-1-terra/medium/3/",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-default-1.svg",
+    "sha256": "46dbb431556e7b284e804e95830b0bd9feb07fe8f357735ea11afe4f08e4aa2a",
+    "bytes": 7280,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3/default/1/",
+        "model": "GLM 5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-default-2.svg",
+    "sha256": "d69cc722979dd30861d10570b3a09dde9177f6841e58a8276a4b0e3bf833b3fb",
+    "bytes": 7861,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3/default/2/",
+        "model": "GLM 5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-3/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-3-default-3.svg",
+    "sha256": "c903cd10565a6ce6e9dc75636fbce3cebd9793234eb532b01f4169b583fdd536",
+    "bytes": 9347,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-3/default/3/",
+        "model": "GLM 5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3-1-flash/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-1-flash-default-2.svg",
+    "sha256": "5ec2cd1a8fbe385f6b6a7d539c50d2a8ebe7bfa71a68f1313605b61f5ee97298",
+    "bytes": 9583,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3-1-flash/default/2/",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3-1-flash/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-1-flash-default-1.svg",
+    "sha256": "c836107ca58c139da5df29aa41c892268d87d242d1890a7c523f6df3007f4f36",
+    "bytes": 8727,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3-1-flash/default/1/",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3-1-flash/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-1-flash-default-3.svg",
+    "sha256": "80d80092bc206a3aff4631f47af78ecedd2a679b133246aee696c4c2cbd1305b",
+    "bytes": 9046,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3-1-flash/default/3/",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/xhigh/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-xhigh-1.svg",
+    "sha256": "1a77193863b571b19feb86cbc729c5648e28b8a53d3393b8efc102cddfc170f0",
+    "bytes": 8181,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/xhigh/1/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/xhigh/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-xhigh-2.svg",
+    "sha256": "6b3a89f434447eb244cf3b2b5897af2777d25fcea95a497a6942af7c156e4f89",
+    "bytes": 9514,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/xhigh/2/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/xhigh/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-xhigh-3.svg",
+    "sha256": "8a54a1724f67d976be537af1f7080fc467b154518f8fea79429dc3ecf1de0f68",
+    "bytes": 9478,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/xhigh/3/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-medium-1.svg",
+    "sha256": "1929a6c3f223c01a840def1d2aa9c6bf8b612d66d542eac84d180ae527dfa008",
+    "bytes": 2528,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/medium/1/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-medium-3.svg",
+    "sha256": "ae85216d8bce3a70d7fea1790518bd75839fe3deb38e0c25a8da03683fd75f00",
+    "bytes": 2663,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/medium/3/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-medium-2.svg",
+    "sha256": "3a2d681ebe455d56e1967f8826b9fb4ed083aba9254b484985d8175b2a89ed8e",
+    "bytes": 3674,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/medium/2/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-low-2.svg",
+    "sha256": "4e1e86427ba55507ed6183cfd047c026261d12cc014978e2f0bcb2a66cba7156",
+    "bytes": 2663,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/low/2/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-low-3.svg",
+    "sha256": "1d004fe9cbc72c63ccd99138b498b3fe6a5d54aa2028b03a8ecb4ae2a0731eb9",
+    "bytes": 2430,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/low/3/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-7/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-7-low-1.svg",
+    "sha256": "b73422353b771391b04cd9a7e512549e231c5e6d0ee69e473c40b7973def8288",
+    "bytes": 2335,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-7/low/1/",
+        "model": "Grok 4.7"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-high-2.svg",
+    "sha256": "e31d5fe9cd2500e232edbea89d9597612a4258ce9970e1645cad7dd6b4910249",
+    "bytes": 2559,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/high/2/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-high-3.svg",
+    "sha256": "d209687f84081fe88defccac84e584cc2b4aa661cb7155584502a23c87265071",
+    "bytes": 3049,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/high/3/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-high-1.svg",
+    "sha256": "24a364f028022e8060d9e1c4cabe264567e24c789044663507a96c8fa0171f76",
+    "bytes": 2914,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/high/1/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-medium-2.svg",
+    "sha256": "9ea1a53075f68aba795713b27fa34b10ae3290e7379de481fa25e47e21cd679e",
+    "bytes": 2527,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/medium/2/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-medium-3.svg",
+    "sha256": "c3aa8ef537ec1e21fd6a5228fc9deac35f35a333e6509dd2d14b25adb39d8dc2",
+    "bytes": 2934,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/medium/3/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-medium-1.svg",
+    "sha256": "39e03c56724a9d1565c7eb917732bc0f2082880abdac1ff64a61f672d5a68ddb",
+    "bytes": 2498,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/medium/1/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-low-1.svg",
+    "sha256": "e3ddc6eefe517fe01f0778818cd3a1a741c5d528fe7d8d8eaccc3907dade60c7",
+    "bytes": 2500,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/low/1/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-low-3.svg",
+    "sha256": "1d4c40e04d8af4b4b2b942cbc93c6d58f2474394ab585eb0b23123f5dba1b553",
+    "bytes": 2099,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/low/3/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/claude-sonnet-5-5/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-claude-sonnet-5-5-low-2.svg",
+    "sha256": "b16e0fbb8dc2b54dbaf69199778238559823f09c11995933e980d94db3cb7127",
+    "bytes": 2199,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/claude-sonnet-5-5/low/2/",
+        "model": "Claude Sonnet 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-default-3.svg",
+    "sha256": "6c0e9868e12636c77db385d2f2fcb92431be1edeb06a02f72039303fb68ec58d",
+    "bytes": 8099,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3/default/3/",
+        "model": "MiniMax-M3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-default-2.svg",
+    "sha256": "67211e15179fc6fbc48da012337e2e967daac2839e0ede6517c7b1c70bada4f3",
+    "bytes": 9282,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3/default/2/",
+        "model": "MiniMax-M3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/minimax-m3/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-minimax-m3-default-1.svg",
+    "sha256": "ac87c77a1a35641c77c3a1e732ac91f9b7525dee24b828e3fc725e697c1de611",
+    "bytes": 7590,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/minimax-m3/default/1/",
+        "model": "MiniMax-M3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-low-3.svg",
+    "sha256": "42c734ecbc41c2ceb0908dfceb1a0bd812c93fd1213f550f994cdc8e88693377",
+    "bytes": 3509,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/low/3/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/low/4.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-low-4.svg",
+    "sha256": "67edb7d8eb5951ddc60befc9f45f35cd9f2b5b18edce08ef80b65c78fda5ff22",
+    "bytes": 3413,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/low/4/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-low-1.svg",
+    "sha256": "f36371810f742035f51d835206c73e0642a50a1afeb1671298dd96065b0748b4",
+    "bytes": 2946,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/low/1/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-max-1.svg",
+    "sha256": "8a25eead1a1dc0676e14291e9c41997baf671a743e9cc7c52c4128e6ec8a2e62",
+    "bytes": 7104,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/max/1/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-max-2.svg",
+    "sha256": "dd6b482904bc6a45cbe77385ba7b763f958eb3d6fbd38adfed5c0c68b16357d6",
+    "bytes": 4143,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/max/2/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-max-3.svg",
+    "sha256": "dc405ea76fe720fc37b37bb7c4bc60f729b92ee7024df993ba0fb4951c182a48",
+    "bytes": 4903,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/max/3/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-medium-2.svg",
+    "sha256": "187c52eb26f4e05a676b1a91d3513accedb50b8ef63e32ab744d06a7b8249547",
+    "bytes": 2723,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/medium/2/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-medium-1.svg",
+    "sha256": "86f94d9c992643fa72b70bb273450269a12e146912d52a3353796207f88dea68",
+    "bytes": 2715,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/medium/1/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-terra/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-terra-medium-3.svg",
+    "sha256": "5050c5ca8b118e167efc5e720b213d60b0f2d132112f669bb33fbf55331e4dce",
+    "bytes": 1952,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-terra/medium/3/",
+        "model": "GPT-5.6 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-1-flash/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-1-flash-default-2.svg",
+    "sha256": "e0f4cb7dd476e33cbfbb96fb85157972aac02786dfb8d48c9674e8cd9c472e1c",
+    "bytes": 7688,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-1-flash/default/2/",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-1-flash/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-1-flash-default-3.svg",
+    "sha256": "77bf3e1fe60b6b9760bc2eb488b52673641b3b9599b59007cd3b449cb9772e3b",
+    "bytes": 7954,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-1-flash/default/3/",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-1-flash/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-1-flash-default-1.svg",
+    "sha256": "b1b260660acb6323e593db90d7eebebd95294d4db79f07979ebdb3b053a3356a",
+    "bytes": 7560,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-1-flash/default/1/",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-low-2.svg",
+    "sha256": "fd022da5550bbf0dcc45878b0b672a71f406a879e714a97ee842d3835c769cc2",
+    "bytes": 2669,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/low/2/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-low-1.svg",
+    "sha256": "3fad9d3808e1159066f3ba67506cdcb6ae4e4365a095eba145fbbe5590585d01",
+    "bytes": 4436,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/low/1/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-low-3.svg",
+    "sha256": "b4044c3f2e80a9f49e4f06acae74829327c0c91a801a7d61624f76ddc9152ec1",
+    "bytes": 3277,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/low/3/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-max-3.svg",
+    "sha256": "2e6123c535b173b3a95868429dfc07d301953e984f5c3f96c6a7651ed37a56b6",
+    "bytes": 7159,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/max/3/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-max-2.svg",
+    "sha256": "4e1a49172d451159cb3eb7a2da84d8212883c79b6d1d9402c927da57960960ab",
+    "bytes": 6075,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/max/2/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-max-1.svg",
+    "sha256": "c4977d4593bc662bc1e875fa4b73dc77d22414641c3a0c2ce42892e105643d9f",
+    "bytes": 5446,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/max/1/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-medium-3.svg",
+    "sha256": "7de21205a7b2fd9961f86b35d900f8de8266bb24c93a8f2dd7f956aee68a2b8e",
+    "bytes": 3234,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/medium/3/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-medium-2.svg",
+    "sha256": "91cd2d42fcef1f0c48b641989c7e793a72ae173c02f5aec042ac4b5ff68646b7",
+    "bytes": 3550,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/medium/2/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-sol/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-sol-medium-1.svg",
+    "sha256": "67559f3b25bb2c2ea840ad60bd3c66cf6a12e8e9e21d268f174ecd45eec412e4",
+    "bytes": 3712,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-sol/medium/1/",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-max-3.svg",
+    "sha256": "33b362cfc59663117b71a4a8369065e3978ea314cc938b337e84b9f550d0e421",
+    "bytes": 4319,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/max/3/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-max-2.svg",
+    "sha256": "284685b4d09e44b74481f398632c30c06a12a994101841626b89f8508c587f2c",
+    "bytes": 4558,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/max/2/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-max-1.svg",
+    "sha256": "c4922c1e8c9a08fe99d2b7dfe944b26b72513275237d5869e064a8c0d2e9987d",
+    "bytes": 4491,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/max/1/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-high-3.svg",
+    "sha256": "8482f7c1192d2d2601f3c7faec37211a5fc589783986b5d372962dd3dc1f247c",
+    "bytes": 5357,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/high/3/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-high-1.svg",
+    "sha256": "67001fd13d64f93dbfd46aa6f784465ab4cddf6095b7380bcfffae0efd01048d",
+    "bytes": 4155,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/high/1/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/glm-5-2/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-glm-5-2-high-2.svg",
+    "sha256": "df16043ce6e36e5a9811d4476634a10dd5dbbd5956af1ed7338b477b316b18d5",
+    "bytes": 3771,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/glm-5-2/high/2/",
+        "model": "GLM 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-1-pro/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-1-pro-default-3.svg",
+    "sha256": "05c2216f116476d0b6a8aeb2ac31d147fe7e18d26119c84275b17f364f903ff9",
+    "bytes": 4839,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-1-pro/default/3/",
+        "model": "Gemini 3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-1-pro/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-1-pro-default-2.svg",
+    "sha256": "b0db4b6d49ff6a8bbad009faa76151d0f0ca6d77dedde8df6c77cc08d6d03889",
+    "bytes": 7100,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-1-pro/default/2/",
+        "model": "Gemini 3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gemini-3-1-pro/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gemini-3-1-pro-default-1.svg",
+    "sha256": "4f20a19974fd5429f32a08d4e660d1f260331ca83cda0643f65fbc2fae5fc917",
+    "bytes": 5569,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gemini-3-1-pro/default/1/",
+        "model": "Gemini 3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-max-1.svg",
+    "sha256": "ba95b1257134f051e44224e3981998f246617193940da2f3e6aaaba5ae660ebd",
+    "bytes": 4423,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/max/1/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-max-3.svg",
+    "sha256": "d6bed6d137d92730e714cb4ba0757000fcc8c1675d73a3b196561f752d7c068a",
+    "bytes": 2885,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/max/3/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-max-2.svg",
+    "sha256": "2366b1b75784693902f5d1dd440771a492a21411c0fc9757787405f6e128e816",
+    "bytes": 3648,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/max/2/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-medium-1.svg",
+    "sha256": "f90cc5689c7b293b7e291692ee71e41cab7b1f117950994f5c9520ca62ed9bc4",
+    "bytes": 4608,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/medium/1/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-medium-3.svg",
+    "sha256": "29fde8bca9f4d7adc5c0d8a54ba3be2481594a8938ca160282229ad699c3adaa",
+    "bytes": 3014,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/medium/3/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-medium-2.svg",
+    "sha256": "62f0f0d92c69fc730e4e7066a593ee409b90e2cca66d8deb7cc2b9f365f494b4",
+    "bytes": 4010,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/medium/2/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-low-1.svg",
+    "sha256": "63603f729873838b1a5f448689d71ca952a3a70886b5274af0e1495c21305e59",
+    "bytes": 3066,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/low/1/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-low-2.svg",
+    "sha256": "601ee5d5310fc2f748683d2e8a8cc457efe0845ddbab39466bed069a42fc8c23",
+    "bytes": 3080,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/low/2/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-6-luna/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-6-luna-low-3.svg",
+    "sha256": "5e1297664fa2df3f1f03d3294783eb6d0e7f2211c643b53df52e5d101877f1f9",
+    "bytes": 3231,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-6-luna/low/3/",
+        "model": "GPT-6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-5/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-5-high-2.svg",
+    "sha256": "62ebcd1cbd2335baf574ec9653eb907fbb2933cce0de22f888a9f901ab57f325",
+    "bytes": 4240,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-5/high/2/",
+        "model": "Grok 4.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-5/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-5-high-1.svg",
+    "sha256": "dc65e3435834a7129fde92eb8ca82a2825ae45f704fd10e1d705930277a3e6ad",
+    "bytes": 3356,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-5/high/1/",
+        "model": "Grok 4.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-5/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-5-high-3.svg",
+    "sha256": "33f91849572d26b3a16cdca4b9277c5fd600bea23c1e52f2b1935e375822123a",
+    "bytes": 4065,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-5/high/3/",
+        "model": "Grok 4.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/doubao-seed-2-1-pro/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-doubao-seed-2-1-pro-default-3.svg",
+    "sha256": "eb8982325bb51edb37db6c78f470fb79fddb6f35ed6cd8d2d180cae8d332bbcb",
+    "bytes": 5500,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/doubao-seed-2-1-pro/default/3/",
+        "model": "Doubao Seed 2.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/doubao-seed-2-1-pro/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-doubao-seed-2-1-pro-default-1.svg",
+    "sha256": "42f7a7436576315a2d9a02fc3c54f84428a44502dfca5f45705c3f64dcf31744",
+    "bytes": 7298,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/doubao-seed-2-1-pro/default/1/",
+        "model": "Doubao Seed 2.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/doubao-seed-2-1-pro/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-doubao-seed-2-1-pro-default-2.svg",
+    "sha256": "704f85085547349221a3e5430e3bf053433bc8f2953585b74c8c263964fe0aaf",
+    "bytes": 6171,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/doubao-seed-2-1-pro/default/2/",
+        "model": "Doubao Seed 2.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-6/high/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-6-high-2.svg",
+    "sha256": "a4b98fc3817585515d51269e9ceabd7f98898cd12c55a7ddd45fa30bcbfc3bfe",
+    "bytes": 6367,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-6/high/2/",
+        "model": "Grok 4.6"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-6/high/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-6-high-3.svg",
+    "sha256": "d8f5511139b9b2f618d6305af7688178cc9a40b64cc415f1431919140076ff63",
+    "bytes": 5796,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-6/high/3/",
+        "model": "Grok 4.6"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/grok-4-6/high/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-grok-4-6-high-1.svg",
+    "sha256": "cd14fcf5c502343186632e3c542d827d9727406ccb88fa7f3ec9b5ead3c2785e",
+    "bytes": 5175,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/grok-4-6/high/1/",
+        "model": "Grok 4.6"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/hy3/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-hy3-default-1.svg",
+    "sha256": "7d6928f11a56330b63660d153cff5bb83d85d7057b5c4df934e16f14af8ce678",
+    "bytes": 5265,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/hy3/default/1/",
+        "model": "Hy3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/hy3/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-hy3-default-2.svg",
+    "sha256": "ecd02ff352b1608b34993750b176145a903f4b68dab7fa970847c478900fba5b",
+    "bytes": 3905,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/hy3/default/2/",
+        "model": "Hy3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/hy3/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-hy3-default-3.svg",
+    "sha256": "25cbfde2b73e3bc3392dc683f9b544dd451f128f1fb07676d3d692d5b0ef0176",
+    "bytes": 4288,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/hy3/default/3/",
+        "model": "Hy3"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-pro/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-pro-default-1.svg",
+    "sha256": "e3a74d6cec8588becdfafd0fdf8e9df8b78a92ec184ba3df81917500ad57b29d",
+    "bytes": 9937,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-pro/default/1/",
+        "model": "DeepSeek V4 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-pro/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-pro-default-2.svg",
+    "sha256": "17016937ddd3269a9d366eba34a4f6d71adaf0edd8682bf485113e00994e433c",
+    "bytes": 7680,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-pro/default/2/",
+        "model": "DeepSeek V4 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/deepseek-v4-pro/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-deepseek-v4-pro-default-3.svg",
+    "sha256": "edfcb6afc059d4291398db9e3f4443d04418b4fe60547dc3eda90ab4d321de2e",
+    "bytes": 8745,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/deepseek-v4-pro/default/3/",
+        "model": "DeepSeek V4 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/max/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-max-2.svg",
+    "sha256": "ae5feaf6788083eff5da1cf391a52bf49df935fd030732c81ece69202b0af138",
+    "bytes": 5571,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/max/2/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/max/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-max-3.svg",
+    "sha256": "6cc19d4c0329ab99f25152137dc47c3f3019de52e22d66545d84e5b2e7401dfc",
+    "bytes": 5805,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/max/3/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/max/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-max-1.svg",
+    "sha256": "bb753f016b0ee1617105cb7e9a1b3cfa1e412a37602bc9a506774c6638ba8727",
+    "bytes": 2820,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/max/1/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/low/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-low-1.svg",
+    "sha256": "3ae2d7c5513a7d2f356f39f6fb2d9b27b56473a323a247e8b5020338225803b1",
+    "bytes": 2703,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/low/1/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/low/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-low-3.svg",
+    "sha256": "afdbbf8a6a8cf87bff6591b7e00f328d3bf79e93df7a3907dad3d051658bd24a",
+    "bytes": 2116,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/low/3/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/low/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-low-2.svg",
+    "sha256": "725ba4208c814d7cf5c05593e20c4afc42f18c6a72845e12283a7484425efb5e",
+    "bytes": 2140,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/low/2/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-medium-2.svg",
+    "sha256": "48ee1e2475294a984df3547757b1be414fe94b9b95d666ac748e90116086fc96",
+    "bytes": 2149,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/medium/2/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-medium-1.svg",
+    "sha256": "658da4496a8032e95c6b69963cbd65738aa634a4895af622440358f3c7f81c20",
+    "bytes": 1970,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/medium/1/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/gpt-5-6-luna/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-gpt-5-6-luna-medium-3.svg",
+    "sha256": "ed1fa0c5401a3631c72c464374b57774b5ec93887558003c91bd6800c5f6d8bc",
+    "bytes": 2398,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/gpt-5-6-luna/medium/3/",
+        "model": "GPT-5.6 Luna"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/composer-2-5/default/2.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-composer-2-5-default-2.svg",
+    "sha256": "ab3535aca986ac49feaa0a70582a66d63dab55e0a8b605453d5bb992351cb967",
+    "bytes": 4925,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/composer-2-5/default/2/",
+        "model": "Composer 2.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/composer-2-5/default/3.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-composer-2-5-default-3.svg",
+    "sha256": "ead0eeee8ab6ea7a1230ee63383e87d37da374c4ffc5777e699c87fe70825584",
+    "bytes": 4423,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/composer-2-5/default/3/",
+        "model": "Composer 2.5"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-15/composer-2-5/default/1.svg",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/benchmark/tihu-samples/tihu-2026-11-15-composer-2-5-default-1.svg",
+    "sha256": "87701c49ad3f27e01be9f739fb6b8c92c4e23ad0f589d327813ca522f93645c1",
+    "bytes": 3787,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-15/composer-2-5/default/1/",
+        "model": "Composer 2.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2120858422228942848/vid/avc1/1280x720/CaNX-AgtY3d0VTED.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-15-manual-daily/motion/teddy-master-original.mp4",
+    "sha256": "c585d1caecb6d685912c91eb3c6f46765d73b2f0933a8b9e98a400f18c5fe4bd",
+    "bytes": 1367681,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/teddyaisi/status/2120858620795748859",
+        "model": "GPT-6.1 Sol"
+      },
+      {
+        "sourceUrl": "https://x.com/teddyaisi/status/2120858620795748859",
+        "model": "GPT-6 Astra"
+      },
+      {
+        "sourceUrl": "https://x.com/teddyaisi/status/2120858620795748859",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
   }
 ]

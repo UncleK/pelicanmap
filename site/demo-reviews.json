@@ -108,5 +108,22 @@
       "At 390px width, emulated touch press advanced the bike and the document did not overflow horizontally."
     ],
     "safety": "The complete, unmodified eight-file project and both MIT notices were reviewed. The author-hosted project byte-matches the fixed source. Chromium ran with network requests restricted to the isolated local origin and no external requests or script errors. The source uses only work-prefixed localStorage for progress/preferences and synthesizes audio with WebAudio. No external CDNs, account data, custom permissions or source rewrites."
+  },
+  "x-junquanb-fable-52-coastal-pelican-ride-2026-11-12": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/xony-pelican-coastal-adventure/index.html",
+    "controls": {
+      "zh": "点击「开始冒险」进入海岸跑酷。使用 A/D 或左右方向键转向，空格跳跃，Shift 加速。点击暂停按钮，再点击「继续骑行」返回游戏。",
+      "en": "Click 开始冒险 (Start Adventure) to enter the coastal runner. Steer with A/D or the arrow keys, jump with Space, and boost with Shift. Use the pause button, then choose 继续骑行 (Resume)."
+    },
+    "reviewedAt": "2026-11-15",
+    "sourceUrl": "https://github.com/Xiobio/pelican-ride/tree/9d7ce12ade274849504885fc74718c7ca6268da4",
+    "sourceSha256": "906eb9de80f15efe5ea999eaaf66387b9bfe3889d33969ac465619dd9770dbf3",
+    "license": "MIT — Xony (Xiobio); MIT — Three.js authors (vendored in the original HTML, version 0.187.0). Both complete notices preserved.",
+    "verifiedActions": [
+      "Clicked the original Start Adventure control; active Canvas rendered and the distance HUD advanced.",
+      "Clicked the in-game pause icon; the Resume button appeared. Clicked Resume and the overlay closed.",
+      "In the earlier isolated pass, Space triggered the first-jump achievement."
+    ],
+    "safety": "Original author-hosted standalone bundled HTML, unchanged, fixed by SHA-256. Tested in a fresh cross-origin iframe with the same sandbox attributes as the museum and unrelated network denied. No external fetches or JavaScript page errors in this test. The original uses localStorage for game progress and preferences and generates its own audio. The source link and both MIT notices are retained."
   }
 }
