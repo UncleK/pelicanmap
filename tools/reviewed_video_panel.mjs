@@ -7,6 +7,8 @@ import {cropPath} from './reviewed_video_crop.mjs';
 
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
 export const PANELS={
+  "https://x.com/laopai1990/status/2121985114766967052":{"url":"https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29","sha256":"732bfa2635e437a86e4a7691752516511083f47a78f6a54947b0fd5a3ebc8973","width":2940,"height":1732,"frames":511,"fps":50.93023255813954,"boxes":[[1304,446,1628,1018]],"ranges":[[0,511]],"models":["GPT-6.2 Astra（灰度，来源标注）"],"format":"animation","method":"ffmpeg:lossless-panel-preserve-color-and-timing","presentationTimeBase":"1:60000"},
+  "https://x.com/laopai1990/status/2121989622024835460":{"url":"https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29","sha256":"9e67974c10e1d37543d5ab94f1cbf3431436b9d7f88300354a99410e1e8b4f38","width":2940,"height":1732,"frames":968,"fps":53.82761816496756,"boxes":[[1304,340,1628,1154]],"ranges":[[321,585]],"models":["GPT-6.2 Astra（灰度，来源标注）"],"format":"3d","method":"ffmpeg:lossless-panel-preserve-color-and-timing","presentationTimeBase":"1:60000"},
   'https://x.com/teddyaisi/status/2120858620795748859':{
     url:'https://video.twimg.com/amplify_video/2120858422228942848/vid/avc1/1280x720/CaNX-AgtY3d0VTED.mp4?tag=29',
     sha256:'c585d1caecb6d685912c91eb3c6f46765d73b2f0933a8b9e98a400f18c5fe4bd',
@@ -102,9 +104,10 @@ async function checked(root,value){
 function probe(file){
   return JSON.parse(run('ffprobe',['-v','error','-show_entries','format=duration:stream=codec_type,width,height,avg_frame_rate,nb_frames,pix_fmt','-of','json',file]));
 }
-function hashes(file,filter){
+function hashes(file,filter,timeBase){
   const args=['-v','error','-nostdin','-i',file,'-map','0:v:0'];
   if(filter)args.push('-vf',filter);
+  if(timeBase)args.push('-enc_time_base:v',timeBase);
   args.push('-fps_mode','passthrough','-f','framehash','-hash','sha256','-');
   return run(process.env.PELICAN_FFMPEG||'ffmpeg',args).split(/\r?\n/).filter(x=>x && !x.startsWith('#')).map(x=>{
     const p=x.split(',').map(x=>x.trim());return {pts:Number(p[2]),duration:Number(p[3]),size:Number(p[4]),hash:p[5]};
@@ -123,9 +126,12 @@ export async function readReviewedVideoPanel(m,original,root){
      v.width!==width || v.height!==height || Number(v.nb_frames)!==end-start || v.pix_fmt!==sv.pix_fmt ||
      Math.abs(Number(after.format.duration)-(end-start)/spec.fps)>0.1)
     throw Error('Panel dimensions, duration or frame count changed');
-  const expected=hashes(source,`trim=start_frame=${start}:end_frame=${end},crop=${width}:${height}:${left}:${top},setpts=PTS-STARTPTS`);
-  const actual=hashes(capture);
-  const normalize=rows=>rows.map(x=>({...x,pts:x.pts-rows[0].pts}));
+  const expected=hashes(source,`trim=start_frame=${start}:end_frame=${end},crop=${width}:${height}:${left}:${top},setpts=PTS-STARTPTS`,spec.presentationTimeBase);
+  const actual=hashes(capture,undefined,spec.presentationTimeBase);
+  // For the reviewed variable-rate sources, reordered packets can attach a
+  // decode duration to a different frame. Display intervals follow PTS.
+  const normalize=rows=>rows.map((x,index)=>({...x,pts:x.pts-rows[0].pts,
+    duration:spec.presentationTimeBase && index+1<rows.length ? rows[index+1].pts-x.pts : x.duration}));
   if(expected.length!==end-start || JSON.stringify(normalize(expected))!==JSON.stringify(normalize(actual)))
     throw Error('Panel decoded pixels or relative frame timing changed');
   return {bytes,extraction:{kind:'reviewed-video-panel',source:m.url,sourceSha256:spec.sha256,

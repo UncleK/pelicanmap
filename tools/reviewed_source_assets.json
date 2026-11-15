@@ -32942,5 +32942,53 @@
         "model": "GPT-6.1 Terra"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-16-daily/x/2121985114766967052.mp4",
+    "sha256": "732bfa2635e437a86e4a7691752516511083f47a78f6a54947b0fd5a3ebc8973",
+    "bytes": 4271601,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/laopai1990/status/2121985114766967052",
+        "model": "GPT-6.2 Astra（灰度，来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-16-daily/x/2121989622024835460.mp4",
+    "sha256": "9e67974c10e1d37543d5ab94f1cbf3431436b9d7f88300354a99410e1e8b4f38",
+    "bytes": 23431886,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/laopai1990/status/2121989622024835460",
+        "model": "GPT-6.2 Astra（灰度，来源标注）"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121946961548922880/vid/avc1/1920x972/C_JayuhSwNzIboMb.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-16-daily/x/2121947136984236269.mp4",
+    "sha256": "50c7924d30397df7374b91a9ff3f0bb25fc90067c93dc241b8be53a2651be0cd",
+    "bytes": 56969544,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Samking207/status/2121947136984236269",
+        "model": "Qwen4-Max-Preview"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121884080593891328/vid/avc1/1920x1080/5nJ_FlXATA-qFuH9.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-16-daily/x/2121885449509851415.mp4",
+    "sha256": "a4bb35da3ee7df38500eda6e114e512159d413b45bb80677695ee8b38ebdb713",
+    "bytes": 108067317,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2121885449509851415",
+        "model": "Gemini 4 Carbon"
+      }
+    ]
   }
 ]

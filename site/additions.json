@@ -346625,5 +346625,450 @@
       }
     },
     "sourcePublicationDate": "2026-11-12"
+  },
+  {
+    "id": "x-laopai-astra-preview-high-lakeside-pelican-2026-11-15",
+    "originalId": "x-laopai-astra-preview-high-lakeside-pelican-2026-11-15",
+    "kind": "timeline",
+    "title": "鹈鹕的湖畔骑行",
+    "model": "GPT-6.2 Astra（灰度，来源标注）",
+    "author": "Patrick 老派 (@laopai1990)",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者录屏完整显示生成 HTML／SVG 动画的提示词、3 分 57 秒回复及同页作品。馆藏主画面取右侧原像素，完整录屏另附。作者称为 GPT-6.2-Astra 灰测，录屏选择器显示 GPT-6 Astra；版本未独立确认。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/laopai1990/status/2121985114766967052",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "请创建一个HTML，使用SVG呈现一只鹈鹕骑自行车的流畅循环动画，双脚始终贴合踏板交替踩踏，车轮同步转动，镜头平稳跟随，温暖的侧逆光勾勒羽毛轮廓，车架泛起细腻的金属反光，远近风景错落掠过，配合柔和的景深与自然的明暗层次，让整个画面鲜活而富有空间感。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15-artwork.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+        "sha256": "839cd72595f567a08186fcd15d4120d1bca385d759b7fdbcbb3bcae49b52a368",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+          "sourceSha256": "732bfa2635e437a86e4a7691752516511083f47a78f6a54947b0fd5a3ebc8973",
+          "box": {
+            "left": 1304,
+            "top": 446,
+            "width": 1628,
+            "height": 1018
+          },
+          "startFrame": 0,
+          "endFrame": 511,
+          "sourceFrames": 511,
+          "sourceFps": 50.93023255813954,
+          "method": "ffmpeg:lossless-panel-preserve-color-and-timing",
+          "decodedFrames": 511,
+          "decodedFrameHashesSha256": "dfe803b5e991b9a02a5bc71b68458d64a48a0c6ebb4a73969ce1fd9ecd39ce4c"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+          "sourceSha256": "839cd72595f567a08186fcd15d4120d1bca385d759b7fdbcbb3bcae49b52a368",
+          "frameTime": 1,
+          "sha256": "189518d3f667924b65957ee282bdb0e5e999c6e6bc4d5ed619e00b0d12c2c41b"
+        },
+        "caption": "录屏中的作品画面，像素保真裁切",
+        "captionEn": "Pixel-faithful artwork view from the recording",
+        "poster": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15-artwork-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+        "sha256": "732bfa2635e437a86e4a7691752516511083f47a78f6a54947b0fd5a3ebc8973",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29",
+          "sourceSha256": "732bfa2635e437a86e4a7691752516511083f47a78f6a54947b0fd5a3ebc8973",
+          "frameTime": 2,
+          "sha256": "761afca2b6412318bdaeed71e880e08d882432ecb2a4eb871395951a3c35b1ef"
+        },
+        "detailOnly": true,
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete recording published by the author",
+        "poster": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15-artwork-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15/",
+    "markdown": "/specimens/x-laopai-astra-preview-high-lakeside-pelican-2026-11-15/index.md",
+    "updated": "2026-11-16",
+    "rights": "署名及来源按原帖保留。归档作者公开录屏，独立 HTML 与单独许可未见公开。",
+    "i18n": {
+      "en": {
+        "title": "Pelican’s lakeside ride",
+        "model": "GPT-6.2 Astra (source-reported preview)",
+        "notes": "The recording shows the complete prompt, the 3m57s response for an HTML/SVG animation and the running result. The artwork view preserves source pixels. The complete recording is attached. The author calls it a GPT-6.2-Astra preview. The recorded picker reads GPT-6 Astra, and the version was not independently confirmed.",
+        "rights": "Credits and provenance follow the author’s post. The public recording is archived. No standalone HTML or separate license was found.",
+        "promptStatus": "请创建一个HTML，使用SVG呈现一只鹈鹕骑自行车的流畅循环动画，双脚始终贴合踏板交替踩踏，车轮同步转动，镜头平稳跟随，温暖的侧逆光勾勒羽毛轮廓，车架泛起细腻的金属反光，远近风景错落掠过，配合柔和的景深与自然的明暗层次，让整个画面鲜活而富有空间感。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/laopai1990/status/2121985114766967052",
+        "https://x.com/laopai1990/status/2121978546994512178",
+        "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra（灰度，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/laopai1990/status/2121985114766967052",
+      "https://x.com/laopai1990/status/2121978546994512178",
+      "https://video.twimg.com/amplify_video/2121983341713129472/vid/avc1/2940x1732/F91V9pWO1PreQczi.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-11-15T15:14:10Z",
+      "tool": "ChatGPT Work — HTML / SVG",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2121983341713129472",
+        "sourceModelLabel": "GPT-6.2-Astra 灰测",
+        "visiblePicker": "GPT-6 Astra 高",
+        "visibleRunTimeSeconds": 237
+      }
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "x-laopai-astra-preview-xhigh-perihelion-2026-11-15",
+    "originalId": "x-laopai-astra-preview-xhigh-perihelion-2026-11-15",
+    "kind": "timeline",
+    "title": "近日点 · 环轨骑行",
+    "model": "GPT-6.2 Astra（灰度，来源标注）",
+    "author": "Patrick 老派 (@laopai1990)",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者称以 xhigh 运行，录屏显示用代码生成内嵌 Three.js 的离线 HTML。鹈鹕沿海边环轨翻转；列表显示环轨片段，附完整作者录屏，提示词只保留画面可见部分。作者称为 GPT-6.2-Astra 灰测，录屏选择器显示 GPT-6 Astra；版本未独立确认。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/laopai1990/status/2121989622024835460",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "X-High",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-xhigh-perihelion-2026-11-15-artwork.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+        "sha256": "e906fe23a58a0c98680fc75d2163383631589d885c7ae60623f58bfac81073a7",
+        "extraction": {
+          "kind": "reviewed-video-panel",
+          "source": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+          "sourceSha256": "9e67974c10e1d37543d5ab94f1cbf3431436b9d7f88300354a99410e1e8b4f38",
+          "box": {
+            "left": 1304,
+            "top": 340,
+            "width": 1628,
+            "height": 1154
+          },
+          "startFrame": 321,
+          "endFrame": 585,
+          "sourceFrames": 968,
+          "sourceFps": 53.82761816496756,
+          "method": "ffmpeg:lossless-panel-preserve-color-and-timing",
+          "decodedFrames": 264,
+          "decodedFrameHashesSha256": "8ec04eafd546a69bfde7c772c0dfad485518ef6cec1fdb5daba6e9598b05048e"
+        },
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+          "sourceSha256": "e906fe23a58a0c98680fc75d2163383631589d885c7ae60623f58bfac81073a7",
+          "frameTime": 1,
+          "sha256": "06b082ff4ffe355f41f18c9d8f34c1e5a022c2d9f1e3ea49ba0ab022cf2f8037"
+        },
+        "caption": "录屏中的作品画面，像素保真裁切",
+        "captionEn": "Pixel-faithful artwork view from the recording",
+        "poster": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-xhigh-perihelion-2026-11-15-artwork-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-xhigh-perihelion-2026-11-15-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+        "sha256": "9e67974c10e1d37543d5ab94f1cbf3431436b9d7f88300354a99410e1e8b4f38",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29",
+          "sourceSha256": "9e67974c10e1d37543d5ab94f1cbf3431436b9d7f88300354a99410e1e8b4f38",
+          "frameTime": 2,
+          "sha256": "c41d6d2aa49b2167f123e9a1b9ef26cd0b103cea3aed92020d3b2f2f7dadd7f6"
+        },
+        "detailOnly": true,
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete recording published by the author",
+        "poster": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-xhigh-perihelion-2026-11-15-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-16-daily/x-laopai-astra-preview-xhigh-perihelion-2026-11-15-artwork-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-laopai-astra-preview-xhigh-perihelion-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-laopai-astra-preview-xhigh-perihelion-2026-11-15/",
+    "markdown": "/specimens/x-laopai-astra-preview-xhigh-perihelion-2026-11-15/index.md",
+    "updated": "2026-11-16",
+    "rights": "署名及来源按原帖保留。归档作者公开录屏，独立 HTML 与单独许可未见公开。",
+    "i18n": {
+      "en": {
+        "title": "Perihelion · Riding the loop",
+        "model": "GPT-6.2 Astra (source-reported preview)",
+        "notes": "The author reports xhigh. The recording shows an offline HTML result with embedded Three.js and a pelican turning upside down on a coastal loop. The preview shows part of the loop, and the complete author recording is attached. Only the visible portion of the prompt is preserved. The author calls it a GPT-6.2-Astra preview. The recorded picker reads GPT-6 Astra, and the version was not independently confirmed.",
+        "rights": "Credits and provenance follow the author’s post. The public recording is archived. No standalone HTML or separate license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/laopai1990/status/2121989622024835460",
+        "https://x.com/laopai1990/status/2121978546994512178",
+        "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra（灰度，来源标注）"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/laopai1990/status/2121989622024835460",
+      "https://x.com/laopai1990/status/2121978546994512178",
+      "https://video.twimg.com/amplify_video/2121988960398536704/vid/avc1/2940x1732/_nmGi9DunMCUM5uh.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-11-15T15:32:05Z",
+      "tool": "ChatGPT Work — HTML / Three.js",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2121988960398536704",
+        "sourceModelLabel": "GPT-6.2-Astra 灰测",
+        "visiblePicker": "GPT-6 Astra 极高",
+        "visibleRunTimeSeconds": 1083,
+        "promptCompleteness": "partially visible; collapsed in original recording",
+        "visiblePromptExcerpt": "请直接写出并运行代码，最终给我一个可离线打开的 index.html，把 Three.js 和必要资源都打包进去。所有模型用代码创建。"
+      }
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "x-samking-qwen4-max-preview-pelican-courier-2026-11-15",
+    "originalId": "x-samking-qwen4-max-preview-pelican-courier-2026-11-15",
+    "kind": "timeline",
+    "title": "鹈鹕信使 · 海岸骑行",
+    "model": "Qwen4-Max-Preview",
+    "author": "SK (@Samking207)",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者标注 Qwen 4-Max Preview，并在回复中确认使用 Qoder。录屏标题标明 Three.js，展示海岸骑行和车速、光照、配色等控制。归档完整录屏。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Samking207/status/2121947136984236269",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-16-daily/x-samking-qwen4-max-preview-pelican-courier-2026-11-15-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121946961548922880/vid/avc1/1920x972/C_JayuhSwNzIboMb.mp4?tag=29",
+        "sha256": "50c7924d30397df7374b91a9ff3f0bb25fc90067c93dc241b8be53a2651be0cd",
+        "posterProvenance": {
+          "kind": "upstream-preview",
+          "source": "https://pbs.twimg.com/amplify_video_thumb/2121946961548922880/img/QngjF3VffyO4Cxy0.jpg",
+          "sha256": "631618e88f285a80230550ea50c7ac679f20d30b691e85d76b244d11a5d5bc6d"
+        },
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete recording published by the author",
+        "poster": "/media/collected/2026-11-16-daily/x-samking-qwen4-max-preview-pelican-courier-2026-11-15-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-16-daily/x-samking-qwen4-max-preview-pelican-courier-2026-11-15-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-samking-qwen4-max-preview-pelican-courier-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-samking-qwen4-max-preview-pelican-courier-2026-11-15/",
+    "markdown": "/specimens/x-samking-qwen4-max-preview-pelican-courier-2026-11-15/index.md",
+    "updated": "2026-11-16",
+    "rights": "署名及来源按原帖保留。归档作者公开录屏，独立 HTML 与单独许可未见公开。",
+    "i18n": {
+      "en": {
+        "title": "The Pelican Courier · Coastal ride",
+        "model": "Qwen4-Max-Preview",
+        "notes": "The author names Qwen 4-Max Preview and confirms Qoder in a reply. The Three.js recording shows a coastal ride with speed, lighting and colour controls. The entire recording is archived.",
+        "rights": "Credits and provenance follow the author’s post. The public recording is archived. No standalone HTML or separate license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Samking207/status/2121947136984236269",
+        "https://x.com/Samking207/status/2121951418269528200",
+        "https://video.twimg.com/amplify_video/2121946961548922880/vid/avc1/1920x972/C_JayuhSwNzIboMb.mp4?tag=29",
+        "https://pbs.twimg.com/amplify_video_thumb/2121946961548922880/img/QngjF3VffyO4Cxy0.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4-Max-Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Samking207/status/2121947136984236269",
+      "https://x.com/Samking207/status/2121951418269528200",
+      "https://video.twimg.com/amplify_video/2121946961548922880/vid/avc1/1920x972/C_JayuhSwNzIboMb.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-11-15T12:43:15Z",
+      "tool": "Qoder / Three.js",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2121946961548922880",
+        "sourceModelLabel": "Qwen 4-Max Preview",
+        "visibleArtworkTitle": "The Pelican Courier",
+        "distribution": "author’s recording; the HTML/demo link was not public in the observed thread"
+      }
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15",
+    "originalId": "x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15",
+    "kind": "timeline",
+    "title": "鹈鹕穿行于不同画风",
+    "model": "Gemini 4 Carbon",
+    "author": "Chetaslua (@chetaslua)",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者说明在 Antigravity 中使用 Gemini 4 Carbon 搭配 Hydrogen swarm，画面、音乐及音效均由 JavaScript 实现。多个画风是同一件作品的连续段落。保留完整原片和原声。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2121885449509851415",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-16-daily/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121884080593891328/vid/avc1/1920x1080/5nJ_FlXATA-qFuH9.mp4?tag=29",
+        "sha256": "a4bb35da3ee7df38500eda6e114e512159d413b45bb80677695ee8b38ebdb713",
+        "posterProvenance": {
+          "kind": "upstream-preview",
+          "source": "https://pbs.twimg.com/amplify_video_thumb/2121884080593891328/img/wZ-OMut-QRru3s9j.jpg",
+          "sha256": "62e881524b3037632bab556180465c2c2c4423914e73147cc435b979e258e40c"
+        },
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete recording published by the author",
+        "poster": "/media/collected/2026-11-16-daily/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-16-daily/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15/",
+    "markdown": "/specimens/x-chetaslua-gemini4-carbon-hydrogen-style-ride-2026-11-15/index.md",
+    "updated": "2026-11-16",
+    "rights": "署名及来源按原帖保留。归档作者公开录屏，独立 HTML 与单独许可未见公开。",
+    "i18n": {
+      "en": {
+        "title": "A pelican rides through changing art styles",
+        "model": "Gemini 4 Carbon",
+        "notes": "The author reports Gemini 4 Carbon with a Hydrogen swarm in Antigravity. The visuals, music and sound are implemented in JavaScript. The changing art styles form one work. The entire recording and its original audio are preserved.",
+        "rights": "Credits and provenance follow the author’s post. The public recording is archived. No standalone HTML or separate license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2121885449509851415",
+        "https://x.com/mylesBaiM/status/2121949019631165694",
+        "https://x.com/Zeroltziv/status/2121956945787793483",
+        "https://video.twimg.com/amplify_video/2121884080593891328/vid/avc1/1920x1080/5nJ_FlXATA-qFuH9.mp4?tag=29",
+        "https://pbs.twimg.com/amplify_video_thumb/2121884080593891328/img/wZ-OMut-QRru3s9j.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Carbon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2121885449509851415",
+      "https://x.com/mylesBaiM/status/2121949019631165694",
+      "https://x.com/Zeroltziv/status/2121956945787793483",
+      "https://video.twimg.com/amplify_video/2121884080593891328/vid/avc1/1920x1080/5nJ_FlXATA-qFuH9.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourcePublicationTimestamp": "2026-11-15T08:38:08Z",
+      "tool": "Antigravity / JavaScript",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2121884080593891328",
+        "sourceModelLabel": "Gemini 4 Carbon with Hydrogen swarm",
+        "workUnits": "one composite author output"
+      }
+    },
+    "sourcePublicationDate": "2026-11-15"
   }
 ]
