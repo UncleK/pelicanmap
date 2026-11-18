@@ -347070,5 +347070,4309 @@
       }
     },
     "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "hypeorcode-qwen4-max-2026-11-16",
+    "originalId": "hypeorcode-qwen4-max-2026-11-16",
+    "kind": "timeline",
+    "title": "Qwen4 Max · Hype or Code 鹈鹕骑车",
+    "model": "Qwen4 Max",
+    "author": "hype or code",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "来源记录通过 OpenRouter API 使用 qwen/qwen4-max 单次生成。公开 SVG 与原始输出的字节完全相同。作品日期采用来源 UTC 运行日。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/qwen4-max/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/qwen4-max-original.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/qwen4-max.c3855f43.svg",
+        "sha256": "61dff18dc0e061a2be8b96c1fa4713864ab615178db57ac5b4fff088030a6867",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/qwen4-max-original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/qwen4-max.c3855f43.txt",
+    "path": "/specimens/hypeorcode-qwen4-max-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-qwen4-max-2026-11-16/",
+    "markdown": "/specimens/hypeorcode-qwen4-max-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、原公开出处及原始输出。来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Qwen4 Max · Hype or Code pelican ride",
+        "model": "Qwen4 Max",
+        "notes": "The source records a single OpenRouter API run of qwen/qwen4-max. The published SVG matches the raw model output byte for byte. The artwork date is the reported UTC run day.",
+        "rights": "Original attribution, the public source and the exact output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/qwen4-max/",
+        "https://hypeorcode.com/o/pelican-bicycle/qwen4-max.c3855f43.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/qwen4-max.c3855f43.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/qwen4-max.adbfb253.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4 Max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/qwen4-max/",
+      "https://hypeorcode.com/o/pelican-bicycle/qwen4-max.c3855f43.svg",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/qwen4-max.c3855f43.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/qwen4-max.adbfb253.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "qwen/qwen4-max",
+      "effort": "high",
+      "servedBy": "Alibaba",
+      "sourceReportedRunAt": "2026-11-16T02:48:32.118Z"
+    }
+  },
+  {
+    "id": "x-chetaslua-gpt62-astra-last-good-pelican-2026-11-18",
+    "originalId": "x-chetaslua-gpt62-astra-last-good-pelican-2026-11-18",
+    "kind": "timeline",
+    "title": "最后一只好鹈鹕",
+    "model": "GPT-6.2 Astra",
+    "author": "Chetaslua",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者用 GPT-6.2 Astra 编写的叙事动画。Canvas 2D 绘制海岸、自行车和角色，Web Audio 合成配乐与音效。首发原片、可离线运行的 HTML 和 MIT 许可一并保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2123051098730799214",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/chetas-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123050850507689984/vid/avc1/3024x1720/uwMHCuZcJg8h8OZl.mp4?tag=29",
+        "sha256": "bc25cadc4d5aaace6e2fb9664475ac51ceb189e9abb8b36caa5582e169e2c5ef",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123050850507689984/vid/avc1/3024x1720/uwMHCuZcJg8h8OZl.mp4?tag=29",
+          "sourceSha256": "bc25cadc4d5aaace6e2fb9664475ac51ceb189e9abb8b36caa5582e169e2c5ef",
+          "frameTime": 16,
+          "sha256": "49218f83bbb24d19435f964186b3241c838ab46a237c0bfa4f0ee88062e7dd44"
+        },
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete author-posted video",
+        "poster": "/media/collected/2026-11-19-manual/chetas-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-19-manual/chetas-original-canvas-frame.png",
+        "source": "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican/d9299b834a98273de0258faeda44e2da402c587e/pelican.html",
+        "sha256": "6fa0c1ee89a606ffaf65f3009581e194015d55805cdd19ef19189045ee5ebe61",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "e81045b34f5cc7080f2891f2cee88d774782fcb662d966a237711fbc66482e8a",
+          "frameSha256": "6fa0c1ee89a606ffaf65f3009581e194015d55805cdd19ef19189045ee5ebe61",
+          "viewport": {
+            "width": 1080,
+            "height": 720
+          },
+          "method": "Isolated Chromium Canvas screenshot at 15 seconds, outbound network denied"
+        },
+        "detailOnly": true,
+        "caption": "原 HTML 在 15 秒处的实际渲染画面",
+        "captionEn": "Actual original HTML render at 15 seconds",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/chetas-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/chetaslua-last-good-pelican/pelican.html",
+    "sourceCodeUrl": "https://github.com/ChetasLua/the-last-good-pelican/blob/d9299b834a98273de0258faeda44e2da402c587e/pelican.html",
+    "path": "/specimens/x-chetaslua-gpt62-astra-last-good-pelican-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-gpt62-astra-last-good-pelican-2026-11-18/",
+    "markdown": "/specimens/x-chetaslua-gpt62-astra-last-good-pelican-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "HTML 按作者仓库 MIT 许可保留原署名与完整许可。X 原片保留首发来源。",
+    "i18n": {
+      "en": {
+        "title": "The Last Good Pelican",
+        "model": "GPT-6.2 Astra",
+        "notes": "The author credits GPT-6.2 Astra for this narrative short. Canvas 2D draws the coast, bicycles and characters. Web Audio synthesizes the score and effects. The archive preserves the complete posted video, offline HTML and MIT notice.",
+        "rights": "The HTML retains the original MIT notice and attribution. The X video retains its first-publication source.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2123051098730799214",
+        "https://x.com/chetaslua/status/2123055816374927662",
+        "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican/d9299b834a98273de0258faeda44e2da402c587e/pelican.html",
+        "https://github.com/ChetasLua/the-last-good-pelican/blob/d9299b834a98273de0258faeda44e2da402c587e/LICENSE",
+        "https://video.twimg.com/amplify_video/2123050850507689984/vid/avc1/3024x1720/uwMHCuZcJg8h8OZl.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2123051098730799214",
+      "https://x.com/chetaslua/status/2123055816374927662",
+      "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican/d9299b834a98273de0258faeda44e2da402c587e/pelican.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "Canvas 2D / Web Audio",
+      "sourcePublicationTimestamp": "2026-11-18T13:50:00Z",
+      "sourceRevision": "d9299b834a98273de0258faeda44e2da402c587e"
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "x-untethered-x-gpt-china-five-thousand-years-2026-11-18",
+    "originalId": "x-untethered-x-gpt-china-five-thousand-years-2026-11-18",
+    "kind": "timeline",
+    "title": "鹈鹕五千年",
+    "model": "GPT",
+    "author": "不系舟 (@Untethered_X)",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者标注「GPT 直出」，未披露具体型号或档位。作者自回复公开了仅以 HTML、CSS、JavaScript、SVG 或 Canvas 编程实现的题面。完整公开片段保留，时长约 88 秒。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Untethered_X/status/2123072305668689946",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "中华上下五千年\n\n你是一名顶级动画导演、历史研究者、视觉艺术家和创意前端工程师。\n\n请仅通过编写代码，创作一部具有电影级视觉表现力的横版动画短片：一只鹈鹕骑着自行车，穿越中华文明五千年的经典历史时刻。\n\n1. 核心创意\n\n同一只鹈鹕骑着同一辆自行车，从远古时代出发，不断向前骑行，穿越中国历史的兴衰、战争、繁荣、变革与科技进步，最终抵达未来。\n\n鹈鹕是历史的旁观者，自行车是时间的载体。\n\n整部作品如同一幅不断展开的动态中华文明长卷。\n\n2. 历史场景\n\n请按照时间顺序设计以下20个独立场景：\n\n1. 华夏起源：黄帝时代的部落、远古山川、篝火与图腾。\n2. 大禹治水：洪水奔涌，先民疏通河道。\n3. 商周文明：青铜鼎、甲骨文、祭祀与礼乐。\n4. 春秋战国：诸子百家、孔子讲学、战国纷争。\n5. 秦统一六国：秦始皇、兵马俑、秦军与长城。\n6. 楚汉争霸：垓下之战、乌江、漫天战火。\n7. 大汉盛世：张骞出使西域、丝绸之路、大漠驼队。\n8. 三国时代：赤壁之战、江面战船与熊熊烈火。\n9. 魏晋风骨：竹林七贤、山水、饮酒与抚琴。\n10. 隋朝大运河：漕运船只、桥梁与繁忙码头。\n11. 大唐盛世：长安夜市、万国来朝、李白与明月。\n12. 敦煌飞天：莫高窟、壁画、飞天与漫天彩带。\n13. 北宋繁华：以《清明上河图》为灵感的汴京市井。\n14. 南宋山河：江南烟雨、山水楼阁、边塞烽火。\n15. 元朝交通：辽阔草原、蒙古骑兵、横跨大陆的商路。\n16. 明朝远航：郑和下西洋、巨型宝船与海上风浪。\n17. 清朝兴衰：紫禁城、晚清街市与时代变迁。\n18. 近代中国：蒸汽火车、辛亥革命、工业与城市变革。\n19. 现代中国：高铁、跨海大桥、摩天大楼、航天工程。\n20. 未来中国：太空电梯、月球基地、星际飞船与未来文明。\n\n远古传说与有史料记载的历史应当有所区分。每一个历史场景都必须具有独特的建筑、服饰、道具、环境和时代特征。\n\n3. 艺术风格\n\n整体采用高级东方美学，将中国传统艺术与现代动画电影语言融合。\n\n不同历史时期采用与时代匹配的视觉表现：\n\n* 远古：岩画、粗粝纹理、神话史诗。\n* 商周：青铜器纹样、金石质感。\n* 秦汉：雄浑壮阔、强烈的光影与秩序感。\n* 魏晋：留白、水墨、飘逸。\n* 唐朝：敦煌壁画、华丽色彩、开放繁荣。\n* 宋朝：细腻工笔、山水长卷、雅致色彩。\n* 元明清：历史绘画与电影光影融合。\n* 现代：写实感与工业美学。\n* 未来：东方科幻、宏大的宇宙尺度。\n\n禁止使用简单几何图形拼凑场景，禁止使用 Emoji 代替人物或建筑，禁止将所有时代套用同一种背景模板。\n\n4. 鹈鹕与自行车\n\n鹈鹕必须具有真实可辨认的生物特征，包括巨大的喙、喉囊、羽毛、翅膀和蹼足。\n\n自行车必须具备合理的机械结构，包括车架、车把、两个车轮、辐条、曲柄、踏板、链条与座椅。\n\n重点实现：\n\n* 双脚始终准确踩在踏板上。\n* 双腿根据踏板位置进行连续运动。\n* 车轮旋转速度与骑行速度匹配。\n* 身体随骑行动作轻微上下起伏。\n* 羽毛受到风力影响自然摆动。\n* 骑行经过坡道、桥梁和不同地形时，身体姿态自然调整。\n* 保持鹈鹕和自行车的跨场景一致性。\n\n不能用静态鹈鹕贴图在背景上简单平移来冒充骑行动画。\n\n5. 镜头与动画\n\n采用连续向右推进的横向跟拍镜头。\n\n实现至少四层视差滚动：远景、建筑、地面与前景。\n\n每一个时代都必须具有独立的环境动画，例如：\n\n洪水、战马、火焰、江面波浪、飘动的旗帜、街头行人、飞舞的花瓣、行驶的船只、飞翔的鸟群、运转的机械与升空的火箭。\n\n场景之间通过山川、烟雾、水墨晕染、建筑演变、光影变化等方式自然过渡。\n\n禁止简单黑屏切换，禁止幻灯片式播放。\n\n允许鹈鹕在不同场景中与环境发生有趣的互动，但不能破坏主线骑行动作。\n\n6. 技术要求\n\n* 使用 HTML、CSS、JavaScript、SVG 或 Canvas 编程实现。\n* 所有视觉素材必须通过代码绘制。\n* 不使用图像生成模型。\n* 不调用外部图片、视频、现成动画素材或远程 CDN。\n* 生成一个完整且可离线运行的 HTML 文件。\n* 画面比例16:9，目标分辨率1920×1080。\n* 目标帧率60fps。\n* 完整动画时长180秒。\n* 每个历史场景平均约8秒，剩余时间用于片头、片尾和过渡。\n* 支持播放、暂停、进度拖动、全屏和历史章节跳转。\n* 支持无字幕纯净播放，方便录制成视频。\n\n7. 片头与结尾\n\n片头：\n\n一卷古老的竹简缓缓展开，一只鹈鹕骑着自行车，从神话时代进入画面。\n\n标题：《鹈鹕五千年》\n\n结尾：\n\n鹈鹕穿越现代城市，沿着通往宇宙的道路继续骑行，地球在身后逐渐缩小，远处是浩瀚星河。\n\n字幕：\n\n“五千年，不过是旅程的开始。”\n\n8. 最终交付\n\n不要只提供设计方案、伪代码或者局部演示。\n\n请实际完成全部20个历史场景，交付完整可运行的作品。\n\n在具备浏览器工具的情况下，实际运行并检查关键帧、骑行姿态、场景切换、画面性能与交互功能，修复发现的问题。\n\n不要为了节省代码而删减历史场景。\n\n请发挥你的最高能力，让最终成品成为一部令人惊叹的代码艺术作品。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/untethered-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123071531685441538/vid/avc1/1280x720/BeZWMFhFlcebDpoc.mp4?tag=29",
+        "sha256": "3075a69b8dc110cd8ea75b675694498fa5042f8be67fe63f67fc11796deb6fef",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123071531685441538/vid/avc1/1280x720/BeZWMFhFlcebDpoc.mp4?tag=29",
+          "sourceSha256": "3075a69b8dc110cd8ea75b675694498fa5042f8be67fe63f67fc11796deb6fef",
+          "frameTime": 23,
+          "sha256": "1baaf1c0fd0385a57d97a9d60612835e0f900a08ca8a17564c21eec564c46c72"
+        },
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete author-posted video",
+        "poster": "/media/collected/2026-11-19-manual/untethered-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/untethered-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-untethered-x-gpt-china-five-thousand-years-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-untethered-x-gpt-china-five-thousand-years-2026-11-18/",
+    "markdown": "/specimens/x-untethered-x-gpt-china-five-thousand-years-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者原片和公开出处，未注明独立许可。",
+    "i18n": {
+      "en": {
+        "title": "A Pelican Across Five Thousand Years",
+        "model": "GPT",
+        "notes": "The author attributes the result to GPT and gives no model version or effort level. A self-reply provides the complete prompt for a code-only animation using HTML, CSS, JavaScript, SVG or Canvas. The complete posted clip is about 88 seconds.",
+        "rights": "Original video and public source are preserved. No separate license was provided.",
+        "promptStatus": "中华上下五千年\n\n你是一名顶级动画导演、历史研究者、视觉艺术家和创意前端工程师。\n\n请仅通过编写代码，创作一部具有电影级视觉表现力的横版动画短片：一只鹈鹕骑着自行车，穿越中华文明五千年的经典历史时刻。\n\n1. 核心创意\n\n同一只鹈鹕骑着同一辆自行车，从远古时代出发，不断向前骑行，穿越中国历史的兴衰、战争、繁荣、变革与科技进步，最终抵达未来。\n\n鹈鹕是历史的旁观者，自行车是时间的载体。\n\n整部作品如同一幅不断展开的动态中华文明长卷。\n\n2. 历史场景\n\n请按照时间顺序设计以下20个独立场景：\n\n1. 华夏起源：黄帝时代的部落、远古山川、篝火与图腾。\n2. 大禹治水：洪水奔涌，先民疏通河道。\n3. 商周文明：青铜鼎、甲骨文、祭祀与礼乐。\n4. 春秋战国：诸子百家、孔子讲学、战国纷争。\n5. 秦统一六国：秦始皇、兵马俑、秦军与长城。\n6. 楚汉争霸：垓下之战、乌江、漫天战火。\n7. 大汉盛世：张骞出使西域、丝绸之路、大漠驼队。\n8. 三国时代：赤壁之战、江面战船与熊熊烈火。\n9. 魏晋风骨：竹林七贤、山水、饮酒与抚琴。\n10. 隋朝大运河：漕运船只、桥梁与繁忙码头。\n11. 大唐盛世：长安夜市、万国来朝、李白与明月。\n12. 敦煌飞天：莫高窟、壁画、飞天与漫天彩带。\n13. 北宋繁华：以《清明上河图》为灵感的汴京市井。\n14. 南宋山河：江南烟雨、山水楼阁、边塞烽火。\n15. 元朝交通：辽阔草原、蒙古骑兵、横跨大陆的商路。\n16. 明朝远航：郑和下西洋、巨型宝船与海上风浪。\n17. 清朝兴衰：紫禁城、晚清街市与时代变迁。\n18. 近代中国：蒸汽火车、辛亥革命、工业与城市变革。\n19. 现代中国：高铁、跨海大桥、摩天大楼、航天工程。\n20. 未来中国：太空电梯、月球基地、星际飞船与未来文明。\n\n远古传说与有史料记载的历史应当有所区分。每一个历史场景都必须具有独特的建筑、服饰、道具、环境和时代特征。\n\n3. 艺术风格\n\n整体采用高级东方美学，将中国传统艺术与现代动画电影语言融合。\n\n不同历史时期采用与时代匹配的视觉表现：\n\n* 远古：岩画、粗粝纹理、神话史诗。\n* 商周：青铜器纹样、金石质感。\n* 秦汉：雄浑壮阔、强烈的光影与秩序感。\n* 魏晋：留白、水墨、飘逸。\n* 唐朝：敦煌壁画、华丽色彩、开放繁荣。\n* 宋朝：细腻工笔、山水长卷、雅致色彩。\n* 元明清：历史绘画与电影光影融合。\n* 现代：写实感与工业美学。\n* 未来：东方科幻、宏大的宇宙尺度。\n\n禁止使用简单几何图形拼凑场景，禁止使用 Emoji 代替人物或建筑，禁止将所有时代套用同一种背景模板。\n\n4. 鹈鹕与自行车\n\n鹈鹕必须具有真实可辨认的生物特征，包括巨大的喙、喉囊、羽毛、翅膀和蹼足。\n\n自行车必须具备合理的机械结构，包括车架、车把、两个车轮、辐条、曲柄、踏板、链条与座椅。\n\n重点实现：\n\n* 双脚始终准确踩在踏板上。\n* 双腿根据踏板位置进行连续运动。\n* 车轮旋转速度与骑行速度匹配。\n* 身体随骑行动作轻微上下起伏。\n* 羽毛受到风力影响自然摆动。\n* 骑行经过坡道、桥梁和不同地形时，身体姿态自然调整。\n* 保持鹈鹕和自行车的跨场景一致性。\n\n不能用静态鹈鹕贴图在背景上简单平移来冒充骑行动画。\n\n5. 镜头与动画\n\n采用连续向右推进的横向跟拍镜头。\n\n实现至少四层视差滚动：远景、建筑、地面与前景。\n\n每一个时代都必须具有独立的环境动画，例如：\n\n洪水、战马、火焰、江面波浪、飘动的旗帜、街头行人、飞舞的花瓣、行驶的船只、飞翔的鸟群、运转的机械与升空的火箭。\n\n场景之间通过山川、烟雾、水墨晕染、建筑演变、光影变化等方式自然过渡。\n\n禁止简单黑屏切换，禁止幻灯片式播放。\n\n允许鹈鹕在不同场景中与环境发生有趣的互动，但不能破坏主线骑行动作。\n\n6. 技术要求\n\n* 使用 HTML、CSS、JavaScript、SVG 或 Canvas 编程实现。\n* 所有视觉素材必须通过代码绘制。\n* 不使用图像生成模型。\n* 不调用外部图片、视频、现成动画素材或远程 CDN。\n* 生成一个完整且可离线运行的 HTML 文件。\n* 画面比例16:9，目标分辨率1920×1080。\n* 目标帧率60fps。\n* 完整动画时长180秒。\n* 每个历史场景平均约8秒，剩余时间用于片头、片尾和过渡。\n* 支持播放、暂停、进度拖动、全屏和历史章节跳转。\n* 支持无字幕纯净播放，方便录制成视频。\n\n7. 片头与结尾\n\n片头：\n\n一卷古老的竹简缓缓展开，一只鹈鹕骑着自行车，从神话时代进入画面。\n\n标题：《鹈鹕五千年》\n\n结尾：\n\n鹈鹕穿越现代城市，沿着通往宇宙的道路继续骑行，地球在身后逐渐缩小，远处是浩瀚星河。\n\n字幕：\n\n“五千年，不过是旅程的开始。”\n\n8. 最终交付\n\n不要只提供设计方案、伪代码或者局部演示。\n\n请实际完成全部20个历史场景，交付完整可运行的作品。\n\n在具备浏览器工具的情况下，实际运行并检查关键帧、骑行姿态、场景切换、画面性能与交互功能，修复发现的问题。\n\n不要为了节省代码而删减历史场景。\n\n请发挥你的最高能力，让最终成品成为一部令人惊叹的代码艺术作品。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Untethered_X/status/2123072305668689946",
+        "https://x.com/Untethered_X/status/2123082075154825267",
+        "https://video.twimg.com/amplify_video/2123071531685441538/vid/avc1/1280x720/BeZWMFhFlcebDpoc.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Untethered_X/status/2123072305668689946",
+      "https://x.com/Untethered_X/status/2123082075154825267"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT",
+      "sourcePublicationTimestamp": "2026-11-18T15:14:17Z"
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "hypeorcode-hy4-flash-2026-11-17",
+    "originalId": "hypeorcode-hy4-flash-2026-11-17",
+    "kind": "timeline",
+    "title": "HY4 Flash · Hype or Code 鹈鹕骑车",
+    "model": "HY4 Flash",
+    "author": "hype or code",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "来源记录通过 OpenRouter API 使用 tencent/hy4-flash 单次生成。发布的 SVG 与原始输出字节一致。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4-flash/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/hype-hy4-flash.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/hy4-flash.344d1edd.svg",
+        "sha256": "15d25ca0f2a2545442187b7d213230519f9fba7cd28619ece15364dd0896cd47",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/hype-hy4-flash.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-flash.344d1edd.txt",
+    "path": "/specimens/hypeorcode-hy4-flash-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-hy4-flash-2026-11-17/",
+    "markdown": "/specimens/hypeorcode-hy4-flash-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "HY4 Flash · Hype or Code pelican ride",
+        "model": "HY4 Flash",
+        "notes": "The source records a single OpenRouter API run of tencent/hy4-flash. The published SVG is byte-identical to the raw response.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/hy4-flash/",
+        "https://hypeorcode.com/o/pelican-bicycle/hy4-flash.344d1edd.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-flash.344d1edd.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-flash.8083c569.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "HY4 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/hy4-flash/",
+      "https://hypeorcode.com/o/pelican-bicycle/hy4-flash.344d1edd.svg",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-flash.344d1edd.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/hy4-flash.8083c569.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "tencent/hy4-flash",
+      "effort": null,
+      "servedBy": "Tencent",
+      "sourceReportedRunAt": "2026-11-17T00:25:03.352Z"
+    }
+  },
+  {
+    "id": "hypeorcode-motif-3-2026-11-17",
+    "originalId": "hypeorcode-motif-3-2026-11-17",
+    "kind": "timeline",
+    "title": "Motif 3 · Hype or Code 鹈鹕骑车",
+    "model": "Motif 3",
+    "author": "hype or code",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "来源记录通过 OpenRouter API 使用 motif-technologies/motif-3 单次生成。发布的 SVG 与原始输出字节一致。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/motif-3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/hype-motif-3.svg",
+        "source": "https://hypeorcode.com/o/pelican-bicycle/motif-3.547390a8.svg",
+        "sha256": "921fe6514a2e720bd0c1a805b9188401c87194c93e3648d79150d512f8cce41e",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/hype-motif-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://hypeorcode.com/o/raw/pelican-bicycle/motif-3.547390a8.txt",
+    "path": "/specimens/hypeorcode-motif-3-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/hypeorcode-motif-3-2026-11-17/",
+    "markdown": "/specimens/hypeorcode-motif-3-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "Motif 3 · Hype or Code pelican ride",
+        "model": "Motif 3",
+        "notes": "The source records a single OpenRouter API run of motif-technologies/motif-3. The published SVG is byte-identical to the raw response.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle\n\nIt must be one standalone SVG file with no scripts, external fonts or linked images. Reply with the file in a single ```svg code block.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://hypeorcode.com/c/pelican-bicycle/motif-3/",
+        "https://hypeorcode.com/o/pelican-bicycle/motif-3.547390a8.svg",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/motif-3.547390a8.txt",
+        "https://hypeorcode.com/o/raw/pelican-bicycle/motif-3.0878b721.json"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Motif 3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://hypeorcode.com/c/pelican-bicycle/motif-3/",
+      "https://hypeorcode.com/o/pelican-bicycle/motif-3.547390a8.svg",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/motif-3.547390a8.txt",
+      "https://hypeorcode.com/o/raw/pelican-bicycle/motif-3.0878b721.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "OpenRouter API",
+      "attempts": 1,
+      "apiModel": "motif-technologies/motif-3",
+      "effort": null,
+      "servedBy": "KT",
+      "sourceReportedRunAt": "2026-11-17T14:34:54.852Z"
+    }
+  },
+  {
+    "id": "tokrace-hy4-flash-static-2026-11-16",
+    "originalId": "tokrace-hy4-flash-static-2026-11-16",
+    "kind": "timeline",
+    "title": "HY4 Flash · TOKRACE 鹈鹕骑车静态图",
+    "model": "HY4 Flash",
+    "author": "TOKRACE",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "TOKRACE 公开了 WorkBuddy 路由的模型标签、独立任务题面、运行记录和完整原件。题面采用原页公开摘要。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Draw a cycling pelican as a self-contained SVG, keeping the bird and bicycle visible without external assets or scripts.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tok-1782b7f85690-pelican.svg",
+        "source": "https://www.tokrace.com/evaluations/hy4-flash-20261116/1782b7f85690-pelican.svg",
+        "sha256": "1782b7f85690b6671fb8065119f6f0bc4886ddf875360645208a75cce7890a48",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-11-19-manual/tok-22a258a54a1c-pelican-static.png",
+        "source": "https://www.tokrace.com/evaluations/hy4-flash-20261116/22a258a54a1c-pelican-static.png",
+        "sha256": "22a258a54a1cb36ac1f6d06815d8604573cdf4914925bc28a0e6aabcb25fe0f9",
+        "detailOnly": true,
+        "caption": "作者发布的静态预览",
+        "captionEn": "Author-published preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tok-1782b7f85690-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://www.tokrace.com/evaluations/hy4-flash-20261116/1782b7f85690-pelican.svg",
+    "path": "/specimens/tokrace-hy4-flash-static-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tokrace-hy4-flash-static-2026-11-16/",
+    "markdown": "/specimens/tokrace-hy4-flash-static-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "HY4 Flash · TOKRACE cycling pelican still",
+        "model": "HY4 Flash",
+        "notes": "TOKRACE records the WorkBuddy model route, independent task brief, run and complete outputs. The archived prompt is the public brief.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Draw a cycling pelican as a self-contained SVG, keeping the bird and bicycle visible without external assets or scripts.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican",
+        "https://www.tokrace.com/articles/hy4-flash-20261116.json",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/283b33cd6438-evidence.json",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/1782b7f85690-pelican.svg",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/22a258a54a1c-pelican-static.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "HY4 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican",
+      "https://www.tokrace.com/articles/hy4-flash-20261116.json",
+      "https://www.tokrace.com/evaluations/hy4-flash-20261116/283b33cd6438-evidence.json",
+      "https://www.tokrace.com/evaluations/hy4-flash-20261116/1782b7f85690-pelican.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "workbuddy-openai-persistent-creation-v1",
+      "apiModel": "workbuddy/hy4-flash",
+      "returnedModels": [
+        "workbuddy/hy4-flash"
+      ],
+      "sourceReportedRunAt": "2026-11-16T14:22:33.202Z",
+      "finishedAt": "2026-11-16T14:24:01.120Z",
+      "requestCount": 10,
+      "promptScope": "public-task-brief"
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "tokrace-hy4-flash-animation-2026-11-16",
+    "originalId": "tokrace-hy4-flash-animation-2026-11-16",
+    "kind": "timeline",
+    "title": "HY4 Flash · TOKRACE 鹈鹕骑车动画",
+    "model": "HY4 Flash",
+    "author": "TOKRACE",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "TOKRACE 公开了 WorkBuddy 路由的模型标签、独立任务题面、运行记录和完整原件。题面采用原页公开摘要。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican-animation",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Use an 800 × 600 SVG with a four-second SMIL loop, rotating spokes and crank, and legs connected to the rider and pedals.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tok-64c9f450aaf9-animation.svg",
+        "source": "https://www.tokrace.com/evaluations/hy4-flash-20261116/64c9f450aaf9-animation.svg",
+        "sha256": "64c9f450aaf94640cf5c16aa2b34167ff9f0d6ad000a32b23e28de69f7b8183d",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-11-19-manual/tok-e99bc737d1e0-pelican-animation.mp4",
+        "source": "https://www.tokrace.com/evaluations/hy4-flash-20261116/e99bc737d1e0-pelican-animation.mp4",
+        "sha256": "e99bc737d1e0907b9897d93a83f7060e02c5980ab151559cc6293535f191a971",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://www.tokrace.com/evaluations/hy4-flash-20261116/e99bc737d1e0-pelican-animation.mp4",
+          "sourceSha256": "e99bc737d1e0907b9897d93a83f7060e02c5980ab151559cc6293535f191a971",
+          "frameTime": 1,
+          "sha256": "3fa54f5acf481093ba38437c1182726a01af13d99a322350cfca0fed313d2771"
+        },
+        "detailOnly": true,
+        "caption": "作者发布的原件演示",
+        "captionEn": "Author-published playback",
+        "poster": "/media/collected/2026-11-19-manual/tok-e99bc737d1e0-pelican-animation-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tok-64c9f450aaf9-animation.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://www.tokrace.com/evaluations/hy4-flash-20261116/b6fe75d9a2b2-svg-pelican-animation-source.zip",
+    "path": "/specimens/tokrace-hy4-flash-animation-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tokrace-hy4-flash-animation-2026-11-16/",
+    "markdown": "/specimens/tokrace-hy4-flash-animation-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "HY4 Flash · TOKRACE cycling pelican animation",
+        "model": "HY4 Flash",
+        "notes": "TOKRACE records the WorkBuddy model route, independent task brief, run and complete outputs. The archived prompt is the public brief.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Use an 800 × 600 SVG with a four-second SMIL loop, rotating spokes and crank, and legs connected to the rider and pedals.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican-animation",
+        "https://www.tokrace.com/articles/hy4-flash-20261116.json",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/283b33cd6438-evidence.json",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/64c9f450aaf9-animation.svg",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/e99bc737d1e0-pelican-animation.mp4",
+        "https://www.tokrace.com/evaluations/hy4-flash-20261116/b6fe75d9a2b2-svg-pelican-animation-source.zip"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "HY4 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican-animation",
+      "https://www.tokrace.com/articles/hy4-flash-20261116.json",
+      "https://www.tokrace.com/evaluations/hy4-flash-20261116/283b33cd6438-evidence.json",
+      "https://www.tokrace.com/evaluations/hy4-flash-20261116/64c9f450aaf9-animation.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "tool": "workbuddy-openai-persistent-creation-v1",
+      "apiModel": "workbuddy/hy4-flash",
+      "returnedModels": [
+        "workbuddy/hy4-flash"
+      ],
+      "sourceReportedRunAt": "2026-11-16T14:22:33.201Z",
+      "finishedAt": "2026-11-16T14:24:32.409Z",
+      "requestCount": 11,
+      "promptScope": "public-task-brief"
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "pb-classic--gqzsg4qgvvdgtvvvlaf5a-2026-11-15",
+    "originalId": "pb-classic--gqzsg4qgvvdgtvvvlaf5a-2026-11-15",
+    "kind": "timeline",
+    "title": "Kimi K3.1 Pro (Thinking on) · 社区 SVG 骑行",
+    "model": "Kimi K3.1 Pro",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/-gQzsg4QGVVDgTVVvLaf5A",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "On",
+    "promptCategory": "classic",
+    "promptStatus": "svg of pelican riding a bike",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb--gQzsg4QGVVDgTVVvLaf5A.original.svg",
+        "source": "https://works.pelicanbenchmark.com/-gQzsg4QGVVDgTVVvLaf5A.svg",
+        "sha256": "0831bfbe0b05652d0219fdc25d225b7743fe2e99e6f21480df440efca1207201",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb--gQzsg4QGVVDgTVVvLaf5A.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/-gQzsg4QGVVDgTVVvLaf5A.svg",
+    "path": "/specimens/pb-classic--gqzsg4qgvvdgtvvvlaf5a-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic--gqzsg4qgvvdgtvvvlaf5a-2026-11-15/",
+    "markdown": "/specimens/pb-classic--gqzsg4qgvvdgtvvvlaf5a-2026-11-15/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "Kimi K3.1 Pro (Thinking on) · community SVG ride",
+        "model": "Kimi K3.1 Pro",
+        "author": "Anonymous (source contributor)",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "svg of pelican riding a bike",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/-gQzsg4QGVVDgTVVvLaf5A",
+        "https://works.pelicanbenchmark.com/-gQzsg4QGVVDgTVVvLaf5A.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/-gQzsg4QGVVDgTVVvLaf5A",
+      "https://works.pelicanbenchmark.com/-gQzsg4QGVVDgTVVvLaf5A.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Kimi K3.1 Pro (Thinking on)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "On"
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "pb-classic-95icgmjoeqh-dla3jc-gww-2026-11-17",
+    "originalId": "pb-classic-95icgmjoeqh-dla3jc-gww-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol (XHigh) · 社区 SVG 骑行",
+    "model": "GPT-6.1 Sol",
+    "author": "bjarga",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/95ICgMJOeqH-dLA3JC-gWw",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "XHigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-95ICgMJOeqH-dLA3JC-gWw.original.svg",
+        "source": "https://works.pelicanbenchmark.com/95ICgMJOeqH-dLA3JC-gWw.svg",
+        "sha256": "02b44f787c22b0e3d7868912252f6fae436455667d63b859e5d0990f6b4744f0",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-95ICgMJOeqH-dLA3JC-gWw.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/95ICgMJOeqH-dLA3JC-gWw.svg",
+    "path": "/specimens/pb-classic-95icgmjoeqh-dla3jc-gww-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-95icgmjoeqh-dla3jc-gww-2026-11-17/",
+    "markdown": "/specimens/pb-classic-95icgmjoeqh-dla3jc-gww-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol (XHigh) · community SVG ride",
+        "model": "GPT-6.1 Sol",
+        "author": "bjarga",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/95ICgMJOeqH-dLA3JC-gWw",
+        "https://works.pelicanbenchmark.com/95ICgMJOeqH-dLA3JC-gWw.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/95ICgMJOeqH-dLA3JC-gWw",
+      "https://works.pelicanbenchmark.com/95ICgMJOeqH-dLA3JC-gWw.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-6.1 Sol (XHigh)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "XHigh",
+      "tool": "Codex",
+      "sourceReportedGenerationDate": "2026-11-17"
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "pb-classic-cgsu9ym7knbxcmplx7pdoq-2026-11-17",
+    "originalId": "pb-classic-cgsu9ym7knbxcmplx7pdoq-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-5.6 Sol (XHigh) · 社区 SVG 骑行",
+    "model": "GPT-5.6 Sol",
+    "author": "bjarga",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/CgSu9yM7KnBXCMpLX7PDOQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "XHigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-CgSu9yM7KnBXCMpLX7PDOQ.original.svg",
+        "source": "https://works.pelicanbenchmark.com/CgSu9yM7KnBXCMpLX7PDOQ.svg",
+        "sha256": "cf1d8ab13926b20092d5c138435fce345ec795cc55bf98052ee5442cf714c712",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-CgSu9yM7KnBXCMpLX7PDOQ.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/CgSu9yM7KnBXCMpLX7PDOQ.svg",
+    "path": "/specimens/pb-classic-cgsu9ym7knbxcmplx7pdoq-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-cgsu9ym7knbxcmplx7pdoq-2026-11-17/",
+    "markdown": "/specimens/pb-classic-cgsu9ym7knbxcmplx7pdoq-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-5.6 Sol (XHigh) · community SVG ride",
+        "model": "GPT-5.6 Sol",
+        "author": "bjarga",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/CgSu9yM7KnBXCMpLX7PDOQ",
+        "https://works.pelicanbenchmark.com/CgSu9yM7KnBXCMpLX7PDOQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-5.6 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/CgSu9yM7KnBXCMpLX7PDOQ",
+      "https://works.pelicanbenchmark.com/CgSu9yM7KnBXCMpLX7PDOQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-5.6 Sol (XHigh)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "XHigh",
+      "tool": "Codex",
+      "sourceReportedGenerationDate": "2026-11-17"
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "pb-classic-gel9mbfwwquc-b6wdnwira-2026-11-16",
+    "originalId": "pb-classic-gel9mbfwwquc-b6wdnwira-2026-11-16",
+    "kind": "timeline",
+    "title": "Wwen3.6-35b-a3b (Thinking on) · 社区 SVG 骑行",
+    "model": "Wwen3.6-35b-a3b",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/gel9mbFWWQuc_b6WDNWIRA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "On",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-gel9mbFWWQuc_b6WDNWIRA.original.svg",
+        "source": "https://works.pelicanbenchmark.com/gel9mbFWWQuc_b6WDNWIRA.svg",
+        "sha256": "5b5321e2c49108aa6664f02db2ed3998eff522021e85f2228a65648058edbd59",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-gel9mbFWWQuc_b6WDNWIRA.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/gel9mbFWWQuc_b6WDNWIRA.svg",
+    "path": "/specimens/pb-classic-gel9mbfwwquc-b6wdnwira-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-gel9mbfwwquc-b6wdnwira-2026-11-16/",
+    "markdown": "/specimens/pb-classic-gel9mbfwwquc-b6wdnwira-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "Wwen3.6-35b-a3b (Thinking on) · community SVG ride",
+        "model": "Wwen3.6-35b-a3b",
+        "author": "Anonymous (source contributor)",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/gel9mbFWWQuc_b6WDNWIRA",
+        "https://works.pelicanbenchmark.com/gel9mbFWWQuc_b6WDNWIRA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Wwen3.6-35b-a3b"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/gel9mbFWWQuc_b6WDNWIRA",
+      "https://works.pelicanbenchmark.com/gel9mbFWWQuc_b6WDNWIRA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Wwen3.6-35b-a3b (Thinking on)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "On",
+      "tool": "Internal Chatbot",
+      "sourceReportedGenerationDate": "2026-11-16"
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "pb-classic-jh9yauazklsult2dj38owg-2026-11-15",
+    "originalId": "pb-classic-jh9yauazklsult2dj38owg-2026-11-15",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon (High) · 社区 SVG 骑行",
+    "model": "Gemini 4 Argon",
+    "author": "Neca",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/JH9YAUAZKLsulT2Dj38Owg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-JH9YAUAZKLsulT2Dj38Owg.original.svg",
+        "source": "https://works.pelicanbenchmark.com/JH9YAUAZKLsulT2Dj38Owg.svg",
+        "sha256": "8d3bacf3b687930999232cb91bf345eea7846e65694451807752c6c5fbb61153",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-JH9YAUAZKLsulT2Dj38Owg.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/JH9YAUAZKLsulT2Dj38Owg.svg",
+    "path": "/specimens/pb-classic-jh9yauazklsult2dj38owg-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-jh9yauazklsult2dj38owg-2026-11-15/",
+    "markdown": "/specimens/pb-classic-jh9yauazklsult2dj38owg-2026-11-15/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon (High) · community SVG ride",
+        "model": "Gemini 4 Argon",
+        "author": "Neca",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/JH9YAUAZKLsulT2Dj38Owg",
+        "https://works.pelicanbenchmark.com/JH9YAUAZKLsulT2Dj38Owg.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/JH9YAUAZKLsulT2Dj38Owg",
+      "https://works.pelicanbenchmark.com/JH9YAUAZKLsulT2Dj38Owg.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Argon (High)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "High",
+      "tool": "Antigravity"
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "pb-classic-kbuvnnextkuu1vlr-c3qyq-2026-11-18",
+    "originalId": "pb-classic-kbuvnnextkuu1vlr-c3qyq-2026-11-18",
+    "kind": "timeline",
+    "title": "GPT-6.1 Sol (Low) · 社区 SVG 骑行",
+    "model": "GPT-6.1 Sol",
+    "author": "Anonymous（来源投稿署名）",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/KBuVNnEXTKuu1VLR-c3QyQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-KBuVNnEXTKuu1VLR-c3QyQ.original.svg",
+        "source": "https://works.pelicanbenchmark.com/KBuVNnEXTKuu1VLR-c3QyQ.svg",
+        "sha256": "a4340cf06ee6d5635bf6c7ee53e0f0aeb2d2ed0fea95328cd3d3466acbef5562",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-KBuVNnEXTKuu1VLR-c3QyQ.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/KBuVNnEXTKuu1VLR-c3QyQ.svg",
+    "path": "/specimens/pb-classic-kbuvnnextkuu1vlr-c3qyq-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-kbuvnnextkuu1vlr-c3qyq-2026-11-18/",
+    "markdown": "/specimens/pb-classic-kbuvnnextkuu1vlr-c3qyq-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Sol (Low) · community SVG ride",
+        "model": "GPT-6.1 Sol",
+        "author": "Anonymous (source contributor)",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/KBuVNnEXTKuu1VLR-c3QyQ",
+        "https://works.pelicanbenchmark.com/KBuVNnEXTKuu1VLR-c3QyQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/KBuVNnEXTKuu1VLR-c3QyQ",
+      "https://works.pelicanbenchmark.com/KBuVNnEXTKuu1VLR-c3QyQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-6.1 Sol (Low)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "Low"
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "pb-classic-kcpksv0i-kf-hczlqbb8la-2026-11-15",
+    "originalId": "pb-classic-kcpksv0i-kf-hczlqbb8la-2026-11-15",
+    "kind": "timeline",
+    "title": "Gemini 4 hydrogen (High) · 社区 SVG 骑行",
+    "model": "Gemini 4 hydrogen",
+    "author": "Neca",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "原页面公开了投稿者署名、模型档位、实际提示词及原 SVG。馆藏日期采用可证投稿日。型号与生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/kCpKsv0i-kF_HcZLQbb8lA",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pb-kCpKsv0i-kF_HcZLQbb8lA.original.svg",
+        "source": "https://works.pelicanbenchmark.com/kCpKsv0i-kF_HcZLQbb8lA.svg",
+        "sha256": "9f8a90cadfb5d9a1ff1410512dee137b72ac6bff76972b0a6c6e3050e60ed758",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pb-kCpKsv0i-kF_HcZLQbb8lA.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/kCpKsv0i-kF_HcZLQbb8lA.svg",
+    "path": "/specimens/pb-classic-kcpksv0i-kf-hczlqbb8la-2026-11-15/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-kcpksv0i-kf-hczlqbb8la-2026-11-15/",
+    "markdown": "/specimens/pb-classic-kcpksv0i-kf-hczlqbb8la-2026-11-15/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留原作者署名、出处和实际发布的文件。来源未说明独立的作品授权。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 hydrogen (High) · community SVG ride",
+        "model": "Gemini 4 hydrogen",
+        "author": "Neca",
+        "notes": "The submission provides the contributor, model setting, exact prompt and original SVG. The record uses the public submission date and contributor-reported settings.",
+        "rights": "The original creator, source and published artifacts are retained. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/kCpKsv0i-kF_HcZLQbb8lA",
+        "https://works.pelicanbenchmark.com/kCpKsv0i-kF_HcZLQbb8lA.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 hydrogen"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/kCpKsv0i-kF_HcZLQbb8lA",
+      "https://works.pelicanbenchmark.com/kCpKsv0i-kF_HcZLQbb8lA.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 hydrogen (High)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "High",
+      "tool": "Antigravity"
+    },
+    "sourcePublicationDate": "2026-11-15"
+  },
+  {
+    "id": "x-polaksky-hy4-flash-workbuddy-pelican-2026-11-16",
+    "originalId": "x-polaksky-hy4-flash-workbuddy-pelican-2026-11-16",
+    "kind": "timeline",
+    "title": "Hy4 Flash · 鹈鹕骑行记",
+    "model": "Hy4 Flash",
+    "author": "Polak (@Polaksky)",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者在 WorkBuddy 使用 Hy4 Flash，称 1 分 43 秒生成单文件 HTML。原录屏显示 SVG 与 CSS 海边骑行，保留画面原有边界、暂停按钮及音轨。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/Polaksky/status/2122326200777359700",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "尽你所能，画一个鹈鹕骑自行车的HTML页面",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/polaksky-hy4-flash-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2122325285760614400/vid/avc1/2464x1440/xltS7JU35L1Qurbf.mp4?tag=29",
+        "sha256": "2600149983bea85b310e70d46f0fc907f6f6b6dbac7cd38a8e3f780eebb664aa",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2122325285760614400/vid/avc1/2464x1440/xltS7JU35L1Qurbf.mp4?tag=29",
+          "sourceSha256": "2600149983bea85b310e70d46f0fc907f6f6b6dbac7cd38a8e3f780eebb664aa",
+          "frameTime": 4,
+          "sha256": "471fc17efdc9c8c558e5a3c69e290d0ce0b060e15997ffacdf74636db56b3442"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-19-manual/polaksky-hy4-flash-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/polaksky-hy4-flash-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-polaksky-hy4-flash-workbuddy-pelican-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-polaksky-hy4-flash-workbuddy-pelican-2026-11-16/",
+    "markdown": "/specimens/x-polaksky-hy4-flash-workbuddy-pelican-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原录像及作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 Flash · Pelican Ride",
+        "model": "Hy4 Flash",
+        "notes": "The author reports a 1 minute 43 second generation time for a single HTML file in WorkBuddy with Hy4 Flash. The complete recording shows an SVG and CSS seaside ride and preserves the original framing, pause control and audio track.",
+        "rights": "Public source recording and attribution are preserved. No separate license was located.",
+        "promptStatus": "尽你所能，画一个鹈鹕骑自行车的HTML页面",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/Polaksky/status/2122326200777359700",
+        "https://video.twimg.com/amplify_video/2122325285760614400/vid/avc1/2464x1440/xltS7JU35L1Qurbf.mp4?tag=29",
+        "https://x.com/Xingeai/status/2122339702770450792"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/Polaksky/status/2122326200777359700",
+      "https://video.twimg.com/amplify_video/2122325285760614400/vid/avc1/2464x1440/xltS7JU35L1Qurbf.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Hy4 flash",
+      "sourcePublicationTimestamp": "2026-11-16T13:49:31Z",
+      "tool": "WorkBuddy / HTML / SVG / CSS",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2122325285760614400",
+        "reportedResponseSeconds": 103,
+        "width": 2464,
+        "height": 1440,
+        "videoDurationSeconds": 18.195633,
+        "audio": true,
+        "decodedFrames": 545
+      }
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "x-sheetstoryapp-gpt62-astra-max-svg-coastal-ride-2026-11-18",
+    "originalId": "x-sheetstoryapp-gpt62-astra-max-svg-coastal-ride-2026-11-18",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra Max · 灯塔旁的海岸骑行",
+    "model": "GPT-6.2 Astra",
+    "author": "Tim Wells · SheetStory (@sheetstoryapp)",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "Tim Wells 说他让 GPT-6.2 Astra Max 在 HTML 中生成二维 SVG 动画。戴帽、系围巾的鹈鹕沿海岸骑行，背后有灯塔和帆船。馆藏保留作者发布的完整 12 秒无声录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/sheetstoryapp/status/2122874008203133039",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tim-wells-gpt62-astra-max-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2122873898501095424/vid/avc1/1200x720/kWvHSS1TWmB_rcV0.mp4?tag=14",
+        "sha256": "b7cfb45020ac0c56f982961a2289edbd987d985ff61072b55f68ae49eda77481",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2122873898501095424/vid/avc1/1200x720/kWvHSS1TWmB_rcV0.mp4?tag=14",
+          "sourceSha256": "b7cfb45020ac0c56f982961a2289edbd987d985ff61072b55f68ae49eda77481",
+          "frameTime": 3,
+          "sha256": "b69d394f59757f70747cdfc6f60235c8205c9c260986ca413b05c4f6785f9458"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-19-manual/tim-wells-gpt62-astra-max-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tim-wells-gpt62-astra-max-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-sheetstoryapp-gpt62-astra-max-svg-coastal-ride-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-sheetstoryapp-gpt62-astra-max-svg-coastal-ride-2026-11-18/",
+    "markdown": "/specimens/x-sheetstoryapp-gpt62-astra-max-svg-coastal-ride-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原录像及作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra Max · Riding past the lighthouse",
+        "model": "GPT-6.2 Astra",
+        "notes": "Tim Wells says he asked GPT-6.2 Astra Max to create a 2D SVG animation in HTML. A pelican in a cap and scarf cycles along the coast past a lighthouse and a sailboat. The complete 12-second silent recording from the author's post is preserved.",
+        "rights": "Public source recording and attribution are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/sheetstoryapp/status/2122874008203133039",
+        "https://video.twimg.com/amplify_video/2122873898501095424/vid/avc1/1200x720/kWvHSS1TWmB_rcV0.mp4?tag=14"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/sheetstoryapp/status/2122874008203133039",
+      "https://video.twimg.com/amplify_video/2122873898501095424/vid/avc1/1200x720/kWvHSS1TWmB_rcV0.mp4?tag=14"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-6.2-astra max",
+      "sourcePublicationTimestamp": "2026-11-18T02:06:19Z",
+      "tool": "HTML / SVG",
+      "effort": "max",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2122873898501095424",
+        "width": 1200,
+        "height": 720,
+        "videoDurationSeconds": 12,
+        "audio": false,
+        "decodedFrames": 360
+      }
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-astra-original-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-astra-original-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 原始画风",
+    "model": "GPT-6.2 Astra",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-astral 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的原始画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Original style",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-astra-original.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/9/c/b/9cb5ad8f203b307645de390b9976f7a407565ad4.jpeg",
+        "sha256": "72b24ae4d83905c8c07ea27c96d085f13204015cd70c107df1c56f1a79b31455",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-astra-original.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-astra-original-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-astra-original-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-astra-original-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · Original style",
+        "model": "GPT-6.2 Astra",
+        "notes": "The author used 6.2-astral at xhigh to generate an SVG animation in HTML. This is their original style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/9/c/b/9cb5ad8f203b307645de390b9976f7a407565ad4.jpeg",
+        "https://linux.do/t/topic/3194054/3"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-astral",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 1920,
+        "height": 1168,
+        "attachmentName": "fist2005-astra-original.jpeg",
+        "promptTurn": 1,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Original style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-astra-realistic-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-astra-realistic-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 仿真画风",
+    "model": "GPT-6.2 Astra",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-astral 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的仿真画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Realistic style",
+    "promptCategory": "derivative",
+    "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-astra-realistic.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/a/4/0/a40a51ba2493accef7552c8f30286667e02f0568.jpeg",
+        "sha256": "53c6eeacfab043c221251dceb77bca6f770880b4d5e358fb94e003d8f5ede436",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-astra-realistic.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-astra-realistic-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-astra-realistic-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-astra-realistic-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · Realistic style",
+        "model": "GPT-6.2 Astra",
+        "notes": "The author used 6.2-astral at xhigh to generate an SVG animation in HTML. This is their realistic style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/a/4/0/a40a51ba2493accef7552c8f30286667e02f0568.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-astral",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 1920,
+        "height": 1168,
+        "attachmentName": "fist2005-astra-realistic.jpeg",
+        "promptTurn": 2,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Realistic style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-astra-kyoani-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-astra-kyoani-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 京阿尼画风",
+    "model": "GPT-6.2 Astra",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-astral 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的京阿尼画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Kyoto Animation-inspired style",
+    "promptCategory": "derivative",
+    "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-astra-kyoani.png",
+        "source": "https://cdn3.ldstatic.com/original/4X/3/b/2/3b2c3271cb5e37f3ee777747255784f404d6ece5.png",
+        "sha256": "4cdcc9c969a658c08227c6815c18f7ef4a3ee15e080d7ebf2d8edd1275d6bc56",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-astra-kyoani.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-astra-kyoani-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-astra-kyoani-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-astra-kyoani-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · Kyoto Animation-inspired style",
+        "model": "GPT-6.2 Astra",
+        "notes": "The author used 6.2-astral at xhigh to generate an SVG animation in HTML. This is their kyoto animation-inspired style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/3/b/2/3b2c3271cb5e37f3ee777747255784f404d6ece5.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-astral",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 1920,
+        "height": 1168,
+        "attachmentName": "fist2005-astra-kyoani.png",
+        "promptTurn": 2,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Kyoto Animation-inspired style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-sol-original-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-sol-original-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 原始画风",
+    "model": "GPT-6.2 Sol",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-sol 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的原始画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Original style",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-sol-original.png",
+        "source": "https://cdn3.ldstatic.com/original/4X/8/d/c/8dc00a117020e6b17694ef8841497c9a8fda03b7.png",
+        "sha256": "09868189d7671443494ad6959bafdebd040417f1b774f92d28c7e499b6857f7b",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-sol-original.png",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-sol-original-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-sol-original-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-sol-original-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · Original style",
+        "model": "GPT-6.2 Sol",
+        "notes": "The author used 6.2-sol at xhigh to generate an SVG animation in HTML. This is their original style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/8/d/c/8dc00a117020e6b17694ef8841497c9a8fda03b7.png"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-sol",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 2200,
+        "height": 1320,
+        "attachmentName": "fist2005-sol-original.png",
+        "promptTurn": 1,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Original style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-sol-realistic-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-sol-realistic-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 仿真画风",
+    "model": "GPT-6.2 Sol",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-sol 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的仿真画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Realistic style",
+    "promptCategory": "derivative",
+    "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-sol-realistic.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/8/5/6/856481d71e37d459f4ec275db3c5d25f5ccbb6d7.jpeg",
+        "sha256": "c021f0297696937a6a24ffbac71b87993db5ad4d4db385b03c4706f160e986e6",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-sol-realistic.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-sol-realistic-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-sol-realistic-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-sol-realistic-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · Realistic style",
+        "model": "GPT-6.2 Sol",
+        "notes": "The author used 6.2-sol at xhigh to generate an SVG animation in HTML. This is their realistic style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/8/5/6/856481d71e37d459f4ec275db3c5d25f5ccbb6d7.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-sol",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 1920,
+        "height": 1152,
+        "attachmentName": "fist2005-sol-realistic.jpeg",
+        "promptTurn": 2,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Realistic style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "linuxdo-fist2005-gpt62-sol-kyoani-xhigh-2026-11-17",
+    "originalId": "linuxdo-fist2005-gpt62-sol-kyoani-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 京阿尼画风",
+    "model": "GPT-6.2 Sol",
+    "author": "fist2005",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "作者用 6.2-sol 的 xhigh 档生成 HTML 内嵌 SVG 动画。这张是作者发布的京阿尼画风版原始静态预览。完整 HTML 与动画未见公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3194054",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "xhigh · Kyoto Animation-inspired style",
+    "promptCategory": "derivative",
+    "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/fist2005-sol-kyoani.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/d/8/2/d820604408a40631fdffe1c08e8a58947d3945ae.jpeg",
+        "sha256": "fa616b7db866c83fa2ec0a27653df890e5d52ab1c7017a2ebe8da7d182207d52",
+        "caption": "作者发布的原始静态预览",
+        "captionEn": "Original author-posted static preview",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/fist2005-sol-kyoani.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-fist2005-gpt62-sol-kyoani-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-fist2005-gpt62-sol-kyoani-xhigh-2026-11-17/",
+    "markdown": "/specimens/linuxdo-fist2005-gpt62-sol-kyoani-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者上传的完整静态附件及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · Kyoto Animation-inspired style",
+        "model": "GPT-6.2 Sol",
+        "notes": "The author used 6.2-sol at xhigh to generate an SVG animation in HTML. This is their kyoto animation-inspired style preview as published. The complete HTML and animation were not located.",
+        "rights": "The full author-uploaded preview and attribution are preserved. No separate license was located.",
+        "promptStatus": "第一轮：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试\n第二轮：再化一个仿真风格的版本和一个京阿尼画风的版本。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3194054",
+        "https://cdn3.ldstatic.com/original/4X/d/8/2/d820604408a40631fdffe1c08e8a58947d3945ae.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3194054"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "6.2-sol",
+      "effort": "xhigh",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / SVG",
+      "sourceMetadata": {
+        "width": 1920,
+        "height": 1152,
+        "attachmentName": "fist2005-sol-kyoani.jpeg",
+        "promptTurn": 2,
+        "sourceDisplayedDateTime": "2026-11-17 18:51 (forum-rendered; timezone not independently verified)",
+        "style": "Kyoto Animation-inspired style"
+      }
+    },
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "x-hiwise-aigc-qwen4-max-rain-pelican-2026-11-16",
+    "originalId": "x-hiwise-aigc-qwen4-max-rain-pelican-2026-11-16",
+    "kind": "timeline",
+    "title": "Qwen 4 Max · 鹈鹕雨中骑行",
+    "model": "Qwen 4 Max",
+    "author": "启明破晓 (@hiwise_aigc)",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者用 Qoder 的 Qwen 4 Max 制作雨中骑行的 SVG 动画，演示车轮运动、车辆溅水和姿态、雨量、场景等调节。保留这次独立运行的完整有声录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/hiwise_aigc/status/2122182167799451659",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/hiwise-qwen4-max-rain-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2122182028682825728/vid/avc1/1888x1106/3F_edrBrTDIIqNKb.mp4?tag=29",
+        "sha256": "02e0ee79ab3e730828745bd0459b962c87452aab8bfd5734d2399d2205ad8f87",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2122182028682825728/vid/avc1/1888x1106/3F_edrBrTDIIqNKb.mp4?tag=29",
+          "sourceSha256": "02e0ee79ab3e730828745bd0459b962c87452aab8bfd5734d2399d2205ad8f87",
+          "frameTime": 8,
+          "sha256": "2b4e65c2393eabdb74701b7de0e009c62b44087fa7fe2faf209e3986f8c572fc"
+        },
+        "caption": "Qwen 4 Max 单独发布完整录像",
+        "captionEn": "Complete recording published separately for Qwen 4 Max",
+        "poster": "/media/collected/2026-11-19-manual/hiwise-qwen4-max-rain-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/hiwise-qwen4-max-rain-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-hiwise-aigc-qwen4-max-rain-pelican-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-hiwise-aigc-qwen4-max-rain-pelican-2026-11-16/",
+    "markdown": "/specimens/x-hiwise-aigc-qwen4-max-rain-pelican-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者公开录像及署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 4 Max · Pelican Ride in the Rain",
+        "model": "Qwen 4 Max",
+        "notes": "The author used Qwen 4 Max in Qoder to create an SVG cycling animation in the rain. The demonstration shows moving wheels, splashes from passing cars and controls for riding pose, rainfall and scene. The complete recording for this run is preserved with its audio.",
+        "rights": "The author's public recording and attribution are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/hiwise_aigc/status/2122182167799451659",
+        "https://x.com/hiwise_aigc/status/2121892879224512833",
+        "https://video.twimg.com/amplify_video/2122182028682825728/vid/avc1/1888x1106/3F_edrBrTDIIqNKb.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 4 Max"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/hiwise_aigc/status/2122182167799451659",
+      "https://x.com/hiwise_aigc/status/2121892879224512833"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Qwen 4 Max",
+      "sourcePublicationTimestamp": "2026-11-16T04:17:11Z",
+      "tool": "Qoder / HTML / SVG",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2122182028682825728",
+        "durationSeconds": 36.666797,
+        "decodedFrames": 2200,
+        "width": 1888,
+        "height": 1106,
+        "sourcePromptSummary": "SVG 2D pelican cycling in rain with car splash and controls for speed, scene and pose. Exact full prompt was not disclosed."
+      }
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "x-chappie-li-fable52-pelican-spacex-2026-11-14",
+    "originalId": "x-chappie-li-fable52-pelican-spacex-2026-11-14",
+    "kind": "timeline",
+    "title": "鹈鹕骑过 SpaceX 的 24 年",
+    "model": "Claude Fable 5.2",
+    "author": "Chappie Li (@957958p)",
+    "date": "2026-11-14",
+    "month": "2026-11",
+    "notes": "Chappie Li 说明全片为 Claude Fable 5.2 逐帧代码生成的三维作品。鹈鹕骑车穿过九个航天历史章节，场景从海边公路延伸到轨道与火星。保留作者发布的完整有声原片。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/957958p/status/2121618582945804738",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/chappie-fable52-spacex-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2121618193152393216/vid/avc1/1080x1920/qL_mSZ9lShz6gbrY.mp4?tag=29",
+        "sha256": "f1d4fd2c1446a1d9c274ec88222e97caf4199c60a17d6ae243169d9af216b862",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2121618193152393216/vid/avc1/1080x1920/qL_mSZ9lShz6gbrY.mp4?tag=29",
+          "sourceSha256": "f1d4fd2c1446a1d9c274ec88222e97caf4199c60a17d6ae243169d9af216b862",
+          "frameTime": 1,
+          "sha256": "33dc66a2d14a9d68fd1310622d16764d11c7091899218eacb5b72d52c20dc0ab"
+        },
+        "caption": "作者发布的完整三维原片",
+        "captionEn": "Complete 3D video published by the author",
+        "poster": "/media/collected/2026-11-19-manual/chappie-fable52-spacex-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/chappie-fable52-spacex-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chappie-li-fable52-pelican-spacex-2026-11-14/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chappie-li-fable52-pelican-spacex-2026-11-14/",
+    "markdown": "/specimens/x-chappie-li-fable52-pelican-spacex-2026-11-14/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原片及作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "A Pelican Rides Through 24 Years of SpaceX",
+        "model": "Claude Fable 5.2",
+        "notes": "Chappie Li says Claude Fable 5.2 generated every frame of this 3D video in code. A pelican cycles through nine chapters of spaceflight history, from a coastal road to orbit and Mars. The complete author-posted video and audio are preserved.",
+        "rights": "The public source video and attribution are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/957958p/status/2121618582945804738",
+        "https://video.twimg.com/amplify_video/2121618193152393216/vid/avc1/1080x1920/qL_mSZ9lShz6gbrY.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/957958p/status/2121618582945804738"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Fable 5.2",
+      "sourcePublicationTimestamp": "2026-11-14T14:57:42Z",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2121618193152393216",
+        "durationSeconds": 66,
+        "decodedFrames": 1980,
+        "width": 1080,
+        "height": 1920
+      }
+    },
+    "sourcePublicationDate": "2026-11-14"
+  },
+  {
+    "id": "github-chinayangxiaowei-qwen4-max-preview-medium-pelican-rider-2026-11-16",
+    "originalId": "github-chinayangxiaowei-qwen4-max-preview-medium-pelican-rider-2026-11-16",
+    "kind": "timeline",
+    "title": "鹈鹕骑行记",
+    "model": "Qwen4-Max-Preview",
+    "author": "chinayangxiaowei",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "一只戴棒球帽的鹈鹕骑着单车接棒球。作者公开完整 Canvas 游戏代码，并在 README 和游戏画面标注 qwen4-max-preview / medium。游戏模式要按来球字母，动画模式自动接球。两段原录屏均保留声音，作为同一作品的两种模式。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/chinayangxiaowei/pelican-bike",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "Medium",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/pelican-rider-game-with-audio.mp4",
+        "source": "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-game-with-audio.mp4",
+        "sha256": "b9c616a72bc4c7d63335b2e6c88054daae3a0a66b4f1ab51f8f03252fbd83880",
+        "posterProvenance": {
+          "kind": "upstream-preview",
+          "source": "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-game-with-audio-preview.jpg",
+          "sha256": "8365fa755d31ec778d713d8bee6ec62faf88d30e76b2d7fc0be486e9564eda85"
+        },
+        "caption": "游戏模式 · 作者完整原录屏（含音频）",
+        "captionEn": "Game mode · complete author recording with audio",
+        "poster": "/media/collected/2026-11-19-manual/pelican-rider-game-with-audio-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-19-manual/pelican-rider-with-audio.mp4",
+        "source": "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-with-audio.mp4",
+        "sha256": "4ce1574a88a9028984dc21166153d84f5d0803946c21ca35f9ff6232a59eda66",
+        "posterProvenance": {
+          "kind": "upstream-preview",
+          "source": "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-preview.jpg",
+          "sha256": "2c6ef32bbe5ae0068430f49238577a9f450d6562cdbd77b204c08b676a9bc725"
+        },
+        "detailOnly": true,
+        "caption": "同作动画模式 · 作者完整原录屏（含音频）",
+        "captionEn": "Automatic mode of the same work · complete author recording with audio",
+        "poster": "/media/collected/2026-11-19-manual/pelican-rider-with-audio-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/pelican-rider-game-with-audio-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/chinayangxiaowei/pelican-bike/tree/dfb6aba2977be40a7549cd0450ad3643e4072315",
+    "path": "/specimens/github-chinayangxiaowei-qwen4-max-preview-medium-pelican-rider-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-chinayangxiaowei-qwen4-max-preview-medium-pelican-rider-2026-11-16/",
+    "markdown": "/specimens/github-chinayangxiaowei-qwen4-max-preview-medium-pelican-rider-2026-11-16/index.md",
+    "updated": "2026-11-19",
+    "rights": "作品署名 chinayangxiaowei。录屏原件来自作者固定提交，原代码链接指向同一提交。仓库未声明完整游戏的镜像许可。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Rider",
+        "model": "Qwen4-Max-Preview",
+        "notes": "A pelican in a baseball cap cycles while catching balls. The creator published the complete Canvas game and identified qwen4-max-preview / medium in both its README and on-screen credit. Press the incoming ball’s letter in game mode or watch the automatic mode. Both author recordings retain their audio and document two modes of one work.",
+        "rights": "Work credited to chinayangxiaowei. The original recordings and code links point to the fixed author revision. The repository does not state a license for mirroring the game.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/chinayangxiaowei/pelican-bike",
+        "https://github.com/chinayangxiaowei/pelican-bike/tree/dfb6aba2977be40a7549cd0450ad3643e4072315",
+        "https://github.com/chinayangxiaowei/pelican-bike/blob/dfb6aba2977be40a7549cd0450ad3643e4072315/README.md",
+        "https://github.com/chinayangxiaowei/pelican-bike/commit/91306775b7e6a814df5ed4f08fc0661ce93d475c",
+        "https://github.com/chinayangxiaowei/pelican-bike/commit/dfb6aba2977be40a7549cd0450ad3643e4072315",
+        "https://github.com/chinayangxiaowei/pelican-bike/commit/8a05e9906270ee8bbd490b6974ca441e60efef96",
+        "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-game-with-audio.mp4",
+        "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-with-audio.mp4",
+        "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-game-with-audio-preview.jpg",
+        "https://raw.githubusercontent.com/chinayangxiaowei/pelican-bike/dfb6aba2977be40a7549cd0450ad3643e4072315/recordings/pelican-rider-preview.jpg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen4-Max-Preview"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/chinayangxiaowei/pelican-bike/blob/dfb6aba2977be40a7549cd0450ad3643e4072315/README.md",
+      "https://github.com/chinayangxiaowei/pelican-bike/commit/91306775b7e6a814df5ed4f08fc0661ce93d475c",
+      "https://github.com/chinayangxiaowei/pelican-bike/blob/dfb6aba2977be40a7549cd0450ad3643e4072315/script.js"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "github-edison7009-playmand-claude-opus-55-bevy-pelican-2026-11-17",
+    "originalId": "github-edison7009-playmand-claude-opus-55-bevy-pelican-2026-11-17",
+    "kind": "timeline",
+    "title": "Playmand 鹈鹕骑自行车",
+    "model": "Claude Opus 5.5",
+    "author": "edison7009 / Playmand",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "一只鹈鹕在道路上连续踩踏，原作使用 Rust 和 Bevy 0.20。作者说明两段演示由 Claude Code 使用 Playmand 技能编写，其中骑行是独立场景。固定发布提交署名 Claude Opus 5.5。原 WebP 来自定步长逐帧录制。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/edison7009/Playmand/commit/636f3b32e3476d862cd193683581a75cbbfd84e7",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/playmand-pelican-original.webp",
+        "source": "https://raw.githubusercontent.com/edison7009/Playmand/636f3b32e3476d862cd193683581a75cbbfd84e7/assets/demo-pelican.webp",
+        "sha256": "86ad0747d1df3570dfe3484690fac3dda8fc1e2584e971d925e1c3823a0d6090",
+        "caption": "作者发布的完整动画 WebP",
+        "captionEn": "Complete animated WebP published by the creator",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/playmand-pelican-original.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/demos/src/bin/pelican.rs",
+    "path": "/specimens/github-edison7009-playmand-claude-opus-55-bevy-pelican-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-edison7009-playmand-claude-opus-55-bevy-pelican-2026-11-17/",
+    "markdown": "/specimens/github-edison7009-playmand-claude-opus-55-bevy-pelican-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "作品署名 edison7009 / Playmand。原动画和 Rust 源码来自同一作者固定发布；项目保留 MIT 许可。",
+    "i18n": {
+      "en": {
+        "title": "Playmand · Pelican Riding a Bicycle",
+        "model": "Claude Opus 5.5",
+        "notes": "A pelican continuously pedals along a road in a Rust and Bevy 0.20 scene. The creator attributes both demos to Claude Code using the Playmand skill, and the cycling scene stands on its own. The fixed publication commit credits Claude Opus 5.5. The original WebP was recorded frame by frame with a fixed timestep.",
+        "rights": "Work credited to edison7009 / Playmand. The animated original and Rust source come from the same fixed author revision. The project retains its MIT license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/edison7009/Playmand/commit/636f3b32e3476d862cd193683581a75cbbfd84e7",
+        "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/README.md",
+        "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/demos/src/bin/pelican.rs",
+        "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/LICENSE",
+        "https://raw.githubusercontent.com/edison7009/Playmand/636f3b32e3476d862cd193683581a75cbbfd84e7/assets/demo-pelican.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/edison7009/Playmand/commit/636f3b32e3476d862cd193683581a75cbbfd84e7",
+      "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/README.md",
+      "https://github.com/edison7009/Playmand/blob/636f3b32e3476d862cd193683581a75cbbfd84e7/demos/src/bin/pelican.rs"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "github-xiiiblue-gpt-62-astra-medium-2026-11-18",
+    "originalId": "github-xiiiblue-gpt-62-astra-medium-2026-11-18",
+    "kind": "timeline",
+    "title": "鹈鹕的海岸骑行",
+    "model": "GPT-6.2 Astra",
+    "author": "xiiiblue",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者比较同一鹈鹕骑车题的多模型 HTML 作品，登记表将此完整文件标为 GPT-6.2 Astra Medium。戴帽、系围巾的鹈鹕在灯塔附近骑车，布局采用海岸观察笔记的形式。馆内是实际运行截帧，作者页面可查看连续动画。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/xiiiblue-gpt62-astra-runtime-frame.png",
+        "source": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+        "sha256": "f765b3fbe01d37e2d4b5121a3ad8e9ae9f30ef46000ff2efe057aec832d96862",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "c70dc36352b480a11574c5866d019c300708927627bf5bdfc4bf5d86f522661b",
+          "frameSha256": "f765b3fbe01d37e2d4b5121a3ad8e9ae9f30ef46000ff2efe057aec832d96862",
+          "viewport": {
+            "width": 1080,
+            "height": 720
+          },
+          "method": "Chromium screenshot of the complete original in an isolated context, outbound network denied"
+        },
+        "caption": "隔离浏览器运行完整原 HTML 的画面",
+        "captionEn": "Frame from the complete original running in an isolated browser",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/xiiiblue-gpt62-astra-runtime-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://xiiiblue.github.io/pelican-bicycle/pelican-bicycle-gpt-6.2-astra-medium.html",
+    "sourceCodeUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+    "path": "/specimens/github-xiiiblue-gpt-62-astra-medium-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-xiiiblue-gpt-62-astra-medium-2026-11-18/",
+    "markdown": "/specimens/github-xiiiblue-gpt-62-astra-medium-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "作品署名 xiiiblue。镜像许可未声明。馆内展现实际运行截帧，作者原页与固定源已分别校验。",
+    "i18n": {
+      "en": {
+        "title": "The Pelican Cyclist",
+        "model": "GPT-6.2 Astra",
+        "notes": "The author compares generated HTML animations for one pelican-cycling task and labels this complete file GPT-6.2 Astra Medium. A cap-and-scarf pelican rides near a lighthouse in a coastal field-notes layout. The archive shows a real runtime frame and links to the continuously animated author page.",
+        "rights": "Work credited to xiiiblue. Mirroring terms are unstated. The archive shows an actual runtime frame, and the fixed source was checked against the live author page.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/assets/works.js",
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/README.md",
+        "https://github.com/xiiiblue/pelican-bicycle/commit/81291bbddbb73f4a60df73ba06294fff716b02af",
+        "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+        "https://xiiiblue.github.io/pelican-bicycle/pelican-bicycle-gpt-6.2-astra-medium.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/assets/works.js",
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/README.md",
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-11-18",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-astra-medium.html",
+      "sourceHtmlSha256": "c70dc36352b480a11574c5866d019c300708927627bf5bdfc4bf5d86f522661b",
+      "frameSha256": "f765b3fbe01d37e2d4b5121a3ad8e9ae9f30ef46000ff2efe057aec832d96862",
+      "viewport": {
+        "width": 1080,
+        "height": 720
+      },
+      "method": "Chromium screenshot of the complete original in an isolated context, outbound network denied"
+    }
+  },
+  {
+    "id": "github-xiiiblue-gpt-62-sol-medium-2026-11-18",
+    "originalId": "github-xiiiblue-gpt-62-sol-medium-2026-11-18",
+    "kind": "timeline",
+    "title": "鹈鹕的海边骑行",
+    "model": "GPT-6.2 Sol",
+    "author": "xiiiblue",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者比较同一鹈鹕骑车题的多模型 HTML 作品，登记表将此完整文件标为 GPT-6.2 Sol Medium。系红围巾的鹈鹕在夕阳海边骑行，背景有远山和水面的反光。馆内是实际运行截帧，作者页面可查看连续动画。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/xiiiblue-gpt62-sol-runtime-frame.png",
+        "source": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+        "sha256": "4b3813781d4901ce1f992667af134fa243afc237bc1c7d6bcdc3daf5b0bbda1c",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "4c31313d2e611392dc6186227e4bb59f74820d11cddf8fc619d6c665664bf0d9",
+          "frameSha256": "4b3813781d4901ce1f992667af134fa243afc237bc1c7d6bcdc3daf5b0bbda1c",
+          "viewport": {
+            "width": 1080,
+            "height": 720
+          },
+          "method": "Chromium screenshot of the complete original in an isolated context, outbound network denied"
+        },
+        "caption": "隔离浏览器运行完整原 HTML 的画面",
+        "captionEn": "Frame from the complete original running in an isolated browser",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/xiiiblue-gpt62-sol-runtime-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://xiiiblue.github.io/pelican-bicycle/pelican-bicycle-gpt-6.2-sol-medium.html",
+    "sourceCodeUrl": "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+    "path": "/specimens/github-xiiiblue-gpt-62-sol-medium-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-xiiiblue-gpt-62-sol-medium-2026-11-18/",
+    "markdown": "/specimens/github-xiiiblue-gpt-62-sol-medium-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "作品署名 xiiiblue。镜像许可未声明。馆内展现实际运行截帧，作者原页与固定源已分别校验。",
+    "i18n": {
+      "en": {
+        "title": "The Pelican’s Seaside Ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "The author compares generated HTML animations for one pelican-cycling task and labels this complete file GPT-6.2 Sol Medium. A red-scarfed pelican rides by the sea at sunset, with reflected light and distant hills. The archive shows a real runtime frame and links to the continuously animated author page.",
+        "rights": "Work credited to xiiiblue. Mirroring terms are unstated. The archive shows an actual runtime frame, and the fixed source was checked against the live author page.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/assets/works.js",
+        "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/README.md",
+        "https://github.com/xiiiblue/pelican-bicycle/commit/81291bbddbb73f4a60df73ba06294fff716b02af",
+        "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+        "https://xiiiblue.github.io/pelican-bicycle/pelican-bicycle-gpt-6.2-sol-medium.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/assets/works.js",
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/README.md",
+      "https://github.com/xiiiblue/pelican-bicycle/blob/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html"
+    ],
+    "datePrecision": "day",
+    "sourcePublicationDate": "2026-11-18",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/xiiiblue/pelican-bicycle/81291bbddbb73f4a60df73ba06294fff716b02af/pelican-bicycle-gpt-6.2-sol-medium.html",
+      "sourceHtmlSha256": "4c31313d2e611392dc6186227e4bb59f74820d11cddf8fc619d6c665664bf0d9",
+      "frameSha256": "4b3813781d4901ce1f992667af134fa243afc237bc1c7d6bcdc3daf5b0bbda1c",
+      "viewport": {
+        "width": 1080,
+        "height": 720
+      },
+      "method": "Chromium screenshot of the complete original in an isolated context, outbound network denied"
+    }
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-max-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-max-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · max 档样本 1",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:00（上游显示）。上游 AI 参考分 9.03 ± 0.52。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/1.svg",
+        "sha256": "abfdb0ce75d8a20ed5eea848de3d0d168b42daf75bec6a30068e37754897f997",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-max-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · max sample 1",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:00:00Z according to Tihu. Upstream AI reference score 9.03 ± 0.52.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · max",
+        "档位": "max",
+        "生成时间": "2026-11-18 10:00"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-max-1",
+      "model": "GPT-6.2 Astra",
+      "effort": "max",
+      "sample": 1,
+      "upstreamScoreText": "9.03 ± 0.52"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:00:00Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-max-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-max-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · max 档样本 2",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:23（上游显示）。上游 AI 参考分 8.99 ± 0.44。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/2.svg",
+        "sha256": "5bef1130192915194fd37663d435d9a13d2ba6a263db442e5cb64ef9d350829d",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-max-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · max sample 2",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:23:53Z according to Tihu. Upstream AI reference score 8.99 ± 0.44.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · max",
+        "档位": "max",
+        "耗时": "587.9 s",
+        "生成时间": "2026-11-18 10:23"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-max-2",
+      "model": "GPT-6.2 Sol",
+      "effort": "max",
+      "sample": 2,
+      "upstreamScoreText": "8.99 ± 0.44"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:23:53Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-medium-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-medium-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · medium 档样本 1",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:18（上游显示）。上游 AI 参考分 8.32 ± 0.65。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/1.svg",
+        "sha256": "e5bd54de3d6265be5a4b417b2fb71c6d9e5289fb04a60a43e87219a25dfc7655",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · medium sample 1",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:18:19Z according to Tihu. Upstream AI reference score 8.32 ± 0.65.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · medium",
+        "档位": "medium",
+        "耗时": "64.7 s",
+        "生成时间": "2026-11-18 10:18"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-medium-1",
+      "model": "GPT-6.2 Astra",
+      "effort": "medium",
+      "sample": 1,
+      "upstreamScoreText": "8.32 ± 0.65"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:18:19Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-medium-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-medium-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · medium 档样本 1",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:17（上游显示）。上游 AI 参考分 8.30 ± 0.23。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/1.svg",
+        "sha256": "4057001e6bcec1ad6797fd0ddafc9f93834c6e377e509cbdef8e14386ad7ccd5",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · medium sample 1",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:17:19Z according to Tihu. Upstream AI reference score 8.30 ± 0.23.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · medium",
+        "档位": "medium",
+        "耗时": "59.8 s",
+        "生成时间": "2026-11-18 10:17"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-medium-1",
+      "model": "GPT-6.2 Sol",
+      "effort": "medium",
+      "sample": 1,
+      "upstreamScoreText": "8.30 ± 0.23"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:17:19Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-max-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-max-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · max 档样本 1",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:00（上游显示）。上游 AI 参考分 8.94 ± 0.13。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/1.svg",
+        "sha256": "98a6560da5039658e436e9376764534ef5dee74ea1bbbb65dce6ae20cb716b4a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-max-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · max sample 1",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:00:00Z according to Tihu. Upstream AI reference score 8.94 ± 0.13.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · max",
+        "档位": "max",
+        "生成时间": "2026-11-18 10:00"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-max-1",
+      "model": "GPT-6.2 Sol",
+      "effort": "max",
+      "sample": 1,
+      "upstreamScoreText": "8.94 ± 0.13"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:00:00Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-max-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-max-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · max 档样本 3",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:23（上游显示）。上游 AI 参考分 8.40 ± 0.71。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/3.svg",
+        "sha256": "91bbe756c15a825906a7a0a2713692dc850d611cb6b28e146b42194c5c1aab6c",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-max-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-max-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-max-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · max sample 3",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:23:54Z according to Tihu. Upstream AI reference score 8.40 ± 0.71.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · max",
+        "档位": "max",
+        "耗时": "704.2 s",
+        "生成时间": "2026-11-18 10:23"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-max-3",
+      "model": "GPT-6.2 Sol",
+      "effort": "max",
+      "sample": 3,
+      "upstreamScoreText": "8.40 ± 0.71"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:23:54Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-medium-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-medium-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · medium 档样本 3",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:53（上游显示）。上游 AI 参考分 7.02 ± 0.80。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/3.svg",
+        "sha256": "a40bc85d5b5c636e92c831a456664a17152983e666a16bafffbeb295fefef7ee",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · medium sample 3",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:53:56Z according to Tihu. Upstream AI reference score 7.02 ± 0.80.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · medium",
+        "档位": "medium",
+        "耗时": "55.8 s",
+        "生成时间": "2026-11-18 10:53"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-medium-3",
+      "model": "GPT-6.2 Sol",
+      "effort": "medium",
+      "sample": 3,
+      "upstreamScoreText": "7.02 ± 0.80"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:53:56Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-medium-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-medium-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · medium 档样本 2",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:25（上游显示）。上游 AI 参考分 5.93 ± 0.44。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/2.svg",
+        "sha256": "bf46996c717fac579a9c562d509c45bafbe8523e875f9aa2760cb18d163b8796",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-medium-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-medium-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · medium sample 2",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:25:12Z according to Tihu. Upstream AI reference score 5.93 ± 0.44.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · medium",
+        "档位": "medium",
+        "耗时": "60.3 s",
+        "生成时间": "2026-11-18 10:25"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-medium-2",
+      "model": "GPT-6.2 Sol",
+      "effort": "medium",
+      "sample": 2,
+      "upstreamScoreText": "5.93 ± 0.44"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:25:12Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-low-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-low-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · low 档样本 1",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:00（上游显示）。上游 AI 参考分 6.90 ± 0.78。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/1.svg",
+        "sha256": "cfd3b226154322b0180644f5ce80fd47c35b131d47e33e805550c8278fed105b",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-low-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · low sample 1",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:00:00Z according to Tihu. Upstream AI reference score 6.90 ± 0.78.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · low",
+        "档位": "low",
+        "生成时间": "2026-11-18 10:00"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-low-1",
+      "model": "GPT-6.2 Sol",
+      "effort": "low",
+      "sample": 1,
+      "upstreamScoreText": "6.90 ± 0.78"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:00:00Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-low-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-low-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · low 档样本 3",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:53（上游显示）。上游 AI 参考分 6.39 ± 0.52。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/3.svg",
+        "sha256": "b8355b8b1939ada2e54afd8be8dab4b1cb97be792e62dade604dde595b75a22a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-low-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · low sample 3",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:53:29Z according to Tihu. Upstream AI reference score 6.39 ± 0.52.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · low",
+        "档位": "low",
+        "耗时": "48.6 s",
+        "生成时间": "2026-11-18 10:53"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-low-3",
+      "model": "GPT-6.2 Sol",
+      "effort": "low",
+      "sample": 3,
+      "upstreamScoreText": "6.39 ± 0.52"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:53:29Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-sol-low-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-sol-low-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Sol · low 档样本 2",
+    "model": "GPT-6.2 Sol",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:18（上游显示）。上游 AI 参考分 6.00 ± 0.81。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/2.svg",
+        "sha256": "2b3927200a33147e85e5ecdd90f7db1282286dcd27579d515e42cedfb2ea80b4",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-sol-low-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-sol-low-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-sol-low-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · low sample 2",
+        "model": "GPT-6.2 Sol",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:18:39Z according to Tihu. Upstream AI reference score 6.00 ± 0.81.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Sol · low",
+        "档位": "low",
+        "耗时": "50.1 s",
+        "生成时间": "2026-11-18 10:18"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-sol-low-2",
+      "model": "GPT-6.2 Sol",
+      "effort": "low",
+      "sample": 2,
+      "upstreamScoreText": "6.00 ± 0.81"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:18:39Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-max-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-max-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · max 档样本 2",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:16（上游显示）。上游 AI 参考分 8.69 ± 0.39。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/2.svg",
+        "sha256": "84a0adbfc313edb045090a0feabdc6169a1ec734e7de9ff6dceb64f454126610",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-max-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · max sample 2",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:16:47Z according to Tihu. Upstream AI reference score 8.69 ± 0.39.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · max",
+        "档位": "max",
+        "耗时": "504.1 s",
+        "生成时间": "2026-11-18 10:16"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-max-2",
+      "model": "GPT-6.2 Astra",
+      "effort": "max",
+      "sample": 2,
+      "upstreamScoreText": "8.69 ± 0.39"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:16:47Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-max-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-max-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · max 档样本 3",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，max 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:00（上游显示）。上游 AI 参考分 8.01 ± 0.96。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/3.svg",
+        "sha256": "e1621826fb9ffc9c3f87b50a2b1c66574bcaacd62a0b624a6470c30c4edb773f",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-max-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-max-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-max-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · max sample 3",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at max effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:00:00Z according to Tihu. Upstream AI reference score 8.01 ± 0.96.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "max",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · max",
+        "档位": "max",
+        "生成时间": "2026-11-18 10:00"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-max-3",
+      "model": "GPT-6.2 Astra",
+      "effort": "max",
+      "sample": 3,
+      "upstreamScoreText": "8.01 ± 0.96"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:00:00Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-medium-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-medium-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · medium 档样本 3",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 11:10（上游显示）。上游 AI 参考分 7.95 ± 0.73。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/3.svg",
+        "sha256": "d083d1e660a67585cb3b11caa5ce4ad03faf36b401455cc614dac0c6b9a6ae31",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · medium sample 3",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T03:10:51Z according to Tihu. Upstream AI reference score 7.95 ± 0.73.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · medium",
+        "档位": "medium",
+        "耗时": "65.6 s",
+        "生成时间": "2026-11-18 11:10"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-medium-3",
+      "model": "GPT-6.2 Astra",
+      "effort": "medium",
+      "sample": 3,
+      "upstreamScoreText": "7.95 ± 0.73"
+    },
+    "sourceResponseTimestamp": "2026-11-18T03:10:51Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-medium-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-medium-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · medium 档样本 2",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，medium 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:26（上游显示）。上游 AI 参考分 6.47 ± 0.18。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/2.svg",
+        "sha256": "25162036bb9d969266eeb898500ec0fa8c4168481007bd5d63f3b23c1cd01434",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-medium-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-medium-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · medium sample 2",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at medium effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:26:39Z according to Tihu. Upstream AI reference score 6.47 ± 0.18.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "medium",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · medium",
+        "档位": "medium",
+        "耗时": "65.4 s",
+        "生成时间": "2026-11-18 10:26"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-medium-2",
+      "model": "GPT-6.2 Astra",
+      "effort": "medium",
+      "sample": 2,
+      "upstreamScoreText": "6.47 ± 0.18"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:26:39Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-low-3",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-low-3",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · low 档样本 3",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 3 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:53（上游显示）。上游 AI 参考分 7.76 ± 0.71。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/3/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-3.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/3.svg",
+        "sha256": "e5f3082042aebb1f7d3cbaf2e4862f05d4bbe40ed6ec5546f59139557de8e864",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-3.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-3/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-low-3/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-3/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · low sample 3",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 3 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:53:58Z according to Tihu. Upstream AI reference score 7.76 ± 0.71.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/3/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/3.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/3/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/3.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 3,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · low",
+        "档位": "low",
+        "耗时": "56.0 s",
+        "生成时间": "2026-11-18 10:53"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-low-3",
+      "model": "GPT-6.2 Astra",
+      "effort": "low",
+      "sample": 3,
+      "upstreamScoreText": "7.76 ± 0.71"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:53:58Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-low-2",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-low-2",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · low 档样本 2",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 2 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:25（上游显示）。上游 AI 参考分 7.47 ± 0.45。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/2/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-2.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/2.svg",
+        "sha256": "8fbfea9758f1aecc45ab4803d9f99ef507c2ba4c06794d988f3affffc9152406",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-2/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-low-2/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-2/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · low sample 2",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 2 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:25:40Z according to Tihu. Upstream AI reference score 7.47 ± 0.45.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/2/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/2.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/2/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/2.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 2,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · low",
+        "档位": "low",
+        "耗时": "63.9 s",
+        "生成时间": "2026-11-18 10:25"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-low-2",
+      "model": "GPT-6.2 Astra",
+      "effort": "low",
+      "sample": 2,
+      "upstreamScoreText": "7.47 ± 0.45"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:25:40Z"
+  },
+  {
+    "id": "tihu-2026-11-22-gpt-6-2-astra-low-1",
+    "originalId": "tihu-2026-11-22-gpt-6-2-astra-low-1",
+    "kind": "reference",
+    "title": "GPT-6.2 Astra · low 档样本 1",
+    "model": "GPT-6.2 Astra",
+    "author": "Tihu · 鹈鹕测试榜",
+    "date": "2026-11-22",
+    "month": "2026-11",
+    "referenceOnly": true,
+    "benchmarkCollection": "tihu-2026-11-22",
+    "notes": "Tihu 2026-11-18 专项评测，low 档第 1 个样本。2026-11-22 是上游合集链接日期。生成时间 2026-11-18 10:17（上游显示）。上游 AI 参考分 6.93 ± 0.75。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/1/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-route-date",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-1.svg",
+        "source": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/1.svg",
+        "sha256": "52637ab8b4e9c3b438eb89e938d5bf5196890e882a4d684da71bcb424d14967f",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-manual/tihu-2026-11-22-gpt-6-2-astra-low-1.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-1/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/tihu-2026-11-22-gpt-6-2-astra-low-1/",
+    "markdown": "/specimens/tihu-2026-11-22-gpt-6-2-astra-low-1/index.md",
+    "updated": "2026-11-19",
+    "rights": "上游的测试记录和评委评语采用 CC BY 4.0。SVG 图像依各模型厂商条款。保留 Tihu 署名、原出处与原件。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · low sample 1",
+        "model": "GPT-6.2 Astra",
+        "author": "Tihu · Pelican Bench",
+        "notes": "Tihu benchmark run on 2026-11-18, sample 1 at low effort. 2026-11-22 is the date in the upstream collection link. Generated 2026-11-18T02:17:14Z according to Tihu. Upstream AI reference score 6.93 ± 0.75.",
+        "rights": "Upstream test records and judges’ commentary are under CC BY 4.0. SVG images follow each model vendor’s terms. Tihu attribution, source and original assets are preserved.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/1/",
+        "https://tihu.app/days/2026-11-22/",
+        "https://tihu.app/rules/",
+        "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/1.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/1/",
+      "https://tihu.app/days/2026-11-22/",
+      "https://tihu.app/rules/",
+      "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/1.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "effort": "low",
+      "sourceSample": 1,
+      "sourceReportedDataDate": "2026-11-18",
+      "nominalRouteDate": "2026-11-22",
+      "sourceMetadata": {
+        "模型版本": "GPT-6.2 Astra · low",
+        "档位": "low",
+        "耗时": "63.8 s",
+        "生成时间": "2026-11-18 10:17"
+      }
+    },
+    "datasetSample": {
+      "id": "tihu-2026-11-22-gpt-6-2-astra-low-1",
+      "model": "GPT-6.2 Astra",
+      "effort": "low",
+      "sample": 1,
+      "upstreamScoreText": "6.93 ± 0.75"
+    },
+    "sourceResponseTimestamp": "2026-11-18T02:17:14Z"
   }
 ]

@@ -32990,5 +32990,533 @@
         "model": "Gemini 4 Carbon"
       }
     ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/qwen4-max.c3855f43.svg",
+    "path": "pelican-archive/research/2026-11-17-daily/illustration/qwen4-max-original.svg",
+    "sha256": "61dff18dc0e061a2be8b96c1fa4713864ab615178db57ac5b4fff088030a6867",
+    "bytes": 10040,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/qwen4-max/",
+        "model": "Qwen4 Max"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-max-1.svg",
+    "sha256": "abfdb0ce75d8a20ed5eea848de3d0d168b42daf75bec6a30068e37754897f997",
+    "bytes": 9741,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/1/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-max-2.svg",
+    "sha256": "5bef1130192915194fd37663d435d9a13d2ba6a263db442e5cb64ef9d350829d",
+    "bytes": 9510,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/2/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-medium-1.svg",
+    "sha256": "e5bd54de3d6265be5a4b417b2fb71c6d9e5289fb04a60a43e87219a25dfc7655",
+    "bytes": 3996,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/1/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-medium-1.svg",
+    "sha256": "4057001e6bcec1ad6797fd0ddafc9f93834c6e377e509cbdef8e14386ad7ccd5",
+    "bytes": 3649,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/1/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-max-1.svg",
+    "sha256": "98a6560da5039658e436e9376764534ef5dee74ea1bbbb65dce6ae20cb716b4a",
+    "bytes": 7043,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/1/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/max/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-max-3.svg",
+    "sha256": "91bbe756c15a825906a7a0a2713692dc850d611cb6b28e146b42194c5c1aab6c",
+    "bytes": 10711,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/max/3/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-medium-3.svg",
+    "sha256": "a40bc85d5b5c636e92c831a456664a17152983e666a16bafffbeb295fefef7ee",
+    "bytes": 4434,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/3/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-medium-2.svg",
+    "sha256": "bf46996c717fac579a9c562d509c45bafbe8523e875f9aa2760cb18d163b8796",
+    "bytes": 2750,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/medium/2/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-low-1.svg",
+    "sha256": "cfd3b226154322b0180644f5ce80fd47c35b131d47e33e805550c8278fed105b",
+    "bytes": 3678,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/1/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-low-3.svg",
+    "sha256": "b8355b8b1939ada2e54afd8be8dab4b1cb97be792e62dade604dde595b75a22a",
+    "bytes": 2400,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/3/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-sol/low/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-sol-low-2.svg",
+    "sha256": "2b3927200a33147e85e5ecdd90f7db1282286dcd27579d515e42cedfb2ea80b4",
+    "bytes": 2975,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-sol/low/2/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-max-2.svg",
+    "sha256": "84a0adbfc313edb045090a0feabdc6169a1ec734e7de9ff6dceb64f454126610",
+    "bytes": 5627,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/2/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/max/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-max-3.svg",
+    "sha256": "e1621826fb9ffc9c3f87b50a2b1c66574bcaacd62a0b624a6470c30c4edb773f",
+    "bytes": 8016,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/max/3/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-medium-3.svg",
+    "sha256": "d083d1e660a67585cb3b11caa5ce4ad03faf36b401455cc614dac0c6b9a6ae31",
+    "bytes": 4559,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/3/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/medium/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-medium-2.svg",
+    "sha256": "25162036bb9d969266eeb898500ec0fa8c4168481007bd5d63f3b23c1cd01434",
+    "bytes": 3256,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/medium/2/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/3.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-low-3.svg",
+    "sha256": "e5f3082042aebb1f7d3cbaf2e4862f05d4bbe40ed6ec5546f59139557de8e864",
+    "bytes": 3344,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/3/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/2.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-low-2.svg",
+    "sha256": "8fbfea9758f1aecc45ab4803d9f99ef507c2ba4c06794d988f3affffc9152406",
+    "bytes": 3168,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/2/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://art.tihu.app/2026-11-22/gpt-6-2-astra/low/1.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/benchmark/tihu-samples/tihu-2026-11-22-gpt-6-2-astra-low-1.svg",
+    "sha256": "52637ab8b4e9c3b438eb89e938d5bf5196890e882a4d684da71bcb424d14967f",
+    "bytes": 3469,
+    "bindings": [
+      {
+        "sourceUrl": "https://tihu.app/days/2026-11-22/gpt-6-2-astra/low/1/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/hy4-flash.344d1edd.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/hype-hy4-flash.svg",
+    "sha256": "15d25ca0f2a2545442187b7d213230519f9fba7cd28619ece15364dd0896cd47",
+    "bytes": 7744,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/hy4-flash/",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://hypeorcode.com/o/pelican-bicycle/motif-3.547390a8.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/hype-motif-3.svg",
+    "sha256": "921fe6514a2e720bd0c1a805b9188401c87194c93e3648d79150d512f8cce41e",
+    "bytes": 1867,
+    "bindings": [
+      {
+        "sourceUrl": "https://hypeorcode.com/c/pelican-bicycle/motif-3/",
+        "model": "Motif 3"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/-gQzsg4QGVVDgTVVvLaf5A.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb--gQzsg4QGVVDgTVVvLaf5A.original.svg",
+    "sha256": "0831bfbe0b05652d0219fdc25d225b7743fe2e99e6f21480df440efca1207201",
+    "bytes": 4137,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/-gQzsg4QGVVDgTVVvLaf5A",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/95ICgMJOeqH-dLA3JC-gWw.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-95ICgMJOeqH-dLA3JC-gWw.original.svg",
+    "sha256": "02b44f787c22b0e3d7868912252f6fae436455667d63b859e5d0990f6b4744f0",
+    "bytes": 7218,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/95ICgMJOeqH-dLA3JC-gWw",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/CgSu9yM7KnBXCMpLX7PDOQ.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-CgSu9yM7KnBXCMpLX7PDOQ.original.svg",
+    "sha256": "cf1d8ab13926b20092d5c138435fce345ec795cc55bf98052ee5442cf714c712",
+    "bytes": 8423,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/CgSu9yM7KnBXCMpLX7PDOQ",
+        "model": "GPT-5.6 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/gel9mbFWWQuc_b6WDNWIRA.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-gel9mbFWWQuc_b6WDNWIRA.original.svg",
+    "sha256": "5b5321e2c49108aa6664f02db2ed3998eff522021e85f2228a65648058edbd59",
+    "bytes": 5325,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/gel9mbFWWQuc_b6WDNWIRA",
+        "model": "Wwen3.6-35b-a3b"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/JH9YAUAZKLsulT2Dj38Owg.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-JH9YAUAZKLsulT2Dj38Owg.original.svg",
+    "sha256": "8d3bacf3b687930999232cb91bf345eea7846e65694451807752c6c5fbb61153",
+    "bytes": 18123,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/JH9YAUAZKLsulT2Dj38Owg",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/KBuVNnEXTKuu1VLR-c3QyQ.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-KBuVNnEXTKuu1VLR-c3QyQ.original.svg",
+    "sha256": "a4340cf06ee6d5635bf6c7ee53e0f0aeb2d2ed0fea95328cd3d3466acbef5562",
+    "bytes": 5016,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/KBuVNnEXTKuu1VLR-c3QyQ",
+        "model": "GPT-6.1 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/kCpKsv0i-kF_HcZLQbb8lA.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/pb-kCpKsv0i-kF_HcZLQbb8lA.original.svg",
+    "sha256": "9f8a90cadfb5d9a1ff1410512dee137b72ac6bff76972b0a6c6e3050e60ed758",
+    "bytes": 16035,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/kCpKsv0i-kF_HcZLQbb8lA",
+        "model": "Gemini 4 hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/hy4-flash-20261116/1782b7f85690-pelican.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/tok-1782b7f85690-pelican.svg",
+    "sha256": "1782b7f85690b6671fb8065119f6f0bc4886ddf875360645208a75cce7890a48",
+    "bytes": 11638,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/hy4-flash-20261116/22a258a54a1c-pelican-static.png",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/tok-22a258a54a1c-pelican-static.png",
+    "sha256": "22a258a54a1cb36ac1f6d06815d8604573cdf4914925bc28a0e6aabcb25fe0f9",
+    "bytes": 254799,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/hy4-flash-20261116/64c9f450aaf9-animation.svg",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/tok-64c9f450aaf9-animation.svg",
+    "sha256": "64c9f450aaf94640cf5c16aa2b34167ff9f0d6ad000a32b23e28de69f7b8183d",
+    "bytes": 23615,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican-animation",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tokrace.com/evaluations/hy4-flash-20261116/e99bc737d1e0-pelican-animation.mp4",
+    "path": "pelican-archive/research/2026-11-19-manual/illustration/tok-e99bc737d1e0-pelican-animation.mp4",
+    "sha256": "e99bc737d1e0907b9897d93a83f7060e02c5980ab151559cc6293535f191a971",
+    "bytes": 407661,
+    "bindings": [
+      {
+        "sourceUrl": "https://www.tokrace.com/en/guides/hy4-flash-creative#svg-pelican-animation",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2121618193152393216/vid/avc1/1080x1920/qL_mSZ9lShz6gbrY.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/chappie-spacex-original.mp4",
+    "sha256": "f1d4fd2c1446a1d9c274ec88222e97caf4199c60a17d6ae243169d9af216b862",
+    "bytes": 38538696,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/957958p/status/2121618582945804738",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/9/c/b/9cb5ad8f203b307645de390b9976f7a407565ad4.jpeg",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-astra-original.jpeg",
+    "sha256": "72b24ae4d83905c8c07ea27c96d085f13204015cd70c107df1c56f1a79b31455",
+    "bytes": 272317,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/a/4/0/a40a51ba2493accef7552c8f30286667e02f0568.jpeg",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-astra-realistic.jpeg",
+    "sha256": "53c6eeacfab043c221251dceb77bca6f770880b4d5e358fb94e003d8f5ede436",
+    "bytes": 286836,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/3/b/2/3b2c3271cb5e37f3ee777747255784f404d6ece5.png",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-astra-kyoani.png",
+    "sha256": "4cdcc9c969a658c08227c6815c18f7ef4a3ee15e080d7ebf2d8edd1275d6bc56",
+    "bytes": 384626,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/8/d/c/8dc00a117020e6b17694ef8841497c9a8fda03b7.png",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-sol-original.png",
+    "sha256": "09868189d7671443494ad6959bafdebd040417f1b774f92d28c7e499b6857f7b",
+    "bytes": 376301,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/8/5/6/856481d71e37d459f4ec275db3c5d25f5ccbb6d7.jpeg",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-sol-realistic.jpeg",
+    "sha256": "c021f0297696937a6a24ffbac71b87993db5ad4d4db385b03c4706f160e986e6",
+    "bytes": 225279,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/d/8/2/d820604408a40631fdffe1c08e8a58947d3945ae.jpeg",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/fist2005-sol-kyoani.jpeg",
+    "sha256": "fa616b7db866c83fa2ec0a27653df890e5d52ab1c7017a2ebe8da7d182207d52",
+    "bytes": 337238,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3194054",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2122182028682825728/vid/avc1/1888x1106/3F_edrBrTDIIqNKb.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/hiwise-qwen4-original.mp4",
+    "sha256": "02e0ee79ab3e730828745bd0459b962c87452aab8bfd5734d2399d2205ad8f87",
+    "bytes": 13649546,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/hiwise_aigc/status/2122182167799451659",
+        "model": "Qwen 4 Max"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2122325285760614400/vid/avc1/2464x1440/xltS7JU35L1Qurbf.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-17-daily/x/2122326200777359700-0.mp4",
+    "sha256": "2600149983bea85b310e70d46f0fc907f6f6b6dbac7cd38a8e3f780eebb664aa",
+    "bytes": 5064567,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Polaksky/status/2122326200777359700",
+        "model": "Hy4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2122873898501095424/vid/avc1/1200x720/kWvHSS1TWmB_rcV0.mp4?tag=14",
+    "path": "pelican-archive/research/2026-11-19-manual/motion/tim-wells-original.mp4",
+    "sha256": "b7cfb45020ac0c56f982961a2289edbd987d985ff61072b55f68ae49eda77481",
+    "bytes": 1273853,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/sheetstoryapp/status/2122874008203133039",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123050850507689984/vid/avc1/3024x1720/uwMHCuZcJg8h8OZl.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-manual/root/chetas-original.mp4",
+    "sha256": "bc25cadc4d5aaace6e2fb9664475ac51ceb189e9abb8b36caa5582e169e2c5ef",
+    "bytes": 43837541,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123051098730799214",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123071531685441538/vid/avc1/1280x720/BeZWMFhFlcebDpoc.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-manual/root/untethered-original.mp4",
+    "sha256": "3075a69b8dc110cd8ea75b675694498fa5042f8be67fe63f67fc11796deb6fef",
+    "bytes": 10325559,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/Untethered_X/status/2123072305668689946",
+        "model": "GPT"
+      }
+    ]
   }
 ]
