@@ -351374,5 +351374,2046 @@
       "upstreamScoreText": "6.93 ± 0.75"
     },
     "sourceResponseTimestamp": "2026-11-18T02:17:14Z"
+  },
+  {
+    "id": "simon-gpt62-astra-low-2026-11-17",
+    "originalId": "simon-gpt62-astra-low-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 低档鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-astra-low.svg",
+        "source": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "sha256": "e71983f9ed01d13e49677badcb3b0e913e190cfefe46a46f40dd9a00ea626e81",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-astra-low.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "/specimens/simon-gpt62-astra-low-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-astra-low-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-astra-low-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · low effort pelican ride",
+        "model": "GPT-6.2 Astra",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+        "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+      "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-astra",
+      "sourcePublicationTimestamp": "2026-11-17T18:12:06Z",
+      "sourceReportedRunAt": "2026-11-17T18:04:17",
+      "reasoningEffort": "low"
+    },
+    "modelRunGroup": "simon-astra-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-astra-medium-2026-11-17",
+    "originalId": "simon-gpt62-astra-medium-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 中档鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-astra-medium.svg",
+        "source": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "sha256": "b955dbcda5615d5bf917e9c18b66383855336cef7a6e011064f36509094e3193",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-astra-medium.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "/specimens/simon-gpt62-astra-medium-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-astra-medium-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-astra-medium-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · medium effort pelican ride",
+        "model": "GPT-6.2 Astra",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+        "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+      "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-astra",
+      "sourcePublicationTimestamp": "2026-11-17T18:12:06Z",
+      "sourceReportedRunAt": "2026-11-17T18:04:40",
+      "reasoningEffort": "medium"
+    },
+    "modelRunGroup": "simon-astra-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-astra-high-2026-11-17",
+    "originalId": "simon-gpt62-astra-high-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 高档鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-astra-high.svg",
+        "source": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "sha256": "681334ed545e86d61b9f5df1d9e82be4b91ec0e715ef93c662730824d2e06daf",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-astra-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "/specimens/simon-gpt62-astra-high-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-astra-high-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-astra-high-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · high effort pelican ride",
+        "model": "GPT-6.2 Astra",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+        "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+      "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-astra",
+      "sourcePublicationTimestamp": "2026-11-17T18:12:06Z",
+      "sourceReportedRunAt": "2026-11-17T18:05:11",
+      "reasoningEffort": "high"
+    },
+    "modelRunGroup": "simon-astra-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-astra-xhigh-2026-11-17",
+    "originalId": "simon-gpt62-astra-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 超高档鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-astra-xhigh.svg",
+        "source": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "sha256": "5c0a6edda5987e65ac6d70713f0ecdc7d20c9bd1b5db6538797ede937688ec34",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-astra-xhigh.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "/specimens/simon-gpt62-astra-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-astra-xhigh-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-astra-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · xhigh effort pelican ride",
+        "model": "GPT-6.2 Astra",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+        "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+      "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-astra",
+      "sourcePublicationTimestamp": "2026-11-17T18:12:06Z",
+      "sourceReportedRunAt": "2026-11-17T18:05:49",
+      "reasoningEffort": "xhigh"
+    },
+    "modelRunGroup": "simon-astra-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-astra-max-2026-11-17",
+    "originalId": "simon-gpt62-astra-max-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 最高档鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-astra-max.svg",
+        "source": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "sha256": "94d040c36f0d80d1e112e90249f3f2b96d42feec80b52495084c2b5d3c53b1ce",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+          "responseIndex": 4,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-astra-max.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "/specimens/simon-gpt62-astra-max-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-astra-max-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-astra-max-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · max effort pelican ride",
+        "model": "GPT-6.2 Astra",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+        "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+      "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-astra",
+      "sourcePublicationTimestamp": "2026-11-17T18:12:06Z",
+      "sourceReportedRunAt": "2026-11-17T18:06:49",
+      "reasoningEffort": "max"
+    },
+    "modelRunGroup": "simon-astra-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-sol-low-2026-11-17",
+    "originalId": "simon-gpt62-sol-low-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 低档鹈鹕骑车",
+    "model": "GPT-6.2 Sol",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-sol-low.svg",
+        "source": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "sha256": "986df56c222b320561599099a88aed4c636f07827d7973bb7c2c24b0d5d41275",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-sol-low.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "/specimens/simon-gpt62-sol-low-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-sol-low-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-sol-low-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · low effort pelican ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+        "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+      "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-sol",
+      "sourcePublicationTimestamp": "2026-11-17T18:11:20Z",
+      "sourceReportedRunAt": "2026-11-17T18:06:19",
+      "reasoningEffort": "low"
+    },
+    "modelRunGroup": "simon-sol-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-sol-medium-2026-11-17",
+    "originalId": "simon-gpt62-sol-medium-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 中档鹈鹕骑车",
+    "model": "GPT-6.2 Sol",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-sol-medium.svg",
+        "source": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "sha256": "029522f0c5e27e32dbc3727d205ebee4cd591bfbf401ef945afdad8b08af4b98",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-sol-medium.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "/specimens/simon-gpt62-sol-medium-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-sol-medium-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-sol-medium-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · medium effort pelican ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+        "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+      "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-sol",
+      "sourcePublicationTimestamp": "2026-11-17T18:11:20Z",
+      "sourceReportedRunAt": "2026-11-17T18:06:33",
+      "reasoningEffort": "medium"
+    },
+    "modelRunGroup": "simon-sol-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-sol-high-2026-11-17",
+    "originalId": "simon-gpt62-sol-high-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 高档鹈鹕骑车",
+    "model": "GPT-6.2 Sol",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-sol-high.svg",
+        "source": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "sha256": "1d3caf1a1b9739082a5085243d9ad2ef3a7a6bdd5f03afa1ae9db4338cf7612f",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-sol-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "/specimens/simon-gpt62-sol-high-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-sol-high-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-sol-high-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · high effort pelican ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+        "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+      "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-sol",
+      "sourcePublicationTimestamp": "2026-11-17T18:11:20Z",
+      "sourceReportedRunAt": "2026-11-17T18:06:47",
+      "reasoningEffort": "high"
+    },
+    "modelRunGroup": "simon-sol-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-sol-xhigh-2026-11-17",
+    "originalId": "simon-gpt62-sol-xhigh-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 超高档鹈鹕骑车",
+    "model": "GPT-6.2 Sol",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-sol-xhigh.svg",
+        "source": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "sha256": "8acf84e9e6d092810030f61d3bb22953d83fad6d53e68ce462816e2aacf0477a",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-sol-xhigh.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "/specimens/simon-gpt62-sol-xhigh-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-sol-xhigh-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-sol-xhigh-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · xhigh effort pelican ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+        "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+      "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-sol",
+      "sourcePublicationTimestamp": "2026-11-17T18:11:20Z",
+      "sourceReportedRunAt": "2026-11-17T18:07:16",
+      "reasoningEffort": "xhigh"
+    },
+    "modelRunGroup": "simon-sol-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gpt62-sol-max-2026-11-17",
+    "originalId": "simon-gpt62-sol-max-2026-11-17",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 最高档鹈鹕骑车",
+    "model": "GPT-6.2 Sol",
+    "author": "Simon Willison",
+    "date": "2026-11-17",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "max",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-sol-max.svg",
+        "source": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "sha256": "bba6c487539b4ee1a6df24b2173c5c94ea01df250f4470fc8f37b45ca5be2059",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+          "responseIndex": 4,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-sol-max.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "/specimens/simon-gpt62-sol-max-2026-11-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gpt62-sol-max-2026-11-17/",
+    "markdown": "/specimens/simon-gpt62-sol-max-2026-11-17/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · max effort pelican ride",
+        "model": "GPT-6.2 Sol",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+        "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+        "https://news.ycombinator.com/item?id=50535230",
+        "https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+      "https://gist.github.com/simonw/a940cc2750162ac9edf0ddf881067b83",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gpt-6.2-sol",
+      "sourcePublicationTimestamp": "2026-11-17T18:11:20Z",
+      "sourceReportedRunAt": "2026-11-17T18:08:33",
+      "reasoningEffort": "max"
+    },
+    "modelRunGroup": "simon-sol-pelicans-2026-11-17",
+    "sourcePublicationDate": "2026-11-17"
+  },
+  {
+    "id": "simon-gemini4-neon-low-2026-11-19",
+    "originalId": "simon-gemini4-neon-low-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 低档鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "Simon Willison",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-neon-low.svg",
+        "source": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "sha256": "94d3fb738e753afcb1593ab8280b5969717aa85454d583ec9b5dc3841b6377dd",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "40bd71e843feab126f9abfe958cc8565473fbe46124b556555b3fa7a8376057f",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-neon-low.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+    "path": "/specimens/simon-gemini4-neon-low-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gemini4-neon-low-2026-11-19/",
+    "markdown": "/specimens/simon-gemini4-neon-low-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · low effort pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "https://news.ycombinator.com/item?id=50554129",
+        "https://x.com/simonw/status/2123305131206967571"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gemini-4-neon",
+      "sourcePublicationTimestamp": "2026-11-19T00:01:21Z",
+      "sourceReportedRunAt": "2026-11-18T23:05:07",
+      "reasoningEffort": "low"
+    },
+    "modelRunGroup": "simon-neon-pelicans-2026-11-19",
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "simon-gemini4-neon-medium-2026-11-19",
+    "originalId": "simon-gemini4-neon-medium-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 中档鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "Simon Willison",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-neon-medium.svg",
+        "source": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "sha256": "e1cdea7f9d6329d25ea01cd86d9e043a50704eea5d8c196b1a4fd05881233c78",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "40bd71e843feab126f9abfe958cc8565473fbe46124b556555b3fa7a8376057f",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-neon-medium.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+    "path": "/specimens/simon-gemini4-neon-medium-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gemini4-neon-medium-2026-11-19/",
+    "markdown": "/specimens/simon-gemini4-neon-medium-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · medium effort pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "https://news.ycombinator.com/item?id=50554129",
+        "https://x.com/simonw/status/2123305131206967571"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gemini-4-neon",
+      "sourcePublicationTimestamp": "2026-11-19T00:01:21Z",
+      "sourceReportedRunAt": "2026-11-18T23:05:51",
+      "reasoningEffort": "medium"
+    },
+    "modelRunGroup": "simon-neon-pelicans-2026-11-19",
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "simon-gemini4-neon-high-2026-11-19",
+    "originalId": "simon-gemini4-neon-high-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 高档鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "Simon Willison",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "Simon Willison 公开的同题独立静态作品，模型和档位来自固定版本的原始运行记录。日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/simon-neon-high.svg",
+        "source": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "sha256": "c6d16a40f50fb0da4e1fd15b6cfc8a3ece6508f7749296d7a1df78ee7850bf7f",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "40bd71e843feab126f9abfe958cc8565473fbe46124b556555b3fa7a8376057f",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/simon-neon-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+    "path": "/specimens/simon-gemini4-neon-high-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-gemini4-neon-high-2026-11-19/",
+    "markdown": "/specimens/simon-gemini4-neon-high-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · high effort pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "Simon Willison published this independent static output for the common prompt. Model and effort come from the pinned run transcript. The recorded day follows first Gist publication in UTC.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+        "https://news.ycombinator.com/item?id=50554129",
+        "https://x.com/simonw/status/2123305131206967571"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+      "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "gemini-4-neon",
+      "sourcePublicationTimestamp": "2026-11-19T00:01:21Z",
+      "sourceReportedRunAt": "2026-11-18T23:06:46",
+      "reasoningEffort": "high"
+    },
+    "modelRunGroup": "simon-neon-pelicans-2026-11-19",
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "pb-classic-ijz7t46vmoushk0qtwkfxq-2026-11-19",
+    "originalId": "pb-classic-ijz7t46vmoushk0qtwkfxq-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon Medium · 社区 SVG 骑行",
+    "model": "Gemini 4 Neon",
+    "author": "admin",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "投稿页面记录单轮 Antigravity 运行的 Medium 档位、实际题面和原始 SVG。型号及生成条件沿用投稿者标注。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://pelicanbenchmark.com/results/IJz7t46VMOuShk0QTwKfxQ",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "Medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/pb-IJz7t46VMOuShk0QTwKfxQ.original.svg",
+        "source": "https://works.pelicanbenchmark.com/IJz7t46VMOuShk0QTwKfxQ.svg",
+        "sha256": "25a9d6559f5f123827bdcab083c24210c31b26976a4ae01113d30ac28b42aa91",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/pb-IJz7t46VMOuShk0QTwKfxQ.original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://works.pelicanbenchmark.com/IJz7t46VMOuShk0QTwKfxQ.svg",
+    "path": "/specimens/pb-classic-ijz7t46vmoushk0qtwkfxq-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/pb-classic-ijz7t46vmoushk0qtwkfxq-2026-11-19/",
+    "markdown": "/specimens/pb-classic-ijz7t46vmoushk0qtwkfxq-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者署名、原出处和完整原始输出，来源未注明单独的作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon Medium · community SVG ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The submission records the actual prompt and original SVG for a single-turn Antigravity run at medium effort. The model and settings are contributor-reported.",
+        "rights": "Original attribution, public source and complete output are preserved. The source does not state a separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://pelicanbenchmark.com/results/IJz7t46VMOuShk0QTwKfxQ",
+        "https://works.pelicanbenchmark.com/IJz7t46VMOuShk0QTwKfxQ.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://pelicanbenchmark.com/results/IJz7t46VMOuShk0QTwKfxQ",
+      "https://works.pelicanbenchmark.com/IJz7t46VMOuShk0QTwKfxQ.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon (Medium)",
+      "generationMode": "single-turn",
+      "sourceThinkingLevel": "Medium",
+      "tool": "Antigravity",
+      "sourceReportedGenerationDate": "2026-11-19"
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "museum-of-models-gemini-4-neon-svg-layout",
+    "originalId": "museum-of-models-gemini-4-neon-svg-layout",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 鹈鹕骑车原始 SVG",
+    "model": "Gemini 4 Neon",
+    "author": "Museum of Models",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "Museum of Models 公开作品集的原始回答：保留实际题面与源文件，日期采用馆方展示的运行日；来源未注明推理档位。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://museumofmodels.com/q/pelican-on-a-bicycle#gemini-4-neon",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/museum-neon-original.svg",
+        "source": "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138#302",
+        "sha256": "659d5a27dec18aab2b5b19a14bb5f655871c5e6d4033645fdf33f9c7d7dd601a",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/museum-neon-original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138#302",
+    "path": "/specimens/museum-of-models-gemini-4-neon-svg-layout/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/museum-of-models-gemini-4-neon-svg-layout/",
+    "markdown": "/specimens/museum-of-models-gemini-4-neon-svg-layout/index.md",
+    "updated": "2026-11-19",
+    "rights": "归因 Museum of Models；馆方材料及其所持回答权利按 CC BY 4.0 提供，原模型服务商条款仍可能适用。原始响应文件完整留档，SVG 从公开 JSON 回答中逐字提取。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Original pelican bicycle SVG",
+        "model": "Gemini 4 Neon",
+        "notes": "An original answer from the Museum of Models public collection, preserved with its prompt. The date is the museum’s displayed run day; no per-run reasoning level is specified.",
+        "rights": "Credit: Museum of Models; CC BY 4.0 for museum materials and any rights it holds in answers. Provider terms may apply. The complete source response is retained and the SVG is extracted verbatim.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle.",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://museumofmodels.com/q/pelican-on-a-bicycle#gemini-4-neon",
+        "https://museumofmodels.com/m/gemini-4-neon",
+        "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138",
+        "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138#302",
+        "https://museumofmodels.com/about",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138#302",
+      "https://museumofmodels.com/about"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "generationDateKnown": true,
+      "iterationCountKnown": false
+    }
+  },
+  {
+    "id": "aiml-api-gemini-4-neon-2026-11-18",
+    "originalId": "aiml-api-gemini-4-neon-2026-11-18",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · AI/ML API 鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "AI/ML API",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "AI/ML API 模型页面展示的原始未编辑 SVG，题面、型号和日期来自发布者标注。推理档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://aimlapi.com/models/google-gemini-4-neon",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-described-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/aiml-neon-original.svg",
+        "source": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6afe0351471823ee41efdfaa_6afe034cec147fb0ef289532_google-gemini-4-neon-demo.svg",
+        "sha256": "79d6fbfb2ef06dff729a67d247bfae9cc3419b241fb0e881bd7512b5ddd64a07",
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/aiml-neon-original.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6afe0351471823ee41efdfaa_6afe034cec147fb0ef289532_google-gemini-4-neon-demo.svg",
+    "path": "/specimens/aiml-api-gemini-4-neon-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/aiml-api-gemini-4-neon-2026-11-18/",
+    "markdown": "/specimens/aiml-api-gemini-4-neon-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "署名 AI/ML API 并链接其公开原始作品；原作品及模型输出的权利归相关权利人所有。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · AI/ML API pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "Original unedited SVG displayed on AI/ML API’s model page. Prompt, model and date are publisher-reported; reasoning level was not disclosed.",
+        "rights": "Credit AI/ML API and link to its public original; rights in the source and output remain with their respective holders.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://aimlapi.com/models/google-gemini-4-neon",
+        "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6afe0351471823ee41efdfaa_6afe034cec147fb0ef289532_google-gemini-4-neon-demo.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://aimlapi.com/models/google-gemini-4-neon",
+      "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6afe0351471823ee41efdfaa_6afe034cec147fb0ef289532_google-gemini-4-neon-demo.svg"
+    ],
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "google/gemini-4-neon",
+      "generationDateKnown": true
+    }
+  },
+  {
+    "id": "x-jyluxx-gemini-mujoco-pelican-2026-11-19",
+    "originalId": "x-jyluxx-gemini-mujoco-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini · MuJoCo 物理鹈鹕骑行",
+    "model": "Gemini",
+    "author": "Caden Lu (@jyluxx)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者使用 Gemini、Antigravity Robotics 插件和 MuJoCo 创建三维骑车仿真，原帖公开了提示词和完整演示。来源只标注 Gemini，未提供具体型号。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/jyluxx/status/2123289016116408651",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "/goal Generate a pelican riding a bicycle simulation in MuJoCo",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/jyluxx-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123288874663448576/vid/avc1/1280x720/zDz4t_e__Zej3ERR.mp4?tag=29",
+        "sha256": "e7ef99a3fc5d231a96bf708d4a755f730cb8d311008023513a9241ee24810234",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123288874663448576/vid/avc1/1280x720/zDz4t_e__Zej3ERR.mp4?tag=29",
+          "sourceSha256": "e7ef99a3fc5d231a96bf708d4a755f730cb8d311008023513a9241ee24810234",
+          "frameTime": 5,
+          "sha256": "5476bf96393999dc212e3ae5819545e1fbffc5cd72d19dcb24b213d98a0a5246"
+        },
+        "caption": "作者公开的完整原始演示录像",
+        "captionEn": "Complete demonstration video posted by the author",
+        "poster": "/media/collected/2026-11-19-1500-daily/jyluxx-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/jyluxx-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-jyluxx-gemini-mujoco-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-jyluxx-gemini-mujoco-pelican-2026-11-19/",
+    "markdown": "/specimens/x-jyluxx-gemini-mujoco-pelican-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者公开原片、署名及原帖。未见单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini · Pelican Bicycle in MuJoCo",
+        "model": "Gemini",
+        "notes": "The creator used Gemini, the Antigravity Robotics plugin and MuJoCo for a 3D cycling simulation, sharing the prompt and complete demonstration. The source identifies the model only as Gemini.",
+        "rights": "The author-posted recording, credit and source post are preserved. No separate license was found.",
+        "promptStatus": "/goal Generate a pelican riding a bicycle simulation in MuJoCo",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/jyluxx/status/2123289016116408651",
+        "https://video.twimg.com/amplify_video/2123288874663448576/vid/avc1/1280x720/zDz4t_e__Zej3ERR.mp4?tag=29",
+        "https://github.com/google-deepmind/robotics-antigravity-plugin"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/jyluxx/status/2123289016116408651",
+      "https://github.com/google-deepmind/robotics-antigravity-plugin"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini",
+      "sourcePublicationTimestamp": "2026-11-19T05:35:24Z",
+      "tool": "Antigravity Robotics plugin / MuJoCo",
+      "sourceHtmlAvailable": false
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "linuxdo-aixiaohanbao-gemini4-neon-pelican-drift-2026-11-19",
+    "originalId": "linuxdo-aixiaohanbao-gemini4-neon-pelican-drift-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 鹈鹕的奇妙漂移单车",
+    "model": "Gemini 4 Neon",
+    "author": "Aixiaohanbao (艾米莉亚小汉堡)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者称使用 Neon 最高思考强度，并在原始 3D 骑行题面后追加转向、加速与漂移需求。作者公开试玩链接目前无法访问，馆藏保存其完整游戏截图与两轮提示词。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3201645",
+    "format": "image",
+    "formatLabel": "图像",
+    "originalForm": "image",
+    "originalLevel": "highest thinking · creator-reported",
+    "promptCategory": "derivative",
+    "promptStatus": "生成一个可独立打开的 HTML，展示鹈鹕骑自行车的three.js 3D 动画。需要精细化，并且风格你可以参考那种2D涂鸦的3D画风类似于jojo的画风\n车轮各自围绕车轴转动；双脚跟随踏板；车架保持完整。\n提供暂停与播放控制。不得依赖外部图片或脚本。\n先交付首次结果，不追加修复。保存原始 HTML。\n\n我有一个点子,就是把这个鹈鹕骑车可以作为供玩家操控的,wsad控制方向按住空格加速,道路需要自动生成可以有弯道并且这个单车可以适当的进行加速的时候按下s可以漂移你帮我实现这个想法",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/neon-original.jpeg",
+        "source": "https://cdn3.ldstatic.com/original/4X/0/3/b/03bd1ba39657b181b0b8b915c3e931181b75e2a1.jpeg",
+        "sha256": "da526d8a3abcd347928fc2e345f8d19b48b6e2b4d3a26538862885e5e3885002",
+        "caption": "作者公开的完整游戏截图",
+        "captionEn": "Complete game screenshot published by the author",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/neon-original.jpeg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-aixiaohanbao-gemini4-neon-pelican-drift-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-aixiaohanbao-gemini4-neon-pelican-drift-2026-11-19/",
+    "markdown": "/specimens/linuxdo-aixiaohanbao-gemini4-neon-pelican-drift-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留作者公开截图、署名及原帖。未见单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Pelican Drift",
+        "model": "Gemini 4 Neon",
+        "notes": "The creator reports using Neon at its highest reasoning setting and adding steering, acceleration and drifting after the original 3D cycling prompt. The published game link was unavailable during review. The archive preserves the complete screenshot and both prompt turns.",
+        "rights": "The author-posted screenshot, credit and source are preserved. No separate license was found.",
+        "promptStatus": "生成一个可独立打开的 HTML，展示鹈鹕骑自行车的three.js 3D 动画。需要精细化，并且风格你可以参考那种2D涂鸦的3D画风类似于jojo的画风\n车轮各自围绕车轴转动；双脚跟随踏板；车架保持完整。\n提供暂停与播放控制。不得依赖外部图片或脚本。\n先交付首次结果，不追加修复。保存原始 HTML。\n\n我有一个点子,就是把这个鹈鹕骑车可以作为供玩家操控的,wsad控制方向按住空格加速,道路需要自动生成可以有弯道并且这个单车可以适当的进行加速的时候按下s可以漂移你帮我实现这个想法",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3201645",
+        "https://cdn3.ldstatic.com/original/4X/0/3/b/03bd1ba39657b181b0b8b915c3e931181b75e2a1.jpeg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3201645"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "基米4的neon最高思考强度",
+      "effort": "highest, source-described",
+      "previewOnly": true,
+      "sourceHtmlAvailable": false,
+      "tool": "HTML / Three.js",
+      "sourceGameUrl": "http://fn.aixiaohanbao.uk:19867/game/pelican-drift/",
+      "sourceMetadata": {
+        "dimensions": "1920 x 1056",
+        "originalGameAccess": "HTTP 503 via configured network; direct DNS failed on 2026-11-19"
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-chetaslua-fable-mythos52-last-good-pelican-2026-11-18",
+    "originalId": "x-chetaslua-fable-mythos52-last-good-pelican-2026-11-18",
+    "kind": "timeline",
+    "title": "最后一只好鹈鹕 · Fable 版",
+    "model": "Fable/Mythos 5.2",
+    "author": "Chetaslua",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者称使用 Fable/Mythos 5.2、与 Astra 版本相同的题面，借助多代理和多轮修改制作代码叙事动画；这是与另一版本不同的一次输出。保留原帖完整影片、可离线运行的 HTML、完整源码和 MIT 许可。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2123100140189958401",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chetas-fable-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123099597472227328/vid/avc1/3024x1720/JRSfdhfxPXxgaWT9.mp4?tag=29",
+        "sha256": "a9d687bef124bbb5bb6fd7c1f91053c7eee50286ea7fd5c4577f72632816a12f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123099597472227328/vid/avc1/3024x1720/JRSfdhfxPXxgaWT9.mp4?tag=29",
+          "sourceSha256": "a9d687bef124bbb5bb6fd7c1f91053c7eee50286ea7fd5c4577f72632816a12f",
+          "frameTime": 16,
+          "sha256": "2e9eb0cd37d7584c0624b6a45953b4c8b05a504b4cb3e0a91d8a98479058cb0c"
+        },
+        "caption": "作者发布的完整原片",
+        "captionEn": "Complete author-posted video",
+        "poster": "/media/collected/2026-11-19-1500-daily/chetas-fable-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chetas-fable-original-canvas-frame.png",
+        "source": "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican-fable-5.2/eb7395314206f59091a1c47292c785aad6c2bea3/pelican.html",
+        "sha256": "b692c0f4f22146f63629dac6231cc098678d5989f895f504c73ae381cfd6f547",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "33b33dfc1688fdcb2ec06f346842200ae8a86fc87c7a03c146a7370fd29df496",
+          "frameSha256": "b692c0f4f22146f63629dac6231cc098678d5989f895f504c73ae381cfd6f547",
+          "viewport": {
+            "width": 960,
+            "height": 540
+          },
+          "method": "Isolated Chromium Canvas screenshot at 15 seconds, outbound network denied"
+        },
+        "detailOnly": true,
+        "caption": "原 HTML 在 15 秒处的实际渲染画面",
+        "captionEn": "Actual original HTML render at 15 seconds",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/chetas-fable-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/chetaslua-last-good-pelican-fable52/pelican.html",
+    "sourceCodeUrl": "https://github.com/ChetasLua/the-last-good-pelican-fable-5.2/blob/eb7395314206f59091a1c47292c785aad6c2bea3/pelican.html",
+    "path": "/specimens/x-chetaslua-fable-mythos52-last-good-pelican-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-fable-mythos52-last-good-pelican-2026-11-18/",
+    "markdown": "/specimens/x-chetaslua-fable-mythos52-last-good-pelican-2026-11-18/index.md",
+    "updated": "2026-11-19",
+    "rights": "HTML 按作者仓库 MIT 许可保留原署名与完整许可。X 原片保留首发来源。",
+    "i18n": {
+      "en": {
+        "title": "The Last Good Pelican · Fable version",
+        "model": "Fable/Mythos 5.2",
+        "notes": "The creator credits Fable/Mythos 5.2 and the same brief used for the Astra version, with agents and revisions in the code-making process. This is a separate output. The complete posted video, offline HTML, full source and MIT notice are preserved.",
+        "rights": "The HTML retains the original MIT notice and attribution. The X video retains its first-publication source.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2123100140189958401",
+        "https://x.com/chetaslua/status/2123100142819828105",
+        "https://github.com/ChetasLua/the-last-good-pelican-fable-5.2/blob/eb7395314206f59091a1c47292c785aad6c2bea3/README.md",
+        "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican-fable-5.2/eb7395314206f59091a1c47292c785aad6c2bea3/pelican.html",
+        "https://github.com/ChetasLua/the-last-good-pelican-fable-5.2/blob/eb7395314206f59091a1c47292c785aad6c2bea3/LICENSE",
+        "https://video.twimg.com/amplify_video/2123099597472227328/vid/avc1/3024x1720/JRSfdhfxPXxgaWT9.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Fable/Mythos 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2123100140189958401",
+      "https://x.com/chetaslua/status/2123100142819828105",
+      "https://github.com/ChetasLua/the-last-good-pelican-fable-5.2/blob/eb7395314206f59091a1c47292c785aad6c2bea3/README.md",
+      "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican-fable-5.2/eb7395314206f59091a1c47292c785aad6c2bea3/pelican.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Fable/Mythos 5.2",
+      "tool": "Claude Code / Canvas 2D / Web Audio",
+      "sourcePublicationTimestamp": "2026-11-18T17:04:53Z",
+      "sourceRevision": "eb7395314206f59091a1c47292c785aad6c2bea3",
+      "promptStatus": "Original complete prompt is not published; the creator reports it was the same prompt used for the Astra version."
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "x-statswire-gemini4-neon-xhigh-threejs-pelican-2026-11-19",
+    "originalId": "x-statswire-gemini4-neon-xhigh-threejs-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 三维海岸骑行",
+    "model": "Gemini 4 Neon",
+    "author": "Stats Wire (@StatsWire)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者称使用 Gemini 4 Neon 和 Three.js 生成鹈鹕骑车作品；原录像标注 XHigh，一只鹈鹕沿海岸骑行。作者在回复中提到面部仍需改进。馆藏保留完整无声录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/StatsWire/status/2123160089854898346",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/statswire-neon-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/1280x720/JfqWZE_zDj-0TCKA.mp4?tag=29",
+        "sha256": "b6760d62d9919b1e1004fa658afedb3a1de13efd6c60633e1b8ab1f7dfe9f4d0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/1280x720/JfqWZE_zDj-0TCKA.mp4?tag=29",
+          "sourceSha256": "b6760d62d9919b1e1004fa658afedb3a1de13efd6c60633e1b8ab1f7dfe9f4d0",
+          "frameTime": 3,
+          "sha256": "8526b580f79a6894fc8ba99b4355d2180b9dd4c95e66efda918b956f43412fa4"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-19-1500-daily/statswire-neon-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/statswire-neon-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-statswire-gemini4-neon-xhigh-threejs-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-statswire-gemini4-neon-xhigh-threejs-pelican-2026-11-19/",
+    "markdown": "/specimens/x-statswire-gemini4-neon-xhigh-threejs-pelican-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原录像及作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · 3D Coastal Ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The author reports making this pelican bicycle scene with Gemini 4 Neon and Three.js. The original recording is labeled XHigh and shows one pelican riding along the coast. The author notes in a reply that the face needs improvement. The complete silent recording is preserved.",
+        "rights": "Public source recording and attribution are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/StatsWire/status/2123160089854898346",
+        "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/1280x720/JfqWZE_zDj-0TCKA.mp4?tag=29",
+        "https://x.com/StatsWire/status/2123162550158479830",
+        "https://x.com/manxlab/status/2123160612968767761"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/StatsWire/status/2123160089854898346"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon (XHigh)",
+      "sourcePublicationTimestamp": "2026-11-18T21:03:06Z",
+      "tool": "Three.js",
+      "effort": "XHigh",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123160013761892353",
+        "width": 1280,
+        "height": 720,
+        "videoDurationSeconds": 12,
+        "audio": false,
+        "decodedFrames": 360
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-chasen-nex-n25-pro-blender-mcp-pelican-2026-09-13",
+    "originalId": "x-chasen-nex-n25-pro-blender-mcp-pelican-2026-09-13",
+    "kind": "timeline",
+    "title": "Nex-N2.5 Pro · Blender 中的三维骑行",
+    "model": "Nex-N2.5 Pro",
+    "author": "Chasen (@chasen_liao)",
+    "date": "2026-09-13",
+    "month": "2026-09",
+    "notes": "作者称使用 Nex-N2.5 Pro 经 Pi 和 Blender MCP 先生成可编辑的鹈鹕自行车场景，再以“弄成动态的”追问生成动画。馆藏以完整最终动画为主，另保存原帖渲染图及两段完整操作录像；作者的视频画面显示模型生成场景代码。未取得 .blend 工程。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chasen_liao/status/2099026372484341910",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "请通过 Blender MCP，制作一个“鹈鹕骑自行车”的 3D 场景。交付：\npelican-bike.blend：可编辑工程。\npelican-bike.png：一张成品渲染图。请直接开始执行，完成后查看实际渲染图，确认主体完整可见\n\n后续追问：弄成动态的",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chasen-nex-final-animation.mp4",
+        "source": "https://video.twimg.com/amplify_video/2099025837454684160/vid/avc1/1280x720/LYwTD4bLKDZwcKqI.mp4?tag=29",
+        "sha256": "6befc920cdbc9f003b2009277969f07a65b71968d2ce7824d8902ce1b74057ca",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2099025837454684160/vid/avc1/1280x720/LYwTD4bLKDZwcKqI.mp4?tag=29",
+          "sourceSha256": "6befc920cdbc9f003b2009277969f07a65b71968d2ce7824d8902ce1b74057ca",
+          "frameTime": 1,
+          "sha256": "f2c322c36021982fc914eb32dc650e629ee1694aea7f82a4d9be216e69a135b7"
+        },
+        "caption": "作者发布的完整最终动画",
+        "captionEn": "Complete final animation published by the author",
+        "poster": "/media/collected/2026-11-19-1500-daily/chasen-nex-final-animation-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chasen-nex-final-render.jpg",
+        "source": "https://pbs.twimg.com/media/HSE8tpBa0AEOFGf.jpg?name=orig",
+        "sha256": "ff7970e0bfd4c20abd7832d67434b82ed88ef5db6c7a92eeff4f6c5e226716d3",
+        "detailOnly": true,
+        "caption": "作者发布的最终渲染原图",
+        "captionEn": "Original final render published by the author",
+        "poster": ""
+      },
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chasen-nex-generation-process.mp4",
+        "source": "https://video.twimg.com/amplify_video/2099025722799169537/vid/avc1/1152x648/WERnxhe1DXeOMPfj.mp4?tag=29",
+        "sha256": "6842c56242d0c527f47a35f00cc18489d32e5009f78b8148a8be6c9d2c0ea4b5",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2099025722799169537/vid/avc1/1152x648/WERnxhe1DXeOMPfj.mp4?tag=29",
+          "sourceSha256": "6842c56242d0c527f47a35f00cc18489d32e5009f78b8148a8be6c9d2c0ea4b5",
+          "frameTime": 1,
+          "sha256": "1388833ef2f5a7e47d1b81e31798d503728aeb1e57bc4fb2ff168e3f4d27275a"
+        },
+        "detailOnly": true,
+        "caption": "作者发布的完整模型生成和 Blender 操作过程",
+        "captionEn": "Complete model generation and Blender operation recording",
+        "poster": "/media/collected/2026-11-19-1500-daily/chasen-nex-generation-process-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/chasen-nex-blender-review.mp4",
+        "source": "https://video.twimg.com/amplify_video/2099025736124567552/vid/avc1/1152x648/yS1PLRkkRj5LLqMp.mp4?tag=29",
+        "sha256": "bf4dd5714e0171e177a9b7e1bf00c61ae9d19389ab21d167ccd300211e69533c",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2099025736124567552/vid/avc1/1152x648/yS1PLRkkRj5LLqMp.mp4?tag=29",
+          "sourceSha256": "bf4dd5714e0171e177a9b7e1bf00c61ae9d19389ab21d167ccd300211e69533c",
+          "frameTime": 1,
+          "sha256": "1b69d2497336b0ad15d9e5f44bafc7c58d0d1ec47c2fdc99eb2111745ee3de19"
+        },
+        "detailOnly": true,
+        "caption": "作者发布的完整 Blender 场景检查",
+        "captionEn": "Complete Blender scene inspection recording",
+        "poster": "/media/collected/2026-11-19-1500-daily/chasen-nex-blender-review-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/chasen-nex-final-animation-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chasen-nex-n25-pro-blender-mcp-pelican-2026-09-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chasen-nex-n25-pro-blender-mcp-pelican-2026-09-13/",
+    "markdown": "/specimens/x-chasen-nex-n25-pro-blender-mcp-pelican-2026-09-13/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原视频、渲染原图和作者署名；未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Nex-N2.5 Pro · 3D Bicycle Ride in Blender",
+        "model": "Nex-N2.5 Pro",
+        "notes": "The author reports using Nex-N2.5 Pro through Pi and Blender MCP to generate an editable pelican bicycle scene, then requested an animation. The complete final animation is shown first; the original render and both full process recordings are also preserved. The recording shows code for the scene. The .blend project was not obtained.",
+        "rights": "The public source videos, render and attribution are preserved; no separate license was located.",
+        "promptStatus": "请通过 Blender MCP，制作一个“鹈鹕骑自行车”的 3D 场景。交付：\npelican-bike.blend：可编辑工程。\npelican-bike.png：一张成品渲染图。请直接开始执行，完成后查看实际渲染图，确认主体完整可见\n\n后续追问：弄成动态的",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chasen_liao/status/2099026372484341910",
+        "https://pbs.twimg.com/media/HSE8tpBa0AEOFGf.jpg?name=orig",
+        "https://video.twimg.com/amplify_video/2099025722799169537/vid/avc1/1152x648/WERnxhe1DXeOMPfj.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2099025736124567552/vid/avc1/1152x648/yS1PLRkkRj5LLqMp.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2099025837454684160/vid/avc1/1280x720/LYwTD4bLKDZwcKqI.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Nex-N2.5 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chasen_liao/status/2099026372484341910",
+      "https://video.twimg.com/amplify_video/2099025722799169537/vid/avc1/1152x648/WERnxhe1DXeOMPfj.mp4?tag=29"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Nex-N2.5 Pro",
+      "sourcePublicationTimestamp": "2026-09-13T06:44:19Z",
+      "tool": "OpenRouter / Pi / Blender MCP",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "sourceBlendAvailable": false,
+        "sourceStaticPromptAndFollowUp": true,
+        "assetIds": [
+          "2099025656134946817",
+          "2099025722799169537",
+          "2099025736124567552",
+          "2099025837454684160"
+        ]
+      }
+    },
+    "sourcePublicationDate": "2026-09-13"
+  },
+  {
+    "id": "x-tspy-gemini4-neon-extra-threejs-pelican-2026-11-19",
+    "originalId": "x-tspy-gemini4-neon-extra-threejs-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon Extra · 三维海滨骑行",
+    "model": "Gemini 4 Neon",
+    "author": "yishan (@tspy)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者称用 Gemini 4 Neon Extra 根据公开提示词生成 Three.js 单文件交互场景。原录像展示鹈鹕骑车与视角、时间等交互；作者认为效果有些奇怪，讨论者指出手臂有些怪、脚处理得好。馆藏保留完整录像及音轨，未取得原 HTML。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/tspy/status/2123222507977375770",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "使用 Three.js 创作一个“一只正在骑自行车的鹈鹕”的3D互动网页场景，直接输出完整可运行的单文件HTML代码。",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-19-1500-daily/tspy-neon-extra-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123221915603247104/vid/avc1/3840x2160/lvJCtECDYRCNGnDU.mp4?tag=29",
+        "sha256": "60f08fb431162d81661a15727bb328fafb780efc6d45d30b42b8f3671d3ec7b7",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123221915603247104/vid/avc1/3840x2160/lvJCtECDYRCNGnDU.mp4?tag=29",
+          "sourceSha256": "60f08fb431162d81661a15727bb328fafb780efc6d45d30b42b8f3671d3ec7b7",
+          "frameTime": 40,
+          "sha256": "e7ac7d565832631e75d9f046971af433e84c77d1e569c12f64bfa1e20136b7bb"
+        },
+        "caption": "作者发布的完整原录像",
+        "captionEn": "Complete original recording published by the author",
+        "poster": "/media/collected/2026-11-19-1500-daily/tspy-neon-extra-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-19-1500-daily/tspy-neon-extra-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-tspy-gemini4-neon-extra-threejs-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-tspy-gemini4-neon-extra-threejs-pelican-2026-11-19/",
+    "markdown": "/specimens/x-tspy-gemini4-neon-extra-threejs-pelican-2026-11-19/index.md",
+    "updated": "2026-11-19",
+    "rights": "保留公开原录像及作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon Extra · 3D Coastal Ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The author reports generating a single-file interactive Three.js scene with Gemini 4 Neon Extra using the published prompt. The recording shows the pelican riding and controls for views and time of day. The author says the result looks odd; a commenter notes the unusual arms and the handling of the feet. The complete recording and audio are preserved. The original HTML was not obtained.",
+        "rights": "The public source recording and attribution are preserved; no separate license was located.",
+        "promptStatus": "使用 Three.js 创作一个“一只正在骑自行车的鹈鹕”的3D互动网页场景，直接输出完整可运行的单文件HTML代码。",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/tspy/status/2123222507977375770",
+        "https://video.twimg.com/amplify_video/2123221915603247104/vid/avc1/3840x2160/lvJCtECDYRCNGnDU.mp4?tag=29",
+        "https://x.com/freeman1266/status/2123229571181130024",
+        "https://x.com/tspy/status/2123235691744407858"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/tspy/status/2123222507977375770"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon Extra",
+      "sourcePublicationTimestamp": "2026-11-19T01:11:08Z",
+      "tool": "Three.js / HTML",
+      "effort": "Extra",
+      "sourceHtmlAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123221915603247104",
+        "width": 3840,
+        "height": 2160,
+        "videoDurationSeconds": 52.970667,
+        "audio": true,
+        "decodedFrames": 3074
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
   }
 ]

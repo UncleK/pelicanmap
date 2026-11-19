@@ -33518,5 +33518,197 @@
         "model": "GPT"
       }
     ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/fe836e13c90c00233c9e9e499a941805/raw/763f5168b562e739d49dbb69a7290dcf38a9c147/gpt-6.2-astra.md",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/simon-astra-transcript.md",
+    "sha256": "2d83d2525b1a9959adbed42f0479e9e46fb8245ed49a42a363882a4ab6f739da",
+    "bytes": 45491,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/a940cc2750162ac9edf0ddf881067b83/raw/7dda4433fc99e21b97d9463d87fec59993a7b1cd/gpt-6.2-sol.md",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/simon-sol-transcript.md",
+    "sha256": "4105fb513bd8f530da8a4e276592c682e2e9802ce807cceb7d14f8375979e0ed",
+    "bytes": 43575,
+    "bindings": [
+      {
+        "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c/raw/c748d107dfe81fe4e762abcb1deda15c5b770d7e/neon.md",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/simon-neon-transcript.md",
+    "sha256": "40bd71e843feab126f9abfe958cc8565473fbe46124b556555b3fa7a8376057f",
+    "bytes": 42650,
+    "bindings": [
+      {
+        "sourceUrl": "https://gist.github.com/simonw/abc5dfe18e8d37a46fd09a3dcc18ed5c",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://works.pelicanbenchmark.com/IJz7t46VMOuShk0QTwKfxQ.svg",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/pb-IJz7t46VMOuShk0QTwKfxQ.original.svg",
+    "sha256": "25a9d6559f5f123827bdcab083c24210c31b26976a4ae01113d30ac28b42aa91",
+    "bytes": 16006,
+    "bindings": [
+      {
+        "sourceUrl": "https://pelicanbenchmark.com/results/IJz7t46VMOuShk0QTwKfxQ",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://museumofmodels.com/collection/content/1-0.json?v=c83524e138#302",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/museum-neon-original.svg",
+    "sha256": "659d5a27dec18aab2b5b19a14bb5f655871c5e6d4033645fdf33f9c7d7dd601a",
+    "bytes": 5814,
+    "bindings": [
+      {
+        "sourceUrl": "https://museumofmodels.com/q/pelican-on-a-bicycle#gemini-4-neon",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/65b8f370a600366bc7cf9b20/6afe0351471823ee41efdfaa_6afe034cec147fb0ef289532_google-gemini-4-neon-demo.svg",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/svg/aiml-neon-original.svg",
+    "sha256": "79d6fbfb2ef06dff729a67d247bfae9cc3419b241fb0e881bd7512b5ddd64a07",
+    "bytes": 17955,
+    "bindings": [
+      {
+        "sourceUrl": "https://aimlapi.com/models/google-gemini-4-neon",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123288874663448576/vid/avc1/1280x720/zDz4t_e__Zej3ERR.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/interactive/jyluxx-original.mp4",
+    "sha256": "e7ef99a3fc5d231a96bf708d4a755f730cb8d311008023513a9241ee24810234",
+    "bytes": 6463538,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/jyluxx/status/2123289016116408651",
+        "model": "Gemini"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/0/3/b/03bd1ba39657b181b0b8b915c3e931181b75e2a1.jpeg",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/interactive/neon-original.jpeg",
+    "sha256": "da526d8a3abcd347928fc2e345f8d19b48b6e2b4d3a26538862885e5e3885002",
+    "bytes": 491552,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3201645",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123099597472227328/vid/avc1/3024x1720/JRSfdhfxPXxgaWT9.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/interactive/chetas-fable-original.mp4",
+    "sha256": "a9d687bef124bbb5bb6fd7c1f91053c7eee50286ea7fd5c4577f72632816a12f",
+    "bytes": 70307543,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123100140189958401",
+        "model": "Fable/Mythos 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ChetasLua/the-last-good-pelican-fable-5.2/eb7395314206f59091a1c47292c785aad6c2bea3/pelican.html",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/interactive/chetas-fable-pelican.html",
+    "sha256": "33b33dfc1688fdcb2ec06f346842200ae8a86fc87c7a03c146a7370fd29df496",
+    "bytes": 628855,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123100140189958401",
+        "model": "Fable/Mythos 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123160013761892353/vid/avc1/1280x720/JfqWZE_zDj-0TCKA.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/motion/statswire-neon-original.mp4",
+    "sha256": "b6760d62d9919b1e1004fa658afedb3a1de13efd6c60633e1b8ab1f7dfe9f4d0",
+    "bytes": 3148550,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/StatsWire/status/2123160089854898346",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2099025837454684160/vid/avc1/1280x720/LYwTD4bLKDZwcKqI.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/root/chasen-nex-original-3.mp4",
+    "sha256": "6befc920cdbc9f003b2009277969f07a65b71968d2ce7824d8902ce1b74057ca",
+    "bytes": 237483,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chasen_liao/status/2099026372484341910",
+        "model": "Nex-N2.5 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HSE8tpBa0AEOFGf.jpg?name=orig",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/motion/chasen-nex-original-photo.jpg",
+    "sha256": "ff7970e0bfd4c20abd7832d67434b82ed88ef5db6c7a92eeff4f6c5e226716d3",
+    "bytes": 81335,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chasen_liao/status/2099026372484341910",
+        "model": "Nex-N2.5 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2099025722799169537/vid/avc1/1152x648/WERnxhe1DXeOMPfj.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/root/chasen-nex-original-1.mp4",
+    "sha256": "6842c56242d0c527f47a35f00cc18489d32e5009f78b8148a8be6c9d2c0ea4b5",
+    "bytes": 13363684,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chasen_liao/status/2099026372484341910",
+        "model": "Nex-N2.5 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2099025736124567552/vid/avc1/1152x648/yS1PLRkkRj5LLqMp.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/root/chasen-nex-original-2.mp4",
+    "sha256": "bf4dd5714e0171e177a9b7e1bf00c61ae9d19389ab21d167ccd300211e69533c",
+    "bytes": 2827556,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chasen_liao/status/2099026372484341910",
+        "model": "Nex-N2.5 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123221915603247104/vid/avc1/3840x2160/lvJCtECDYRCNGnDU.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-19-1500-daily/motion/tspy-neon-original.mp4",
+    "sha256": "60f08fb431162d81661a15727bb328fafb780efc6d45d30b42b8f3671d3ec7b7",
+    "bytes": 167210814,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/tspy/status/2123222507977375770",
+        "model": "Gemini 4 Neon"
+      }
+    ]
   }
 ]
