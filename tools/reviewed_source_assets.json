@@ -33710,5 +33710,305 @@
         "model": "Gemini 4 Neon"
       }
     ]
+  },
+  {
+    "path": "pelican-archive/research/2026-11-20-1500-daily/root/chojondocho-1.mp4",
+    "sha256": "3dac6734d96f0443313e4b9ff1dd85f9180e764ef4a76ffe412fc6a016ab2ba6",
+    "bytes": 1236306,
+    "url": "https://video.twimg.com/amplify_video/2116600727204458496/vid/avc1/1280x720/dU22tfE7-j15qhch.mp4?tag=29",
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chojondocho/status/2116600745315438870",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test01_20261115-2330_balanced.html",
+    "sha256": "5768d76fcaf840008fd84eed9a774de7beaf54667bba295ab57c14a09c83ebe8",
+    "bytes": 12960,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+        "model": "GLM 5.3"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test02_20261115-2338_deepseek-v4.1-flash.html",
+    "sha256": "b2c3d82c262b6af6cd8f344b80eec0887ecf7caf4af5b6966955789f338fa542",
+    "bytes": 17375,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test04_20261115-2340_deepseek-v4.1-flash.html",
+    "sha256": "672a6dcc10445fe61e8543c8f581c7e41a48ed392dc487482acc9c66e6e97311",
+    "bytes": 17898,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test05_20261115-2341_hy4.html",
+    "sha256": "502391ef1f69f99067553ad29056bf6eaec6547eef09009e30a38740cc96f629",
+    "bytes": 26677,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+        "model": "Hy4"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test06_20261115-2345_glm-5.3-flash.html",
+    "sha256": "3c378ecf75426e6f2a47048c2ab0b54a354737b9ecf7645f42203ef89205c439",
+    "bytes": 11084,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+        "model": "GLM 5.3 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test07_20261116-0001_qwen3.8-flash-next.html",
+    "sha256": "afd091d44f0604c4a1694c4f18997e20a24a40b45a9da1589e7b6ebbdac80175",
+    "bytes": 9572,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+        "model": "Qwen3.8 Flash Next"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test08_20261116-0006_hy3.html",
+    "sha256": "48145a046d37dc78dfc7bfab7c15bfca1ad75712098e24aa3e0f16deb2fa96ec",
+    "bytes": 16720,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+        "model": "Hy3"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/test10_20261116-0016_deepseek-v4.1-flash.html",
+    "sha256": "7c26ebe70c1b052bedde6f6207072e100fd8842ced99839ad7318cff12bf2300",
+    "bytes": 19178,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/p01-sunset-ik-20261119.html",
+    "sha256": "9440144aeb3cde878b6e0abc0a037dd6cd88d9ff14068d2095363edf432b170d",
+    "bytes": 15619,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+        "model": "DeepSeek V4.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/p02-gear-ik-20261119.html",
+    "sha256": "4ae3e35d5baea65f0981dce46054cb78755a2117dd415bfe8559eba6112c262b",
+    "bytes": 16770,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+        "model": "Doubao 2.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/p03-pedal-fix-20261119.html",
+    "sha256": "4bf910c24f1e6f5e4feef22d1b81e5ee9731d3c8355b603b0fd7f0988138828f",
+    "bytes": 13253,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+        "model": "Doubao 2.1 Lite"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/p15-kimi-k3.1-pro-20261119.html",
+    "sha256": "d6f8b3d32a81596ec8d2baaaaa5dd9dc4cfb7b7fa1518baf3e931a8cb3086827",
+    "bytes": 32657,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Hunhung/p16-space-bunny-20261119.html",
+    "sha256": "68185a98567dcd28e06667857113eddcc316fa548d3272034f896346f7dba4cf",
+    "bytes": 26654,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+        "model": "Space-Bunny"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/claude/fable5.2/pelican_bike.html",
+    "sha256": "bf5acba485ae1335bac82509abf0a6ba031985030063ab82ad9e1d00516802f1",
+    "bytes": 24434,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/claude/opus5.5/pelican_bicycle.html",
+    "sha256": "0ea98aae5f7ec3760a4d975abedb44014fa7c502619f7310a0b592b58eaf01be",
+    "bytes": 44651,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/gemini/argon/pelican_bicycle.html",
+    "sha256": "183e0a2eba066b8a925b92425f53c9c9fedfeccb179dceeca386e83aceb4d28b",
+    "bytes": 82348,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+        "model": "Gemini 4 Argon"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/gemini/hydrogen/pelican-bicycle.html",
+    "sha256": "25f127176cd0ba0c6c6449995eba201202b06e09f70f1e3c57d9af96842a5dd4",
+    "bytes": 87848,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/gemini/neon/pelican-bicycle.html",
+    "sha256": "b7f98d273efdbb62968c568a3aadbf9dda92e820b6b87f2cc47d0654851c82d7",
+    "bytes": 112228,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/svg/sources/Whisper-creater/gpt/6.2Astra/pelican.html",
+    "sha256": "5a7ec8c0381ec8f976a3983922421bad0e679001ed2631180a6f226b1fbd6ce5",
+    "bytes": 28604,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+        "model": "GPT-6.2 Astra"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123348078690463744/vid/avc1/1920x1080/P_WWzwd9EwF47Z73.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/motion/chetas-pov-original.mp4",
+    "sha256": "13d41951521f173eeb28b9dc0d52355553bb662861c67a3ca9f6ac83339e1842",
+    "bytes": 23548036,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123348177730638016",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/2700x1800/zUla3Cz9qbSva5kY.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/motion/harshith-original.mp4",
+    "sha256": "8a852365fe228a2f2af99ed286f1b0c18c8b57e909a03b911e37b5c64629e673",
+    "bytes": 12478858,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/HarshithLucky3/status/2123165824576114932",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/9/5/3/9535bf36d3d370ed1e11ecb65eeacf0884507f12.webp",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/motion/linuxdo-cyber.webp",
+    "sha256": "7cb64a3637c48956485f3cddaf90074c1d257b2159f3913a3f441b1761d96276",
+    "bytes": 3602250,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3200351",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123164961878982656/vid/avc1/2180x1070/RyN2QjU9MLm6fD77.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/motion/zhang-3d-original.mp4",
+    "sha256": "fc9760ee53481a397667472f17ca38003b8ec9f0917561d371400b6ee1df5fe0",
+    "bytes": 27022001,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zhang_baoqing/status/2123165046276760028",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123157737983107072/vid/avc1/1976x1262/UPoaL3jt3tidDZ4R.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/motion/zhang-html-original.mp4",
+    "sha256": "a773daa31643802710a5195d45e6a5059ecc033683cd1ed8dee75eefc834b692",
+    "bytes": 5490120,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/zhang_baoqing/status/2123157977045852382",
+        "model": "Gemini 4 Neon"
+      }
+    ]
   }
 ]

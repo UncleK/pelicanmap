@@ -353415,5 +353415,2533 @@
       }
     },
     "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-chojondocho-opus55-pelican-got-bicycle-2026-11-01",
+    "originalId": "x-chojondocho-opus55-pelican-got-bicycle-2026-11-01",
+    "kind": "timeline",
+    "title": "鹈鹕的自行车从哪儿来",
+    "model": "Claude Opus 5.5",
+    "author": "Chojondocho (@chojondocho)",
+    "date": "2026-11-01",
+    "month": "2026-11",
+    "notes": "作者标为 Claude Opus 5.5 XHigh，一次提示生成单个动画 SVG，未使用图像或视频模型。故事从鹈鹕得到自行车讲起。保留作者发布的完整录像，尚未找到完整提示词或原 SVG。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chojondocho/status/2116600745315438870",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "XHigh",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/chojondocho-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2116600727204458496/vid/avc1/1280x720/dU22tfE7-j15qhch.mp4?tag=29",
+        "sha256": "3dac6734d96f0443313e4b9ff1dd85f9180e764ef4a76ffe412fc6a016ab2ba6",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2116600727204458496/vid/avc1/1280x720/dU22tfE7-j15qhch.mp4?tag=29",
+          "sourceSha256": "3dac6734d96f0443313e4b9ff1dd85f9180e764ef4a76ffe412fc6a016ab2ba6",
+          "frameTime": 5,
+          "sha256": "b4ea9df0cddb6513f4aeaee313a581a8d4d982d39714f6afca69937c5f716a39"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-20-1500-daily/chojondocho-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/chojondocho-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chojondocho-opus55-pelican-got-bicycle-2026-11-01/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chojondocho-opus55-pelican-got-bicycle-2026-11-01/",
+    "markdown": "/specimens/x-chojondocho-opus55-pelican-got-bicycle-2026-11-01/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与原帖公开的完整录像，未见单独许可。",
+    "i18n": {
+      "en": {
+        "title": "Where the Pelican Got Its Bicycle",
+        "model": "Claude Opus 5.5",
+        "notes": "The creator credits Claude Opus 5.5 XHigh and a single prompt producing one animated SVG, without an image or video model. The film tells how the pelican got its bicycle. The full posted recording is preserved; no verbatim prompt or SVG source was located.",
+        "rights": "The original attribution and complete public recording are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chojondocho/status/2116600745315438870",
+        "https://video.twimg.com/amplify_video/2116600727204458496/vid/avc1/1280x720/dU22tfE7-j15qhch.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chojondocho/status/2116600745315438870"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Opus 5.5 (xhigh)",
+      "sourcePublicationTimestamp": "2026-10-31T18:38:36+00:00",
+      "sourceCodeAvailable": false,
+      "tool": "animated SVG",
+      "reasoningEffort": "xhigh"
+    },
+    "sourcePublicationDate": "2026-11-01"
+  },
+  {
+    "id": "github-hunhung-pelican-output-01-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-01-2026-11-19",
+    "kind": "timeline",
+    "title": "GLM 5.3 · 鹈鹕骑行（作者记录 01）",
+    "model": "GLM 5.3",
+    "author": "Hunhung",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者对照记录第 01 条，平台及模型原标注为「WorkBuddy CLI · 均衡（GLM5.3，档位）」。生成日取作者记录，时区未说明。车轮脱离车体，车架部分变形。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-01-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+        "sha256": "9479dff6a444f9e57ceb99749389a8fff3fe84c41dc7590a3a7421a9cb9bc2cd",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "5768d76fcaf840008fd84eed9a774de7beaf54667bba295ab57c14a09c83ebe8",
+          "frameSha256": "9479dff6a444f9e57ceb99749389a8fff3fe84c41dc7590a3a7421a9cb9bc2cd",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-01-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-01.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+    "path": "/specimens/github-hunhung-pelican-output-01-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-01-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-01-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GLM 5.3 · Pelican Ride (source run 01)",
+        "model": "GLM 5.3",
+        "notes": "Separate source run 01. The platform and model label come from the author (WorkBuddy CLI · 均衡（GLM5.3，档位）). The author records the run date without a time zone. The wheels detach and part of the frame deforms.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM 5.3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · 均衡（GLM5.3，档位）",
+      "sourceReportedRunAt": "2026-11-15 23:29",
+      "sourceFileNumber": "01",
+      "sourceReportedReasoningTokens": 132,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test01_20261115-2330_balanced.html",
+      "sourceHtmlSha256": "5768d76fcaf840008fd84eed9a774de7beaf54667bba295ab57c14a09c83ebe8",
+      "frameSha256": "9479dff6a444f9e57ceb99749389a8fff3fe84c41dc7590a3a7421a9cb9bc2cd",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-02-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-02-2026-11-19",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash · 鹈鹕骑行（作者记录 02）",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Hunhung",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者对照记录第 02 条，平台及模型原标注为「Tongji AI platform API · DeepSeek-V4.1-Flash」。生成日取作者记录，时区未说明。作者指出脚踏与膝关节运动错误。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-02-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+        "sha256": "a452ee43ed912bc4d1c3db663a03145417adaf32cdda3f7a6d07ccb80311e144",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "b2c3d82c262b6af6cd8f344b80eec0887ecf7caf4af5b6966955789f338fa542",
+          "frameSha256": "a452ee43ed912bc4d1c3db663a03145417adaf32cdda3f7a6d07ccb80311e144",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-02-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-02.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+    "path": "/specimens/github-hunhung-pelican-output-02-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-02-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-02-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash · Pelican Ride (source run 02)",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "Separate source run 02. The platform and model label come from the author (Tongji AI platform API · DeepSeek-V4.1-Flash). The author records the run date without a time zone. The author notes incorrect pedal and knee motion.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Tongji AI platform API · DeepSeek-V4.1-Flash",
+      "sourceReportedRunAt": "2026-11-15 23:38",
+      "sourceFileNumber": "02",
+      "sourceReportedReasoningTokens": 13878,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test02_20261115-2338_deepseek-v4.1-flash.html",
+      "sourceHtmlSha256": "b2c3d82c262b6af6cd8f344b80eec0887ecf7caf4af5b6966955789f338fa542",
+      "frameSha256": "a452ee43ed912bc4d1c3db663a03145417adaf32cdda3f7a6d07ccb80311e144",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-04-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-04-2026-11-19",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash · 鹈鹕骑行（作者记录 04）",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Hunhung",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者对照记录第 04 条，平台及模型原标注为「WorkBuddy CLI · DeepSeek-V4.1-Flash」。生成日取作者记录，时区未说明。作者指出鹈鹕身体略高于坐垫。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-04-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+        "sha256": "bd5e36abd7f687c0e623e334ef99176472ee964855a60ab3216435d562bd6b20",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "672a6dcc10445fe61e8543c8f581c7e41a48ed392dc487482acc9c66e6e97311",
+          "frameSha256": "bd5e36abd7f687c0e623e334ef99176472ee964855a60ab3216435d562bd6b20",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-04-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-04.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+    "path": "/specimens/github-hunhung-pelican-output-04-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-04-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-04-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash · Pelican Ride (source run 04)",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "Separate source run 04. The platform and model label come from the author (WorkBuddy CLI · DeepSeek-V4.1-Flash). The author records the run date without a time zone. The author notes that the rider sits a little above the saddle.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · DeepSeek-V4.1-Flash",
+      "sourceReportedRunAt": "2026-11-15 23:40",
+      "sourceFileNumber": "04",
+      "sourceReportedReasoningTokens": 19717,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test04_20261115-2340_deepseek-v4.1-flash.html",
+      "sourceHtmlSha256": "672a6dcc10445fe61e8543c8f581c7e41a48ed392dc487482acc9c66e6e97311",
+      "frameSha256": "bd5e36abd7f687c0e623e334ef99176472ee964855a60ab3216435d562bd6b20",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-05-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-05-2026-11-19",
+    "kind": "timeline",
+    "title": "Hy4 · 鹈鹕骑行（作者记录 05）",
+    "model": "Hy4",
+    "author": "Hunhung",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者对照记录第 05 条，平台及模型原标注为「WorkBuddy CLI · Hy4」。生成日取作者记录，时区未说明。作者指出脚踏区域有穿模。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-05-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+        "sha256": "6228113ce9b955530c8cdd56de841d189b47f8887bb63d5e9629ac7238aacecf",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "502391ef1f69f99067553ad29056bf6eaec6547eef09009e30a38740cc96f629",
+          "frameSha256": "6228113ce9b955530c8cdd56de841d189b47f8887bb63d5e9629ac7238aacecf",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-05-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-05.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+    "path": "/specimens/github-hunhung-pelican-output-05-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-05-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-05-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Hy4 · Pelican Ride (source run 05)",
+        "model": "Hy4",
+        "notes": "Separate source run 05. The platform and model label come from the author (WorkBuddy CLI · Hy4). The author records the run date without a time zone. The author notes intersections around the pedals.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · Hy4",
+      "sourceReportedRunAt": "2026-11-15 23:41",
+      "sourceFileNumber": "05",
+      "sourceReportedReasoningTokens": 4647,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test05_20261115-2341_hy4.html",
+      "sourceHtmlSha256": "502391ef1f69f99067553ad29056bf6eaec6547eef09009e30a38740cc96f629",
+      "frameSha256": "6228113ce9b955530c8cdd56de841d189b47f8887bb63d5e9629ac7238aacecf",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-06-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-06-2026-11-19",
+    "kind": "timeline",
+    "title": "GLM 5.3 Flash · 鹈鹕骑行（作者记录 06）",
+    "model": "GLM 5.3 Flash",
+    "author": "Hunhung",
+    "date": "2026-11-15",
+    "month": "2026-11",
+    "notes": "作者对照记录第 06 条，平台及模型原标注为「WorkBuddy CLI · GLM-5.3-Flash」。生成日取作者记录，时区未说明。车轮和肢体位置有明显错误。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-06-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+        "sha256": "bcd8106198762c7b80e6a0ef3e8fc26e9972cef136834dcfe04dc6d92898684c",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "3c378ecf75426e6f2a47048c2ab0b54a354737b9ecf7645f42203ef89205c439",
+          "frameSha256": "bcd8106198762c7b80e6a0ef3e8fc26e9972cef136834dcfe04dc6d92898684c",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-06-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-06.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+    "path": "/specimens/github-hunhung-pelican-output-06-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-06-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-06-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GLM 5.3 Flash · Pelican Ride (source run 06)",
+        "model": "GLM 5.3 Flash",
+        "notes": "Separate source run 06. The platform and model label come from the author (WorkBuddy CLI · GLM-5.3-Flash). The author records the run date without a time zone. The wheel and limb placement are visibly flawed.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GLM 5.3 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · GLM-5.3-Flash",
+      "sourceReportedRunAt": "2026-11-15 23:45",
+      "sourceFileNumber": "06",
+      "sourceReportedReasoningTokens": 87,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test06_20261115-2345_glm-5.3-flash.html",
+      "sourceHtmlSha256": "3c378ecf75426e6f2a47048c2ab0b54a354737b9ecf7645f42203ef89205c439",
+      "frameSha256": "bcd8106198762c7b80e6a0ef3e8fc26e9972cef136834dcfe04dc6d92898684c",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-07-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-07-2026-11-19",
+    "kind": "timeline",
+    "title": "Qwen3.8 Flash Next · 鹈鹕骑行（作者记录 07）",
+    "model": "Qwen3.8 Flash Next",
+    "author": "Hunhung",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者对照记录第 07 条，平台及模型原标注为「Tongji AI platform API · Qwen3.8-Flash-Next」。生成日取作者记录，时区未说明。作者指出车轮错位，踩踏动作不连贯。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-07-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+        "sha256": "267606a83bc48e802c2ace516b97db2b237a9a543aee54cfeceb5c62c35e0800",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "afd091d44f0604c4a1694c4f18997e20a24a40b45a9da1589e7b6ebbdac80175",
+          "frameSha256": "267606a83bc48e802c2ace516b97db2b237a9a543aee54cfeceb5c62c35e0800",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-07-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-07.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+    "path": "/specimens/github-hunhung-pelican-output-07-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-07-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-07-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Qwen3.8 Flash Next · Pelican Ride (source run 07)",
+        "model": "Qwen3.8 Flash Next",
+        "notes": "Separate source run 07. The platform and model label come from the author (Tongji AI platform API · Qwen3.8-Flash-Next). The author records the run date without a time zone. The author reports misaligned wheels and inconsistent pedaling.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen3.8 Flash Next"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Tongji AI platform API · Qwen3.8-Flash-Next",
+      "sourceReportedRunAt": "2026-11-16 00:01",
+      "sourceFileNumber": "07",
+      "sourceReportedReasoningTokens": null,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test07_20261116-0001_qwen3.8-flash-next.html",
+      "sourceHtmlSha256": "afd091d44f0604c4a1694c4f18997e20a24a40b45a9da1589e7b6ebbdac80175",
+      "frameSha256": "267606a83bc48e802c2ace516b97db2b237a9a543aee54cfeceb5c62c35e0800",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-08-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-08-2026-11-19",
+    "kind": "timeline",
+    "title": "Hy3 · 鹈鹕骑行（作者记录 08）",
+    "model": "Hy3",
+    "author": "Hunhung",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者对照记录第 08 条，平台及模型原标注为「WorkBuddy CLI · Hy3」。生成日取作者记录，时区未说明。作者指出脚踏穿模及图层关系错误。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-08-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+        "sha256": "3c120efb1b48ca78203274743bc44b6b2479ab453fb261d1059f5de35b999c5b",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "48145a046d37dc78dfc7bfab7c15bfca1ad75712098e24aa3e0f16deb2fa96ec",
+          "frameSha256": "3c120efb1b48ca78203274743bc44b6b2479ab453fb261d1059f5de35b999c5b",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-08-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-08.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+    "path": "/specimens/github-hunhung-pelican-output-08-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-08-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-08-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Hy3 · Pelican Ride (source run 08)",
+        "model": "Hy3",
+        "notes": "Separate source run 08. The platform and model label come from the author (WorkBuddy CLI · Hy3). The author records the run date without a time zone. The author notes pedal intersections and layering problems.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Hy3"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · Hy3",
+      "sourceReportedRunAt": "2026-11-16 00:06",
+      "sourceFileNumber": "08",
+      "sourceReportedReasoningTokens": 2914,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test08_20261116-0006_hy3.html",
+      "sourceHtmlSha256": "48145a046d37dc78dfc7bfab7c15bfca1ad75712098e24aa3e0f16deb2fa96ec",
+      "frameSha256": "3c120efb1b48ca78203274743bc44b6b2479ab453fb261d1059f5de35b999c5b",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-09-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-09-2026-11-19",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash · 鹈鹕骑行（作者记录 09）",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Hunhung",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者对照记录第 09 条，平台及模型原标注为「Tongji AI platform API · DeepSeek-V4.1-Flash」。生成日取作者记录，时区未说明。独立 API 运行，作者指出地面滚动方向错误。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-09-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+        "sha256": "c32dd0ca6d6b8c68a367aa48b228302798938aa48a93e1154f634ddd195293a7",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "7c26ebe70c1b052bedde6f6207072e100fd8842ced99839ad7318cff12bf2300",
+          "frameSha256": "c32dd0ca6d6b8c68a367aa48b228302798938aa48a93e1154f634ddd195293a7",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-09-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-09.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+    "path": "/specimens/github-hunhung-pelican-output-09-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-09-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-09-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash · Pelican Ride (source run 09)",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "Separate source run 09. The platform and model label come from the author (Tongji AI platform API · DeepSeek-V4.1-Flash). The author records the run date without a time zone. A separate timed API run. The author notes that the ground scrolls in the wrong direction.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Tongji AI platform API · DeepSeek-V4.1-Flash",
+      "sourceReportedRunAt": "2026-11-16 00:16",
+      "sourceFileNumber": "09",
+      "sourceReportedReasoningTokens": 24424,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/test10_20261116-0016_deepseek-v4.1-flash.html",
+      "sourceHtmlSha256": "7c26ebe70c1b052bedde6f6207072e100fd8842ced99839ad7318cff12bf2300",
+      "frameSha256": "c32dd0ca6d6b8c68a367aa48b228302798938aa48a93e1154f634ddd195293a7",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-11-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-11-2026-11-19",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash · 鹈鹕骑行（作者记录 11）",
+    "model": "DeepSeek V4.1 Flash",
+    "author": "Hunhung",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者对照记录第 11 条，平台及模型原标注为「Doubao desktop Agent · DeepSeek-V4.1-Flash (author-supplied)」。生成日取作者记录，时区未说明。作者指出车轮细节缺失及脚踏穿模。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-11-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+        "sha256": "07f1076e9d867aeddffd9dc13e24631eb82db5032a4b9a516f7f194c3e7ece6f",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "9440144aeb3cde878b6e0abc0a037dd6cd88d9ff14068d2095363edf432b170d",
+          "frameSha256": "07f1076e9d867aeddffd9dc13e24631eb82db5032a4b9a516f7f194c3e7ece6f",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-11-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-11.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+    "path": "/specimens/github-hunhung-pelican-output-11-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-11-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-11-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash · Pelican Ride (source run 11)",
+        "model": "DeepSeek V4.1 Flash",
+        "notes": "Separate source run 11. The platform and model label come from the author (Doubao desktop Agent · DeepSeek-V4.1-Flash (author-supplied)). The author records the run date without a time zone. The author notes incomplete wheel and pedal geometry.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Doubao desktop Agent · DeepSeek-V4.1-Flash (author-supplied)",
+      "sourceReportedRunAt": "2026-11-19 18:50",
+      "sourceFileNumber": "11",
+      "sourceReportedReasoningTokens": null,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p01-sunset-ik-20261119.html",
+      "sourceHtmlSha256": "9440144aeb3cde878b6e0abc0a037dd6cd88d9ff14068d2095363edf432b170d",
+      "frameSha256": "07f1076e9d867aeddffd9dc13e24631eb82db5032a4b9a516f7f194c3e7ece6f",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-12-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-12-2026-11-19",
+    "kind": "timeline",
+    "title": "Doubao 2.1 Pro · 鹈鹕骑行（作者记录 12）",
+    "model": "Doubao 2.1 Pro",
+    "author": "Hunhung",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者对照记录第 12 条，平台及模型原标注为「Doubao desktop Agent · 豆包 2.1 Pro（用户补充）」。生成日取作者记录，时区未说明。作者指出地面滚动反向，膝盖动作不够顺畅。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-12-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+        "sha256": "f0be3e1fdec7906dcc8f9070ca3c6515d472d9be144f1fb342bb1d1fabc91d8e",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "4ae3e35d5baea65f0981dce46054cb78755a2117dd415bfe8559eba6112c262b",
+          "frameSha256": "f0be3e1fdec7906dcc8f9070ca3c6515d472d9be144f1fb342bb1d1fabc91d8e",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-12-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-12.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+    "path": "/specimens/github-hunhung-pelican-output-12-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-12-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-12-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Doubao 2.1 Pro · Pelican Ride (source run 12)",
+        "model": "Doubao 2.1 Pro",
+        "notes": "Separate source run 12. The platform and model label come from the author (Doubao desktop Agent · 豆包 2.1 Pro（用户补充）). The author records the run date without a time zone. The author notes a backward-scrolling road and stiff knees.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Doubao 2.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Doubao desktop Agent · 豆包 2.1 Pro（用户补充）",
+      "sourceReportedRunAt": "2026-11-19 18:36",
+      "sourceFileNumber": "12",
+      "sourceReportedReasoningTokens": null,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p02-gear-ik-20261119.html",
+      "sourceHtmlSha256": "4ae3e35d5baea65f0981dce46054cb78755a2117dd415bfe8559eba6112c262b",
+      "frameSha256": "f0be3e1fdec7906dcc8f9070ca3c6515d472d9be144f1fb342bb1d1fabc91d8e",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-13-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-13-2026-11-19",
+    "kind": "timeline",
+    "title": "Doubao 2.1 Lite · 鹈鹕骑行（作者记录 13）",
+    "model": "Doubao 2.1 Lite",
+    "author": "Hunhung",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者对照记录第 13 条，平台及模型原标注为「Doubao desktop Agent · 豆包 2.1 Lite（用户补充）」。生成日取作者记录，时区未说明。作者指出腿与身体分离、没有链条。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-13-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+        "sha256": "03c36d48d993a91cff2d3e8087f3278cc5eaebdd9f18fefb1f642e9992f58f56",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "4bf910c24f1e6f5e4feef22d1b81e5ee9731d3c8355b603b0fd7f0988138828f",
+          "frameSha256": "03c36d48d993a91cff2d3e8087f3278cc5eaebdd9f18fefb1f642e9992f58f56",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-13-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-13.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+    "path": "/specimens/github-hunhung-pelican-output-13-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-13-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-13-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Doubao 2.1 Lite · Pelican Ride (source run 13)",
+        "model": "Doubao 2.1 Lite",
+        "notes": "Separate source run 13. The platform and model label come from the author (Doubao desktop Agent · 豆包 2.1 Lite（用户补充）). The author records the run date without a time zone. The author notes that the legs detach and the chain is missing.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Doubao 2.1 Lite"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Doubao desktop Agent · 豆包 2.1 Lite（用户补充）",
+      "sourceReportedRunAt": "2026-11-19 18:32",
+      "sourceFileNumber": "13",
+      "sourceReportedReasoningTokens": null,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p03-pedal-fix-20261119.html",
+      "sourceHtmlSha256": "4bf910c24f1e6f5e4feef22d1b81e5ee9731d3c8355b603b0fd7f0988138828f",
+      "frameSha256": "03c36d48d993a91cff2d3e8087f3278cc5eaebdd9f18fefb1f642e9992f58f56",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-15-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-15-2026-11-19",
+    "kind": "timeline",
+    "title": "Kimi K3.1 Pro · 鹈鹕骑行（作者记录 15）",
+    "model": "Kimi K3.1 Pro",
+    "author": "Hunhung",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者对照记录第 15 条，平台及模型原标注为「WorkBuddy CLI · Kimi-K3.1-Pro」。生成日取作者记录，时区未说明。作者称本次未发现明显运动逻辑问题。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-15-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+        "sha256": "7932c7c05a725a6afa08f01762eb022a5a4174a67041681c913c15f104aaf598",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "d6f8b3d32a81596ec8d2baaaaa5dd9dc4cfb7b7fa1518baf3e931a8cb3086827",
+          "frameSha256": "7932c7c05a725a6afa08f01762eb022a5a4174a67041681c913c15f104aaf598",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-15-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-15.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+    "path": "/specimens/github-hunhung-pelican-output-15-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-15-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-15-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Kimi K3.1 Pro · Pelican Ride (source run 15)",
+        "model": "Kimi K3.1 Pro",
+        "notes": "Separate source run 15. The platform and model label come from the author (WorkBuddy CLI · Kimi-K3.1-Pro). The author records the run date without a time zone. The author reported no obvious motion logic issues in this run.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · Kimi-K3.1-Pro",
+      "sourceReportedRunAt": "2026-11-19 23:18",
+      "sourceFileNumber": "15",
+      "sourceReportedReasoningTokens": 8435,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p15-kimi-k3.1-pro-20261119.html",
+      "sourceHtmlSha256": "d6f8b3d32a81596ec8d2baaaaa5dd9dc4cfb7b7fa1518baf3e931a8cb3086827",
+      "frameSha256": "7932c7c05a725a6afa08f01762eb022a5a4174a67041681c913c15f104aaf598",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-hunhung-pelican-output-16-2026-11-19",
+    "originalId": "github-hunhung-pelican-output-16-2026-11-19",
+    "kind": "timeline",
+    "title": "Space-Bunny · 鹈鹕骑行（作者记录 16）",
+    "model": "Space-Bunny",
+    "author": "Hunhung",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者对照记录第 16 条，平台及模型原标注为「WorkBuddy CLI · Space-Bunny」。生成日取作者记录，时区未说明。作者指出腿部穿模，链条运动反向。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+    "dateBasis": "source-reported-generation",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/hunhung-run-16-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+        "sha256": "6c4d3a058d11e5189ebbaf04c0da55cc6acd11a74fdc7f209dd86b7dd4eae6d3",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "68185a98567dcd28e06667857113eddcc316fa548d3272034f896346f7dba4cf",
+          "frameSha256": "6c4d3a058d11e5189ebbaf04c0da55cc6acd11a74fdc7f209dd86b7dd4eae6d3",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/hunhung-run-16-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/hunhung-pelican-nov19/output-16.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+    "path": "/specimens/github-hunhung-pelican-output-16-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-hunhung-pelican-output-16-2026-11-19/",
+    "markdown": "/specimens/github-hunhung-pelican-output-16-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Space-Bunny · Pelican Ride (source run 16)",
+        "model": "Space-Bunny",
+        "notes": "Separate source run 16. The platform and model label come from the author (WorkBuddy CLI · Space-Bunny). The author records the run date without a time zone. The author reports intersections around the legs and incorrect chain motion.",
+        "rights": "Author attribution and the exact public source are preserved. No separate work license is listed.",
+        "promptStatus": "创建一个 html，内容是用 svg 绘制一个鹈鹕骑自行车的 2d 动画",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+        "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+        "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+        "https://github.com/Hunhung/pelican-bike-tests/commit/ae13e71d5a25dceff76224d02af80bcac239cbab"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Space-Bunny"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/README.md",
+      "https://github.com/Hunhung/pelican-bike-tests/blob/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+      "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "WorkBuddy CLI · Space-Bunny",
+      "sourceReportedRunAt": "2026-11-19 23:17",
+      "sourceFileNumber": "16",
+      "sourceReportedReasoningTokens": 19980,
+      "sourceRevision": "ae13e71d5a25dceff76224d02af80bcac239cbab"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Hunhung/pelican-bike-tests/ae13e71d5a25dceff76224d02af80bcac239cbab/p16-space-bunny-20261119.html",
+      "sourceHtmlSha256": "68185a98567dcd28e06667857113eddcc316fa548d3272034f896346f7dba4cf",
+      "frameSha256": "6c4d3a058d11e5189ebbaf04c0da55cc6acd11a74fdc7f209dd86b7dd4eae6d3",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Exact source rendered in isolated Chromium. Verified scene changes in two frames with no external requests."
+    }
+  },
+  {
+    "id": "github-whisper-creater-fable52-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-fable52-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 · 高档写实鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-fable52-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+        "sha256": "64bf6081928bb5ebfdc4aab7133d5c2b0a2db9c66b1d14dce8c919465feee42c",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "bf5acba485ae1335bac82509abf0a6ba031985030063ab82ad9e1d00516802f1",
+          "frameSha256": "64bf6081928bb5ebfdc4aab7133d5c2b0a2db9c66b1d14dce8c919465feee42c",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-fable52-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/fable52.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+    "path": "/specimens/github-whisper-creater-fable52-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-fable52-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-fable52-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 · Realistic Pelican Ride (High)",
+        "model": "Claude Fable 5.2",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/af26e6ae81b747f609e49459f2da63c245eaa84c",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Fable 5.2",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:30:35Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/fable5.2/pelican_bike.html",
+      "sourceHtmlSha256": "bf5acba485ae1335bac82509abf0a6ba031985030063ab82ad9e1d00516802f1",
+      "frameSha256": "64bf6081928bb5ebfdc4aab7133d5c2b0a2db9c66b1d14dce8c919465feee42c",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "github-whisper-creater-opus55-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-opus55-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 · 高档写实鹈鹕骑车",
+    "model": "Claude Opus 5.5",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-opus55-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+        "sha256": "b325ec2a4395692f11f5fb9a2ea4c2e1c91e806da2fb04b83d31e64e8fdb88b8",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "0ea98aae5f7ec3760a4d975abedb44014fa7c502619f7310a0b592b58eaf01be",
+          "frameSha256": "b325ec2a4395692f11f5fb9a2ea4c2e1c91e806da2fb04b83d31e64e8fdb88b8",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-opus55-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/opus55.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+    "path": "/specimens/github-whisper-creater-opus55-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-opus55-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-opus55-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 · Realistic Pelican Ride (High)",
+        "model": "Claude Opus 5.5",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Opus 5.5",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:34:21Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/claude/opus5.5/pelican_bicycle.html",
+      "sourceHtmlSha256": "0ea98aae5f7ec3760a4d975abedb44014fa7c502619f7310a0b592b58eaf01be",
+      "frameSha256": "b325ec2a4395692f11f5fb9a2ea4c2e1c91e806da2fb04b83d31e64e8fdb88b8",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "github-whisper-creater-argon-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-argon-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "Gemini 4 Argon · 高档写实鹈鹕骑车",
+    "model": "Gemini 4 Argon",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-argon-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+        "sha256": "22820e1207f245525e9bccc6658a25a79481e0df533eb9b8afa63526ee2745a7",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "183e0a2eba066b8a925b92425f53c9c9fedfeccb179dceeca386e83aceb4d28b",
+          "frameSha256": "22820e1207f245525e9bccc6658a25a79481e0df533eb9b8afa63526ee2745a7",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-argon-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/argon.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+    "path": "/specimens/github-whisper-creater-argon-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-argon-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-argon-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Argon · Realistic Pelican Ride (High)",
+        "model": "Gemini 4 Argon",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/af26e6ae81b747f609e49459f2da63c245eaa84c",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Argon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Argon",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:30:35Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/argon/pelican_bicycle.html",
+      "sourceHtmlSha256": "183e0a2eba066b8a925b92425f53c9c9fedfeccb179dceeca386e83aceb4d28b",
+      "frameSha256": "22820e1207f245525e9bccc6658a25a79481e0df533eb9b8afa63526ee2745a7",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "github-whisper-creater-hydrogen-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-hydrogen-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "Gemini 4 Hydrogen · 高档写实鹈鹕骑车",
+    "model": "Gemini 4 Hydrogen",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-hydrogen-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+        "sha256": "ee541fcd67d5c3dea7e997dbf1eda6457dffdc6159dd593733e215232e4ca2b7",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "25f127176cd0ba0c6c6449995eba201202b06e09f70f1e3c57d9af96842a5dd4",
+          "frameSha256": "ee541fcd67d5c3dea7e997dbf1eda6457dffdc6159dd593733e215232e4ca2b7",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-hydrogen-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/hydrogen.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+    "path": "/specimens/github-whisper-creater-hydrogen-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-hydrogen-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-hydrogen-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Hydrogen · Realistic Pelican Ride (High)",
+        "model": "Gemini 4 Hydrogen",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/af26e6ae81b747f609e49459f2da63c245eaa84c",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Hydrogen"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Hydrogen",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:30:35Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/hydrogen/pelican-bicycle.html",
+      "sourceHtmlSha256": "25f127176cd0ba0c6c6449995eba201202b06e09f70f1e3c57d9af96842a5dd4",
+      "frameSha256": "ee541fcd67d5c3dea7e997dbf1eda6457dffdc6159dd593733e215232e4ca2b7",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "github-whisper-creater-neon-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-neon-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 高档写实鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-neon-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+        "sha256": "554e352a82a67fb7ada821d439fd95c4f50871e60d14d3e04549a0f56e323c2d",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "b7f98d273efdbb62968c568a3aadbf9dda92e820b6b87f2cc47d0654851c82d7",
+          "frameSha256": "554e352a82a67fb7ada821d439fd95c4f50871e60d14d3e04549a0f56e323c2d",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-neon-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/neon.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+    "path": "/specimens/github-whisper-creater-neon-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-neon-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-neon-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Realistic Pelican Ride (High)",
+        "model": "Gemini 4 Neon",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/af26e6ae81b747f609e49459f2da63c245eaa84c",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:30:35Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gemini/neon/pelican-bicycle.html",
+      "sourceHtmlSha256": "b7f98d273efdbb62968c568a3aadbf9dda92e820b6b87f2cc47d0654851c82d7",
+      "frameSha256": "554e352a82a67fb7ada821d439fd95c4f50871e60d14d3e04549a0f56e323c2d",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "github-whisper-creater-astra62-svg-animation-2026-11-20",
+    "originalId": "github-whisper-creater-astra62-svg-animation-2026-11-20",
+    "kind": "timeline",
+    "title": "GPT-6.2 Astra · 高档写实鹈鹕骑车",
+    "model": "GPT-6.2 Astra",
+    "author": "Whisper-creater",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "同一作者用同一题面公开的独立 SVG 动画输出。High 为作者发布说明标注；日期取该文件首次公开提交，生成日期未单独证实。原文件及实际运行画面均保留。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "High",
+    "promptCategory": "classic",
+    "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/whisper-creater-astra62-playback-frame.png",
+        "source": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+        "sha256": "b0cedfbe34d966cc81b7a8b8c37644ed8c57d7640b82cea6947d46ee08964f04",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "5a7ec8c0381ec8f976a3983922421bad0e679001ed2631180a6f226b1fbd6ce5",
+          "frameSha256": "b0cedfbe34d966cc81b7a8b8c37644ed8c57d7640b82cea6947d46ee08964f04",
+          "viewport": {
+            "width": 960,
+            "height": 640
+          },
+          "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+        },
+        "caption": "原 HTML 实际运行动画帧",
+        "captionEn": "Frame from the original animation",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/whisper-creater-astra62-playback-frame.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/whisper-creater-pelican-nov20/astra62.html",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+    "path": "/specimens/github-whisper-creater-astra62-svg-animation-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-whisper-creater-astra62-svg-animation-2026-11-20/",
+    "markdown": "/specimens/github-whisper-creater-astra62-svg-animation-2026-11-20/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名与公开仓库原件，来源未单列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Astra · Realistic Pelican Ride (High)",
+        "model": "GPT-6.2 Astra",
+        "notes": "One independently labeled SVG animation from the author’s comparison using the same prompt. High is the author’s reported setting. The date follows the first public commit for this file. The generation date was not separately established. The full HTML and an actual playback frame are preserved.",
+        "rights": "Author attribution and the exact public source file are preserved. The repository lists no separate license for the work.",
+        "promptStatus": "创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画,写实风格,尽可能精细,不要读取记忆,从头开始做",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+        "https://github.com/Whisper-creater/pelican-bicycle-model-test/commit/af26e6ae81b747f609e49459f2da63c245eaa84c",
+        "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Astra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+      "https://github.com/Whisper-creater/pelican-bicycle-model-test/blob/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/README.md",
+      "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-6.2 Astra",
+      "reasoningEffort": "High",
+      "sourcePublicationTimestamp": "2026-11-20T06:30:35Z",
+      "sourceRevision": "fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a"
+    },
+    "sourcePublicationDate": "2026-11-20",
+    "frameProvenance": {
+      "sourceHtml": "https://raw.githubusercontent.com/Whisper-creater/pelican-bicycle-model-test/fdb4aba002a7a99ff2c1b18a24d94cc7f2953a9a/gpt/6.2Astra/pelican.html",
+      "sourceHtmlSha256": "5a7ec8c0381ec8f976a3983922421bad0e679001ed2631180a6f226b1fbd6ce5",
+      "frameSha256": "b0cedfbe34d966cc81b7a8b8c37644ed8c57d7640b82cea6947d46ee08964f04",
+      "viewport": {
+        "width": 960,
+        "height": 640
+      },
+      "method": "Isolated Chromium rendering of unchanged HTML, no outbound network. Two frames show changes in the pedaling scene."
+    }
+  },
+  {
+    "id": "x-chetaslua-gemini4-neon-pelican-pov-2026-11-19",
+    "originalId": "x-chetaslua-gemini4-neon-pelican-pov-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 鹈鹕视角",
+    "model": "Gemini 4 Neon",
+    "author": "Chetaslua (@chetaslua)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者引用自己早前的 Astra 短片，并公开本次 Gemini 4 Neon 的独立代码生成版本。短片从鹈鹕视角演绎反复被用于基准测试的经历。馆藏保留完整录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2123348177730638016",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/chetas-pov-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123348078690463744/vid/avc1/1920x1080/P_WWzwd9EwF47Z73.mp4?tag=29",
+        "sha256": "13d41951521f173eeb28b9dc0d52355553bb662861c67a3ca9f6ac83339e1842",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123348078690463744/vid/avc1/1920x1080/P_WWzwd9EwF47Z73.mp4?tag=29",
+          "sourceSha256": "13d41951521f173eeb28b9dc0d52355553bb662861c67a3ca9f6ac83339e1842",
+          "frameTime": 10,
+          "sha256": "43e136c767ce5f70513a2a3e0ac1edadda264e210d2b65205ac95ad859b045b7"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-20-1500-daily/chetas-pov-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/chetas-pov-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-chetaslua-gemini4-neon-pelican-pov-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-gemini4-neon-pelican-pov-2026-11-19/",
+    "markdown": "/specimens/x-chetaslua-gemini4-neon-pelican-pov-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名及完整公开原片，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Pelican POV",
+        "model": "Gemini 4 Neon",
+        "notes": "The author quotes their earlier Astra film and posts this separate coded version credited to Gemini 4 Neon. It tells the story of repeated benchmark testing from the pelican’s point of view. The full recording is preserved.",
+        "rights": "Original attribution and the complete public recording are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2123348177730638016",
+        "https://video.twimg.com/amplify_video/2123348078690463744/vid/avc1/1920x1080/P_WWzwd9EwF47Z73.mp4?tag=29",
+        "https://x.com/chetaslua/status/2123051098730799214"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2123348177730638016"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "sourcePublicationTimestamp": "2026-11-19T09:30:30Z",
+      "promptStatus": "Verbatim complete prompt not located in public source.",
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123348078690463744",
+        "width": 1920,
+        "height": 1080,
+        "videoDurationSeconds": 55.170612,
+        "audio": true,
+        "decodedFrames": 3307
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-harshithlucky3-gemini4-neon-high-frustrated-pelican-2026-11-19",
+    "originalId": "x-harshithlucky3-gemini4-neon-high-frustrated-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon High · 烦躁的鹈鹕",
+    "model": "Gemini 4 Neon",
+    "author": "Harshith (@HarshithLucky3)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "短片让骑车鹈鹕吐槽反复参加基准测试。作者明确说明它是在 AI Studio 用 Gemini 4 Neon High 生成的 SVG，馆藏保存作者公开的完整录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/HarshithLucky3/status/2123165824576114932",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/harshith-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/2700x1800/zUla3Cz9qbSva5kY.mp4?tag=29",
+        "sha256": "8a852365fe228a2f2af99ed286f1b0c18c8b57e909a03b911e37b5c64629e673",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/2700x1800/zUla3Cz9qbSva5kY.mp4?tag=29",
+          "sourceSha256": "8a852365fe228a2f2af99ed286f1b0c18c8b57e909a03b911e37b5c64629e673",
+          "frameTime": 5,
+          "sha256": "3a27cef4c94d85c8a30fe95e0285e876d0fded6571dbd1faf61a980cd6dbbcc8"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-20-1500-daily/harshith-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/harshith-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-harshithlucky3-gemini4-neon-high-frustrated-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-harshithlucky3-gemini4-neon-high-frustrated-pelican-2026-11-19/",
+    "markdown": "/specimens/x-harshithlucky3-gemini4-neon-high-frustrated-pelican-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名及完整公开原片，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon High · Frustrated pelican",
+        "model": "Gemini 4 Neon",
+        "notes": "The short has the cycling pelican complain about repeatedly serving as a benchmark. The author credits an SVG made with Gemini 4 Neon High in AI Studio. The archive preserves the full published recording.",
+        "rights": "Original attribution and the complete public recording are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/HarshithLucky3/status/2123165824576114932",
+        "https://video.twimg.com/amplify_video/2123165465526870016/vid/avc1/2700x1800/zUla3Cz9qbSva5kY.mp4?tag=29",
+        "https://x.com/Google/status/2123204785805607314",
+        "https://x.com/googledevs/status/2123198829491274181",
+        "https://x.com/erenulu_/status/2123166099864985858"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/HarshithLucky3/status/2123165824576114932"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 neon high in AI Studio",
+      "sourcePublicationTimestamp": "2026-11-18T21:25:53Z",
+      "promptStatus": "Verbatim complete prompt not located in public source.",
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123165465526870016",
+        "width": 2700,
+        "height": 1800,
+        "videoDurationSeconds": 13.162667,
+        "audio": true,
+        "decodedFrames": 393
+      },
+      "effort": "High",
+      "tool": "AI Studio"
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "linuxdo-cyber-one-gemini4-neon-xhigh-realistic-pelican-2026-11-19",
+    "originalId": "linuxdo-cyber-one-gemini4-neon-xhigh-realistic-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon XHigh · 海边木栈道骑行",
+    "model": "Gemini 4 Neon",
+    "author": "cyber_one",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者公开写明模型档位和 HTML 内嵌 SVG 动画的原始提示词。馆藏保存作者原帖上传的动画 WebP，未取得原 HTML 文件。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3200351",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "不读取本地文件和skills，生成一个html，内容是鹈鹕骑自行车的2d svg动画，尽可能精致生动，写实画风",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/linuxdo-cyber-neon-original.webp",
+        "source": "https://cdn3.ldstatic.com/original/4X/9/5/3/9535bf36d3d370ed1e11ecb65eeacf0884507f12.webp",
+        "sha256": "7cb64a3637c48956485f3cddaf90074c1d257b2159f3913a3f441b1761d96276",
+        "caption": "作者上传的原始动态 WebP",
+        "captionEn": "Original author-uploaded animated WebP",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/linuxdo-cyber-neon-original.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-cyber-one-gemini4-neon-xhigh-realistic-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-cyber-one-gemini4-neon-xhigh-realistic-pelican-2026-11-19/",
+    "markdown": "/specimens/linuxdo-cyber-one-gemini4-neon-xhigh-realistic-pelican-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留公开原始动图和作者署名，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon XHigh · Cycling along a coastal boardwalk",
+        "model": "Gemini 4 Neon",
+        "notes": "The author gives the model setting and original prompt for an SVG animation in HTML. The archive preserves the animated WebP posted by the author. The underlying HTML was not located.",
+        "rights": "Original public animation and attribution are preserved. No separate license was located.",
+        "promptStatus": "不读取本地文件和skills，生成一个html，内容是鹈鹕骑自行车的2d svg动画，尽可能精致生动，写实画风",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3200351",
+        "https://cdn3.ldstatic.com/original/4X/9/5/3/9535bf36d3d370ed1e11ecb65eeacf0884507f12.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3200351"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Neon xhigh",
+      "effort": "XHigh",
+      "tool": "HTML / SVG",
+      "sourcePublicationTimestamp": "2026-11-19T00:36:00Z",
+      "sourcePublicationTimePrecision": "minute",
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "width": 1598,
+        "height": 896,
+        "decodedFrames": 56
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-zhang-baoqing-gemini4-neon-threejs-pelican-2026-11-19",
+    "originalId": "x-zhang-baoqing-gemini4-neon-threejs-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 立体鹈鹕骑行",
+    "model": "Gemini 4 Neon",
+    "author": "@zhang_baoqing",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者将此鹈鹕骑行演示标为 Gemini 4 Neon 的 Three.js 实验。保留完整原录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/zhang_baoqing/status/2123165046276760028",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/zhang-3d-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123164961878982656/vid/avc1/2180x1070/RyN2QjU9MLm6fD77.mp4?tag=29",
+        "sha256": "fc9760ee53481a397667472f17ca38003b8ec9f0917561d371400b6ee1df5fe0",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123164961878982656/vid/avc1/2180x1070/RyN2QjU9MLm6fD77.mp4?tag=29",
+          "sourceSha256": "fc9760ee53481a397667472f17ca38003b8ec9f0917561d371400b6ee1df5fe0",
+          "frameTime": 7,
+          "sha256": "665edb3d16688d83007353ec31a66a12c4ed1463c2e14ab03ca6d70ef6239743"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-20-1500-daily/zhang-3d-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/zhang-3d-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-zhang-baoqing-gemini4-neon-threejs-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-zhang-baoqing-gemini4-neon-threejs-pelican-2026-11-19/",
+    "markdown": "/specimens/x-zhang-baoqing-gemini4-neon-threejs-pelican-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名及完整公开原片，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · 3D pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The author identifies this cycling pelican as a Gemini 4 Neon experiment using Three.js. The complete published recording is preserved.",
+        "rights": "Original attribution and the complete public recording are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/zhang_baoqing/status/2123165046276760028",
+        "https://video.twimg.com/amplify_video/2123164961878982656/vid/avc1/2180x1070/RyN2QjU9MLm6fD77.mp4?tag=29",
+        "https://x.com/zhang_baoqing/status/2123157977045852382"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/zhang_baoqing/status/2123165046276760028"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "sourcePublicationTimestamp": "2026-11-18T21:22:48Z",
+      "promptStatus": "Verbatim complete prompt not located in public source.",
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123164961878982656",
+        "width": 2180,
+        "height": 1070,
+        "videoDurationSeconds": 32.066757,
+        "audio": true,
+        "decodedFrames": 768
+      },
+      "tool": "Three.js"
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-zhang-baoqing-gemini4-neon-html-pelican-2026-11-19",
+    "originalId": "x-zhang-baoqing-gemini4-neon-html-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 网页鹈鹕骑行",
+    "model": "Gemini 4 Neon",
+    "author": "@zhang_baoqing",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者将此独立骑行动画标为 Gemini 4 Neon 的 HTML 作品，完整录像来自作者原帖。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/zhang_baoqing/status/2123157977045852382",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-20-1500-daily/zhang-html-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123157737983107072/vid/avc1/1976x1262/UPoaL3jt3tidDZ4R.mp4?tag=29",
+        "sha256": "a773daa31643802710a5195d45e6a5059ecc033683cd1ed8dee75eefc834b692",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123157737983107072/vid/avc1/1976x1262/UPoaL3jt3tidDZ4R.mp4?tag=29",
+          "sourceSha256": "a773daa31643802710a5195d45e6a5059ecc033683cd1ed8dee75eefc834b692",
+          "frameTime": 7,
+          "sha256": "0093422d52dafc7465a955a15d424bacc02db697afc34714afcdf004c1ede2e6"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-20-1500-daily/zhang-html-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-20-1500-daily/zhang-html-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-zhang-baoqing-gemini4-neon-html-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-zhang-baoqing-gemini4-neon-html-pelican-2026-11-19/",
+    "markdown": "/specimens/x-zhang-baoqing-gemini4-neon-html-pelican-2026-11-19/index.md",
+    "updated": "2026-11-20",
+    "rights": "保留作者署名及完整公开原片，未见独立许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · HTML pelican ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The author identifies this separate cycling animation as an HTML output by Gemini 4 Neon. The full recording is preserved from the original post.",
+        "rights": "Original attribution and the complete public recording are preserved. No separate license was located.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/zhang_baoqing/status/2123157977045852382",
+        "https://video.twimg.com/amplify_video/2123157737983107072/vid/avc1/1976x1262/UPoaL3jt3tidDZ4R.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/zhang_baoqing/status/2123157977045852382"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "sourcePublicationTimestamp": "2026-11-18T20:54:42Z",
+      "promptStatus": "Verbatim complete prompt not located in public source.",
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123157737983107072",
+        "width": 1976,
+        "height": 1262,
+        "videoDurationSeconds": 19.063583,
+        "audio": true,
+        "decodedFrames": 457
+      },
+      "tool": "HTML"
+    },
+    "sourcePublicationDate": "2026-11-19"
   }
 ]
