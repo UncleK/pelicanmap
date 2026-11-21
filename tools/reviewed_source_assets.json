@@ -34010,5 +34010,245 @@
         "model": "Gemini 4 Neon"
       }
     ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2102433488364597251/vid/avc1/1920x1080/WsVptEcMOc6Yww3c.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-20-1500-daily/root/addy-1.mp4",
+    "sha256": "24427cd99693c722cc12fd82d7c5c85cdab7abef19f6e367247f6a3a3f79e23f",
+    "bytes": 106203329,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/addyosmani/status/2102436416437580159",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2102528232675307520/vid/avc1/1206x1500/NYV8GsYTvg_Nl_0w.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/root/bin-original.mp4",
+    "sha256": "7699e924959f1bdb4e8e79b34e474067e2faf8d36ed39d936fd75f34192a8d9a",
+    "bytes": 14708450,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/liu8in/status/2102528278732894667",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123830970818412544/vid/avc1/3024x1718/21U4o2bimcSC8z5I.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/motion/chetas-ascii/x-original.mp4",
+    "sha256": "5b1a2d7531c9aa368d6f8e13e73e38da34b56efeb76a169b93801f47a6c14695",
+    "bytes": 66961844,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123831991061840145",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ChetasLua/pelican-ride/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/motion/chetas-ascii/index.html",
+    "sha256": "1143ca07f396073ea51ad1bb32daf4d060fa8e32f6dc72f2d998efe79d72b19f",
+    "bytes": 48565,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/chetaslua/status/2123831991061840145",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://video.twimg.com/amplify_video/2123419542802358272/vid/avc1/1920x1080/8j16XgOS640MzJ5W.mp4?tag=29",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/motion/xiaoan-reverse/x-original.mp4",
+    "sha256": "ccd927706d357b7d984d874f130bcd7b7845cb89b3c27758de6d3a201249390a",
+    "bytes": 15837315,
+    "bindings": [
+      {
+        "sourceUrl": "https://x.com/xiaoanlab/status/2123421001711276236",
+        "model": "GPT-6.2 Sol"
+      }
+    ]
+  },
+  {
+    "url": "https://pelican-bike-8i0.pages.dev/",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/interactive/agluo.html",
+    "sha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+    "bytes": 84922,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3200529",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/c/9/f/c9f773408e02d64093e979b982a00bcc622ea110.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/forgetful/opus55-high.svg",
+    "sha256": "7b8cfc421de7db865db48af75f453a472614c86d3ea8baeb929bad576da65b57",
+    "bytes": 20342,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3211579",
+        "model": "Claude Opus 5.5"
+      }
+    ]
+  },
+  {
+    "url": "https://cdn3.ldstatic.com/original/4X/2/d/3/2d39dd9d0b2bfd6bc1487b3fa8008dfbb840eb6e.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/forgetful/neon-high.svg",
+    "sha256": "bd05d3b22164990aabda253dcdbabee078d90aef5cc5c5db703804bf2f49e113",
+    "bytes": 26015,
+    "bindings": [
+      {
+        "sourceUrl": "https://linux.do/t/topic/3211579",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/inkling/Pelicans.md",
+    "sha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+    "bytes": 76176,
+    "bindings": [
+      {
+        "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "model": "Inkling 2 Mini"
+      }
+    ]
+  },
+  {
+    "url": "https://gist.githubusercontent.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce/raw/262941400772d8a695b6f3debfcbefbbcc201d6c/pelican.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/jeremy-kahn/pelican.svg",
+    "sha256": "c54b2a5f7270491b4a4ebe11161377cbeeca6d800c980761c148011f1fd329d2",
+    "bytes": 4693,
+    "bindings": [
+      {
+        "sourceUrl": "https://gist.github.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce",
+        "model": "Qwen 3.8 27B"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/google_gemini-4-neon.svg",
+    "sha256": "ba524404eb64ad6ab4fae9c4af82a4ce5e6f4e26d91068f940cffe89467b103c",
+    "bytes": 12066,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+        "model": "Gemini 4 Neon"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/tencent_hy4-flash.svg",
+    "sha256": "cc48500a566295bef47928cc485cb5ce765d4ddada0791f4b898d251bfeaa86a",
+    "bytes": 5051,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+        "model": "HY4 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/deepseek_deepseek-v4-1-flash-1017.svg",
+    "sha256": "e2c575d8cef3cd9541134dac49c30e9ac54738fd98d2816cfaf6f622f3af268c",
+    "bytes": 5557,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+        "model": "DeepSeek V4.1 Flash 1017"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/google_gemini-4-hydrogen.svg",
+    "sha256": "102e9f064ac0ed94b43ed4eb1d4022bfb7c60f4a0ebc00ad9deb0ed13de2ee3e",
+    "bytes": 6097,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+        "model": "Gemini 4 Hydrogen"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/meta_muse-spark-open.svg",
+    "sha256": "660032c6dfa2ed9d03a6a58219dd7f66490e65e0c10767b72cce15e129444ce3",
+    "bytes": 5052,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+        "model": "Muse Spark Open"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/anthropic_claude-fable-5-2.svg",
+    "sha256": "42d866a3c61c54980b699cfdf00d54e431bdc74d5e7421ee86ac3e0f51d23d99",
+    "bytes": 3901,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+        "model": "Claude Fable 5.2"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/minimax_minimax-m3-1-flash.svg",
+    "sha256": "2ad683ad2efebee668d41a570b9b6df8e09e084d1576cd91c2aa6af3e3254a71",
+    "bytes": 7676,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+        "model": "MiniMax M3.1 Flash"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/moonshotai_kimi-k3-1-pro.svg",
+    "sha256": "db4ca12fe3a0f11c9d5f4370d249f1e99f1f6dee0b72ee790262a014fdc4ada3",
+    "bytes": 5363,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+        "model": "Kimi K3.1 Pro"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/openai_gpt-6-1-terra.svg",
+    "sha256": "2f02a418d5bf0c6c56669e60a474ea49fa3273a54bf6d4a6273039e7ef3239e9",
+    "bytes": 2367,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+        "model": "GPT-6.1 Terra"
+      }
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+    "path": "pelican-archive/research/2026-11-21-1500-daily/svg/sebseb7/tencent_hy4.svg",
+    "sha256": "08e22be07bdefff47357e89615261f92c2868d66dd23cba2f1c3dcbc1b2a4bcb",
+    "bytes": 6178,
+    "bindings": [
+      {
+        "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+        "model": "HY4"
+      }
+    ]
   }
 ]

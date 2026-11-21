@@ -1091,5 +1091,28 @@
     "fullDocument": true,
     "reviewEvidence": "2026-11-20-1500-daily/svg/hunhung-motion.json",
     "safety": "HTML/CSS/SVG/JS retained byte-exact on isolated origin. Independent Chromium run, no external requests, two different visual scene frames."
+  },
+  "linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19": {
+    "reviewed": true,
+    "sourceUrl": "https://linux.do/t/topic/3200529",
+    "sourceCodeUrl": "https://pelican-bike-8i0.pages.dev/",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/daily-2026-11-21/linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19/",
+    "sha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+    "sourceBytes": 84922,
+    "fullDocument": true,
+    "reviewEvidence": "2026-11-21-1500-daily/interactive/agluo-isolated-motion.json",
+    "safety": "Complete standalone HTML retained byte for byte. Inline CSS, SVG and JavaScript with Web Audio synthesis. Fresh cross-origin sandboxed Chromium iframe, no external requests or script errors. Pedal geometry and visible frames changed after load."
+  },
+  "x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21": {
+    "reviewed": true,
+    "sourceUrl": "https://x.com/chetaslua/status/2123831991061840145",
+    "sourceCodeUrl": "https://github.com/ChetasLua/pelican-ride/blob/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+    "sourceArtifactUrl": "https://raw.githubusercontent.com/ChetasLua/pelican-ride/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+    "previewUrl": "https://pelicanmap-demos.aveniqa.com/demos/chetaslua-pelican-ride-ascii/",
+    "sha256": "1143ca07f396073ea51ad1bb32daf4d060fa8e32f6dc72f2d998efe79d72b19f",
+    "sourceBytes": 48565,
+    "fullDocument": true,
+    "reviewEvidence": "2026-11-21-1500-daily/motion/chetas-ascii-review.json",
+    "safety": "Pinned MIT standalone original, archived byte-for-byte. Isolated Chromium review confirmed moving ASCII frames and no outbound requests."
   }
 }

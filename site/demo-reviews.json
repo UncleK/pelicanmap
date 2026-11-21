@@ -125,5 +125,23 @@
       "In the earlier isolated pass, Space triggered the first-jump achievement."
     ],
     "safety": "Original author-hosted standalone bundled HTML, unchanged, fixed by SHA-256. Tested in a fresh cross-origin iframe with the same sandbox attributes as the museum and unrelated network denied. No external fetches or JavaScript page errors in this test. The original uses localStorage for game progress and preferences and generates its own audio. The source link and both MIT notices are retained."
+  },
+  "linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19": {
+    "demoUrl": "https://pelicanmap-demos.aveniqa.com/demos/daily-2026-11-21/linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19/",
+    "controls": {
+      "zh": "点击「抛条鱼」喂鹈鹕并增加接鱼次数。「按车铃」会让车铃发光，「晴空」可切换天空。",
+      "en": "Click the fish button to feed the pelican and increase its catch counter. The bell button rings the bell, and the sky button changes the time of day."
+    },
+    "reviewedAt": "2026-11-21",
+    "sourceUrl": "https://linux.do/t/topic/3200529",
+    "sourceCodeUrl": "https://pelican-bike-8i0.pages.dev/",
+    "sourceSha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+    "license": "Public original posted by agluo. No separate license stated at the source.",
+    "verifiedActions": [
+      "Clicked the fish button. A fish appeared in flight and the catch counter advanced from 0 to 1.",
+      "Clicked the bell button. The bell wave reached positive opacity.",
+      "Clicked the sky button. The preset changed from clear sky to sunset."
+    ],
+    "safety": "Complete standalone HTML retained byte for byte. Inline CSS, SVG and JavaScript with Web Audio synthesis. Fresh cross-origin sandboxed Chromium iframe, no external requests or script errors. Pedal geometry and visible frames changed after load."
   }
 }

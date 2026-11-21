@@ -355943,5 +355943,2255 @@
       "tool": "HTML"
     },
     "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "x-addyosmani-opus55-threejs-pelican-2026-09-23",
+    "originalId": "x-addyosmani-opus55-threejs-pelican-2026-09-23",
+    "kind": "timeline",
+    "title": "街道上的写实鹈鹕骑行",
+    "model": "Claude Opus 5.5",
+    "author": "Addy Osmani",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "作者确认用 Opus 5.5 编写 Three.js 城市骑行场景。所录提示是作者事后给出的近似版本，生成后又用多轮镜头提示调整。馆藏保留完整原录像，尚未得到可操作的源程序。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/addyosmani/status/2102436416437580159",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "I want you to create a very detailed 3D game of a pelican riding a bicycle around a city. It should be almost hyper-realistic, self-contained and have music and effects",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/addyosmani-opus55-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2102433488364597251/vid/avc1/1920x1080/WsVptEcMOc6Yww3c.mp4?tag=29",
+        "sha256": "24427cd99693c722cc12fd82d7c5c85cdab7abef19f6e367247f6a3a3f79e23f",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2102433488364597251/vid/avc1/1920x1080/WsVptEcMOc6Yww3c.mp4?tag=29",
+          "sourceSha256": "24427cd99693c722cc12fd82d7c5c85cdab7abef19f6e367247f6a3a3f79e23f",
+          "frameTime": 5,
+          "sha256": "8863fe2f022e69ff7bf63b5b5c8d91801ec25df462bcd9d776c969e477415dd5"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-21-1500-daily/addyosmani-opus55-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/addyosmani-opus55-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-addyosmani-opus55-threejs-pelican-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-addyosmani-opus55-threejs-pelican-2026-09-23/",
+    "markdown": "/specimens/x-addyosmani-opus55-threejs-pelican-2026-09-23/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留原作者署名、原帖和完整公开视频，未见单独许可。",
+    "i18n": {
+      "en": {
+        "title": "A Realistic Pelican Ride through the City",
+        "model": "Claude Opus 5.5",
+        "notes": "The author confirms using Opus 5.5 for the Three.js city ride. The prompt is the author’s approximate reconstruction, followed by camera refinement prompts. The full original recording is preserved. A runnable source has not been located.",
+        "rights": "The creator is credited and their complete public video source is preserved. No separate license was found.",
+        "promptStatus": "I want you to create a very detailed 3D game of a pelican riding a bicycle around a city. It should be almost hyper-realistic, self-contained and have music and effects",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/addyosmani/status/2102436416437580159",
+        "https://x.com/arthurvmdantas/status/2102465391784067081",
+        "https://x.com/addyosmani/status/2102470115283583233",
+        "https://video.twimg.com/amplify_video/2102433488364597251/vid/avc1/1920x1080/WsVptEcMOc6Yww3c.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/addyosmani/status/2102436416437580159",
+      "https://x.com/arthurvmdantas/status/2102465391784067081",
+      "https://x.com/addyosmani/status/2102470115283583233"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Opus 5.5",
+      "tool": "Three.js",
+      "sourcePublicationTimestamp": "2026-09-22T16:34:37+00:00",
+      "sourceCodeAvailable": false,
+      "promptStatus": "Author-reported approximate reconstruction; follow-up prompts unavailable"
+    },
+    "sourcePublicationDate": "2026-09-23"
+  },
+  {
+    "id": "x-liu8in-opus55-threejs-pelican-2026-09-23",
+    "originalId": "x-liu8in-opus55-threejs-pelican-2026-09-23",
+    "kind": "timeline",
+    "title": "多机位海边骑行",
+    "model": "Claude Opus 5.5",
+    "author": "Bin Liu",
+    "date": "2026-09-23",
+    "month": "2026-09",
+    "notes": "原作者在发布时标注使用 Claude Opus 5.5、Three.js 和 HyperFrames。原片从不同角度记录同一只鹈鹕沿海骑行。保留完整原录像，原提示词和源码未取得。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/liu8in/status/2102528278732894667",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/liu8in-opus55-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2102528232675307520/vid/avc1/1206x1500/NYV8GsYTvg_Nl_0w.mp4?tag=29",
+        "sha256": "7699e924959f1bdb4e8e79b34e474067e2faf8d36ed39d936fd75f34192a8d9a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2102528232675307520/vid/avc1/1206x1500/NYV8GsYTvg_Nl_0w.mp4?tag=29",
+          "sourceSha256": "7699e924959f1bdb4e8e79b34e474067e2faf8d36ed39d936fd75f34192a8d9a",
+          "frameTime": 5,
+          "sha256": "331b01ce162446a1335b717b11c7e8a45b5525cabca380df8b190ec148ef2f22"
+        },
+        "caption": "原始输出",
+        "captionEn": "Original output",
+        "poster": "/media/collected/2026-11-21-1500-daily/liu8in-opus55-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/liu8in-opus55-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-liu8in-opus55-threejs-pelican-2026-09-23/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-liu8in-opus55-threejs-pelican-2026-09-23/",
+    "markdown": "/specimens/x-liu8in-opus55-threejs-pelican-2026-09-23/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留原作者署名、原帖和完整公开视频，未见单独许可。",
+    "i18n": {
+      "en": {
+        "title": "A Seaside Ride from Multiple Angles",
+        "model": "Claude Opus 5.5",
+        "notes": "The author credits Claude Opus 5.5, Three.js and HyperFrames. The original film shows a single pelican riding by the sea from multiple angles. The complete public video is preserved; the prompt and source code were not located.",
+        "rights": "The creator is credited and their complete public video source is preserved. No separate license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/liu8in/status/2102528278732894667",
+        "https://video.twimg.com/amplify_video/2102528232675307520/vid/avc1/1206x1500/NYV8GsYTvg_Nl_0w.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/liu8in/status/2102528278732894667"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Claude Opus 5.5",
+      "tool": "Three.js / HyperFrames",
+      "sourcePublicationTimestamp": "2026-09-22T22:39:39+00:00",
+      "sourceCodeAvailable": false,
+      "promptStatus": "Verbatim prompt not found"
+    },
+    "sourcePublicationDate": "2026-09-23"
+  },
+  {
+    "id": "x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21",
+    "originalId": "x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 字符拼成的鹈鹕骑行",
+    "model": "Gemini 4 Neon",
+    "author": "Chetaslua (@chetaslua)",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Chetaslua 用 Gemini 4 Neon 制作了一只沿夕阳公路骑车的鹈鹕。网页用 JavaScript 计算三维形体，再用 ASCII 字符绘制画面。可以拖动旋转视角，滚动调整踏频。保留可离线运行的完整 HTML 与作者原帖录像。原帖发表于北京时间 11 月 21 日 01:33。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/chetaslua/status/2123831991061840145",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/chetas-ascii-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123830970818412544/vid/avc1/3024x1718/21U4o2bimcSC8z5I.mp4?tag=29",
+        "sha256": "5b1a2d7531c9aa368d6f8e13e73e38da34b56efeb76a169b93801f47a6c14695",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123830970818412544/vid/avc1/3024x1718/21U4o2bimcSC8z5I.mp4?tag=29",
+          "sourceSha256": "5b1a2d7531c9aa368d6f8e13e73e38da34b56efeb76a169b93801f47a6c14695",
+          "frameTime": 8,
+          "sha256": "f00aa85b637a3407333ef3ee0dbd04f8092a5477966a83a5700581289c8820de"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-21-1500-daily/chetas-ascii-original-poster.jpg"
+      },
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/chetas-ascii-original-frame.png",
+        "source": "https://raw.githubusercontent.com/ChetasLua/pelican-ride/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+        "sha256": "61720161fbad76597e084c2f19115c4c9485f4f8da85cbbda65ae07a2a4111e2",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "1143ca07f396073ea51ad1bb32daf4d060fa8e32f6dc72f2d998efe79d72b19f",
+          "frameSha256": "61720161fbad76597e084c2f19115c4c9485f4f8da85cbbda65ae07a2a4111e2",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "method": "Isolated headless Chrome screenshot at 6.83 seconds, external network denied"
+        },
+        "detailOnly": true,
+        "caption": "原 HTML 的实际运行画面",
+        "captionEn": "Actual render from the original HTML",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/chetas-ascii-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "https://pelicanmap-demos.aveniqa.com/demos/chetaslua-pelican-ride-ascii/index.html",
+    "sourceCodeUrl": "https://github.com/ChetasLua/pelican-ride/blob/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+    "path": "/specimens/x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21/",
+    "markdown": "/specimens/x-chetaslua-gemini4-neon-ascii-pelican-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "完整 HTML 按作者仓库 MIT 许可保存，保留版权署名与许可原文。录像保留 X 首发出处。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Pelican ride in ASCII",
+        "model": "Gemini 4 Neon",
+        "notes": "Chetaslua credits Gemini 4 Neon for a pelican cycling along a sunset road. JavaScript computes the 3D scene and draws it with ASCII characters. Drag to orbit the camera and scroll to change pedaling cadence. The complete offline HTML and author-posted recording are preserved. The post appeared at 17:33 UTC on November 20, or 01:33 Beijing time on November 21.",
+        "rights": "The complete HTML is preserved under the repository's MIT license with its copyright notice and license text. The recording retains its original X attribution.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/chetaslua/status/2123831991061840145",
+        "https://x.com/chetaslua/status/2123831993297498420",
+        "https://github.com/ChetasLua/pelican-ride/commit/d3e892cd59d0e985c97477074e5db9f01010e7cf",
+        "https://github.com/ChetasLua/pelican-ride/blob/d3e892cd59d0e985c97477074e5db9f01010e7cf/README.md",
+        "https://github.com/ChetasLua/pelican-ride/blob/d3e892cd59d0e985c97477074e5db9f01010e7cf/LICENSE",
+        "https://raw.githubusercontent.com/ChetasLua/pelican-ride/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html",
+        "https://chetaslua.github.io/pelican-ride/",
+        "https://video.twimg.com/amplify_video/2123830970818412544/vid/avc1/3024x1718/21U4o2bimcSC8z5I.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/chetaslua/status/2123831991061840145",
+      "https://x.com/chetaslua/status/2123831993297498420",
+      "https://github.com/ChetasLua/pelican-ride/blob/d3e892cd59d0e985c97477074e5db9f01010e7cf/README.md",
+      "https://raw.githubusercontent.com/ChetasLua/pelican-ride/d3e892cd59d0e985c97477074e5db9f01010e7cf/index.html"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "sourcePublicationTimestamp": "2026-11-20T17:33:00Z",
+      "sourcePublicationTimezone": "Asia/Shanghai",
+      "sourceRevision": "d3e892cd59d0e985c97477074e5db9f01010e7cf",
+      "sourceCodeAvailable": true,
+      "tool": "Vanilla JavaScript, 3D SDF raymarching, ASCII HTML",
+      "promptStatus": "The author posted a /swarm prompt tip, without the complete exact task prompt or the model's effort setting.",
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123830970818412544",
+        "width": 3024,
+        "height": 1718,
+        "videoDurationSeconds": 28,
+        "audio": true,
+        "decodedFrames": 1536
+      }
+    },
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "x-xiaoanlab-gpt62-sol-bicycle-rides-pelican-2026-11-19",
+    "originalId": "x-xiaoanlab-gpt62-sol-bicycle-rides-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "GPT-6.2 Sol · 自行车骑鹈鹕",
+    "model": "GPT-6.2 Sol",
+    "author": "XiaoAnLab (@xiaoanlab)",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "XiaoAnLab 把经典题反过来：一只鹈鹕在跑道上奔跑，背上载着自行车和戴头盔的骑手。作者称 GPT-6.2 Sol 用纯代码制作，耗时约 10 分钟。保留作者发布的完整有声录像。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://x.com/xiaoanlab/status/2123421001711276236",
+    "format": "3d",
+    "formatLabel": "三维作品",
+    "originalForm": "3d",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/xiaoanlab-gpt62-sol-reverse-original.mp4",
+        "source": "https://video.twimg.com/amplify_video/2123419542802358272/vid/avc1/1920x1080/8j16XgOS640MzJ5W.mp4?tag=29",
+        "sha256": "ccd927706d357b7d984d874f130bcd7b7845cb89b3c27758de6d3a201249390a",
+        "posterProvenance": {
+          "kind": "original-video-frame",
+          "source": "https://video.twimg.com/amplify_video/2123419542802358272/vid/avc1/1920x1080/8j16XgOS640MzJ5W.mp4?tag=29",
+          "sourceSha256": "ccd927706d357b7d984d874f130bcd7b7845cb89b3c27758de6d3a201249390a",
+          "frameTime": 4,
+          "sha256": "27588de1b8a8ef0b2faff05a77c85440d981a16ef31162a277e8315f5ad48ce1"
+        },
+        "caption": "作者发布的完整录像",
+        "captionEn": "Complete author-posted recording",
+        "poster": "/media/collected/2026-11-21-1500-daily/xiaoanlab-gpt62-sol-reverse-original-poster.jpg"
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/xiaoanlab-gpt62-sol-reverse-original-poster.jpg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/x-xiaoanlab-gpt62-sol-bicycle-rides-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/x-xiaoanlab-gpt62-sol-bicycle-rides-pelican-2026-11-19/",
+    "markdown": "/specimens/x-xiaoanlab-gpt62-sol-bicycle-rides-pelican-2026-11-19/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名和完整公开原片，未见另外发布的许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.2 Sol · The bicycle rides the pelican",
+        "model": "GPT-6.2 Sol",
+        "notes": "XiaoAnLab reverses the classic brief: a pelican runs along a track carrying a bicycle and a helmeted rider. The author credits GPT-6.2 Sol and describes about ten minutes of pure-code work. The full recording with audio is preserved.",
+        "rights": "The complete public recording is preserved with the original attribution. No separate license was found.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://x.com/xiaoanlab/status/2123421001711276236",
+        "https://video.twimg.com/amplify_video/2123419542802358272/vid/avc1/1920x1080/8j16XgOS640MzJ5W.mp4?tag=29"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.2 Sol"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://x.com/xiaoanlab/status/2123421001711276236"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "GPT-6.2-Sol",
+      "sourcePublicationTimestamp": "2026-11-19T14:19:52Z",
+      "sourceReportedDurationMinutes": 10,
+      "sourceCodeAvailable": false,
+      "sourceMetadata": {
+        "publicOriginalAssetId": "2123419542802358272",
+        "width": 1920,
+        "height": 1080,
+        "videoDurationSeconds": 18,
+        "audio": true,
+        "decodedFrames": 540
+      }
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19",
+    "originalId": "linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19",
+    "kind": "timeline",
+    "title": "鹈鹕骑自行车 · 海岸巡游",
+    "model": "Gemini 4 Neon",
+    "author": "agluo",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "作者在 LINUX DO 将这件海岸巡游作品标为 Gemini 4 Neon，并发布完整互动页面。鹈鹕会持续蹬车，点击可投喂并累计接鱼次数，也可以响铃和改变天空。实际生成日期、提示词和推理档位未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3200529",
+    "format": "game",
+    "formatLabel": "游戏 / 交互",
+    "originalForm": "game",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/agluo-neon-coastal-runtime.png",
+        "source": "https://pelican-bike-8i0.pages.dev/",
+        "sha256": "7a1815ad1e7d3bfd3031ae6bd265dfe84a7c81c4dd77a6de935966dd711b0d1a",
+        "extraction": {
+          "kind": "browser-rendered-frame",
+          "sourceSha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+          "frameSha256": "7a1815ad1e7d3bfd3031ae6bd265dfe84a7c81c4dd77a6de935966dd711b0d1a",
+          "viewport": {
+            "width": 1360,
+            "height": 920
+          },
+          "method": "Playwright Chromium screenshot of the original SVG scene in an isolated browser, exact author HTTPS document, all outbound traffic blocked"
+        },
+        "caption": "隔离浏览器运行作者原 HTML 的实际画面",
+        "captionEn": "Actual frame of the author’s original HTML running in an isolated browser",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/agluo-neon-coastal-runtime.png",
+    "demoUrl": "",
+    "externalUrl": "https://pelican-bike-8i0.pages.dev/",
+    "sourceCodeUrl": "https://pelican-bike-8i0.pages.dev/",
+    "path": "/specimens/linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19/",
+    "markdown": "/specimens/linuxdo-agluo-gemini4-neon-pelican-coastal-ride-2026-11-19/index.md",
+    "updated": "2026-11-21",
+    "rights": "署名 agluo。完整 HTML 来自作者公开页面，原字节与出处一同保留。来源没有单独的许可证声明。",
+    "i18n": {
+      "en": {
+        "title": "Pelican on a Bicycle · Coastal Ride",
+        "model": "Gemini 4 Neon",
+        "notes": "The creator identifies this coastal ride as Gemini 4 Neon on LINUX DO and links the complete interactive page. The pelican keeps pedaling; visitors can feed it fish and increase its catch counter, ring the bell, or change the sky. The generation date, prompt and reasoning effort are unstated.",
+        "rights": "Work credited to agluo. The complete HTML comes from the creator’s public page and is retained byte for byte with attribution. The source states no separate license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3200529",
+        "https://pelican-bike-8i0.pages.dev/"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3200529",
+      "https://pelican-bike-8i0.pages.dev/"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Neon",
+      "sourceHtmlSha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+      "sourcePromptAvailability": "Not published in the source post"
+    },
+    "sourcePublicationDate": "2026-11-19",
+    "frameProvenance": {
+      "sourceHtml": "https://pelican-bike-8i0.pages.dev/",
+      "sourceHtmlSha256": "b50159b3ce1f0d1bf9529c50b6b95a0f1d1bc7045b1139fb62e9c86c10611abd",
+      "frameSha256": "7a1815ad1e7d3bfd3031ae6bd265dfe84a7c81c4dd77a6de935966dd711b0d1a",
+      "viewport": {
+        "width": 1360,
+        "height": 920
+      },
+      "method": "Playwright Chromium screenshot of the original SVG scene in an isolated browser, exact author HTTPS document, all outbound traffic blocked"
+    }
+  },
+  {
+    "id": "linuxdo-lvmin-gemini4-carbon-saturn-ring-pelican-2026-11-19",
+    "originalId": "linuxdo-lvmin-gemini4-carbon-saturn-ring-pelican-2026-11-19",
+    "kind": "timeline",
+    "title": "土星环上的鹈鹕骑车",
+    "model": "Gemini 4 Carbon",
+    "author": "lvmin",
+    "date": "2026-11-19",
+    "month": "2026-11",
+    "notes": "lvmin 在 LINUX DO 发布创作指令、完整 Canvas HTML 和 18.75 秒 WebP 演示。原动画展示鹈鹕沿土星环骑行，跟拍镜头拉近后可看清骑手与单车。归档保留首帖的原始动图。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3202807",
+    "format": "animation",
+    "formatLabel": "动画",
+    "originalForm": "animation",
+    "originalLevel": "",
+    "promptCategory": "derivative",
+    "promptStatus": "画一个鹈鹕骑单车绕着土星环骑行的动画，输出为 html，不需要任何工具和测试",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/lvmin-saturn-ring-pelican-original.webp",
+        "source": "https://cdn3.ldstatic.com/original/4X/3/2/4/3240e493843b2053fa8975348f780808fdb9eee0.webp",
+        "sha256": "76db70c1f3feadc551f4fda243e12a5204ff2ee6d95d385ab89b92acad92ae3b",
+        "caption": "首帖原始演示动图，300 × 150，18.75 秒",
+        "captionEn": "Original animated attachment from the first post, 300 × 150, 18.75 seconds",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/lvmin-saturn-ring-pelican-original.webp",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "",
+    "path": "/specimens/linuxdo-lvmin-gemini4-carbon-saturn-ring-pelican-2026-11-19/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-lvmin-gemini4-carbon-saturn-ring-pelican-2026-11-19/",
+    "markdown": "/specimens/linuxdo-lvmin-gemini4-carbon-saturn-ring-pelican-2026-11-19/index.md",
+    "updated": "2026-11-21",
+    "rights": "署名 lvmin。保留作者公开上传的完整 WebP 原动图与原帖链接。来源未声明单独许可证。",
+    "i18n": {
+      "en": {
+        "title": "Pelican Cycling on Saturn’s Rings",
+        "model": "Gemini 4 Carbon",
+        "notes": "lvmin published the prompt, complete Canvas HTML and an 18.75-second WebP demonstration on LINUX DO. The pelican rides around Saturn’s rings and appears in a close tracking view. The archive retains the original animation attached to the first post.",
+        "rights": "Credited to lvmin. The archive retains the creator’s complete original WebP attachment and links to the source post. The source states no separate license.",
+        "promptStatus": "画一个鹈鹕骑单车绕着土星环骑行的动画，输出为 html，不需要任何工具和测试",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3202807",
+        "https://cdn3.ldstatic.com/original/4X/3/2/4/3240e493843b2053fa8975348f780808fdb9eee0.webp"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Carbon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3202807"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Gemini 4 Carbon",
+      "sourceIndexedEffortLabel": "High (seen in indexed earlier title, absent from current title)"
+    },
+    "sourcePublicationDate": "2026-11-19"
+  },
+  {
+    "id": "linuxdo-forgetful-opus55-high-2026-11-20",
+    "originalId": "linuxdo-forgetful-opus55-high-2026-11-20",
+    "kind": "timeline",
+    "title": "Claude Opus 5.5 High · 鹈鹕骑车",
+    "model": "Claude Opus 5.5",
+    "author": "forgetful",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "作者称在 Antigravity 一次生成，原帖将该附件标为「opus5.5-high」。蓝头盔、红色车架和鱼篮，背景为绿丘、公路与太阳。 日期为论坛发帖日，完整提示词和生成时刻未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3211579",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/forgetful-opus55-high.svg",
+        "source": "https://cdn3.ldstatic.com/original/4X/c/9/f/c9f773408e02d64093e979b982a00bcc622ea110.svg",
+        "sha256": "7b8cfc421de7db865db48af75f453a472614c86d3ea8baeb929bad576da65b57",
+        "caption": "论坛原始 SVG 附件",
+        "captionEn": "Original SVG attachment from the forum",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/forgetful-opus55-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://cdn3.ldstatic.com/original/4X/c/9/f/c9f773408e02d64093e979b982a00bcc622ea110.svg",
+    "path": "/specimens/linuxdo-forgetful-opus55-high-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-forgetful-opus55-high-2026-11-20/",
+    "markdown": "/specimens/linuxdo-forgetful-opus55-high-2026-11-20/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留 forgetful 署名和公开上传的 SVG 原件。来源未列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Opus 5.5 High · Pelican on a Bicycle",
+        "model": "Claude Opus 5.5",
+        "notes": "The author reports a single attempt in Antigravity and labels this attachment “opus5.5-high.” Blue helmet, red frame and a fish basket against rolling hills, a road and the sun. The date is the forum publication day. The full prompt and generation time were undisclosed.",
+        "rights": "Author attribution and the publicly uploaded SVG are preserved. The source lists no separate license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3211579",
+        "https://cdn3.ldstatic.com/original/4X/c/9/f/c9f773408e02d64093e979b982a00bcc622ea110.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Opus 5.5"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3211579",
+      "https://cdn3.ldstatic.com/original/4X/c/9/f/c9f773408e02d64093e979b982a00bcc622ea110.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "opus5.5-high",
+      "effort": "high",
+      "harness": "Antigravity"
+    },
+    "sourcePublicationDate": "2026-11-20"
+  },
+  {
+    "id": "linuxdo-forgetful-neon-high-2026-11-20",
+    "originalId": "linuxdo-forgetful-neon-high-2026-11-20",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon High · 鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "forgetful",
+    "date": "2026-11-20",
+    "month": "2026-11",
+    "notes": "作者称在 Antigravity 一次生成，原帖将该附件标为「neon-high」。红围巾和鱼篮，背景有棕榈、帆船、灯塔和沿海公路。 日期为论坛发帖日，完整提示词和生成时刻未公开。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://linux.do/t/topic/3211579",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/forgetful-neon-high.svg",
+        "source": "https://cdn3.ldstatic.com/original/4X/2/d/3/2d39dd9d0b2bfd6bc1487b3fa8008dfbb840eb6e.svg",
+        "sha256": "bd05d3b22164990aabda253dcdbabee078d90aef5cc5c5db703804bf2f49e113",
+        "caption": "论坛原始 SVG 附件",
+        "captionEn": "Original SVG attachment from the forum",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/forgetful-neon-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://cdn3.ldstatic.com/original/4X/2/d/3/2d39dd9d0b2bfd6bc1487b3fa8008dfbb840eb6e.svg",
+    "path": "/specimens/linuxdo-forgetful-neon-high-2026-11-20/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/linuxdo-forgetful-neon-high-2026-11-20/",
+    "markdown": "/specimens/linuxdo-forgetful-neon-high-2026-11-20/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留 forgetful 署名和公开上传的 SVG 原件。来源未列作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon High · Pelican on a Bicycle",
+        "model": "Gemini 4 Neon",
+        "notes": "The author reports a single attempt in Antigravity and labels this attachment “neon-high.” A red scarf and fish basket with palms, sails, a lighthouse and a coastal road. The date is the forum publication day. The full prompt and generation time were undisclosed.",
+        "rights": "Author attribution and the publicly uploaded SVG are preserved. The source lists no separate license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://linux.do/t/topic/3211579",
+        "https://cdn3.ldstatic.com/original/4X/2/d/3/2d39dd9d0b2bfd6bc1487b3fa8008dfbb840eb6e.svg"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://linux.do/t/topic/3211579",
+      "https://cdn3.ldstatic.com/original/4X/2/d/3/2d39dd9d0b2bfd6bc1487b3fa8008dfbb840eb6e.svg"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "neon-high",
+      "effort": "high",
+      "harness": "Antigravity"
+    },
+    "sourcePublicationDate": "2026-11-20"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-none-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-none-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 关闭档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 none。远处有太阳和云，鹈鹕骑红色自行车。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "none",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-none.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "65a7d2f45197d00b4720e1e37c1d01a20ac1da66806f88283354c08838d944cf",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 0,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-none.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-none-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-none-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-none-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (none effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports none effort. A red bicycle under a sunny sky with clouds. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "none",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:48:56",
+      "sourceConversationId": "01m7xey70ed7kp5qdjxrqx650v",
+      "durationMs": 158670
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-minimal-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-minimal-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 极低档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 minimal。极简轮廓，车架前后段未完全接合。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "minimal",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-minimal.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "7f5c02ba2c09631d596cb98d63991e41115dab3b6dbe16019d1cc15f48c86c22",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 1,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-minimal.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-minimal-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-minimal-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-minimal-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (minimal effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports minimal effort. Minimal outlines with a visible gap in the bicycle frame. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "minimal",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:51:37",
+      "sourceConversationId": "01m7xf33p07tvdh9v1xmrsygha",
+      "durationMs": 51840
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-low-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-low-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 低档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 low。蓝底上突出的喙袋，双腿跨过车架。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "low",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-low.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "c1349077ada563d5dd608d2b3291373916579d8746fb88fb6f1d10b130886770",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 2,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-low.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-low-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-low-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-low-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (low effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports low effort. A prominent pouch against a blue sky and legs crossing the bicycle frame. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "low",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:52:31",
+      "sourceConversationId": "01m7xf4re86ttgpc1x24mvmf7h",
+      "durationMs": 47127
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-high-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-high-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 高档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 high。青绿色车架、单边车把，背景有日照和低丘。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "high",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-high.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "74bcedd49b3a349dc9f31ac589e3c543fbeb044477bc5b9cd1df31cac19bfc63",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 3,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-high.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-high-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-high-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-high-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (high effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports high effort. A teal frame and a single visible grip against sunlit low hills. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "high",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:53:19",
+      "sourceConversationId": "01m7xf6773m4cqdys1rsa43j9s",
+      "durationMs": 160684
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-medium-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-medium-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 中档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 medium。深色车架、平地和三道速度线。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "medium",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-medium.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "0060bc0af2b15aa14870c2b937a953f517c2e44db16fee00efc56db8c8a5884c",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 4,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-medium.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-medium-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-medium-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-medium-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (medium effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports medium effort. A dark frame on level ground with three speed lines. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "medium",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:56:02",
+      "sourceConversationId": "01m7xfb79n48rs8ypab5e20bcd",
+      "durationMs": 98909
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "simon-inkling-2-mini-iq4-nl-xhigh-2026-11-21",
+    "originalId": "simon-inkling-2-mini-iq4-nl-xhigh-2026-11-21",
+    "kind": "timeline",
+    "title": "Inkling 2 Mini · 极高档鹈鹕骑行",
+    "model": "Inkling 2 Mini",
+    "author": "Simon Willison",
+    "date": "2026-11-21",
+    "month": "2026-11",
+    "notes": "Simon Willison 用 llama.cpp 在 M5 MacBook Pro 本地运行 IQ4_NL 量化版。原日志配置为 xhigh。红色车架、长颈和后掠的羽毛，公路有虚线。 运行日志显示 11 月 20 日，未标时区。作品日期采用 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "xhigh",
+    "promptCategory": "classic",
+    "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-xhigh.svg",
+        "source": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "sha256": "8b475dead043884571c7c4e4b608361b8d94130310c58a953a3cc57e78cfdfc2",
+        "extraction": {
+          "kind": "transcript-response",
+          "sourceSha256": "3aa89e3940a67033e749c689f181c613e55dcc78674036555fb39d7d06c9f44a",
+          "responseIndex": 5,
+          "svgIndex": 0
+        },
+        "caption": "从固定版本原运行日志提取的完整 SVG",
+        "captionEn": "Complete SVG extracted from the pinned original run transcript",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/simon-inkling-2-mini-xhigh.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+    "path": "/specimens/simon-inkling-2-mini-iq4-nl-xhigh-2026-11-21/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/simon-inkling-2-mini-iq4-nl-xhigh-2026-11-21/",
+    "markdown": "/specimens/simon-inkling-2-mini-iq4-nl-xhigh-2026-11-21/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Inkling 2 Mini · Pelican Ride (xhigh effort)",
+        "model": "Inkling 2 Mini",
+        "notes": "Simon Willison ran the IQ4_NL build locally with llama.cpp on an M5 MacBook Pro. The transcript reports xhigh effort. A red frame, long neck, and trailing feathers over a dashed roadway. It records a November 20 run without a time zone. The artwork date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "Generate an SVG of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+        "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+        "https://news.ycombinator.com/item?id=50586393",
+        "https://hacker-news.firebaseio.com/v0/item/50586393.json",
+        "https://api.github.com/gists/b264d7524e46f1a2d1bf78ad5441e2c4"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Inkling 2 Mini"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4",
+      "https://gist.githubusercontent.com/simonw/b264d7524e46f1a2d1bf78ad5441e2c4/raw/c7ce709fe06caaf5db8aeaa777b14ebad1bdf12e/Pelicans.md",
+      "https://news.ycombinator.com/item?id=50586393",
+      "https://hacker-news.firebaseio.com/v0/item/50586393.json"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "inkling-2-mini-responses",
+      "sourceReportedWeightFile": "Inkling-2-Mini-IQ4_NL.gguf",
+      "quantization": "IQ4_NL",
+      "harness": "llama.cpp",
+      "hardware": "M5 MacBook Pro",
+      "reasoningEffort": "xhigh",
+      "sourcePublicationTimestamp": "2026-11-21T05:54:19Z",
+      "sourceReportedRunAt": "2026-11-20T21:57:44",
+      "sourceConversationId": "01m7xfeacjed98pa3rchjzrm0v",
+      "durationMs": 407923
+    },
+    "modelRunGroup": "simon-inkling-2-mini-iq4-nl-2026-11-21",
+    "sourcePublicationDate": "2026-11-21"
+  },
+  {
+    "id": "gist-jeremyckahn-qwen38-27b-2026-08-17",
+    "originalId": "gist-jeremyckahn-qwen38-27b-2026-08-17",
+    "kind": "timeline",
+    "title": "Qwen 3.8 27B · 红车上的鹈鹕",
+    "model": "Qwen 3.8 27B",
+    "author": "Jeremy Kahn",
+    "date": "2026-08-17",
+    "month": "2026-08",
+    "notes": "Jeremy Kahn 在原 Gist 中将该 SVG 明确标为 Qwen 3.8 27B 生成。画面是蓝天和晴日下的红色自行车。生成参数和完整提示词未公开，日期为 Gist 首次公开的 UTC 日期。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://gist.github.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "来源未完整提供逐条提示词，请查看原始链接",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/jeremyckahn-qwen38-27b-pelican.svg",
+        "source": "https://gist.githubusercontent.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce/raw/262941400772d8a695b6f3debfcbefbbcc201d6c/pelican.svg",
+        "sha256": "c54b2a5f7270491b4a4ebe11161377cbeeca6d800c980761c148011f1fd329d2",
+        "caption": "作者 Gist 的固定版本原 SVG",
+        "captionEn": "Pinned original SVG from the author’s Gist",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/jeremyckahn-qwen38-27b-pelican.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://gist.githubusercontent.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce/raw/262941400772d8a695b6f3debfcbefbbcc201d6c/pelican.svg",
+    "path": "/specimens/gist-jeremyckahn-qwen38-27b-2026-08-17/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/gist-jeremyckahn-qwen38-27b-2026-08-17/",
+    "markdown": "/specimens/gist-jeremyckahn-qwen38-27b-2026-08-17/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者、公开出处及原样输出。来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Qwen 3.8 27B · Pelican on a Red Bicycle",
+        "model": "Qwen 3.8 27B",
+        "notes": "Jeremy Kahn’s original Gist identifies this SVG as generated by Qwen 3.8 27B. It shows a red bicycle beneath a blue sky and sun. Run settings and the full prompt were undisclosed. The date follows first Gist publication in UTC.",
+        "rights": "Original author attribution, public source, and output are preserved. The source lists no separate artwork license.",
+        "promptStatus": "The source does not provide the complete per-run prompt; see the original link",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://gist.github.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce",
+        "https://gist.githubusercontent.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce/raw/262941400772d8a695b6f3debfcbefbbcc201d6c/pelican.svg",
+        "https://api.github.com/gists/a1930b1c569a412b8b713c706b3833ce"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Qwen 3.8 27B"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://gist.github.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce",
+      "https://gist.githubusercontent.com/jeremyckahn/a1930b1c569a412b8b713c706b3833ce/raw/262941400772d8a695b6f3debfcbefbbcc201d6c/pelican.svg",
+      "https://api.github.com/gists/a1930b1c569a412b8b713c706b3833ce"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "Qwen 3.8 27B",
+      "sourcePublicationTimestamp": "2026-08-17T02:05:07Z",
+      "sourceRevision": "efb25db3f2c517911a22ee477faf4222bc804b3b"
+    },
+    "sourcePublicationDate": "2026-08-17"
+  },
+  {
+    "id": "github-sebseb7-gemini-4-neon-2026-11-18",
+    "originalId": "github-sebseb7-gemini-4-neon-2026-11-18",
+    "kind": "timeline",
+    "title": "Gemini 4 Neon · 鹈鹕骑车",
+    "model": "Gemini 4 Neon",
+    "author": "sebseb7",
+    "date": "2026-11-18",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-gemini-4-neon.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+        "sha256": "ba524404eb64ad6ab4fae9c4af82a4ce5e6f4e26d91068f940cffe89467b103c",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-gemini-4-neon.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+    "path": "/specimens/github-sebseb7-gemini-4-neon-2026-11-18/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-gemini-4-neon-2026-11-18/",
+    "markdown": "/specimens/github-sebseb7-gemini-4-neon-2026-11-18/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Neon · Pelican on a Bicycle",
+        "model": "Gemini 4 Neon",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/8829e6d3ce1226855b78f513fbb3c50a09f46db0"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Neon"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/8829e6d3ce1226855b78f513fbb3c50a09f46db0/svg_outputs/google_gemini-4-neon.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/8829e6d3ce1226855b78f513fbb3c50a09f46db0"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "google/gemini-4-neon",
+      "sourcePublicationTimestamp": "2026-11-18T22:04:06Z",
+      "sourceRevision": "8829e6d3ce1226855b78f513fbb3c50a09f46db0",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.123837
+    },
+    "sourcePublicationDate": "2026-11-18"
+  },
+  {
+    "id": "github-sebseb7-hy4-flash-2026-11-16",
+    "originalId": "github-sebseb7-hy4-flash-2026-11-16",
+    "kind": "timeline",
+    "title": "HY4 Flash · 鹈鹕骑车",
+    "model": "HY4 Flash",
+    "author": "sebseb7",
+    "date": "2026-11-16",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-hy4-flash.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+        "sha256": "cc48500a566295bef47928cc485cb5ce765d4ddada0791f4b898d251bfeaa86a",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-hy4-flash.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+    "path": "/specimens/github-sebseb7-hy4-flash-2026-11-16/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-hy4-flash-2026-11-16/",
+    "markdown": "/specimens/github-sebseb7-hy4-flash-2026-11-16/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "HY4 Flash · Pelican on a Bicycle",
+        "model": "HY4 Flash",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/259b47c3848c9456f90a2171a60112fb2b37c41e"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "HY4 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/259b47c3848c9456f90a2171a60112fb2b37c41e/svg_outputs/tencent_hy4-flash.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/259b47c3848c9456f90a2171a60112fb2b37c41e"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "tencent/hy4-flash",
+      "sourcePublicationTimestamp": "2026-11-16T23:46:40Z",
+      "sourceRevision": "259b47c3848c9456f90a2171a60112fb2b37c41e",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.0013415605
+    },
+    "sourcePublicationDate": "2026-11-16"
+  },
+  {
+    "id": "github-sebseb7-deepseek-v4-1-flash-1017-2026-11-13",
+    "originalId": "github-sebseb7-deepseek-v4-1-flash-1017-2026-11-13",
+    "kind": "timeline",
+    "title": "DeepSeek V4.1 Flash 1017 · 鹈鹕骑车",
+    "model": "DeepSeek V4.1 Flash 1017",
+    "author": "sebseb7",
+    "date": "2026-11-13",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-deepseek-v4-1-flash-1017.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+        "sha256": "e2c575d8cef3cd9541134dac49c30e9ac54738fd98d2816cfaf6f622f3af268c",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-deepseek-v4-1-flash-1017.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+    "path": "/specimens/github-sebseb7-deepseek-v4-1-flash-1017-2026-11-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-deepseek-v4-1-flash-1017-2026-11-13/",
+    "markdown": "/specimens/github-sebseb7-deepseek-v4-1-flash-1017-2026-11-13/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "DeepSeek V4.1 Flash 1017 · Pelican on a Bicycle",
+        "model": "DeepSeek V4.1 Flash 1017",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "DeepSeek V4.1 Flash 1017"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/deepseek_deepseek-v4-1-flash-1017.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "deepseek/deepseek-v4.1-flash-1017",
+      "sourcePublicationTimestamp": "2026-11-13T02:43:44Z",
+      "sourceRevision": "0ec278d095a9422013c2876fc632348ca49db176",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.00513745
+    },
+    "sourcePublicationDate": "2026-11-13"
+  },
+  {
+    "id": "github-sebseb7-gemini-4-hydrogen-2026-11-13",
+    "originalId": "github-sebseb7-gemini-4-hydrogen-2026-11-13",
+    "kind": "timeline",
+    "title": "Gemini 4 Hydrogen · 鹈鹕骑车",
+    "model": "Gemini 4 Hydrogen",
+    "author": "sebseb7",
+    "date": "2026-11-13",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-gemini-4-hydrogen.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+        "sha256": "102e9f064ac0ed94b43ed4eb1d4022bfb7c60f4a0ebc00ad9deb0ed13de2ee3e",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-gemini-4-hydrogen.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+    "path": "/specimens/github-sebseb7-gemini-4-hydrogen-2026-11-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-gemini-4-hydrogen-2026-11-13/",
+    "markdown": "/specimens/github-sebseb7-gemini-4-hydrogen-2026-11-13/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Gemini 4 Hydrogen · Pelican on a Bicycle",
+        "model": "Gemini 4 Hydrogen",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Gemini 4 Hydrogen"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/google_gemini-4-hydrogen.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "google/gemini-4-hydrogen",
+      "sourcePublicationTimestamp": "2026-11-13T02:43:44Z",
+      "sourceRevision": "0ec278d095a9422013c2876fc632348ca49db176",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.044046
+    },
+    "sourcePublicationDate": "2026-11-13"
+  },
+  {
+    "id": "github-sebseb7-muse-spark-open-2026-11-13",
+    "originalId": "github-sebseb7-muse-spark-open-2026-11-13",
+    "kind": "timeline",
+    "title": "Muse Spark Open · 鹈鹕骑车",
+    "model": "Muse Spark Open",
+    "author": "sebseb7",
+    "date": "2026-11-13",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-muse-spark-open.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+        "sha256": "660032c6dfa2ed9d03a6a58219dd7f66490e65e0c10767b72cce15e129444ce3",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-muse-spark-open.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+    "path": "/specimens/github-sebseb7-muse-spark-open-2026-11-13/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-muse-spark-open-2026-11-13/",
+    "markdown": "/specimens/github-sebseb7-muse-spark-open-2026-11-13/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Muse Spark Open · Pelican on a Bicycle",
+        "model": "Muse Spark Open",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Muse Spark Open"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/0ec278d095a9422013c2876fc632348ca49db176/svg_outputs/meta_muse-spark-open.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/0ec278d095a9422013c2876fc632348ca49db176"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "meta/muse-spark-open",
+      "sourcePublicationTimestamp": "2026-11-13T02:43:44Z",
+      "sourceRevision": "0ec278d095a9422013c2876fc632348ca49db176",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.01389395
+    },
+    "sourcePublicationDate": "2026-11-13"
+  },
+  {
+    "id": "github-sebseb7-claude-fable-5-2-2026-11-09",
+    "originalId": "github-sebseb7-claude-fable-5-2-2026-11-09",
+    "kind": "timeline",
+    "title": "Claude Fable 5.2 · 鹈鹕骑车",
+    "model": "Claude Fable 5.2",
+    "author": "sebseb7",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-claude-fable-5-2.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+        "sha256": "42d866a3c61c54980b699cfdf00d54e431bdc74d5e7421ee86ac3e0f51d23d99",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-claude-fable-5-2.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+    "path": "/specimens/github-sebseb7-claude-fable-5-2-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-claude-fable-5-2-2026-11-09/",
+    "markdown": "/specimens/github-sebseb7-claude-fable-5-2-2026-11-09/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Claude Fable 5.2 · Pelican on a Bicycle",
+        "model": "Claude Fable 5.2",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Claude Fable 5.2"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee/svg_outputs/anthropic_claude-fable-5-2.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/cf98690d2b41ae0383aa5ee9cd759e71eacbbdee"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "anthropic/claude-fable-5.2",
+      "sourcePublicationTimestamp": "2026-11-09T19:52:59Z",
+      "sourceRevision": "cf98690d2b41ae0383aa5ee9cd759e71eacbbdee",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.133264
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "github-sebseb7-minimax-m3-1-flash-2026-11-09",
+    "originalId": "github-sebseb7-minimax-m3-1-flash-2026-11-09",
+    "kind": "timeline",
+    "title": "MiniMax M3.1 Flash · 鹈鹕骑车",
+    "model": "MiniMax M3.1 Flash",
+    "author": "sebseb7",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-minimax-m3-1-flash.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+        "sha256": "2ad683ad2efebee668d41a570b9b6df8e09e084d1576cd91c2aa6af3e3254a71",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-minimax-m3-1-flash.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+    "path": "/specimens/github-sebseb7-minimax-m3-1-flash-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-minimax-m3-1-flash-2026-11-09/",
+    "markdown": "/specimens/github-sebseb7-minimax-m3-1-flash-2026-11-09/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "MiniMax M3.1 Flash · Pelican on a Bicycle",
+        "model": "MiniMax M3.1 Flash",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "MiniMax M3.1 Flash"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/minimax_minimax-m3-1-flash.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "minimax/minimax-m3.1-flash",
+      "sourcePublicationTimestamp": "2026-11-09T19:52:43Z",
+      "sourceRevision": "3a7e37ceeda63278f2b724edadf917e2f26e9d54",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.0029644275
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "github-sebseb7-kimi-k3-1-pro-2026-11-09",
+    "originalId": "github-sebseb7-kimi-k3-1-pro-2026-11-09",
+    "kind": "timeline",
+    "title": "Kimi K3.1 Pro · 鹈鹕骑车",
+    "model": "Kimi K3.1 Pro",
+    "author": "sebseb7",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-kimi-k3-1-pro.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+        "sha256": "db4ca12fe3a0f11c9d5f4370d249f1e99f1f6dee0b72ee790262a014fdc4ada3",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-kimi-k3-1-pro.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+    "path": "/specimens/github-sebseb7-kimi-k3-1-pro-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-kimi-k3-1-pro-2026-11-09/",
+    "markdown": "/specimens/github-sebseb7-kimi-k3-1-pro-2026-11-09/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "Kimi K3.1 Pro · Pelican on a Bicycle",
+        "model": "Kimi K3.1 Pro",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "Kimi K3.1 Pro"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/moonshotai_kimi-k3-1-pro.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "moonshotai/kimi-k3.1-pro",
+      "sourcePublicationTimestamp": "2026-11-09T19:52:43Z",
+      "sourceRevision": "3a7e37ceeda63278f2b724edadf917e2f26e9d54",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.081104
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "github-sebseb7-gpt-6-1-terra-2026-11-09",
+    "originalId": "github-sebseb7-gpt-6-1-terra-2026-11-09",
+    "kind": "timeline",
+    "title": "GPT-6.1 Terra · 鹈鹕骑车",
+    "model": "GPT-6.1 Terra",
+    "author": "sebseb7",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-gpt-6-1-terra.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+        "sha256": "2f02a418d5bf0c6c56669e60a474ea49fa3273a54bf6d4a6273039e7ef3239e9",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-gpt-6-1-terra.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+    "path": "/specimens/github-sebseb7-gpt-6-1-terra-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-gpt-6-1-terra-2026-11-09/",
+    "markdown": "/specimens/github-sebseb7-gpt-6-1-terra-2026-11-09/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "GPT-6.1 Terra · Pelican on a Bicycle",
+        "model": "GPT-6.1 Terra",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "GPT-6.1 Terra"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/openai_gpt-6-1-terra.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "openai/gpt-6.1-terra",
+      "sourcePublicationTimestamp": "2026-11-09T19:52:43Z",
+      "sourceRevision": "3a7e37ceeda63278f2b724edadf917e2f26e9d54",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.00631
+    },
+    "sourcePublicationDate": "2026-11-09"
+  },
+  {
+    "id": "github-sebseb7-hy4-2026-11-09",
+    "originalId": "github-sebseb7-hy4-2026-11-09",
+    "kind": "timeline",
+    "title": "HY4 · 鹈鹕骑车",
+    "model": "HY4",
+    "author": "sebseb7",
+    "date": "2026-11-09",
+    "month": "2026-11",
+    "notes": "作者脚本向这个 OpenRouter 模型发送一条用户消息，从原答复保存首个完整 SVG。日期采用该 SVG 首次加入公开仓库的 UTC 日期，具体生成时间及模型思考档位未披露。",
+    "source": "community",
+    "sourceLabel": "社区记录",
+    "sourceUrl": "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+    "format": "svg",
+    "formatLabel": "静态 SVG",
+    "originalForm": "svg",
+    "originalLevel": "",
+    "promptCategory": "classic",
+    "promptStatus": "send svg of a pelican riding a bicycle",
+    "dateBasis": "source-publication",
+    "mediaStatus": "local",
+    "mediaNote": "",
+    "media": [
+      {
+        "src": "/media/collected/2026-11-21-1500-daily/sebseb7-hy4.svg",
+        "source": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+        "sha256": "08e22be07bdefff47357e89615261f92c2868d66dd23cba2f1c3dcbc1b2a4bcb",
+        "caption": "公开仓库固定版本的原 SVG",
+        "captionEn": "Original SVG pinned to the public repository revision",
+        "poster": ""
+      }
+    ],
+    "thumbnail": "/media/collected/2026-11-21-1500-daily/sebseb7-hy4.svg",
+    "demoUrl": "",
+    "externalUrl": "",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+    "path": "/specimens/github-sebseb7-hy4-2026-11-09/",
+    "url": "https://pelicanmap.aveniqa.com/specimens/github-sebseb7-hy4-2026-11-09/",
+    "markdown": "/specimens/github-sebseb7-hy4-2026-11-09/index.md",
+    "updated": "2026-11-21",
+    "rights": "保留作者署名、公开出处与固定版本 SVG，来源未列单独作品许可。",
+    "i18n": {
+      "en": {
+        "title": "HY4 · Pelican on a Bicycle",
+        "model": "HY4",
+        "notes": "The author’s runner sends one user message to this OpenRouter model and saves the first complete SVG from the response. The date follows the UTC day the public repository first added this file. The exact run time and reasoning effort are undisclosed.",
+        "rights": "Author attribution, public source and the pinned SVG are preserved. The source lists no separate artwork license.",
+        "promptStatus": "send svg of a pelican riding a bicycle",
+        "promptCategory": "Source-documented test"
+      }
+    },
+    "ingestion": {
+      "sourceChecked": true,
+      "imagesChecked": true,
+      "sourceVerification": "source-checked",
+      "evidence": [
+        "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+        "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+        "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+        "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+      ]
+    },
+    "unitType": "single-model-output",
+    "reviewedModelNames": [
+      "HY4"
+    ],
+    "modelClaimStatus": "source-reported-not-independently-authenticated",
+    "generationMethod": "code-generated",
+    "codeGenerationEvidence": [
+      "https://github.com/sebseb7/pelicanTest/blob/8829e6d3ce1226855b78f513fbb3c50a09f46db0/pelicanTest.js",
+      "https://github.com/sebseb7/pelicanTest/blob/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+      "https://raw.githubusercontent.com/sebseb7/pelicanTest/3a7e37ceeda63278f2b724edadf917e2f26e9d54/svg_outputs/tencent_hy4.svg",
+      "https://github.com/sebseb7/pelicanTest/commit/3a7e37ceeda63278f2b724edadf917e2f26e9d54"
+    ],
+    "datePrecision": "day",
+    "generationConditions": {
+      "sourceReported": true,
+      "sourceModelLabel": "tencent/hy4",
+      "sourcePublicationTimestamp": "2026-11-09T19:52:43Z",
+      "sourceRevision": "3a7e37ceeda63278f2b724edadf917e2f26e9d54",
+      "harness": "OpenRouter API",
+      "sourceReportedCostUsd": 0.0107505535
+    },
+    "sourcePublicationDate": "2026-11-09"
   }
 ]
